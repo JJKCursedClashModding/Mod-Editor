@@ -923,6 +923,7 @@ function renderCenter() {
     $("#crumbs").classList.add("hidden");
     $("#centerBody").innerHTML = "";
     renderFilterPanel();
+    renderStatusBar();
     return;
   }
   renderScopeHeader();
@@ -1111,10 +1112,12 @@ function renderTabBody() {
   if (!t) {
     body.innerHTML = "";
     S._renderedTabId = null;
+    renderStatusBar();
     return;
   }
-  if (t.kind === "rules") return void renderRulesTab(body, t);
+  if (t.kind === "rules") { renderStatusBar(); return void renderRulesTab(body, t); }
   renderUnifiedRows(body, t);
+  renderStatusBar();
 }
 
 function updateDirtyState() {
@@ -1164,12 +1167,8 @@ function renderUnifiedRows(body, tab, opts) {
     }
   }
   const list = filteredRows(tab);
-  const shown = tab.rowList.length;
-  const vis = tab.visibleFields ? `${tab.visibleFields.length} fields shown` : "all fields shown";
-  let html = `<div class="unified-wrap">` +
-    `<div class="row-pager" style="border:none;padding:0 0 8px"><span>${list.length} / ${tab.rowTotal} rows${tab.statusFilter !== "all" ? ` (filter: ${esc(tab.statusFilter)})` : ""} \u00b7 ${vis}</span><span style="flex:1"></span>` +
-    (tab.kind === "table" ? `<span style="color:var(--dim);font-size:11px">click a row to expand it</span>` : "") + `</div>`;
-  if (!list.length) html += `<div class="empty-note">No rows match. Adjust the filters above.</div>`;
+  let html = `<div class="unified-wrap">`;
+  if (!list.length) html += `<div class="empty-note">No rows match. Adjust the filters.</div>`;
   html += list.map((r) => {
     const open = tab.expandOrder.includes(r.id);
     const data = tab.expanded[r.id];
@@ -2842,6 +2841,19 @@ function renderStatusBar() {
   }
   const ex = $("#stExport");
   if (ex) ex.style.display = S.currentProject ? "" : "none";
+  const rows = $("#stRows");
+  if (rows) {
+    const t = activeTab();
+    if (t && t.kind !== "rules") {
+      const shown = filteredRows(t).length;
+      rows.textContent = `${shown} / ${t.rowTotal} rows${t.statusFilter && t.statusFilter !== "all" ? ` · ${t.statusFilter}` : ""}`;
+      rows.style.display = "";
+      rows.title = `${tabTitle(t)} — ${shown} of ${t.rowTotal} rows shown`;
+    } else {
+      rows.textContent = "";
+      rows.style.display = "none";
+    }
+  }
 }
 function fuzzyMatch(q, s) {
   q = q.toLowerCase(); s = s.toLowerCase();
