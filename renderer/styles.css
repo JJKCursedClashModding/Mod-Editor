@@ -255,7 +255,7 @@ kbd {
 .fp-sect > label { display: block; font-size: 11px; color: var(--dim); margin: 8px 0 3px; }
 .fp-sect select, .fp-sect input[type="text"] { width: 100%; }
 .fp-btns { display: flex; gap: 6px; margin: 4px 0 8px; }
-.field-checks.fp-checks { grid-template-columns: 1fr; max-height: 420px; }
+.field-checks.fp-checks { grid-template-columns: 1fr; }
 
 /* floating action bar */
 #fabStack { position: absolute; right: 16px; bottom: 16px; display: flex; flex-direction: row; z-index: 20; background: var(--bg4); border: 1px solid var(--accent); border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.55); overflow: hidden; }
@@ -414,7 +414,7 @@ kbd {
 .map-foot { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
 
 /* ---------- field visibility ---------- */
-.field-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; max-height: 380px; overflow-y: auto; padding: 6px; border: 1px solid var(--border); border-radius: 5px; background: #0a0c12; }
+.field-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; padding: 6px; border: 1px solid var(--border); border-radius: 5px; background: #0a0c12; }
 .field-checks label { display: flex; gap: 6px; align-items: center; font-family: var(--mono); font-size: 12px; cursor: pointer; padding: 2px 4px; border-radius: 4px; }
 .field-checks label:hover { background: var(--bg3); }
 
