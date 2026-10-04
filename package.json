@@ -9,8 +9,8 @@
     "seed-categories": "node scripts/seed-table-categories.js",
     "vendor-input-json": "node scripts/vendor-input-json.js",
     "vendor:types": "node scripts/vendor-types.js",
-    "build": "electron-builder --win --x64",
-    "build:portable": "electron-builder --win portable --x64"
+"build": "electron-builder --win --x64 --publish never",
+    "build:portable": "electron-builder --win portable --x64 --publish never"
   },
   "build": {
     "appId": "com.jjkcc.modeditor",
