@@ -1,0 +1,50 @@
+name: Beta installer
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-beta:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Windows installer
+        run: npm run build
+
+      - name: List dist output
+        run: Get-ChildItem -Recurse dist | Select-Object FullName, Length
+        shell: pwsh
+
+      - name: Publish to beta release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: beta
+          name: Beta
+          prerelease: true
+          draft: false
+          generate_release_notes: false
+          body: |
+            Automated beta build from `${{ github.sha }}` on `${{ github.ref_name }}`.
+
+            Download the `JJK Mod Editor Setup *.exe` below and run it to install.
+          files: |
+            dist/*.exe
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
