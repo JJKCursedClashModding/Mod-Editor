@@ -336,7 +336,12 @@ function tableChangedCounts(project) {
   // per-file lists), then fan the family totals out to each member file.
   const buckets = new Map();
   const putRule = (key, r) => {
-    if (!r || !r.id) return;
+    if (!r || !r.id || r.disabled) return;
+    // Only live rules count: a rule with no field-bearing action (blank
+    // draft, emptied stacks) changes nothing, so it must not light up
+    // dots, badges, or the edited counter while having zero edited rows.
+    const n = engine.normalizeRule(r);
+    if (![...n.then, ...n.else].some((a) => a && a.field)) return;
     let b = buckets.get(key);
     if (!b) { b = new Map(); buckets.set(key, b); }
     if (!b.has(r.id)) b.set(r.id, r);
@@ -560,7 +565,7 @@ function registerIpc() {
     const entry = schema.getTableEntry(file);
     const docs = schema.getTableDocs(entry ? entry.base : file, entry ? entry.family : file);
     const docCount = Object.keys(docs.fields).length;
-    return ok({ schema: s, docs: { tableDesc: docs.tableDesc, wikiFile: docs.wikiFile, docCount } });
+    return ok({ schema: s, docs: { tableDesc: docs.tableDesc, docCount } });
   });
 
   ipcMain.handle("table:rows", async (_, file, opts) => {
@@ -1314,7 +1319,7 @@ function registerIpc() {
         })),
       };
     }
-    return ok({ field: info, tableDesc: docs.tableDesc, wikiFile: docs.wikiFile, enum: enumInfo });
+    return ok({ field: info, tableDesc: docs.tableDesc, enum: enumInfo });
   });
   ipcMain.handle("docs:save-field", async (_, tableKey, field, desc) => {
     await schema.saveFieldDoc(tableKey, field, desc);
