@@ -98,6 +98,14 @@ const S = {
   activeTabId: null,
   docsCache: {}, // "base.field" -> {desc, source}
   showFilterPanel: false,
+  // ---- IDE shell ----
+  sideView: "explorer", // explorer | search | changes
+  sidebarOpen: true,
+  panelOpen: false,
+  panelView: "problems",
+  problems: null, // last validate:project result
+  diffCache: null, // last diff:project result
+  pal: { open: false, mode: "files", cmdLock: false, items: [], sel: 0 },
 };
 
 const PAGE = 400;
@@ -233,6 +241,7 @@ function renderProjects() {
     || (S.project && S.project.manifest && S.project.manifest.title)
     || S.currentProject;
   document.title = label ? `${label} — JJK Mod Editor` : "JJK Mod Editor";
+  renderStatusBar();
 }
 // Searchable, recency-sorted project opener (File > Open Project…).
 async function showOpenProjectModal() {
@@ -284,6 +293,8 @@ async function openProject(name) {
   S.currentProject = name;
   S.project = d.project;
   S.changed = d.changed || {};
+  S.diffCache = null;
+  S.problems = null;
   S.tabs = [];
   S.activeTabId = null;
   S.scope = null;
@@ -460,6 +471,7 @@ function populateCharSelect() {
       : "Character filter: all (click to change)";
   }
   updateCharModeButtons();
+  renderStatusBar();
 }
 function charPickerOptions() {
   let prefixes = Object.keys(S.chars || {}).sort();
@@ -485,10 +497,10 @@ function dismissCharPicker(e) {
 function escCharPicker(e) {
   if (e.key === "Escape") closeCharPicker();
 }
-function toggleCharPicker() {
+function toggleCharPicker(anchor, above) {
   if ($("#charPicker")) { closeCharPicker(); return; }
-  const btn = $("#btnCharFilter");
-  const r = btn ? btn.getBoundingClientRect() : { left: 8, bottom: 120 };
+  const btn = anchor || $("#btnCharFilter");
+  const r = (btn && btn.getBoundingClientRect) ? btn.getBoundingClientRect() : { left: 8, bottom: 120, top: 100 };
   const div = document.createElement("div");
   div.id = "charPicker";
   div.innerHTML = `<input id="charPickerSearch" type="text" placeholder="Filter characters…" autocomplete="off">` +
@@ -505,7 +517,9 @@ function toggleCharPicker() {
   const search = $("#charPickerSearch", div);
   search.addEventListener("input", () => paint(search.value));
   div.style.left = `${Math.max(8, Math.min(r.left, window.innerWidth - 272))}px`;
-  div.style.top = `${Math.min(r.bottom + 4, window.innerHeight - 240)}px`;
+  div.style.top = above
+    ? `${Math.max(8, r.top - 336)}px`
+    : `${Math.min(r.bottom + 4, window.innerHeight - 240)}px`;
   div.addEventListener("click", (e) => {
     const it = e.target.closest("[data-char]");
     if (!it) return;
@@ -889,7 +903,7 @@ function renderTabStrip() {
     const dirty = isTabDirty(t);
     const kindChip = t.kind === "rules" ? `<span class="tk rules">RULES</span>`
       : t.kind === "param" ? `<span class="tk">PARAM</span>` : "";
-    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTitle(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
+    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}${dirty ? " dirty" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTitle(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
       (dirty ? `<span class="dot-dirty" title="Edited"></span>` : "") +
       `${kindChip}<span class="tt">${esc(tabTitle(t))}</span>` +
       (t.charPrefix ? `<span class="char-tag">${esc(t.charPrefix)}</span>` : "") +
@@ -906,11 +920,13 @@ function renderCenter() {
   $("#emptyTabs").classList.toggle("hidden", has);
   if (!has) {
     $("#scopeHeader").innerHTML = "";
+    $("#crumbs").classList.add("hidden");
     $("#centerBody").innerHTML = "";
     renderFilterPanel();
     return;
   }
   renderScopeHeader();
+  renderCrumbs();
   renderTabBody();
   renderFilterPanel();
   updateDirtyState();
@@ -1103,6 +1119,7 @@ function renderTabBody() {
 
 function updateDirtyState() {
   renderTabStrip();
+  renderStatusBar();
   const el = $("#dirtyState");
   if (!el) return;
   const files = Object.keys(S.changed || {});
@@ -1936,8 +1953,8 @@ async function reloadAllTabs() {
 async function updateProjChangeCount() {
   try {
     const d = await call("diff:project");
-    const total = Object.keys(d.tables || {}).length + Object.keys(d.params || {}).length;
-    void total;
+    S.diffCache = d;
+    if (S.sidebarOpen && S.sideView === "changes") renderChangesView();
   } catch { /* ignore */ }
   updateDirtyState();
 }
@@ -2327,6 +2344,8 @@ async function doImport() {
       S.currentProject = res.project.name;
       S.project = res.project;
       S.changed = {};
+      S.diffCache = null;
+      S.problems = null;
       try { S.changed = (await call("tables:list")).changed; } catch { /* ignore */ }
       S.tabs = [];
       S.activeTabId = null;
@@ -2394,6 +2413,8 @@ async function showValidation(box) {
     busy("Validating…");
     let v = null;
     try { v = await call("validate:project"); } finally { idle(); }
+    S.problems = v;
+    renderStatusBar();
     const host = $("#valResults", box);
     if (!host) return;
     const counts = Object.entries(v.counts || {}).map(([k, n]) => `${n} ${k}`).join(" \u2014 ");
@@ -2487,6 +2508,8 @@ async function newProjectFlow() {
     S.currentProject = d.project.name;
     S.project = d.project;
     S.changed = {};
+    S.diffCache = null;
+    S.problems = null;
     S.tabs = [];
     S.activeTabId = null;
     renderProjects();
@@ -2526,6 +2549,8 @@ async function delProjectFlow() {
     S.projects = d.projects;
     S.currentProject = d.currentProject;
     S.project = null;
+    S.diffCache = null;
+    S.problems = null;
     S.tabs = [];
     S.activeTabId = null;
     if (S.currentProject) {
@@ -2559,12 +2584,16 @@ function handleMenuAction(action, name) {
     case "edit:redo": doRedo(); break;
     case "edit:search": showSearch(); break;
     case "edit:text-tools": showTextTools(); break;
-    case "view:tables": S.leftTab = "tables"; renderScopeList(); break;
-    case "view:params": S.leftTab = "params"; renderScopeList(); break;
+    case "view:tables": S.leftTab = "tables"; setSideView("explorer"); renderScopeList(); break;
+    case "view:params": S.leftTab = "params"; setSideView("explorer"); renderScopeList(); break;
     case "view:characters": showCharacters(); break;
     case "view:char-clear": if (S.charMode) guard(() => setCharMode("")); break;
     case "view:close-tab": doCloseTab(); break;
     case "view:close-others": if (S.activeTabId) closeOtherTabs(S.activeTabId); break;
+    case "view:palette": showPalette("cmd"); break;
+    case "view:quick-open": showPalette("files"); break;
+    case "view:toggle-sidebar": toggleSidebar(); break;
+    case "view:toggle-panel": togglePanel(); break;
     case "project:changes": showProjectChanges(false); break;
     case "project:validate": showProjectChanges(true); break;
     case "project:snapshots": showSnapshots(); break;
@@ -2641,6 +2670,282 @@ async function doCloneRow() {
     updateProjChangeCount();
   }, "Creating row...");
 }
+// ---------------- IDE shell: sidebar / crumbs / panel / status / palette ----------------
+function setSideView(v) {
+  S.sideView = v;
+  if (!S.sidebarOpen) S.sidebarOpen = true;
+  renderSide();
+}
+function renderSide() {
+  $$("#activityBar .abtn[data-aview]").forEach((b) => b.classList.toggle("active", b.dataset.aview === S.sideView && S.sidebarOpen));
+  $("#sideBar").classList.toggle("hidden", !S.sidebarOpen);
+  const map = { explorer: "#sideExplorer", search: "#sideSearch", changes: "#sideChanges" };
+  for (const [v, sel] of Object.entries(map)) {
+    const el = $(sel);
+    if (el) el.classList.toggle("hidden", !S.sidebarOpen || S.sideView !== v);
+  }
+  if (S.sidebarOpen && S.sideView === "changes") renderChangesView();
+}
+function toggleSidebar() {
+  S.sidebarOpen = !S.sidebarOpen;
+  renderSide();
+}
+function renderCrumbs() {
+  const bar = $("#crumbs");
+  if (!bar) return;
+  const t = activeTab();
+  if (!t) { bar.classList.add("hidden"); bar.innerHTML = ""; return; }
+  bar.classList.remove("hidden");
+  const file = t.kind === "param" ? `${t.short}.json` : t.file;
+  const sep = `<span class="crumb-sep">›</span>`;
+  let html = `<button class="crumb mono" data-crumb="top" title="${esc(file)} — scroll to top">${esc(file)}</button>`;
+  if (t.charPrefix) html += `<span class="char-tag" style="margin-left:4px">${esc(t.charPrefix)}</span>`;
+  if (t.kind === "rules") {
+    html += sep + `<button class="crumb" data-crumb="top">Global rules</button>`;
+  } else {
+    const last = t.expandOrder[t.expandOrder.length - 1];
+    if (last) html += sep + `<button class="crumb mono" data-crumb="row" data-row="${esc(last)}" title="Scroll to row">${esc(last)}</button>`;
+    else html += sep + `<span class="crumb" style="cursor:default">${t.rowTotal} rows</span>`;
+  }
+  bar.innerHTML = html;
+}
+function scrollToCard(rowId) {
+  const card = document.querySelector(`#centerBody [data-card="${CSS.escape(rowId)}"]`);
+  if (!card) { toast("Row is filtered out of this view", "warn"); return; }
+  card.scrollIntoView({ block: "center" });
+  const rh = card.querySelector(".rh");
+  if (rh) {
+    rh.classList.add("flash");
+    setTimeout(() => rh.classList.remove("flash"), 2200);
+  }
+}
+async function runGSearch() {
+  const q = ($("#gSearchInput").value || "").trim();
+  const host = $("#gSearchResults");
+  if (!q) { host.innerHTML = `<div class="empty-note">Type above and hit Search.</div>`; host._results = []; return; }
+  host.innerHTML = `<div class="empty-note">Searching…</div>`;
+  await guard(async () => {
+    const d = await call("search:global", q, 100);
+    const results = d.results || [];
+    host._results = results;
+    host.innerHTML = (results.length ? `<div class="group-h">${results.length} match(es)</div>` : "") +
+      (results.map((r, i) => `<div class="g-hit" data-gsjump="${i}"><div class="gf">${esc(r.file)}${r.field ? ` <span style="color:var(--dim)">· ${esc(r.field)}</span>` : ""}</div>` +
+        `<div class="gr">${esc(r.rowId)}${r.source === "project" ? ` <span class="badge edited">PRJ</span>` : ""}</div>` +
+        (r.snippet ? `<div class="gs">${esc(r.snippet)}</div>` : "") + `</div>`).join("") || `<div class="empty-note">No matches.</div>`);
+  });
+}
+async function renderChangesView() {
+  const host = $("#changesList");
+  if (!host) return;
+  if (!S.diffCache) {
+    host.innerHTML = `<div class="empty-note">Loading…</div>`;
+    try { S.diffCache = await call("diff:project"); }
+    catch (err) { host.innerHTML = `<div class="empty-note err">${esc(err.message)}</div>`; return; }
+  }
+  const d = S.diffCache;
+  const files = Object.keys(d.tables || {}).sort();
+  const params = d.params || {};
+  const pkeys = Object.keys(params).sort();
+  if (!files.length && !pkeys.length) {
+    host.innerHTML = `<div class="empty-note">No changes yet.<br>Edits appear here as you work.</div>`;
+    return;
+  }
+  host.innerHTML =
+    (files.length ? `<div class="group-h">Tables · ${files.length}</div>` + files.map((f) =>
+      `<div class="ch-file" data-chgoto="${esc(f)}" title="Open with Edited filter"><span class="dot changed"></span><span class="nm">${esc(f)}</span><span class="ct">${Object.keys(d.tables[f]).length}</span></div>`
+    ).join("") : "") +
+    (pkeys.length ? `<div class="group-h">Parameters · ${pkeys.length}</div>` + pkeys.map((p) => {
+      const n = ((params[p] && params[p].new) || []).length + ((params[p] && params[p].modified) || []).length;
+      return `<div class="ch-file" data-chparam="${esc(p)}" title="Open parameter file"><span class="dot changed"></span><span class="nm">${esc(p)}.json</span><span class="ct">${n}</span></div>`;
+    }).join("") : "");
+}
+function setPanel(open, view) {
+  S.panelOpen = open;
+  if (view) S.panelView = view;
+  renderPanel();
+}
+function togglePanel() { setPanel(!S.panelOpen); }
+function renderPanel() {
+  const p = $("#panel");
+  if (!p) return;
+  p.classList.toggle("hidden", !S.panelOpen);
+  if (!S.panelOpen) return;
+  $$("#panelHead .p-tab").forEach((b) => b.classList.toggle("active", b.dataset.pview === S.panelView));
+  renderPanelBody();
+}
+function renderPanelBody() {
+  const body = $("#panelBody");
+  if (!body) return;
+  const cnt = $("#panelCount");
+  const v = S.problems;
+  if (!v) {
+    if (cnt) cnt.textContent = "";
+    body.innerHTML = `<div class="empty-note">No validation results yet.<br><br><button class="small primary" id="btnPanelValidate2">Validate project</button></div>`;
+    return;
+  }
+  const issues = v.issues || [];
+  if (cnt) cnt.textContent = `${v.total} issue(s)`;
+  const where = (i) => `${esc(i.file || (i.short ? `parameters/${i.short}.json` : ""))}${i.rowId ? ` :: ${esc(i.rowId)}` : ""}${i.field ? ` :: ${esc(i.field)}` : ""}`;
+  body.innerHTML = issues.length ? issues.slice(0, 300).map((i) =>
+    `<div class="prob-row"><span class="badge edited">${esc(i.type)}</span><span class="pw">${where(i)}</span><span class="pm">${esc(i.message || "")}</span>` +
+    (i.file && i.rowId ? `<button class="small" data-pjump="${esc(i.file)}|${esc(i.rowId)}|${esc(i.field || "")}">Open</button>` : "") + `</div>`
+  ).join("") + (issues.length > 300 ? `<div style="color:var(--dim)">… ${issues.length - 300} more</div>` : "")
+  : `<div class="empty-note">Clean — no issues found.</div>`;
+}
+async function validateIntoPanel() {
+  setPanel(true);
+  const body = $("#panelBody");
+  if (body) body.innerHTML = `<div class="empty-note">Validating…</div>`;
+  await guard(async () => {
+    const v = await call("validate:project");
+    S.problems = v;
+    renderPanelBody();
+    renderStatusBar();
+  });
+}
+function renderStatusBar() {
+  const pn = $("#stProjectName");
+  if (pn) {
+    const cur = (S.projects || []).find((p) => p.name === S.currentProject);
+    pn.textContent = (cur && (cur.title || cur.name)) || S.currentProject || "No project";
+  }
+  const ch = $("#stCharName");
+  if (ch) {
+    ch.textContent = S.charMode ? `${S.charMode} — ${charLabelOf(S.charMode)}` : "All characters";
+    const chip = $("#stChar");
+    if (chip) chip.classList.toggle("on", !!S.charMode);
+  }
+  let n = Object.keys(S.changed || {}).length;
+  if (S.project && S.project.parameters) {
+    for (const p of Object.values(S.project.parameters)) {
+      const rows = (p && p.rows) || {};
+      if (Object.keys(rows).filter((k) => k.charAt(0) !== "$").length > 0) n++;
+    }
+  }
+  const dt = $("#stDirtyTxt");
+  if (dt) {
+    dt.textContent = n ? `● ${n} edited` : "Clean";
+    dt.classList.toggle("dirty", n > 0);
+  }
+  const badge = $("#changesBadge");
+  if (badge) {
+    badge.textContent = n > 99 ? "99+" : String(n);
+    badge.classList.toggle("hidden", !n);
+  }
+  const pt = $("#stProblemsTxt");
+  if (pt) {
+    const total = S.problems ? S.problems.total : 0;
+    pt.textContent = S.problems ? (total ? `✕ ${total}` : "○ 0") : "○ —";
+    pt.classList.toggle("bad", total > 0);
+    const holder = $("#stProblems");
+    if (holder) holder.title = S.problems ? `${total} problem(s) — click to open panel` : "Validate — click to run validation";
+  }
+  const ex = $("#stExport");
+  if (ex) ex.style.display = S.currentProject ? "" : "none";
+}
+function fuzzyMatch(q, s) {
+  q = q.toLowerCase(); s = s.toLowerCase();
+  let i = 0;
+  for (const c of s) { if (c === q[i]) i++; if (i >= q.length) break; }
+  return i >= q.length;
+}
+function palCommands() {
+  const hasProj = !!S.currentProject;
+  const hasTab = !!activeTab();
+  const all = [
+    ["New Row", "active table", () => doNewRow(), hasTab],
+    ["New Row from Existing Row", "clone · active table", () => doCloneRow(), hasTab],
+    ["Global Search…", "Ctrl+F", () => showSearch(), true],
+    ["Text Find / Replace…", "Ctrl+H", () => showTextTools(), hasTab],
+    ["Validate Project", "problems panel", () => validateIntoPanel(), hasProj],
+    ["Project Changes…", "", () => showProjectChanges(false), hasProj],
+    ["Export to Mods Folder", "Ctrl+E", () => doExportFolder(), hasProj],
+    ["Export .jjkmod…", "", () => doExportJjkmod(), hasProj],
+    ["Test Patch…", "Ctrl+T", () => doTestPatch(), hasProj],
+    ["Snapshots…", "Ctrl+S", () => showSnapshots(), hasProj],
+    ["Conflicts…", "", () => showConflicts(), hasProj],
+    ["Character Checklist…", "", () => showChecklist(), hasProj],
+    ["Character Moveset…", "", () => showMoveset(), hasProj],
+    ["Open Project…", "Ctrl+O", () => showOpenProjectModal(), true],
+    ["New Project…", "Ctrl+N", () => newProjectFlow(), true],
+    ["Edit Manifest / Assets…", "", () => showModModal(false), hasProj],
+    ["Export Preview…", "", () => showModModal(true), hasProj],
+    ["Manage Characters…", "", () => showCharacters(), true],
+    ["Clear Character Filter", "", () => { if (S.charMode) guard(() => setCharMode("")); }, true],
+    ["Toggle Sidebar", "Ctrl+B", () => toggleSidebar(), true],
+    ["Toggle Problems Panel", "Ctrl+J", () => togglePanel(), true],
+    ["Close Current Tab", "Ctrl+W", () => doCloseTab(), hasTab],
+    ["Close Other Tabs", "", () => { if (S.activeTabId) closeOtherTabs(S.activeTabId); }, hasTab],
+    ["Settings…", "Ctrl+,", () => showSettings(), true],
+  ];
+  return all.filter((c) => c[3]).map(([label, hint, run]) => ({ kind: "cmd", label, hint, sub: "", run }));
+}
+function palFiles() {
+  const items = [];
+  for (const t of S.tables) {
+    const c = S.changed[t.file];
+    items.push({ kind: "table", label: t.file, sub: `${t.groupLabel || ""}${c ? " · edited" : ""}`, run: () => selectScope({ kind: "table", file: t.file }) });
+  }
+  for (const a of S.paramAssets) {
+    items.push({ kind: "param", label: `${a.shortName}.json`, sub: a.assetName || "", run: () => { S.leftTab = "params"; selectScope({ kind: "param", short: a.shortName }); } });
+  }
+  return items;
+}
+function showPalette(mode) {
+  S.pal.open = true;
+  S.pal.mode = mode === "cmd" ? "cmd" : "files";
+  S.pal.cmdLock = mode === "cmd";
+  S.pal.sel = 0;
+  $("#palette").classList.remove("hidden");
+  const input = $("#palInput");
+  input.value = S.pal.mode === "cmd" ? ">" : "";
+  paintPalette();
+  setTimeout(() => input.focus(), 0);
+}
+function closePalette() {
+  S.pal.open = false;
+  $("#palette").classList.add("hidden");
+}
+function paletteItems() {
+  return S.pal.mode === "cmd" ? palCommands() : palFiles();
+}
+function paintPalette() {
+  const input = $("#palInput");
+  const raw = input.value || "";
+  let q = raw;
+  if (raw.startsWith(">")) { S.pal.mode = "cmd"; q = raw.slice(1); }
+  else if (!S.pal.cmdLock) S.pal.mode = "files";
+  input.placeholder = S.pal.mode === "cmd" ? "Type a command…" : "Type a table name, or > for commands…";
+  $("#palHint").textContent = S.pal.mode === "cmd" ? "commands · esc to close" : "tables & parameters · type > for commands · esc to close";
+  const query = q.trim().toLowerCase();
+  const scored = paletteItems().map((it) => {
+    const label = it.label.toLowerCase();
+    let score = -1;
+    if (!query) score = 0;
+    else if (label.startsWith(query)) score = 3;
+    else if (label.includes(query)) score = 2;
+    else if (fuzzyMatch(query, label)) score = 1;
+    return { it, score };
+  }).filter((x) => x.score >= 0);
+  scored.sort((a, b) => b.score - a.score);
+  S.pal.items = scored.map((x) => x.it);
+  if (S.pal.sel >= S.pal.items.length) S.pal.sel = 0;
+  const list = $("#palList");
+  list.innerHTML = S.pal.items.slice(0, 60).map((it, i) =>
+    `<div class="pal-item${i === S.pal.sel ? " sel" : ""}" data-pal="${i}">` +
+    `<span class="pal-kind">${it.kind === "table" ? "TABLE" : it.kind === "param" ? "PARAM" : "CMD"}</span>` +
+    `<span class="pal-label">${esc(it.label)}</span>` +
+    (it.sub ? `<span class="pal-sub">${esc(it.sub)}</span>` : "") +
+    (it.hint ? `<span class="pal-hint">${esc(it.hint)}</span>` : "") + `</div>`
+  ).join("") || `<div class="empty-note">No matches</div>`;
+  const selEl = list.querySelector(".pal-item.sel");
+  if (selEl) selEl.scrollIntoView({ block: "nearest" });
+}
+function runPalette(idx) {
+  const it = S.pal.items[idx !== undefined ? idx : S.pal.sel];
+  closePalette();
+  if (it && it.run) it.run();
+}
 function bindEvents() {
   $("#btnCharFilter").addEventListener("click", () => toggleCharPicker());
 
@@ -2662,6 +2967,71 @@ function bindEvents() {
   if (window.jjkApi && window.jjkApi.onMenuAction) {
     window.jjkApi.onMenuAction((action, payload) => handleMenuAction(action, payload));
   }
+  $$("#activityBar .abtn[data-aview]").forEach((b) => b.addEventListener("click", () => {
+    if (!S.sidebarOpen || S.sideView !== b.dataset.aview) setSideView(b.dataset.aview);
+    else toggleSidebar();
+  }));
+  $("#btnSettings").addEventListener("click", () => showSettings());
+  $("#stProject").addEventListener("click", () => showOpenProjectModal());
+  $("#stChar").addEventListener("click", (e) => { setSideView("explorer"); toggleCharPicker(e.currentTarget, true); });
+  $("#stProblems").addEventListener("click", () => { if (!S.problems) validateIntoPanel(); else setPanel(true); });
+  $("#stDirty").addEventListener("click", () => setSideView("changes"));
+  $("#stExport").addEventListener("click", () => doExportFolder());
+  $("#crumbs").addEventListener("click", (e) => {
+    const c = e.target.closest("[data-crumb]");
+    if (!c) return;
+    if (c.dataset.crumb === "top") {
+      const sc = centerScroller();
+      if (sc) sc.scrollTo({ top: 0 });
+      return;
+    }
+    if (c.dataset.crumb === "row" && c.dataset.row) scrollToCard(c.dataset.row);
+  });
+  $("#btnEmptyOpen").addEventListener("click", () => showPalette("files"));
+  $("#btnEmptySearch").addEventListener("click", () => showSearch());
+  $("#btnEmptyProject").addEventListener("click", () => showOpenProjectModal());
+  $("#btnGSearch").addEventListener("click", () => runGSearch());
+  $("#gSearchInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runGSearch(); });
+  $("#gSearchResults").addEventListener("click", (e) => {
+    const h = e.target.closest("[data-gsjump]");
+    if (!h) return;
+    const r = ($("#gSearchResults")._results || [])[Number(h.dataset.gsjump)];
+    if (r) jumpToRow(r.file, r.rowId, r.field && !r.field.includes(".") ? r.field : null);
+  });
+  $("#changesList").addEventListener("click", async (e) => {
+    const f = e.target.closest("[data-chgoto]");
+    if (f) {
+      await selectScope({ kind: "table", file: f.dataset.chgoto });
+      const t = activeTab();
+      if (t) { t.statusFilter = "edited"; renderCenter(); }
+      return;
+    }
+    const p = e.target.closest("[data-chparam]");
+    if (p) { S.leftTab = "params"; setSideView("explorer"); await selectScope({ kind: "param", short: p.dataset.chparam }); }
+  });
+  $("#btnChRefresh").addEventListener("click", async () => { S.diffCache = null; await renderChangesView(); renderStatusBar(); });
+  $("#btnChValidate").addEventListener("click", () => validateIntoPanel());
+  $("#btnChSnap").addEventListener("click", () => showSnapshots());
+  $("#panel").addEventListener("click", (e) => {
+    if (e.target.id === "btnPanelValidate2") { validateIntoPanel(); return; }
+    if (e.target.closest(".p-tab")) { S.panelView = "problems"; renderPanel(); return; }
+    const j = e.target.dataset && e.target.dataset.pjump;
+    if (j) { const parts = j.split("|"); jumpToRow(parts[0], parts[1], parts[2] || null); }
+  });
+  $("#btnPanelValidate").addEventListener("click", () => validateIntoPanel());
+  $("#btnPanelClose").addEventListener("click", () => setPanel(false));
+  $("#palInput").addEventListener("input", () => { S.pal.sel = 0; paintPalette(); });
+  $("#palInput").addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { closePalette(); return; }
+    if (e.key === "ArrowDown") { e.preventDefault(); S.pal.sel = Math.min(Math.max(S.pal.items.length - 1, 0), S.pal.sel + 1); paintPalette(); return; }
+    if (e.key === "ArrowUp") { e.preventDefault(); S.pal.sel = Math.max(0, S.pal.sel - 1); paintPalette(); return; }
+    if (e.key === "Enter") { runPalette(); }
+  });
+  $("#palList").addEventListener("click", (e) => {
+    const el = e.target.closest("[data-pal]");
+    if (el) runPalette(Number(el.dataset.pal));
+  });
+  $("#palette").addEventListener("mousedown", (e) => { if (e.target.id === "palette") closePalette(); });
   $("#leftTabs").addEventListener("click", (e) => {
     const x = e.target.dataset && e.target.dataset.ltab;
     if (x) { S.leftTab = x; $("#scopeSearch").value = ""; renderScopeList(); }
@@ -3194,7 +3564,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     S._enumsMap = await loadEnumsMap();
     renderProjects();
     populateCharSelect();
+    renderSide();
     renderScopeList();
+    renderStatusBar();
+    renderPanel();
     ensureCharData();
     if (S.charMode) {
       await setCharMode(S.charMode);

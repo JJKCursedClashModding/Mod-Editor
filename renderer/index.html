@@ -7,39 +7,111 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div id="layout">
-  <aside id="left">
-    <div class="pane-tabs" id="leftTabs">
-      <button data-ltab="tables" class="active">Tables</button>
-      <button data-ltab="params">Parameters</button>
+<div id="ide">
+  <nav id="activityBar" aria-label="Activity">
+    <div class="ab-top">
+      <button class="abtn active" data-aview="explorer" title="Explorer (tables &amp; parameters)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9l-8-6z"/><path d="M13 3v6h6"/></svg></button>
+      <button class="abtn" data-aview="search" title="Global search"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg></button>
+      <button class="abtn" data-aview="changes" title="Project changes"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5v7M8 7c4 0 3 4 7.5 4.6"/></svg><span class="abadge hidden" id="changesBadge"></span></button>
     </div>
-    <div id="sideSearchRow">
-      <input id="scopeSearch" placeholder="Search..." autocomplete="off">
-      <button id="btnCharFilter" title="Character filter"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
+    <div class="ab-bottom">
+      <button class="abtn" id="btnSettings" title="Settings"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 8.9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56.63.27 1.36.14 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87c.27.63.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1.04z"/></svg></button>
     </div>
-    <div id="scopeList"></div>
+  </nav>
+
+  <aside id="sideBar">
+    <div class="side-view" id="sideExplorer">
+      <div class="side-title">Explorer</div>
+      <div class="pane-tabs" id="leftTabs">
+        <button data-ltab="tables" class="active">Tables</button>
+        <button data-ltab="params">Parameters</button>
+      </div>
+      <div id="sideSearchRow">
+        <input id="scopeSearch" placeholder="Filter…" autocomplete="off">
+        <button id="btnCharFilter" title="Character filter"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
+      </div>
+      <div id="scopeList"></div>
+    </div>
+    <div class="side-view hidden" id="sideSearch">
+      <div class="side-title">Search</div>
+      <div id="sideSearchRow2">
+        <input id="gSearchInput" placeholder="Row ID or value text…" autocomplete="off">
+      </div>
+      <div class="side-btns"><button class="small primary" id="btnGSearch">Search all tables</button></div>
+      <div id="gSearchResults"></div>
+    </div>
+    <div class="side-view hidden" id="sideChanges">
+      <div class="side-title">Changes</div>
+      <div class="side-btns">
+        <button class="small" id="btnChRefresh" title="Refresh">Refresh</button>
+        <button class="small" id="btnChValidate" title="Validate project into Problems panel">Validate</button>
+        <button class="small" id="btnChSnap" title="Snapshots">Snapshots</button>
+      </div>
+      <div id="changesList"></div>
+    </div>
   </aside>
 
-  <section id="center">
-    <div id="tabStrip" role="tablist" aria-label="Open tables"></div>
-    <div id="tabContent">
-      <div id="centerMain">
-        <div id="scopeHeader"></div>
-        <div id="centerBody"></div>
+  <div id="mainCol">
+    <section id="center">
+      <div id="tabStrip" role="tablist" aria-label="Open tables"></div>
+      <div id="crumbs" class="hidden"></div>
+      <div id="tabContent">
+        <div id="centerMain">
+          <div id="scopeHeader"></div>
+          <div id="centerBody"></div>
+          <div id="fabStack" style="display:none">
+            <button id="fabNewRow" class="fab-mini" title="New row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+            <button id="fabCloneRow" class="fab-mini" title="New row from existing row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button>
+            <button id="fabFilters" class="fab-mini" title="Filters &amp; fields"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
+          </div>
+        </div>
+        <aside id="filterPanel" class="hidden"></aside>
       </div>
-      <aside id="filterPanel" class="hidden"></aside>
-    </div>
-    <div id="fabStack" style="display:none">
-      <button id="fabNewRow" class="fab-mini" title="New row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-      <button id="fabCloneRow" class="fab-mini" title="New row from existing row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button>
-      <button id="fabFilters" class="fab-mini" title="Filters &amp; fields"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
-    </div>
-    <div id="emptyTabs" class="hidden">
-      <div class="empty-note">No tabs open.<br>Pick a table or parameter file on the left.<br><br>Use <b>File</b>, <b>Edit</b>, <b>View</b>, <b>Project</b>, <b>Mod</b> menus above for everything else.</div>
-    </div>
-  </section>
+      <div id="emptyTabs" class="hidden">
+        <div class="empty-ide">
+          <div class="empty-logo">JJK</div>
+          <h1>JJK Mod Editor</h1>
+          <p>Pick a table or parameter file on the left to start editing.</p>
+          <div class="empty-actions">
+            <button id="btnEmptyOpen">Quick open… <kbd>Ctrl+P</kbd></button>
+            <button id="btnEmptySearch">Global search… <kbd>Ctrl+F</kbd></button>
+            <button id="btnEmptyProject">Open project… <kbd>Ctrl+O</kbd></button>
+          </div>
+          <div class="empty-hints">Palette <kbd>Ctrl+Shift+P</kbd> · Sidebar <kbd>Ctrl+B</kbd> · Problems <kbd>Ctrl+J</kbd></div>
+        </div>
+      </div>
+    </section>
+    <section id="panel" class="hidden">
+      <div id="panelHead">
+        <button class="p-tab active" data-pview="problems">Problems</button>
+        <span class="p-count" id="panelCount"></span>
+        <span style="flex:1"></span>
+        <button class="small" id="btnPanelValidate" title="Re-run validation">Validate</button>
+        <button class="p-close" id="btnPanelClose" title="Close panel (Ctrl+J)">×</button>
+      </div>
+      <div id="panelBody"></div>
+    </section>
+    <footer id="statusBar">
+      <div class="st-left">
+        <span class="st-item" id="stProject" title="Open project…"><span class="st-ico">▦</span><span id="stProjectName">No project</span></span>
+        <span class="st-item" id="stChar" title="Character filter"><span class="st-ico">⛉</span><span id="stCharName">All characters</span></span>
+      </div>
+      <div class="st-right">
+        <span class="st-item" id="stProblems" title="Problems — click to open panel"><span id="stProblemsTxt">○ 0</span></span>
+        <span class="st-item" id="stDirty" title="Edited files — click to open Changes"><span id="stDirtyTxt">Clean</span></span>
+        <button class="st-export" id="stExport" title="Export to Mods folder (Ctrl+E)">Export</button>
+      </div>
+    </footer>
+  </div>
 </div>
 
+<div id="palette" class="hidden">
+  <div id="palBox">
+    <input id="palInput" type="text" placeholder="" autocomplete="off" spellcheck="false">
+    <div id="palList"></div>
+    <div id="palFoot"><span id="palHint"></span></div>
+  </div>
+</div>
 <div id="modalRoot"></div>
 <div id="toasts"></div>
 <div id="busy" class="hidden"><div class="spinner"></div><div id="busyMsg">Working...</div></div>
