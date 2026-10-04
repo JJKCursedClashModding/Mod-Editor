@@ -2951,7 +2951,7 @@ function bindEvents() {
   $("#stProblems").addEventListener("click", () => { if (!S.problems) validateIntoPanel(); else setPanel(true); });
   $("#stDirty").addEventListener("click", () => setSideView("changes"));
   $("#stExport").addEventListener("click", () => doExportFolder());
-
+  $("#btnEmptyOpen").addEventListener("click", () => showPalette("files"));
   $("#btnEmptySearch").addEventListener("click", () => showSearch());
   $("#btnEmptyProject").addEventListener("click", () => showOpenProjectModal());
   $("#btnGSearch").addEventListener("click", () => runGSearch());
