@@ -206,8 +206,10 @@ kbd {
   background: var(--bg2);
   border-bottom: 1px solid var(--border-soft);
   overflow-x: auto; overflow-y: hidden; flex: none; min-height: 35px;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+#tabStrip::-webkit-scrollbar { display: none; }
 #tabStrip:empty { display: none; }
 .tab {
   position: relative;
