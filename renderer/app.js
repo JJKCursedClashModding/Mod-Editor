@@ -38,11 +38,14 @@ function toast(msg, kind) {
 }
 
 function busy(msg) {
-  $("#busyMsg").textContent = msg || "Working...";
-  $("#busy").classList.remove("hidden");
+  const wrap = $("#stBusy");
+  const txt = $("#stBusyMsg");
+  if (txt) txt.textContent = msg || "Working...";
+  if (wrap) wrap.style.display = "";
 }
 function idle() {
-  $("#busy").classList.add("hidden");
+  const wrap = $("#stBusy");
+  if (wrap) wrap.style.display = "none";
 }
 
 async function guard(fn, busyMsg) {
