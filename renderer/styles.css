@@ -496,8 +496,8 @@ kbd {
 .rule-card.disabled { opacity: 0.55; }
 .rule-card .rule-top { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
 .rule-top .rname { font-weight: 700; flex: 1; min-width: 140px; }
-
-.diff-row {
+.rule-foot { display: flex; gap: 8px; align-items: center; margin-top: 8px; color: var(--dim); font-size: 12px; }
+.diff-row { border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; background: var(--bg2); }
 .diff-row > .dh { display: flex; gap: 8px; align-items: center; padding: 7px 10px; font-family: var(--mono); cursor: pointer; }
 .diff-row .df { padding: 4px 10px 8px 24px; font-family: var(--mono); font-size: 12px; }
 .diff-row .df .fn { color: var(--accent); }
