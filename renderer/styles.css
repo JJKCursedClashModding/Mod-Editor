@@ -495,13 +495,9 @@ kbd {
 .rule-card { border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; background: var(--bg2); }
 .rule-card.disabled { opacity: 0.55; }
 .rule-card .rule-top { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
-.rule-card .rule-top .rname { font-weight: 700; flex: 1; min-width: 140px; }
-.rule-grid { display: grid; grid-template-columns: 1fr 150px 1fr; gap: 8px; align-items: end; margin-bottom: 8px; }
-.rule-grid label, .cond-grid label { display: block; font-size: 11px; color: var(--dim); margin-bottom: 3px; }
-.cond-grid { display: grid; grid-template-columns: 1fr 130px 1fr auto; gap: 8px; align-items: end; background: var(--bg3); padding: 8px; border-radius: 5px; }
-.rule-foot { display: flex; gap: 8px; align-items: center; margin-top: 8px; color: var(--dim); font-size: 12px; }
+.rule-top .rname { font-weight: 700; flex: 1; min-width: 140px; }
 
-.diff-row { border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; background: var(--bg2); }
+.diff-row {
 .diff-row > .dh { display: flex; gap: 8px; align-items: center; padding: 7px 10px; font-family: var(--mono); cursor: pointer; }
 .diff-row .df { padding: 4px 10px 8px 24px; font-family: var(--mono); font-size: 12px; }
 .diff-row .df .fn { color: var(--accent); }
@@ -576,3 +572,25 @@ kbd {
 /* generic flash + status bar character state */
 .flash { animation: flashRing 0.7s ease-in-out 3; }
 #stChar.on { color: var(--accent); }
+
+/* ---- scratch-style rule blocks ---- */
+.s-if { border: 1px solid #8a5a1d; border-radius: 10px; background: #171208; padding: 8px; margin-bottom: 4px; }
+.s-ifhead { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; background: #4a2f10; border: 1px solid #8a5a1d; border-radius: 8px; padding: 7px 9px; }
+.s-kw { font-weight: 800; font-size: 13px; font-style: italic; color: var(--orange); }
+.s-ifhead input[data-r="cfield"] { width: 170px; font-family: var(--mono); }
+.s-ifhead input[data-r="cvalue"] { flex: 1; min-width: 120px; font-family: var(--mono); }
+.s-ifhead [data-r="matchout"] { color: var(--dim); font-size: 11.5px; font-family: var(--mono); }
+.s-stack { margin: 6px 0 6px 18px; border-left: 3px solid #8a5a1d; padding: 6px 0 6px 10px; display: flex; flex-direction: column; gap: 6px; }
+.s-stack[data-stack="else"] { border-left-color: #5b3a7a; }
+.s-elsehead { display: flex; align-items: center; background: #2a2140; border: 1px solid #5b3a7a; border-radius: 8px; padding: 6px 9px; margin-top: 2px; }
+.s-elsehead .s-kw { color: #c79bff; }
+.s-act { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; background: #14294a; border: 1px solid #2a4f8a; border-radius: 8px; padding: 6px 8px; }
+.s-act select[data-a="op"] { max-width: 132px; }
+.s-act input[data-a="field"] { width: 160px; font-family: var(--mono); }
+.s-act .s-val { flex: 1; min-width: 140px; }
+.s-act .s-val input, .s-act .s-val select, .s-act .s-val textarea { width: 100%; }
+.s-act .s-tools { display: flex; gap: 3px; margin-left: auto; }
+.s-act .s-tools button { padding: 1px 6px; font-size: 12px; }
+.s-empty { color: var(--dimmer); font-size: 11.5px; font-style: italic; padding: 2px 4px; }
+button.s-add { align-self: flex-start; border-style: dashed; color: var(--dim); background: none; }
+button.s-add:hover { color: var(--accent); border-color: var(--accent); }

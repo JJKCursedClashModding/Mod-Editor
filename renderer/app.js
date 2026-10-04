@@ -302,9 +302,11 @@ async function openProject(name) {
   S.rowData = null;
   S.schema = null;
   renderProjects();
+  let restored = false;
+  try { restored = await restoreTabs(); } catch { restored = false; }
   if (S.charMode) {
     await setCharMode(S.charMode);
-  } else {
+  } else if (!restored) {
     renderScopeList();
     renderCenter();
   }
@@ -773,6 +775,7 @@ function makeTab(kind, key) {
     schema: null,
     docSummary: null,
     paramComment: "",
+    rowsLoaded: false,
   };
 }
 
@@ -858,6 +861,7 @@ async function openRulesTab(file) {
         const d = await call("table:schema", file);
         t.schema = d.schema;
         t.docSummary = d.docs;
+        await prefillEnumsFor(t.schema);
       }
       syncLegacyScope();
       renderCenter();
@@ -873,6 +877,14 @@ function activateTab(id) {
   syncLegacyScope();
   renderScopeList();
   renderCenter();
+  // Tabs restored from the project start unloaded: fetch on first visit.
+  const t = activeTab();
+  const needsLoad = t && (t.kind === "rules" ? !t.schema : !t.rowsLoaded);
+  if (needsLoad) {
+    ensureTabLoaded(t, true).then(() => {
+      if (S.activeTabId === id) { syncLegacyScope(); renderCenter(); }
+    });
+  }
 }
 
 function closeTab(id) {
@@ -1064,6 +1076,7 @@ async function loadTabRows(tab, reset) {
     }
     tab.rowTotal = total;
     tab.rowList = all;
+    tab.rowsLoaded = true;
     return;
   }
   if (tab.kind === "param") {
@@ -1085,6 +1098,7 @@ async function loadTabRows(tab, reset) {
       ...vanillaIds.map((id) => ({ id, status: "vanilla", changeCount: 0, global: false, overrides: 0 })),
     ];
     tab.paramComment = d.comment || "";
+    tab.rowsLoaded = true;
     return;
   }
 }
@@ -1103,6 +1117,7 @@ function centerScroller(body) {
   return root ? root.querySelector(":scope > .unified-wrap") : null;
 }
 function renderTabBody() {
+  persistTabsSoon();
   const body = $("#centerBody");
   if (!body) return;
   const t = activeTab();
@@ -1805,12 +1820,45 @@ async function renderRulesTab(body, tab) {
   const sc = body.querySelector(":scope > .unified-wrap");
   if (sc && prevTop) sc.scrollTop = prevTop;
 }
-function ruleCard(r, i, n) {
+function fsForRuleField(field) {
   const t = activeTab();
-  const fs = (((t && t.schema && t.schema.fields) || {})[r.field]) || ((S.schema && S.schema.fields) || {})[r.field] || { kind: "any" };
-  const ops = (S.ruleOps || []).map((o) => `<option value="${o.id}" ${r.op === o.id ? "selected" : ""}>${esc(o.label)}</option>`).join("");
-  const cond = r.cond || {};
-  const condOps = (S.condOps || []).map((o) => `<option value="${esc(o.id)}" ${cond.op === o.id ? "selected" : ""}>${esc(o.label)}</option>`).join("");
+  const top = String(field || "").split(".")[0];
+  return (((t && t.schema && t.schema.fields) || {})[top]) || ((S.schema && S.schema.fields) || {})[top] || { kind: "any" };
+}
+function condOpsFor(fs) {
+  const ops = S.condOps || [];
+  const numeric = fs && fs.kind === "number";
+  const keep = numeric ? ["==", "!=", ">", ">=", "<", "<="] : ["==", "!=", "contains", "!contains"];
+  const out = ops.filter((o) => keep.includes(o.id));
+  return out.length ? out : ops;
+}
+function actionBlockHtml(a) {
+  const fs = fsForRuleField(a.field);
+  const ops = (S.ruleOps || []).map((o) => `<option value="${o.id}" ${(a.op || "set") === o.id ? "selected" : ""}>${esc(o.label)}</option>`).join("");
+  return `<div class="s-act" data-action>` +
+    `<select data-a="op" title="Action">${ops}</select>` +
+    `<input data-a="field" list="fieldList" value="${esc(a.field || "")}" placeholder="field" title="Field" spellcheck="false" autocomplete="off">` +
+    `<span class="s-val" data-aval>${ruleValueWidget({ op: a.op || "set", value: a.value }, fs)}</span>` +
+    `<span class="s-tools">` +
+    `<button class="small" data-a="up" title="Move up">\u2191</button>` +
+    `<button class="small" data-a="down" title="Move down">\u2193</button>` +
+    `<button class="small" data-a="addbelow" title="Insert action below">+</button>` +
+    `<button class="small danger" data-a="del" title="Delete action">\u00d7</button>` +
+    `</span></div>`;
+}
+function stackHtml(stackName, actions) {
+  const list = Array.isArray(actions) ? actions : [];
+  return `<div class="s-stack" data-stack="${stackName}">` +
+    (list.length ? list.map((a) => actionBlockHtml(a)).join("") : `<div class="s-empty">no actions — nothing happens here</div>`) +
+    `<button class="small s-add" data-a="aadd" data-stack="${stackName}" title="Append action">+ action</button></div>`;
+}
+function ruleCard(r, i, n) {
+  const cond = (r && r.cond) || {};
+  const thenActs = Array.isArray(r.then) ? r.then : [];
+  const elseActs = Array.isArray(r.else) ? r.else : [];
+  const cfs = fsForRuleField(cond.field);
+  const cops = condOpsFor(cfs).map((o) => `<option value="${esc(o.id)}" ${cond.op === o.id ? "selected" : ""}>${esc(o.label)}</option>`).join("");
+  const cval = cond.value === undefined || cond.value === null ? "" : (typeof cond.value === "object" ? JSON.stringify(cond.value) : String(cond.value));
   return `<div class="rule-card${r.disabled ? " disabled" : ""}" data-rule="${esc(r.id)}">` +
     `<div class="rule-top"><input type="checkbox" data-r="disabled" ${r.disabled ? "" : "checked"} title="Enabled">` +
     `<input class="rname" data-r="name" type="text" placeholder="Rule name (optional)" value="${esc(r.name || "")}">` +
@@ -1818,14 +1866,16 @@ function ruleCard(r, i, n) {
     `<button class="small" data-r="up" ${i === 0 ? "disabled" : ""}>\u2191</button>` +
     `<button class="small" data-r="down" ${i === n - 1 ? "disabled" : ""}>\u2193</button>` +
     `<button class="small danger" data-r="del">Delete</button></div>` +
-    `<div class="rule-grid"><div><label>Field</label><input data-r="field" list="fieldList" value="${esc(r.field || "")}"></div>` +
-    `<div><label>Operation</label><select data-r="op">${ops}</select></div>` +
-    `<div><label>Value</label><div data-rval>${ruleValueWidget(r, fs)}</div></div></div>` +
-    `<div class="cond-grid"><div><label>If field (empty = always)</label><input data-r="cfield" list="fieldList" value="${esc(cond.field || "")}"></div>` +
-    `<div><label>Condition</label><select data-r="cop">${condOps}</select></div>` +
-    `<div><label>Compared to</label><input data-r="cvalue" value="${esc(cond.value === undefined || cond.value === null ? "" : (typeof cond.value === "object" ? JSON.stringify(cond.value) : String(cond.value)))}"></div>` +
-    `<div><button class="small" data-r="match">Test</button></div></div>` +
-    `<div class="rule-foot"><button class="small primary" data-r="save">Apply</button><span data-r="matchout"></span></div></div>`;
+    `<div class="s-if"><div class="s-ifhead"><span class="s-kw">if</span>` +
+    `<input data-r="cfield" list="fieldList" value="${esc(cond.field || "")}" placeholder="field — empty = always" title="Test field (empty = always)" spellcheck="false" autocomplete="off">` +
+    `<select data-r="cop" title="Comparison">${cops}</select>` +
+    `<input data-r="cvalue" value="${esc(cval)}" placeholder="value" title="Compared to" spellcheck="false" autocomplete="off">` +
+    `<button class="small" data-r="match">Test</button><span data-r="matchout"></span></div>` +
+    stackHtml("then", thenActs) +
+    `<div class="s-elsehead"><span class="s-kw">else</span></div>` +
+    stackHtml("else", elseActs) +
+    `</div>` +
+    `<div class="rule-foot"><button class="small primary" data-r="save">Apply</button></div></div>`;
 }
 function ruleValueWidget(r, fs) {
   if ((r.op || "set") === "map") return mapValueWidget(r, fs);
@@ -1863,17 +1913,17 @@ function mapValueWidget(r, fs) {
     `<label style="color:var(--dim);font-size:11px">Default (unmapped values): <input data-mdef type="text" value="${esc(defTxt)}" placeholder="leave unchanged" style="width:140px"></label></div>` +
     `<div style="color:var(--dim);font-size:11px;margin-top:4px">Maps the field's current value to another. Enum fields offer member dropdowns on both sides.</div>`;
 }
-function readRuleCard(card) {
-  const get = (k) => card.querySelector(`[data-r="${k}"]`);
-  const val = (k) => { const el = get(k); return el ? el.value : ""; };
-  const field = val("field").trim();
-  const op = val("op");
-  const t = activeTab();
-  const fs = (((t && t.schema && t.schema.fields) || {})[field.split(".")[0]]) || ((S.schema && S.schema.fields) || {})[field.split(".")[0]] || { kind: "any" };
-  let value = null;
+function readCond(card) {
+  const get = (k) => { const el = card.querySelector(`[data-r="${k}"]`); return el ? el.value : ""; };
+  const cfield = get("cfield").trim();
+  if (!cfield) return null;
+  return { field: cfield, op: get("cop"), value: parseLooseValue(get("cvalue"), fsForRuleField(cfield)) };
+}
+function readActionValue(el, op, fs) {
+  const q = (sel) => el.querySelector(sel);
   if (op === "map") {
     const pairs = [];
-    card.querySelectorAll("[data-mpairs] .map-pair").forEach((row) => {
+    el.querySelectorAll("[data-mpairs] .map-pair").forEach((row) => {
       const fromEl = row.querySelector('[data-mside="from"]');
       const toEl = row.querySelector('[data-mside="to"]');
       const fromTxt = fromEl ? fromEl.value : "";
@@ -1881,25 +1931,47 @@ function readRuleCard(card) {
       if (String(fromTxt).trim() === "" && String(toTxt).trim() === "") return;
       pairs.push({ from: parseLooseValue(fromTxt, fs), to: parseLooseValue(toTxt, fs) });
     });
-    value = { pairs };
-    const defEl = card.querySelector("[data-mdef]");
+    const value = { pairs };
+    const defEl = q("[data-mdef]");
     if (defEl && String(defEl.value).trim() !== "") value.default = parseLooseValue(defEl.value, fs);
+    return value;
   }
-  else if (get("value-bool")) value = get("value-bool").value === "true";
-  else if (get("value-num")) {
-    const x = get("value-num").value;
-    value = x === "" ? null : Number(x);
-    if (value !== null && !Number.isFinite(value)) throw new Error(`Rule on ${field}: value is not a number`);
+  const boolEl = q('[data-r="value-bool"]');
+  if (boolEl) return boolEl.value === "true";
+  const numEl = q('[data-r="value-num"]');
+  if (numEl) {
+    const x = numEl.value;
+    const v = x === "" ? null : Number(x);
+    if (v !== null && !Number.isFinite(v)) throw new Error("Rule action: value is not a number");
+    return v;
   }
-  else if (get("value-enum")) { const x = get("value-enum").value; value = /^-?\d+$/.test(x) ? Number(x) : x; }
-  else if (get("value-text")) value = parseLooseValue(get("value-text").value, fs);
-  const cfield = val("cfield").trim();
-  let cond = null;
-  if (cfield) {
-    const cfs = (((t && t.schema && t.schema.fields) || {})[cfield.split(".")[0]]) || { kind: "any" };
-    cond = { field: cfield, op: val("cop"), value: parseLooseValue(val("cvalue"), cfs) };
-  }
-  return { name: val("name"), field, op, value, cond, disabled: get("disabled") ? !get("disabled").checked : false };
+  const enumEl = q('[data-r="value-enum"]');
+  if (enumEl) { const x = enumEl.value; return /^-?\d+$/.test(x) ? Number(x) : x; }
+  const txtEl = q('[data-r="value-text"]');
+  if (txtEl) return parseLooseValue(txtEl.value, fs);
+  return null;
+}
+function readRuleCard(card) {
+  const nameEl = card.querySelector('[data-r="name"]');
+  const disEl = card.querySelector('[data-r="disabled"]');
+  const readStack = (which) => {
+    const host = card.querySelector(`[data-stack="${which}"]`);
+    if (!host) return [];
+    return [...host.querySelectorAll(":scope > [data-action]")].map((el) => {
+      const opEl = el.querySelector('[data-a="op"]');
+      const fieldEl = el.querySelector('[data-a="field"]');
+      const op = opEl ? opEl.value : "set";
+      const field = fieldEl ? fieldEl.value.trim() : "";
+      return { field, op, value: readActionValue(el, op, fsForRuleField(field)) };
+    });
+  };
+  return {
+    name: nameEl ? nameEl.value : "",
+    cond: readCond(card),
+    then: readStack("then"),
+    else: readStack("else"),
+    disabled: disEl ? !disEl.checked : false,
+  };
 }
 function parseLooseValue(x, fs) {
   const s = String(x ?? "").trim();
@@ -2920,6 +2992,107 @@ function runPalette(idx) {
   closePalette();
   if (it && it.run) it.run();
 }
+// ---------------- per-project tabs: persist + restore ----------------
+let _tabsSaveT = null;
+function tabsSig() {
+  return JSON.stringify([
+    S.currentProject,
+    S.activeTabId,
+    S.tabs.map((t) => [t.kind, t.file, t.short, t.charPrefix, t.statusFilter, t.search, t.visibleFields]),
+  ]);
+}
+function persistTabsSoon() {
+  clearTimeout(_tabsSaveT);
+  _tabsSaveT = setTimeout(async () => {
+    const name = S.currentProject;
+    if (!name || !S.project) return;
+    const sig = tabsSig();
+    if (sig === S._tabsSavedSig) return;
+    try {
+      const a = activeTab();
+      await call("project:save-ui", name, {
+        openTabs: S.tabs.map((t) => ({
+          kind: t.kind,
+          file: t.file,
+          short: t.short,
+          charPrefix: t.charPrefix || "",
+          statusFilter: t.statusFilter || "all",
+          search: t.search || "",
+          visibleFields: Array.isArray(t.visibleFields) ? t.visibleFields : null,
+        })),
+        activeTab: a ? { kind: a.kind, file: a.file, short: a.short, charPrefix: a.charPrefix || "" } : null,
+      });
+      if (S.currentProject === name) S._tabsSavedSig = sig;
+    } catch { /* UI state is best-effort */ }
+  }, 400);
+}
+function specKey(s) {
+  return `${s.kind || ""}:${s.kind === "param" ? s.short || "" : s.file || ""}:${s.charPrefix || ""}`;
+}
+async function ensureTabLoaded(t, showBusy) {
+  if (!t) return;
+  if (t.kind === "rules") {
+    if (t.schema) return;
+    await guard(async () => {
+      if (showBusy) busy("Loading rules...");
+      try {
+        const d = await call("table:schema", t.file);
+        t.schema = d.schema;
+        t.docSummary = d.docs;
+        await prefillEnumsFor(t.schema);
+      } finally {
+        if (showBusy) idle();
+      }
+    });
+    return;
+  }
+  if (t.rowsLoaded) return;
+  await guard(async () => {
+    if (showBusy) busy("Loading...");
+    try {
+      if (t.kind === "table" && !t.schema) {
+        const d = await call("table:schema", t.file);
+        t.schema = d.schema;
+        t.docSummary = d.docs;
+        await prefillEnumsFor(t.schema);
+      }
+      await loadTabRows(t, true);
+      syncLegacyScope();
+    } finally {
+      if (showBusy) idle();
+    }
+  });
+}
+async function restoreTabs() {
+  const ui = S.project && S.project.ui;
+  const specs = ((ui && ui.openTabs) || []).filter((s) => s &&
+    (s.kind === "table" || s.kind === "param" || s.kind === "rules") && (s.file || s.short));
+  const valid = specs.filter((s) => s.kind === "param"
+    ? S.paramAssets.some((a) => a.shortName === s.short)
+    : !!S.tableByFile[s.file]);
+  if (!valid.length) return false;
+  S.tabs = [];
+  S.activeTabId = null;
+  for (const s of valid) {
+    const t = makeTab(s.kind, s.kind === "param" ? s.short : s.file);
+    t.charPrefix = s.kind === "rules" ? "" : (s.charPrefix || "");
+    t.statusFilter = s.statusFilter || "all";
+    t.search = s.search || "";
+    t.visibleFields = Array.isArray(s.visibleFields) ? s.visibleFields : null;
+    t.rowsLoaded = false;
+    S.tabs.push(t);
+  }
+  const wanted = ui && ui.activeTab;
+  const active = (wanted && S.tabs.find((t) => specKey(t) === specKey(wanted))) || S.tabs[0];
+  S.activeTabId = active.id;
+  syncLegacyScope();
+  renderScopeList();
+  await ensureTabLoaded(active, true);
+  syncLegacyScope();
+  renderCenter();
+  S._tabsSavedSig = tabsSig();
+  return true;
+}
 function bindEvents() {
   $("#btnCharFilter").addEventListener("click", () => toggleCharPicker());
 
@@ -3143,20 +3316,30 @@ function applyPanelFields(t) {
   $("#tabContent").addEventListener("change", async (e) => {
     const t = activeTab();
     if (!t) return;
-    if (e.target.dataset && (e.target.dataset.r === "op" || e.target.dataset.r === "field")) {
-      const card = e.target.closest("[data-rule]");
-      if (card) {
-        const opEl = card.querySelector('[data-r="op"]');
-        const fieldEl = card.querySelector('[data-r="field"]');
-        const fname = fieldEl ? fieldEl.value.trim() : "";
-        const fs = ((t.schema && t.schema.fields) || {})[fname.split(".")[0]] || { kind: "any" };
-        const host = card.querySelector("[data-rval]");
+    if (e.target.dataset && e.target.dataset.a && (e.target.dataset.a === "op" || e.target.dataset.a === "field")) {
+      const act = e.target.closest("[data-action]");
+      if (act) {
+        const opEl = act.querySelector('[data-a="op"]');
+        const fieldEl = act.querySelector('[data-a="field"]');
+        const fs = fsForRuleField(fieldEl ? fieldEl.value.trim() : "");
+        const host = act.querySelector("[data-aval]");
         if (host) {
           const curOp = opEl ? opEl.value : "set";
           const keepMap = curOp === "map" && host.querySelector("[data-mpairs]");
           if (!keepMap) host.innerHTML = ruleValueWidget({ op: curOp, value: curOp === "map" ? { pairs: [] } : null }, fs);
-          else if (e.target.dataset.r === "field") host.innerHTML = ruleValueWidget({ op: curOp, value: { pairs: [] } }, fs);
+          else if (e.target.dataset.a === "field") host.innerHTML = ruleValueWidget({ op: curOp, value: { pairs: [] } }, fs);
         }
+      }
+      return;
+    }
+    if (e.target.dataset && e.target.dataset.r === "cfield") {
+      const card = e.target.closest("[data-rule]");
+      const cop = card && card.querySelector('[data-r="cop"]');
+      if (card && cop) {
+        const cur = cop.value;
+        const list = condOpsFor(fsForRuleField(e.target.value.trim()));
+        cop.innerHTML = list.map((o) => `<option value="${esc(o.id)}">${esc(o.label)}</option>`).join("");
+        cop.value = list.some((o) => o.id === cur) ? cur : (list[0] && list[0].id);
       }
       return;
     }
@@ -3370,7 +3553,7 @@ async function onTabClick(e) {
   }
   if (e.target.id === "btnAddRule" && t.kind === "rules") {
     await guard(async () => {
-      const d = await call("rules:add", t.file, { field: "", op: "set", value: null });
+      const d = await call("rules:add", t.file, {});
       S.changed = d.changed;
       syncLegacyScope();
       renderTabBody();
@@ -3384,10 +3567,9 @@ async function onTabClick(e) {
     if (mp) {
       const div = document.createElement("div");
       div.className = "map-pair";
-      const card2 = e.target.closest("[data-rule]");
-      const fieldEl = card2 && card2.querySelector('[data-r="field"]');
-      const fname = fieldEl ? fieldEl.value.trim() : "";
-      const fs = ((t.schema && t.schema.fields) || {})[fname.split(".")[0]] || { kind: "any" };
+      const act = e.target.closest("[data-action]");
+      const fieldEl = act && act.querySelector('[data-a="field"]');
+      const fs = fsForRuleField(fieldEl ? fieldEl.value.trim() : "");
       div.innerHTML = `${mapSideInput("from", fs.enumName, "")}<span class="arrow">\u2192</span>${mapSideInput("to", fs.enumName, "")}<button class="small danger" data-mdel>\u00d7</button>`;
       mp.appendChild(div);
     }
@@ -3397,6 +3579,28 @@ async function onTabClick(e) {
     const pr = e.target.closest(".map-pair");
     if (pr) pr.remove();
     return;
+  }
+  const abtn = e.target.dataset && e.target.dataset.a;
+  if (abtn && t.kind === "rules") {
+    const rcard = e.target.closest("[data-rule]");
+    if (!rcard) return;
+    if (abtn === "aadd") {
+      const stack = rcard.querySelector(`[data-stack="${e.target.dataset.stack || "then"}"]`);
+      const addBtn = stack && stack.querySelector('[data-a="aadd"]');
+      if (addBtn) addBtn.insertAdjacentHTML("beforebegin", actionBlockHtml({ field: "", op: "set", value: null }));
+      else if (stack) stack.insertAdjacentHTML("beforeend", actionBlockHtml({ field: "", op: "set", value: null }));
+      return;
+    }
+    const act = e.target.closest("[data-action]");
+    if (!act) return;
+    const stack = act.parentElement;
+    if (abtn === "del") { act.remove(); return; }
+    const sib = abtn === "up" ? act.previousElementSibling : act.nextElementSibling;
+    if ((abtn === "up" || abtn === "down") && sib && sib.hasAttribute("data-action")) {
+      stack.insertBefore(abtn === "up" ? act : sib, abtn === "up" ? sib : act);
+      return;
+    }
+    if (abtn === "addbelow") { act.insertAdjacentHTML("afterend", actionBlockHtml({ field: "", op: "set", value: null })); return; }
   }
   const rbtn = e.target.dataset && e.target.dataset.r;
   if (rbtn && t.kind === "rules") {
@@ -3425,7 +3629,6 @@ async function onTabClick(e) {
         let patch;
         try { patch = readRuleCard(rcard); }
         catch (err) { toast(err.message, "error"); return; }
-        if (!patch.field) { toast("Rule needs a field", "error"); return; }
         const d = await call("rules:update", t.file, ruleId, patch);
         S.changed = d.changed;
         toast("Rule applied", "success");
@@ -3437,10 +3640,10 @@ async function onTabClick(e) {
     }
     if (rbtn === "match") {
       await guard(async () => {
-        let patch;
-        try { patch = readRuleCard(rcard); }
+        let cond;
+        try { cond = readCond(rcard); }
         catch (err) { toast(err.message, "error"); return; }
-        const d = await call("rules:match-count", t.file, patch.cond);
+        const d = await call("rules:match-count", t.file, cond);
         const out = rcard.querySelector('[data-r="matchout"]');
         if (out) out.textContent = d.error ? `error: ${d.error}` : `matches ${d.match} / ${d.total} rows`;
       });
@@ -3504,13 +3707,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderStatusBar();
     renderPanel();
     ensureCharData();
+    let restored = false;
+    if (S.project) {
+      try { restored = await restoreTabs(); } catch { restored = false; }
+    }
     if (S.charMode) {
       await setCharMode(S.charMode);
-    } else if (S.tables.length > 0) {
-      await selectScope({ kind: "table", file: S.tables[0].file });
-    } else if (S.paramAssets.length > 0) {
-      await selectScope({ kind: "param", short: S.paramAssets[0].shortName });
-    } else renderCenter();
+    } else if (!restored) {
+      if (S.tables.length > 0) {
+        await selectScope({ kind: "table", file: S.tables[0].file });
+      } else if (S.paramAssets.length > 0) {
+        await selectScope({ kind: "param", short: S.paramAssets[0].shortName });
+      } else renderCenter();
+    }
     updateProjChangeCount();
     refreshHistory();
   } catch (err) {

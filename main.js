@@ -405,6 +405,18 @@ function registerIpc() {
   // ---- projects ----
   ipcMain.handle("project:list", async () => ok(await projects.list()));
   ipcMain.handle("config:get", async () => ok(config.get()));
+  // UI-only state (open tabs): saved with no changelog, history, or auto-export.
+  ipcMain.handle("project:save-ui", async (_, name, ui) => {
+    if (!name || name !== currentProject) return ok({ skipped: true });
+    const project = await requireProject();
+    project.ui = {
+      openTabs: (ui && Array.isArray(ui.openTabs)) ? ui.openTabs.slice(0, 60) : [],
+      activeTab: (ui && ui.activeTab) || null,
+    };
+    await projects.save(project);
+    return ok({});
+  });
+
   ipcMain.handle("project:open", async (_, name) => {
     currentProject = name;
     await config.save({ lastProject: name });
@@ -796,21 +808,19 @@ function registerIpc() {
   // ---- global rules ----
   ipcMain.handle("rules:list", async (_, file) => {
     const project = await requireProject();
-    return ok({ rules: exportMod.getTableState(project, file).globalRules });
+    const rules = exportMod.getTableState(project, file).globalRules || [];
+    return ok({ rules: rules.map((r) => engine.normalizeRule(r)) });
   });
 
   ipcMain.handle("rules:add", async (_, file, rule) => {
     const project = await requireProject();
     const st = exportMod.getTableState(project, file);
     const tableSchema = schema.inferSchema(file);
-    const r = engine.newRule("", tableSchema);
+    const r = engine.newRule();
     Object.assign(r, rule || {});
     r.id = r.id || engine.newRule().id;
-    // Empty-field drafts are allowed here: the engine skips fieldless rules
-    // during evaluation, and saving one without a field is blocked in the UI.
-    if (!r.op) r.op = "set";
     st.globalRules.push(r);
-    await persist(project, `Added global rule on ${file}.${r.field}`);
+    await persist(project, `Added global rule on ${file}`);
     return ok({ rules: st.globalRules, changed: tableChangedCounts(project) });
   });
 
@@ -819,8 +829,14 @@ function registerIpc() {
     const st = exportMod.getTableState(project, file);
     const r = st.globalRules.find((x) => x.id === ruleId);
     if (!r) throw new Error("Rule not found");
-    Object.assign(r, patch || {}, { id: ruleId });
-    await persist(project, `Edited global rule on ${file}.${r.field}`);
+    const p = patch || {};
+    if (typeof p.name === "string") r.name = p.name;
+    r.disabled = !!p.disabled;
+    r.cond = p.cond && typeof p.cond === "object" ? p.cond : null;
+    r.then = Array.isArray(p.then) ? p.then.filter((a) => a && typeof a === "object") : [];
+    r.else = Array.isArray(p.else) ? p.else.filter((a) => a && typeof a === "object") : [];
+    delete r.field; delete r.op; delete r.value; // drop legacy single-action keys
+    await persist(project, `Edited global rule on ${file}`);
     return ok({ rules: st.globalRules, changed: tableChangedCounts(project) });
   });
 
