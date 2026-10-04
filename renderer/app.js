@@ -1795,6 +1795,14 @@ async function resolveAndJump(family, rowId) {
     jumpToRow(file, rowId);
   });
 }
+function famBannerHtml(family) {
+  if (!family || !family.members || !family.members.length) return "";
+  const ms = family.members;
+  const short = (m) => String(m || "").replace(/\.json$/i, "");
+  const shown = ms.slice(0, 5).map((m) => `<span class="fam-chip" title="${esc(m)}">${esc(short(m))}</span>`).join("");
+  const more = ms.length > 5 ? `<span class="fam-chip" title="${esc(ms.slice(5).join(", "))}">+${ms.length - 5} more</span>` : "";
+  return `<div class="fam-note">Shared rules — apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family: ${shown}${more}</div>`;
+}
 async function renderRulesTab(body, tab) {
   const sameTab = S._renderedTabId === tab.id;
   const cur = body.querySelector(":scope > .unified-wrap");
@@ -1806,7 +1814,13 @@ async function renderRulesTab(body, tab) {
   body.innerHTML = `<div class="unified-wrap"><div class="empty-note">Loading rules…</div></div>`;
   S._renderedTabId = tab.id;
   let rules = [];
-  try { rules = (await call("rules:list", tab.file)).rules || []; }
+  let family = null;
+  try {
+    const d = await call("rules:list", tab.file);
+    rules = d.rules || [];
+    family = d.family || null;
+    tab.familyInfo = family;
+  }
   catch (err) { body.innerHTML = `<div class="unified-wrap"><div class="empty-note err">${esc(err.message)}</div></div>`; return; }
   const sch = tab.schema || { fields: {} };
   await prefillEnumsFor(sch);
@@ -1814,6 +1828,7 @@ async function renderRulesTab(body, tab) {
   body.innerHTML = `<div class="unified-wrap">` +
     `<div class="row-sub">Rules apply top-to-bottom to every row and are never character scoped. Conditions test the row's <i>current</i> (already-ruled) values — use them to scope a rule. Enum values auto-convert to the file's style.</div>` +
     `<div><span style="color:var(--dim);font-size:12px">${rules.length} rule(s)</span></div>` +
+    famBannerHtml(family) +
     `<div id="ruleCards" style="margin-top:10px;">` + rules.map((r, i) => ruleCard(r, i, rules.length)).join("") + `</div>` +
     `<datalist id="fieldList">${fieldNames.map((f) => `<option value="${esc(f)}">`).join("")}</datalist>` +
     `</div>`;
@@ -1983,10 +1998,11 @@ function parseLooseValue(x, fs) {
   if (/^(true|false)$/.test(s) && fs.kind !== "string") return s === "true";
   return s;
 }
-async function afterRulesMutated(tab) {
+async function afterRulesMutated(tab, files) {
   updateDirtyState();
   renderScopeList();
-  const tts = S.tabs.filter((x) => x.kind === "table" && x.file === tab.file);
+  const set = new Set(files && files.length ? files : [tab.file]);
+  const tts = S.tabs.filter((x) => x.kind === "table" && set.has(x.file));
   for (const tt of tts) {
     try {
       await loadTabRows(tt, true);
@@ -3559,6 +3575,8 @@ async function onTabClick(e) {
       renderTabBody();
       updateDirtyState();
       renderScopeList();
+      afterRulesMutated(t, d.affected);
+      updateProjChangeCount();
     });
     return;
   }
@@ -3612,15 +3630,18 @@ async function onTabClick(e) {
         const d = await call("rules:delete", t.file, ruleId);
         S.changed = d.changed;
         renderTabBody();
-        afterRulesMutated(t);
+        afterRulesMutated(t, d.affected);
         updateProjChangeCount();
       });
       return;
     }
     if (rbtn === "up" || rbtn === "down") {
       await guard(async () => {
-        await call("rules:move", t.file, ruleId, rbtn);
+        const d = await call("rules:move", t.file, ruleId, rbtn);
+        S.changed = d.changed || S.changed;
         renderTabBody();
+        afterRulesMutated(t, d.affected);
+        updateProjChangeCount();
       });
       return;
     }
@@ -3633,7 +3654,7 @@ async function onTabClick(e) {
         S.changed = d.changed;
         toast("Rule applied", "success");
         renderTabBody();
-        afterRulesMutated(t);
+        afterRulesMutated(t, d.affected);
         updateProjChangeCount();
       });
       return;

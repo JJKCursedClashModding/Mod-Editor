@@ -331,8 +331,27 @@ async function runAutoExport() {
 
 function tableChangedCounts(project) {
   const counts = {};
-  for (const [file, st] of Object.entries(project.tables || {})) {
-    const rules = (st.globalRules || []).length;
+  const tables = project.tables || {};
+  // Bucket every stored rule list by share key (family entries + legacy
+  // per-file lists), then fan the family totals out to each member file.
+  const buckets = new Map();
+  const putRule = (key, r) => {
+    if (!r || !r.id) return;
+    let b = buckets.get(key);
+    if (!b) { b = new Map(); buckets.set(key, b); }
+    if (!b.has(r.id)) b.set(r.id, r);
+  };
+  for (const [key, st] of Object.entries(tables)) {
+    if (!st || !Array.isArray(st.globalRules)) continue;
+    const sk = /\.json$/i.test(key) ? exportMod.shareKeyOf(key) : key;
+    for (const r of st.globalRules) putRule(sk, r);
+  }
+  let vendor = [];
+  try { vendor = schema.listTables().map((t) => t.file); } catch { vendor = []; }
+  const files = new Set([...vendor, ...Object.keys(tables).filter((k) => /\.json$/i.test(k))]);
+  for (const file of files) {
+    const st = tables[file] || {};
+    const rules = (buckets.get(exportMod.shareKeyOf(file)) || new Map()).size;
     const ov = Object.keys(st.overrides || {}).length;
     const nw = Object.keys(st.newRows || {}).length;
     if (rules > 0 || ov > 0 || nw > 0) counts[file] = { rules, overrides: ov, newRows: nw };
@@ -569,9 +588,10 @@ function registerIpc() {
       let global = false;
       const ov = (st.overrides || {})[id];
       const ovCount = ov ? Object.keys(ov).length : 0;
-      if (st.globalRules.length > 0) {
+      const famRules = exportMod.getFamilyRules(project, file);
+      if (famRules.length > 0) {
         try {
-          const eff = engine.applyTableStateToRow(vrow, { globalRules: st.globalRules, overrides: {} }, tableSchema, enums());
+          const eff = engine.applyTableStateToRow(vrow, { globalRules: famRules, overrides: {} }, tableSchema, enums());
           const d = engine.diffFields(vrow, eff.row);
           if (Object.keys(d).length > 0) {
             global = true;
@@ -627,7 +647,7 @@ function registerIpc() {
     try {
       const r = engine.applyTableStateToRow(
         vrow,
-        { globalRules: st.globalRules, overrides: (st.overrides || {})[rowId] || {} },
+        { globalRules: exportMod.getFamilyRules(project, file), overrides: (st.overrides || {})[rowId] || {} },
         tableSchema,
         en,
       );
@@ -646,7 +666,7 @@ function registerIpc() {
       effective,
       prov,
       fired,
-      rules: st.globalRules,
+      rules: exportMod.getFamilyRules(project, file),
       overrides: (st.overrides || {})[rowId] || {},
       schema: tableSchema,
       enumDocs: enumDocsFor(tableSchema),
@@ -692,7 +712,7 @@ function registerIpc() {
       // Drop override if it now equals the effective-with-globals value.
       const eff = engine.applyTableStateToRow(
         vanilla[rowId],
-        { globalRules: st.globalRules, overrides: {} },
+        { globalRules: exportMod.getFamilyRules(project, file), overrides: {} },
         tableSchema,
         enums(),
       );
@@ -787,7 +807,7 @@ function registerIpc() {
     const tableSchema = schema.inferSchema(file);
     const eff = engine.applyTableStateToRow(
       src,
-      { globalRules: st.globalRules, overrides: (st.overrides || {})[srcId] || {} },
+      { globalRules: exportMod.getFamilyRules(project, file), overrides: (st.overrides || {})[srcId] || {} },
       tableSchema,
       enums(),
     );
@@ -808,26 +828,29 @@ function registerIpc() {
   // ---- global rules ----
   ipcMain.handle("rules:list", async (_, file) => {
     const project = await requireProject();
-    const rules = exportMod.getTableState(project, file).globalRules || [];
-    return ok({ rules: rules.map((r) => engine.normalizeRule(r)) });
+    const rules = exportMod.getFamilyRules(project, file);
+    const members = exportMod.familyMembers(file);
+    return ok({
+      rules: rules.map((r) => engine.normalizeRule(r)),
+      family: { key: exportMod.shareKeyOf(file), members },
+    });
   });
 
   ipcMain.handle("rules:add", async (_, file, rule) => {
     const project = await requireProject();
-    const st = exportMod.getTableState(project, file);
-    const tableSchema = schema.inferSchema(file);
+    const famSt = exportMod.migrateFamilyRules(project, file);
     const r = engine.newRule();
     Object.assign(r, rule || {});
     r.id = r.id || engine.newRule().id;
-    st.globalRules.push(r);
+    famSt.globalRules.push(engine.normalizeRule(r));
     await persist(project, `Added global rule on ${file}`);
-    return ok({ rules: st.globalRules, changed: tableChangedCounts(project) });
+    return ok({ rules: famSt.globalRules, changed: tableChangedCounts(project), affected: exportMod.familyMembers(file) });
   });
 
   ipcMain.handle("rules:update", async (_, file, ruleId, patch) => {
     const project = await requireProject();
-    const st = exportMod.getTableState(project, file);
-    const r = st.globalRules.find((x) => x.id === ruleId);
+    const famSt = exportMod.migrateFamilyRules(project, file);
+    const r = famSt.globalRules.find((x) => x.id === ruleId);
     if (!r) throw new Error("Rule not found");
     const p = patch || {};
     if (typeof p.name === "string") r.name = p.name;
@@ -837,27 +860,27 @@ function registerIpc() {
     r.else = Array.isArray(p.else) ? p.else.filter((a) => a && typeof a === "object") : [];
     delete r.field; delete r.op; delete r.value; // drop legacy single-action keys
     await persist(project, `Edited global rule on ${file}`);
-    return ok({ rules: st.globalRules, changed: tableChangedCounts(project) });
+    return ok({ rules: famSt.globalRules, changed: tableChangedCounts(project), affected: exportMod.familyMembers(file) });
   });
 
   ipcMain.handle("rules:delete", async (_, file, ruleId) => {
     const project = await requireProject();
-    const st = exportMod.getTableState(project, file);
-    st.globalRules = st.globalRules.filter((x) => x.id !== ruleId);
+    const famSt = exportMod.migrateFamilyRules(project, file);
+    famSt.globalRules = famSt.globalRules.filter((x) => x.id !== ruleId);
     await persist(project, `Deleted global rule on ${file}`);
-    return ok({ rules: st.globalRules, changed: tableChangedCounts(project) });
+    return ok({ rules: famSt.globalRules, changed: tableChangedCounts(project), affected: exportMod.familyMembers(file) });
   });
 
   ipcMain.handle("rules:move", async (_, file, ruleId, dir) => {
     const project = await requireProject();
-    const st = exportMod.getTableState(project, file);
-    const i = st.globalRules.findIndex((x) => x.id === ruleId);
+    const famSt = exportMod.migrateFamilyRules(project, file);
+    const i = famSt.globalRules.findIndex((x) => x.id === ruleId);
     const j = i + (dir === "up" ? -1 : 1);
-    if (i < 0 || j < 0 || j >= st.globalRules.length) return ok({ rules: st.globalRules });
-    const [r] = st.globalRules.splice(i, 1);
-    st.globalRules.splice(j, 0, r);
+    if (i < 0 || j < 0 || j >= famSt.globalRules.length) return ok({ rules: famSt.globalRules, affected: exportMod.familyMembers(file) });
+    const [r] = famSt.globalRules.splice(i, 1);
+    famSt.globalRules.splice(j, 0, r);
     await persist(project, `Reordered global rules on ${file}`);
-    return ok({ rules: st.globalRules });
+    return ok({ rules: famSt.globalRules, changed: tableChangedCounts(project), affected: exportMod.familyMembers(file) });
   });
 
   ipcMain.handle("rules:match-count", async (_, file, cond) => {
@@ -874,7 +897,7 @@ function registerIpc() {
       try {
         const eff = engine.applyTableStateToRow(
           vrow,
-          { globalRules: st.globalRules, overrides: {} },
+          { globalRules: exportMod.getFamilyRules(project, file), overrides: {} },
           tableSchema,
           en,
         );
@@ -1234,7 +1257,16 @@ function registerIpc() {
     const project = await requireProject();
     const out = {};
     const errors = [];
-    for (const file of Object.keys(project.tables || {})) {
+    const tableKeys = Object.keys(project.tables || {});
+    const files = new Set(tableKeys.filter((k) => /\.json$/i.test(k)));
+    for (const key of tableKeys) {
+      if (/\.json$/i.test(key)) continue;
+      const st = project.tables[key];
+      if (st && st.globalRules && st.globalRules.length > 0) {
+        for (const m of exportMod.familyMembersOfKey(key)) files.add(m);
+      }
+    }
+    for (const file of files) {
       try {
         const { changed, errors: errs } = exportMod.computeTableDiff(file, project, enums());
         for (const e of errs) errors.push(`${file}: ${e}`);
