@@ -1796,12 +1796,13 @@ async function resolveAndJump(family, rowId) {
   });
 }
 function famBannerHtml(family) {
-  if (!family || !family.members || !family.members.length) return "";
+  if (!family || !family.members || family.members.length < 2) return "";
   const ms = family.members;
   const short = (m) => String(m || "").replace(/\.json$/i, "");
   const shown = ms.slice(0, 5).map((m) => `<span class="fam-chip" title="${esc(m)}">${esc(short(m))}</span>`).join("");
   const more = ms.length > 5 ? `<span class="fam-chip" title="${esc(ms.slice(5).join(", "))}">+${ms.length - 5} more</span>` : "";
-  return `<div class="fam-note">Shared rules — apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family: ${shown}${more}</div>`;
+  return `<div class="fam-note" title="${esc(ms.join(", "))}"><span class="fam-title">Shared rules</span>` +
+    `<span>apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family:</span>${shown}${more}</div>`;
 }
 async function renderRulesTab(body, tab) {
   const sameTab = S._renderedTabId === tab.id;
@@ -1826,8 +1827,6 @@ async function renderRulesTab(body, tab) {
   await prefillEnumsFor(sch);
   const fieldNames = sch.fieldOrder || Object.keys(sch.fields || {});
   body.innerHTML = `<div class="unified-wrap">` +
-    `<div class="row-sub">Rules apply top-to-bottom to every row and are never character scoped. Conditions test the row's <i>current</i> (already-ruled) values — use them to scope a rule. Enum values auto-convert to the file's style.</div>` +
-    `<div><span style="color:var(--dim);font-size:12px">${rules.length} rule(s)</span></div>` +
     famBannerHtml(family) +
     `<div id="ruleCards" style="margin-top:10px;">` + rules.map((r, i) => ruleCard(r, i, rules.length)).join("") + `</div>` +
     `<datalist id="fieldList">${fieldNames.map((f) => `<option value="${esc(f)}">`).join("")}</datalist>` +
