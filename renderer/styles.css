@@ -231,9 +231,6 @@ kbd {
 }
 .tab .dot-dirty { width: 8px; height: 8px; border-radius: 50%; background: var(--orange); flex: none; margin: 0 2px; display: none; }
 .tab.dirty .dot-dirty { display: block; }
-.tab.dirty .tx { display: none; }
-.tab.dirty:hover .tx { display: block; }
-.tab.dirty:hover .dot-dirty { display: none; }
 .tab .tx { border: none; background: none; padding: 1px 4px; color: var(--dim); font-size: 14px; line-height: 1; border-radius: 4px; flex: none; }
 .tab .tx:hover { color: var(--text); background: #3a435c; }
 
@@ -258,7 +255,7 @@ kbd {
 .fp-sect > label { display: block; font-size: 11px; color: var(--dim); margin: 8px 0 3px; }
 .fp-sect select, .fp-sect input[type="text"] { width: 100%; }
 .fp-btns { display: flex; gap: 6px; margin: 4px 0 8px; }
-.fp-checks { grid-template-columns: 1fr; max-height: 420px; }
+.field-checks.fp-checks { grid-template-columns: 1fr; max-height: 420px; }
 
 /* floating action bar */
 #fabStack { position: absolute; right: 16px; bottom: 16px; display: flex; flex-direction: row; z-index: 20; background: var(--bg4); border: 1px solid var(--accent); border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.55); overflow: hidden; }
