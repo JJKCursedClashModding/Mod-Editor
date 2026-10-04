@@ -147,10 +147,35 @@ function findParamTab(short, charPrefix) {
   return S.tabs.find((t) => t.kind === "param" && t.short === short && (t.charPrefix || "") === (charPrefix || "")) || null;
 }
 function tabTitle(tab) {
+  if (tab.kind === "table") return String(tab.file || "").replace(/\.json$/i, "");
+  if (tab.kind === "param") return tab.short;
+  if (tab.kind === "rules") return `${ruleFamilyKey(tab)} — Rules`;
+  return "?";
+}
+// Family stem for a rules tab (mirrors the backend share key): numbered
+// splits collapse to the family, locales stay separate.
+function shareKeyOf(file) {
+  const stem = String(file || "").replace(/\.json$/i, "");
+  const m = stem.match(/_((?:Es_LA)|(?:Zh_Han[st])|De|En|Es|Fr|It|Ja|Ko|Pt)$/);
+  let locale = null;
+  let base = stem;
+  if (m) {
+    locale = m[1];
+    base = stem.slice(0, -(locale.length + 1));
+  }
+  const family = base.replace(/\d+$/, "") || base;
+  return locale ? `${family}_${locale}` : family;
+}
+function ruleFamilyKey(tab) {
+  if (tab && tab.familyInfo && tab.familyInfo.key) return tab.familyInfo.key;
+  return shareKeyOf(tab && tab.file);
+}
+function tabTip(tab) {
+  if (!tab) return "";
+  if (tab.kind === "rules") return `${tab.file} — shared family rules`;
   if (tab.kind === "table") return tab.file;
   if (tab.kind === "param") return `${tab.short}.json`;
-  if (tab.kind === "rules") return `${tab.file} — Rules`;
-  return "?";
+  return "";
 }
 function isTabDirty(tab) {
   if (!tab) return false;
@@ -915,7 +940,7 @@ function renderTabStrip() {
     const dirty = isTabDirty(t);
     const kindChip = t.kind === "rules" ? `<span class="tk rules">RULES</span>`
       : t.kind === "param" ? `<span class="tk">PARAM</span>` : "";
-    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}${dirty ? " dirty" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTitle(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
+    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}${dirty ? " dirty" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTip(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
       (dirty ? `<span class="dot-dirty" title="Edited"></span>` : "") +
       `${kindChip}<span class="tt">${esc(tabTitle(t))}</span>` +
       (t.charPrefix ? `<span class="char-tag">${esc(t.charPrefix)}</span>` : "") +
