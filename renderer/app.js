@@ -920,14 +920,12 @@ function renderCenter() {
   $("#emptyTabs").classList.toggle("hidden", has);
   if (!has) {
     $("#scopeHeader").innerHTML = "";
-    $("#crumbs").classList.add("hidden");
     $("#centerBody").innerHTML = "";
     renderFilterPanel();
     renderStatusBar();
     return;
   }
   renderScopeHeader();
-  renderCrumbs();
   renderTabBody();
   renderFilterPanel();
   updateDirtyState();
@@ -965,7 +963,6 @@ function renderScopeHeader() {
   }
   if (t.kind === "rules") {
     h.innerHTML = `<div class="filter-row">` +
-      `<button class="small" id="btnOpenTable">Open table</button>` +
       `<button class="small" id="btnAddRule">+ Add rule</button>` +
       `</div>`;
     h.style.display = "";
@@ -1796,9 +1793,6 @@ async function renderRulesTab(body, tab) {
   let rules = [];
   try { rules = (await call("rules:list", tab.file)).rules || []; }
   catch (err) { body.innerHTML = `<div class="unified-wrap"><div class="empty-note err">${esc(err.message)}</div></div>`; return; }
-  let presets = [];
-  try { presets = await call("presets:list"); } catch { presets = []; }
-  S.presets = presets;
   const sch = tab.schema || { fields: {} };
   await prefillEnumsFor(sch);
   const fieldNames = sch.fieldOrder || Object.keys(sch.fields || {});
@@ -1807,10 +1801,7 @@ async function renderRulesTab(body, tab) {
     `<div><span style="color:var(--dim);font-size:12px">${rules.length} rule(s)</span></div>` +
     `<div id="ruleCards" style="margin-top:10px;">` + rules.map((r, i) => ruleCard(r, i, rules.length)).join("") + `</div>` +
     `<datalist id="fieldList">${fieldNames.map((f) => `<option value="${esc(f)}">`).join("")}</datalist>` +
-    `<div class="preset-bar"><b>Presets</b>` +
-    `<select id="presetSelect">${presets.map((p) => `<option value="${esc(p.name)}">${esc(p.name)} (${p.ruleCount}, ${esc(p.table || "?")})</option>`).join("")}</select>` +
-    `<button class="small" id="btnPresetApply">Append</button><button class="small" id="btnPresetReplace">Replace with</button>` +
-    `<button class="small" id="btnPresetSave">Save current as…</button><button class="small danger" id="btnPresetDel">Delete</button></div></div>`;
+    `</div>`;
   const sc = body.querySelector(":scope > .unified-wrap");
   if (sc && prevTop) sc.scrollTop = prevTop;
 }
@@ -2669,7 +2660,7 @@ async function doCloneRow() {
     updateProjChangeCount();
   }, "Creating row...");
 }
-// ---------------- IDE shell: sidebar / crumbs / panel / status / palette ----------------
+// ---------------- IDE shell: sidebar / panel / status / palette ----------------
 function setSideView(v) {
   S.sideView = v;
   if (!S.sidebarOpen) S.sidebarOpen = true;
@@ -2688,35 +2679,6 @@ function renderSide() {
 function toggleSidebar() {
   S.sidebarOpen = !S.sidebarOpen;
   renderSide();
-}
-function renderCrumbs() {
-  const bar = $("#crumbs");
-  if (!bar) return;
-  const t = activeTab();
-  if (!t) { bar.classList.add("hidden"); bar.innerHTML = ""; return; }
-  bar.classList.remove("hidden");
-  const file = t.kind === "param" ? `${t.short}.json` : t.file;
-  const sep = `<span class="crumb-sep">›</span>`;
-  let html = `<button class="crumb mono" data-crumb="top" title="${esc(file)} — scroll to top">${esc(file)}</button>`;
-  if (t.charPrefix) html += `<span class="char-tag" style="margin-left:4px">${esc(t.charPrefix)}</span>`;
-  if (t.kind === "rules") {
-    html += sep + `<button class="crumb" data-crumb="top">Global rules</button>`;
-  } else {
-    const last = t.expandOrder[t.expandOrder.length - 1];
-    if (last) html += sep + `<button class="crumb mono" data-crumb="row" data-row="${esc(last)}" title="Scroll to row">${esc(last)}</button>`;
-    else html += sep + `<span class="crumb" style="cursor:default">${t.rowTotal} rows</span>`;
-  }
-  bar.innerHTML = html;
-}
-function scrollToCard(rowId) {
-  const card = document.querySelector(`#centerBody [data-card="${CSS.escape(rowId)}"]`);
-  if (!card) { toast("Row is filtered out of this view", "warn"); return; }
-  card.scrollIntoView({ block: "center" });
-  const rh = card.querySelector(".rh");
-  if (rh) {
-    rh.classList.add("flash");
-    setTimeout(() => rh.classList.remove("flash"), 2200);
-  }
 }
 async function runGSearch() {
   const q = ($("#gSearchInput").value || "").trim();
@@ -2989,17 +2951,7 @@ function bindEvents() {
   $("#stProblems").addEventListener("click", () => { if (!S.problems) validateIntoPanel(); else setPanel(true); });
   $("#stDirty").addEventListener("click", () => setSideView("changes"));
   $("#stExport").addEventListener("click", () => doExportFolder());
-  $("#crumbs").addEventListener("click", (e) => {
-    const c = e.target.closest("[data-crumb]");
-    if (!c) return;
-    if (c.dataset.crumb === "top") {
-      const sc = centerScroller();
-      if (sc) sc.scrollTo({ top: 0 });
-      return;
-    }
-    if (c.dataset.crumb === "row" && c.dataset.row) scrollToCard(c.dataset.row);
-  });
-  $("#btnEmptyOpen").addEventListener("click", () => showPalette("files"));
+
   $("#btnEmptySearch").addEventListener("click", () => showSearch());
   $("#btnEmptyProject").addEventListener("click", () => showOpenProjectModal());
   $("#btnGSearch").addEventListener("click", () => runGSearch());
@@ -3253,8 +3205,6 @@ async function onTabClick(e) {
     return;
   }
 
-  if (e.target.id === "btnOpenTable") { selectScope({ kind: "table", file: t.file }); return; }
-
   const card = e.target.closest("[data-card]");
   const rowId = card && card.dataset.card;
   const arrBtn = e.target.closest("[data-arrdel],[data-arradd]");
@@ -3496,33 +3446,6 @@ async function onTabClick(e) {
       });
       return;
     }
-  }
-  if (e.target.id === "btnPresetSave" && t.kind === "rules") {
-    const name = await promptModal("Save preset", [{ label: "Preset name", value: `${t.file.replace(/\.json$/, "")} rules` }], "Save");
-    if (!name) return;
-    await guard(async () => {
-      await call("presets:save", name, t.file);
-      toast(`Preset "${name}" saved`, "success");
-      renderTabBody();
-    });
-    return;
-  }
-  if ((e.target.id === "btnPresetApply" || e.target.id === "btnPresetReplace") && t.kind === "rules") {
-    const sel = $("#presetSelect");
-    if (!sel || !sel.value) { toast("No preset selected", "error"); return; }
-    await guard(async () => {
-      const d = await call("presets:apply", sel.value, t.file, e.target.id === "btnPresetReplace" ? "replace" : "append");
-      S.changed = d.changed;
-      renderTabBody();
-      afterRulesMutated(t);
-      updateProjChangeCount();
-    });
-    return;
-  }
-  if (e.target.id === "btnPresetDel" && t.kind === "rules") {
-    const sel = $("#presetSelect");
-    if (!sel || !sel.value) return;
-    await guard(async () => { await call("presets:delete", sel.value); renderTabBody(); });
   }
 }
 async function loadEnumsMap() {
