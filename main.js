@@ -4,7 +4,22 @@ const fs = require("fs/promises");
 const fsSync = require("fs");
 
 app.setName("JJK Mod Editor");
+if (process.platform === "win32") app.setAppUserModelId("com.jjkcc.modeditor");
 app.disableHardwareAcceleration();
+
+// Packaged app/taskbar/titlebar icon (build/icon.ico on Windows, icon.png elsewhere).
+function resolveAppIcon() {
+  const ico = path.join(__dirname, "build", "icon.ico");
+  const png = path.join(__dirname, "build", "icon.png");
+  try {
+    if (process.platform === "win32" && fsSync.existsSync(ico)) return ico;
+    if (fsSync.existsSync(png)) return png;
+    if (fsSync.existsSync(ico)) return ico;
+  } catch {
+    /* best effort */
+  }
+  return undefined;
+}
 
 const config = require("./lib/config");
 const schema = require("./lib/schema");
@@ -22,6 +37,7 @@ let currentProject = null;
 function createWindow() {
   const win = new BrowserWindow({
     title: "JJK Mod Editor",
+    icon: resolveAppIcon(),
     width: 1560,
     height: 980,
     minWidth: 1100,

@@ -1,5 +1,9 @@
-// Dumps the CURRENT effective table groups (wiki-derived, incl. "Other")
-// into tableCategories.js as { category -> tables[] } so you can edit them.
+// Normalizes tableCategories.js in place: re-sorts categories and files from
+// the CURRENT effective groups (tableCategories.js itself, plus "Other" for
+// anything unlisted) and rewrites the file. Note the output lists concrete
+// file names (DamageDataTable1.json, ...) while hand-written family entries
+// (DamageDataTable, covering splits/locales) also keep working — running this
+// expands families into file lists, so only run it deliberately.
 //
 // Usage: npm run seed-categories
 const fs = require("fs");
@@ -24,10 +28,10 @@ function main() {
   const lines = [];
   lines.push("// Table categories override — EDIT ME.");
   lines.push("//");
-  lines.push("// Seeded from the wiki groups via `npm run seed-categories`.");
+  lines.push("// Normalized via `npm run seed-categories`.");
   lines.push("// Move file names between categories, rename categories, or add new");
   lines.push("// ones. Entries match the file, base name, or family (case-insensitive).");
-  lines.push("// Tables NOT listed here fall back to the wiki group, then \"Other\".");
+  lines.push("// Tables NOT listed here fall back to \"Other\".");
   lines.push("// Restart the editor (or change Settings) after editing this file.");
   lines.push("// Re-running `npm run seed-categories` overwrites this file.");
   lines.push("");

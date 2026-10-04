@@ -64,13 +64,20 @@ deleting a custom entry restores the built-in name.
 
 ## Field documentation
 
-Descriptions come from two JSON-editable layers:
+All descriptions live in `projects/field-docs.json` — no external files:
 
-1. `wiki/datatables/<group>/<Table>.md` bullets (`- **Field** — description`)
-   in the JJKJsonEditor root — read-only fallback.
-2. `projects/field-docs.json` — `{ fields: { "Table.Field": "..." },
-   enums: { "EGameX": { "Member": "..." } } }`, editable in the app via the
-   Inspector (click 📖 on any field). Covers enum *member* meanings too.
+```json
+{ "fields": { "Table.Field": "..." },
+  "enums": { "EGameX": { "Member": "..." } },
+  "tables": { "Table": "..." } }
+```
+
+Field/table keys accept the full base (`DamageDataTable1`) or the family
+(`DamageDataTable`, covering splits `1..5`); base-specific entries win.
+Everything is editable in the app via the Inspector (click 📖 on any field).
+Covers enum *member* meanings and table blurbs too. Table grouping in the
+left pane comes from the static `tableCategories.js` map (same family-key
+rules), with unlisted tables under "Other".
 
 ## Export
 
@@ -103,7 +110,7 @@ Descriptions come from two JSON-editable layers:
 - `tableRows` injections / `row-rename` → new-row creation from clone
   (duplicate-effective-row included, so globals carry over explicitly)
 - `output_json` sparse diffs → export format + Changes tabs + project diff
-- `wiki/` field docs → Inspector documentation layer
+- `projects/field-docs.json` notes → Inspector documentation layer
 - `generate-input-json-types` + `enums.ts` → typed widgets (number, bool,
   enum dropdown with member docs, arrays, structs) + new-row ID validation
 - `constants.ts` `CharacterId` map → character labels in filters
@@ -159,7 +166,7 @@ Defaults are pre-filled for this machine (JJKJsonEditor root, Steam
 ```
 main.js / preload.js      Electron shell + IPC
 lib/config.js             settings (config.json)
-lib/schema.js             input_json loading, type inference, enums/chars/wiki docs
+lib/schema.js             input_json loading, type inference, enums/chars/field-docs
 lib/engine.js             global rules, conditions, overrides, diffs, coercion
 lib/projects.js           project + preset storage
 lib/exportMod.js          mod tree build, receipt-guarded folder export, .jjkmod, import

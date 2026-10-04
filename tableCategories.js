@@ -1,37 +1,189 @@
-// Table categories override — EDIT ME.
+// Table categories — EDIT ME.
 //
 // Shape: category -> tables[]
 //   module.exports = {
-//     "Battle": ["DamageDataTable1.json", "AttackDataTable.json"],
-//     "Characters": ["CharacterDataTable.json"],
+//     "Combat": ["DamageDataTable", "AttackDataTable"],
+//     "Characters": ["CharacterDataTable"],
 //   };
 //
 // Rules:
-// - Category names are shown as-is in the left Tables pane (sorted A-Z,
-//   except "Other" which always sorts last).
-// - Entries match case-insensitively against the table file
+// - Categories are the ONLY grouping source (there is no external wiki
+//   fallback). Entries match case-insensitively against the table file
 //   ("DamageDataTable1.json"), the base name without extension
 //   ("DamageDataTable1"), or the family ("DamageDataTable" covers
-//   DamageDataTable1..5). A single string instead of an array is allowed.
-// - Any table NOT listed here falls back to the wiki-derived group
-//   (<JJKJsonEditor>/wiki/datatables/<group>/<Table>.md), then "Other".
+//   DamageDataTable1..5, including locale splits like
+//   DamageDataTable1_En.json). A single string instead of an array is allowed.
+// - Category names are shown as-is in the left Tables pane (sorted A-Z,
+//   except "Other" which always sorts last).
+// - Any table NOT listed here lands in "Other" — if you add tables to the
+//   game data, add their families here too.
 // - One table should appear in ONE category (first match wins).
 // - Restart the editor (or change Settings) after editing this file.
-// - Run `npm run seed-categories` to fill this file with the current
-//   wiki-derived groups (overwrites your edits).
-//
-// Example (commented out so current behaviour is unchanged):
-// module.exports = {
-//   "Battle": [
-//     "DamageDataTable1.json",
-//     "DamageDataTable2.json",
-//     "AttackDataTable.json",
-//     "AttackSetDataTable.json",
-//   ],
-//   "Characters": [
-//     "CharacterDataTable",
-//     "CharacterBaseParameterDataTable",
-//   ],
-// };
+// - Run `npm run seed-categories` to normalize/sort this file in place.
 
-module.exports = {};
+module.exports = {
+  "Combat": [
+    "ActionDataTable",
+    "ActionBreakFallDataTable",
+    "ActionDashDataTable",
+    "ActionHomingDataTable",
+    "ActionJumpDataTable",
+    "ActionMoveDataTable",
+    "ActionStepDataTable",
+    "AttackDataTable",
+    "AttackSetDataTable",
+    "BindingVowsDataTable",
+    "BindingVowsEffectDataTable",
+    "BindingVowsLotteryDataTable",
+    "BuffDebuffDataTable",
+    "CameraDataTable",
+    "CameraShakeDataTable",
+    "CollisionModifyDataTable",
+    "DamageDataTable",
+    "DecalDataTable",
+    "DomainExpansionDataTable",
+    "DomainExpansionRateDataTable",
+    "EffectColorCorrectDataTable",
+    "EffectDataTable",
+    "EffectMoveDataTable",
+    "ForceFeedbackDataTable",
+    "ParallelAttackDataTable",
+    "TrapDataTable",
+  ],
+  "Characters": [
+    "CharacterAnimationDataTable",
+    "CharacterAnimationSetDataTable",
+    "CharacterArcadeDataTable",
+    "CharacterBaseParameterDataTable",
+    "CharacterCameraDataTable",
+    "CharacterCaptureDataTable",
+    "CharacterCaptureSetDataTable",
+    "CharacterChatDataTable",
+    "CharacterCursedEnergyDataTable",
+    "CharacterCustomVoiceDataTable",
+    "CharacterDataTable",
+    "CharacterDecalDataTable",
+    "CharacterEffectDataTable",
+    "CharacterImageDataTable",
+    "CharacterMaterialDataTable",
+    "CharacterMouthAnimDataTable",
+    "CharacterMouthPatternDataTable",
+    "CharacterOperationDataTable",
+    "CharacterSelectDataTable",
+    "CharacterShikigamiDataTable",
+    "CharacterSoundDataTable",
+    "CharacterSpecialAttackDataTable",
+    "CharacterTrapDataTable",
+    "CharacterUIDataTable",
+    "CharacterUniqueDataTable",
+    "CharacterUniqueImageDataTable",
+    "CharacterVariationDataTable",
+    "CharacterVoiceGroupDataTable",
+    "CharacterVoiceGroupSetDataTable",
+    "CharacterWeaponDataTable",
+    "ShikigamiAnimationDataTable",
+    "ShikigamiDataTable",
+    "ShikigamiMaterialDataTable",
+    "ShikigamiUniqueDataTable",
+    "ShikigamiVoiceGroupDataTable",
+    "WeaponDataTable",
+  ],
+  "Missions": [
+    "ArcadeCalculationDataTable",
+    "ArcadeMissionDataTable",
+    "ArcadeMissionSetDataTable",
+    "MissionCharacterDataTable",
+    "MissionLayoutDataTable",
+    "MissionOrderDataTable",
+    "MissionTaskDataTable",
+    "MissionTaskLotteryDataTable",
+    "MissionWaveDataTable",
+    "PvEAllyParameterDataTable",
+    "PvECalculationDataTable",
+    "PvEExtraMissionLotteryDataTable",
+    "PvEGrowthDataTable",
+    "PvEMissionDataTable",
+    "PvEMissionLotteryDataTable",
+    "PvEMissionWaveLotteryDataTable",
+  ],
+  "Story": [
+    "BattleTalkDataTable",
+    "BattleTalkSetDataTable",
+    "ChatDataTable",
+    "DlcStoryDemoVoiceDataTable",
+    "ScriptCharacterClothesDataTable",
+    "ScriptCharacterDataTable",
+    "ScriptDataTable",
+    "ShortStoryCharacterDataTable",
+    "ShortStoryDataTable",
+    "ShortStoryVoiceDataTable",
+    "SituationOverviewDataTable",
+    "SituationOverviewPoseDataTable",
+    "StoryChapterDataTable",
+    "StoryCharaGraphPairDataTable",
+    "StoryCharaRelateChangeDataTable",
+    "StoryCharaRelateLevelDataTable",
+    "StoryCharaRelateRewardDataTable",
+    "StoryDemoDataTable",
+    "StoryDemoVoiceDataTable",
+    "StoryMissionDataTable",
+    "StoryMissionWaveDataTable",
+    "StoryRoomConditionDataTable",
+    "StoryRoomPlacementDataTable",
+    "StoryVoiceOverrideDataTable",
+  ],
+  "Audio & Text": [
+    "BattleSubTitleTextDataTable",
+    "BattleTextDataTable",
+    "BgmDataTable",
+    "ChatTextDataTable",
+    "CommandListTextDataTable",
+    "CreditDataTable",
+    "DlcStoryDemoTextDataTable",
+    "GlossaryTextDataTable",
+    "ItemTextDataTable",
+    "PlayVoiceDataTable",
+    "SoundEffectDataTable",
+    "StoryDemoTextDataTable",
+    "StoryTextDataTable",
+    "SystemTextDataTable",
+    "TutorialTextDataTable",
+    "UniqueVoicePairDataTable",
+    "VoiceDataTable",
+    "VoiceGroupDataTable",
+    "VoiceVolumeDataTable",
+  ],
+  "System & UI": [
+    "BannerDataTable",
+    "CommandListDataTable",
+    "EquipmentItemDataTable",
+    "EquipmentItemEffectDataTable",
+    "GlobalCorrectDataTable",
+    "GlobalDataTable",
+    "GlobalThresholdDataTable",
+    "ItemDataTable",
+    "ItemSetDataTable",
+    "MainMenuThemeDataTable",
+    "MapDataTable",
+    "MapDecalDataTable",
+    "MapEffectDataTable",
+    "MapGroundDataTable",
+    "MaterialOutlineDataTable",
+    "MaterialRimDataTable",
+    "PlayerCardEmblemDataTable",
+    "PlayerCardNicknameDataTable",
+    "PlayerCardPlateDataTable",
+    "PlayerCardTitleDataTable",
+    "ProgressRewardDataTable",
+    "RankPointCalculationDataTable",
+    "RankPointDataTable",
+    "RankSystemRewardDataTable",
+    "RankingRecordDataTable",
+    "ResultScoreDataTable",
+    "SequencerLightDataTable",
+    "ShopLineupDataTable",
+    "ShopLotteryLineupDataTable",
+    "StampDataTable",
+    "TutorialWidgetDataTable",
+  ],
+};
