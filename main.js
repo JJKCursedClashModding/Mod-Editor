@@ -63,14 +63,14 @@ function createWindow() {
   win.on("focus", () => {
     refreshAppMenu();
   });
-  // React frontend (frontend/dist) when built; Vite dev server when
-  // VITE_DEV_SERVER_URL is set (npm run electron:dev); legacy vanilla
-  // renderer/ as fallback.
+  // Vanilla renderer/ is the default. Opt into the React frontend with
+  // JJK_USE_REACT=1 (built frontend/dist) or VITE_DEV_SERVER_URL (Vite dev
+  // server via npm run electron:dev).
   const devUrl = process.env.VITE_DEV_SERVER_URL;
   const reactDist = path.join(__dirname, "frontend", "dist", "index.html");
   if (devUrl) {
     win.loadURL(devUrl);
-  } else if (fsSync.existsSync(reactDist)) {
+  } else if (process.env.JJK_USE_REACT === "1" && fsSync.existsSync(reactDist)) {
     win.loadFile(reactDist);
   } else {
     win.loadFile(path.join(__dirname, "renderer", "index.html"));
