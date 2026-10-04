@@ -1137,6 +1137,17 @@ function centerScroller(body) {
   const root = body || document.getElementById("centerBody");
   return root ? root.querySelector(":scope > .unified-wrap") : null;
 }
+function maybeAutoExpand(t) {
+  // A lone row opens itself: on load and whenever filters narrow to one.
+  // _autoId stops us re-opening a row the user deliberately collapsed.
+  if (!t || t.kind === "rules") return;
+  const list = filteredRows(t);
+  if (list.length !== 1) { t._autoId = null; return; }
+  const id = list[0].id;
+  if (t.expandOrder.includes(id) || t._autoId === id) return;
+  t._autoId = id;
+  expandRow(t, id, null, true);
+}
 function renderTabBody() {
   persistTabsSoon();
   const body = $("#centerBody");
@@ -1149,6 +1160,7 @@ function renderTabBody() {
     return;
   }
   if (t.kind === "rules") { renderStatusBar(); return void renderRulesTab(body, t); }
+  maybeAutoExpand(t);
   renderUnifiedRows(body, t);
   renderStatusBar();
 }
