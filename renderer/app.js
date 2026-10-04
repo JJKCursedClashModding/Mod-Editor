@@ -1824,8 +1824,10 @@ function famBannerHtml(family) {
   const short = (m) => String(m || "").replace(/\.json$/i, "");
   const shown = ms.slice(0, 5).map((m) => `<span class="fam-chip" title="${esc(m)}">${esc(short(m))}</span>`).join("");
   const more = ms.length > 5 ? `<span class="fam-chip" title="${esc(ms.slice(5).join(", "))}">+${ms.length - 5} more</span>` : "";
-  return `<div class="fam-note" title="${esc(ms.join(", "))}"><span class="fam-title">Shared rules</span>` +
-    `<span>apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family:</span>${shown}${more}</div>`;
+  return `<div class="fam-note" title="${esc(ms.join(", "))}">` +
+    `<div class="fam-head"><span class="fam-title">Shared rules</span> ` +
+    `<span class="fam-desc">apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family</span></div>` +
+    `<div class="fam-members">${shown}${more}</div></div>`;
 }
 async function renderRulesTab(body, tab) {
   const sameTab = S._renderedTabId === tab.id;
