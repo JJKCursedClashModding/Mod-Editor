@@ -468,7 +468,7 @@ kbd {
 .field.changed-global { border-left-color: #2a4f8a; }
 .field.changed-override { border-left-color: #8a5a1d; }
 .field.is-new { border-left-color: #1f6b4a; }
-.frow { display: grid; grid-template-columns: 10px minmax(130px, 200px) 1fr auto; gap: 8px; align-items: center; }
+.frow { display: grid; grid-template-columns: 10px 190px minmax(0, 1fr) auto; gap: 10px; align-items: center; }
 .frow .fname { font-family: var(--mono); font-weight: 700; font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .frow .fname .badge { margin-left: 4px; }
 .fact { display: flex; gap: 2px; align-items: center; }
@@ -487,8 +487,8 @@ kbd {
 .field input[type="text"], .field input[type="number"] { width: 100%; }
 .field textarea { width: 100%; min-height: 34px; }
 .field select { width: 100%; max-width: 100%; }
-.enum-checks { display: flex; flex-wrap: wrap; gap: 2px 10px; max-height: 110px; overflow-y: auto; padding: 2px; }
-.enum-checks label { display: flex; gap: 5px; align-items: center; font-family: var(--mono); font-size: 11.5px; cursor: pointer; white-space: nowrap; }
+.enum-checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 3px 12px; max-height: 132px; overflow-y: auto; padding: 4px 2px; align-items: center; }
+.enum-checks label { display: flex; gap: 6px; align-items: center; font-family: var(--mono); font-size: 11.5px; cursor: pointer; white-space: nowrap; overflow: hidden; min-width: 0; }
 .icon-btn { background: none; border: none; padding: 1px 4px; font-size: 13px; color: var(--dim); border-radius: 4px; }
 .icon-btn:hover { background: var(--bg4); color: var(--text); border: none; }
 
