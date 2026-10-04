@@ -27,6 +27,7 @@ function createWindow() {
     minWidth: 1100,
     minHeight: 700,
     backgroundColor: "#0c0e15",
+    show: false,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
@@ -36,6 +37,11 @@ function createWindow() {
   mainWin = win;
   win.on("closed", () => {
     if (mainWin === win) mainWin = null;
+  });
+  // Always start maximized (show only once ready to avoid a resize flash).
+  win.once("ready-to-show", () => {
+    win.maximize();
+    win.show();
   });
   // Keep the Open/Recent project submenus fresh.
   win.on("focus", () => {
