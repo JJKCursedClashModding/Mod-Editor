@@ -997,10 +997,8 @@ function renderScopeHeader() {
     return;
   }
   if (t.kind === "rules") {
-    h.innerHTML = `<div class="filter-row">` +
-      `<button class="small" id="btnAddRule">+ Add rule</button>` +
-      `</div>`;
-    h.style.display = "";
+    h.innerHTML = "";
+    h.style.display = "none";
     return;
   }
   if (t.kind === "param") {
@@ -1824,10 +1822,8 @@ function famBannerHtml(family) {
   const short = (m) => String(m || "").replace(/\.json$/i, "");
   const shown = ms.slice(0, 5).map((m) => `<span class="fam-chip" title="${esc(m)}">${esc(short(m))}</span>`).join("");
   const more = ms.length > 5 ? `<span class="fam-chip" title="${esc(ms.slice(5).join(", "))}">+${ms.length - 5} more</span>` : "";
-  return `<div class="fam-note" title="${esc(ms.join(", "))}">` +
-    `<div class="fam-head"><span class="fam-title">Shared rules</span> ` +
-    `<span class="fam-desc">apply to all <b>${ms.length}</b> tables in the <b>${esc(family.key)}</b> family</span></div>` +
-    `<div class="fam-members">${shown}${more}</div></div>`;
+  return `<div class="fam-note" title="Shared across: ${esc(ms.join(", "))}"><span class="fam-title">Shared rules</span>` +
+    `<span class="fam-desc"><b>${esc(family.key)}</b> · ${ms.length} tables:</span>${shown}${more}</div>`;
 }
 async function renderRulesTab(body, tab) {
   const sameTab = S._renderedTabId === tab.id;
@@ -1853,7 +1849,8 @@ async function renderRulesTab(body, tab) {
   const fieldNames = sch.fieldOrder || Object.keys(sch.fields || {});
   body.innerHTML = `<div class="unified-wrap">` +
     famBannerHtml(family) +
-    `<div id="ruleCards" style="margin-top:10px;">` + rules.map((r, i) => ruleCard(r, i, rules.length)).join("") + `</div>` +
+    `<div id="ruleCards">` + rules.map((r, i) => ruleCard(r, i, rules.length)).join("") + `</div>` +
+    `<button class="small s-add" id="btnAddRule" style="margin:2px 0 12px">+ Add rule</button>` +
     `<datalist id="fieldList">${fieldNames.map((f) => `<option value="${esc(f)}">`).join("")}</datalist>` +
     `</div>`;
   const sc = body.querySelector(":scope > .unified-wrap");
