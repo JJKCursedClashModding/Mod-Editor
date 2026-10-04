@@ -269,14 +269,7 @@ kbd {
 #emptyTabs.hidden { display: none; }
 #emptyTabs { flex: 1; display: flex; align-items: center; justify-content: center; background: var(--bg); }
 .empty-ide { text-align: center; max-width: 460px; padding: 20px; }
-.empty-logo {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 72px; height: 72px; border-radius: 16px;
-  background: linear-gradient(135deg, #274b9b, #7c5bff);
-  font-size: 24px; font-weight: 800; letter-spacing: 1px; color: #fff;
-  margin-bottom: 14px; box-shadow: 0 8px 30px rgba(91,140,255,0.25);
-}
-.empty-ide h1 { margin: 0 0 6px; font-size: 22px; font-weight: 600; }
+
 .empty-ide p { color: var(--dim); margin: 0 0 18px; }
 .empty-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
 .empty-actions button { display: flex; align-items: center; gap: 8px; padding: 7px 12px; font-size: 12.5px; }
