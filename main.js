@@ -800,7 +800,8 @@ function registerIpc() {
     const r = engine.newRule("", tableSchema);
     Object.assign(r, rule || {});
     r.id = r.id || engine.newRule().id;
-    if (!r.field) throw new Error("Rule needs a field");
+    // Empty-field drafts are allowed here: the engine skips fieldless rules
+    // during evaluation, and saving one without a field is blocked in the UI.
     if (!r.op) r.op = "set";
     st.globalRules.push(r);
     await persist(project, `Added global rule on ${file}.${r.field}`);
