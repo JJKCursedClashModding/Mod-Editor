@@ -6,6 +6,12 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "electron:dev": "node scripts/run-electron-dev.js",
+    "start:react": "npm run build:frontend && electron .",
+    "typecheck:frontend": "npm --prefix frontend exec tsc --noEmit",
+    "enums": "node scripts/export-frontend-enums.js",
     "seed-categories": "node scripts/seed-table-categories.js",
     "vendor-input-json": "node scripts/vendor-input-json.js",
     "vendor:types": "node scripts/vendor-types.js",
@@ -24,6 +30,7 @@
       "tableCategories.js",
       "lib/**",
       "renderer/**",
+      "frontend/dist/**",
       "data/**",
       "vendor/**",
       "package.json"

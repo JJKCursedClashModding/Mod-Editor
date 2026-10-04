@@ -47,7 +47,18 @@ function createWindow() {
   win.on("focus", () => {
     refreshAppMenu();
   });
-  win.loadFile(path.join(__dirname, "renderer", "index.html"));
+  // React frontend (frontend/dist) when built; Vite dev server when
+  // VITE_DEV_SERVER_URL is set (npm run electron:dev); legacy vanilla
+  // renderer/ as fallback.
+  const devUrl = process.env.VITE_DEV_SERVER_URL;
+  const reactDist = path.join(__dirname, "frontend", "dist", "index.html");
+  if (devUrl) {
+    win.loadURL(devUrl);
+  } else if (fsSync.existsSync(reactDist)) {
+    win.loadFile(reactDist);
+  } else {
+    win.loadFile(path.join(__dirname, "renderer", "index.html"));
+  }
 }
 
 function ok(data) {
