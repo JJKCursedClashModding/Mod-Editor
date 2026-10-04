@@ -170,13 +170,6 @@ function ruleFamilyKey(tab) {
   if (tab && tab.familyInfo && tab.familyInfo.key) return tab.familyInfo.key;
   return shareKeyOf(tab && tab.file);
 }
-function tabTip(tab) {
-  if (!tab) return "";
-  if (tab.kind === "rules") return `${tab.file} — shared family rules`;
-  if (tab.kind === "table") return tab.file;
-  if (tab.kind === "param") return `${tab.short}.json`;
-  return "";
-}
 function isTabDirty(tab) {
   if (!tab) return false;
   const f = tab.kind === "rules" ? tab.file : tab.kind === "table" ? tab.file : null;
@@ -329,11 +322,13 @@ async function openProject(name) {
   renderProjects();
   let restored = false;
   try { restored = await restoreTabs(); } catch { restored = false; }
-  if (S.charMode) {
-    await setCharMode(S.charMode);
-  } else if (!restored) {
-    renderScopeList();
-    renderCenter();
+  if (!restored) {
+    if (S.charMode) {
+      await setCharMode(S.charMode);
+    } else {
+      renderScopeList();
+      renderCenter();
+    }
   }
   updateProjChangeCount();
   updateDirtyState();
@@ -940,7 +935,7 @@ function renderTabStrip() {
     const dirty = isTabDirty(t);
     const kindChip = t.kind === "rules" ? `<span class="tk rules">RULES</span>`
       : t.kind === "param" ? `<span class="tk">PARAM</span>` : "";
-    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}${dirty ? " dirty" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTip(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
+    return `<div class="tab${t.id === S.activeTabId ? " active" : ""}${dirty ? " dirty" : ""}" data-tab="${t.id}" role="tab" title="${esc(tabTitle(t))}${t.charPrefix ? ` · filter ${esc(t.charPrefix)}` : ""}">` +
       (dirty ? `<span class="dot-dirty" title="Edited"></span>` : "") +
       `${kindChip}<span class="tt">${esc(tabTitle(t))}</span>` +
       (t.charPrefix ? `<span class="char-tag">${esc(t.charPrefix)}</span>` : "") +
@@ -3756,10 +3751,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (S.project) {
       try { restored = await restoreTabs(); } catch { restored = false; }
     }
-    if (S.charMode) {
-      await setCharMode(S.charMode);
-    } else if (!restored) {
-      if (S.tables.length > 0) {
+    if (!restored) {
+      // No saved tabs: fall back to the character jump or the first table.
+      // When tabs were restored, skip the jump so it can't hijack the active tab.
+      if (S.charMode) {
+        await setCharMode(S.charMode);
+      } else if (S.tables.length > 0) {
         await selectScope({ kind: "table", file: S.tables[0].file });
       } else if (S.paramAssets.length > 0) {
         await selectScope({ kind: "param", short: S.paramAssets[0].shortName });
