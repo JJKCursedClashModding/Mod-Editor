@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_Fr",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "Se déplacer"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "Saut (en l'air)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/> + <img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "Saut rapide (du sol)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/> + <img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "Allez voir M. Gojo"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "Mouvement"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "Déplacez votre personnage avec <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "Sprinter"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "Vous pouvez sprinter en appuyant sur <img id=\"Dash\"/>.\nUn sprint consomme la jauge de sprint, qui se remplit lorsque vous êtes au sol.\nSautez pendant un sprint pour déclencher un saut rapide, qui vous permet de sauter encore plus haut."
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "Sauter"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "Vous pouvez sauter en appuyant sur <img id=\"Jump\"/>.\nAppuyez à nouveau sur <img id=\"Jump\"/> pendant un saut pour réaliser un double saut."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "Attaques de mêlée"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": ": appuyez plusieurs fois sur <img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "Uppercut"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "Coup de pied rotatif"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "Coup de pied descendant"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "Puissant coup de pied"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "Jet de pierres"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "Techniques d'énergie occulte 1"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "Augmentez votre niveau d'énergie occulte jusqu'à 2 avec des techniques de combo/d'extraction."
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "Techniques d'extraction"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "Attaquez avec <img id=\"NormalAttack_1\"/>.\nVous pouvez également attaquer avec <img id=\"NormalAttack_2\"/> et <img id=\"NormalAttack_3\"/>.\nAppuyez sur <img id=\"MoveDown\"/> en même temps pour réaliser une attaque différente."
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "Cibler"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "Pendant le combat, concentrez vos attaques sur un ennemi pour le cibler automatiquement.\n\nLorsque vous affrontez plusieurs ennemis, vous pouvez changer de cible avec <img id=\"TargetChangeLeft\"/> et <img id=\"TargetChangeRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "Techniques d'énergie occulte"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "Pour exorciser un fléau, il en faut un autre. C'est là que la technique d'énergie occulte entre en jeu.\nIl s'agit des moyens les plus simples pour infliger des dégâts aux ennemis.\n\n<img id=\"CursedEnergyAttack_1\"/> et <img id=\"CursedEnergyAttack_2\"/> déclenchent différentes techniques d'énergie occulte.\nVotre jauge d'énergie occulte doit être remplie d'énergie occulte pour les utiliser.\nCette jauge d'énergie occulte récupère au fil du temps, même lorsque vous la consommez."
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "Niveau d'énergie occulte"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "Les attaques augmentant l'énergie occulte sont des techniques d'extraction.\nFrappez les ennemis avec une technique d'extraction pour remplir la jauge d'énergie occulte, augmentant votre niveau d'énergie occulte.\nLa montée en niveau renforce votre technique d'énergie occulte, permettant d'infliger davantage de dégâts."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "Effectuez un combo"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": ": appuyez plusieurs fois sur <img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "Parez 3 attaques."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "Esquivez les attaques pendant 10 secondes"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>+<img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "Réduisez la santé de M. Gojo à zéro."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "Techniques de combo"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "Appuyez plusieurs fois sur <img id=\"NormalAttack_1\"/> pour déclencher des techniques de combo associant des techniques d'extraction et des techniques d'énergie occulte. \nSi vous réalisez une technique de combo en ayant une quantité suffisante d'énergie occulte pour activer une technique d'énergie occulte, le coup final se transformera en une technique d'énergie occulte."
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "Parer"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "Utilisez <img id=\"Guard\"/> pour effectuer une garde contre les attaques ennemis.\nTous les dégâts subis sont annulés lorsque vous effectuez une garde.\nCependant, en subissant de nombreuses attaques, votre garde peut être brisée, provoquant un brise-garde.\nSoyez vigilant, car vous serez alors sans défense !\n\nSi vous effectuez une garde au moment où l'ennemi lance l'attaque, vous réalisez une garde parfaite, vous permettant de contre-attaquer."
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "Marcher"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "Utilisez <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> pendant une garde pour réaliser un pas.\nVous vous déplacerez dans la direction indiquée pour esquiver les attaques ennemies."
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "Jauge d'équipe"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "Les techniques d'extraction permettent d'augmenter votre énergie occulte.\nUtilisez une technique d'énergie occulte pour réduire la santé de l'ennemi et le vaincre.\n\nÉliminez vos ennemis et réduisez leur jauge d'équipe à zéro pour remporter la victoire."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "Commençons ton entraînement spécial !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "C'est un honneur !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "Pourquoi pas t'entraîner sur moi d'abord ?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "Tu bouges bien !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "Essaie de m'attaquer maintenant."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "M'en voulez pas si je vous fais mal."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "Tu es déjà meilleur que certains en combat rapproché."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "À mon tour. Voyons voir si tu peux encaisser ce coup."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "Pas mal !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "Pour finir, je vais t'apprendre à maîtriser ton énergie occulte !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "Essaie d'imprégner tes coups d'énergie occulte puis frappe-moi."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "Je sais déjà comment faire !"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "Vas-y alors, mais j'en doute."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "Il n'y avait aucune énergie occulte dans ce coup."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "T'es du genre à apprendre par la pratique, non ?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "Vas-y alors... et ne retiens pas tes coups."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "Dites à <GLO=GLS_NAME_CP_010> d'utiliser la coopération."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "Réalisez un bonus de coopération."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "Augmentez le niveau d'énergie occulte de <GLO=GLS_NAME_CP_040> jusqu'à 3."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "Effectuez une attaque combinée."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "Effectuez une technique éveillée."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "Tactique"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "Vous pouvez donner des ordres aux personnages alliés pendant le combat en utilisant <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n<img id=\"Chat_0005\"/> Normal : vous effectuez une série d'actions variées.\n<img id=\"Chat_0006\"/> Agressif : vous utilisez fréquemment des techniques d'extraction et des techniques d'énergie occulte.\n<img id=\"Chat_0007\"/> Coopératif : vous utilisez fortement la coopération.\n<img id=\"Chat_0008\"/> Vigilant : vous utilisez fréquemment des pas et des gardes pour éviter les dégâts."
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "Bonus de coopération"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "Vous déclenchez un bonus de coopération en attaquant le même ennemi que votre allié ou en attaquant un ennemi qui attaque votre allié.\nCe bonus déclenche une augmentation d'énergie occulte supplémentaire !"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "Attaques combinées"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "Vous déclenchez une technique d'attaque combinée en appuyant sur <img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>.\nUne garde ne protège pas d'une technique d'attaque combinée et les ennemis touchés sont étourdis.\nSi un allié touche l'ennemi dans cet état avec une technique d'extraction, une attaque combinée est déclenchée avec cet allié.\nL'attaque combinée augmente votre niveau d'énergie occulte ainsi que celui de votre allié et inflige de lourds dégâts."
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "Techniques éveillées"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "Lorsque votre niveau d'énergie occulte est au maximum, vous pouvez utiliser une technique éveillée.\nElle s'active en appuyant sur <img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>.\nL'effet est différent pour chaque personnage, allant d'attaques puissantes à une Extension du territoire.\nLa technique éveillée ne peut être déclenchée qu'une fois par combat."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "Augmentez votre niveau d'énergie occulte au maximum."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "Effectuez une technique éveillée."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "Extension du territoire"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "Certains personnages peuvent activer une Extension du territoire avec leur technique éveillée.\n\nUne Extension du territoire réussie attire les ennemis comme les alliés dans votre territoire. Votre territoire vous apporte des avantages, tels que des capacités améliorées et des dégâts plus importants, tandis que les ennemis subissent des effets négatifs."
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "Extension du territoire"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "Une Extension du territoire prend fin lorsque le temps est écoulé, l'utilisateur est défait, ou lorsque l'Extension du territoire est remplacée par une autre. Certaines Extensions du territoire se déroulent en séquence : activation, attaque, désactivation. \n\nRemarque : la technique d'énergie occulte de certains personnages peut être limitée pendant un certain temps après la désactivation de l'Extension du territoire."
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "Adaptation"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "Makora a la capacité de s'adapter aux attaques et de les annuler.\nMakora s'adapte aux techniques d'énergie occulte utilisées\npour le vaincre pour ne plus en subir les dégâts.\nL'icône correspondante sur sa roue s'allume\npour chaque technique à laquelle il s'adapte.\n\nIl est également possible d'infliger des dégâts avec des techniques éveillées.\nPour éliminer Makora, utilisez une technique éveillée."
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "Mode histoire"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "Vous pouvez vivre l'histoire de Jujutsu Kaisen avec le mode histoire.\n\n• Matchs enregistrés :\nRevivez les épreuves et les péripéties des exorcistes.\n\n• Tableau des relations :\nPermet de visualiser les relations entre les personnages."
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "Matchs enregistrés"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "Sélectionnez les missions pour suivre l'histoire dans l'ordre chronologique.\n\nCertaines missions s'accompagnent de conditions de victoire ou de vagues spéciales.\nVous pouvez consulter les détails de la mission en appuyant sur <img id=\"PopupMenu_2\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "Progression du tableau des relations"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "Au fil de votre progression dans les matchs enregistrés, vous débloquez des personnages dans le tableau des relations et les relations entre eux évoluent.\nJetez un œil au tableau de temps en temps !\n\nVous pouvez également accéder au tableau des relations en appuyant <img id=\"PopupMenu_1\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "Tableau des relations"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "Ici vous pouvez consulter les relations entre les personnages.\nLa solidité des relations entre les personnages augmente au fur et à mesure que vous progressez dans les matchs enregistrés. Vous pouvez également obtenir des récompenses et consulter les histoires courtes que vous avez débloquées."
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "Versus en ligne"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "Connectez-vous au réseau pour jouer en ligne.\n\n• Combat d'exhibition :\nParticipez à des combats amicaux avec d'autres joueurs.\n\n• Combat classé :\nParticipez à des combats intéressants contre des joueurs de même niveau."
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "L'issue de la partie et votre score affectent votre rang de joueur.\nVous pouvez également obtenir des récompenses en fonction de votre score global.\nVoyez les infos du joueur pour plus d'informations."
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "Coop en ligne"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "Connectez-vous au réseau pour faire équipe avec d'autres joueurs en ligne et affrontez des ennemis lors de combats comprenant des règles spéciales.\n\n• Combat éclair :\nCoopérez avec d'autres joueurs dans des combats composés de vagues qui changent à chaque partie.\nComplétez des tâches, éliminez les ennemis et visez le meilleur score !\nCertains combats disposent également de conditions de victoire particulières."
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "• Combat de survie :\nLes ennemis de ce mode sont encore plus puissants que ceux du combat éclair. Essayez de remporter la victoire !"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "Coop en ligne"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "Essayez le combat éclair et familiarisez-vous avec ce mode.\nLa première partie se joue hors ligne.\n\nEnsuite, vous pourrez sélectionner « Jouer en solo » pour profiter de la version hors ligne à tout moment !"
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "Niveau de compétence"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "Jouer en combat éclair influence votre niveau de compétence.\nAu fur et à mesure que votre niveau de compétence augmente, la difficulté du combat éclair et la structure des combats changent.\nLes joueurs en coop dont les niveaux de compétence sont similaires sont généralement placés ensemble.\nAjustez votre niveau de compétence avant d'entrer en combat pour changer la difficulté. (Si vous entrez en combat avec un niveau de compétence diminué, la limite de ce dernier n'augmentera pas.)"
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "Entraîner/Équiper"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "En coop en ligne, vous pouvez améliorer votre personnage avec des objets d'équipement spéciaux ou en l'entraînant.\nParticipez à des combats éclair ou des combats de survie pour gagner de l'EXP et renforcer vos personnages.\n\nAinsi, il vous sera plus facile de remporter des combats."
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "Équiper"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "Équipez-vous des objets achetés dans la boutique pour améliorer votre personnage.\nEn entraînant votre personnage, vous deviendrez capable d'équiper jusqu'à trois objets. En revanche, vous ne pouvez pas équiper plusieurs objets de même catégorie.\n\nLes objets pouvant être équipés peuvent être permanents, à usage unique, etc.\nDes objets peuvent être ajoutés à la boutique en jouant en coop en ligne."
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "Entraîner"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "Vous pouvez utiliser l'EXP gagnée en jouant en mode combat éclair et combat de survie pour augmenter le niveau de votre personnage.\nAinsi, vous améliorez ses statistiques et débloquez des emplacements d'équipement.\n\nL'EXP est commune à tous les personnages, vous pouvez donc la répartir librement."
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "Sélectionner un serment"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "En coop en ligne, vous pouvez vous imposer des serments.\nLes serments limitent vos actions et vos statistiques, mais améliorent d'autres capacités.\n\nSi vous complétez des missions avec des serments, vous pouvez gagner des points de récupération supplémentaires."
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "Actions d'intervalle"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "Sur l'écran d'intervalle, votre jauge d'équipe et la santé des personnages remontent pour la prochaine mission.\nChaque récupération nécessite des points.\nChaque joueur dispose de ses propres points de récupération, alors utilisez-les à bon escient !\n\nVous pouvez obtenir ces points de récupération en terminant des missions.\nSi vous complétez une mission en respectant les serments, vous remportez des points supplémentaires."
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "Combat libre"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "Vous pouvez configurer librement les personnages et les règles pour les combats.\n\n• Paramètres de personnage :\nAjustez la sélection des personnages et la force des alliés et des adversaires.\n\n• Paramètres de joueur :\nAjustez les paramètres spéciaux.\n\n• Paramètres de combat :\nAjustez les règles d'arène, les limites de temps, l'énergie occulte, etc."
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "Lobby en ligne"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "Connectez-vous au réseau pour créer un lobby en ligne.\nJouez avec vos amis ou des inconnus.\n\n• Création d'un lobby :\nDevenez hôte de votre propre lobby.\nRecrutez des joueurs qui correspondent à votre style en modifiant le style de jeu et le texte de recrutement.\n\n• Recherche de lobby :\nRejoignez un lobby existant. Vous pouvez effectuer une recherche par nom ou ID pour rejoindre un lobby spécifique."
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "• Sélection de personnage :\nSélectionnez un personnage à utiliser dans le lobby.\nIl peut être différent du personnage que vous utilisez en combat, alors rejoignez un lobby avec le personnage que vous voulez !"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "Actions de l'hôte du lobby"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "L'hôte du lobby peut lancer le combat en maintenant <img id=\"BattlePause\"/>.\nCommencez une fois que tous les joueurs sont prêts."
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "Vous pouvez également ouvrir le menu avec <img id=\"BattlePause\"/> pour accéder aux options suivantes :\n\n• Mode de combat :\nDéfinissez le mode de combat de la partie.\n\n• Expulsion d'un joueur :\nExpulsion d'un joueur du lobby.\nVous pouvez effectuer ces actions à partir des informations du lobby."
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "Utilisations du lobby en ligne"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "Dans le lobby en ligne, vous pouvez effectuer les actions suivantes :\n\n• Messages prédéfinis :\nUtilisez les messages prédéfinis avec <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n• Afficher/masquer l'interface utilisateur :\nAffichez ou masquez l'interface utilisateur avec <img id=\"WidgetDispSwitch\"/>."
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "• Changement de mode de caméra :\nPasse à un mode qui vous permet de déplacer librement la caméra avec <img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>.\n\nLes combats commencent lorsque l'hôte du lobby le décide.\nVous pouvez quitter un lobby en ouvrant le menu avec <img id=\"BattlePause\"/>."
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "Boutique"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "Après avoir gagné des <img id=\"Money_0001\"/> points Juju lors des combats et d'autres activités, vous pouvez les dépenser pour acheter des tenues pour vos personnages, des éléments de personnalisation de carte de joueur, des objets pour la coop en ligne, etc.\n\nCertains objets requièrent de remplir certaines conditions."
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "Boîte maudite scellée"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "Les boîtes maudites scellées contiennent des objets aléatoires de la boutique, qui n'ont pas de conditions pour être débloqués. \n*Les objets avec des conditions de déblocage ne peuvent être trouvés dans les boîtes maudites scellées. \n*Si vous avez déjà en votre possession l'objet, ou avez atteint la quantité maximum autorisée d'un même objet, il sera converti en <img id=\"Money_0001\"/> points Juju."
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "Personnalisation"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "Vous pouvez visualiser vos personnages et procéder à diverses personnalisations."
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "Personnalisation de la carte de joueur"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "Personnalisez votre carte de joueur comme vous le souhaitez.\n\nVous pouvez obtenir les objets de personnalisation en combat ou dans la boutique."
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "Personnalisation du chat"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "Personnalisez les messages prédéfinis à utiliser en combat.\n\nVous pouvez les personnaliser pour chaque personnage, alors adaptez-les à votre style de jeu !"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "Personnalisation de la pose VS/Voix de combat"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "Vous pouvez personnaliser vos poses VS et la voix de votre personnage en combat.\n\nVous pouvez obtenir les objets de personnalisation en combat ou dans la boutique."
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "Dossiers de mission de classe S"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "Dans l'extension « Dossiers de mission de classe S », assistez à des combats inédits entre de nouveaux exorcistes.\n*L'achat de l'extension est nécessaire pour jouer."
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "Dans le contenu téléchargeable « Dossiers de mission de classe S », assistez à des combats inédits entre de nouveaux exorcistes.\n*L'achat du contenu téléchargeable est nécessaire pour jouer."
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "Dans le contenu additionnel « Dossiers de mission de classe S », assistez à des combats inédits entre de nouveaux exorcistes.\n*L'achat du contenu additionnel est nécessaire pour jouer."
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "Dans le contenu téléchargeable « Dossiers de mission de classe S », assistez à des combats inédits entre de nouveaux exorcistes.\n*L'achat du contenu téléchargeable est nécessaire pour jouer."
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "Mode Arcade"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "Faites équipe avec le joueur de votre choix et mettez vos compétences à l'épreuve lors de cinq combats en 2 contre 2 ! Choisissez une route et une difficulté, puis gagnez des points d'exorcisme et des plaques en battant vos adversaires !\nEnvie de vous dépasser ? Augmentez la difficulté ou terminez sans aucune défaite !"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> Apparition"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> peut apparaître lorsque des combats éclair ont été joués à plusieurs reprises et que 3 missions ont été accomplies. Plus les chances d'apparition sont élevées, plus le nombre de familiers apparaissant en haut de l'écran d'intervalle est important."
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "Combat de Makora"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "Le niveau de compétence n'a pas d'incidence sur la force de Makora.\nLes effets des objets équipés seront appliqués."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "Makora a la capacité de s'adapter aux attaques de l'adversaire et de les annuler.\n\nLa jauge d’adaptation de Makora est située sous sa jauge de santé, et cette jauge commence à se remplir lorsqu'une technique d'énergie occulte ou une technique utilisant la force physique réussit.\nLorsque la jauge est à son maximum, il s'adapte au coup qui a causé le plus de dégâts pendant que la jauge se remplissait, annulant à son tour tous les dégâts infligés par ce coup."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "L'icône correspondante sur sa roue s'allume\npour chaque technique à laquelle il s'adapte.\n\nIl est également possible d'infliger des dégâts avec des techniques éveillées.\nPour éliminer Makora, utilisez une technique éveillée."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "Makora est toujours invulnérable, mais s'il subit suffisamment de dégâts pendant que sa jauge d'adaptation se remplit, cet état est levé et il devient incapable de se déplacer.\nC'est le seul moment où les techniques éveillées ou les attaques combinées peuvent être efficaces.\nSeule la technique éveillée « Extension du territoire » peut être utilisée pour passer à un stade différent à tout moment.\nChaque personnage ne peut porter qu'une seule attaque combinée."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "Les personnages de niveau inférieur à 25 seront temporairement portés au niveau 25.\nLes Serments ne peuvent pas être imposés lors d'un combat contre Makora.\nLes effets des objets équipés seront appliqués."
+      }
+    }
+  }
+]

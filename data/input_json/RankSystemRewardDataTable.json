@@ -1,0 +1,857 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RankSystemRewardDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_RankSystemReward'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "PVP_REWARD_0010": {
+        "ID": "PVP_REWARD_0010",
+        "RequiredPoint": 500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0010"
+      },
+      "PVP_REWARD_0020": {
+        "ID": "PVP_REWARD_0020",
+        "RequiredPoint": 1000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0020"
+      },
+      "PVP_REWARD_0030": {
+        "ID": "PVP_REWARD_0030",
+        "RequiredPoint": 2000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0030"
+      },
+      "PVP_REWARD_0040": {
+        "ID": "PVP_REWARD_0040",
+        "RequiredPoint": 3000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0040"
+      },
+      "PVP_REWARD_0050": {
+        "ID": "PVP_REWARD_0050",
+        "RequiredPoint": 4000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0050"
+      },
+      "PVP_REWARD_0060": {
+        "ID": "PVP_REWARD_0060",
+        "RequiredPoint": 4500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0060"
+      },
+      "PVP_REWARD_0070": {
+        "ID": "PVP_REWARD_0070",
+        "RequiredPoint": 5000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0070"
+      },
+      "PVP_REWARD_0080": {
+        "ID": "PVP_REWARD_0080",
+        "RequiredPoint": 6500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0080"
+      },
+      "PVP_REWARD_0090": {
+        "ID": "PVP_REWARD_0090",
+        "RequiredPoint": 7000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0090"
+      },
+      "PVP_REWARD_0100": {
+        "ID": "PVP_REWARD_0100",
+        "RequiredPoint": 7500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0100"
+      },
+      "PVP_REWARD_0110": {
+        "ID": "PVP_REWARD_0110",
+        "RequiredPoint": 8500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0110"
+      },
+      "PVP_REWARD_0120": {
+        "ID": "PVP_REWARD_0120",
+        "RequiredPoint": 9000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0120"
+      },
+      "PVP_REWARD_0130": {
+        "ID": "PVP_REWARD_0130",
+        "RequiredPoint": 9500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0130"
+      },
+      "PVP_REWARD_0140": {
+        "ID": "PVP_REWARD_0140",
+        "RequiredPoint": 11000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0140"
+      },
+      "PVP_REWARD_0150": {
+        "ID": "PVP_REWARD_0150",
+        "RequiredPoint": 11500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0150"
+      },
+      "PVP_REWARD_0160": {
+        "ID": "PVP_REWARD_0160",
+        "RequiredPoint": 12000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0160"
+      },
+      "PVP_REWARD_0170": {
+        "ID": "PVP_REWARD_0170",
+        "RequiredPoint": 13000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0170"
+      },
+      "PVP_REWARD_0180": {
+        "ID": "PVP_REWARD_0180",
+        "RequiredPoint": 14000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0180"
+      },
+      "PVP_REWARD_0190": {
+        "ID": "PVP_REWARD_0190",
+        "RequiredPoint": 14500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0190"
+      },
+      "PVP_REWARD_0200": {
+        "ID": "PVP_REWARD_0200",
+        "RequiredPoint": 15000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0200"
+      },
+      "PVP_REWARD_0210": {
+        "ID": "PVP_REWARD_0210",
+        "RequiredPoint": 16500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0210"
+      },
+      "PVP_REWARD_0220": {
+        "ID": "PVP_REWARD_0220",
+        "RequiredPoint": 17000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0220"
+      },
+      "PVP_REWARD_0230": {
+        "ID": "PVP_REWARD_0230",
+        "RequiredPoint": 17500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0230"
+      },
+      "PVP_REWARD_0240": {
+        "ID": "PVP_REWARD_0240",
+        "RequiredPoint": 18500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0240"
+      },
+      "PVP_REWARD_0250": {
+        "ID": "PVP_REWARD_0250",
+        "RequiredPoint": 19000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0250"
+      },
+      "PVP_REWARD_0260": {
+        "ID": "PVP_REWARD_0260",
+        "RequiredPoint": 19500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0260"
+      },
+      "PVP_REWARD_0270": {
+        "ID": "PVP_REWARD_0270",
+        "RequiredPoint": 21000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0270"
+      },
+      "PVP_REWARD_0280": {
+        "ID": "PVP_REWARD_0280",
+        "RequiredPoint": 21500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0280"
+      },
+      "PVP_REWARD_0290": {
+        "ID": "PVP_REWARD_0290",
+        "RequiredPoint": 22000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0290"
+      },
+      "PVP_REWARD_0300": {
+        "ID": "PVP_REWARD_0300",
+        "RequiredPoint": 23000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0300"
+      },
+      "PVP_REWARD_0310": {
+        "ID": "PVP_REWARD_0310",
+        "RequiredPoint": 24000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0310"
+      },
+      "PVP_REWARD_0320": {
+        "ID": "PVP_REWARD_0320",
+        "RequiredPoint": 24500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0320"
+      },
+      "PVP_REWARD_0330": {
+        "ID": "PVP_REWARD_0330",
+        "RequiredPoint": 25000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0330"
+      },
+      "PVP_REWARD_0340": {
+        "ID": "PVP_REWARD_0340",
+        "RequiredPoint": 26500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0340"
+      },
+      "PVP_REWARD_0350": {
+        "ID": "PVP_REWARD_0350",
+        "RequiredPoint": 27000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0350"
+      },
+      "PVP_REWARD_0360": {
+        "ID": "PVP_REWARD_0360",
+        "RequiredPoint": 27500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0360"
+      },
+      "PVP_REWARD_0370": {
+        "ID": "PVP_REWARD_0370",
+        "RequiredPoint": 28500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0370"
+      },
+      "PVP_REWARD_0380": {
+        "ID": "PVP_REWARD_0380",
+        "RequiredPoint": 29500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0380"
+      },
+      "PVP_REWARD_0390": {
+        "ID": "PVP_REWARD_0390",
+        "RequiredPoint": 30000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0390"
+      },
+      "PVP_REWARD_0400": {
+        "ID": "PVP_REWARD_0400",
+        "RequiredPoint": 30500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0400"
+      },
+      "PVP_REWARD_0410": {
+        "ID": "PVP_REWARD_0410",
+        "RequiredPoint": 32000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0410"
+      },
+      "PVP_REWARD_0420": {
+        "ID": "PVP_REWARD_0420",
+        "RequiredPoint": 32500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0420"
+      },
+      "PVP_REWARD_0430": {
+        "ID": "PVP_REWARD_0430",
+        "RequiredPoint": 33000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0430"
+      },
+      "PVP_REWARD_0440": {
+        "ID": "PVP_REWARD_0440",
+        "RequiredPoint": 34000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0440"
+      },
+      "PVP_REWARD_0450": {
+        "ID": "PVP_REWARD_0450",
+        "RequiredPoint": 34500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0450"
+      },
+      "PVP_REWARD_0460": {
+        "ID": "PVP_REWARD_0460",
+        "RequiredPoint": 35000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0460"
+      },
+      "PVP_REWARD_0470": {
+        "ID": "PVP_REWARD_0470",
+        "RequiredPoint": 36500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0470"
+      },
+      "PVP_REWARD_0480": {
+        "ID": "PVP_REWARD_0480",
+        "RequiredPoint": 37000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0480"
+      },
+      "PVP_REWARD_0490": {
+        "ID": "PVP_REWARD_0490",
+        "RequiredPoint": 37500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0490"
+      },
+      "PVP_REWARD_0500": {
+        "ID": "PVP_REWARD_0500",
+        "RequiredPoint": 38500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0500"
+      },
+      "PVP_REWARD_0510": {
+        "ID": "PVP_REWARD_0510",
+        "RequiredPoint": 39500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0510"
+      },
+      "PVP_REWARD_0520": {
+        "ID": "PVP_REWARD_0520",
+        "RequiredPoint": 40000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0520"
+      },
+      "PVP_REWARD_0530": {
+        "ID": "PVP_REWARD_0530",
+        "RequiredPoint": 40500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0530"
+      },
+      "PVP_REWARD_0540": {
+        "ID": "PVP_REWARD_0540",
+        "RequiredPoint": 42000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0540"
+      },
+      "PVP_REWARD_0550": {
+        "ID": "PVP_REWARD_0550",
+        "RequiredPoint": 42500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0550"
+      },
+      "PVP_REWARD_0560": {
+        "ID": "PVP_REWARD_0560",
+        "RequiredPoint": 43000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0560"
+      },
+      "PVP_REWARD_0570": {
+        "ID": "PVP_REWARD_0570",
+        "RequiredPoint": 44000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0570"
+      },
+      "PVP_REWARD_0580": {
+        "ID": "PVP_REWARD_0580",
+        "RequiredPoint": 45000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0580"
+      },
+      "PVP_REWARD_0590": {
+        "ID": "PVP_REWARD_0590",
+        "RequiredPoint": 45500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0590"
+      },
+      "PVP_REWARD_0600": {
+        "ID": "PVP_REWARD_0600",
+        "RequiredPoint": 46000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0600"
+      },
+      "PVP_REWARD_0610": {
+        "ID": "PVP_REWARD_0610",
+        "RequiredPoint": 47500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0610"
+      },
+      "PVP_REWARD_0620": {
+        "ID": "PVP_REWARD_0620",
+        "RequiredPoint": 48000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0620"
+      },
+      "PVP_REWARD_0630": {
+        "ID": "PVP_REWARD_0630",
+        "RequiredPoint": 48500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0630"
+      },
+      "PVP_REWARD_0640": {
+        "ID": "PVP_REWARD_0640",
+        "RequiredPoint": 49500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0640"
+      },
+      "PVP_REWARD_0650": {
+        "ID": "PVP_REWARD_0650",
+        "RequiredPoint": 50000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0650"
+      },
+      "PVP_REWARD_0660": {
+        "ID": "PVP_REWARD_0660",
+        "RequiredPoint": 50500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0660"
+      },
+      "PVP_REWARD_0670": {
+        "ID": "PVP_REWARD_0670",
+        "RequiredPoint": 52000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0670"
+      },
+      "PVP_REWARD_0680": {
+        "ID": "PVP_REWARD_0680",
+        "RequiredPoint": 52500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0680"
+      },
+      "PVP_REWARD_0690": {
+        "ID": "PVP_REWARD_0690",
+        "RequiredPoint": 53000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0690"
+      },
+      "PVP_REWARD_0700": {
+        "ID": "PVP_REWARD_0700",
+        "RequiredPoint": 54500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0700"
+      },
+      "PVP_REWARD_0710": {
+        "ID": "PVP_REWARD_0710",
+        "RequiredPoint": 56000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0710"
+      },
+      "PVP_REWARD_0720": {
+        "ID": "PVP_REWARD_0720",
+        "RequiredPoint": 57500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0720"
+      },
+      "PVP_REWARD_0730": {
+        "ID": "PVP_REWARD_0730",
+        "RequiredPoint": 58000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0730"
+      },
+      "PVP_REWARD_0740": {
+        "ID": "PVP_REWARD_0740",
+        "RequiredPoint": 58500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0740"
+      },
+      "PVP_REWARD_0750": {
+        "ID": "PVP_REWARD_0750",
+        "RequiredPoint": 60000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0750"
+      },
+      "PVP_REWARD_0760": {
+        "ID": "PVP_REWARD_0760",
+        "RequiredPoint": 60500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0760"
+      },
+      "PVP_REWARD_0770": {
+        "ID": "PVP_REWARD_0770",
+        "RequiredPoint": 61000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0770"
+      },
+      "PVP_REWARD_0780": {
+        "ID": "PVP_REWARD_0780",
+        "RequiredPoint": 62500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0780"
+      },
+      "PVP_REWARD_0790": {
+        "ID": "PVP_REWARD_0790",
+        "RequiredPoint": 64000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0790"
+      },
+      "PVP_REWARD_0800": {
+        "ID": "PVP_REWARD_0800",
+        "RequiredPoint": 65500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0800"
+      },
+      "PVP_REWARD_0810": {
+        "ID": "PVP_REWARD_0810",
+        "RequiredPoint": 66000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0810"
+      },
+      "PVP_REWARD_0820": {
+        "ID": "PVP_REWARD_0820",
+        "RequiredPoint": 66500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0820"
+      },
+      "PVP_REWARD_0830": {
+        "ID": "PVP_REWARD_0830",
+        "RequiredPoint": 68000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0830"
+      },
+      "PVP_REWARD_0840": {
+        "ID": "PVP_REWARD_0840",
+        "RequiredPoint": 68500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0840"
+      },
+      "PVP_REWARD_0850": {
+        "ID": "PVP_REWARD_0850",
+        "RequiredPoint": 69000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0850"
+      },
+      "PVP_REWARD_0860": {
+        "ID": "PVP_REWARD_0860",
+        "RequiredPoint": 70500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0860"
+      },
+      "PVP_REWARD_0870": {
+        "ID": "PVP_REWARD_0870",
+        "RequiredPoint": 72000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0870"
+      },
+      "PVP_REWARD_0880": {
+        "ID": "PVP_REWARD_0880",
+        "RequiredPoint": 72500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0880"
+      },
+      "PVP_REWARD_0890": {
+        "ID": "PVP_REWARD_0890",
+        "RequiredPoint": 73000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0890"
+      },
+      "PVP_REWARD_0900": {
+        "ID": "PVP_REWARD_0900",
+        "RequiredPoint": 74500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0900"
+      },
+      "PVP_REWARD_0910": {
+        "ID": "PVP_REWARD_0910",
+        "RequiredPoint": 75000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0910"
+      },
+      "PVP_REWARD_0920": {
+        "ID": "PVP_REWARD_0920",
+        "RequiredPoint": 75500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0920"
+      },
+      "PVP_REWARD_0930": {
+        "ID": "PVP_REWARD_0930",
+        "RequiredPoint": 77500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0930"
+      },
+      "PVP_REWARD_0940": {
+        "ID": "PVP_REWARD_0940",
+        "RequiredPoint": 79500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0940"
+      },
+      "PVP_REWARD_0950": {
+        "ID": "PVP_REWARD_0950",
+        "RequiredPoint": 81500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0950"
+      },
+      "PVP_REWARD_0960": {
+        "ID": "PVP_REWARD_0960",
+        "RequiredPoint": 82000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0960"
+      },
+      "PVP_REWARD_0970": {
+        "ID": "PVP_REWARD_0970",
+        "RequiredPoint": 82500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0970"
+      },
+      "PVP_REWARD_0980": {
+        "ID": "PVP_REWARD_0980",
+        "RequiredPoint": 84000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0980"
+      },
+      "PVP_REWARD_0990": {
+        "ID": "PVP_REWARD_0990",
+        "RequiredPoint": 84500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_0990"
+      },
+      "PVP_REWARD_1000": {
+        "ID": "PVP_REWARD_1000",
+        "RequiredPoint": 85000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1000"
+      },
+      "PVP_REWARD_1010": {
+        "ID": "PVP_REWARD_1010",
+        "RequiredPoint": 87000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1010"
+      },
+      "PVP_REWARD_1020": {
+        "ID": "PVP_REWARD_1020",
+        "RequiredPoint": 89000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1020"
+      },
+      "PVP_REWARD_1030": {
+        "ID": "PVP_REWARD_1030",
+        "RequiredPoint": 91000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1030"
+      },
+      "PVP_REWARD_1040": {
+        "ID": "PVP_REWARD_1040",
+        "RequiredPoint": 91500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1040"
+      },
+      "PVP_REWARD_1050": {
+        "ID": "PVP_REWARD_1050",
+        "RequiredPoint": 92000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1050"
+      },
+      "PVP_REWARD_1060": {
+        "ID": "PVP_REWARD_1060",
+        "RequiredPoint": 93500,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1060"
+      },
+      "PVP_REWARD_1070": {
+        "ID": "PVP_REWARD_1070",
+        "RequiredPoint": 94000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1070"
+      },
+      "PVP_REWARD_1080": {
+        "ID": "PVP_REWARD_1080",
+        "RequiredPoint": 94500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1080"
+      },
+      "PVP_REWARD_1090": {
+        "ID": "PVP_REWARD_1090",
+        "RequiredPoint": 96500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1090"
+      },
+      "PVP_REWARD_1100": {
+        "ID": "PVP_REWARD_1100",
+        "RequiredPoint": 98500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1100"
+      },
+      "PVP_REWARD_1110": {
+        "ID": "PVP_REWARD_1110",
+        "RequiredPoint": 99000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1110"
+      },
+      "PVP_REWARD_1120": {
+        "ID": "PVP_REWARD_1120",
+        "RequiredPoint": 99500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1120"
+      },
+      "PVP_REWARD_1130": {
+        "ID": "PVP_REWARD_1130",
+        "RequiredPoint": 101000,
+        "RewardType": "EGameRankSystemRewardType::SituationOverviewPose",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1130"
+      },
+      "PVP_REWARD_1140": {
+        "ID": "PVP_REWARD_1140",
+        "RequiredPoint": 101500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1140"
+      },
+      "PVP_REWARD_1150": {
+        "ID": "PVP_REWARD_1150",
+        "RequiredPoint": 102000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1150"
+      },
+      "PVP_REWARD_1160": {
+        "ID": "PVP_REWARD_1160",
+        "RequiredPoint": 104000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1160"
+      },
+      "PVP_REWARD_1170": {
+        "ID": "PVP_REWARD_1170",
+        "RequiredPoint": 106000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1170"
+      },
+      "PVP_REWARD_1180": {
+        "ID": "PVP_REWARD_1180",
+        "RequiredPoint": 106500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1180"
+      },
+      "PVP_REWARD_1190": {
+        "ID": "PVP_REWARD_1190",
+        "RequiredPoint": 107500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1190"
+      },
+      "PVP_REWARD_1200": {
+        "ID": "PVP_REWARD_1200",
+        "RequiredPoint": 108000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1200"
+      },
+      "PVP_REWARD_1210": {
+        "ID": "PVP_REWARD_1210",
+        "RequiredPoint": 108500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1210"
+      },
+      "PVP_REWARD_1220": {
+        "ID": "PVP_REWARD_1220",
+        "RequiredPoint": 110500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1220"
+      },
+      "PVP_REWARD_1230": {
+        "ID": "PVP_REWARD_1230",
+        "RequiredPoint": 112500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1230"
+      },
+      "PVP_REWARD_1240": {
+        "ID": "PVP_REWARD_1240",
+        "RequiredPoint": 113000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1240"
+      },
+      "PVP_REWARD_1250": {
+        "ID": "PVP_REWARD_1250",
+        "RequiredPoint": 114000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1250"
+      },
+      "PVP_REWARD_1260": {
+        "ID": "PVP_REWARD_1260",
+        "RequiredPoint": 114500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1260"
+      },
+      "PVP_REWARD_1270": {
+        "ID": "PVP_REWARD_1270",
+        "RequiredPoint": 115000,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1270"
+      },
+      "PVP_REWARD_1280": {
+        "ID": "PVP_REWARD_1280",
+        "RequiredPoint": 117000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1280"
+      },
+      "PVP_REWARD_1290": {
+        "ID": "PVP_REWARD_1290",
+        "RequiredPoint": 119000,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1290"
+      },
+      "PVP_REWARD_1300": {
+        "ID": "PVP_REWARD_1300",
+        "RequiredPoint": 119500,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1300"
+      },
+      "PVP_REWARD_1310": {
+        "ID": "PVP_REWARD_1310",
+        "RequiredPoint": 120500,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1310"
+      },
+      "PVP_REWARD_1320": {
+        "ID": "PVP_REWARD_1320",
+        "RequiredPoint": 121000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1320"
+      },
+      "PVP_REWARD_1330": {
+        "ID": "PVP_REWARD_1330",
+        "RequiredPoint": 121500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1330"
+      },
+      "PVP_REWARD_1340": {
+        "ID": "PVP_REWARD_1340",
+        "RequiredPoint": 123500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1340"
+      },
+      "PVP_REWARD_1350": {
+        "ID": "PVP_REWARD_1350",
+        "RequiredPoint": 124000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1350"
+      },
+      "PVP_REWARD_1360": {
+        "ID": "PVP_REWARD_1360",
+        "RequiredPoint": 125000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1360"
+      },
+      "PVP_REWARD_1370": {
+        "ID": "PVP_REWARD_1370",
+        "RequiredPoint": 125500,
+        "RewardType": "EGameRankSystemRewardType::Money",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1370"
+      },
+      "PVP_REWARD_1380": {
+        "ID": "PVP_REWARD_1380",
+        "RequiredPoint": 127500,
+        "RewardType": "EGameRankSystemRewardType::Costume",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1380"
+      },
+      "PVP_REWARD_1390": {
+        "ID": "PVP_REWARD_1390",
+        "RequiredPoint": 128000,
+        "RewardType": "EGameRankSystemRewardType::Nickname",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1390"
+      },
+      "PVP_REWARD_1400": {
+        "ID": "PVP_REWARD_1400",
+        "RequiredPoint": 129000,
+        "RewardType": "EGameRankSystemRewardType::Plate",
+        "Id_ItemSet": "ITM_SET_PVP_REWARD_1400"
+      }
+    }
+  }
+]

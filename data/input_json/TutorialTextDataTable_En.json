@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_En",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "Move"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "Jump (midair)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/>+<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "Dash Jump (from ground)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/>+<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "Go stand by Gojo."
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "Movement"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "Move your character with <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "Dashing"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "You can dash with <img id=\"Dash\"/>.\nPerforming a dash consumes the Dash Gauge, which recovers\nwhile you're on the ground. Jump during a dash to trigger a\ndash jump, letting you jump higher than normal."
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "Jumping"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "You can jump with <img id=\"Jump\"/>.\nPress <img id=\"Jump\"/> again while jumping to perform a double jump."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "Melee Attack Barrage"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": "<img id=\"NormalAttack_1\"/> Press Repeatedly"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "Uppercut"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "Spinning Kick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "Downward Kick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "Dropkick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "Stone Throw"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "Cursed Energy Techniques 1"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "Raise your Cursed Energy Level to 2 with Combo Techniques/Extraction Techniques."
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "Extraction Techniques"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "Attack with <img id=\"NormalAttack_1\"/>.\nYou can also attack with <img id=\"NormalAttack_2\"/> and <img id=\"NormalAttack_3\"/>.\nUse <img id=\"MoveDown\"/> at the same time to unleash a different attack."
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "Targeting"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "Continually focus your attacks on one enemy character during battle and your attacks will automatically target that enemy.\n\nWhen fighting multiple foes, you can switch targets with <img id=\"TargetChangeLeft\"/> and <img id=\"TargetChangeRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "Cursed Energy Techniques"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "You need a Curse to exorcise a Curse—that's where Cursed Energy Techniques come in.\nThese are your basic ways to deal damage to enemies.\n\n<img id=\"CursedEnergyAttack_1\"/> and <img id=\"CursedEnergyAttack_2\"/> unleash different Cursed Energy Techniques.\nYou must fill the Cursed Energy Gauge with Cursed Energy to use these Techniques.\nCursed Energy Gauge recovery occurs over time, even as you consume it."
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "Cursed Energy Level"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "Attacks that raise your <GLO=GLS_GAME_WORDS_1503> are called <GLO=GLS_GAME_WORDS_1302>s.\nHit enemies with <GLO=GLS_GAME_WORDS_1302>s to fill your <GLO=GLS_GAME_WORDS_1503> Gauge. When you reach certain points on your gauge, your <GLO=GLS_GAME_WORDS_1401> will increase. \nLeveling up strengthens your <GLO=GLS_GAME_WORDS_1307>s, allowing you to deal more damage."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "Execute a successful Combo Technique."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": "<img id=\"NormalAttack_1\"/> Press Repeatedly"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "Guard against 3 attacks."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "Dodge attacks for 10 seconds."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>+<img id=\"MoveLeft\"/> or <img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "Reduce Gojo's health to zero."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "Combo Techniques"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "Press <img id=\"NormalAttack_1\"/> repeatedly to unleash Combo Techniques that mix\nExtraction Techniques and Cursed Energy Techniques.\nIf you have sufficient Cursed Energy when you unleash a\nCombo Technique, the final blow will be a\nCursed Energy Technique."
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "Guarding"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "Use <img id=\"Guard\"/> to guard against enemy attacks.\nAll damage received is nullified while guarding.\nStill, taking too many attacks will result in a guard break.\nBe careful, as this leaves you wide open!\n\nIf you guard just as an enemy attack lands, you will execute\na Perfect Guard, giving you a chance to counterattack."
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "Stepping"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "Use <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> while guarding to perform a step.\nThis will move in the direction of the input to avoid enemy attacks."
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "Exorcism"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "Hit enemies with Extraction Techniques to raise your Cursed Energy.\nUse Cursed Energy Techniques to reduce enemy health until you defeat them.\n\nDefeat your enemies and reduce your opponent's Team Gauge to zero to achieve victory."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "Let's get on with your special training!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "Yeah! This is an honor!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "First, why don't you make your way over to me?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "You move well!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "Next, try to land an attack on me."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "Don't blame me if you get hurt."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "You're already head and shoulders above most when it comes to close combat."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "Now it's my turn. See if you can handle my attack."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "Whoa, pretty tough!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "Last, but not least, I'll teach you how to control your Cursed Energy!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "Try imbuing Cursed Energy into your martial arts and hitting me."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "I already know how to do that!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "Then give it a try, not that I think you can't."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "That punch had zero Cursed Energy."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "I guess you're the type that learns by doing, huh?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "Come at me then—no holding back."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "Give <GLO=GLS_NAME_CP_010> the Cooperative Tactics instruction."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "Execute a successful Cooperation Bonus."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "Raise <GLO=GLS_NAME_CP_040>'s Cursed Energy Level to 3."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "Execute a successful Joint Attack."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "Execute a successful Awakened Move."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "Tactics"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "You can command ally characters during battle by using <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n<img id=\"Chat_0005\"/> Normal: Engages in a balanced variety of actions.\n<img id=\"Chat_0006\"/> Aggressive: Frequently uses Extraction Techniques and\nCursed Energy Techniques.\n<img id=\"Chat_0007\"/> Cooperative: Aims to coordinate with you.\n<img id=\"Chat_0008\"/> Cautious: Uses step and guard frequently to avoid damage."
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "Cooperation Bonus"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "Trigger a Cooperation Bonus by attacking the same enemy as your ally, or by attacking an enemy attacking your ally.\nTrigger this bonus to get extra <GLO=GLS_GAME_WORDS_1505>!"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "Joint Attacks"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "Unleash a Joint Attack Technique with <img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>.\nJoint Attack Techniques cannot be guarded against,\nand enemies hit by one enter a special stagger state.\nIf an ally lands a Combo Technique or Extraction Technique\nin this state, a Joint Attack is triggered with that ally.\nA Joint Attack raises the Cursed Energy Level for both you\nand your ally, allowing you to deal massive damage."
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "Awakened Moves"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "When your Cursed Energy Level is maxed out,\nyou gain access to an Awakened Move.\nActivate it with <img id=\"Guard\"/> + <img id=\"CursedEnergyAttack_2\"/>.\nFrom powerful attacks to Domain Expansions,\neach character's has a different effect.\nAwakened Moves can only be activated once per battle."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "Max out your Cursed Energy Level."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "Execute a successful Awakened Move."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "Domain Expansion"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "Some characters can activate a Domain Expansion with their Awakened Move.\n\nA successful Domain Expansion will pull enemy and ally alike into your Domain. \nYou gain advantages while inside your Domain, such as improved abilities and increased damage, while enemies suffer from negative effects."
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "Domain Expansion"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "A Domain Expansion will end when time runs out,\nthe user is defeated, or another Domain Expansion causes it\nto be erased. With some Domain Expansions, activation,\nattack, and deactivation all happen in sequence.\n\nNote that some characters may have limitations on\nCursed Energy Techniques for some time after their\nDomain Expansion ends."
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "Adaptation"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "Mahoraga has the ability to adapt to and nullify attacks.\nMahoraga will adapt to Cursed Energy Techniques that were used\nto bring it down and will no longer take damage from them.\nThe corresponding icon on its eight-handled wheel will light\nup for any technique it adapts to.\n\nDamage can also be dealt through Awakened Moves.\nBe sure to end Mahoraga once and for all with an Awakened Move."
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "Story Mode"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "You can experience the story of Jujutsu Kaisen in Story Mode.\n\n• Match Records: Relive the trials and tribulations of\nJujutsu Kaisen.\n• Relationship Chart: Check the relationships between\ncharacters."
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "Case Records"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "Select missions to play the story in chronological order.\n\nSome missions come with special victory conditions or waves.\nCheck mission details with <img id=\"PopupMenu_2\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "Relationship Chart Progression"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "As you progress through the Case Records, characters are unlocked on the Relationship Chart and relationships will evolve.\nIt pays to check in on the chart from time to time!\n\nYou can also move to the Relationship Chart with <img id=\"PopupMenu_1\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "Relationship Chart"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "Here you can check the relationships between characters.\nRaise character Relationship Strength as the Case Records progresses, letting you earn rewards and view unlocked short stories."
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "Online Versus"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "Connect to the network to battle online.\n\n• Exhibition Battle: Enjoy casual matches with\nother players.\n• Ranked Battle: Take on challenging matches against players\nof a similar skill level."
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "Match results and scores will affect your Player Rank.\nYou can also earn rewards for your overall score.\nUse Player Info to see detailed information."
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "Online Co-op"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "Connect to the network to team up with online players\nin a series of battles against enemies with special rules.\n\n• Rush Battle: Cooperate with other players in a series of\nwave-based battles that change every time you play.\nComplete tasks, take down foes, and aim for a high score!\nThere are also battles with special win conditions."
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "• Survival Battle:\nA mode throwing you against even stronger foes than in\nRush Battle. Try and conquer the gauntlet for yourself!"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "Online Co-op"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "Try out Rush Battle first, and see how the mode goes.\nThe first time will be an offline battle.\n\nAfter that, you can select \"Play Alone\" to enjoy the offline version at any time!"
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "Skill Level"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "Playing Rush Battle affects your Skill Level. Raising Skill\nLevel incrementally changes Rush Battle's difficulty and\nbattle structure. Co-op players with similar Skill Levels are\nprioritized in matching. Adjust your Skill Level when\nentering combat to adjust difficulty. (If you enter combat\nwith a lowered Skill Level, Skill Level limit will not rise.)"
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "Equip/Train"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "And in Online Co-op, you can strengthen yourself with special equip items, or by training your characters.\nPlay Rush Battle or Survival Battle to obtain EXP and reinforce your characters.\n\nUse reinforcement to make short work of harder battles."
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "Equip"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "Equip items bought at the Shop to reinforce your character.\nBy training your character, you will become able to equip\nup to three items. However, you cannot equip multiple items\nfrom the same category.\n\nEquip items include permanent types, types that disappear\nafter one use, and more.\nPlaying Online Co-op may add new items to the Shop."
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "Train"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "Use EXP earned by playing Rush Battle and Survival Battle to level up your characters.\nThis boosts their stats and unlocks equip slots.\n\nEXP is shared no matter what character you play as, so allot it however you like."
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "Select Binding Vow"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "In Online Co-op, you can impose Binding Vows on yourself.\nImposing Binding Vows places restrictions on\nyour actions and stats, but other abilities are boosted.\n\nComplete missions with Binding Vows to earn extra\nrecovery points."
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "Interval Actions"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "On the Interval screen, you can recover the Team Gauge\nand characters' health for the next mission.\nEach recovery requires points,\nand each player has their own points for recovery,\nso use them wisely!\n\nThese recovery points are earned when you clear missions.\nCompleting missions with Binding Vows imposed earns you\nadditional points."
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "Free Battle"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "Freely set characters and rules for battle.\n\n• Character Settings:\nAdjust character selection and strength for allies and opponents.\n\n• Player Settings:\nAdjust special settings.\n\n• Battle Settings:\nAdjust rules for stages, time limits, Cursed Energy, and more."
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "Online Lobby"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "Connect to the network to create online lobbies.\nPlay with set members—either friends or strangers.\n\n• Create Lobby: Become a host and create a lobby.\nChange the Play Style and Call for Entries to recruit players\nthat suit your style.\n\n• Lobby Search: Join created lobbies.\nFriend or ID search lets you directly join specific lobbies."
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "• Character Selection: Select a character to control\nin the lobby. You can select a different character in battle,\nso join the lobby with your favorite!"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "Lobby Host Actions"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "The lobby host begins the battle by holding <img id=\"BattlePause\"/>.\nStart once all of your members are ready to go."
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "You can also open the menu with <img id=\"BattlePause\"/> to do the following:\n\n• Combat Mode Settings: Set the battle mode to be played\nby lobby members.\n\n• Kick Player: Kick a player from your lobby.\nYou can use these controls from Lobby Information."
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "Online Lobby Uses"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "You can do the following in an online lobby:\n\n• Preset Messages: Use preset messages with <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n• Show/Hide UI: Toggle the UI on and off with <img id=\"WidgetDispSwitch\"/>."
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "• Switch Camera Mode: Switch to a mode that lets you freely move the camera with <img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>.\n\nBattles will begin when the lobby host decides.\nYou can leave a lobby by opening the menu with <img id=\"BattlePause\"/>."
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "Shop"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "After earning <img id=\"Money_0001\"/> Juju Points in battles and so on, you can spend it to purchase outfits, Player Card customization items, items for Online Co-op battles, and more.\n\nSome items become available by fulfilling certain conditions."
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "Cursed Seal Box"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "Cursed Seal Boxes contain random items from the Shop that do not have any unlock conditions. \n(Items that have unlock conditions are not found in Cursed Seal Boxes.)\n(When you already own the item or are over the maximum amount of the item obtained, said item is converted into <img id=\"Money_0001\"/> Juju Points.)"
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "Customization"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "You can view characters and perform a variety of customizations."
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "Player Card Customization"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "Customize your Player Card however you like.\n\nEach customization item can be obtained in battles or the Shop."
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "Chat Customization"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "Customize preset messages to use in battle.\n\nYou can customize this for each character, so select messages that suit your play style!"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "Vs. Pose/battle Voice Customization"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "You can customize Vs. Poses and battle voices.\n\nCustom items can be obtained in battle or bought from the Shop."
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "Special-Grade Mission Records"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "In the add-on content \"Special-Grade Mission Records\" mode, witness never-before-seen fights between new Jujutsu Sorcerers.\n*Purchase of add-on content is required to play."
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "In the downloadable content \"Special-Grade Mission Records\" mode, witness never-before-seen fights between new Jujutsu Sorcerers.\n*Purchase of downloadable content is required to play."
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "In the add-on content \"Special-Grade Mission Records\" mode, witness never-before-seen fights between new Jujutsu Sorcerers.\n*Purchase of downloadable content is required to play."
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "In the add-on content \"Special-Grade Mission Records\" mode, witness never-before-seen fights between new Jujutsu Sorcerers.\n*Purchase of downloadable content is required to play."
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "Arcade Mode"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "Team up with a player of your choice and test your skills across five 2-on-2 battles! Just choose a route and a difficulty, then earn Juju Points and plates for beating your opponents!\nLooking for a challenge? Try turning up the difficulty or making it through without any game overs!"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> Appearance"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> may appear when Rush Battles have been played repeatedly and 3 missions have been completed. The higher the chance of appearance, the more shikigami will appear at the top of the interval screen."
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "Mahoraga Battle"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "Fight the nearly invincible Mahoraga.\nWhat makes Mahoraga so formidable is that it is unaffected by Skill Level."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "Mahoraga has the ability to adapt to and nullify attacks.\n\nMahoraga's Adaptation Gauge will start filling when a Cursed Energy \nor Cursed Tool Technique lands successfully and will continue\nto fill over time.\nWhen the gauge is at its max, or Mahoraga is rendered unable to move, \nit will adapt to the technique that caused the most damage while\nthe gauge was filling and nullify any future damage taken from that move."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "The corresponding icon on its eight-handled wheel will light up for\nany technique it adapts to.\n\nAfter adapting, Mahoraga will target a character it has not adapted to yet.\nDamage from Combo Techniques cannot be nullified."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "Mahoraga is always in an invulnerable state, but if it takes enough damage while the Adaptation Gauge is filling up, this state will be lifted, and it will become unable to move.\nThis is the only time that Awakened Moves or Joint Attacks can be successfully dealt to it.\nOnly the Awakened Move \"Domain Expansion\" can be used to switch to a different stage at any time.\nEach character can only land one Joint Attack."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "Characters under Level 25 will temporarily be boosted to Level 25.\nBinding Vows cannot be imposed in battle against Mahoraga.\nThe effects of equipped items will be applied."
+      }
+    }
+  }
+]

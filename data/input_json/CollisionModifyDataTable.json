@@ -1,0 +1,1214 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CollisionModifyDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_CollisionModify'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010_ATTACKC": {
+        "ID": "CP_010_ATTACKC",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 600.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_010_ATTACKD_01": {
+        "ID": "CP_010_ATTACKD_01",
+        "Size": {
+          "X": 70.0,
+          "Y": 70.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 400.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.15,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_010_ATTACKD_02": {
+        "ID": "CP_010_ATTACKD_02",
+        "Size": {
+          "X": 70.0,
+          "Y": 70.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_020_ATTACKA_01_01": {
+        "ID": "CP_020_ATTACKA_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_020_ATTACKC_02_01": {
+        "ID": "CP_020_ATTACKC_02_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CP_020_ATTACKE_01_01": {
+        "ID": "CP_020_ATTACKE_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CP_020_ATTACKG_02_02": {
+        "ID": "CP_020_ATTACKG_02_02",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CP_020_ATTACKG_03_02": {
+        "ID": "CP_020_ATTACKG_03_02",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CP_020_ATTACKH_02_01": {
+        "ID": "CP_020_ATTACKH_02_01",
+        "Size": {
+          "X": 200.0,
+          "Y": 200.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.075,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": -168.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.075,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_020_ATTACKH_03_01": {
+        "ID": "CP_020_ATTACKH_03_01",
+        "Size": {
+          "X": 280.0,
+          "Y": 250.0,
+          "Z": 280.0
+        },
+        "Size_Time": 0.125,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": -248.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.125,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_050_ATTACKG_01_01": {
+        "ID": "CP_050_ATTACKG_01_01",
+        "Size": {
+          "X": 125.0,
+          "Y": 125.0,
+          "Z": 125.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CP_050_ATTACKG_01_02": {
+        "ID": "CP_050_ATTACKG_01_02",
+        "Size": {
+          "X": 125.0,
+          "Y": 125.0,
+          "Z": 125.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CP_050_ATTACKG_01_03": {
+        "ID": "CP_050_ATTACKG_01_03",
+        "Size": {
+          "X": 180.0,
+          "Y": 180.0,
+          "Z": 180.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CP_050_ATTACKH_01_01": {
+        "ID": "CP_050_ATTACKH_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CP_090_ATTACKE_01_01": {
+        "ID": "CP_090_ATTACKE_01_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 450.0
+        },
+        "Size_Time": 0.35,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 300.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.15,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_120_ATTACKB_01_01": {
+        "ID": "CP_120_ATTACKB_01_01",
+        "Size": {
+          "X": 30.0,
+          "Y": 30.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.15,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 150.0
+        },
+        "Location_Time": 0.15,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_120_ATTACKF_01_01": {
+        "ID": "CP_120_ATTACKF_01_01",
+        "Size": {
+          "X": 100.0,
+          "Y": 100.0,
+          "Z": 180.0
+        },
+        "Size_Time": 0.15,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 170.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.4,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CP_130_ATTACKA_01_01": {
+        "ID": "CP_130_ATTACKA_01_01",
+        "Size": {
+          "X": 27.5,
+          "Y": 27.5,
+          "Z": 100.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": -50.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_130_ATTACKA_02_01": {
+        "ID": "CP_130_ATTACKA_02_01",
+        "Size": {
+          "X": 7.5,
+          "Y": 7.5,
+          "Z": 30.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 10.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_130_ATTACKB_01_01": {
+        "ID": "CP_130_ATTACKB_01_01",
+        "Size": {
+          "X": 250.0,
+          "Y": 250.0,
+          "Z": 250.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_140_ATTACKB_01_01": {
+        "ID": "CP_140_ATTACKB_01_01",
+        "Size": {
+          "X": 80.0,
+          "Y": 80.0,
+          "Z": 400.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 260.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_140_ATTACKB_01_02": {
+        "ID": "CP_140_ATTACKB_01_02",
+        "Size": {
+          "X": 80.0,
+          "Y": 80.0,
+          "Z": 400.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 260.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_140_ATTACKD_01_01": {
+        "ID": "CP_140_ATTACKD_01_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 270.0
+        },
+        "Size_Time": 0.05,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 102.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.05,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": false,
+        "Life_Time": 0.0
+      },
+      "CP_140_ATTACKD_01_02": {
+        "ID": "CP_140_ATTACKD_01_02",
+        "Size": {
+          "X": 100.0,
+          "Y": 100.0,
+          "Z": 450.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_140_ATTACKE_02_02": {
+        "ID": "CP_140_ATTACKE_02_02",
+        "Size": {
+          "X": 300.0,
+          "Y": 300.0,
+          "Z": 300.0
+        },
+        "Size_Time": 0.5,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_140_ATTACKE_03_02": {
+        "ID": "CP_140_ATTACKE_03_02",
+        "Size": {
+          "X": 700.0,
+          "Y": 700.0,
+          "Z": 700.0
+        },
+        "Size_Time": 2.5,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 2.5
+      },
+      "CP_140_ATTACKF_01_01": {
+        "ID": "CP_140_ATTACKF_01_01",
+        "Size": {
+          "X": 250.0,
+          "Y": 250.0,
+          "Z": 500.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 400.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_150_ATTACKA_02_01": {
+        "ID": "CP_150_ATTACKA_02_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.3
+      },
+      "CP_150_ATTACKC_01_01": {
+        "ID": "CP_150_ATTACKC_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CP_160_ATTACKA_03_01": {
+        "ID": "CP_160_ATTACKA_03_01",
+        "Size": {
+          "X": 85.0,
+          "Y": 85.0,
+          "Z": 250.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -200.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_160_ATTACKC_02_01": {
+        "ID": "CP_160_ATTACKC_02_01",
+        "Size": {
+          "X": 100.0,
+          "Y": 100.0,
+          "Z": 300.0
+        },
+        "Size_Time": 0.15,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -150.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_160_ATTACKD_02_01": {
+        "ID": "CP_160_ATTACKD_02_01",
+        "Size": {
+          "X": 100.0,
+          "Y": 100.0,
+          "Z": 300.0
+        },
+        "Size_Time": 0.05,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 220.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.05,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_160_ATTACKD_02_02": {
+        "ID": "CP_160_ATTACKD_02_02",
+        "Size": {
+          "X": 100.0,
+          "Y": 100.0,
+          "Z": 300.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 220.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_200_ATTACKG_1_1": {
+        "ID": "CP_200_ATTACKG_1_1",
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0,
+          "Z": 120.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_200_ATTACKG_1_2": {
+        "ID": "CP_200_ATTACKG_1_2",
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0,
+          "Z": 100.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_200_ATTACKG_2_1": {
+        "ID": "CP_200_ATTACKG_2_1",
+        "Size": {
+          "X": 55.0,
+          "Y": 55.0,
+          "Z": 95.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.1,
+        "Location": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.1,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_180_ATTACKE_01_01": {
+        "ID": "CP_180_ATTACKE_01_01",
+        "Size": {
+          "X": 300.0,
+          "Y": 300.0,
+          "Z": 300.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_180_ATTACKE_02_01": {
+        "ID": "CP_180_ATTACKE_02_01",
+        "Size": {
+          "X": 450.0,
+          "Y": 450.0,
+          "Z": 450.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_180_ATTACKF_01_01": {
+        "ID": "CP_180_ATTACKF_01_01",
+        "Size": {
+          "X": 240.0,
+          "Y": 240.0,
+          "Z": 270.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_180_ATTACKF_01_02": {
+        "ID": "CP_180_ATTACKF_01_02",
+        "Size": {
+          "X": 300.0,
+          "Y": 300.0,
+          "Z": 330.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_180_ATTACKF_01_03": {
+        "ID": "CP_180_ATTACKF_01_03",
+        "Size": {
+          "X": 350.0,
+          "Y": 350.0,
+          "Z": 400.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.2
+      },
+      "CN_041_ATTACKI_01_02": {
+        "ID": "CN_041_ATTACKI_01_02",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CN_081_ATTACKI_01_01": {
+        "ID": "CN_081_ATTACKI_01_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 180.0
+        },
+        "Size_Time": 0.25,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CN_090_ATTACKH_01_01_1": {
+        "ID": "CN_090_ATTACKH_01_01_1",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.5
+      },
+      "CN_090_ATTACKH_01_01_2": {
+        "ID": "CN_090_ATTACKH_01_01_2",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.8
+      },
+      "CN_090_ATTACKH_01_01_3": {
+        "ID": "CN_090_ATTACKH_01_01_3",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CN_090_ATTACKH_02_01_1": {
+        "ID": "CN_090_ATTACKH_02_01_1",
+        "Size": {
+          "X": 450.0,
+          "Y": 450.0,
+          "Z": 450.0
+        },
+        "Size_Time": 0.38,
+        "Size_WaitTime": 0.01,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.6
+      },
+      "CN_090_ATTACKH_02_01_2": {
+        "ID": "CN_090_ATTACKH_02_01_2",
+        "Size": {
+          "X": 550.0,
+          "Y": 550.0,
+          "Z": 550.0
+        },
+        "Size_Time": 0.38,
+        "Size_WaitTime": 0.01,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.6
+      },
+      "CN_090_ATTACKH_02_01_3": {
+        "ID": "CN_090_ATTACKH_02_01_3",
+        "Size": {
+          "X": 650.0,
+          "Y": 650.0,
+          "Z": 650.0
+        },
+        "Size_Time": 0.38,
+        "Size_WaitTime": 0.01,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.6
+      },
+      "CP_121_ATTACKG_01_01": {
+        "ID": "CP_121_ATTACKG_01_01",
+        "Size": {
+          "X": 70.0,
+          "Y": 70.0,
+          "Z": 160.0
+        },
+        "Size_Time": 0.25,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": -70.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.25,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_121_ATTACKG_02_01": {
+        "ID": "CP_121_ATTACKG_02_01",
+        "Size": {
+          "X": 25.0,
+          "Y": 25.0,
+          "Z": 100.0
+        },
+        "Size_Time": 0.1,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": -60.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.0
+      },
+      "CP_230_ATTACKF_02_01": {
+        "ID": "CP_230_ATTACKF_02_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.35
+      },
+      "CP_250_ATTACKG_01_01": {
+        "ID": "CP_250_ATTACKG_01_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 400.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_250_ATTACKG_02_01": {
+        "ID": "CP_250_ATTACKG_02_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 600.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_250_ATTACKG_03_01": {
+        "ID": "CP_250_ATTACKG_03_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 800.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_250_ATTACKG_04_01": {
+        "ID": "CP_250_ATTACKG_04_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 400.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_250_ATTACKG_05_01": {
+        "ID": "CP_250_ATTACKG_05_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 600.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_250_ATTACKG_06_01": {
+        "ID": "CP_250_ATTACKG_06_01",
+        "Size": {
+          "X": 90.0,
+          "Y": 90.0,
+          "Z": 200.0
+        },
+        "Size_Time": 0.2,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 800.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.1,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 1.0
+      },
+      "CP_260_ATTACKG_01_01": {
+        "ID": "CP_260_ATTACKG_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.25
+      },
+      "CP_270_DAMAGE_COUNTER": {
+        "ID": "CP_270_DAMAGE_COUNTER",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CN_250_ATTACKA_02_01": {
+        "ID": "CN_250_ATTACKA_02_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CN_250_ATTACKD_01_01": {
+        "ID": "CN_250_ATTACKD_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.1
+      },
+      "CN_250_ATTACKH_01_01": {
+        "ID": "CN_250_ATTACKH_01_01",
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Size_Time": 0.0,
+        "Size_WaitTime": 0.0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Location_Time": 0.0,
+        "Location_WaitTime": 0.0,
+        "bLocation_AbsoluteRotation": true,
+        "Life_Time": 0.3
+      }
+    }
+  }
+]

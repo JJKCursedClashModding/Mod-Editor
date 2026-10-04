@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BannerDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_Banner'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BANNER_0110": {
+        "ID": "BANNER_0110",
+        "Id_BannerMessage": "GLS_NAME_DLC_0110",
+        "BannerTextureName": "T_UI_Banner_BannerImage_00",
+        "SmallBannerTextureName": "T_UI_Banner_BannerImage_Small_00",
+        "UserProgressFlag": 6
+      },
+      "BANNER_0120": {
+        "ID": "BANNER_0120",
+        "Id_BannerMessage": "GLS_NAME_DLC_0120",
+        "BannerTextureName": "T_UI_Banner_BannerImage_01",
+        "SmallBannerTextureName": "T_UI_Banner_BannerImage_Small_01",
+        "UserProgressFlag": 9
+      },
+      "BANNER_0220": {
+        "ID": "BANNER_0220",
+        "Id_BannerMessage": "GLS_NAME_DLC_0220",
+        "BannerTextureName": "T_UI_Banner_BannerImage_02",
+        "SmallBannerTextureName": "T_UI_Banner_BannerImage_Small_02",
+        "UserProgressFlag": 10
+      },
+      "BANNER_0210": {
+        "ID": "BANNER_0210",
+        "Id_BannerMessage": "GLS_NAME_DLC_0210",
+        "BannerTextureName": "T_UI_Banner_BannerImage_03",
+        "SmallBannerTextureName": "T_UI_Banner_BannerImage_Small_03",
+        "UserProgressFlag": 7
+      }
+    }
+  }
+]

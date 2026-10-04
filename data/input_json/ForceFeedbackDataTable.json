@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ForceFeedbackDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_ForceFeedback'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "NormalAttack": {
+        "ID": "NormalAttack",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.5,
+        "Duration": 0.25
+      },
+      "NormalAttack_Blow": {
+        "ID": "NormalAttack_Blow",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.5,
+        "Duration": 0.4
+      },
+      "NormalAttack_Down": {
+        "ID": "NormalAttack_Down",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.5,
+        "Duration": 0.8
+      },
+      "CursedEnergyAttack_1": {
+        "ID": "CursedEnergyAttack_1",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.6,
+        "Duration": 0.25
+      },
+      "CursedEnergyAttack_Blow_1": {
+        "ID": "CursedEnergyAttack_Blow_1",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.6,
+        "Duration": 0.4
+      },
+      "CursedEnergyAttack_2": {
+        "ID": "CursedEnergyAttack_2",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.8,
+        "Duration": 0.25
+      },
+      "CursedEnergyAttack_Blow_2": {
+        "ID": "CursedEnergyAttack_Blow_2",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.8,
+        "Duration": 0.4
+      },
+      "CursedEnergyAttack_3": {
+        "ID": "CursedEnergyAttack_3",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 1.0,
+        "Duration": 0.25
+      },
+      "CursedEnergyAttack_Blow_3": {
+        "ID": "CursedEnergyAttack_Blow_3",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 1.0,
+        "Duration": 0.6
+      },
+      "TagCombo": {
+        "ID": "TagCombo",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.2,
+        "Duration": 0.8
+      },
+      "Attacker_Small": {
+        "ID": "Attacker_Small",
+        "ForceFeedbackChannel": "EGameForceFeedbackChannel::All",
+        "Power": 0.3,
+        "Duration": 0.25
+      }
+    }
+  }
+]

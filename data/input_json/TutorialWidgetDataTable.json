@@ -1,0 +1,773 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialWidgetDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_TutorialWidget'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_WIDGET_INGAME_0001": {
+        "ID": "TUT_WIDGET_INGAME_0001",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Move",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0001",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0001",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0001_01",
+          "T_UI_Tutorial_InGame_0001_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0002": {
+        "ID": "TUT_WIDGET_INGAME_0002",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Dash",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0002",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0002",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0002_01",
+          "T_UI_Tutorial_InGame_0002_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0003": {
+        "ID": "TUT_WIDGET_INGAME_0003",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Jump",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0003",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0003",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0003_01",
+          "T_UI_Tutorial_InGame_0003_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0004": {
+        "ID": "TUT_WIDGET_INGAME_0004",
+        "TutorialWidgetType": "EGameTutorialWidgetType::NormalAttack",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0004",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0004",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0004_01",
+          "T_UI_Tutorial_InGame_0004_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0005": {
+        "ID": "TUT_WIDGET_INGAME_0005",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Target",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0005",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0005",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0005_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0006": {
+        "ID": "TUT_WIDGET_INGAME_0006",
+        "TutorialWidgetType": "EGameTutorialWidgetType::CursedEnergyAttack",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0006",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0006",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0006_01",
+          "T_UI_Tutorial_InGame_0006_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0007": {
+        "ID": "TUT_WIDGET_INGAME_0007",
+        "TutorialWidgetType": "EGameTutorialWidgetType::CursedLevel",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0007",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0007",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0007_01",
+          "T_UI_Tutorial_InGame_0007_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0008": {
+        "ID": "TUT_WIDGET_INGAME_0008",
+        "TutorialWidgetType": "EGameTutorialWidgetType::AutoCombo",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0008",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0008",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0008_01",
+          "T_UI_Tutorial_InGame_0008_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0009": {
+        "ID": "TUT_WIDGET_INGAME_0009",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Guard",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0009",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0009",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0009_01",
+          "T_UI_Tutorial_InGame_0009_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0010": {
+        "ID": "TUT_WIDGET_INGAME_0010",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Step",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0010",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0010",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0010_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0011": {
+        "ID": "TUT_WIDGET_INGAME_0011",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Review",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0011",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0011",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0011_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0101": {
+        "ID": "TUT_WIDGET_INGAME_0101",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Operation",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0101",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0101",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0101_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0102": {
+        "ID": "TUT_WIDGET_INGAME_0102",
+        "TutorialWidgetType": "EGameTutorialWidgetType::LinkCombo",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0102",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0102",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0102_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0103": {
+        "ID": "TUT_WIDGET_INGAME_0103",
+        "TutorialWidgetType": "EGameTutorialWidgetType::TabCombo",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0103",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0103",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0103_01",
+          "T_UI_Tutorial_InGame_0103_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0104": {
+        "ID": "TUT_WIDGET_INGAME_0104",
+        "TutorialWidgetType": "EGameTutorialWidgetType::SuperCursedEnergyAttack",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0104",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0104",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0104_01",
+          "T_UI_Tutorial_InGame_0104_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0201": {
+        "ID": "TUT_WIDGET_INGAME_0201",
+        "TutorialWidgetType": "EGameTutorialWidgetType::DomainExpansion",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0201",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0201",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0201_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0202": {
+        "ID": "TUT_WIDGET_INGAME_0202",
+        "TutorialWidgetType": "EGameTutorialWidgetType::DomainExpansion",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0202",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0202",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0202_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_INGAME_0301": {
+        "ID": "TUT_WIDGET_INGAME_0301",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Adapt",
+        "Id_TutorialLabel": "TUT_INGAME_LABEL_0301",
+        "Id_TutorialMessage": "TUT_INGAME_MESSAGE_0301",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_InGame_0301_01",
+          "T_UI_Tutorial_InGame_0301_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          true
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0001": {
+        "ID": "TUT_WIDGET_OUTGAME_0001",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Story",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0001",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0001",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0001_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0101": {
+        "ID": "TUT_WIDGET_OUTGAME_0101",
+        "TutorialWidgetType": "EGameTutorialWidgetType::StoryMissionSelect",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0101",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0101",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0101_01",
+          "T_UI_Tutorial_OutGame_0101_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0102": {
+        "ID": "TUT_WIDGET_OUTGAME_0102",
+        "TutorialWidgetType": "EGameTutorialWidgetType::StoryMissionSelectCorrelationDiagram",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0102",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0102",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0102_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0201": {
+        "ID": "TUT_WIDGET_OUTGAME_0201",
+        "TutorialWidgetType": "EGameTutorialWidgetType::StoryCorrelationDiagram",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0201",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0201",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0201_01",
+          "T_UI_Tutorial_OutGame_0201_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0301_10": {
+        "ID": "TUT_WIDGET_OUTGAME_0301_10",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsPlayer",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0301",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0301_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0301_01",
+          "T_UI_Tutorial_OutGame_0301_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0301_20": {
+        "ID": "TUT_WIDGET_OUTGAME_0301_20",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsPlayer",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0301",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0301_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0301_01",
+          "T_UI_Tutorial_OutGame_0301_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0401_10": {
+        "ID": "TUT_WIDGET_OUTGAME_0401_10",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemy",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0401",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0401_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0401_01",
+          "T_UI_Tutorial_OutGame_0401_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0401_20": {
+        "ID": "TUT_WIDGET_OUTGAME_0401_20",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemy",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0401",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0401_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0401_01",
+          "T_UI_Tutorial_OutGame_0401_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0402": {
+        "ID": "TUT_WIDGET_OUTGAME_0402",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemy",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0402",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0402",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0402_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0403": {
+        "ID": "TUT_WIDGET_OUTGAME_0403",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyRisk",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0403",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0403",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0403_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0404": {
+        "ID": "TUT_WIDGET_OUTGAME_0404",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyRisk",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0404",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0404",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0404_01",
+          "T_UI_Tutorial_OutGame_0502_01"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0501": {
+        "ID": "TUT_WIDGET_OUTGAME_0501",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyEquipment",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0501",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0501",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0501_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0502": {
+        "ID": "TUT_WIDGET_OUTGAME_0502",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyGrowth",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0502",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0502",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0502_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0601": {
+        "ID": "TUT_WIDGET_OUTGAME_0601",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyBindingVows",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0601",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0601_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0701": {
+        "ID": "TUT_WIDGET_OUTGAME_0701",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyInterval",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0701",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0701",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0701_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0801": {
+        "ID": "TUT_WIDGET_OUTGAME_0801",
+        "TutorialWidgetType": "EGameTutorialWidgetType::FreeBattle",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0801",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0801",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0801_01",
+          "T_UI_Tutorial_OutGame_0801_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0901_10": {
+        "ID": "TUT_WIDGET_OUTGAME_0901_10",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Lobby",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0901",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0901_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0901_01",
+          "T_UI_Tutorial_OutGame_0901_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_0901_20": {
+        "ID": "TUT_WIDGET_OUTGAME_0901_20",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Lobby",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_0901",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_0901_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_0901_01",
+          "T_UI_Tutorial_OutGame_0901_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1001_10": {
+        "ID": "TUT_WIDGET_OUTGAME_1001_10",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VisualLobbyHost",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1001",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1001_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1001_01",
+          "T_UI_Tutorial_OutGame_1001_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1001_20": {
+        "ID": "TUT_WIDGET_OUTGAME_1001_20",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VisualLobbyHost",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1001",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1001_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1001_01",
+          "T_UI_Tutorial_OutGame_1001_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1002_10": {
+        "ID": "TUT_WIDGET_OUTGAME_1002_10",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VisualLobby",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1002",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1002_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1002_01",
+          "T_UI_Tutorial_OutGame_1002_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1002_20": {
+        "ID": "TUT_WIDGET_OUTGAME_1002_20",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VisualLobby",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1002",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1002_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1002_01",
+          "T_UI_Tutorial_OutGame_1002_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1101": {
+        "ID": "TUT_WIDGET_OUTGAME_1101",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Shop",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1101",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1101",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1101_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1102": {
+        "ID": "TUT_WIDGET_OUTGAME_1102",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Shop",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1102",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1102",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1102_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1201": {
+        "ID": "TUT_WIDGET_OUTGAME_1201",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Customize",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1201",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1201",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1201_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1202": {
+        "ID": "TUT_WIDGET_OUTGAME_1202",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Customize",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1202",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1202",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1202_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1203": {
+        "ID": "TUT_WIDGET_OUTGAME_1203",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Customize",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1203",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1203",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1203_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1204": {
+        "ID": "TUT_WIDGET_OUTGAME_1204",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Customize",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1204",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1204",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1204_01",
+          "T_UI_Tutorial_OutGame_1204_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          true
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1301": {
+        "ID": "TUT_WIDGET_OUTGAME_1301",
+        "TutorialWidgetType": "EGameTutorialWidgetType::StoryDlcChapter",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1301",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1301",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1301_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1401": {
+        "ID": "TUT_WIDGET_OUTGAME_1401",
+        "TutorialWidgetType": "EGameTutorialWidgetType::Arcade",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1401",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1401",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1401_01",
+          "T_UI_Tutorial_OutGame_1401_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          true
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1501": {
+        "ID": "TUT_WIDGET_OUTGAME_1501",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMission",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1501",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1501",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1501_01",
+          "T_UI_Tutorial_OutGame_1501_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1601": {
+        "ID": "TUT_WIDGET_OUTGAME_1601",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMissionHelp",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1601_10",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1601_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1602": {
+        "ID": "TUT_WIDGET_OUTGAME_1602",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMissionHelp",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1601_20",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1602_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1603": {
+        "ID": "TUT_WIDGET_OUTGAME_1603",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMissionHelp",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1601_30",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1603_01",
+          "T_UI_Tutorial_OutGame_1603_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          true,
+          true
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1604": {
+        "ID": "TUT_WIDGET_OUTGAME_1604",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMissionHelp",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1601_40",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1604_01",
+          "T_UI_Tutorial_OutGame_1604_02"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      },
+      "TUT_WIDGET_OUTGAME_1605": {
+        "ID": "TUT_WIDGET_OUTGAME_1605",
+        "TutorialWidgetType": "EGameTutorialWidgetType::VsEnemyExtraMissionHelp",
+        "Id_TutorialLabel": "TUT_OUTGAME_LABEL_1601",
+        "Id_TutorialMessage": "TUT_OUTGAME_MESSAGE_1601_50",
+        "TutorialTextureName": [
+          "T_UI_Tutorial_OutGame_1605_01",
+          "None"
+        ],
+        "bSwitchPlatformTutorialTexture": [
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

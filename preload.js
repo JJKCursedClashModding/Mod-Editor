@@ -1,0 +1,105 @@
+const { contextBridge, ipcRenderer } = require("electron");
+
+const CHANNELS = [
+  "state:init",
+  "settings:save",
+  "dialog:pick-dir",
+  "dialog:pick-file",
+  "dialog:save-file",
+  "project:list",
+  "config:get",
+  "project:open",
+  "project:create",
+  "project:duplicate",
+  "project:delete",
+  "project:rename",
+  "project:reveal",
+  "tables:list",
+  "tables:prefix-index",
+  "chars:list",
+  "chars:set",
+  "chars:delete",
+  "table:schema",
+  "table:rows",
+  "row:get",
+  "row:set-field",
+  "row:reset-field",
+  "row:revert",
+  "row:create",
+  "row:duplicate",
+  "row:delete",
+  "rules:list",
+  "rules:add",
+  "rules:update",
+  "rules:delete",
+  "rules:move",
+  "rules:match-count",
+  "presets:list",
+  "presets:save",
+  "presets:apply",
+  "presets:delete",
+  "diff:table",
+  "diff:project",
+  "diff:projects",
+  "history:state",
+  "history:undo",
+  "history:redo",
+  "snapshots:list",
+  "snapshots:create",
+  "snapshots:restore",
+  "snapshots:delete",
+  "refs:targets",
+  "refs:referenced-by",
+  "refs:complete",
+  "validate:project",
+  "checklist:character",
+  "moveset:character",
+  "search:global",
+  "i18n:find",
+  "i18n:replace",
+  "i18n:propagate-en",
+  "conflicts:scan",
+  "docs:field",
+  "docs:save-field",
+  "docs:save-enum",
+  "manifest:get",
+  "manifest:save",
+  "assets:list",
+  "assets:add-file",
+  "assets:add-dir",
+  "assets:remove",
+  "registry:get",
+  "registry:save",
+  "params:rows",
+  "param:vanilla",
+  "param:get",
+  "param:clone",
+  "param:set",
+  "param:create",
+  "param:delete",
+  "param:comment",
+  "export:preview",
+  "export:folder",
+  "export:jjkmod",
+  "import:folder",
+  "patcher:test",
+];
+
+const api = {};
+for (const ch of CHANNELS) {
+  api[ch] = (...args) => ipcRenderer.invoke(ch, ...args);
+}
+
+contextBridge.exposeInMainWorld("jjkApi", {
+  ...api,
+  onAutoExport: (callback) => {
+    const handler = (_, payload) => callback(payload);
+    ipcRenderer.on("auto-export-done", handler);
+    return () => ipcRenderer.removeListener("auto-export-done", handler);
+  },
+  onMenuAction: (callback) => {
+    const handler = (_, action, payload) => callback(action, payload);
+    ipcRenderer.on("menu:action", handler);
+    return () => ipcRenderer.removeListener("menu:action", handler);
+  },
+});

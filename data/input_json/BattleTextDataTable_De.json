@@ -1,0 +1,2929 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BattleTextDataTable_De",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BTL_HUD_LABEL_0001": {
+        "ID": "BTL_HUD_LABEL_0001",
+        "Text": "<DYN=HIT_POINT>/<DYN=HIT_POINT_MAX>"
+      },
+      "BTL_HUD_LABEL_0101": {
+        "ID": "BTL_HUD_LABEL_0101",
+        "Text": "1"
+      },
+      "BTL_HUD_LABEL_0102": {
+        "ID": "BTL_HUD_LABEL_0102",
+        "Text": "2"
+      },
+      "BTL_HUD_LABEL_0103": {
+        "ID": "BTL_HUD_LABEL_0103",
+        "Text": "3"
+      },
+      "BTL_HUD_LABEL_0104": {
+        "ID": "BTL_HUD_LABEL_0104",
+        "Text": "+<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_HUD_LABEL_0201": {
+        "ID": "BTL_HUD_LABEL_0201",
+        "Text": "Normal"
+      },
+      "BTL_HUD_LABEL_0202": {
+        "ID": "BTL_HUD_LABEL_0202",
+        "Text": "Aggressiv"
+      },
+      "BTL_HUD_LABEL_0203": {
+        "ID": "BTL_HUD_LABEL_0203",
+        "Text": "Kooperativ"
+      },
+      "BTL_HUD_LABEL_0204": {
+        "ID": "BTL_HUD_LABEL_0204",
+        "Text": "Vorsichtig"
+      },
+      "BTL_HUD_LABEL_0301": {
+        "ID": "BTL_HUD_LABEL_0301",
+        "Text": "<DYN=MINUTES>:<DYN=SECONDS>"
+      },
+      "BTL_HUD_LABEL_0302": {
+        "ID": "BTL_HUD_LABEL_0302",
+        "Text": "∞"
+      },
+      "BTL_HUD_LABEL_0401": {
+        "ID": "BTL_HUD_LABEL_0401",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_HUD_LABEL_0402": {
+        "ID": "BTL_HUD_LABEL_0402",
+        "Text": "Doppel-K.O."
+      },
+      "BTL_HUD_LABEL_0403": {
+        "ID": "BTL_HUD_LABEL_0403",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "BTL_HUD_LABEL_0404": {
+        "ID": "BTL_HUD_LABEL_0404",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0007>"
+      },
+      "BTL_HUD_LABEL_0405": {
+        "ID": "BTL_HUD_LABEL_0405",
+        "Text": "Angepasst"
+      },
+      "BTL_HUD_LABEL_0501": {
+        "ID": "BTL_HUD_LABEL_0501",
+        "Text": "Wechseln"
+      },
+      "BTL_HUD_LABEL_0502": {
+        "ID": "BTL_HUD_LABEL_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1416>"
+      },
+      "BTL_HUD_LABEL_0503": {
+        "ID": "BTL_HUD_LABEL_0503",
+        "Text": "<GLO=GLS_GAME_WORDS_1704>"
+      },
+      "BTL_HUD_LABEL_0504": {
+        "ID": "BTL_HUD_LABEL_0504",
+        "Text": "Sprechen"
+      },
+      "BTL_HUD_LABEL_0505": {
+        "ID": "BTL_HUD_LABEL_0505",
+        "Text": "Einzigartig"
+      },
+      "BTL_HUD_LABEL_0506": {
+        "ID": "BTL_HUD_LABEL_0506",
+        "Text": "Loben"
+      },
+      "BTL_HUD_LABEL_0507": {
+        "ID": "BTL_HUD_LABEL_0507",
+        "Text": "Provokation"
+      },
+      "BTL_HUD_LABEL_0508": {
+        "ID": "BTL_HUD_LABEL_0508",
+        "Text": "Ziel: <DYN=TARGET>"
+      },
+      "BTL_HUD_LABEL_0509": {
+        "ID": "BTL_HUD_LABEL_0509",
+        "Text": "<DYN=USER_NAME>\nhat den Kampf verlassen."
+      },
+      "BTL_HUD_LABEL_0610": {
+        "ID": "BTL_HUD_LABEL_0610",
+        "Text": "Verwende mehrmals <img id=\"NormalAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0611": {
+        "ID": "BTL_HUD_LABEL_0611",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>"
+      },
+      "BTL_HUD_LABEL_0620": {
+        "ID": "BTL_HUD_LABEL_0620",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0621": {
+        "ID": "BTL_HUD_LABEL_0621",
+        "Text": "<GLO=GLS_GAME_WORDS_1313>"
+      },
+      "BTL_HUD_LABEL_0630": {
+        "ID": "BTL_HUD_LABEL_0630",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>/<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0631": {
+        "ID": "BTL_HUD_LABEL_0631",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "BTL_HUD_LABEL_0632": {
+        "ID": "BTL_HUD_LABEL_0632",
+        "Text": "<GLO=GLS_GAME_WORDS_1310>"
+      },
+      "BTL_HUD_LABEL_0640": {
+        "ID": "BTL_HUD_LABEL_0640",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0641": {
+        "ID": "BTL_HUD_LABEL_0641",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_HUD_LABEL_0650": {
+        "ID": "BTL_HUD_LABEL_0650",
+        "Text": "<img id=\"MoveLeft\"/>/<img id=\"MoveRight\"/>"
+      },
+      "BTL_HUD_LABEL_0651": {
+        "ID": "BTL_HUD_LABEL_0651",
+        "Text": "Spieleransicht wechseln"
+      },
+      "BTL_HUD_LABEL_0660": {
+        "ID": "BTL_HUD_LABEL_0660",
+        "Text": "<img id=\"NormalAttack_2\"/>/<img id=\"NormalAttack_3\"/>"
+      },
+      "BTL_HUD_LABEL_0661": {
+        "ID": "BTL_HUD_LABEL_0661",
+        "Text": "Extraktionstechnik"
+      },
+      "BTL_HUD_LABEL_0701": {
+        "ID": "BTL_HUD_LABEL_0701",
+        "Text": "Schaden"
+      },
+      "BTL_HUD_LABEL_0710": {
+        "ID": "BTL_HUD_LABEL_0710",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>"
+      },
+      "BTL_HUD_LABEL_0711": {
+        "ID": "BTL_HUD_LABEL_0711",
+        "Text": "<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_HUD_LABEL_0801": {
+        "ID": "BTL_HUD_LABEL_0801",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0802": {
+        "ID": "BTL_HUD_LABEL_0802",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0803": {
+        "ID": "BTL_HUD_LABEL_0803",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_OVERLAY_LABEL_0001": {
+        "ID": "BTL_OVERLAY_LABEL_0001",
+        "Text": "Kampf"
+      },
+      "BTL_OVERLAY_LABEL_0002": {
+        "ID": "BTL_OVERLAY_LABEL_0002",
+        "Text": "Start"
+      },
+      "BTL_OVERLAY_LABEL_0003": {
+        "ID": "BTL_OVERLAY_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_OVERLAY_LABEL_0004": {
+        "ID": "BTL_OVERLAY_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_OVERLAY_LABEL_0005": {
+        "ID": "BTL_OVERLAY_LABEL_0005",
+        "Text": "Zeit abgelaufen"
+      },
+      "BTL_OVERLAY_LABEL_0006": {
+        "ID": "BTL_OVERLAY_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1605>"
+      },
+      "BTL_OVERLAY_LABEL_0007": {
+        "ID": "BTL_OVERLAY_LABEL_0007",
+        "Text": "<GLO=GLS_GAME_WORDS_1606>"
+      },
+      "BTL_OVERLAY_LABEL_0008": {
+        "ID": "BTL_OVERLAY_LABEL_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1603>"
+      },
+      "BTL_OVERLAY_LABEL_0009": {
+        "ID": "BTL_OVERLAY_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1604>"
+      },
+      "BTL_OVERLAY_LABEL_0010": {
+        "ID": "BTL_OVERLAY_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1815> <DYN=WAVE_INDEX>/<DYN=MAX_WAVE_INDEX>"
+      },
+      "BTL_OVERLAY_LABEL_0011": {
+        "ID": "BTL_OVERLAY_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1816>"
+      },
+      "BTL_OVERLAY_LABEL_0012": {
+        "ID": "BTL_OVERLAY_LABEL_0012",
+        "Text": "Mission abgeschlossen"
+      },
+      "BTL_OVERLAY_LABEL_0013": {
+        "ID": "BTL_OVERLAY_LABEL_0013",
+        "Text": "Mission fehlgeschlagen"
+      },
+      "BTL_OVERLAY_LABEL_0014": {
+        "ID": "BTL_OVERLAY_LABEL_0014",
+        "Text": "<GLO=GLS_GAME_WORDS_1801> Sieg"
+      },
+      "BTL_OVERLAY_LABEL_0015": {
+        "ID": "BTL_OVERLAY_LABEL_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1802> Sieg"
+      },
+      "BTL_OVERLAY_LABEL_0016": {
+        "ID": "BTL_OVERLAY_LABEL_0016",
+        "Text": "Kampf!"
+      },
+      "BTL_OVERLAY_LABEL_0017": {
+        "ID": "BTL_OVERLAY_LABEL_0017",
+        "Text": "Mahoraga besiegt"
+      },
+      "BTL_OVERLAY_LABEL_0101": {
+        "ID": "BTL_OVERLAY_LABEL_0101",
+        "Text": "Chance auf Teamangriff!"
+      },
+      "BTL_OVERLAY_LABEL_0102": {
+        "ID": "BTL_OVERLAY_LABEL_0102",
+        "Text": "Gefahr!"
+      },
+      "BTL_MARKER_LABEL_0001": {
+        "ID": "BTL_MARKER_LABEL_0001",
+        "Text": "S<DYN=PLAYER_INDEX>"
+      },
+      "BTL_POST_EFFECT_LABEL_0001": {
+        "ID": "BTL_POST_EFFECT_LABEL_0001",
+        "Text": "Noch 1 Minute"
+      },
+      "BTL_RESULT_LABEL_0001": {
+        "ID": "BTL_RESULT_LABEL_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_0002": {
+        "ID": "BTL_RESULT_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_RESULT_LABEL_0003": {
+        "ID": "BTL_RESULT_LABEL_0003",
+        "Text": "Unentschieden"
+      },
+      "BTL_RESULT_LABEL_0101": {
+        "ID": "BTL_RESULT_LABEL_0101",
+        "Text": "MVP"
+      },
+      "BTL_RESULT_LABEL_0102": {
+        "ID": "BTL_RESULT_LABEL_0102",
+        "Text": "Rang"
+      },
+      "BTL_RESULT_LABEL_0201": {
+        "ID": "BTL_RESULT_LABEL_0201",
+        "Text": "Team A"
+      },
+      "BTL_RESULT_LABEL_0202": {
+        "ID": "BTL_RESULT_LABEL_0202",
+        "Text": "Team B"
+      },
+      "BTL_RESULT_LABEL_0301": {
+        "ID": "BTL_RESULT_LABEL_0301",
+        "Text": "C"
+      },
+      "BTL_RESULT_LABEL_0302": {
+        "ID": "BTL_RESULT_LABEL_0302",
+        "Text": "B"
+      },
+      "BTL_RESULT_LABEL_0303": {
+        "ID": "BTL_RESULT_LABEL_0303",
+        "Text": "A"
+      },
+      "BTL_RESULT_LABEL_0304": {
+        "ID": "BTL_RESULT_LABEL_0304",
+        "Text": "S"
+      },
+      "BTL_RESULT_LABEL_1001": {
+        "ID": "BTL_RESULT_LABEL_1001",
+        "Text": "Details"
+      },
+      "BTL_RESULT_LABEL_1002": {
+        "ID": "BTL_RESULT_LABEL_1002",
+        "Text": "Siegpunkte"
+      },
+      "BTL_RESULT_LABEL_1003": {
+        "ID": "BTL_RESULT_LABEL_1003",
+        "Text": "Schadenspunkte"
+      },
+      "BTL_RESULT_LABEL_1004": {
+        "ID": "BTL_RESULT_LABEL_1004",
+        "Text": "Teamangriffspunkte"
+      },
+      "BTL_RESULT_LABEL_1005": {
+        "ID": "BTL_RESULT_LABEL_1005",
+        "Text": "Erweckter-Technik-Punkte"
+      },
+      "BTL_RESULT_LABEL_1006": {
+        "ID": "BTL_RESULT_LABEL_1006",
+        "Text": "Zeitpunkte"
+      },
+      "BTL_RESULT_LABEL_1008": {
+        "ID": "BTL_RESULT_LABEL_1008",
+        "Text": "Gesamtpunkte"
+      },
+      "BTL_RESULT_LABEL_1101": {
+        "ID": "BTL_RESULT_LABEL_1101",
+        "Text": "Punktzahldetails"
+      },
+      "BTL_RESULT_LABEL_1102": {
+        "ID": "BTL_RESULT_LABEL_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_1103": {
+        "ID": "BTL_RESULT_LABEL_1103",
+        "Text": "Dominant"
+      },
+      "BTL_RESULT_LABEL_1104": {
+        "ID": "BTL_RESULT_LABEL_1104",
+        "Text": "Knapper Kampf"
+      },
+      "BTL_RESULT_LABEL_1105": {
+        "ID": "BTL_RESULT_LABEL_1105",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_RESULT_LABEL_1106": {
+        "ID": "BTL_RESULT_LABEL_1106",
+        "Text": "Schaden"
+      },
+      "BTL_RESULT_LABEL_1107": {
+        "ID": "BTL_RESULT_LABEL_1107",
+        "Text": "Kostenbonus"
+      },
+      "BTL_RESULT_LABEL_1108": {
+        "ID": "BTL_RESULT_LABEL_1108",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_RESULT_LABEL_1109": {
+        "ID": "BTL_RESULT_LABEL_1109",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "BTL_RESULT_LABEL_1110": {
+        "ID": "BTL_RESULT_LABEL_1110",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_RESULT_LABEL_1111": {
+        "ID": "BTL_RESULT_LABEL_1111",
+        "Text": "Höhepunkt-Abschluss"
+      },
+      "BTL_RESULT_LABEL_1112": {
+        "ID": "BTL_RESULT_LABEL_1112",
+        "Text": "<GLO=GLS_GAME_WORDS_1430>"
+      },
+      "BTL_RESULT_LABEL_1113": {
+        "ID": "BTL_RESULT_LABEL_1113",
+        "Text": "Erster Kill"
+      },
+      "BTL_RESULT_LABEL_1114": {
+        "ID": "BTL_RESULT_LABEL_1114",
+        "Text": "Keine Deckung"
+      },
+      "BTL_RESULT_LABEL_1115": {
+        "ID": "BTL_RESULT_LABEL_1115",
+        "Text": "Kein Tod"
+      },
+      "BTL_RESULT_LABEL_1116": {
+        "ID": "BTL_RESULT_LABEL_1116",
+        "Text": "Kein Schaden"
+      },
+      "BTL_RESULT_LABEL_1117": {
+        "ID": "BTL_RESULT_LABEL_1117",
+        "Text": "Maximaleinsatz"
+      },
+      "BTL_RESULT_LABEL_1118": {
+        "ID": "BTL_RESULT_LABEL_1118",
+        "Text": "Schneller Sieg"
+      },
+      "BTL_RESULT_LABEL_1119": {
+        "ID": "BTL_RESULT_LABEL_1119",
+        "Text": "Deckungszerstörer"
+      },
+      "BTL_RESULT_LABEL_1120": {
+        "ID": "BTL_RESULT_LABEL_1120",
+        "Text": "Finisher"
+      },
+      "BTL_RESULT_LABEL_1121": {
+        "ID": "BTL_RESULT_LABEL_1121",
+        "Text": "Statusleiden-Verursacher"
+      },
+      "BTL_RESULT_LABEL_1122": {
+        "ID": "BTL_RESULT_LABEL_1122",
+        "Text": "Distanzkämpfer"
+      },
+      "BTL_RESULT_LABEL_1123": {
+        "ID": "BTL_RESULT_LABEL_1123",
+        "Text": "Kombo-Kill"
+      },
+      "BTL_RESULT_LABEL_1124": {
+        "ID": "BTL_RESULT_LABEL_1124",
+        "Text": "Vernetzt"
+      },
+      "BTL_RESULT_LABEL_1125": {
+        "ID": "BTL_RESULT_LABEL_1125",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RESULT_LABEL_1126": {
+        "ID": "BTL_RESULT_LABEL_1126",
+        "Text": "Sprinter"
+      },
+      "BTL_RESULT_LABEL_1127": {
+        "ID": "BTL_RESULT_LABEL_1127",
+        "Text": "<GLO=GLS_GAME_WORDS_1412>"
+      },
+      "BTL_RESULT_LABEL_1128": {
+        "ID": "BTL_RESULT_LABEL_1128",
+        "Text": "Bodensprung"
+      },
+      "BTL_RESULT_LABEL_1129": {
+        "ID": "BTL_RESULT_LABEL_1129",
+        "Text": "Sphärenentfaltungskonter"
+      },
+      "BTL_RESULT_LABEL_1130": {
+        "ID": "BTL_RESULT_LABEL_1130",
+        "Text": "Wiederbelebung"
+      },
+      "BTL_RESULT_LABEL_1131": {
+        "ID": "BTL_RESULT_LABEL_1131",
+        "Text": "Doppelte Sphärenentfaltung"
+      },
+      "BTL_RESULT_LABEL_1132": {
+        "ID": "BTL_RESULT_LABEL_1132",
+        "Text": "Provokation"
+      },
+      "BTL_RESULT_LABEL_1133": {
+        "ID": "BTL_RESULT_LABEL_1133",
+        "Text": "Respekt"
+      },
+      "BTL_RESULT_LABEL_1134": {
+        "ID": "BTL_RESULT_LABEL_1134",
+        "Text": "Abwesend"
+      },
+      "BTL_RESULT_LABEL_1135": {
+        "ID": "BTL_RESULT_LABEL_1135",
+        "Text": "Unterstützung"
+      },
+      "BTL_RESULT_LABEL_1136": {
+        "ID": "BTL_RESULT_LABEL_1136",
+        "Text": "Stufenaufstieg"
+      },
+      "BTL_RESULT_LABEL_1201": {
+        "ID": "BTL_RESULT_LABEL_1201",
+        "Text": "Vier Schwarze Blitze"
+      },
+      "BTL_RESULT_LABEL_1202": {
+        "ID": "BTL_RESULT_LABEL_1202",
+        "Text": "Sphärenentfaltung: Pandämonischer Schrein"
+      },
+      "BTL_RESULT_LABEL_1203": {
+        "ID": "BTL_RESULT_LABEL_1203",
+        "Text": "Sphärenentfaltung: Schattengarten-Gefäß"
+      },
+      "BTL_RESULT_LABEL_1204": {
+        "ID": "BTL_RESULT_LABEL_1204",
+        "Text": "Strohpuppen-Voodoo: Haarnadel"
+      },
+      "BTL_RESULT_LABEL_1205": {
+        "ID": "BTL_RESULT_LABEL_1205",
+        "Text": "Sphärenentfaltung: Unbegrenzte Leere"
+      },
+      "BTL_RESULT_LABEL_1206": {
+        "ID": "BTL_RESULT_LABEL_1206",
+        "Text": "Wonnenwolken-Demonstration"
+      },
+      "BTL_RESULT_LABEL_1207": {
+        "ID": "BTL_RESULT_LABEL_1207",
+        "Text": "Fluchrede: \"Stopp\"; \"Sei zerquetscht\""
+      },
+      "BTL_RESULT_LABEL_1208": {
+        "ID": "BTL_RESULT_LABEL_1208",
+        "Text": "Panda-Gorilla-Kombo"
+      },
+      "BTL_RESULT_LABEL_1209": {
+        "ID": "BTL_RESULT_LABEL_1209",
+        "Text": "Verhältnistechnik"
+      },
+      "BTL_RESULT_LABEL_1210": {
+        "ID": "BTL_RESULT_LABEL_1210",
+        "Text": "Boogie-Woogie"
+      },
+      "BTL_RESULT_LABEL_1211": {
+        "ID": "BTL_RESULT_LABEL_1211",
+        "Text": "Reine Liebe"
+      },
+      "BTL_RESULT_LABEL_1212": {
+        "ID": "BTL_RESULT_LABEL_1212",
+        "Text": "Ultimative Fluchgeistkontrolle: Mahlstrom"
+      },
+      "BTL_RESULT_LABEL_1213": {
+        "ID": "BTL_RESULT_LABEL_1213",
+        "Text": "Sphärenentfaltung: Mantel der inneren Erleuchtung"
+      },
+      "BTL_RESULT_LABEL_1214": {
+        "ID": "BTL_RESULT_LABEL_1214",
+        "Text": "Sphärenentfaltung: Der Sarg des Eisenbergs"
+      },
+      "BTL_RESULT_LABEL_1215": {
+        "ID": "BTL_RESULT_LABEL_1215",
+        "Text": "Baumwurzel-Manifestation"
+      },
+      "BTL_RESULT_LABEL_1216": {
+        "ID": "BTL_RESULT_LABEL_1216",
+        "Text": "Wespentod!"
+      },
+      "BTL_RESULT_LABEL_1217": {
+        "ID": "BTL_RESULT_LABEL_1217",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RESULT_LABEL_1218": {
+        "ID": "BTL_RESULT_LABEL_1218",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RESULT_LABEL_1219": {
+        "ID": "BTL_RESULT_LABEL_1219",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RESULT_LABEL_1220": {
+        "ID": "BTL_RESULT_LABEL_1220",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RESULT_LABEL_1221": {
+        "ID": "BTL_RESULT_LABEL_1221",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RESULT_LABEL_1222": {
+        "ID": "BTL_RESULT_LABEL_1222",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RESULT_LABEL_1223": {
+        "ID": "BTL_RESULT_LABEL_1223",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RESULT_LABEL_1224": {
+        "ID": "BTL_RESULT_LABEL_1224",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RESULT_LABEL_1225": {
+        "ID": "BTL_RESULT_LABEL_1225",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RESULT_LABEL_1226": {
+        "ID": "BTL_RESULT_LABEL_1226",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RESULT_LABEL_1227": {
+        "ID": "BTL_RESULT_LABEL_1227",
+        "Text": "Blutmanipulation: Blutstoß"
+      },
+      "BTL_RANKING_LABEL_0001": {
+        "ID": "BTL_RANKING_LABEL_0001",
+        "Text": "Verursachter Schaden"
+      },
+      "BTL_RANKING_LABEL_0002": {
+        "ID": "BTL_RANKING_LABEL_0002",
+        "Text": "Erlittener Schaden"
+      },
+      "BTL_RANKING_LABEL_0003": {
+        "ID": "BTL_RANKING_LABEL_0003",
+        "Text": "Stärkster Angreifer"
+      },
+      "BTL_RANKING_LABEL_0004": {
+        "ID": "BTL_RANKING_LABEL_0004",
+        "Text": "Erster Kill"
+      },
+      "BTL_RANKING_LABEL_0005": {
+        "ID": "BTL_RANKING_LABEL_0005",
+        "Text": "Fluchkraft-Ladung"
+      },
+      "BTL_RANKING_LABEL_0006": {
+        "ID": "BTL_RANKING_LABEL_0006",
+        "Text": "Fluchkraft-Spezialist"
+      },
+      "BTL_RANKING_LABEL_0007": {
+        "ID": "BTL_RANKING_LABEL_0007",
+        "Text": "Jammer"
+      },
+      "BTL_RANKING_LABEL_0008": {
+        "ID": "BTL_RANKING_LABEL_0008",
+        "Text": "Turbo-Sprint"
+      },
+      "BTL_RANKING_LABEL_0009": {
+        "ID": "BTL_RANKING_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RANKING_LABEL_0010": {
+        "ID": "BTL_RANKING_LABEL_0010",
+        "Text": "Sphärenentfaltungs-Freak"
+      },
+      "BTL_RANKING_LABEL_0011": {
+        "ID": "BTL_RANKING_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>"
+      },
+      "BTL_RANKING_LABEL_0012": {
+        "ID": "BTL_RANKING_LABEL_0012",
+        "Text": "Kampfbeherrscher"
+      },
+      "BTL_RANKING_LABEL_0013": {
+        "ID": "BTL_RANKING_LABEL_0013",
+        "Text": "Finisher"
+      },
+      "BTL_RANKING_LABEL_0014": {
+        "ID": "BTL_RANKING_LABEL_0014",
+        "Text": "Sprinter"
+      },
+      "BTL_RANKING_LABEL_0015": {
+        "ID": "BTL_RANKING_LABEL_0015",
+        "Text": "Teamangriff"
+      },
+      "BTL_RANKING_LABEL_0016": {
+        "ID": "BTL_RANKING_LABEL_0016",
+        "Text": "Erwachen"
+      },
+      "BTL_RANKING_LABEL_0017": {
+        "ID": "BTL_RANKING_LABEL_0017",
+        "Text": "Scharfschütze"
+      },
+      "BTL_RANKING_LABEL_0018": {
+        "ID": "BTL_RANKING_LABEL_0018",
+        "Text": "Aus der Nähe"
+      },
+      "BTL_RANKING_LABEL_0019": {
+        "ID": "BTL_RANKING_LABEL_0019",
+        "Text": "Punktesammler"
+      },
+      "BTL_RANKING_LABEL_0101": {
+        "ID": "BTL_RANKING_LABEL_0101",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "BTL_RANKING_LABEL_0102": {
+        "ID": "BTL_RANKING_LABEL_0102",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "BTL_RANKING_LABEL_0103": {
+        "ID": "BTL_RANKING_LABEL_0103",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "BTL_RANKING_LABEL_0104": {
+        "ID": "BTL_RANKING_LABEL_0104",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "BTL_RANKING_LABEL_0105": {
+        "ID": "BTL_RANKING_LABEL_0105",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "BTL_RANKING_LABEL_0106": {
+        "ID": "BTL_RANKING_LABEL_0106",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "BTL_RANKING_LABEL_0107": {
+        "ID": "BTL_RANKING_LABEL_0107",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "BTL_RANKING_LABEL_0108": {
+        "ID": "BTL_RANKING_LABEL_0108",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "BTL_RANKING_LABEL_0109": {
+        "ID": "BTL_RANKING_LABEL_0109",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "BTL_RANKING_LABEL_0110": {
+        "ID": "BTL_RANKING_LABEL_0110",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "BTL_RANKING_LABEL_0111": {
+        "ID": "BTL_RANKING_LABEL_0111",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "BTL_RANKING_LABEL_0112": {
+        "ID": "BTL_RANKING_LABEL_0112",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1012>"
+      },
+      "BTL_RANKING_LABEL_0113": {
+        "ID": "BTL_RANKING_LABEL_0113",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "BTL_RANKING_LABEL_0114": {
+        "ID": "BTL_RANKING_LABEL_0114",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "BTL_RANKING_LABEL_0115": {
+        "ID": "BTL_RANKING_LABEL_0115",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "BTL_RANKING_LABEL_0116": {
+        "ID": "BTL_RANKING_LABEL_0116",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "BTL_RANKING_LABEL_0117": {
+        "ID": "BTL_RANKING_LABEL_0117",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RANKING_LABEL_0118": {
+        "ID": "BTL_RANKING_LABEL_0118",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RANKING_LABEL_0119": {
+        "ID": "BTL_RANKING_LABEL_0119",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RANKING_LABEL_0120": {
+        "ID": "BTL_RANKING_LABEL_0120",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RANKING_LABEL_0121": {
+        "ID": "BTL_RANKING_LABEL_0121",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RANKING_LABEL_0122": {
+        "ID": "BTL_RANKING_LABEL_0122",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RANKING_LABEL_0123": {
+        "ID": "BTL_RANKING_LABEL_0123",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RANKING_LABEL_0124": {
+        "ID": "BTL_RANKING_LABEL_0124",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RANKING_LABEL_0125": {
+        "ID": "BTL_RANKING_LABEL_0125",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RANKING_LABEL_0126": {
+        "ID": "BTL_RANKING_LABEL_0126",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RANKING_LABEL_0127": {
+        "ID": "BTL_RANKING_LABEL_0127",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "BTL_RANKING_LABEL_0201": {
+        "ID": "BTL_RANKING_LABEL_0201",
+        "Text": " Erholung nicht notwendig"
+      },
+      "BTL_RANKING_LABEL_0202": {
+        "ID": "BTL_RANKING_LABEL_0202",
+        "Text": "Bindende Schwüre willkommen"
+      },
+      "BTL_RANKING_LABEL_0203": {
+        "ID": "BTL_RANKING_LABEL_0203",
+        "Text": "Fluchgeist-Jäger"
+      },
+      "BTL_RANKING_LABEL_0204": {
+        "ID": "BTL_RANKING_LABEL_0204",
+        "Text": "Bossjäger"
+      },
+      "BTL_RANKING_LABEL_0205": {
+        "ID": "BTL_RANKING_LABEL_0205",
+        "Text": "Meister der Zerstörung"
+      },
+      "BTL_MISSION_ORDER_LABEL_0001": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0001",
+        "Text": "Ereignis"
+      },
+      "BTL_MISSION_ORDER_LABEL_0002": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0002",
+        "Text": "Erweckter-Technik-Treffer"
+      },
+      "BTL_MISSION_ORDER_LABEL_0003": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1823>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0004": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1824>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0005": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0005",
+        "Text": "Boss-Ereignis"
+      },
+      "BTL_MISSION_ORDER_LABEL_0009": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1834>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0010": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0010",
+        "Text": "Mahoraga-Kampf"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0001": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0001",
+        "Text": "Ereignis"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0002": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0002",
+        "Text": "Erweckter-Technik-Treffer"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0003": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0003",
+        "Text": "Verringere die gegnerische \nTeamanzeige auf 0!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0004": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "Text": "Überlebe für einen bestimmten Zeitraum!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0005": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0005",
+        "Text": "Besiege den zähen Gegner!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0009": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0009",
+        "Text": "Besiege alle Gegner!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0010": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "Text": "Verringere die Gesundheit des Gegners auf <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % oder weniger."
+      },
+      "BTL_MISSION_TASK_LABEL_0001": {
+        "ID": "BTL_MISSION_TASK_LABEL_0001",
+        "Text": "<DYN=VALUE>/<DYN=MAX_VALUE>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0001": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0001",
+        "Text": "Lande <DYN=VALUE>[ABS,FULL_WIDTH] Mal eine Kombotechnik/Extraktionstechnik."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0002": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0002",
+        "Text": "Lande <DYN=VALUE>[ABS,FULL_WIDTH] Mal eine Fluchtechnik/\nFluchwerkzeugtechnik."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0003": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0003",
+        "Text": "Führe eine Erweckter-Technik durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0004": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0004",
+        "Text": "Vermeide, <DYN=VALUE>[ABS,FULL_WIDTH]-mal oder öfter getroffen zu werden."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0005": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0005",
+        "Text": "Führe <DYN=VALUE>[ABS,FULL_WIDTH] Mal einen Teamangriff durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0006": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0006",
+        "Text": "Führe <DYN=VALUE>[ABS,FULL_WIDTH] Mal einen Kooperationsbonus durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0007": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0007",
+        "Text": "Gewinne mit einer Fluchtechnik/Fluchwerkzeugtechnik."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0008": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0008",
+        "Text": "Niederlage durch Teamangriff."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0009": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0009",
+        "Text": "Niederlage durch Erweckter-Technik."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0010": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0010",
+        "Text": "Niederlage während eines Kooperationsbonus."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0011": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0011",
+        "Text": "Führe <DYN=VALUE>[ABS,FULL_WIDTH] Mal eine Deckung durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0012": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0012",
+        "Text": "Führe <DYN=VALUE>[ABS,FULL_WIDTH] Mal eine perfekte Deckung durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0013": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0013",
+        "Text": "Beweg dich <DYN=VALUE>[FULL_WIDTH] Meter oder mehr."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0014": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0014",
+        "Text": "Lass einen Gegner mindestens <DYN=VALUE>[ABS,FULL_WIDTH] Mal vom Boden abprallen."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0015": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0015",
+        "Text": "Lass einen Gegner mindestens <DYN=VALUE>[ABS,FULL_WIDTH] Mal von der Wand abprallen."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0016": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0016",
+        "Text": "Bringe einen Gegner <DYN=VALUE>[ABS,FULL_WIDTH] Mal zu Boden."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0017": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0017",
+        "Text": "Vermeide, dass deine Teamanzeige um <DYN=VALUE>[ABS,FULL_WIDTH] oder mehr verringert wird."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0018": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0018",
+        "Text": "Führe einen Team-Kombo-Abschluss durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0019": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0019",
+        "Text": "Führe einen Erweckter-Technik-Abschluss durch."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0020": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0020",
+        "Text": "Greife einen Gegner in der Luft <DYN=VALUE>[ABS,FULL_WIDTH] Mal an."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0021": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0021",
+        "Text": "Lande den ersten Treffer."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0022": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0022",
+        "Text": "Schließe eine Welle mit einem Spieler auf maximaler Fluchkraftstufe ab."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0023": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0023",
+        "Text": "Bleibe <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) oder länger bewegungslos."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0024": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0024",
+        "Text": "Gewinne innerhalb von <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10",
+        "Text": "Verringert den Deckungswert um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20",
+        "Text": "Verringert den Deckungswert um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30",
+        "Text": "Verringert den Deckungswert um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40",
+        "Text": "Verringert den Deckungswert um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50",
+        "Text": "Verringert den Deckungswert um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10",
+        "Text": "Verringert die Sprintanzeige um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20",
+        "Text": "Verringert die Sprintanzeige um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30",
+        "Text": "Verringert die Sprintanzeige um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40",
+        "Text": "Verringert die Sprintanzeige um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50",
+        "Text": "Verringert die Sprintanzeige um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60",
+        "Text": "Verringert die Sprintanzeige um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60",
+        "Text": "Erhöht die Betäubungsdauer durch Deckungsbruch um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10",
+        "Text": "Verringert die max. Gesundheit um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20",
+        "Text": "Verringert die max. Gesundheit um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30",
+        "Text": "Verringert die max. Gesundheit um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40",
+        "Text": "Verringert die max. Gesundheit um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50",
+        "Text": "Verringert die max. Gesundheit um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60",
+        "Text": "Verringert die max. Gesundheit um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005",
+        "Text": "Verringert die max. Teamanzeige um <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60",
+        "Text": "Verringert den verursachten Schaden gegen Deckung um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60",
+        "Text": "Verringert den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10",
+        "Text": "Verringert den verursachten Schaden um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20",
+        "Text": "Verringert den verursachten Schaden um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30",
+        "Text": "Verringert den verursachten Schaden um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40",
+        "Text": "Verringert den verursachten Schaden um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50",
+        "Text": "Verringert den verursachten Schaden um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60",
+        "Text": "Verringert den verursachten Schaden um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60",
+        "Text": "Verringert den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10",
+        "Text": "Verringert das Bewegungstempo um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20",
+        "Text": "Verringert das Bewegungstempo um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30",
+        "Text": "Verringert das Bewegungstempo um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40",
+        "Text": "Verringert das Bewegungstempo um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50",
+        "Text": "Verringert das Bewegungstempo um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60",
+        "Text": "Verringert das Bewegungstempo um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60",
+        "Text": "Erhöht den Verbrauch der Sprintanzeige um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10",
+        "Text": "Verringert die Sprunghöhe um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20",
+        "Text": "Verringert die Sprunghöhe um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30",
+        "Text": "Verringert die Sprunghöhe um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40",
+        "Text": "Verringert die Sprunghöhe um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50",
+        "Text": "Verringert die Sprunghöhe um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60",
+        "Text": "Verringert die Sprunghöhe um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60",
+        "Text": "Erhöht die Betäubungsdauer nach einem Schritt um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10",
+        "Text": "Verringert die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20",
+        "Text": "Verringert die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30",
+        "Text": "Verringert die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40",
+        "Text": "Verringert die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50",
+        "Text": "Verringert die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018",
+        "Text": "Verringert den max. Wert der Fluchkraftstufe/Körperkraftstufe um <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020",
+        "Text": "Beschränkt den Einsatz von Deckung auf <DYN=VALUE>[ABS,FULL_WIDTH] Mal."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023",
+        "Text": "Beschränkt den Einsatz von Teamangriffen auf <DYN=VALUE>[ABS,FULL_WIDTH] Mal."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026",
+        "Text": "Beschränkt den Einsatz von Schritten auf <DYN=VALUE>[ABS,FULL_WIDTH] Mal."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028",
+        "Text": "Beschränkt den Einsatz von Springen auf <DYN=VALUE>[ABS,FULL_WIDTH] Mal."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029",
+        "Text": "Springen nicht möglich."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030",
+        "Text": "Reduziert die Erhöhung der Fluchkraftstufe/Körperkraftstufe auf <DYN=VALUE>[ABS,FULL_WIDTH] Mal."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032",
+        "Text": "Besiege eine Welle innerhalb von <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) nach Kampfbeginn oder du wirst handlungsunfähig."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033",
+        "Text": "Du wirst handlungsunfähig, wenn <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) nach Kampfbeginn deine Fluchkraftstufe/Körperkraftstufe bei 1 ist."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034",
+        "Text": "Besiege einen Gegner innerhalb von <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) nach Kampfbeginn oder du wirst handlungsunfähig."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035",
+        "Text": "Wirst du handlungsunfähig, schlägt die Mission fehl."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036",
+        "Text": "Erhältst du <DYN=VALUE>[ABS,FULL_WIDTH] Mal einen Malus für einen Bindenden Schwur, wirst du handlungsunfähig."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039",
+        "Text": "Verringert das Bewegungstempo um die Hälfte."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60",
+        "Text": "Verringert die Sprintanzeige bei jedem gegnerischen Angriff um (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042",
+        "Text": "Verringert Gesundheit schrittweise."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043",
+        "Text": "Halbiert den verursachten Schaden nach Kampfbeginn alle <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, handlungsunfähig zu werden, wenn dich ein Teamangriff erwischt."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30",
+        "Text": "Du erleidest (M) Schaden bei einem Wandsprung."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046",
+        "Text": "Flucht nicht möglich."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047",
+        "Text": "Verringert alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] %."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048",
+        "Text": "Gesundheit wird halbiert."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (XS)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (S)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (L)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (XL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60",
+        "Text": "Du erleidest bei Angriffen zusätzlichen Schaden (XXL)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050",
+        "Text": "Verringert die Teamanzeige zusätzlich um <DYN=VALUE>[ABS,FULL_WIDTH], wenn du besiegt wirst."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051",
+        "Text": "EP/<img id=\"Money_0001\"/> Juju-Punkte verringern sich nach dem Scheitern einer Mission\num <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]%."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052",
+        "Text": "Du wirst bei Angriffen handlungsunfähig."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053",
+        "Text": "Du kannst nicht laufen oder springen, wenn die Gesundheit nicht voll ist."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054",
+        "Text": "Verringert die <img id=\"Money_0001\"/> Juju-Punkte um <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % nach dem Scheitern einer Mission."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055",
+        "Text": "Beim Start eines Kampfes wird der verursachte Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um <DYN=VALUE2>[ABS,RATE_TO_PCT,FULL_WIDTH] verringert."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056",
+        "Text": "Verringert die max. Gesundheit um <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] %."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057",
+        "Text": "Du kannst keine Schritte, Deckungen und Sprints benutzen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058",
+        "Text": "Erhöht den erlittenen Schaden um <DYN=VALUE>[ABS,FULL_WIDTH]x."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059",
+        "Text": "Verringert die EP um <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % nach dem Scheitern einer Mission."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10",
+        "Text": "Erhöht die max. Gesundheit um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20",
+        "Text": "Erhöht die max. Gesundheit um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30",
+        "Text": "Erhöht die max. Gesundheit um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40",
+        "Text": "Erhöht die max. Gesundheit um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50",
+        "Text": "Erhöht die max. Gesundheit um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60",
+        "Text": "Erhöht die max. Gesundheit um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10",
+        "Text": "Erhöht die Sprintanzeige um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20",
+        "Text": "Erhöht die Sprintanzeige um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30",
+        "Text": "Erhöht die Sprintanzeige um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40",
+        "Text": "Erhöht die Sprintanzeige um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50",
+        "Text": "Erhöht die Sprintanzeige um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60",
+        "Text": "Erhöht die Sprintanzeige um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10",
+        "Text": "Erhöht den Deckungswert um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20",
+        "Text": "Erhöht den Deckungswert um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30",
+        "Text": "Erhöht den Deckungswert um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40",
+        "Text": "Erhöht den Deckungswert um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50",
+        "Text": "Erhöht den Deckungswert um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60",
+        "Text": "Erhöht den Deckungswert um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0004": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004",
+        "Text": "<DYN=VALUE2>[RATE_TO_PCT,FULL_WIDTH] % Gesundheitswiederherstellung, wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt (einmalig)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10",
+        "Text": "Erhöht den verursachten Schaden um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20",
+        "Text": "Erhöht den verursachten Schaden um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30",
+        "Text": "Erhöht den verursachten Schaden um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40",
+        "Text": "Erhöht den verursachten Schaden um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50",
+        "Text": "Erhöht den verursachten Schaden um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0006": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006",
+        "Text": "Erhöht bei Kampfbeginn alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60",
+        "Text": "Erhöht den Schaden durch Erweckter-Technik um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60",
+        "Text": "Erhöht die Wiederherstellung der Sprintanzeige beim Springen um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10",
+        "Text": "Verringert das Bewegungstempo des Gegners um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20",
+        "Text": "Verringert das Bewegungstempo des Gegners um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30",
+        "Text": "Verringert das Bewegungstempo des Gegners um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40",
+        "Text": "Verringert das Bewegungstempo des Gegners um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50",
+        "Text": "Verringert das Bewegungstempo des Gegners um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60",
+        "Text": "Verringert das Bewegungstempo des Gegners um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60",
+        "Text": "Erhöht den verursachten Schaden bei Kampfbeginn für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, für alle Verbündeten, die (XS) Gesundheit durch eine Kombo-/Extraktionstechnik zu regenerieren."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, für alle Verbündeten, die (S) Gesundheit durch eine Kombo-/Extraktionstechnik zu regenerieren."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0019": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei perfekter Deckung, die volle Gesundheit wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, mit einem Kooperationsbonus eine Fluchkraft-Erhöhung/Körperkraft-Verbesserung zu erhalten."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0021": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, für alle Verbündeten, bei Sieg über den Gegner zusätzliche Fluchkraft-Erhöhung/Körperkraft-Verbesserung zu erhalten."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0022": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei gegnerischen Angriffen den Schaden aufzuheben."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (S) wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (M) wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (L) wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (XL) wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (XXL) wiederherzustellen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den verursachten Schaden bei erfolgreichen Teamangriffen, um (XS) zu erhöhen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den verursachten Schaden bei erfolgreichen Teamangriffen, um (S) zu erhöhen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0025": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0025",
+        "Text": "Maximiert Anzeigen für Fluchkraft/Körperkraft und beendet Anzeigenverbrauch."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0026",
+        "Text": "Versetzt dich bei Kombotechniken/Extraktionstechniken in den dauerhaften Zustand. "
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten bei Besiegen des Gegners um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0029",
+        "Text": "Besiege jeden Gegner, der von deiner Erweckter-Technik getroffen wird."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0031": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0031",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0032",
+        "Text": "Vollständige Gesundheitswiederherstellung für alle Verbündeten bei erfolgreichen Teamangriffen."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0033",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Gesundheitswiederherstellung für alle Verbündeten bei erfolgreicher perfekter Deckung."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XS), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (S), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (M), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (L), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XL), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XXL), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0035",
+        "Text": "Stelle Gesundheit, je nach verursachtem Schaden, wieder her. \n"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0037": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0037",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]x Gesundheit für alle Verbündeten."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0038": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0038",
+        "Text": "Alle Verbündeten sind immun gegen Deckungsbrüche."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0039",
+        "Text": "Die Sprintanzeige aller Verbündeten sinkt nicht weiter."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60",
+        "Text": "Erhöht den verursachten Schaden aller Verbündeten um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]x Fluchkraft-Erhöhung/Körperkraft-Verbesserung für alle Verbündeten."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00",
+        "Text": "2x Fluchkraft-Erhöhung/Körperkraft-Verbesserung für alle Verbündeten."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0042",
+        "Text": "Erhöht die maximale Teamanzeige um <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0043",
+        "Text": "Die Teamanzeige sinkt nicht weiter (einmalig)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0044",
+        "Text": "Erhaltene EP/<img id=\"Money_0001\"/> Juju-Punkte erhöhen sich nach Abschluss einer Mission\num <DYN=VALUE>[ABS,FULL_WIDTH]x."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (XS) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (S) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (M) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (L) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (XL) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60",
+        "Text": "Erhöht den verursachten Schaden und Wiederherstellung von Fluchkraft/Körperkraft um (XXL) bei voller Gesundheit."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0046",
+        "Text": "Erhöht die <img id=\"Money_0001\"/> Juju-Punkte um <DYN=VALUE>[ABS,FULL_WIDTH]x nach Abschluss einer Mission."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0047",
+        "Text": "Fluchkraftstufe ist maximal gefüllt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0048",
+        "Text": "Erhöht den verursachten Schaden um <DYN=VALUE>[ABS,FULL_WIDTH]x für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) beim Start eines Kampfes."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0049": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0049",
+        "Text": "Erhöht den verursachten Schaden um <DYN=VALUE>[ABS,FULL_WIDTH]x."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0050",
+        "Text": "Fluchkraftstufe ist maximal gefüllt, und erhöht den verursachten Schaden um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (XS)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60",
+        "Text": "Erhöht schrittweise die Steigerung der Fluchkraft/Körperkraft um (XXL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0052",
+        "Text": "Erhöht die erhaltene EP um <DYN=VALUE>[ABS,FULL_WIDTH]x nach Abschluss einer Mission."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (XS) wiederhergestellt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (S) wiederhergestellt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (M) wiederhergestellt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (L) wiederhergestellt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (XL) wiederhergestellt."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (XXL) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0001": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0001",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Kooperationsbonus eine Fluchkraft-Erhöhung/Körperkraft-Verbesserung zu erhalten."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik, die Fluchkraft/Körperkraft in Höhe von (S) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik, die Fluchkraft/Körperkraft in Höhe von (M) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik, die Fluchkraft/Körperkraft in Höhe von (L) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_20",
+        "Text": "Erhöht durch Kombotechnik/Extraktionstechnik verursachten Schaden gegen Deckung um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_30",
+        "Text": "Erhöht durch Kombotechnik/Extraktionstechnik verursachten Schaden gegen Deckung um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_40",
+        "Text": "Erhöht durch Kombotechnik/Extraktionstechnik verursachten Schaden gegen Deckung um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik das gegnerische Bewegungstempo um (S) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik das gegnerische Bewegungstempo um (M) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Kombotechnik/Extraktionstechnik das gegnerische Bewegungstempo um (L) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_20",
+        "Text": "Verringert die Aktivierungszeit von Sphärenentfaltung um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_30",
+        "Text": "Verringert die Aktivierungszeit von Sphärenentfaltung um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_40",
+        "Text": "Verringert die Aktivierungszeit von Sphärenentfaltung um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_10",
+        "Text": "Erhöht den verursachten Schaden um (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_20",
+        "Text": "Erhöht den verursachten Schaden um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_30",
+        "Text": "Erhöht den verursachten Schaden um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_40",
+        "Text": "Erhöht den verursachten Schaden um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_50",
+        "Text": "Erhöht den verursachten Schaden um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_60",
+        "Text": "Erhöht den verursachten Schaden um (XXL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0008": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0008",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % auf vollständige Erholung der Fluchkraft/Körperkraft bei Besiegen eines Gegners."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_10",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_20",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_30",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_40",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_50",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_60",
+        "Text": "Bei Deckungsbruch durch einen Gegner erhältst du zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen von (XXL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_10",
+        "Text": "Verringert die Menge gegnerischer Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_20",
+        "Text": "Verringert die Menge gegnerischer Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_30",
+        "Text": "Verringert die Menge gegnerischer Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_40",
+        "Text": "Verringert die Menge gegnerischer Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_50",
+        "Text": "Verringert die Menge gegnerischer Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_20",
+        "Text": "Verringert das Bewegungstempo des Gegners um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_30",
+        "Text": "Verringert das Bewegungstempo des Gegners um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_40",
+        "Text": "Verringert das Bewegungstempo des Gegners um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_20",
+        "Text": "Verringert die gegnerische Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_30",
+        "Text": "Verringert die gegnerische Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_40",
+        "Text": "Verringert die gegnerische Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_20",
+        "Text": "Verringert die Erholung der gegnerischen Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_30",
+        "Text": "Verringert die Erholung der gegnerischen Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_40",
+        "Text": "Verringert die Erholung der gegnerischen Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_20",
+        "Text": "Verringert den gegnerischen Deckungswert um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_30",
+        "Text": "Verringert den gegnerischen Deckungswert um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_40",
+        "Text": "Verringert den gegnerischen Deckungswert um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_20",
+        "Text": "Wenn ein Gegner angreift, besteht ein (S) Risiko, zu stolpern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_30",
+        "Text": "Wenn ein Gegner angreift, besteht ein (M) Risiko, zu stolpern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_40",
+        "Text": "Wenn ein Gegner angreift, besteht ein (L) Risiko, zu stolpern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_20",
+        "Text": "Erhöht die max. Gesundheit um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_30",
+        "Text": "Erhöht die max. Gesundheit um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_40",
+        "Text": "Erhöht die max. Gesundheit um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_50",
+        "Text": "Erhöht die max. Gesundheit um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_20",
+        "Text": "Schrittweise Erholung der Gesundheit um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_30",
+        "Text": "Schrittweise Erholung der Gesundheit um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_40",
+        "Text": "Schrittweise Erholung der Gesundheit um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_20",
+        "Text": "Erhöht den verursachten Schaden um (S), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_30",
+        "Text": "Erhöht den verursachten Schaden um (M), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_40",
+        "Text": "Erhöht den verursachten Schaden um (L), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_50",
+        "Text": "Erhöht den verursachten Schaden um (XL), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_60",
+        "Text": "Erhöht den verursachten Schaden um (XXL), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_20",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (S), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_30",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (M), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_40",
+        "Text": "Erhöht den Schaden durch Teamangriffe um (L), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_20",
+        "Text": "Erhöht die Sprintanzeige um (S), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_30",
+        "Text": "Erhöht die Sprintanzeige um (M), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_40",
+        "Text": "Erhöht die Sprintanzeige um (L), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_50",
+        "Text": "Erhöht die Sprintanzeige um (XL), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_60",
+        "Text": "Erhöht die Sprintanzeige um (XXL), wenn die Gesundheit <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % oder weniger ist."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_20",
+        "Text": "Regeneriert Gesundheit um (S), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt (einmalig)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_30",
+        "Text": "Regeneriert Gesundheit um (M), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt (einmalig)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_40",
+        "Text": "Regeneriert Gesundheit um (L), wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt (einmalig)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_20",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_30",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_40",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_50",
+        "Text": "Erhöht alle Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Fluchkrafttechnik/Fluchwerkzeugtechnik die Fluchkraft/Körperkraft um (S) zu reduzieren."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Fluchkrafttechnik/Fluchwerkzeugtechnik die Fluchkraft/Körperkraft um (M) zu reduzieren."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei Treffern durch die Fluchkrafttechnik/Fluchwerkzeugtechnik die Fluchkraft/Körperkraft um (L) zu reduzieren."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_20",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_30",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_40",
+        "Text": "Erhöht den verursachten Schaden durch Fluchtechnik/Fluchwerkzeuge gegen Deckung um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_20",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_30",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_40",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_50",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_20",
+        "Text": "Verringert den erlittenen Schaden um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_30",
+        "Text": "Verringert den erlittenen Schaden um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_40",
+        "Text": "Verringert den erlittenen Schaden um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0033_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0033_00",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden zu halbieren."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0035": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0035",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen zu erhalten, wenn ein Angriff durch Deckung geblockt wird."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_20",
+        "Text": "Erhöht den durch Teamangriffe verursachten Schaden um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_30",
+        "Text": "Erhöht den durch Teamangriffe verursachten Schaden um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_40",
+        "Text": "Erhöht den durch Teamangriffe verursachten Schaden um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_20",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (S), wenn ein Statuseffekt vorliegt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_30",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (M), wenn ein Statuseffekt vorliegt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_40",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (L), wenn ein Statuseffekt vorliegt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_50",
+        "Text": "Erhöht die Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (XL), wenn ein Statuseffekt vorliegt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_20",
+        "Text": "Erhöht den Deckungswert um (S), wenn die Teamanzeige auf oder unter 3 fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_30",
+        "Text": "Erhöht den Deckungswert um (M), wenn die Teamanzeige auf oder unter 3 fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_40",
+        "Text": "Erhöht den Deckungswert um (L), wenn die Teamanzeige auf oder unter 3 fällt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_20",
+        "Text": "Stelle (S) Gesundheit, je nach verursachtem Schaden, wieder her.\n"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_30",
+        "Text": "Stelle (M) Gesundheit, je nach verursachtem Schaden, wieder her. \n"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_40",
+        "Text": "Stelle (L) Gesundheit, je nach verursachtem Schaden, wieder her. \n"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_10",
+        "Text": "Verringert bei einem Treffer die Sprintanzeige des Gegners für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (XS) ."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_20",
+        "Text": "Verringert bei einem Treffer die Sprintanzeige des Gegners für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (S) ."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_30",
+        "Text": "Verringert bei einem Treffer die Sprintanzeige des Gegners für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (M) ."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_40",
+        "Text": "Verringert bei einem Treffer die Sprintanzeige des Gegners für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (L) ."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0041": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0041",
+        "Text": "Hindert den Gegner für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n), wenn ein Treffer landet."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Treffer die gegnerische Fluchkraft/Körperkraft um (S) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Treffer die gegnerische Fluchkraft/Körperkraft um (M) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Treffer die gegnerische Fluchkraft/Körperkraft um (L) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0043": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0043",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Treffer zusätzliche Fluchkraft/Körperkraft erhalten."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0044": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0044",
+        "Text": "Nach einem Treffer wird <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang keine Sprintanzeige verbraucht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0045": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0045",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint zusätzliche Fluchkraft-Erhöhungen/Körperkraft-Verbesserungen zu erhalten."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (S) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (M) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei einem Sprint die Fluchkraft/Körperkraft in Höhe von (L) wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_10",
+        "Text": "Erhöht die Sprintanzeige um (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_20",
+        "Text": "Erhöht die Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_30",
+        "Text": "Erhöht die Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_40",
+        "Text": "Erhöht die Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_50",
+        "Text": "Erhöht die Sprintanzeige um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_60",
+        "Text": "Erhöht die Sprintanzeige um (XXL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_10",
+        "Text": "Verringert den Verbrauch der Sprintanzeige um (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_20",
+        "Text": "Verringert den Verbrauch der Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_30",
+        "Text": "Verringert den Verbrauch der Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_40",
+        "Text": "Verringert den Verbrauch der Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_50",
+        "Text": "Verringert den Verbrauch der Sprintanzeige um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_20",
+        "Text": "Erhöht die Erholung der Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_30",
+        "Text": "Erhöht die Erholung der Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_40",
+        "Text": "Erhöht die Erholung der Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei perfekter Deckung (S) die Gesundheit wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei perfekter Deckung (M) die Gesundheit wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, bei perfekter Deckung (L) die Gesundheit wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_20",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_30",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_40",
+        "Text": "Erhöht den verursachten Schaden gegen Deckung um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0052": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0052",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden aufzuheben."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (XS) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (S) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (M) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (L) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (XL) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % Chance, den erlittenen Schaden um (XXL) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_20",
+        "Text": "Erhöht den Deckungswert um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_30",
+        "Text": "Erhöht den Deckungswert um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_40",
+        "Text": "Erhöht den Deckungswert um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_20",
+        "Text": "Verringert die gegnerische Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_30",
+        "Text": "Verringert die gegnerische Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_40",
+        "Text": "Verringert die gegnerische Wiederherstellungsgeschwindigkeit von Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_20",
+        "Text": "Verringert die max. Gesundheit des Gegners um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_30",
+        "Text": "Verringert die max. Gesundheit des Gegners um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_40",
+        "Text": "Verringert die max. Gesundheit des Gegners um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_20",
+        "Text": "Verringert den verursachten Schaden des Gegners (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_30",
+        "Text": "Verringert den verursachten Schaden des Gegners (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_40",
+        "Text": "Verringert den verursachten Schaden des Gegners (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0058": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0058",
+        "Text": "Verhindert die Erholung der gegnerischen Sprintanzeige für <DYN=VALUE>[FULL_WIDTH] Sekunde(n), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_10",
+        "Text": "Verringere die gegnerische Sprintanzeige um (XS), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_20",
+        "Text": "Verringere die gegnerische Sprintanzeige um (S), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_30",
+        "Text": "Verringere die gegnerische Sprintanzeige um (M), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_40",
+        "Text": "Verringere die gegnerische Sprintanzeige um (L), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_50",
+        "Text": "Verringere die gegnerische Sprintanzeige um (XL), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_60",
+        "Text": "Verringere die gegnerische Sprintanzeige um (XXL), wenn man Schaden verursacht."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_10",
+        "Text": "Erhöht die Schrittdistanz um (XS)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_20",
+        "Text": "Erhöht die Schrittdistanz um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_30",
+        "Text": "Erhöht die Schrittdistanz um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_40",
+        "Text": "Erhöht die Schrittdistanz um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_50",
+        "Text": "Erhöht die Schrittdistanz um (XL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_60",
+        "Text": "Erhöht die Schrittdistanz um (XXL)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_20",
+        "Text": "Erhöht max. Gesundheit aller Verbündeten um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_30",
+        "Text": "Erhöht max. Gesundheit aller Verbündeten um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_40",
+        "Text": "Erhöht max. Gesundheit aller Verbündeten um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_20",
+        "Text": "Erhöht den Deckungswert aller Verbündeten um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_30",
+        "Text": "Erhöht den Deckungswert aller Verbündeten um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_40",
+        "Text": "Erhöht den Deckungswert aller Verbündeten um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_20",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (S) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_30",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (M) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_40",
+        "Text": "Gesundheit aller Verbündeten wird schrittweise um (L) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0064_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0064_00",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, erlittenen Schaden aller Verbündeten zu halbieren."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_40",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, erlittenen Schaden aller Verbündeten um (L) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_50",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, erlittenen Schaden aller Verbündeten um (XL) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_60",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, erlittenen Schaden aller Verbündeten um (XXL) zu verringern."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_20",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, bei perfekter Deckung (S) Gesundheit aller Verbündeten wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_30",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, bei perfekter Deckung (M) Gesundheit aller Verbündeten wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_40",
+        "Text": "Chance von <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] %, bei perfekter Deckung (L) Gesundheit aller Verbündeten wiederherzustellen."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_20",
+        "Text": "Stellt je nach von dir verursachtem Schaden (S) Gesundheit aller Verbündeten wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_30",
+        "Text": "Stellt je nach von dir verursachtem Schaden (M) Gesundheit aller Verbündeten wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_40",
+        "Text": "Stellt je nach von dir verursachtem Schaden (L) Gesundheit aller Verbündeten wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1000": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1000",
+        "Text": "Effekt wird ausgelöst, wenn die Gesundheit unter <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % fällt (einmalig)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_20",
+        "Text": "Erholung der Gesundheit um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_30",
+        "Text": "Erholung der Gesundheit um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_40",
+        "Text": "Erholung der Gesundheit um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_20",
+        "Text": "Verringert den erlittenen Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_30",
+        "Text": "Verringert den erlittenen Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_40",
+        "Text": "Verringert den erlittenen Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_20",
+        "Text": "Erholung von Fluchkraft/Körperkraft um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_30",
+        "Text": "Erholung von Fluchkraft/Körperkraft um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_40",
+        "Text": "Erholung von Fluchkraft/Körperkraft um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_20",
+        "Text": "Erholung der Sprintanzeige um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_30",
+        "Text": "Erholung der Sprintanzeige um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_40",
+        "Text": "Erholung der Sprintanzeige um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_20",
+        "Text": "Erhöht den verursachten Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_30",
+        "Text": "Erhöht den verursachten Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_40",
+        "Text": "Erhöht den verursachten Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_20",
+        "Text": "Erhöht Fluchkraft/Körperkraft um (S) für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_30",
+        "Text": "Erhöht Fluchkraft/Körperkraft um (M) für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_40",
+        "Text": "Erhöht Fluchkraft/Körperkraft um (L) für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1010_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1010_10",
+        "Text": "Stellt <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang Gesundheit schrittweise um (S) wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1011": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1011",
+        "Text": "Stellt <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang Gesundheit schrittweise um (M) wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1012": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1012",
+        "Text": "Stellt <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang Gesundheit schrittweise um (L) wieder her."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015",
+        "Text": "Versetzt dich für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) in den Dauerhaften Zustand."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_10",
+        "Text": "2x Kooperationsbonus-Erhöhung für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_30",
+        "Text": "Erhöht die Erholungsgeschwindigkeit der Sprintanzeige für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_40",
+        "Text": "Verringert gegnerischen Schaden für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_50",
+        "Text": "Unterbindet gegnerische Fluchkraft/Körperkraft vom steigern für <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_60",
+        "Text": "Hält die Verringerung der Sprintanzeige <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang auf."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_20",
+        "Text": "Verringert die Erholung der Fluchkraft/Körperkraft des Gegners um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_30",
+        "Text": "Verringert die Erholung der Fluchkraft/Körperkraft des Gegners um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_40",
+        "Text": "Verringert die Erholung der Fluchkraft/Körperkraft des Gegners um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_20",
+        "Text": "Verringert <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang die gegnerische Gesundheit schrittweise um (S)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_30",
+        "Text": "Verringert <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang die gegnerische Gesundheit schrittweise um (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_40",
+        "Text": "Verringert <DYN=VALUE>[ABS,FULL_WIDTH] Sekunde(n) lang die gegnerische Gesundheit schrittweise um (L)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_20",
+        "Text": "Gesundheit aller Verbündeten wird über <DYN=VALUE>[ABS,FULL_WIDTH] Sekunden hinweg schrittweise um (S) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_30",
+        "Text": "Gesundheit aller Verbündeten wird über <DYN=VALUE>[ABS,FULL_WIDTH] Sekunden hinweg schrittweise um (M) wiederhergestellt."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_40",
+        "Text": "Gesundheit aller Verbündeten wird über <DYN=VALUE>[ABS,FULL_WIDTH] Sekunden hinweg schrittweise um (L) wiederhergestellt."
+      }
+    }
+  }
+]

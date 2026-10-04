@@ -1,0 +1,385 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapGroundDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_MapGround'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "Soil": {
+        "ID": "Soil",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01001",
+          "SE_CP_000_01011",
+          "SE_CP_000_01021",
+          "SE_CP_000_01031",
+          "SE_CP_000_01041",
+          "SE_CP_000_01051"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Concrete": {
+        "ID": "Concrete",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01101",
+          "SE_CP_000_01111",
+          "SE_CP_000_01121",
+          "SE_CP_000_01131",
+          "SE_CP_000_01141",
+          "SE_CP_000_01151"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Grass": {
+        "ID": "Grass",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01201",
+          "SE_CP_000_01211",
+          "SE_CP_000_01221",
+          "SE_CP_000_01231",
+          "SE_CP_000_01241",
+          "SE_CP_000_01251"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Gravel": {
+        "ID": "Gravel",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01301",
+          "SE_CP_000_01311",
+          "SE_CP_000_01321",
+          "SE_CP_000_01331",
+          "SE_CP_000_01341",
+          "SE_CP_000_01351"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Iron": {
+        "ID": "Iron",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01401",
+          "SE_CP_000_01411",
+          "SE_CP_000_01421",
+          "SE_CP_000_01431",
+          "SE_CP_000_01441",
+          "SE_CP_000_01451"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Water": {
+        "ID": "Water",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01222",
+          "FX_CP_000_01122"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01501",
+          "SE_CP_000_01501",
+          "SE_CP_000_01501",
+          "SE_CP_000_01501",
+          "SE_CP_000_01541",
+          "SE_CP_000_01541"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01122",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02101",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02102",
+        "Id_Effect_JumpBegin": "FX_CP_000_02021",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03101",
+        "Id_Effect_Landing": "FX_CP_000_02022",
+        "Id_SoundEffect_Landing": "SE_CP_000_03102",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20221",
+          "FX_CP_000_20121",
+          "FX_CP_000_20321",
+          "FX_CP_000_01621",
+          "FX_CP_000_13221"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03102",
+          "SE_CP_000_02102",
+          "SE_CP_000_02102",
+          "SE_CP_000_03102",
+          "SE_CP_000_07101"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04221",
+        "Id_SoundEffect_Down": "SE_CP_000_07101",
+        "Id_Effect_Bound": "FX_CP_000_04621",
+        "Id_SoundEffect_Bound": "SE_CP_000_07111",
+        "EffectAttribute": 1,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Tile": {
+        "ID": "Tile",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01601",
+          "SE_CP_000_01601",
+          "SE_CP_000_01601",
+          "SE_CP_000_01601",
+          "SE_CP_000_01001",
+          "SE_CP_000_01001"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Wood": {
+        "ID": "Wood",
+        "Id_Effect_Footstep": [
+          "FX_CP_000_01212",
+          "FX_CP_000_01112"
+        ],
+        "Id_SoundEffect_Footstep": [
+          "SE_CP_000_01701",
+          "SE_CP_000_01711",
+          "SE_CP_000_01721",
+          "SE_CP_000_01731",
+          "SE_CP_000_01741",
+          "SE_CP_000_01751"
+        ],
+        "Id_Effect_DashBegin": "FX_CP_000_01112",
+        "Id_SoundEffect_DashBegin": "SE_CP_000_02001",
+        "Id_SoundEffect_DashEnd": "SE_CP_000_02002",
+        "Id_Effect_JumpBegin": "FX_CP_000_02011",
+        "Id_SoundEffect_JumpBegin": "SE_CP_000_03001",
+        "Id_Effect_Landing": "FX_CP_000_02012",
+        "Id_SoundEffect_Landing": "SE_CP_000_03002",
+        "Id_Effect_Ground": [
+          "FX_CP_000_20211",
+          "FX_CP_000_20111",
+          "FX_CP_000_20311",
+          "FX_CP_000_01611",
+          "FX_CP_000_13211"
+        ],
+        "Id_SoundEffect_Ground": [
+          "SE_CP_000_03002",
+          "SE_CP_000_02002",
+          "SE_CP_000_02002",
+          "SE_CP_000_03002",
+          "SE_CP_000_07001"
+        ],
+        "Id_Effect_Down": "FX_CP_000_04211",
+        "Id_SoundEffect_Down": "SE_CP_000_07001",
+        "Id_Effect_Bound": "FX_CP_000_04611",
+        "Id_SoundEffect_Bound": "SE_CP_000_07011",
+        "EffectAttribute": 0,
+        "EffectColor": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResultScoreDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_ResultScore'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "RESULT_SCORE_01": {
+        "ID": "RESULT_SCORE_01",
+        "ResultScore": "EGameResultScore::Win",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 250
+      },
+      "RESULT_SCORE_02": {
+        "ID": "RESULT_SCORE_02",
+        "ResultScore": "EGameResultScore::OverwhelmingWin",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 350
+      },
+      "RESULT_SCORE_03": {
+        "ID": "RESULT_SCORE_03",
+        "ResultScore": "EGameResultScore::GoodFight",
+        "Threshold": 0.5,
+        "Threshold_Story": 0.5,
+        "Threshold_PvE_Normal": 0.5,
+        "Threshold_PvE_Survival": 0.5,
+        "Threshold_Arcade": 0.5,
+        "UpperLimit": 0,
+        "Score": 100
+      },
+      "RESULT_SCORE_04": {
+        "ID": "RESULT_SCORE_04",
+        "ResultScore": "EGameResultScore::Defeat",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 100
+      },
+      "RESULT_SCORE_05": {
+        "ID": "RESULT_SCORE_05",
+        "ResultScore": "EGameResultScore::Assist",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_06": {
+        "ID": "RESULT_SCORE_06",
+        "ResultScore": "EGameResultScore::Damage",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 0
+      },
+      "RESULT_SCORE_07": {
+        "ID": "RESULT_SCORE_07",
+        "ResultScore": "EGameResultScore::LevelUp",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 4,
+        "Score": 25
+      },
+      "RESULT_SCORE_08": {
+        "ID": "RESULT_SCORE_08",
+        "ResultScore": "EGameResultScore::MaximumOutput",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_09": {
+        "ID": "RESULT_SCORE_09",
+        "ResultScore": "EGameResultScore::LinkCombo",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 10,
+        "Score": 10
+      },
+      "RESULT_SCORE_10": {
+        "ID": "RESULT_SCORE_10",
+        "ResultScore": "EGameResultScore::SpecialTagCombo",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 2,
+        "Score": 50
+      },
+      "RESULT_SCORE_11": {
+        "ID": "RESULT_SCORE_11",
+        "ResultScore": "EGameResultScore::SuperCursedEnergyAttack",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 150
+      },
+      "RESULT_SCORE_12": {
+        "ID": "RESULT_SCORE_12",
+        "ResultScore": "EGameResultScore::SpecialAttackFinish",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 100
+      },
+      "RESULT_SCORE_13": {
+        "ID": "RESULT_SCORE_13",
+        "ResultScore": "EGameResultScore::FirstAttack",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_14": {
+        "ID": "RESULT_SCORE_14",
+        "ResultScore": "EGameResultScore::FirstKill",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_15": {
+        "ID": "RESULT_SCORE_15",
+        "ResultScore": "EGameResultScore::NoGuard",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_16": {
+        "ID": "RESULT_SCORE_16",
+        "ResultScore": "EGameResultScore::NoDeath",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 75
+      },
+      "RESULT_SCORE_17": {
+        "ID": "RESULT_SCORE_17",
+        "ResultScore": "EGameResultScore::NoDamage",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 100
+      },
+      "RESULT_SCORE_18": {
+        "ID": "RESULT_SCORE_18",
+        "ResultScore": "EGameResultScore::FastFinish",
+        "Threshold": 60.0,
+        "Threshold_Story": 60.0,
+        "Threshold_PvE_Normal": 60.0,
+        "Threshold_PvE_Survival": 60.0,
+        "Threshold_Arcade": 60.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_19": {
+        "ID": "RESULT_SCORE_19",
+        "ResultScore": "EGameResultScore::GuardBreak",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_20": {
+        "ID": "RESULT_SCORE_20",
+        "ResultScore": "EGameResultScore::Finisher",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_21": {
+        "ID": "RESULT_SCORE_21",
+        "ResultScore": "EGameResultScore::Debuff",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 5,
+        "Score": 10
+      },
+      "RESULT_SCORE_22": {
+        "ID": "RESULT_SCORE_22",
+        "ResultScore": "EGameResultScore::LongShot",
+        "Threshold": 3000.0,
+        "Threshold_Story": 3000.0,
+        "Threshold_PvE_Normal": 3000.0,
+        "Threshold_PvE_Survival": 3000.0,
+        "Threshold_Arcade": 3000.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_23": {
+        "ID": "RESULT_SCORE_23",
+        "ResultScore": "EGameResultScore::KillStreak",
+        "Threshold": 10.0,
+        "Threshold_Story": 10.0,
+        "Threshold_PvE_Normal": 10.0,
+        "Threshold_PvE_Survival": 10.0,
+        "Threshold_Arcade": 10.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_24": {
+        "ID": "RESULT_SCORE_24",
+        "ResultScore": "EGameResultScore::Involvement",
+        "Threshold": 0.2,
+        "Threshold_Story": 0.2,
+        "Threshold_PvE_Normal": 0.2,
+        "Threshold_PvE_Survival": 0.2,
+        "Threshold_Arcade": 0.2,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_25": {
+        "ID": "RESULT_SCORE_25",
+        "ResultScore": "EGameResultScore::JustGuard",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 5,
+        "Score": 10
+      },
+      "RESULT_SCORE_26": {
+        "ID": "RESULT_SCORE_26",
+        "ResultScore": "EGameResultScore::Runner",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_27": {
+        "ID": "RESULT_SCORE_27",
+        "ResultScore": "EGameResultScore::WallBound",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 30
+      },
+      "RESULT_SCORE_28": {
+        "ID": "RESULT_SCORE_28",
+        "ResultScore": "EGameResultScore::GroundBound",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 30
+      },
+      "RESULT_SCORE_29": {
+        "ID": "RESULT_SCORE_29",
+        "ResultScore": "EGameResultScore::DomainExpansionReturn",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 100
+      },
+      "RESULT_SCORE_30": {
+        "ID": "RESULT_SCORE_30",
+        "ResultScore": "EGameResultScore::ReturnToHell",
+        "Threshold": 3.0,
+        "Threshold_Story": 3.0,
+        "Threshold_PvE_Normal": 3.0,
+        "Threshold_PvE_Survival": 3.0,
+        "Threshold_Arcade": 3.0,
+        "UpperLimit": 0,
+        "Score": 50
+      },
+      "RESULT_SCORE_31": {
+        "ID": "RESULT_SCORE_31",
+        "ResultScore": "EGameResultScore::DomainExpansionOverlap",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 30
+      },
+      "RESULT_SCORE_32": {
+        "ID": "RESULT_SCORE_32",
+        "ResultScore": "EGameResultScore::Provocation",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 10
+      },
+      "RESULT_SCORE_33": {
+        "ID": "RESULT_SCORE_33",
+        "ResultScore": "EGameResultScore::Respect",
+        "Threshold": 0.0,
+        "Threshold_Story": 0.0,
+        "Threshold_PvE_Normal": 0.0,
+        "Threshold_PvE_Survival": 0.0,
+        "Threshold_Arcade": 0.0,
+        "UpperLimit": 0,
+        "Score": 10
+      },
+      "RESULT_SCORE_34": {
+        "ID": "RESULT_SCORE_34",
+        "ResultScore": "EGameResultScore::NoOperation",
+        "Threshold": 30.0,
+        "Threshold_Story": 30.0,
+        "Threshold_PvE_Normal": 30.0,
+        "Threshold_PvE_Survival": 30.0,
+        "Threshold_Arcade": 30.0,
+        "UpperLimit": 0,
+        "Score": -100
+      }
+    }
+  }
+]

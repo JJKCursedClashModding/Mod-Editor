@@ -1,0 +1,377 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MissionOrderDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_MissionOrder'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "EVENT": {
+        "ID": "EVENT",
+        "OrderType": "EGameMissionOrderType::Event",
+        "Value": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0001",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "No.92": {
+        "ID": "No.92",
+        "OrderType": "EGameMissionOrderType::Event",
+        "Value": [
+          0.25,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0001",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "No.112_1": {
+        "ID": "No.112_1",
+        "OrderType": "EGameMissionOrderType::Event",
+        "Value": [
+          0.75,
+          1.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0001",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "No.112_2": {
+        "ID": "No.112_2",
+        "OrderType": "EGameMissionOrderType::Event",
+        "Value": [
+          0.5,
+          1.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0001",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "No.112_3": {
+        "ID": "No.112_3",
+        "OrderType": "EGameMissionOrderType::Event",
+        "Value": [
+          0.25,
+          1.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0001",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "No.106": {
+        "ID": "No.106",
+        "OrderType": "EGameMissionOrderType::SuperCursedEnergyAttackFinish",
+        "Value": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0010",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_TASK_MESSAGE_0019",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PROTRACTED": {
+        "ID": "PROTRACTED",
+        "OrderType": "EGameMissionOrderType::Protracted",
+        "Value": [
+          45.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0004",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "SUPER_CURSED_ENERGY_ATTACK": {
+        "ID": "SUPER_CURSED_ENERGY_ATTACK",
+        "OrderType": "EGameMissionOrderType::SuperCursedEnergyAttack",
+        "Value": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_TASK_MESSAGE_0009",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_TASK_MESSAGE_0009",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "DOMAIN_EXPANSION": {
+        "ID": "DOMAIN_EXPANSION",
+        "OrderType": "EGameMissionOrderType::DomainExpansion",
+        "Value": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_TASK_MESSAGE_0003",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_TASK_MESSAGE_0003",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "SPECIAL_TAG_COMBO": {
+        "ID": "SPECIAL_TAG_COMBO",
+        "OrderType": "EGameMissionOrderType::SpecialTagCombo",
+        "Value": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0002",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_LABEL_0002",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_PROTRACTED_30": {
+        "ID": "PVE_PROTRACTED_30",
+        "OrderType": "EGameMissionOrderType::Protracted",
+        "Value": [
+          30.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0004",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+          "EGameBindingVowsEffectType::DeadWaveClearWithTime",
+          "EGameBindingVowsEffectType::DeadCursedEnergyLevelWithTime",
+          "EGameBindingVowsEffectType::DeadKillWithTime",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_PROTRACTED_60": {
+        "ID": "PVE_PROTRACTED_60",
+        "OrderType": "EGameMissionOrderType::Protracted",
+        "Value": [
+          60.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0004",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+          "EGameBindingVowsEffectType::DeadWaveClearWithTime",
+          "EGameBindingVowsEffectType::DeadCursedEnergyLevelWithTime",
+          "EGameBindingVowsEffectType::DeadKillWithTime",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_PROTRACTED_90": {
+        "ID": "PVE_PROTRACTED_90",
+        "OrderType": "EGameMissionOrderType::Protracted",
+        "Value": [
+          90.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0004",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+          "EGameBindingVowsEffectType::DeadWaveClearWithTime",
+          "EGameBindingVowsEffectType::DeadCursedEnergyLevelWithTime",
+          "EGameBindingVowsEffectType::DeadKillWithTime",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_PROTRACTED_120": {
+        "ID": "PVE_PROTRACTED_120",
+        "OrderType": "EGameMissionOrderType::Protracted",
+        "Value": [
+          120.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0004",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+          "EGameBindingVowsEffectType::DeadWaveClearWithTime",
+          "EGameBindingVowsEffectType::DeadCursedEnergyLevelWithTime",
+          "EGameBindingVowsEffectType::DeadKillWithTime",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_NORMAL_01": {
+        "ID": "PVE_NORMAL_01",
+        "OrderType": "EGameMissionOrderType::Normal",
+        "Value": [
+          999.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0003",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0003",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_ANNIHILATION_01": {
+        "ID": "PVE_ANNIHILATION_01",
+        "OrderType": "EGameMissionOrderType::Normal",
+        "Value": [
+          999.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0009",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0009",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_EXTRA_MISSION_01": {
+        "ID": "PVE_EXTRA_MISSION_01",
+        "OrderType": "EGameMissionOrderType::Extra",
+        "Value": [
+          999.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0010",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0003",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      },
+      "PVE_BOSS_01": {
+        "ID": "PVE_BOSS_01",
+        "OrderType": "EGameMissionOrderType::Boss",
+        "Value": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText_OrderName": "BTL_MISSION_ORDER_LABEL_0005",
+        "Id_BattleText_OrderDetail": "BTL_MISSION_ORDER_MESSAGE_0005",
+        "ExcludeBindingVowsEffectType": [
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None",
+          "EGameBindingVowsEffectType::None"
+        ]
+      }
+    }
+  }
+]

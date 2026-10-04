@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_Ko",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "이동"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "공중 <GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "지상 <GLO=GLS_GAME_WORDS_1407>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "고죠 선생님 곁으로 간다"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "이동"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>으로 캐릭터를 이동시킵니다."
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "<img id=\"Dash\"/>으로 「<GLO=GLS_GAME_WORDS_1405>」할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1405> 중에는 「<GLO=GLS_GAME_WORDS_1504>」를 소비하며\n지상에 있으면 <GLO=GLS_GAME_WORDS_1819>됩니다. 또한 <GLO=GLS_GAME_WORDS_1405> 중에 <GLO=GLS_GAME_WORDS_1406>하면\n평소보다 높이 뛰는 「<GLO=GLS_GAME_WORDS_1407>」가 발동됩니다."
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "<img id=\"Jump\"/>으로 「<GLO=GLS_GAME_WORDS_1406>」할 수 있습니다.\n또한 <GLO=GLS_GAME_WORDS_1406> 중에 한 번 더 <img id=\"Jump\"/>을 입력하면\n2단 <GLO=GLS_GAME_WORDS_1406>가 발동됩니다."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "연속 격투 공격"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": "<img id=\"NormalAttack_1\"/> 연속 입력"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "어퍼"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "돌려차기"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "내려차기"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "날아 차기"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "파편 날리기"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "<GLO=GLS_GAME_WORDS_1307> 1"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>로\n<GLO=GLS_GAME_WORDS_1401>을 2로 만든다"
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1302>"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "<img id=\"NormalAttack_1\"/>으로 공격합니다.\n<img id=\"NormalAttack_2\"/>/<img id=\"NormalAttack_3\"/>으로도 공격을 발동할 수 있습니다.\n또한 동시에 <img id=\"MoveDown\"/>을 입력해 다른 공격을 발동시킬 수 있습니다."
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1417>"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1813> 중에는 항상 적 캐릭터를 타깃으로 삼고\n공격을 발동하면 자동으로 적을 공격합니다.\n\n적이 여럿이면 <img id=\"TargetChangeLeft\"/><img id=\"TargetChangeRight\"/>으로 공격 대상을 변경 가능합니다."
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "저주를 저주로 퇴치하기 위한 공격이 「<GLO=GLS_GAME_WORDS_1307>」입니다.\n이 공격은 적에게 대미지를 주는 기본적인 수단입니다.\n\n<img id=\"CursedEnergyAttack_1\"/>과 <img id=\"CursedEnergyAttack_2\"/>은 각각 다른 <GLO=GLS_GAME_WORDS_1307>를 구사할 수 있습니다.\n이 기술을 사용하려면 <GLO=GLS_GAME_WORDS_1503> 게이지에\n<GLO=GLS_GAME_WORDS_1503>이 모여야 합니다.\n<GLO=GLS_GAME_WORDS_1503> 게이지는 사용해도 시간이 경과하면 <GLO=GLS_GAME_WORDS_1819>됩니다."
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "자신의 <GLO=GLS_GAME_WORDS_1503>을 상승시키는 공격을 「<GLO=GLS_GAME_WORDS_1302>」라고 합니다.\n<GLO=GLS_GAME_WORDS_1302>를 적에게 명중시키면 <GLO=GLS_GAME_WORDS_1503> 게이지가 상승해\n일정 수치에 도달하면 자신의 <GLO=GLS_GAME_WORDS_1401>이 올라갑니다.\n레벨 업하면 <GLO=GLS_GAME_WORDS_1307>가 강화되어 대미지가 증가합니다."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>를 성공시킨다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": "<img id=\"NormalAttack_1\"/> 연속 입력"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "공격을 3회 <GLO=GLS_GAME_WORDS_1409>한다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "10초 동안 공격을 피한다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>+<img id=\"MoveLeft\"/>or<img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "고죠 선생님의 <GLO=GLS_GAME_WORDS_1502>을\n0으로 만든다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "<img id=\"NormalAttack_1\"/>을 연속으로 입력하면 <GLO=GLS_GAME_WORDS_1302>와 <GLO=GLS_GAME_WORDS_1307>를 결합한 콤보인\n「<GLO=GLS_GAME_WORDS_1301>」를 사용할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1307>를 발동시킬 만큼의 <GLO=GLS_GAME_WORDS_1503>이 있는 상태로\n「<GLO=GLS_GAME_WORDS_1301>」를 쓰면 마지막 기술이 <GLO=GLS_GAME_WORDS_1307>로 변화합니다."
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "<img id=\"Guard\"/>으로 적의 공격을 막는 「<GLO=GLS_GAME_WORDS_1409>」를 발동합니다.\n입력 중에는 <GLO=GLS_GAME_WORDS_1409> 상태가 되어 받은 대미지를 무효화합니다.\n단, <GLO=GLS_GAME_WORDS_1409> 중에 계속 공격받으면 <GLO=GLS_GAME_WORDS_1409>가 무너져\n「<GLO=GLS_GAME_WORDS_1432>」 상태가 됩니다.\n이 상태에서는 커다란 빈틈이 생기니 주의해야 합니다.\n\n또한 적의 공격을 받는 순간 <GLO=GLS_GAME_WORDS_1409>에 성공하면\n「<GLO=GLS_GAME_WORDS_1410>」가 되어 반격 찬스를 만들기 쉬워집니다."
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1409> 중에 <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>을 입력하면 「<GLO=GLS_GAME_WORDS_1431>」을 발동합니다.\n입력 방향으로 이동해서 적의 공격을 피할 수 있습니다."
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "복습"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1302>를 적에게 명중시켜 <GLO=GLS_GAME_WORDS_1503>을 상승시키고\n<GLO=GLS_GAME_WORDS_1307>로 적의 <GLO=GLS_GAME_WORDS_1502>을 줄여서 <GLO=GLS_GAME_WORDS_1418>합시다.\n\n적을 <GLO=GLS_GAME_WORDS_1418>하여 상대의 <GLO=GLS_GAME_WORDS_1422>를 0으로 만드는 것이\n<GLO=GLS_GAME_WORDS_1601> 목표입니다."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "그럼 어서 특훈을 시작해볼까!!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "넵! 잘 부탁드립니다!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "먼저 내가 있는 곳까지 와봐"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "좋은 움직임이야!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "다음엔 날 공격해봐"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "다쳐도 책임 못 져요!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "역시 근접 전투는 단연 뛰어난 실력이야!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "이다음은 내가 공격할 테니 대처해봐"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "아주 터프하네! 내구력이 좋은걸!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "마지막으로 <GLO=GLS_GAME_WORDS_1503> 컨트롤을 가르쳐줄게!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "유지 네 체술에 <GLO=GLS_GAME_WORDS_1503>을 실어서 때려봐"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "그거라면 이미 할 수 있어요!!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "그럼 어디 해봐. 어차피 못 할 테니까"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>이 전혀 실리지 않았네"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "유지에겐 실전 형식이 제일 잘 맞으려나?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "진심으로 덤벼봐"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "<GLO=GLS_NAME_CP_010>에게\n<GLO=GLS_GAME_WORDS_1704> 「협력」을 지시한다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>를 성공시킨다"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "<GLO=GLS_NAME_CP_040>의 <GLO=GLS_GAME_WORDS_1401>을\n3으로 만든다"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>을 성공시킨다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>를 성공시킨다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "<GLO=GLS_GAME_WORDS_1704>"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "아군 캐릭터에게 <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>으로 <GLO=GLS_GAME_WORDS_1813> 중의 행동을 지시할 수 있습니다.\n\n<img id=\"Chat_0005\"/>일반: 평균적인 행동을 합니다.\n<img id=\"Chat_0006\"/>맹공: <GLO=GLS_GAME_WORDS_1302>, <GLO=GLS_GAME_WORDS_1307>를 빈번하게 사용합니다.\n<img id=\"Chat_0007\"/>협력: 적극적으로 연계를 노립니다.\n<img id=\"Chat_0008\"/>신중: <GLO=GLS_GAME_WORDS_1431>이나 <GLO=GLS_GAME_WORDS_1409>를 활용해 대미지를 받지 않도록 행동합니다."
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "아군 캐릭터와 같은 적을 공격하거나, 아군을 공격하는\n적을 공격하면 「<GLO=GLS_GAME_WORDS_1402>」가 발생합니다.\n보너스가 발생하면 <GLO=GLS_GAME_WORDS_1505>을 추가로 획득합니다."
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>으로 「<GLO=GLS_GAME_WORDS_1313>」를 사용할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1313>는 <GLO=GLS_GAME_WORDS_1409> 불가능하며, 적이 맞으면 특수한 경직 상태가 됩니다.\n이때 아군이 <GLO=GLS_GAME_WORDS_1301> 또는 <GLO=GLS_GAME_WORDS_1302>를 명중시키면\n아군과의 연계 공격인 「<GLO=GLS_GAME_WORDS_1314>」이 발동됩니다.\n<GLO=GLS_GAME_WORDS_1314>이 발동되면 자신과 아군의 <GLO=GLS_GAME_WORDS_1401>이 올라가\n적에게 큰 대미지를 줄 수 있습니다."
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>이 최대일 때 사용할 수 있는 특별한 기술이\n바로 「<GLO=GLS_GAME_WORDS_1315>」입니다.\n<img id=\"Guard\"/>, <img id=\"CursedEnergyAttack_2\"/>을 동시에 입력하면 발동합니다.\n이 기술은 강력한 공격이나 <GLO=GLS_UNIQUE_WORDS_0006> 등\n캐릭터마다 효과가 다릅니다.\n<GLO=GLS_GAME_WORDS_1315>는 <GLO=GLS_GAME_WORDS_1813> 중에 한 번만 발동시킬 수 있습니다."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>을 최대로 만든다"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>를 성공시킨다"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "일부 캐릭터는 <GLO=GLS_GAME_WORDS_1315>로 <GLO=GLS_UNIQUE_WORDS_0006>를 발동합니다.\n\n<GLO=GLS_UNIQUE_WORDS_0006>가 성공하면 영역에 적과 아군을 끌어들입니다.\n영역 안에선 자신의 능력이 상승하거나, 적을 방해하거나\n큰 대미지를 줘서 <GLO=GLS_GAME_WORDS_1813>을 유리하게 전개할 수 있습니다."
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>는 다음 중 어느 하나의 조건으로 해제됩니다.\n(시간 경과, 발동자 <GLO=GLS_GAME_WORDS_1418>, 다른 <GLO=GLS_UNIQUE_WORDS_0006>로 덧씌움)\n또한 전개부터 공격 후 해제까지가 일련의 과정으로\n진행되는 것도 있습니다.\n\n일부 캐릭터는 <GLO=GLS_UNIQUE_WORDS_0006> 해제 후 일정 시간\n<GLO=GLS_GAME_WORDS_1307>가 제한되는 경우도 있으니 주의해야 합니다."
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "적응"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "마허라는 상대의 공격에 「적응」해 무효화하는 능력을 지녔습니다.\n마허라를 격파한 주력기는 적응당해 이후 대미지를 줄 수 없게 됩니다.\n적응당하면, 기술에 대응하는 법진 아이콘에 불이 켜집니다.\n\n각성기로도 대미지를 줄 수 있습니다.\n마지막에는 이 기술로 마허라를 무찌릅시다"
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1001>"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "「<GLO=GLS_GAME_WORDS_1001>」 모드에서는 <GLO=GLS_GAME_WORDS_0001>의 이야기를\n체험할 수 있습니다.\n\n・<GLO=GLS_GAME_WORDS_1103>…\n   <GLO=GLS_UNIQUE_WORDS_0001>들의 전투 기록을 체험합니다.\n・<GLO=GLS_GAME_WORDS_1206>…\n   각 캐릭터의 관계성을 확인합니다."
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "<GLO=GLS_GAME_WORDS_1103>"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "여기에선 시간 순서에 따라 임무를 선택하여\n이야기를 체험할 수 있습니다.\n\n임무에 따라서는 특수한 <GLO=GLS_GAME_WORDS_1601> 조건이나\n「<GLO=GLS_GAME_WORDS_1817>」라는 과제가 부여된 것도 존재합니다.\n임무의 상세한 내용은 <img id=\"PopupMenu_2\"/>을 눌러 확인할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1206>의 진행"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1103>을 진행하면\n<GLO=GLS_GAME_WORDS_1206>의 캐릭터가 해금되거나\n캐릭터들의 관계성이 진전됩니다.\n틈틈이 확인해봅시다.\n\n<GLO=GLS_GAME_WORDS_1206>는 <img id=\"PopupMenu_1\"/>으로도 이동할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "<GLO=GLS_GAME_WORDS_1206>"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "여기에선 캐릭터들의 관계성을 확인할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1103>이 진행되면서 캐릭터들의 「<GLO=GLS_GAME_WORDS_1105>」가 상승하며\n보수를 얻거나 해방된 <GLO=GLS_GAME_WORDS_1706>를 볼 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "<GLO=GLS_GAME_WORDS_1002>"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "여기에선 네트워크에 연결해서 온라인 대전이 가능합니다.\n\n・<GLO=GLS_GAME_WORDS_1102>…\n　가볍게 대전할 수 있습니다.\n・<GLO=GLS_GAME_WORDS_1101>…\n　실력이 비슷한 플레이어들과 대전합니다."
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1101>에서는 대전 승패나 스코어에 따라 「<GLO=GLS_GAME_WORDS_1901>」가 변동됩니다.\n또, 누적 스코어에 따라 보수를 획득할 수 있습니다.\n자세한 내용은 「<GLO=GLS_GAME_WORDS_1208>」에서 확인할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "여기에선 네트워크에 연결하고 온라인으로 플레이어와 협력해\n특수한 규칙으로 적과의 연속 <GLO=GLS_GAME_WORDS_1813>을 펼칠 수 있습니다.\n\n・<GLO=GLS_GAME_WORDS_1801>…\n   플레이어들이 협력해서 플레이할 때마다 변화하는\n   「<GLO=GLS_GAME_WORDS_1815>」로 구성된 연속 <GLO=GLS_GAME_WORDS_1813>을 펼칩니다.\n   「<GLO=GLS_GAME_WORDS_1817>」에 따른 조건을 클리어하며 적을 쓰러뜨려 고득점을 노립시다.\n   또한 특수한 승패 조건이 설정된 <GLO=GLS_GAME_WORDS_1813>도 있습니다."
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "・<GLO=GLS_GAME_WORDS_1802>…\n   <GLO=GLS_GAME_WORDS_1801>보다 더 강한 적이 가로막는 모드입니다.\n   완전 공략을 목표로 진행해봅시다."
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "먼저 「<GLO=GLS_GAME_WORDS_1801>」을 플레이해서\n이 모드의 진행 과정을 체험해봅시다.\n첫 플레이 시 오프라인으로 플레이합니다.\n\n또한 이후에도 「1인 플레이」를 선택하면\n오프라인으로 플레이할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "<GLO=GLS_GAME_WORDS_1818>"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>에선 플레이하면 「<GLO=GLS_GAME_WORDS_1818>」가 변동됩니다.\n<GLO=GLS_GAME_WORDS_1818>가 상승하면 <GLO=GLS_GAME_WORDS_1801>의 난이도와\n<GLO=GLS_GAME_WORDS_1813>의 구성이 단계적으로 변화합니다.\n협력할 플레이어는 이 <GLO=GLS_GAME_WORDS_1818>가 비슷한 플레이어를\n우선적으로 매칭합니다.\n\n출격 시 <GLO=GLS_GAME_WORDS_1818>를 임의로 설정해 난이도 조절도 가능합니다.\n※<GLO=GLS_GAME_WORDS_1818>를 내린 경우 <GLO=GLS_GAME_WORDS_1818> 상한은 상승하지 않습니다."
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "<GLO=GLS_GAME_WORDS_1805>/<GLO=GLS_GAME_WORDS_1804>"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "또한 <GLO=GLS_GAME_WORDS_1003>에선 특수한 「<GLO=GLS_GAME_WORDS_1805> 아이템」을 쓰거나\n캐릭터를 「<GLO=GLS_GAME_WORDS_1804>」하면 강화할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1801>, <GLO=GLS_GAME_WORDS_1802>을 플레이하고\n<GLO=GLS_GAME_WORDS_1812>를 획득해서 캐릭터를 강화합시다.\n\n강화하면 어려운 <GLO=GLS_GAME_WORDS_1813>을 공략하기 쉬워집니다."
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "<GLO=GLS_GAME_WORDS_1805>"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "<GLO=GLS_GAME_WORDS_1007>에서 구매한 아이템을 <GLO=GLS_GAME_WORDS_1805>해서 캐릭터를\n강화할 수 있습니다. <GLO=GLS_GAME_WORDS_1805>는 최대 3개까지 가능하며\n캐릭터를 <GLO=GLS_GAME_WORDS_1804>하면 해금됩니다.\n같은 카테고리의 아이템을 여러 개 <GLO=GLS_GAME_WORDS_1805>할 순 없습니다.\n\n<GLO=GLS_GAME_WORDS_1805> 아이템에는 영속적으로 <GLO=GLS_GAME_WORDS_1805>할 수 있는 타입과\n한 번 효과를 발휘하면 없어지는 타입 등\n다양한 종류가 있으며, <GLO=GLS_GAME_WORDS_1003>을 플레이하면\n새로운 아이템이 <GLO=GLS_GAME_WORDS_1007>에 진열되는 경우도 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1804>"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>, <GLO=GLS_GAME_WORDS_1802>을 플레이해서 얻은\n<GLO=GLS_GAME_WORDS_1812>를 사용하여 캐릭터의 레벨을 올릴 수 있습니다.\n레벨 업하면 파라미터가 강화되거나\n<GLO=GLS_GAME_WORDS_1805> 칸이 해금됩니다.\n\n어떤 캐릭터로 플레이하든 <GLO=GLS_GAME_WORDS_1812>는 공통적으로 쌓여서\n자유롭게 분배할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "<GLO=GLS_GAME_WORDS_1809> 선택"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>에선 자신에게 「<GLO=GLS_GAME_WORDS_1809>」을 부과 가능합니다.\n<GLO=GLS_GAME_WORDS_1809>을 부과하면 액션이나 파라미터가 제한되지만\n다른 능력이 강화됩니다.\n\n<GLO=GLS_GAME_WORDS_1809>을 부과한 상태에서 미션을 클리어하면\n<GLO=GLS_GAME_WORDS_1819> 포인트를 추가로 획득합니다."
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "<GLO=GLS_GAME_WORDS_1831>에서 할 수 있는 것"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "<GLO=GLS_GAME_WORDS_1831> 화면에선 다음 미션에 대비해서\n「<GLO=GLS_GAME_WORDS_1422>」나 각자의 「<GLO=GLS_GAME_WORDS_1502>」을 <GLO=GLS_GAME_WORDS_1819>할 수 있습니다.\n<GLO=GLS_GAME_WORDS_1819>하려면 각각 포인트가 필요합니다.\n포인트는 플레이어가 저마다 소지하고 있으니\n적절히 활용해서 <GLO=GLS_GAME_WORDS_1819>합시다.\n\n이 <GLO=GLS_GAME_WORDS_1819> 포인트는 미션 클리어 시 획득 가능합니다.\n또한 <GLO=GLS_GAME_WORDS_1809>을 부과한 상태에서 미션을 클리어하면\n포인트를 추가로 획득합니다."
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "<GLO=GLS_GAME_WORDS_1005>"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "여기에선 자유롭게 캐릭터와 규칙을 설정해서\n<GLO=GLS_GAME_WORDS_1813>을 플레이할 수 있습니다.\n\n・캐릭터 설정…\n   아군과 상대 캐릭터 선택, 강함을 설정합니다.\n\n・플레이어 설정…\n   특수 항목을 설정합니다.\n\n・<GLO=GLS_GAME_WORDS_1813> 설정…\n   스테이지와 제한 시간, <GLO=GLS_GAME_WORDS_1503> 등\n   규칙을 설정합니다."
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "여기에선 네트워크에 연결하고 온라인으로 로비를 생성해\n<GLO=GLS_GAME_WORDS_3001>나 모르는 사람과 고정 멤버로 플레이 가능합니다.\n\n・로비를 생성한다…호스트가 되어 로비를 생성합니다.\n   플레이 스타일이나 모집 글을 변경해서\n   스타일이 맞는 플레이어를 모집할 수 있습니다.\n\n・로비를 검색한다…생성된 로비에 참가합니다.\n   <GLO=GLS_GAME_WORDS_3001>나 ID 검색으로 특정 로비에도 참가 가능."
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "・캐릭터 선택…로비에서 조작할 캐릭터를 선택합니다.\n   <GLO=GLS_GAME_WORDS_1813>에서는 따로 캐릭터를 선택할 수 있으니\n   좋아하는 캐릭터로 로비에 참가합시다!"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "로비 호스트가 할 수 있는 것"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "로비 호스트는 <img id=\"BattlePause\"/>을 길게 눌러서 <GLO=GLS_GAME_WORDS_1813>을 시작합니다.\n멤버가 모였다면 시작합시다."
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "또한 <img id=\"BattlePause\"/>으로 메뉴를 호출해서\n다음과 같은 행동을 할 수 있습니다.\n\n・출격 모드 설정…\n   로비 멤버가 플레이할 <GLO=GLS_GAME_WORDS_1813> 모드를 변경합니다.\n\n・플레이어 추방…\n   로비에서 플레이어를 퇴장시킬 수 있습니다.\n   이 조작은 로비 정보에서 실행합니다."
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>에서 할 수 있는 일"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>에서는 다음과 같은 행동이 가능합니다.\n\n・정형 <GLO=GLS_GAME_WORDS_1416>…\n   <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>으로 정형 <GLO=GLS_GAME_WORDS_1416>을 보낼 수 있습니다.\n・UI 비표시…\n   <img id=\"WidgetDispSwitch\"/>으로 UI의 표시/비표시를 전환할 수 있습니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "・카메라 모드 전환…\n   <img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>으로 자유로운 각도로\n   카메라를 이동하는 모드로 전환할 수 있습니다.\n\n<GLO=GLS_GAME_WORDS_1813> 개시는 로비 호스트가 실행합니다.\n로비 퇴장은 <img id=\"BattlePause\"/>으로 메뉴를 호출하면 실행할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "<GLO=GLS_GAME_WORDS_1007>"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "여기에선 <GLO=GLS_GAME_WORDS_1813> 등에서 획득한 <img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>를 사용해서\n<GLO=GLS_GAME_WORDS_2217>이나 <GLO=GLS_GAME_WORDS_1207>의 <GLO=GLS_GAME_WORDS_1202> 아이템,\n<GLO=GLS_GAME_WORDS_1003> <GLO=GLS_GAME_WORDS_1813> 전용 아이템 등을 구매 가능합니다.\n\n일부 아이템은 조건을 달성해야 구매할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_2102>"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_2102>는 <GLO=GLS_GAME_WORDS_1007>의 아이템을\n<GLO=GLS_NAME_MAP_00>으로 획득할 수 있는 아이템입니다.\n\n※해방 조건이 있는 아이템은 들어있지 않습니다.\n※이미 획득했거나, 소지 제한을 초과한 아이템은\n<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>로 변환됩니다."
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "<GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "여기에선 캐릭터를 관찰하거나\n각종 <GLO=GLS_GAME_WORDS_1202>를 할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "<GLO=GLS_GAME_WORDS_1207> <GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "<GLO=GLS_GAME_WORDS_1207>를 취향대로 <GLO=GLS_GAME_WORDS_1202>할 수 있습니다.\n\n각각의 <GLO=GLS_GAME_WORDS_1202> 아이템은 <GLO=GLS_GAME_WORDS_1813>을 플레이하거나\n<GLO=GLS_GAME_WORDS_1007>에서 구매하면 획득할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "<GLO=GLS_GAME_WORDS_1416> <GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "<GLO=GLS_GAME_WORDS_1813> 중의 정형 <GLO=GLS_GAME_WORDS_1416>을 취향대로 <GLO=GLS_GAME_WORDS_1202>합니다.\n\n<GLO=GLS_GAME_WORDS_1202>는 캐릭터별로 설정할 수 있으니\n플레이 스타일에 어울리는 <GLO=GLS_GAME_WORDS_1416>을 <GLO=GLS_GAME_WORDS_1202>해봅시다."
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "VS 포즈/<GLO=GLS_GAME_WORDS_1813> 보이스 <GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "VS 포즈와 <GLO=GLS_GAME_WORDS_1813> 보이스를 <GLO=GLS_GAME_WORDS_1202>합니다.\n\n각각의 <GLO=GLS_GAME_WORDS_1202> 아이템은 <GLO=GLS_GAME_WORDS_1813>을 플레이하거나\n<GLO=GLS_GAME_WORDS_1007>에서 구매하면 획득할 수 있습니다."
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "<GLO=GLS_GAME_WORDS_1110>"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "추가 콘텐츠 「<GLO=GLS_GAME_WORDS_1110>」 모드에서는\n새로운 <GLO=GLS_UNIQUE_WORDS_0001>들의 전투 기록을 체험할 수 있습니다.\n※플레이하시려면 추가 콘텐츠를 구매하셔야 합니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "다운로드 콘텐츠 「<GLO=GLS_GAME_WORDS_1110>」 모드에서는\n새로운 <GLO=GLS_UNIQUE_WORDS_0001>들의 전투 기록을 체험할 수 있습니다.\n※플레이하시려면 다운로드 콘텐츠를 구매하셔야 합니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "추가 콘텐츠 「<GLO=GLS_GAME_WORDS_1110>」 모드에서는\n새로운 <GLO=GLS_UNIQUE_WORDS_0001>들의 전투 기록을 체험할 수 있습니다.\n※플레이하시려면 추가 콘텐츠를 구매하셔야 합니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "추가 콘텐츠 「<GLO=GLS_GAME_WORDS_1110>」 모드에서는\n새로운 <GLO=GLS_UNIQUE_WORDS_0001>들의 전투 기록을 체험할 수 있습니다.\n※플레이하시려면 추가 콘텐츠를 구매하셔야 합니다."
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "<GLO=GLS_GAME_WORDS_1010>"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "플레이할 캐릭터와 파트너 캐릭터를 선택해\n2대 2로 5연전에 도전합니다.\n루트와 난이도를 설정하고, 대전 상대에게 <GLO=GLS_GAME_WORDS_1601>하면\n<GLO=GLS_GAME_WORDS_2103>나 <GLO=GLS_GAME_WORDS_2009>를 획득할 수 있습니다.\n노 컨티뉴 클리어나, 하드 난이도에도 도전해 봅시다."
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> 출현"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>을 반복해서 플레이하면, 3미션 클리어 후\n<GLO=GLS_NAME_CN_240>가 출현하기도 합니다.\n출현 확률이 높아지면 <GLO=GLS_GAME_WORDS_1831> 화면 상단에 식신이 표시되며 수가 늘어납니다."
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "<GLO=GLS_GAME_WORDS_1836>"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "마허라전에서는 초내구 상태인 마허라가 출현합니다.\n마허라의 강함은 「숙련도」의 영향을 받지 않습니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "마허라는 상대의 공격에 「적응」해 무효화하는 능력을 지녔습니다.\n \n마허라는 주력기/주구기가 명중하면 적응을 시작하며\n시간이 지나면 「적응 게이지」가 상승하기 시작합니다.\n「적응 게이지」가 최대까지 상승하거나 마허라를 행동 불능으로 만들면\n게이지가 상승하는 동안 가장 많은 대미지를 준 기술에 적응해, 그 기술을 무효화합니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "기술이 적응당하면 기술에 대응하는 법진 아이콘에 불이 켜집니다.\n \n적응 후, 마허라는 적응하지 않은 쪽의 캐릭터를 타게팅합니다.\n연격기의 대미지는 무효화되지 않습니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "마허라는 늘 초내구 상태이지만\n「적응 게이지」 상승 도중에 일정 이상의 대미지를 주면\n일시적으로 초내구 상태를 해제하고 행동 불능으로 만들 수 있습니다.\n행동 불능 시에만 각성기와 협동 연격을 맞힐 수 있습니다.\n영역 전개로 스테이지를 변경하는 각성기는 언제든 실행 가능합니다.\n협동 연격은 한 캐릭터당 한 번만 맞힐 수 있습니다."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "캐릭터의 레벨이 25 미만일 경우, 일시적으로 25로 상승합니다.\n마허라와의 배틀에서는 「구속」을 부과할 수 없습니다.\n장비 아이템의 효과는 적용됩니다."
+      }
+    }
+  }
+]

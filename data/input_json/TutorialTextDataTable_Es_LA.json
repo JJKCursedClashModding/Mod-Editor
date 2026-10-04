@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_Es_LA",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "Moverse"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "Saltar (en el aire)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/> + <img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "Salto largo (desde el suelo)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/> + <img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "Acércate a Gojo"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "Movimiento"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "Mueve a tu personaje con <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "Correr"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "Puedes correr con <img id=\"Dash\"/>.\nCorrer consume el medidor de carrera, que se recupera mientras estás en el suelo.\nSaltar mientras corres activa un salto largo, que te permite saltar más alto de lo normal."
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "Saltar"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "Puedes saltar con <img id=\"Jump\"/>.\nPresiona nuevamente <img id=\"Jump\"/> mientras saltas para hacer un salto doble."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "Ráfaga de golpes"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": ": presiona <img id=\"NormalAttack_1\"/> repetidamente"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "Gancho"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "Patada giratoria"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "Patada hacia abajo"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "Patada voladora"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "Lanzamiento de roca"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "Ritual de energía maldita 1"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "Aumenta tu nivel de energía maldita a 2 con Rituales en combo/Rituales de extracción"
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "Rituales de extracción"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "Ataca con <img id=\"NormalAttack_1\"/>.\nTambién puedes atacar con <img id=\"NormalAttack_2\"/> y <img id=\"NormalAttack_3\"/>.\nPresiona <img id=\"MoveDown\"/> al mismo tiempo para liberar un ataque diferente."
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "Seleccionar objetivo"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "Concentra tus ataques en un solo enemigo si quieres que se convierta en el objetivo.\n\nCuando luches contra varios enemigos, puedes cambiar de objetivo con <img id=\"TargetChangeLeft\"/> y <img id=\"TargetChangeRight\"/>."
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "Rituales de energía maldita"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "Necesitas una maldición para exorcizar una maldición, ahí es en donde entran los Rituales de energía maldita.\nEstas son las formas básicas de infligir daño a los enemigos.\n\n<img id=\"CursedEnergyAttack_1\"/> y <img id=\"CursedEnergyAttack_2\"/> libera diferentes Rituales de energía maldita.\nPara usar esas técnicas, antes tienes que llenar la barra de energía maldita. \nTras usar la técnica, se activará la recuperación y la barra de energía maldita se irá llenando poco a poco, incluso si la estás consumiendo."
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "Nivel de energía maldita"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "Los ataques que aumentan tu energía maldita se conocen como Ritual de extracción.\nGolpea a tus enemigos con el Ritual de extracción para llenar tu medidor de energía maldita.\nCuando alcances cierta cantidad de puntos en tu medidor, tu nivel de energía maldita aumentará.\nAl aumentar de nivel se fortalecerá tu Ritual de energía maldita, lo que te permite infligir más daño."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "Ejecuta un Ritual en combo"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": ": presiona <img id=\"NormalAttack_1\"/> repetidamente"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "Defiéndete de 3 ataques"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "Esquiva ataques durante 10 segundos"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>+<img id=\"MoveLeft\"/> o <img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "Reduce la salud de Gojo a cero"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "Rituales en combo"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "Presiona <img id=\"NormalAttack_1\"/> repetidamente para liberar el Ritual en combo que combina\nel Ritual de extracción y el Ritual de energía maldita en uno.\nSi tienes suficiente Energía Maldita cuando desencadenes un\nRitual en combo, el remate será un Ritual de energía maldita."
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "Defensa"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "Usa <img id=\"Guard\"/> para activar la defensa contra ataques enemigos.\nTodo el daño recibido se anula mientras te defiendes.\nAun así, demasiados ataques resultarán en una ruptura de defensa.\nTen cuidado, ¡ya que esto te deja al descubierto!\n\nSi activas la defensa justo cuando caiga un ataque enemigo, realizarás una defensa perfecta, lo que te da oportunidad de contraatacar."
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "Pasos"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "Usa <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> mientras te defiendes para dar un paso.\nTe moverás en esa dirección para evitar los ataques enemigos."
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "Exorcismo"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "Golpea enemigos con Rituales de extracción para elevar tu energía maldita.\nUsa energía maldita para reducir la salud del enemigo hasta que lo derrotes.\n\nDerrota a tus enemigos y reduce el medidor del equipo rival a cero para alcanzar la victoria."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "¡Comencemos con el entrenamiento especial!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "¡Sí! ¡Es un honor!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "Primero, ¿por qué no te acercas a mí?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "¡Te mueves bien!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "A continuación, intenta atacarme."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "No te enojes conmigo si te lastimo."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "Ya te destacas de la mayoría cuando se trata de combate cuerpo a cuerpo."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "Ahora es mi turno. A ver si puedes con mi ataque."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "¡Vaya, qué difícil!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "Por último, pero no menos importante, ¡te enseñaré a controlar tu energía maldita!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "Intenta impregnar energía maldita en tus artes marciales y golpearme."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "¡Ya sé cómo hacerlo!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "Entonces inténtalo, creo que puedes hacerlo."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "Ese golpe no tuvo nada de energía maldita."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "Supongo que eres de la clase que aprende con la práctica, ¿no?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "Ven por mí. No te contengas."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "Instruye a <GLO=GLS_NAME_CP_010> en las tácticas cooperativas."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "Ejecuta una bonificación de cooperación con éxito."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "Aumenta el nivel de energía maldita de <GLO=GLS_NAME_CP_040> a 3."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "Ejecuta un ataque conjunto con éxito."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "Ejecuta un movimiento del despertar con éxito."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "Tácticas"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "Puedes dar órdenes a personajes aliados durante la batalla usando <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n<img id=\"Chat_0005\"/> Normal: realiza una variedad equilibrada de acciones.\n<img id=\"Chat_0006\"/> Agresivo: utiliza con frecuencia <GLO=GLS_GAME_WORDS_1302> y <GLO=GLS_GAME_WORDS_1307>.\n<img id=\"Chat_0007\"/> Cooperativo: pretende coordinarse contigo.\n<img id=\"Chat_0008\"/> Cauteloso: utiliza con frecuencia <GLO=GLS_GAME_WORDS_1431> y <GLO=GLS_GAME_WORDS_1409> para evitar daños."
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "Bonificación de cooperación"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "Activa una Bonificación de cooperación al atacar al mismo enemigo que tu aliado, o al atacar a un enemigo que ataca a tu aliado.\n¡Activa esta bonificación para obtener aumento de energía maldita adicional!"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "Ataques conjuntos"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "Libera un ataque conjunto con <img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>.\nLa defensa no protege de un ataque conjunto,\ny los enemigos que se ven alcanzados por ella entran en un estado de aturdimiento especial.\nSi un aliado asesta un Ritual de extracción a un enemigo aturdido, se activa un ataque conjunto con ese aliado.\nUn ataque conjunto eleva el nivel de energía maldita tanto para ti como para tu aliado, permitiéndote infligir un daño masivo."
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "Movimientos del despertar"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "Cuando tu nivel de energía maldita está al máximo,\npuedes obtener acceso a un movimiento del despertar.\nActívalo con <img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>.\nDesde ataques potentes a extensiones de dominio,\ncada personaje tiene un efecto diferente.\nLos movimientos del despertar solo pueden activarse una vez por batalla."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "Lleva al máximo tu nivel de energía maldita."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "Ejecuta un movimiento del despertar con éxito."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "Extensión de dominio"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "Algunos personajes pueden activar una extensión de dominio con su movimiento del despertar.\n\nUna extensión de domino exitosa atraerá a enemigos y aliados por igual a tu Dominio. Mientras estés dentro de tu Dominio, obtendrás ventajas, como habilidades mejoradas y mayor daño, mientras que los enemigos sufrirán efectos negativos."
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "Extensión de dominio"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "Una extensión de dominio se desvanece cuando se acaba el tiempo, el usuario es derrotado u otra extensión de dominio la devora. Con algunas extensiones de dominio, la activación, el ataque y la desactivación se producen consecutivamente.\n\nTen en cuenta que algunos personajes pueden tener Rituales de energía maldita limitados por algún tiempo luego que su extensión de dominio termine."
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "Adaptación"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "Mahoraga puede adaptarse y anular ataques.\nMahoraga se adaptará a los Rituales de energía maldita utilizados para derribarlo y ya no recibirá daño de ellos.\nCada vez que se adapte a una técnica, se iluminará el ícono de su rueda octagonal correspondiente.\n\nTambién se le puede infligir daño al ejecutar un movimiento del despertar.\nPara derribar a Mahoraga de una vez por todas, asegúrate de ejecutar un movimiento del despertar."
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "Modo historia"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "Puedes vivir la historia del anime Jujutsu Kaisen en el modo historia.\n\n• Registros de partida: revive los acontecimientos de la Preparatoria de Hechicería.\n\n• Tabla de relación: revisa las relaciones entre los personajes."
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "Registros de partida"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "Selecciona misiones para jugar la historia en orden cronológico.\n\nAlgunas misiones vienen con condiciones especiales de victoria u oleadas.\nRevisa los detalles de la misión con <img id=\"PopupMenu_2\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "Progresión de la tabla de relación"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "A medida que avances en los registros de partida, se desbloquean personajes en la tabla de relación y evolucionan las relaciones.\n¡Vale la pena consultar el gráfico de vez en cuando!\n\nTambién puedes moverte a la tabla de relación con <img id=\"PopupMenu_1\"/>."
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "Tabla de relación"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "Aquí puedes revisar las relaciones entre los personajes.\nMejora la fuerza de relación del personaje mientras avanzan los registros de partida, lo cual te permite obtener recompensas y ver historias cortas desbloqueadas."
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "VS. online"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "Conéctate a la red para combatir online.\n\n• Batalla de exhibición:\nConéctate a la red para combatir online.\n• Batalla igualada:\nEnfréntate en partidas desafiantes contra jugadores de habilidad similar."
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "Los resultados en las partidas afectarán tu rango de jugador.\nTambién, puedes obtener recompensas para tu puntuación general.\nUsa la info. de jugador para ver información detallada."
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "Coop. online"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "Conéctate a la red para formar equipo con jugadores online\nen una serie de batallas contra enemigos con reglas especiales.\n\n• Batalla rápida: coopera con otros jugadores en una serie de\ncombates por oleadas que cambian cada vez que juegas.\n¡Completa tareas, derriba enemigos y apunta a la puntuación más alta!\nTambién hay batallas con condiciones especiales para la victoria."
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "• Batalla de supervivencia:\nUn modo que te lanza contra enemigos aún más fuertes que en\nbatalla rápida. ¡Intenta conquistar el desafío por ti mismo!"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "Coop. online"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "Prueba primero la batalla rápida, y mira cómo funciona el modo.\nLa primera vez será una batalla sin conexión.\n\nDespués, ¡puedes seleccionar \"Jugar en solitario\" para disfrutar de la versión sin conexión en cualquier momento!"
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "Nivel de habilidad"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "Jugar a batalla rápida afecta tu nivel de habilidad.\nElevar el nivel de habilidad cambia gradualmente la dificultad y la estructura de la batalla rápida. Los jugadores de coop. con un nivel de habilidad similar tienen prioridad en la creación de la partida. Ajusta tu nivel de habilidad antes de entrar en combate para ajustar la dificultad.\n(Si entras en combate con un nivel de habilidad reducido, el límite de tu nivel de habilidad no incrementará)."
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "Equipar/Entrenar"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "Y en coop. online, puedes fortalecerte con objetos especiales equipables, o al entrenar a tus personajes.\nJuega batalla rápida o batalla de supervivencia para obtener EXP y reforzar a tus personajes.\n\nUtiliza el refuerzo para facilitar las batallas complicadas."
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "Equipar"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "Equipa objetos comprados en la tienda para reforzar tu personaje.\nAl entrenar a tu personaje, podrás equipar hasta tres objetos. Sin embargo, no puedes equipar varios de la misma categoría.\n\nEntre los objetos que puedes equipar hay algunos que son permanentes,\notros que desaparecen tras un solo uso, y más.\nJugar al modo coop. online puede añadir nuevos objetos a la tienda."
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "Entrenar"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "Usa la EXP obtenida al jugar batalla rápida y batalla de supervivencia para subir de nivel a tus personajes.\nEsto aumenta sus estadísticas y desbloquea espacios de equipo.\n\nLa EXP se comparte independientemente del personaje con el que juegues, así que distribúyela como quieras."
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "Seleccionar Contrato vinculante"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "En coop. online, puedes imponerte Contratos vinculantes.\nImponer Contrato vinculante coloca restricciones a tus acciones y estadísticas, pero potencia otras habilidades.\n\nCompleta misiones con Contrato vinculante para obtener puntos de recuperación adicionales."
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "Acciones de intervalo"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "En la pantalla de intervalo, puedes recuperar el medidor de equipo y la salud de los personajes para la siguiente misión.\nLa recuperación requiere de puntos y cada jugador tiene sus propios puntos para recuperación, ¡así que úsalos con cuidado!\n\nEstos puntos de recuperación se obtienen cuando completas misiones.\nCompletar una misión con Contrato vinculante impuesto otorga puntos adicionales."
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "Batalla libre"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "Elige libremente a los personajes y las reglas para la batalla.\n\n• Ajustes de personajes:\nConfigura la selección de personajes y la fuerza de aliados y rivales.\n\n• Ajustes de jugador:\nConfigura los ajustes especiales.\n\n• Ajustes de batalla:\nConfigura las reglas para los escenarios, los límites de tiempo, la energía maldita y más."
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "Lobby online"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "Conéctate a internet para crear lobbies online.\nJuega con los miembros de tu lobby, ya sean amigos o desconocidos.\n\n• Crear un lobby: conviértete en anfitrión y crea un lobby.\nCambia el estilo de juego y las solicitudes de entrada para reclutar\na otros jugadores que encajen con lo que buscas.\n\n• Buscar un lobby: únete a un lobby existente.\nPuedes unirte a uno específico si buscas por amigos o ID."
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "• Selección de personaje: selecciona un personaje para controlar\nen el lobby. Puedes seleccionar un personaje diferente en la batalla,\n¡así que únete al lobby con tu favorito!"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "Ajustes de anfitrión de lobby"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "El anfitrión del lobby inicia la batalla al mantener presionado <img id=\"BattlePause\"/>.\nInicia una vez que los integrantes estén listos para empezar."
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "También puedes abrir el menú con <img id=\"BattlePause\"/> para hacer lo siguiente:\n\n- Ajustes del modo de combate:\nConfigura el modo batalla que jugarán los integrantes del lobby.\n\n- Expulsar jugador:\nExpulsa a un jugador de tu lobby.\nPuedes usar estos controles desde la información del lobby."
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "Usos del lobby online"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "Puedes hacer lo siguiente en un lobby online:\n\n• Mensajes predefinidos: utiliza mensajes preestablecidos con <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>.\n\n• Mostrar/Ocultar IU: activa y desactiva la IU con <img id=\"WidgetDispSwitch\"/>.\n"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "• Cambiar modo de cámara: elige un modo que te permita mover la cámara libremente con <img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>.\n\nEl combate no empieza hasta que el anfitrión lo decide.\nPuedes salir del lobby desde el menú con <img id=\"BattlePause\"/>."
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "Tienda"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "Usa los <img id=\"Money_0001\"/> puntos Juju que consigas en las batallas o de otras formas para comprar atuendos, objetos para personalizar tu tarjeta de jugador, objetos para batallas coop. online y mucho más.\n\nHay algunos objetos que solo están disponibles tras cumplir ciertos requisitos.\n"
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "Caja de sello maldito"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "Las Cajas de sello maldito contienen objetos aleatorios de la tienda que no tienen condiciones de desbloqueo.\n(Los objetos con condiciones de desbloqueo no se encuentran en las Cajas de sello maldito).\n(Cuando ya posees el objeto o superas la cantidad máxima de un objeto obtenido, este se convertirá en <img id=\"Money_0001\"/> puntos Juju)."
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "Personalización"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "Puedes ver a tus personajes y realizar una variedad de personalizaciones."
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "Personalización de la tarjeta de jugador"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "Personaliza tu tarjeta de jugador a tu gusto.\n\nCada objeto de personalización se puede obtener en batallas o en la tienda."
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "Personalización del chat"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "Personaliza mensajes preestablecidos para usar en batalla.\n\nPuedes personalizarlos para cada personaje, ¡así que selecciona mensajes que se adapten a tu estilo de juego!"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "Personalización de voz de batalla/pose de vs."
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "Puedes personalizar las poses de versus y las frases de los personajes en la batalla.\n\nLos objetos de personalización se pueden obtener en batalla o comprarse en la tienda."
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "Registros de misión de clase especial"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "En el modo \"Registros de misión de clase especial\" del complemento, mira batallas inéditas entre los hechiceros.\n*Debes comprar el contenido del complemento para jugar."
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "En el modo \"Registros de misión de clase especial\" del contenido descargable, mira batallas inéditas entre los hechiceros.\n*Debes comprar el contenido descargable para jugar."
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "En el modo \"Registros de misión de clase especial\" del contenido descargable, mira batallas inéditas entre los hechiceros.\n*Debes adquirir el contenido descargable para jugar."
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "En el modo \"Registros de misión de clase especial\" del contenido descargable, mira batallas inéditas entre los hechiceros.\n*Debes adquirir el contenido descargable para jugar."
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "Modo arcade"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "¡Haz equipo con alguien a tu elección y pon a prueba tus habilidades en cinco batallas de 2 contra 2! ¡Solo elige una ruta y una dificultad, y gana Juju puntos y placas por derrotar a tus rivales!\n¿Buscas un desafío? ¡Intenta aumentar la dificultad o gana sin perder!"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "Aparición de <GLO=GLS_NAME_CN_240> "
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> puede aparecer tras jugar batallas rápidas repetidamente y completar 3 misiones. Mientras más alta sea la probabilidad de que aparezca, más Shikigami aparecerán al inicio de la pantalla de intervalo."
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "Batalla de Mahoraga"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "Lucha contra el casi invencible Mahoraga.\nLo que hace a Mahoraga tan formidable es que no le afecta el nivel de habilidad."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "Mahoraga puede adaptarse y anular ataques enemigos.\nEl medidor de adaptación de Mahoraga está en la parte inferior de su medidor de salud y aumentará cada vez que asestes con éxito un Ritual de energía maldita o un Ritual que dependa de fuerza física.\nCuando el medidor esté al máximo, se adaptará a la técnica que le haya infligido más daño mientras se llenaba y anulará cualquier daño que reciba de esa técnica."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "Cada vez que se adapte a una técnica, se iluminará el ícono de su rueda octagonal correspondiente.\n\nTras adaptarse, Mahoraga se dirigirá a un enemigo al que aún no se haya adaptado.\nNo se puede anular el daño infligido por rituales en combo."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "Mahoraga siempre está en un estado invulnerable, pero si recibe suficiente daño mientras se llena el medidor de adaptación, este estado desaparecerá y quedará incapacitado para moverse.\nEste es el único momento en el que se pueden ejecutar con éxito un movimiento del despertar o ataques conjuntos.\nSolo se puede usar el movimiento del despertar \"Extensión de dominio\" para cambiar a un escenario diferente en cualquier momento.\nCada personaje puede asestar solo un ataque conjunto."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "Los personajes con un nivel menor a 25 subirán temporalmente al nivel 25.\nLos Contratos vinculantes no pueden imponerse contra Mahoraga en batalla.\nSe aplicarán los efectos de objetos equipados."
+      }
+    }
+  }
+]

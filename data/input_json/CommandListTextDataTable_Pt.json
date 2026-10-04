@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Pt",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "Um brigão de curta distância com potencial físico excepcional.\nDerrote inimigos bem de perto com ataques perfeitos para cada situação.\n\n• Seu potencial, Equipamento pesado, faz com que ele avance enquanto sua Energia amaldiçoada carrega, permitindo que você se aproxime do inimigo com ataques corpo a corpo.\n• Pegue adversários desprevenidos com o Feitiço de energia amaldiçoada Punho divergente, e cause dano altíssimo acresentando Ataques de combinação!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Bloqueio de ataque corpo a corpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Chute giratório"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "Um ataque de curta distância que envia uma onda de choque horizontal para frente."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Chute para baixo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "Um ataque de curta distância que envia uma onda de choque vertical para frente."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Voadora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "Um ataque de curta distância que desfere um chute aéreo dinâmico.\nEstado durável durante o ataque."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Chuta pedra"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "Um ataque de longa distância que lança uma pedra estilhaçada com um chute.\nDesacelera os inimigos atingidos."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Punho divergente/Kokusen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Nível de energia amaldiçoada 1: Ataque de curta distância que causa impacto com um acerto.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Muda para Kokusen.\nAtaque de curta distância que causa dano altíssimo com um golpe com força total.\nEste ataque não pode ser defendido."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Ataques de combinação"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "Um ataque de curta distância conectado por uma série de chutes giratórios.\nO número de ataques muda de acordo com o Nível de energia amaldiçoada.\nNível de energia amaldiçoada 2: Cinco golpes adicionais.\nNível de energia amaldiçoada 3: Adiciona um poderoso golpe com a mão direita."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Punho divergente"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um golpe.\nCom foco máximo, 4 Kokusen são lançados, causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "Equipamento pesado"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "Ativa de forma incremental conforme o Nível de energia amaldiçoada aumenta.\nDiminui o atraso antes e depois do avanço.\nDiminui o consumo do Medidor de avanço."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "Um atacante de curta distância que atinge aliados e inimigos em uma área ampla.\nSeus ataques poderosos podem mandar até aliados pelos ares e dar a vantagem na batalha.\nApesar destes ataques deixarem sua guarda aberta, eles o deixam invulnerável, então, procure chances de fugir e atacar!\n\n• Seu potencial, Feitiço de reversão, concede recuperação do dano sofrido ao contra-atacar, então mantenha a pressão.\n• O potencial Intimidação, é ativado a partir do Nível de energia amaldiçoada 3. Ele permite que você congele inimigos nos arredores ao atacar.\nPare os inimigos e aproveite a oportunidade para criar ataques devastadores!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Ceifar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "Um ataque de curta distância que desfere um corte intenso para frente.\nEstado invulnerável antes do ataque.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Punho direito"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "Um ataque de longa distância que leva você até o inimigo para desferir uma estocada.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Chute machado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o esmaga contra o chão.\nGera uma onda de choque no ponto de impacto do inimigo.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Marca"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "Um ataque de curta distância em que você pisa no chão para criar uma onda de choque.\nQuando realizado no ar, você retorna rapidamente ao chão o rachando.\nEstado invulnerável durante o ataque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Tapão"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Move você até o inimigo e, com apenas um braço, o golpeia para longe.\nNível de energia amaldiçoada 3: Ativa intimidação antes do ataque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Martelo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Move você até o inimigo e o golpeia pelas costas.\nNível de energia amaldiçoada 3: Ativa a intimidação antes do ataque.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Backhand/Desmantelar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Nível de energia amaldiçoada 1: Golpe de Backhand de curta distância.\nNível de energia amaldiçoada 2: Muda para Desmantelar.\nAtaque de curta distância que retalha os inimigos há sua frente.\nNível de energia amaldiçoada 3: Aumenta o número de cortes."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Chutar/ <img id=\"Symbol_0002\"/> Abrir"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Nível de energia amaldiçoada 1: Ataque com chute de curta distância.\nNível de energia amaldiçoada 2: Muda para \"<img id=\"Symbol_0002\"/>\"\n\"Abrir\" de Nível de energia amaldiçoada 2.\nAtaque de longa distância que prepara uma flecha flamejante e a dispara com um vórtice gigantesco.\nPode ser segurado.\nNível de energia amaldiçoada 3: Expande a área de ataque e aumenta o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Corte Infinito"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um enorme corte.\nExpande o seu domínio e retalha o alvo sem piedade, causando dano altíssimo.\nQuando o domínio se fecha, Feitiços de energia amaldiçoada mudam para artes marciais por um certo período."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Feitiço de reversão"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "Ativado com Nível de energia amaldiçoada 2 ou superior.\nRecupera uma parte do dano recebido quando você causa dano a um inimigo."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Intimidação"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "Ativado com Nível de energia amaldiçoada 3.\nAo realizar certos ataques, aqueles que estiverem na área ao redor serão dominados e ficarão incapazes de agir."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "Rei das maldições"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Torna-se invulnerável durante certos ataques."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "Um mestre de combos de curta distância especializado em ataques coordenados com shikigami.\nUse seu shikigami para auxiliar seus ataques com recursos de ataque e suporte.\n\n• Invoque Nue ou Cão divino: Totalidade com a Técnica das dez sombras para ativar os ataques complementares do seu shikigami.\nVocê pode mandar seu shikigami atacar sozinho para você alvejar seu inimigo à distância!\n• Seu potencial, Interpretação de feitiço, permite que você contra-ataque com o shikigami ao ser atacado. Prepare-se para atacar sem punições!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Chute giratório duplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma sequência de chutes.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nAtiva um ataque complementar de um shikigami invocado."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Chute para cima"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Ataque duplo voador"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nEstado durável durante o primeiro golpe."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Gancho com chute giratório no ar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nQuando atinge um inimigo, ele o derruba com um chute giratório.\nAtiva um ataque complementar de um shikigami invocado."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Sapo: Lançamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Invoca um sapo que destrói a área à sua frente com a língua.\nInimigos atingidos são lançados para cima.\nEste ataque pode ser combinado com outros golpes.\nAtiva um ataque complementar de um shikigami invocado."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Sapo: Puxão"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Invoca um sapo que lança sua língua em uma linha reta.\nInimigos atingidos são puxados.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Técnica das dez sombras"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Usa as sombras como um meio para invocar um parceiro shikigami para te ajudar.\nA Energia amaldiçoada é consumida continuamente quando um shikigami está invocado.\nQuando Fushiguro ataca, o shikigami executa um ataque complementar automaticamente.\nAperte <img id=\"CursedEnergyAttack_1\"/> enquanto o shikigami estiver invocado para mandá-lo atacar, consome Energia amaldiçoada.\nVocê pode se mover enquanto dá ordens.\nA invocação termina quando Fushiguro fica sem Energia amaldiçoada ou apertando <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nNível de energia amaldiçoada 1: Invoca Nue com <img id=\"CursedEnergyAttack_1\"/>.\nNível de energia amaldiçoada 2: Invoca Totalidade com <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nNível de energia amaldiçoada 3: Desacelera os inimigos atingidos por um ataque de Nue. Aumenta o dano causado por Totalidade."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Combo com shikigami"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Executa um ataque em equipe com seu shikigami.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nSe ativado sem um shikigami invocado, você pode invocar Totalidade.\nQuando Fushiguro atacar, o shikigami executará ataques complementares automaticamente.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado.\nQuando ativado, Totalidade circunda o inimigo."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Combo com shikigami"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um chute giratório reverso.\nEspalha uma onda de sombras que sela os golpes do inimigo e causa dano altíssimo com a ajuda do shikigami.\nQuando o domínio se fecha, você não poderá usar Feitiços de energia amaldiçoada por um certo período."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Interpretação de feitiço"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "Ativado com Nível de energia amaldiçoada 3.\nFushiguro pode comandar seu shikigami mesmo sendo atacado."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "Uma Atacante de média distância que usa ataques de Ressonância e Grampo de cabelo contra inimigos.\nFaça pressão marcando os adversários é a chave para tomar a iniciativa em qualquer combate.\n\n• Você pode detonar o Feitiço do boneco de palha: Grampo de cabelo a qualquer momento depois de preparar o prego, então espere o momento em que seja difícil defender.\n• Não precisa entrar em pânico se o adversário se aproximar, você pode cuidar dele com um Feitiço do boneco de palha: Ressonância ou Feitiço de extração.\n\nA marcação permite que você ataque de qualquer distância, então aproveite a vantagem para enganar seu adversário!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Ataque de pregos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "Um ataque de longa distância que lança vários pregos contra o inimigo.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Lançar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Saraivada de Pregos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "Um ataque de longa distância que lança vários pregos contra o inimigo."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Ataque de pregos de amplo alcance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "Um ataque de média distância que lança uma onda de pregos."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "Duplo ataque de martelo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere dois golpes com o martelo."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Grande balanço"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "Um ataque de curta distância que golpeia com o martelo em um movimento de arco."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/> Lança um prego imbuído com Energia amaldiçoada, prendendo um Grampo de cabelo no inimigo atingido.\nPode ser segurado.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Ativa o Grampo de cabelo para causar dano à distância de uma vez só.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Feitiço do boneco de palha: Ressonância"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/> Inflige o efeito de Ressonância tirando uma parte do inimigo ao atacar diretamente.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/> Ativa Ressonância para causar dano à distância.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Combinações de pregos"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um golpe com um prego imbuído com Energia amaldiçoada.\nInjeta Energia amaldiçoada no prego à distância, explodindo-o e causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Prognóstico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Aumenta a Energia amaldiçoada obtida ao atacar um inimigo com Grampo de cabelo ou efeito de Ressonância."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "Um nível especial completo que domina a conversa com uma feitiçaria incomum e talentos incríveis de artes marciais.\n\n• Seu potencial, Feitiço ilimitado, anula qualquer ataque.\nLibere o Infinito (Mugen) e não tenha barreiras!\n• Use sua Amplificação de feitiço: Azul para selar os movimentos de inimigos em fuga, e o Feitiço de reversão: Vermelho para impedir que adversários se aproximem de você.\nVazio roxo é um feitiço poderoso que consome tudo.\n• Quando a Expansão de domínio: Muryou Kuusho for ativada, Feitiços de energia amaldiçoada mudarão para uma variação especial, criando a oportunidade perfeita para garantir a vitória!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Ataque de Saraivada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Joelhada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Um ataque que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Chute giratório"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Derrubar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Um golpe que leva você até o inimigo e o arremessa com um chute.\nDurante o ataque, é possível usar mais um comando para iniciar um ataque de esmagamento complementar.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Chute para cima"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa com um chute.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Chute giratório furioso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Um golpe que leva você até o inimigo e realiza uma sequência de chutes.\nDurante o ataque, é possível repetir o comando para iniciar um chute de esmagamento complementar."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Amplificação de feitiço: Azul"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Atrai os outros com o poder negativo do Mukagen.\nPode ser segurado.\nUse <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para ajustar o posicionamento.\nNível de energia amaldiçoada 2: Fortalece a atração. Aumenta o dano causado.\nNível de energia amaldiçoada 3: Fortalece ainda mais a atração. Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Reversão de feitiço: Vermelho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Concentra energia positiva no Mukagen, criando o poder para repelir.\nPode ser segurado.\nNível de energia amaldiçoada 2: Reduz o tempo de carga. Aumenta o dano causado.\nNível de energia amaldiçoada 3: Reduz ainda mais o tempo de carga. Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Vazio roxo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Nível de energia amaldiçoada 3:\nCombine a amplificação com o Mugen reverso para lançar um pedaço gigantesco de matéria imaginária.\nSegue em linha reta, engolindo inimigos no caminho.\nPode ser segurado."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Combinações de acertos no ar"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Fica parado e expande um domínio que puxa os outros para o Mukagen.\nAdversários são esmagados por informações infinitas e não podem se mover por algum tempo.\nQuando o domínio se fecha, os Feitiços de energia amaldiçoada se tornam ataques de artes marciais temporariamente."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Seis olhos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Sempre ativo.\nVisualiza o Medidor de energia amaldiçoada do adversário."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Mukagen"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Pode ser ativado ao se defender durante certo período de tempo quando o Nível de energia amaldiçoada for 2 ou mais. Consome um Medidor de ergia amaldiçoada. \nO Mugen aparece ao seu redor evitando que um certo número de ataques te atinjam."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Levitação"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Levite segurando o comando de pular."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "Uma mestre de combos veloz com movimentos ágeis e sequências de combos impressionantes.\nMaki usa Força física em vez de Energia amaldiçoada para executar golpes devastadores.\n\n• Seu potencial, Medidor de acerto, aumenta sua velocidade de movimento durante os ataques.\nNão abra nenhuma brecha e force o ataque antes que os inimigos saibam o que os atingiu!\n• Fuja dos ataques inimigos com Bloquear e contra-atacar.\nVocê também pode cancelar seus próprios ataques para concatenar outros golpes!\nCrie combos originais para surpreender seus inimigos!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Frenesi de espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um golpe com uma naginata longa.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de intrumento amaldiçoado."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Chute"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um chute.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Combinação de espadas: Cortes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um combo rápido de três acertos com cortes e chutes."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Combinação de espadas: Acerto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o golpeia com uma naginata longa.\nDurante o ataque, é possível repetir o comando para executar um chute de arremesso complementar."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Arremesso de arma oculta"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "Um ataque de longa distância que arremessa armas ocultas."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Impulso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa com uma naginata longa.\nDurante o ataque, é possível repetir o comando para executar uma estocada do chão adicional."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Bloquear e contra-atacar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Foge de ataques inimigos com uma esquiva.\nUse isto durante o ataque para cancelar sua ação.\nAtivado automaticamente se você estiver parado ou avançando.\n<img id=\"CursedEnergyAttack_1\"/> Esquiva no lugar.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/> ou <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Esquiva na direção indicada.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> Mortal para frente.\nNível de força física 2: Reduz o tempo de deslocamento.\nNível de força física 3: Reduz ainda mais o tempo de deslocamento."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Giro de naginata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Gira sua naginata longa, iniciando uma dança de lâminas.\nNível de força física 2: Aumenta o número de ataques.\nNível de força física 3: Aumenta ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Ataque triplo no ar"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma estocada com uma naginata longa.\nAcerta incontáveis golpes com o instrumento amaldiçoado de nível especial Nuvem espirituosa, causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Restrição Congênita: Dom físico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "Não tem Energia amaldiçoada, mas possui habilidades físicas excepcionais."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Tem um medidor especial que aumenta conforme você golpeia seu inimigo. \nÀ medida que o Medidor de acerto aumenta, sua velocidade de ataque, velocidade de movimento e sua distância de esquiva aumentam. \nO medidor diminui após certo período."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "Um atacante especial que mistura artes marciais leves com a poderosa Fala amaldiçoada para dominar seus inimigos.\nUse a Fala amaldiçoada para forçar as defesas do inimigo constantemente.\n\n• Ataques com a Fala amaldiçoada são poderosos, mas se usá-los demais, você vai se machucar.\n• Se a situação da sua garganta piorar, beber xarope para tosse ajuda na recuperação.\n• \"Não se mova\" e \"Retorça\" são Feitiços de energia amaldiçoada poderosos que funcionam como contra-ataques. \n• A quantidade do Medidor de garganta consumida pela Fala amaldiçoada varia de acordo com o desnível entre você e o inimigo. Observe o seu adversário e libere um contra-ataque devastador na hora certa!\nFique de olho na diferença de Energia amaldiçoada antes de agir!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Combinações de chutes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma infinidade de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Chute de tornado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um chute giratório.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Chute machado com mortal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "Um ataque de curta distância que desfere uma série de chutes."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Dose de xarope para tosse"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Toma xarope para recuperar a durabilidade da garganta.\nVocê pode se mover durante esta ação. Não é possível avançar."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Frenesi/\"Sai voando\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Ataque de curta distância que leva você até o inimigo e desfere uma série de golpes com uma voadora.\nEste ataque pode ser combinado com \"Saia voando\".\n\"Saia voando\"\nUm ataque de média distância que usa a fala imbuída com energia amaldiçoada para lançar inimigos pelos ares."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "\"Pare\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "Um ataque de média distância que usa a fala imbuída com Energia amaldiçoada para atrapalhar inimigos."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "\"Caia\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "Um ataque de média distância que usa a fala imbuída com Energia amaldiçoada para derrubar os inimigos na frente.\nNível de energia amaldiçoada 2: Aumenta o dano.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "\"Não se mova\" e \"Retorça\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Assume uma postura defensiva, depois usa a fala amaldiçoada durante o ataque de um inimigo.\nUsa \"Não se mova\" para impedir o inimigo e \"Retorça\" para causar dano.\nNível de energia amaldiçoada 2: Aumenta o dano.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "\"Exploda\""
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma joelhada.\nUsa \"Pare\" para selar o movimento, então causa dano altíssimo com \"Retorça\"."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Fala amaldiçoada"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "Usar a Fala amaldiçoada consome o Medidor de garganta.\nO consumo de Energia amaldiçoada varia de acordo com a diferença do Nível de energia amaldiçoada entre você e a pessoa afetada pela Fala amaldiçoada. \nQuando o Medidor de garganta estiver baixo, o atraso de ativação aumenta e você sofre dano auto infligido."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "Com este lutador de curta distância, você pode flutuar como um panda e picar como... gorila? \nPanda tem golpes que o colocam no estado durável, deixando-o invulnerável a travamentos e interrupções de ataques, então aproveite!\n\n• No modo Gorila, você sempre está no estado durável e com mais velocidade de movimento.\nAtaques leves não vão fazer nem um arranhão, então solte sua fera para cima dos inimigos!\n• Dano da Batida do tambor é tudo menos defensável!\nBata sem dó, até contra inimigos se defendendo!"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "Duplo do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma enxurrada de socos precisos.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "Balanço do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "Triplo do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "Um ataque de curta distância que desfere um combo de três golpes enquanto avança."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "Esmagamento do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "Um ataque de curta distância que junta as duas mãos ao cair.\nEsmaga o adversário contra o chão antes de arremessá-lo para o ar com uma onda de choque."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "Bundada do <GLO=GLS_NAME_CP_080>/Gancho do <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "Um ataque de curta distância que usa o traseiro do Panda.\nEstado durável durante o ataque.\nModo Gorila: Investida de curta distância que faz você girar os dois braços para arremessar o inimigo no ar."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "Enfrentamento do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "Um ataque de curta distância que desfere uma pancada dinâmica.\nEstado durável durante o ataque."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "Avanço do <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Desfere incontáveis golpes muito rápidos antes de arremessar o inimigo com força total.\nNível de energia amaldiçoada 2: Aumenta o número de ataques.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " Modo <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Pode ser usado quando a Energia amaldiçoada estiver no máximo em qualquer nível.\nAlterna para o modo Gorila.\nFica invulnerável a travamentos e pode causar dano com todos os ataques.\nA Batida do tambor é ativada.\nA Energia amaldiçoada é consumida constantemente. Quando ela acaba, você volta ao modo Panda."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": " Esmagada do <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um gancho.\nApós acertar uma série de golpes no modo Gorila, arremessa o inimigo com força total, causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Irmã substituta"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "Quando estiver próximo de ser derrotado, revive uma vez com vida reduzida."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Batida do tambor"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Ataques no modo <GLO=GLS_NAME_CP_081> podem causar dano mesmo se o inimigo estiver defendendo.\nEste dano não pode ser usado para causar um golpe final."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "Este feiticeiro de nível 1 usa feitiços com efeitos devastadores.\nSe usados na hora certa, repetir o comando ativará o Feitiço das proporções durante alguns golpes, causando acertos críticos!\nMantenha a calma, analise seu inimigo e mire para acertar um golpe perfeito!\n\n• Seja com o seu Feitiço das proporções ágil ou Combo corpo a corpo de quatro partes, aproveite seus Feitiços de energia amaldiçoada em cada situação.\n• Seu potencial, Liberação de energia amaldiçoada, oferece um poder considerável, mas só é ativado quando o tempo está acabando.\nEsse ex-funcionário não tem tempo para hora extra!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "Corte duplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o corta duas vezes com o facão.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Acerto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e ataca com o facão.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Balanço"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e golpeia com o facão em um amplo movimento de arco para cima.\nUm comando adicional na hora certa causa um acerto crítico."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Chute forte"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "Um ataque de curta distância com um chute giratório."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Destruir"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e golpeia com o facão em um movimento de arco para cima com força total.\nRepita o comando na hora certa para causar um acerto crítico."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Ataque de onda de choque"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "Um ataque de curta distância que golpeia o chão com o punho e cria uma onda de choque.\nSe realizado no ar, você desce e esmaga o chão rapidamente."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "Um ataque de curta distância que usa uma proporção 7:3 como o ponto fraco para causar dano altíssimo.\nPode ser segurado.\nRepita o comando na hora certa para causar um acerto crítico.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Combo corpo a corpo de quatro partes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "Um ataque de curta distância que imbui seu facão e punho com Energia amaldiçoada e golpeia com os dois em sucessão.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Feitiço das proporções: Colapso"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um golpe contra o corpo.\nCorta com precisão o ponto fraco criado pelo seu feitiço e causa dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Liberação de Energia Amaldiçoada"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "Ativa quando houver pouco tempo restante dea batalha.\nA Energia amaldiçoada aumenta automaticamente.\nA velocidade de recuperação de Energia amaldiçoada aumenta.\nA velocidade de avanço aumenta.\nO consumo do Medidor de avanço diminui."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "Um feiticeiro habilidoso com um soco de gorila e o talento para controlar o ritmo da batalha trocando de posição.\nEmbora seus ataques sejam de curta distância, ele pode trocar de posição com Boogie Woogie para se aproximar de adversários e fugir de ataques como quiser.\n\n• Boogie Woogie permite que ele troque de posição com qualquer alvo, então aproveite!\n• Sua força descomunal envia inimigos pelos ares com um só golpe, mas você ainda pode acertar ataques complementares trocando de posição!\n\nO trabalho em equipe é essencial, mas com Boogie Woogie, você pode transformar uma desvantagem em vantagem!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Ataque corpo a corpo de três pontas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Leva você até o inimigo e desfere uma série de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Chute para cima"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Chute forte"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo, golpeia e chuta ele para longe."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Laço"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "Um ataque de curta distância que o faz avançar com um gancho lateral depois de carregar.\nEstado durável durante o ataque."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Arremesso de pedra ataque Boogie Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "Um ataque de longa distância que arremessa uma pedra imbuída com Energia amaldiçoada.\nQuando ela atinge o inimigo, você troca de posição com a pedra e executa um ataque complementar imediatamente.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Arremesso de pedra teletransporte Boogie Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Arremessa uma pedra em qualquer direção, depois troca de posição com ela.\nPode ser segurado.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Bate palmas para trocar a posição dos dois lutadores instantaneamente (pode ser você e outra pessoa ou outras pessoas entre si).\nEscolha quem trocar com um comando direcional.\nEste ataque pode ser combinado com outros golpes.\n<img id=\"CursedEnergyAttack_1\"/> Troque de lugar com o alvo.\n<img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/> Troque o lugar de um aliado e um inimigo.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> Troque o lugar de um inimigo com outro inimigo.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Troque de lugar com um aliado.\nNível de energia amaldiçoada 2: Reduz o atraso de ativação.\nNível de energia amaldiçoada 3: Reduz ainda mais o atraso de ativação."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Ataques de combinação"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "Um ataque de curta distância que junta poder e lança uma sequência poderosa de quatro golpes.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Divisão da cabeça aos pés"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um chute alto.\nTroca de posição com o inimigo atingido para desferir um Kokusen com força total e arremessar o inimigo pelo ar, causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Feitiço liberado"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "Usar Boogie Woogie concederá os seguintes efeitos por certo período: Aumento de velocidade de movimento; Redução do consumo do Medidor de avanço.\nEste efeito varia dependendo do Nível de energia amaldiçoada."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "Um atacante de curta distância que vira o jogo sempre que um aliado é ferido.\n\n• Seu potencial, Fúria, invoca Rika quando o medidor está no máximo.\nAtaque o inimigo com uma quantidade colossal de Energia amaldiçoada e ataques complementares poderosos com a Rika!\n• Use Determinação para imbuir sua espada com Energia amaldiçoada e causar dano com Feitiços de combinação e extração.\nForce o ataque e use Coragem para causar dano altíssimo!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Corte de três pontas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um golpe com uma espada.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nDurante a fúria, Rika realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Corte diagonal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e corta com a espada.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "Corte duplo para baixo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e corta com dois golpes consecutivos.\nDurante a fúria, <GLO=GLS_NAME_CN_040> realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Golpe lacerante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "Um ataque que permite que você golpeie e exploda o inimigo com um corte giratório.\nDurante a fúria, <GLO=GLS_NAME_CN_040> realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Mortal cortante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "Um ataque de curta distância em que você pula para se aproximar e realiza um corte giratório no ar.\nEste ataque pode ser combinado com outros golpes.\nDurante a fúria, Rika realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Corte deslizante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "Um ataque de curta distância em que você desliza para se aproximar e realizar um corte para cima.\nEste ataque pode ser combinado com outros golpes.\nDurante a fúria, Rika realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Coragem"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "Um ataque em que você se aproxima do inimigo rapidamente e golpeia com vários cortes.\nDurante a fúria, <GLO=GLS_NAME_CN_040> realiza um ataque complementar.\nNível de energia amaldiçoada 2: Aumenta o número de ataques.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Determinação"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Imbui sua espada com Energia amaldiçoada para melhorar os ataques.\nTambém permite que todos os ataques causem dano.\nConsome Energia amaldiçoada continuamente. O consumo é interrompido quando outro comando é executado ou a Energia amaldiçoada acaba."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Kokusen"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um golpe com o punho esquerdo.\nSuspende as restrições e lança uma enorme quantidade de Energia amaldiçoada através da Rika, causando dano altíssimo.\nApós a ativação, Rika não se manifestará na batalha novamente."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Fúria"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Possui um medidor especial que é preenchido quando aliados recebem dano ou estão abatidos.\nQuando o medidor chegar ao máximo, Rika irá se manifestar e atacar com Yuta.\nQuando Yuta é atacado, você pode usar esse medidor para realizar um contra-ataque com a Rika apertando: <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, ou <img id=\"CursedEnergyAttack_2\"/>.\nSe Yuta for atacado enquanto estiver defendendo, o medidor se esgotará e Rika contra-atacará.\nEnquanto Rika estiver manifestada, seu Nível de energia amaldiçoada estará no máximo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "Um atacante de média distância que usa a Manipulação de energia amaldiçoada para sobrepujar o adversário em número.\nUse suas Habilidades de nível especial para combinar Feitiços de extração e de energia amaldiçoada, dominando seus inimigos.\n\n• Manipulação de maldições: Enxame, libera uma rajada rápida de maldições que atravessa inimigos no caminho.\n• Manipulação de maldições: Pilar luminoso, é uma habilidade lenta, mas que dispara um ataque em uma grande área impossível de ser esquivado. Ela atinge vários adversários de uma vez.\n\nEconomize seus feitiços para a hora certa e esmague seus oponentes!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Saraivada de Espíritos Amaldiçoados"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "Um ataque de média distância que invoca várias maldições em sucessão para atacar o inimigo.\nDurante o ataque, é possível repetir o comando para realizar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Manipulação de maldições: Vínculo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "Um ataque de média distância que invoca um espírito amaldiçoado e o vincula, envolvendo o inimigo.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Manipulação de maldições: Atração"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "Um ataque de média distância que invoca duas maldições para atacar o inimigo.\nElas voltam após o acerto, puxando o inimigo.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Manipulação de maldições: Investida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "Um ataque de média distância que invoca uma maldição para caçar e atacar o inimigo."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "Ataque duplo corpo a corpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um chute com salto.\nComplementa com um golpe e lança o inimigo para baixo com o punho direito.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Manipulação de maldições: Lançamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "Um ataque de curta distância que invoca uma maldição dos seus pés enquanto esquiva para trás.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Manipulação de maldições: Enxame"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Usa dois tipos de maldições capturadas para atacar.\n<img id=\"CursedEnergyAttack_1\"/> Ataque de média distância que lança várias maldições.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Ataque de curta distância que lança várias maldições contra o inimigo.\nNível de energia amaldiçoada 2: Invoca mais maldições e aumenta o número de acertos.\nNível de energia amaldiçoada 3: Invoca ainda mais maldições e aumenta ainda mais o número de acertos."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Manipulação de maldições: Pilar luminoso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Invoca uma maldição de semi-nível 1 para gerar um pilar de luz na posição do inimigo e atacar.\nNível de energia amaldiçoada 2: Aumenta o número de ataques.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Combinação de nuvem espirituosa"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Manipulação de maldições, arte suprema: Redemoinho."
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um chute giratório reverso.\nUma grande quantidade de Energia amaldiçoada tomada pela manipulação de maldições é liberada de uma vez para causar dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Mestre de maldição de nível especial"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "Ativa no Nível de energia amaldiçoada 2 ou superior.\nPode cancelar o atraso de ataques usando um Feitiço de energia amaldiçoada.\nPode cancelar ainda mais rápido quando o Nível de energia amaldiçoada aumenta."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "Um lutador de média distância que controla o ritmo com ataques à distância e depois se aproxima para reduzir a vida do inimigo.\nTransforme seu próprio corpo, controlando a distância dos seus ataques como a situação pedir.\n\n• Seu potencial, Transfiguração inerte, causa dano adicional conforme você acertar mais ataques, então nunca pare!\nDurante a Expansão de domínio: Autopersonificação da perfeição a Transfiguração inerte fica ainda mais forte!\n• Você precisa se comportar: Esse feitiço libera humanos transfigurados para atacar inimigos de longe.\nAtaque de ambos os lados para derrubar seu inimigo!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Ataque de transformação: Braço"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e golpeia com um braço transformado.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Ataque de transformação: Espinhos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "Um ataque de curta distância em que seu corpo se encolhe e cresce espinhos em todas as direções.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Ataque de Saraivada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo. Repita o comando varias vezes para confundir o inimigo com movimentos difíceis de prever.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Ataque giratório"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo, transforma seu braço em uma espada para cortar, depois bate no inimigo com uma mão gigante e afasta ele."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Ataque de transformação: Perfuração"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "Um ataque perfurante de média distância que transforma o seu braço em uma broca."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Ataque de transformação: Espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "Um ataque de curta distância que transforma o seu braço em uma espada e corta em um movimento de arco."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "Você precisa se comportar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Um humano transfigurado do estoque é invocado para atacar os inimigos.\nCausa dano e desacelera os inimigos atingidos.\nSe ativado sem estoque, vomita e preenche o estoque.\nNível de energia amaldiçoada 2: Aumenta o estoque disponível.\nNível de energia amaldiçoada 3: Aumenta ainda mais o estoque disponível."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "\"Multiplicidade de alma\" e \"Repelir corpo\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Funde várias almas em uma só para aumentar a massa e jogá-la contra o inimigo.\nConsome todo o estoque de humanos transfigurados.\nPode ser segurado.\nNível de energia amaldiçoada 2: Expande o alcance do ataque.\nAumenta o dano causado.\nNível de energia amaldiçoada 3: Expande ainda mais o alcance do ataque.\nAumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Transfiguração inerte"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Fica parado, faz um selo na boca e expande um Domínio.\nMuda o mapa por um determinado período e melhora seus ataques.\nAlém disso, reduz a recuperação de Energia amaldiçoada e velocidade de movimento dos inimigos no Domínio.\nQuando ele se fecha, você não pode usar feitiços por um determinado período."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Essência da alma"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "Ao ser atacado por um adversário, a Energia amaldiçoada aumenta de acordo com a quantidade de dano recebido."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Transfiguração inerte"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Causa dano adicional ao entrar em contato com o inimigo através de uma quantidade definida de ataques.\nO contador será redefinido após certo período."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "Um atirador de média e longa distância que corre pelo campo, forçando o inimigo a atacá-lo à distância.\n\n• Prepare o inimigo com Feitiços de combinação que podem ser executados a qualquer momento, e procure uma oportunidade para eliminá-lo com o amplo Fogo de energia amaldiçoada.\n• Ative a Expansão de domínio: Gaikan Tecchisen para puxar todos os jogadores para o seu domínio por um determinado período.\n• Seus atributos e Feitiços de energia amaldiçoada são fortalecidos dentro do seu domínio, então tenha controle absoluto sobre os seus inimigos!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Bola de fogo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "Um ataque de longa distância que lança pequenas bolas de fogo em rápida sucessão.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nOs controles de movimento podem ser usados durante o ataque.\n"
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Bola de fogo comprimida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "Um ataque de longa distância que dispara bolas de fogo com ambas as mãos.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Manifestação vulcânica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "Um ataque de longa distância que cria um vulcão que cospe fogo nos pés do inimigo."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Armadilha vulcânica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Estabelece uma área vulcânica no local designado.\nQuando um inimigo entra na área, um vulcão aparece e cospe fogo."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Saraivada de Bolas de fogo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "Um ataque de longa distância que cria várias bolas de fogo no local e as dispara com atraso."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Explosão de chamas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "Um ataque de curta distância que dispara fogo enquanto você pula para trás.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Fogo de energia amaldiçoada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Lança Energia amaldiçoada em uma linha reta que incinera tudo em seu caminho.\nPode ser segurado.\nConsome Energia amaldiçoada continuamente durante seu efeito.\nNível de energia amaldiçoada 2: Aumenta a distância e o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais a distância e o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Queimar/Explodir/Meteoro supremo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Lança bolas de fogo para atacar.\nNível de energia amaldiçoada 2: As bolas de fogo ficam maiores e causam mais dano.\nNível de energia amaldiçoada 3: Muda para Meteoro supremo, causando uma grande explosão no local atingido.\nPode ser segurado."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Insetos de brasa"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Fica parado e expande um domínio escaldante como o interior de um vulcão ativo.\nMuda o mapa por um determinado período e melhora seus Feitiços de energia amaldiçoada.\nAlém disso, causa dano contínuo e dificulta os movimentos dos inimigos dentro da área.\nQuando o domínio se fecha, você não pode usar Feitiços de energia amaldiçoada por um determinado período."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "O orgulho de uma maldição"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "Ativa quando sua Energia amaldiçoada estiver baixa.\nAumenta a recuperação de Energia amaldiçoada. Aumenta o dano do Feitiço de energia amaldiçoada.\nEste efeito varia de acordo com o Nível de energia amaldiçoada."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "Um atacante especializado em todas as distâncias com versatilidade máxima no solo.\n\n• O Ataque de raízes remotas, permite que você envolva suas raízes nas pernas de inimigos distantes e os acerte de baixo.\nMire para lançar vários ataques surpresas!\n• O Ataque barreira de raízes, ergue uma parede na sua frente que o defende de ataques de longa distância e lança inimigos próximos pelos ares.\n\nRestrições de longa distância! Lançadores de média distância! Contra-ataques de curta distância!\nUse todos os ataques para impedir que os inimigos se aproximem!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Ataque de bola de madeira"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "Um ataque de curta e média distância que lança três bolas de madeira com raízes que atacam.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Acerto de clava de madeira"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o acerta com uma Clava de madeira.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Ataque de raízes em área"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "Um ataque de curta distância, que faz com que raízes de árvores cresçam no chão ao seu redor.\nQuando realizado no ar, você retorna ao chão.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Meditar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Medita e carrega a Energia amaldiçoada.\nNo Nível de energia amaldiçoada máximo, ela é continuamente carregada.\nPode ser segurado.\nQuando realizado no ar, você retorna ao chão."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Lançamento de semente amaldiçoada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "Um ataque de longa distância que lança sementes amaldiçoadas.\nDesacelera a recuperação de Energia amaldiçoada dos inimigos atingidos.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Chuva de semente amaldiçoada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "Um ataque de longa distância que faz uma flor gigante aparecer e lançar várias sementes amaldiçoadas de uma vez só.\nAs sementes amaldiçoadas caem depois de algum tempo.\nDesacelera a recuperação de Energia amaldiçoada dos inimigos atingidos.\nQuando realizado no ar, você retorna ao chão."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Ataque de raízes remotas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Gera raízes de árvores abaixo do inimigo, perfurando-o.\nNível de energia amaldiçoada 2: Aumenta o dano causado. Expande a área do ataque.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado. Expande ainda mais a área de ataque."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Ataque barreira de raízes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Cresce uma barreira de raízes em frente a você que ataca quem se aproxima.\nQuando realizado no ar, você retorna ao chão.\nNível de energia amaldiçoada 2: Aumenta o dano. Aumenta a altura e o número das raízes.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano. Aumenta ainda mais a altura."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Ataque de árvore gigante"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "Este ataque não pode ser defendido.\nAparece um campo de flores ao seu redor.\nAo acertar o golpe, distrai o inimigo e raízes o perfuram que causam um dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Desvinculação de braço esquerdo"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Desvincula o braço esquerdo ao ativar um Movimento despertado e recebe os seguintes efeitos: Diminui o tempo de geração de Feitiços de energia amaldiçoada; Reduz o consumo de Energia amaldiçoada."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "Um lutador controlador de longa distância que usa poderosos malefícios e ataques combinados de irmão supremo.\nSeu Feitiço podre inclui Arte suprema: Rei das asas, que espalha sangue para causar dano, e Decadência, que usa sangue para ativar malefícios.\nAproveite esses dois golpes para controlar o adversário.\n\n• Os efeitos do Feitiço podre: Decadência são acumulados com sangue.\nFaça uma carnificina!\n• <GLO=GLS_NAME_CN_260> não pode usar ataques de sangue enquanto o Feitiço podre: Decadência está ativo.\nVocê pode usar o <GLO=GLS_NAME_CN_080> nessas situações!\n\nLembre-se, a coordenação entre os irmãos é o segredo para a vitória!"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Ataque triplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e golpeia duas vezes rapidamente.\nAo entrar em contato, Rei das asas é liberado, realizando um ataque complementar com sangue.\nQuando a Decadência estiver ativa, o ataque complementar de <GLO=GLS_NAME_CN_080> será lançado.\nDurante o ataque, é possível repetir o comando para realizar um Feitiço de energia amaldiçoada."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Chute no tronco"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um chute para cima com sua perna direita.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Lançar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo para realizar um gancho.\nAo entrar em contato, Rei das asas é liberado, realizando um ataque complementar com sangue.\nQuando a Decadência estiver ativa, o ataque complementar de <GLO=GLS_NAME_CN_080> será lançado."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Golpe de duas mãos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "Um ataque de curta distância que você se aproxima do inimigo e golpeia para baixo com as duas mãos.\nAo entrar em contato, Rei das asas é liberado, realizando um ataque complementar com sangue.\nQuando a Decadência estiver ativa, o ataque complementar de <GLO=GLS_NAME_CN_080> será lançado."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Ataque perseguidor"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo para golpear rapidamente com seu braço direito.\nSe acertar, <GLO=GLS_NAME_CN_080> realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Excesso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo para acertar um chute vertical com sua perna direita.\nSe acertar, <GLO=GLS_NAME_CN_080> realiza um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Irmãozinho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Dá instruções detalhadas a Kechizu.\nKechizu não pode aceitar instruções enquanto estiver derrubado.\n<img id=\"CursedEnergyAttack_1\"/> Impregna e marca com sangue.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> Guia até o inimigo para desferir vários golpes.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Volta para Eso. Não consome Energia amaldiçoada.\nNível de energia amaldiçoada 2: Aumenta a velocidade de movimento de Kechizu.\nNível de energia amaldiçoada 3: Aumenta ainda mais a velocidade de movimento de Kechizu."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Feitiço podre supremo: Rei das asas / Feitiço podre: Decadência"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/> Ativa o Feitiço podre supremo: Rei das asas para marcar inimigos com sangue e causar dano.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/> Ativa o Feitiço podre: Decadência para reduzir a capacidade de avanço dos inimigos marcados com sangue.\nEnquanto ativado, você pode marcar os inimigos novamente para causar dano contínuo.\nLiberar o feitiço após marcá-los causará ainda mais dano.\nQuanto mais vezes você os marcar, maior será o efeito.\nA Energia amaldiçoada é consumida continuamente até ser reduzida a zero, e se recupera ao usar outro comando.\nRei das asas não pode ser ativado enquanto a Decadência estiver ativa.\nNível de energia amaldiçoada 2: Aumenta o número de ataques do Rei das asas.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de ataques do Rei das asas. Pode ser segurado."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "O poder da irmandade"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um backhand.\nKechizu, deixa o inimigo encharcado com sangue e lança o Feitiço podre: Decadência, causando um dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "Pelo meu irmão"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Melhora os ataques de <GLO=GLS_NAME_CN_260> quando <GLO=GLS_NAME_CN_080> não estiver abatido."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "O feiticeiro Jujutsu mais poderoso. Ele sempre consegue ficar na vantagem em qualquer situação.\n\n• Ficar parado ativa o Feitiço ilimitado, impedindo que qualquer ataque atinja você.\n• Amplificação de feitiço: Azul, permite que você se aproxime e puxe inimigos rapidamente.\nControle os movimentos do seu adversário!\n• Amplificação de feitiço: Azul - Potência máxima, é um feitiço poderoso que desfere um golpe em área e permite que você vire o jogo.\nAproveite a oportunidade para dar a volta por cima com um único golpe!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Combo de chutes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma enxurrada de golpes corpo a corpo.\nDurante o ataque, é possível usar mais um comando para iniciar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Chutes condutores"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "Um ataque de dois acertos que leva você até o inimigo enquanto o puxa para empurrá-lo."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Ataque duplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "Um ataque que leva você até o inimigo e desfere um golpe rápido de dois acertos."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Golpes condutores"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo enquanto o puxa, lançando-o pelos ares com golpes sequenciais, depois o puxa novamente para desferir um ataque complementar."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Acerto crítico"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "Um ataque que leva você até o inimigo, depois o manda pelos ares com um golpe poderoso."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Amplificação de feitiço: Saraivada azul"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "Um ataque de curta distância que leva você até o adversário rapidamente e desfere uma sequência de golpes.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Amplificação de feitiço: Azul - Potência máxima"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Gera uma versão gigantesca do Azul com potência máxima que puxa os inimigos e causa dano simultaneamente.\nNível de energia amaldiçoada 2: Reduz o tempo de carga.\nNível de energia amaldiçoada 3: Reduz ainda mais o tempo de carga."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Feitiço de reversão: Vermelho"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Vazio roxo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma joelhada.\nLança o Vazio roxo para causar dano altíssimo contra o adversário."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "Despertar do mais forte"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "Ativado após uma derrota.\nMelhora alguns ataques corpo a corpo e a Amplificação de feitiço: Azul - Potência máxima.\nPode ativar um Movimento despertado."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Feitiço ilimitado"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "Ativado parado ou correndo.\nO Infinito aparece ao seu redor e um certo número de ataques não atingirão você."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Seis olhos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Sempre ativo.\nVisualiza o Medidor de energia amaldiçoada do adversário.\nA Energia amaldiçoada aumenta gradualmente."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Levitação"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Levite segurando o comando de pular."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "Um jovem feiticeiro Jujutsu de nível especial que combina suas habilidades de luta com feitiços impressionantes.\n\n• Manipulação de maldições: Kuchisake-Onna expande um Domínio simples que reage a ataques inimigos e contra-ataques!\n• Seu potencial, Manipulação de maldições, usa maldições para atacar e restaurar a própria Energia amaldiçoada.\nContinue acertando golpes para ficar mais forte!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Ataque corpo a corpo de quatro acertos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma enxurrada de golpes corpo a corpo.\nDurante o ataque, é possível usar mais um comando para iniciar um Feitiço de energia amaldiçoada."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Manipulação de maldições: Investida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "Um ataque de média distância que invoca uma maldição para disparar contra o inimigo.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Ataque corpo a corpo de três pontas: Encalço de maldição"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um ataque triplo, depois invoca uma maldição para lançá-lo para cima.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "Ataque corpo a corpo um-dois"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Este ataque leva você até o inimigo e desfere um golpe de dois acertos.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "Ataque corpo a corpo um-dois: encalço de maldição"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um ataque duplo, depois invoca uma maldição para lançá-lo para cima.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Disparo de maldição"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "Um ataque de média distância que dispara três maldições pequenas sucessivamente."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Manipulação de maldições: Saraivada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Lança pequenas maldições que realizam vários ataques.\n<img id=\"CursedEnergyAttack_1\"/> Um ataque de média distância que lança várias maldições pequenas para caçar o inimigo.\nNível de energia amaldiçoada 2: Invoca mais maldições e aumenta o número de golpes.\nNível de energia amaldiçoada 3: Invoca ainda mais maldições e aumenta ainda mais o número de golpes.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/> Um ataque de longa distância que lança diversas maldições pequenas rapidamente.\nPode ser segurado.\nConsome Energia amaldiçoada continuamente enquanto ativo.\nNível de energia amaldiçoada 2: Invoca mais maldições e atinge uma área maior.\nNível de energia amaldiçoada 3: Invoca ainda mais maldições e atinge uma área ainda maior."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Manipulação de maldições: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Invoca <GLO=GLS_NAME_CN_200> e expande um Domínio simples.\nInimigos que atacam dentro do Domínio são picotados por várias tesouras.\nConsome continuamente Energia amaldiçoada e o consumo é interrompido quando outro comando é executado ou a Energia amaldiçoada acaba.\nNível de energia amaldiçoada 2: Aumenta o número de ataques e expande a área do Domínio.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de ataques e expande ainda mais a área do Domínio."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Manipulação de maldições: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Manipulação de maldições: Dragão Arco Íris"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma cotovelada.\nLança o Dragão Arco Íris, a maldição mais poderosa disponível, para causar dano altíssimo contra o inimigo."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Manipulação de maldições"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Recupera Energia amaldiçoada ao atingir um ataque de maldição.\nA quantidade recuperada depende da maldição.\nO efeito varia também de acordo com o seu Nível de energia amaldiçoada."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "Uma atacante de longa distância focada em golpes surpresa e capaz de oferecer disparos de cobertura à distância.\n\n• Use \"Mirar\" para disparar projéteis de energia amaldiçoada em qualquer direção.\nMire bem e dê um tiro certeiro!\n• Fique atento e recarregue sempre que puder para não ficar em desvantagem.\n• Atacar um inimigo que não está focado em você aumenta a sua força e energia amaldiçoada.\nSempre fique de olho no alvo do seu inimigo e aproveite isso!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Disparo único"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "Um ataque de longa distância que consome um projétil para disparar contra o inimigo.\nDurante o ataque, você pode repetir o comando para iniciar um feitiço.\nRecarrega se estiver sem munição."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Disparo ao agachar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "Um ataque de longa distância que faz você se agachar e consome um projétil para disparar contra o inimigo.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe.\nRecarrega se estiver sem munição."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Disparo rápido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "Uma combinação de ataques que dispara projéteis apertando <img id=\"NormalAttack_2\"/> continuamente.\nRecarrega se estiver sem munição."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Chute"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o manda pelos ares com um Chute giratório.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Cegar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "Um ataque de curta distância que espalha areia no lugar, assustando os inimigos atingidos.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Golpe duplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere dois golpes."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Mirar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "Um ataque de longa distância que fixa você no local para mirar antes de disparar um projétil imbuído com energia amaldiçoada.\nControle a retícula da mira com <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para mirar e disparar com a perspectiva sobre o ombro.\nEste modo consome Energia amaldiçoada, você também pode usar projéteis diferentes com <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> e <img id=\"CursedEnergyAttack_2\"/>.\nRecarrega se estiver sem munição.\nNível de energia amaldiçoada 1: <img id=\"NormalAttack_1\"/>: Consome 1 carga de Energia amaldiçoada.\n<img id=\"NormalAttack_2\"/>: Consome 1 carga de Energia amaldiçoada.\n<img id=\"CursedEnergyAttack_2\"/>: Consome 1 carga de Energia amaldiçoada.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\n<img id=\"NormalAttack_1\"/>: Consome 1 carga de Energia amaldiçoada.\n<img id=\"NormalAttack_2\"/>: Consome 2 cargas de Energia amaldiçoada.\n<img id=\"CursedEnergyAttack_2\"/>: Consome 2 cargas de Energia amaldiçoada.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado.\n<img id=\"NormalAttack_1\"/>: Consome 1 carga de Energia amaldiçoada.\n<img id=\"NormalAttack_2\"/>: Consome 3 cargas de Energia amaldiçoada.\n<img id=\"CursedEnergyAttack_2\"/>: Consome 3 cargas de Energia amaldiçoada."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Disparo carregado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "Um ataque de longa distância que imbui um projétil com Energia amaldiçoada e realiza um disparo poderoso.\nPode ser segurado.\nPode se mover durante a carga.\nNão é possível avançar.\nO dano aumenta com a carga.\nCarga máxima faz o disparo perfurar.\nRecarrega se estiver sem munição.\nNível de energia amaldiçoada 2: Reduz o tempo de carga. Aumenta o dano causado.\nNível de energia amaldiçoada 3: Reduz ainda mais o tempo de carga. Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Recarregar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Recarrega os projéteis.\nÉ possível se mover durante a recarga."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "Que bom que esse acertou"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Construção"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "Este ataque não pode ser defendido.\nRecarrega se estiver sem munição.\nÉ ativado ao usar e acertar uma munição.\nDispara seis projéteis, depois usa Construção para disparar um sétimo projétil que causa dano altíssimo ao inimigo."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Não adianta fugir"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Fortalece você e aumenta a energia amaldiçoada obtida ao atacar inimigos que não estão mirando em você."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "Uma atacante voadora que usa a mobilidade aérea para surpreender os inimigos.\n\n• Investida, permite que você se mova rapidamente enquanto ataca.\nDesequilibre o adversário, depois aproveite a abertura para causar muito dano com a Manipulação de instrumento: Foice de vento!\n• Seu potencial, Manipulação de instrumento, aproveita a tridimensionalidade do ambiente, permitindo que ela ataque de qualquer lugar."
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Varrida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e golpeia com uma vassoura.\nDurante o ataque, é possível repetir o comando para iniciar um Feitiço de energia amaldiçoada."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Redemoinho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "Um ataque de média distância que gera um redemoinho que avança.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Golpe rasante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "Um ataque de curta distância que desce com um rasante para atacar o inimigo.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Mergulho vertical"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "Um mergulho vertical no mesmo lugar.\nPode ser segurado.\nEste ataque pode ser combinado com um avanço ou com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Chicote de vento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "Um disparo de média distância que gera vento para atirar no inimigo.\nO vento se espalha no impacto e lança os inimigos para cima."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Ventania"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "Um ataque de curta distância que varre com a vassoura no lugar para gerar vento."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Investida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Investe rapidamente enquanto voa na vassoura.\nUse <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> durante a investida para mudar a direção.\nA velocidade de movimento aumenta após o ataque e melhora os Feitiços de extração ao usar golpes com base de vento.\nPode ser segurado.\nNível de energia amaldiçoada 2: Aumenta o dano causado. Aumenta o efeito das melhorias.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado. Aumenta o efeito das melhorias."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Manipulação de instrumento: Foice de vento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Desfere o golpe de longa distância Foice de vento contra o inimigo.\nNível de energia amaldiçoada 2: Aumenta o dano causado.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Tenta me pegar"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Manipulação de instrumento: Foice de vento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar um chute enquanto voa na vassoura.\nLança o inimigo pelos ares para ele não escapar, depois causa dano altíssimo com a Manipulação de Instrumento: Foice do Vento."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Manipulação de instrumento"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Levanta voo com a vassoura.\nSegure o botão de saltar para voar mais alto.\nVocê plana pelo ar e recupera o Medidor de avanço."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "Um atacante de longa distância que encurrala inimigos usando diversos ataques de arco e flexa e Manipulação Sanguínea.\n\n• Executa vários ataques com arco e flexa para pegar o inimigo desprevenido e lançar sua técnica suprema: Manipulação Sanguínea.\n• Manipulação Sanguínea: Exorcismo Ceifante facilita atingir alvos em movimento, o tiro é certeiro.\n• Quanto mais você carregar a Manipulação Sanguínea: Convergência/Sangue Perfurante, maior será o alcance e a força dela, permitindo que você atravesse seu inimigo com um só golpe!\nMantenha a calma, observe os passos do adversário e mire para derrubá-lo com um único ataque!"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Flecha de energia amaldiçoada: Disparo contínuo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "Um ataque de longa distância que dispara uma flecha após outra contra o inimigo.\nDurante o ataque, é possível repetir o comando para realizar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Flecha de energia amaldiçoada: Disparo único"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "Um ataque de longa distância que carrega o arco com força para disparar uma flecha.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Flecha de energia amaldiçoada: Disparo reto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "Um ataque de longa distância que dispara uma flecha em linha reta com grande alcance e velocidade.\nPode ser segurado."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Flecha de energia amaldiçoada: Disparo curvo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "Um ataque de longa distância que dispara várias flechas em todos os inimigos ao alcance.\nSegure para definir o local do ataque.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Flecha de energia amaldiçoada: Disparo lateral"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "Um ataque de longa distância que dispara flechas em três direções.\nPode ser carregado para lançar flechas que perseguem o inimigo usando a Manipulação Sanguínea.\nPode ser segurado.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Manipulação Sanguínea: Restrição Vermelha"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Fica no lugar e lança uma bolsa de sangue no inimigo ao sofrer um ataque.\nSe o inimigo for atingido, ele ficará coberto de sangue, permitindo que você pare os movimentos dele."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Manipulação Sanguínea: Exorcismo Ceifante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "Um ataque teleguiado de longa distância que dispara uma lâmina de sangue circular giratória.\nO número de lâminas lançadas aumenta dependendo do Nível de energia amaldiçoada.\nPode ser segurado.\nNível de energia amaldiçoada 2: Aumenta o número de lâminas lançadas. Aumenta o consumo do Medidor da bolsa de sangue.\nNível de energia amaldiçoada 3: Aumenta ainda mais o número de lâminas lançadas. Aumenta ainda mais o consumo do Medidor da bolsa de sangue."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Manipulação Sanguínea: Convergência/Sangue Perfurante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "Um ataque de longa distância que comprime o sangue e o atira em linha reta com alta velocidade.\nO alcance e o dano aumentam com a carga.\nPode ser segurado.\nNível de energia amaldiçoada 2: Aumenta a capacidade da carga.\nNível de energia amaldiçoada 3: Aumenta ainda mais a capacidade da carga."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Manipulação Sanguínea: Fluxo das Escamas Vermelhas"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Manipulação Sanguínea: Sangue Perfurante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "Este ataque não pode ser bloqueado pela defesa.\nAtivado quando a flecha perfura o inimigo.\nApós a flecha atingir o alvo, o Sangue perfurante é liberado, causando dano altíssimo."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Bolsa de sangue"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "A quantidade consumida do Medidor da bolsa de sangue depende do feitiço de Manipulação Sanguínea utilizado.\nConsome vida quando o Medidor da bolsa de sangue estiver vazio.\nO Medidor não é consumido em Ataques conjuntos nem Movimentos despertados."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Orgulho do próximo chefe do clã"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Reduz a quantidade de sangue consumida quando está com metade da vida ou menos.\nQuando o Medidor da bolsa de sangue está vazio, o consumo de vida é reduzido."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "Um matador de feiticeiros que destrói seus inimigos com instrumentos amaldiçoados incomuns e físico desenvolvido obtido através da Restrição Congênita.\n\n• Seu Movimento acelerado pode ser usado para cancelar ataques e criar sequências de golpes.\nO segredo é nunca parar de atacar!\n• Lança invertida do paraíso: Talho desfere ataques diferentes de acordo com a sua posição em relação ao adversário.\nCombine isso com o Movimento acelerado para criar combos devastadores!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Chute cortante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um talho com a Lança invertida do paraíso.\nDurante o ataque, é possível usar mais um comando para iniciar um Feitiço de instrumento amaldiçoado."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Socão"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "Um ataque de curta distância que lança você com força.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Estocada cortante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma estocada com a Lança invertida do paraíso."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Estocada para baixo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "Um ataque de curta distância que lança você para cima e para frente para depois descer sobre o inimigo com a Lança invertida do paraíso.\nManda o inimigo pelos ares ao atingir o chão."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "Movimento acelerado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Consome o Medidor de avanço para se mover em alta velocidade.\nDepois de se mover, você pode adicionar outras ações com diferentes comandos.\nVocê pode usar após o atordoamento de outros golpes e também combiná-lo durante golpes que levam você ao oponente.\nPode ser combinado com outros golpes após se mover.\n<img id=\"NormalAttack_3\"/> Leva você até o adversário.\n<img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/> Move-se diagonalmente para frente.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/> Move-se para frente."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Saque da espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Fica parado e ataca com a Lança invertida do paraíso.\nSe o inimigo atacar durante esse golpe, ativa um contra-ataca."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Lança invertida do paraíso: Talho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "Um golpe poderoso com a Lança invertida do paraíso.\nDesfere um ataque diferente de acordo com a sua posição em relação ao adversário.\nNível de força física 2: Aumenta o dano causado.\nNível de força física 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Lança invertida do paraíso: Corte"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "Uma enxurrada de golpes com a Lança invertida do paraíso.\nPode ser segurado.\nNível de força física 2: Aumenta o número de ataques.\nNível de força física 3: Aumenta ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Saraivada de Espíritos Amaldiçoados"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Corrente de mil milhas e Lança invertida do paraíso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma estocada com a Lança invertida do paraíso.\nConecta Corrente de mil milhas e Lança invertida do paraíso para causar dano altíssimo com uma sequência de ataques atordoantes."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Matador de feiticeiros"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Acertar um golpe final aumenta seu Nível de força física e reduz temporariamente o consumo do Medidor de avanço.\nNo Nível de força física máximo, isso faz seu Medidor de força física se recuperar."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Restrição Congênita: Dom físico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Fortaleça-se com habilidades de físicas excepcionais, mas perca toda sua Energia amaldiçoada.\nPode pular no ar várias vezes."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Lança invertida do paraíso"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Ataques com a Lança invertida do paraíso desarmam os feitiços do inimigo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "Uma atacante de curta distância que usa a técnica de Saque rápido para cortar inimigos com golpes rápidos como relâmpagos.\n\n• Seu potencial, Novo estilo da sombra: Saque rápido, permite que ela realize um golpe rápido e poderoso a partir da Postura embainhada.\nTente manter a espada embainhada durante a batalha para ficar na vantagem.\n• Contra-ataque automaticamente todos os inimigos que entrarem no Novo estilo da sombra: Domínio simples para causar dano altíssimo.\nAproxime-se do seu inimigo com o feitiço Novo estilo da sombra: Saque rápido quando estiver pronto para a ofensiva."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Corte diagonal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um corte diagonal.\nAo acertar, realiza um ataque complementar automaticamente e assume a Postura embainhada.\nDurante o ataque, é possível repetir o comando para realizar um Feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Corte de lançamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo, arremessa-o e desfere um corte.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Golpe lacerante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo para cortá-lo.\nAo acertar, chuta o inimigo para mandá-lo pelos ares e assume a Postura embainhada."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Corte de extração"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "Um ataque de curta distância em que você embainha a espada e vai até o inimigo para desferir dois cortes.\nPode realizar o corte duplo imediatamente se já estiver na Postura embainhada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Embainhar/Corte rápido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Na postura desembainhada】\nVai embainhar a espada sem sair do lugar.\n【Na postura embainhada】\nVai desferir um ataque de curta distância, com salto para frente, fazendo um Corte rápido.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Evasão embainhada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Fuja na direção que quiser enquanto embainha a espada.\nSó é possível fugir se a espada já estiver embainhada.\nÉ possível combinar outras ações após a fuga."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "Novo estilo da sombra: Saque rápido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "Um ataque de curta distância em que você embainha a espada e vai até o inimigo para desferir um corte devastador desembainhando a espada.\nPode desferir o corte imediatamente se já estiver na Postura embainhada.\nNível de energia amaldiçoada 2: Aumenta o dano causado. Aumenta a área do ataque.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado. Aumenta ainda mais a área do ataque."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "Novo estilo da sombra: Domínio simples, Saque rápido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Embainha a espada sem sair do lugar e expande um Domínio simples.\nPode fazer isso bem mais rápido na Postura embainhada.\nAtaca os inimigos que entram no domínio automaticamente.\nApara todos os ataques que vêm de fora do domínio automaticamente.\nÉ possível combinar com a Evasão embainhada ao expandir o Domínio simples.\nPode ser segurado.\nAo realizar no ar, você desce automaticamente.\nNível de energia amaldiçoada 2: Aumenta o dano causado. Aumenta a área do domínio.\nNível de energia amaldiçoada 3: Aumenta ainda mais o dano causado. Aumenta ainda mais a área do domínio."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "Novo estilo da sombra: Domínio simples, Saque rápido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado após acertar um corte ascendente contra o adversário.\nExpande um Domínio Simples e inflige dano altíssimo automaticamente a inimigos que entrarem nele."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "Novo estilo da sombra: Saque rápido"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Assume a Postura embainhada após usar certos ataques.\nNa Postura embainhada, determinados ataques serão realizados mais rapidamente e terão um alcance maior.\nAssume a Postura desembainhada se defender durante a postura ou for empurrada.\nRealize uma Defesa perfeita para não perder a postura."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "Um lutador com muito poder de fogo e produção de energia amaldiçoada altíssima graças à restrição congênita.\n\n• Seu Potencial \"Restrição Congênita\" permite que ele use feitiços sem limitação devido aos níveis de energia amaldiçoada.\n• Aproveite o dano alto que ele pode causar desde o começo da batalha para sair na frente!\n• Use seus feitiços de extração de alta mobilidade para dançar pelo campo de batalha e confundir seu adversário."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Saraivada de Ataques Corpo a Corpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma enxurrada de golpes corpo a corpo.\nDurante o ataque, é possível usar mais um comando para iniciar um feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Reforço de Golpe com a Palma"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo - usando uma propulsão - e o arremessa pelos ares.\nEste ataque não pode ser defendido.\nAtiva uma chance de ataque conjunto se realizado em um combate de batalha em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Ultracanhão de Longo Alcance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "Um ataque de média distância que dispara o Ultracanhão da sua mão esquerda para queimar uma grande área."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Liberação da Espada: Ultra Escudo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Transforma o braço direito em um escudo com espinhos e farpas.\nNesta postura, você pode defletir ataques inimigos com o Ultra Escudo.\nEsta ação atordoará inimigos após contra-ataques bem-sucedidos."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Reforço de Ataque Corpo a Corpo Um-Dois"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo - usando uma propulsão - e desfere dois chutes.\nTem tempo de recarga aumentado se usado em superaquecimento.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Reforço de Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo - usando uma propulsão - e desfere um gancho rápido que lança o adversário pelos ares.\nTem tempo de recarga aumentado se usado em superaquecimento.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Reforço de Liberação da Espada: Ultra Rotação"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Cria uma lâmina no braço direito e gira rapidamente em direção ao inimigo usando uma propulsão.\nPode ser segurado.\nNível de Energia Amaldiçoada 2: Aperte repetidamente para aumentar o número de ataques.\nNível de Energia Amaldiçoada 3: Aperte repetidamente para aumentar ainda mais o número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "Alta Potência: Ultracanhão"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "Um ataque de longa distância que carrega e desfere energia amaldiçoada da sua mão esquerda.\nPode ser segurado.\nNível de Energia Amaldiçoada 2: Aumenta o dano causado.\nNível de Energia Amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Reforço de Ataque Corpo a Corpo"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao atingir um inimigo com um projétil.\nUse a torreta na sua boca e os dois canhões de mão para disparar o Canhão Definitivo e causar dano altíssimo contra o inimigo."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Restrição Congênita"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Permite que você ative feitiços mais fortes que o Nível de Energia Amaldiçoada atual.\nPode ser ativado segurando o comando por um período ao usar o feitiço.\nDependendo da diferença entre o Nível de Energia Amaldiçoada e o seu nível atual, você pode superaquecer, ficar mais lento e recuperar energia amaldiçoada mais lentamente."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "Um combatente que usa o sangue e é especializado em ataques e combate à distância.\n\n• Com a Manipulação Sanguínea: Fluxo das Escamas Vermelhas ativada, cause dano com Feitiços de Extração ou Combinação enquanto ganha impulsos de velocidade. Use a velocidade para se aproximar do adversário rapidamente.\n• A Manipulação Sanguínea: Convergência/Sangue Perfurante com Nível de Energia Amaldiçoada 3 pode ser mirada para esquerda ou direita para um ataque de varredura. Derrube vários inimigos à distância com este feitiço formidável."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Combinação Corpo a Corpo de Cinco Partes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa.\nEste ataque não pode ser defendido.\nAtiva uma chance de ataque conjunto se realizado em um combate de batalha em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Manipulação Sanguínea: Saraivada Sanguínea"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere dois cortes rápidos.\nEste golpe reduzirá a velocidade do inimigo temporariamente se acertá-lo.\nCoágulos de sangue aumentam o dano causado e o ganho de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "Ataque Corpo a Corpo Um-Dois"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um golpe de sangue coagulado para mandá-lo pelos ares.\nEste golpe reduz temporariamente a velocidade do inimigo atingido.\nCoágulos de sangue aumentam o dano causado e o ganho de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Manipulação Sanguínea: Exorcismo Ceifante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "Um ataque de longa distância que lança uma lâmina de sangue circular giratória.\nEste golpe reduz temporariamente a velocidade do adversário atingido.\nConsome 1 coágulo de sangue.\nCria novos coágulos de sangue se não houver nenhum."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Onda de Sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "Um ataque de curta distância que desfere uma torrente de sangue que se transforma em espinhos.\nEste golpe reduz temporariamente a velocidade do adversário atingido.\nConsome 1 coágulo de sangue.\nCria novos coágulos de sangue se não houver nenhum."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Manipulação Sanguínea: Fluxo das Escamas Vermelhas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Controle os componentes de sangue para melhorar as habilidades físicas.\nEnquanto está ativo, pode causar dano por Feitiços de Combinação ou Extração. Também tem os seguintes efeitos: aumento de velocidade de ataque, aumento de velocidade de guia, aumento de velocidade de avanço, redução do consumo do Medidor de Avanço e aumento do dano causado a defesas.\n\nConsome energia amaldiçoada continuamente. O consumo é interrompido quando outro comando é executado ou a energia amaldiçoada acaba."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Manipulação Sanguínea: Convergência/Sangue Perfurante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "Um ataque de longa distância que comprime o sangue para disparar em linha reta com alta velocidade.\nO alcance e o dano aumentam com a carga.\nEste golpe reduz temporariamente a velocidade do adversário atingido.\nConsome 1 coágulo de sangue.\nCria novos coágulos de sangue se não houver nenhum.\nPode ser segurado.\nNível de Energia Amaldiçoada 2: Reduz o tempo de carga.\nNível de Energia Amaldiçoada 3: Aperte <img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/> após disparar o Sangue Perfurante para realizar um movimento de gancho."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Manipulação Sanguínea: Fluxo das Escamas Vermelhas, Acúmulo"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao acertar uma joelhada.\nLança o sangue comprimido com Convergência em um projétil onidirecional que causa dano altíssimo ao seu inimigo."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Coágulo de Sangue"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Pode ser usado após criar vários coágulos de sangue.\nAlguns ataques poderosos consomem coágulos de sangue.\nO número de coágulos que você pode criar aumenta de acordo com o Nível de Energia Amaldiçoada.\nSe você não tiver coágulos de sangue sobrando, pode criar mais usando <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/> ou <img id=\"CursedEnergyAttack_2\"/>."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Fetos Amaldiçoados"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "Ao ser usado com sangue venenoso, este golpe reduz temporariamente a velocidade do inimigo atingido.\nO nível de redução depende do Nível de Energia Amaldiçoada."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "Uma atacante de curta distância que controla os corvos para atacar e defender enquanto conta com a ajuda de aliados na luta.\n\n• Seu feitiço \"Manipulação do Pássaro Preto\" pode ser usado para bloquear ataques automaticamente e para fazer com que os corvos ataquem os inimigos. Use constantemente os corvos para ter vantagem na batalha.\n• Seu Potencial \"Uma Vida Feita Para Cumprir Serviço\" reforça seus poderes quanto mais os outros a ajudarem. Esse efeito está ativo durante toda a batalha, então coopere com os aliados tanto quanto puder!"
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Corte Triplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes com o machado.\nDurante o ataque, é possível repetir o comando para iniciar um feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Golpe com Machado Invertido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e o arremessa com o machado.\nEste ataque não pode ser defendido.\nAtiva uma Chance de ataque conjunto se realizado em um combate de batalha em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Ataque Complementar de Lançamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Leva você ao inimigo para realizar um golpe de curta distância com o machado que o joga para cima.\nAperte novamente para realizar um ataque complementar e mandá-lo pelos ares.\nPode ser combinado com uma estocada para baixo da primeira etapa.\nPode ser combinado com Manipulação do Pássaro Preto da segunda etapa."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Estocada para Baixo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "Um ataque de curta distância em que você salta e desce em diagonal, com o machado à frente.\nQuando realizado no ar, você cairá em linha reta.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Golpe Aéreo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "Um ataque de curta distância que leva você ao inimigo e o lança para o ar com o machado, antes de puxá-lo para baixo.\nÉ possível repetir o comando para mandar o inimigo pelos ares.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Salto com Atropelo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "Um ataque de curta distância que permite que você atropele o inimigo antes de saltar bem alto.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Corte Giratório/Corte para Baixo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "Um ataque de curta distância que permite que você corra enquanto brande o machado. Este ataque pode ser combinado com outros golpes ao repetir o comando.\nCorra para qualquer direção durante a investida.\n<img id=\"CursedEnergyAttack_1\"/> Faça um movimento circular e ataque com o machado enquanto gira.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Salte para o ar, depois desça enquanto carrega o machado para causar um golpe poderoso.\nPode ser ativado imediatamente com uma postura normal.\n\nNível de Energia Amaldiçoada 2: Aumenta a velocidade da investida. Aumenta a duração da investida. Aumenta o dano causado.\nNível de Energia Amaldiçoada 3: Aumenta ainda mais a velocidade da investida. Aumenta ainda mais a duração da investida. Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Manipulação do Pássaro Preto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Invoca uma revoada de corvos ao seu redor.\nOs pássaros te seguirão e protegerão do próximo ataque inimigo.\nApós te defenderem desse ataque, os corvos sumirão.\nÉ possível repetir o comando para mirar no inimigo e mandar os corvos para atacá-lo.\nÉ possível se mover enquanto os corvos atacam. Também é possível dar ordens aos corvos durante a investida ao usar Corte Giratório/Corte para Baixo.\nNível de Energia Amaldiçoada 2: Aumenta o dano causado.\nNível de Energia Amaldiçoada 3: Aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Combinações de Acertos no Ar"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "Este ataque não pode ser defendido.\nAcerte uma estocada com o machado para ativar.\nPode causar dano alto investindo contra o inimigo após forçar os corvos a se sacrificarem, removendo limitações de energia amaldiçoada."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "Uma vida feita para cumprir potencial de serviço"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "Sempre que uma determinada quantidade de Bônus de Cooperação for ativada, estes efeitos serão recuperados:\nAumento da velocidade de avanço;\nRedução do consumo do Medidor de avanço;\nRedução do atraso após um avanço;\nAumento da velocidade de recuperação de energia amaldiçoada;\nRedução do atraso após uma defesa.\nOs efeitos acima ficarão ativos durante a batalha.\nEste Potencial tem limite máximo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "O feiticeiro mais veloz, Naobito usa feitiços de alto risco e recompensa para desorientar seus adversários.\n\n• Seu Potencial, \"Feitiço de Projeção,\" possibilita movimentos extremamente rápidos com sequências de golpes usando seu feitiço.\nIsso consome energia amaldiçoada automaticamente, e precisa ser usado com cuidado, ou vai acabar paralisado se ficar sem energia.\n• Seu feitiço de energia amaldiçoada \"Feitiço de Projeção: Golpe\" pode ser combinado com Feitiços de Extração <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> ou <img id=\"NormalAttack_3\"/> ao repetir o mesmo botão novamente.\nQuanto mais vezes o Feitiço de Projeção for ativado durante um combo, maior será o dano."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Pancada Reversa"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de golpes.\nDurante o ataque, é possível repetir o comando para iniciar um feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Golpe com a Palma"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um golpe com a palma.\nEste ataque não pode ser defendido.\nSe o inimigo atingido não estiver no estado de tontura, ele será paralisado.\nAtiva uma chance de ataque conjunto se realizado em um combate de batalha em equipe."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Golpes de Lançamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "Um ataque de curta distância que leva você ao inimigo e o lança pelos ares antes de puxá-lo para baixo.\nÉ possível repetir o comando durante o ataque para combinar com um Feitiço de Energia Amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Golpe Perfurante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere um gancho ao pular.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Chute Triplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "Um ataque de curta distância que leva você até o inimigo e desfere uma série de chutes.\nDurante o ataque, é possível repetir o comando para iniciar um feitiço de energia amaldiçoada.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "Derrubada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "Um ataque de curta distância que leva você até o inimigo depois de pular para desferir um chute.\nEste ataque pode ser combinado com outros golpes."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Feitiço de Projeção: Golpe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Mantém a postura e usa o Feitiço de Projeção para levar você até o inimigo e desferir um brutal ataque de curta distância.\nCorra ou pule enquanto em postura para se mover em qualquer direção até 2 vezes.\nUse um Feitiço de Combinação ou Feitiço de Extração na postura ou após se mover para ativar as ações do Feitiço de Projeção.\nApós outros golpes, pode ser usado imediatamente sem entrar na postura.\nO dano causado com o Feitiço de Projeção muda de acordo com o número de usos."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Feitiço de Projeção: Saraivada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "Um ataque de curta distância que leva você até o adversário com o Feitiço de Projeção para congelá-lo no contato e causar uma enxurrada de ataques.\nRepita o comando na hora certa para combinar outros golpes.\nSe esse feitiço falhar, você ficará congelado temporariamente.\nNível de Energia Amaldiçoada 2: aumenta o dano causado.\nNível de Energia Amaldiçoada 3: aumenta ainda mais o dano causado."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Feitiço de Projeção."
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "Este ataque não pode ser defendido.\nAtivado ao correr até o inimigo.\nUse o Feitiço de Projeção para aumentar sua velocidade e causar dano altíssimo com uma série de ataques rápidos."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Feitiço de Projeção"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Esse Potencial é ativado quando usado em sequências de golpes durante o ataque.\nAo invés de levar você, usa energia amaldiçoada automaticamente para te mover até o inimigo com o Feitiço de Projeção.\nTodas as ações realizadas com o Feitiço de Projeção são ataques de um acerto.\nSe não houver energia amaldiçoada suficiente, o feitiço não será ativado e você ficará parado temporariamente.\nÉ possível causar mais dano com o Feitiço de Projeção para criar várias sequências de ataques."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Técnica Secreta: Emoção da Pétala Decadente"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "Quando o adversário está expandindo o Domínio, sua defesa se transforma em Emoção da Pétala Decadente. Isso consome energia amaldiçoada continuamente para contra-atacar o Domínio e proteger você. \nVocê ficará imune a empurrões e quebras de defesa. Se não tiver energia amaldiçoada suficiente, você realizará uma defesa normal."
+      }
+    }
+  }
+]

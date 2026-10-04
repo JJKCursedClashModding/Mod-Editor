@@ -1,0 +1,521 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterCursedEnergyDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_CharacterCursedEnergy'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010": {
+        "ID": "CP_010",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_020": {
+        "ID": "CP_020",
+        "LevelThreshold": [
+          100.0,
+          400.0,
+          600.0,
+          800.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 90.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_030": {
+        "ID": "CP_030",
+        "LevelThreshold": [
+          200.0,
+          300.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 95.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_040": {
+        "ID": "CP_040",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 70.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_050": {
+        "ID": "CP_050",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 100.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_051": {
+        "ID": "CP_051",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 100.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_060": {
+        "ID": "CP_060",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 50.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_070": {
+        "ID": "CP_070",
+        "LevelThreshold": [
+          200.0,
+          300.0,
+          400.0,
+          500.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 100.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_080": {
+        "ID": "CP_080",
+        "LevelThreshold": [
+          200.0,
+          300.0,
+          400.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_090": {
+        "ID": "CP_090",
+        "LevelThreshold": [
+          100.0,
+          300.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 70.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_100": {
+        "ID": "CP_100",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 85.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_110": {
+        "ID": "CP_110",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          700.0,
+          800.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 95.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_120": {
+        "ID": "CP_120",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          400.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 85.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_121": {
+        "ID": "CP_121",
+        "LevelThreshold": [
+          200.0,
+          300.0,
+          400.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 80.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_130": {
+        "ID": "CP_130",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          400.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 65.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_140": {
+        "ID": "CP_140",
+        "LevelThreshold": [
+          300.0,
+          500.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 65.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_150": {
+        "ID": "CP_150",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 65.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_160": {
+        "ID": "CP_160",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.25,
+        "Recover_Speed": 95.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_170": {
+        "ID": "CP_170",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_180": {
+        "ID": "CP_180",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 80.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_200": {
+        "ID": "CP_200",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.25,
+        "Recover_Speed": 100.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_090": {
+        "ID": "CN_090",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 200.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_190": {
+        "ID": "CP_190",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 80.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_210": {
+        "ID": "CP_210",
+        "LevelThreshold": [
+          200.0,
+          300.0,
+          400.0,
+          500.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_220": {
+        "ID": "CP_220",
+        "LevelThreshold": [
+          100.0,
+          300.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_230": {
+        "ID": "CP_230",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          500.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 85.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_240": {
+        "ID": "CP_240",
+        "LevelThreshold": [
+          200.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 0.7,
+        "Recover_Speed": 72.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_250": {
+        "ID": "CP_250",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          400.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_260": {
+        "ID": "CP_260",
+        "LevelThreshold": [
+          200.0,
+          500.0,
+          600.0,
+          700.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 65.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_270": {
+        "ID": "CP_270",
+        "LevelThreshold": [
+          300.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 90.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_230": {
+        "ID": "CN_230",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 2.0,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_122": {
+        "ID": "CN_122",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          500.0,
+          700.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 110.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_240": {
+        "ID": "CN_240",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          300.0,
+          400.0
+        ],
+        "Recover_Wait": 1.5,
+        "Recover_Speed": 75.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_250": {
+        "ID": "CN_250",
+        "LevelThreshold": [
+          100.0,
+          400.0,
+          500.0,
+          600.0
+        ],
+        "Recover_Wait": 1.0,
+        "Recover_Speed": 100.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CP_020_ST": {
+        "ID": "CP_020_ST",
+        "LevelThreshold": [
+          100.0,
+          400.0,
+          600.0,
+          800.0
+        ],
+        "Recover_Wait": 0.5,
+        "Recover_Speed": 150.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      },
+      "CN_122_ST": {
+        "ID": "CN_122_ST",
+        "LevelThreshold": [
+          100.0,
+          200.0,
+          500.0,
+          700.0
+        ],
+        "Recover_Wait": 0.5,
+        "Recover_Speed": 200.0,
+        "Recover_Wait_Rate_Solo": 1.0,
+        "Recover_Speed_Rate_Solo": 1.0,
+        "Add_Rate_Solo": 1.0
+      }
+    }
+  }
+]

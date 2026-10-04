@@ -1,0 +1,1705 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EquipmentItemDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_EquipmentItem'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "ITM_CURSED_TOOLS_0010": {
+        "ID": "ITM_CURSED_TOOLS_0010",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0010_10": {
+        "ID": "ITM_CURSED_TOOLS_0010_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0010_20": {
+        "ID": "ITM_CURSED_TOOLS_0010_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0020": {
+        "ID": "ITM_CURSED_TOOLS_0020",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_STEP_DISTANCE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0020_10": {
+        "ID": "ITM_CURSED_TOOLS_0020_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_STEP_DISTANCE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0020_20": {
+        "ID": "ITM_CURSED_TOOLS_0020_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_STEP_DISTANCE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0030": {
+        "ID": "ITM_CURSED_TOOLS_0030",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_01",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0030_10": {
+        "ID": "ITM_CURSED_TOOLS_0030_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_03",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0030_20": {
+        "ID": "ITM_CURSED_TOOLS_0030_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_05",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0040": {
+        "ID": "ITM_CURSED_TOOLS_0040",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0040_10": {
+        "ID": "ITM_CURSED_TOOLS_0040_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0040_20": {
+        "ID": "ITM_CURSED_TOOLS_0040_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0050": {
+        "ID": "ITM_CURSED_TOOLS_0050",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0050_10": {
+        "ID": "ITM_CURSED_TOOLS_0050_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0050_20": {
+        "ID": "ITM_CURSED_TOOLS_0050_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0060": {
+        "ID": "ITM_CURSED_TOOLS_0060",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_01",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0060_10": {
+        "ID": "ITM_CURSED_TOOLS_0060_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_03",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0060_20": {
+        "ID": "ITM_CURSED_TOOLS_0060_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_05",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0070": {
+        "ID": "ITM_CURSED_TOOLS_0070",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0070_10": {
+        "ID": "ITM_CURSED_TOOLS_0070_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0070_20": {
+        "ID": "ITM_CURSED_TOOLS_0070_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0080": {
+        "ID": "ITM_CURSED_TOOLS_0080",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_01",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0080_10": {
+        "ID": "ITM_CURSED_TOOLS_0080_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_03",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0080_20": {
+        "ID": "ITM_CURSED_TOOLS_0080_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_05",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0090": {
+        "ID": "ITM_CURSED_TOOLS_0090",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_01",
+          "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0090_10": {
+        "ID": "ITM_CURSED_TOOLS_0090_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_03",
+          "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0090_20": {
+        "ID": "ITM_CURSED_TOOLS_0090_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_05",
+          "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0100": {
+        "ID": "ITM_CURSED_TOOLS_0100",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_01",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0100_10": {
+        "ID": "ITM_CURSED_TOOLS_0100_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_03",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0100_20": {
+        "ID": "ITM_CURSED_TOOLS_0100_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_05",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0110": {
+        "ID": "ITM_CURSED_TOOLS_0110",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_01",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0110_10": {
+        "ID": "ITM_CURSED_TOOLS_0110_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_03",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0110_20": {
+        "ID": "ITM_CURSED_TOOLS_0110_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_05",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0120": {
+        "ID": "ITM_CURSED_TOOLS_0120",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0120_10": {
+        "ID": "ITM_CURSED_TOOLS_0120_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0120_20": {
+        "ID": "ITM_CURSED_TOOLS_0120_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0130": {
+        "ID": "ITM_CURSED_TOOLS_0130",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0130_10": {
+        "ID": "ITM_CURSED_TOOLS_0130_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0130_20": {
+        "ID": "ITM_CURSED_TOOLS_0130_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0140": {
+        "ID": "ITM_CURSED_TOOLS_0140",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_01",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0140_10": {
+        "ID": "ITM_CURSED_TOOLS_0140_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_03",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0140_20": {
+        "ID": "ITM_CURSED_TOOLS_0140_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05",
+          "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0150": {
+        "ID": "ITM_CURSED_TOOLS_0150",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0150_10": {
+        "ID": "ITM_CURSED_TOOLS_0150_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0150_20": {
+        "ID": "ITM_CURSED_TOOLS_0150_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0160": {
+        "ID": "ITM_CURSED_TOOLS_0160",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0160_10": {
+        "ID": "ITM_CURSED_TOOLS_0160_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0160_20": {
+        "ID": "ITM_CURSED_TOOLS_0160_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0170": {
+        "ID": "ITM_CURSED_TOOLS_0170",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0170_10": {
+        "ID": "ITM_CURSED_TOOLS_0170_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0170_20": {
+        "ID": "ITM_CURSED_TOOLS_0170_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0180": {
+        "ID": "ITM_CURSED_TOOLS_0180",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_01",
+          "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0180_10": {
+        "ID": "ITM_CURSED_TOOLS_0180_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_03",
+          "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0180_20": {
+        "ID": "ITM_CURSED_TOOLS_0180_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_STEP_DISTANCE_05",
+          "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0190": {
+        "ID": "ITM_CURSED_TOOLS_0190",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_01",
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0190_10": {
+        "ID": "ITM_CURSED_TOOLS_0190_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_03",
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0190_20": {
+        "ID": "ITM_CURSED_TOOLS_0190_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_HIT_POINT_MAX_ADD_05",
+          "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0200": {
+        "ID": "ITM_CURSED_TOOLS_0200",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_01",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0200_10": {
+        "ID": "ITM_CURSED_TOOLS_0200_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_03",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03"
+        ]
+      },
+      "ITM_CURSED_TOOLS_0200_20": {
+        "ID": "ITM_CURSED_TOOLS_0200_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_05",
+          "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0010": {
+        "ID": "ITM_CURSED_OBJECTS_0010",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_01",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0010_10": {
+        "ID": "ITM_CURSED_OBJECTS_0010_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_03",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0010_20": {
+        "ID": "ITM_CURSED_OBJECTS_0010_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_05",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0020": {
+        "ID": "ITM_CURSED_OBJECTS_0020",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_01",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0020_10": {
+        "ID": "ITM_CURSED_OBJECTS_0020_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_03",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0020_20": {
+        "ID": "ITM_CURSED_OBJECTS_0020_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_05",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0030": {
+        "ID": "ITM_CURSED_OBJECTS_0030",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0030_10": {
+        "ID": "ITM_CURSED_OBJECTS_0030_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0030_20": {
+        "ID": "ITM_CURSED_OBJECTS_0030_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0040": {
+        "ID": "ITM_CURSED_OBJECTS_0040",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0040_10": {
+        "ID": "ITM_CURSED_OBJECTS_0040_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0040_20": {
+        "ID": "ITM_CURSED_OBJECTS_0040_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0060": {
+        "ID": "ITM_CURSED_OBJECTS_0060",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0060_10": {
+        "ID": "ITM_CURSED_OBJECTS_0060_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0060_20": {
+        "ID": "ITM_CURSED_OBJECTS_0060_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0080": {
+        "ID": "ITM_CURSED_OBJECTS_0080",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0080_10": {
+        "ID": "ITM_CURSED_OBJECTS_0080_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0080_20": {
+        "ID": "ITM_CURSED_OBJECTS_0080_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0090": {
+        "ID": "ITM_CURSED_OBJECTS_0090",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_04",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0090_10": {
+        "ID": "ITM_CURSED_OBJECTS_0090_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0090_20": {
+        "ID": "ITM_CURSED_OBJECTS_0090_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_06",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0110": {
+        "ID": "ITM_CURSED_OBJECTS_0110",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0110_10": {
+        "ID": "ITM_CURSED_OBJECTS_0110_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0110_20": {
+        "ID": "ITM_CURSED_OBJECTS_0110_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0120": {
+        "ID": "ITM_CURSED_OBJECTS_0120",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_02",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_02_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0120_10": {
+        "ID": "ITM_CURSED_OBJECTS_0120_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0120_20": {
+        "ID": "ITM_CURSED_OBJECTS_0120_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_04",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_04_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0130": {
+        "ID": "ITM_CURSED_OBJECTS_0130",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_01",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_02"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0130_10": {
+        "ID": "ITM_CURSED_OBJECTS_0130_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_01",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0130_20": {
+        "ID": "ITM_CURSED_OBJECTS_0130_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_01",
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_04"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0140": {
+        "ID": "ITM_CURSED_OBJECTS_0140",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0140_10": {
+        "ID": "ITM_CURSED_OBJECTS_0140_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0140_20": {
+        "ID": "ITM_CURSED_OBJECTS_0140_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0150": {
+        "ID": "ITM_CURSED_OBJECTS_0150",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0150_10": {
+        "ID": "ITM_CURSED_OBJECTS_0150_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0150_20": {
+        "ID": "ITM_CURSED_OBJECTS_0150_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0180": {
+        "ID": "ITM_CURSED_OBJECTS_0180",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0180_10": {
+        "ID": "ITM_CURSED_OBJECTS_0180_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0180_20": {
+        "ID": "ITM_CURSED_OBJECTS_0180_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0190": {
+        "ID": "ITM_CURSED_OBJECTS_0190",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0190_10": {
+        "ID": "ITM_CURSED_OBJECTS_0190_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0190_20": {
+        "ID": "ITM_CURSED_OBJECTS_0190_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0200": {
+        "ID": "ITM_CURSED_OBJECTS_0200",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0200_10": {
+        "ID": "ITM_CURSED_OBJECTS_0200_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0200_20": {
+        "ID": "ITM_CURSED_OBJECTS_0200_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0210": {
+        "ID": "ITM_CURSED_OBJECTS_0210",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0210_10": {
+        "ID": "ITM_CURSED_OBJECTS_0210_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0210_20": {
+        "ID": "ITM_CURSED_OBJECTS_0210_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0220": {
+        "ID": "ITM_CURSED_OBJECTS_0220",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0220_10": {
+        "ID": "ITM_CURSED_OBJECTS_0220_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0220_20": {
+        "ID": "ITM_CURSED_OBJECTS_0220_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0230": {
+        "ID": "ITM_CURSED_OBJECTS_0230",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0230_10": {
+        "ID": "ITM_CURSED_OBJECTS_0230_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0230_20": {
+        "ID": "ITM_CURSED_OBJECTS_0230_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0240": {
+        "ID": "ITM_CURSED_OBJECTS_0240",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0240_10": {
+        "ID": "ITM_CURSED_OBJECTS_0240_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0240_20": {
+        "ID": "ITM_CURSED_OBJECTS_0240_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0250": {
+        "ID": "ITM_CURSED_OBJECTS_0250",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0250_10": {
+        "ID": "ITM_CURSED_OBJECTS_0250_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0250_20": {
+        "ID": "ITM_CURSED_OBJECTS_0250_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0260": {
+        "ID": "ITM_CURSED_OBJECTS_0260",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0260_10": {
+        "ID": "ITM_CURSED_OBJECTS_0260_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0260_20": {
+        "ID": "ITM_CURSED_OBJECTS_0260_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0270": {
+        "ID": "ITM_CURSED_OBJECTS_0270",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0270_10": {
+        "ID": "ITM_CURSED_OBJECTS_0270_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0270_20": {
+        "ID": "ITM_CURSED_OBJECTS_0270_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0280": {
+        "ID": "ITM_CURSED_OBJECTS_0280",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0280_10": {
+        "ID": "ITM_CURSED_OBJECTS_0280_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0280_20": {
+        "ID": "ITM_CURSED_OBJECTS_0280_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0290": {
+        "ID": "ITM_CURSED_OBJECTS_0290",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0290_10": {
+        "ID": "ITM_CURSED_OBJECTS_0290_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0290_20": {
+        "ID": "ITM_CURSED_OBJECTS_0290_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0300": {
+        "ID": "ITM_CURSED_OBJECTS_0300",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_01",
+          "CURSED_OBJECTS_DASH_GAUGE_WHEN_SEND_DAMAGE_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0300_10": {
+        "ID": "ITM_CURSED_OBJECTS_0300_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_03",
+          "CURSED_OBJECTS_DASH_GAUGE_WHEN_SEND_DAMAGE_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0300_20": {
+        "ID": "ITM_CURSED_OBJECTS_0300_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_05",
+          "CURSED_OBJECTS_DASH_GAUGE_WHEN_SEND_DAMAGE_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0310": {
+        "ID": "ITM_CURSED_OBJECTS_0310",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0310_10": {
+        "ID": "ITM_CURSED_OBJECTS_0310_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0310_20": {
+        "ID": "ITM_CURSED_OBJECTS_0310_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0320": {
+        "ID": "ITM_CURSED_OBJECTS_0320",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_04",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0320_10": {
+        "ID": "ITM_CURSED_OBJECTS_0320_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_05",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_02"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0320_20": {
+        "ID": "ITM_CURSED_OBJECTS_0320_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_06",
+          "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0330": {
+        "ID": "ITM_CURSED_OBJECTS_0330",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0330_10": {
+        "ID": "ITM_CURSED_OBJECTS_0330_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0330_20": {
+        "ID": "ITM_CURSED_OBJECTS_0330_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0340": {
+        "ID": "ITM_CURSED_OBJECTS_0340",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_01",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0340_10": {
+        "ID": "ITM_CURSED_OBJECTS_0340_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0340_20": {
+        "ID": "ITM_CURSED_OBJECTS_0340_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0350": {
+        "ID": "ITM_CURSED_OBJECTS_0350",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_02",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0350_10": {
+        "ID": "ITM_CURSED_OBJECTS_0350_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_02",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0350_20": {
+        "ID": "ITM_CURSED_OBJECTS_0350_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_02",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0360": {
+        "ID": "ITM_CURSED_OBJECTS_0360",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0360_10": {
+        "ID": "ITM_CURSED_OBJECTS_0360_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_04_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0360_20": {
+        "ID": "ITM_CURSED_OBJECTS_0360_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_05_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0370": {
+        "ID": "ITM_CURSED_OBJECTS_0370",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0370_10": {
+        "ID": "ITM_CURSED_OBJECTS_0370_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_04",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0370_20": {
+        "ID": "ITM_CURSED_OBJECTS_0370_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0380": {
+        "ID": "ITM_CURSED_OBJECTS_0380",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0380_10": {
+        "ID": "ITM_CURSED_OBJECTS_0380_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_04",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0380_20": {
+        "ID": "ITM_CURSED_OBJECTS_0380_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0390": {
+        "ID": "ITM_CURSED_OBJECTS_0390",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0390_10": {
+        "ID": "ITM_CURSED_OBJECTS_0390_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0390_20": {
+        "ID": "ITM_CURSED_OBJECTS_0390_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0400": {
+        "ID": "ITM_CURSED_OBJECTS_0400",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_04",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0400_10": {
+        "ID": "ITM_CURSED_OBJECTS_0400_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_02"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0400_20": {
+        "ID": "ITM_CURSED_OBJECTS_0400_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_06",
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0410": {
+        "ID": "ITM_CURSED_OBJECTS_0410",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0410_10": {
+        "ID": "ITM_CURSED_OBJECTS_0410_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0410_20": {
+        "ID": "ITM_CURSED_OBJECTS_0410_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0420": {
+        "ID": "ITM_CURSED_OBJECTS_0420",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0420_10": {
+        "ID": "ITM_CURSED_OBJECTS_0420_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0420_20": {
+        "ID": "ITM_CURSED_OBJECTS_0420_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0430": {
+        "ID": "ITM_CURSED_OBJECTS_0430",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0430_10": {
+        "ID": "ITM_CURSED_OBJECTS_0430_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_04",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0430_20": {
+        "ID": "ITM_CURSED_OBJECTS_0430_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0440": {
+        "ID": "ITM_CURSED_OBJECTS_0440",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0440_10": {
+        "ID": "ITM_CURSED_OBJECTS_0440_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0440_20": {
+        "ID": "ITM_CURSED_OBJECTS_0440_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0450": {
+        "ID": "ITM_CURSED_OBJECTS_0450",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_01",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_01"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0450_10": {
+        "ID": "ITM_CURSED_OBJECTS_0450_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_03",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_03"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0450_20": {
+        "ID": "ITM_CURSED_OBJECTS_0450_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_05",
+          "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_05"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0460": {
+        "ID": "ITM_CURSED_OBJECTS_0460",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0460_10": {
+        "ID": "ITM_CURSED_OBJECTS_0460_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0460_20": {
+        "ID": "ITM_CURSED_OBJECTS_0460_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0470": {
+        "ID": "ITM_CURSED_OBJECTS_0470",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0470_10": {
+        "ID": "ITM_CURSED_OBJECTS_0470_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0470_20": {
+        "ID": "ITM_CURSED_OBJECTS_0470_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0480": {
+        "ID": "ITM_CURSED_OBJECTS_0480",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_04",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0480_10": {
+        "ID": "ITM_CURSED_OBJECTS_0480_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0480_20": {
+        "ID": "ITM_CURSED_OBJECTS_0480_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_06",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0490": {
+        "ID": "ITM_CURSED_OBJECTS_0490",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0490_10": {
+        "ID": "ITM_CURSED_OBJECTS_0490_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0490_20": {
+        "ID": "ITM_CURSED_OBJECTS_0490_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_05",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0500": {
+        "ID": "ITM_CURSED_OBJECTS_0500",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_01",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0500_10": {
+        "ID": "ITM_CURSED_OBJECTS_0500_10",
+        "Grade": 1,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_03",
+          "None"
+        ]
+      },
+      "ITM_CURSED_OBJECTS_0500_20": {
+        "ID": "ITM_CURSED_OBJECTS_0500_20",
+        "Grade": 2,
+        "Id_EquipmentItemEffect": [
+          "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_05",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0010": {
+        "ID": "ITM_EXTRAS_0010",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_03"
+        ]
+      },
+      "ITM_EXTRAS_0020": {
+        "ID": "ITM_EXTRAS_0020",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_05",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0030": {
+        "ID": "ITM_EXTRAS_0030",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_CURSED_ENERGY_ONCE_03",
+          "EXTRAS_DASH_GAUGE_ONCE_03"
+        ]
+      },
+      "ITM_EXTRAS_0040": {
+        "ID": "ITM_EXTRAS_0040",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_03"
+        ]
+      },
+      "ITM_EXTRAS_0050": {
+        "ID": "ITM_EXTRAS_0050",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_03"
+        ]
+      },
+      "ITM_EXTRAS_0060": {
+        "ID": "ITM_EXTRAS_0060",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_05",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0070": {
+        "ID": "ITM_EXTRAS_0070",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_03",
+          "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_03"
+        ]
+      },
+      "ITM_EXTRAS_0080": {
+        "ID": "ITM_EXTRAS_0080",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_SUPER_ARMOR_ONCE_03"
+        ]
+      },
+      "ITM_EXTRAS_0090": {
+        "ID": "ITM_EXTRAS_0090",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_03"
+        ]
+      },
+      "ITM_EXTRAS_0100": {
+        "ID": "ITM_EXTRAS_0100",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_01",
+          "EXTRAS_SUPER_ARMOR_ONCE_01"
+        ]
+      },
+      "ITM_EXTRAS_0110": {
+        "ID": "ITM_EXTRAS_0110",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0120": {
+        "ID": "ITM_EXTRAS_0120",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0130": {
+        "ID": "ITM_EXTRAS_0130",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_03",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0140": {
+        "ID": "ITM_EXTRAS_0140",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_ONCE_ADD_03",
+          "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_03"
+        ]
+      },
+      "ITM_EXTRAS_0150": {
+        "ID": "ITM_EXTRAS_0150",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_03",
+          "None"
+        ]
+      },
+      "ITM_EXTRAS_0160": {
+        "ID": "ITM_EXTRAS_0160",
+        "Grade": 0,
+        "Id_EquipmentItemEffect": [
+          "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_03",
+          "None"
+        ]
+      }
+    }
+  }
+]

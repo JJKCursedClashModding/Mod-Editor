@@ -1,0 +1,2929 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BattleTextDataTable_Zh_Hant",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BTL_HUD_LABEL_0001": {
+        "ID": "BTL_HUD_LABEL_0001",
+        "Text": "<DYN=HIT_POINT>/<DYN=HIT_POINT_MAX>"
+      },
+      "BTL_HUD_LABEL_0101": {
+        "ID": "BTL_HUD_LABEL_0101",
+        "Text": "1"
+      },
+      "BTL_HUD_LABEL_0102": {
+        "ID": "BTL_HUD_LABEL_0102",
+        "Text": "2"
+      },
+      "BTL_HUD_LABEL_0103": {
+        "ID": "BTL_HUD_LABEL_0103",
+        "Text": "3"
+      },
+      "BTL_HUD_LABEL_0104": {
+        "ID": "BTL_HUD_LABEL_0104",
+        "Text": "+<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_HUD_LABEL_0201": {
+        "ID": "BTL_HUD_LABEL_0201",
+        "Text": "普通"
+      },
+      "BTL_HUD_LABEL_0202": {
+        "ID": "BTL_HUD_LABEL_0202",
+        "Text": "猛攻"
+      },
+      "BTL_HUD_LABEL_0203": {
+        "ID": "BTL_HUD_LABEL_0203",
+        "Text": "協力"
+      },
+      "BTL_HUD_LABEL_0204": {
+        "ID": "BTL_HUD_LABEL_0204",
+        "Text": "慎重"
+      },
+      "BTL_HUD_LABEL_0301": {
+        "ID": "BTL_HUD_LABEL_0301",
+        "Text": "<DYN=MINUTES>:<DYN=SECONDS>"
+      },
+      "BTL_HUD_LABEL_0302": {
+        "ID": "BTL_HUD_LABEL_0302",
+        "Text": "∞"
+      },
+      "BTL_HUD_LABEL_0401": {
+        "ID": "BTL_HUD_LABEL_0401",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_HUD_LABEL_0402": {
+        "ID": "BTL_HUD_LABEL_0402",
+        "Text": "不分勝負"
+      },
+      "BTL_HUD_LABEL_0403": {
+        "ID": "BTL_HUD_LABEL_0403",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "BTL_HUD_LABEL_0404": {
+        "ID": "BTL_HUD_LABEL_0404",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0007>"
+      },
+      "BTL_HUD_LABEL_0405": {
+        "ID": "BTL_HUD_LABEL_0405",
+        "Text": "適應"
+      },
+      "BTL_HUD_LABEL_0501": {
+        "ID": "BTL_HUD_LABEL_0501",
+        "Text": "切換"
+      },
+      "BTL_HUD_LABEL_0502": {
+        "ID": "BTL_HUD_LABEL_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1416>"
+      },
+      "BTL_HUD_LABEL_0503": {
+        "ID": "BTL_HUD_LABEL_0503",
+        "Text": "<GLO=GLS_GAME_WORDS_1704>"
+      },
+      "BTL_HUD_LABEL_0504": {
+        "ID": "BTL_HUD_LABEL_0504",
+        "Text": "對話"
+      },
+      "BTL_HUD_LABEL_0505": {
+        "ID": "BTL_HUD_LABEL_0505",
+        "Text": "獨特"
+      },
+      "BTL_HUD_LABEL_0506": {
+        "ID": "BTL_HUD_LABEL_0506",
+        "Text": "稱讚"
+      },
+      "BTL_HUD_LABEL_0507": {
+        "ID": "BTL_HUD_LABEL_0507",
+        "Text": "挑釁"
+      },
+      "BTL_HUD_LABEL_0508": {
+        "ID": "BTL_HUD_LABEL_0508",
+        "Text": "瞄準<DYN=TARGET>"
+      },
+      "BTL_HUD_LABEL_0509": {
+        "ID": "BTL_HUD_LABEL_0509",
+        "Text": "<DYN=USER_NAME>已退出"
+      },
+      "BTL_HUD_LABEL_0610": {
+        "ID": "BTL_HUD_LABEL_0610",
+        "Text": "連續輸入<img id=\"NormalAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0611": {
+        "ID": "BTL_HUD_LABEL_0611",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>"
+      },
+      "BTL_HUD_LABEL_0620": {
+        "ID": "BTL_HUD_LABEL_0620",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0621": {
+        "ID": "BTL_HUD_LABEL_0621",
+        "Text": "<GLO=GLS_GAME_WORDS_1313>"
+      },
+      "BTL_HUD_LABEL_0630": {
+        "ID": "BTL_HUD_LABEL_0630",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>/<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0631": {
+        "ID": "BTL_HUD_LABEL_0631",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "BTL_HUD_LABEL_0632": {
+        "ID": "BTL_HUD_LABEL_0632",
+        "Text": "<GLO=GLS_GAME_WORDS_1310>"
+      },
+      "BTL_HUD_LABEL_0640": {
+        "ID": "BTL_HUD_LABEL_0640",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0641": {
+        "ID": "BTL_HUD_LABEL_0641",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_HUD_LABEL_0650": {
+        "ID": "BTL_HUD_LABEL_0650",
+        "Text": "<img id=\"MoveLeft\"/>/<img id=\"MoveRight\"/>"
+      },
+      "BTL_HUD_LABEL_0651": {
+        "ID": "BTL_HUD_LABEL_0651",
+        "Text": "切換玩家視角"
+      },
+      "BTL_HUD_LABEL_0660": {
+        "ID": "BTL_HUD_LABEL_0660",
+        "Text": "<img id=\"NormalAttack_2\"/>/<img id=\"NormalAttack_3\"/>"
+      },
+      "BTL_HUD_LABEL_0661": {
+        "ID": "BTL_HUD_LABEL_0661",
+        "Text": "<GLO=GLS_GAME_WORDS_1302>"
+      },
+      "BTL_HUD_LABEL_0701": {
+        "ID": "BTL_HUD_LABEL_0701",
+        "Text": "傷害"
+      },
+      "BTL_HUD_LABEL_0710": {
+        "ID": "BTL_HUD_LABEL_0710",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>"
+      },
+      "BTL_HUD_LABEL_0711": {
+        "ID": "BTL_HUD_LABEL_0711",
+        "Text": "<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_HUD_LABEL_0801": {
+        "ID": "BTL_HUD_LABEL_0801",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0802": {
+        "ID": "BTL_HUD_LABEL_0802",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0803": {
+        "ID": "BTL_HUD_LABEL_0803",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_OVERLAY_LABEL_0001": {
+        "ID": "BTL_OVERLAY_LABEL_0001",
+        "Text": "戰鬥"
+      },
+      "BTL_OVERLAY_LABEL_0002": {
+        "ID": "BTL_OVERLAY_LABEL_0002",
+        "Text": "開始"
+      },
+      "BTL_OVERLAY_LABEL_0003": {
+        "ID": "BTL_OVERLAY_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_OVERLAY_LABEL_0004": {
+        "ID": "BTL_OVERLAY_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_OVERLAY_LABEL_0005": {
+        "ID": "BTL_OVERLAY_LABEL_0005",
+        "Text": "時間到"
+      },
+      "BTL_OVERLAY_LABEL_0006": {
+        "ID": "BTL_OVERLAY_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1605>"
+      },
+      "BTL_OVERLAY_LABEL_0007": {
+        "ID": "BTL_OVERLAY_LABEL_0007",
+        "Text": "<GLO=GLS_GAME_WORDS_1606>"
+      },
+      "BTL_OVERLAY_LABEL_0008": {
+        "ID": "BTL_OVERLAY_LABEL_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1603>"
+      },
+      "BTL_OVERLAY_LABEL_0009": {
+        "ID": "BTL_OVERLAY_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1604>"
+      },
+      "BTL_OVERLAY_LABEL_0010": {
+        "ID": "BTL_OVERLAY_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1815> <DYN=WAVE_INDEX>/<DYN=MAX_WAVE_INDEX>"
+      },
+      "BTL_OVERLAY_LABEL_0011": {
+        "ID": "BTL_OVERLAY_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1816>"
+      },
+      "BTL_OVERLAY_LABEL_0012": {
+        "ID": "BTL_OVERLAY_LABEL_0012",
+        "Text": "任務通關"
+      },
+      "BTL_OVERLAY_LABEL_0013": {
+        "ID": "BTL_OVERLAY_LABEL_0013",
+        "Text": "任務失敗"
+      },
+      "BTL_OVERLAY_LABEL_0014": {
+        "ID": "BTL_OVERLAY_LABEL_0014",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>通關"
+      },
+      "BTL_OVERLAY_LABEL_0015": {
+        "ID": "BTL_OVERLAY_LABEL_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1802>通關"
+      },
+      "BTL_OVERLAY_LABEL_0016": {
+        "ID": "BTL_OVERLAY_LABEL_0016",
+        "Text": "戰鬥開始"
+      },
+      "BTL_OVERLAY_LABEL_0017": {
+        "ID": "BTL_OVERLAY_LABEL_0017",
+        "Text": "魔虛羅戰通關"
+      },
+      "BTL_OVERLAY_LABEL_0101": {
+        "ID": "BTL_OVERLAY_LABEL_0101",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>好機會！"
+      },
+      "BTL_OVERLAY_LABEL_0102": {
+        "ID": "BTL_OVERLAY_LABEL_0102",
+        "Text": "危險！"
+      },
+      "BTL_MARKER_LABEL_0001": {
+        "ID": "BTL_MARKER_LABEL_0001",
+        "Text": "P<DYN=PLAYER_INDEX>"
+      },
+      "BTL_POST_EFFECT_LABEL_0001": {
+        "ID": "BTL_POST_EFFECT_LABEL_0001",
+        "Text": "剩下1分鐘"
+      },
+      "BTL_RESULT_LABEL_0001": {
+        "ID": "BTL_RESULT_LABEL_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_0002": {
+        "ID": "BTL_RESULT_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_RESULT_LABEL_0003": {
+        "ID": "BTL_RESULT_LABEL_0003",
+        "Text": "平手"
+      },
+      "BTL_RESULT_LABEL_0101": {
+        "ID": "BTL_RESULT_LABEL_0101",
+        "Text": "MVP"
+      },
+      "BTL_RESULT_LABEL_0102": {
+        "ID": "BTL_RESULT_LABEL_0102",
+        "Text": "階級"
+      },
+      "BTL_RESULT_LABEL_0201": {
+        "ID": "BTL_RESULT_LABEL_0201",
+        "Text": "TeamA"
+      },
+      "BTL_RESULT_LABEL_0202": {
+        "ID": "BTL_RESULT_LABEL_0202",
+        "Text": "TeamB"
+      },
+      "BTL_RESULT_LABEL_0301": {
+        "ID": "BTL_RESULT_LABEL_0301",
+        "Text": "C"
+      },
+      "BTL_RESULT_LABEL_0302": {
+        "ID": "BTL_RESULT_LABEL_0302",
+        "Text": "B"
+      },
+      "BTL_RESULT_LABEL_0303": {
+        "ID": "BTL_RESULT_LABEL_0303",
+        "Text": "A"
+      },
+      "BTL_RESULT_LABEL_0304": {
+        "ID": "BTL_RESULT_LABEL_0304",
+        "Text": "S"
+      },
+      "BTL_RESULT_LABEL_1001": {
+        "ID": "BTL_RESULT_LABEL_1001",
+        "Text": "詳情"
+      },
+      "BTL_RESULT_LABEL_1002": {
+        "ID": "BTL_RESULT_LABEL_1002",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>點"
+      },
+      "BTL_RESULT_LABEL_1003": {
+        "ID": "BTL_RESULT_LABEL_1003",
+        "Text": "傷害點數"
+      },
+      "BTL_RESULT_LABEL_1004": {
+        "ID": "BTL_RESULT_LABEL_1004",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>點"
+      },
+      "BTL_RESULT_LABEL_1005": {
+        "ID": "BTL_RESULT_LABEL_1005",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>點"
+      },
+      "BTL_RESULT_LABEL_1006": {
+        "ID": "BTL_RESULT_LABEL_1006",
+        "Text": "時間點數"
+      },
+      "BTL_RESULT_LABEL_1008": {
+        "ID": "BTL_RESULT_LABEL_1008",
+        "Text": "點數合計"
+      },
+      "BTL_RESULT_LABEL_1101": {
+        "ID": "BTL_RESULT_LABEL_1101",
+        "Text": "得分詳情"
+      },
+      "BTL_RESULT_LABEL_1102": {
+        "ID": "BTL_RESULT_LABEL_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_1103": {
+        "ID": "BTL_RESULT_LABEL_1103",
+        "Text": "壓倒性勝利"
+      },
+      "BTL_RESULT_LABEL_1104": {
+        "ID": "BTL_RESULT_LABEL_1104",
+        "Text": "善戰"
+      },
+      "BTL_RESULT_LABEL_1105": {
+        "ID": "BTL_RESULT_LABEL_1105",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_RESULT_LABEL_1106": {
+        "ID": "BTL_RESULT_LABEL_1106",
+        "Text": "傷害"
+      },
+      "BTL_RESULT_LABEL_1107": {
+        "ID": "BTL_RESULT_LABEL_1107",
+        "Text": "<GLO=GLS_GAME_WORDS_1501>獎勵"
+      },
+      "BTL_RESULT_LABEL_1108": {
+        "ID": "BTL_RESULT_LABEL_1108",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_RESULT_LABEL_1109": {
+        "ID": "BTL_RESULT_LABEL_1109",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "BTL_RESULT_LABEL_1110": {
+        "ID": "BTL_RESULT_LABEL_1110",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_RESULT_LABEL_1111": {
+        "ID": "BTL_RESULT_LABEL_1111",
+        "Text": "大招定勝負"
+      },
+      "BTL_RESULT_LABEL_1112": {
+        "ID": "BTL_RESULT_LABEL_1112",
+        "Text": "<GLO=GLS_GAME_WORDS_1430>"
+      },
+      "BTL_RESULT_LABEL_1113": {
+        "ID": "BTL_RESULT_LABEL_1113",
+        "Text": "首殺"
+      },
+      "BTL_RESULT_LABEL_1114": {
+        "ID": "BTL_RESULT_LABEL_1114",
+        "Text": "不<GLO=GLS_GAME_WORDS_1409>"
+      },
+      "BTL_RESULT_LABEL_1115": {
+        "ID": "BTL_RESULT_LABEL_1115",
+        "Text": "零死亡"
+      },
+      "BTL_RESULT_LABEL_1116": {
+        "ID": "BTL_RESULT_LABEL_1116",
+        "Text": "零傷害"
+      },
+      "BTL_RESULT_LABEL_1117": {
+        "ID": "BTL_RESULT_LABEL_1117",
+        "Text": "咒力全滿"
+      },
+      "BTL_RESULT_LABEL_1118": {
+        "ID": "BTL_RESULT_LABEL_1118",
+        "Text": "快速定勝負"
+      },
+      "BTL_RESULT_LABEL_1119": {
+        "ID": "BTL_RESULT_LABEL_1119",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>破壞"
+      },
+      "BTL_RESULT_LABEL_1120": {
+        "ID": "BTL_RESULT_LABEL_1120",
+        "Text": "終結者"
+      },
+      "BTL_RESULT_LABEL_1121": {
+        "ID": "BTL_RESULT_LABEL_1121",
+        "Text": "<GLO=GLS_GAME_WORDS_1415>賦予"
+      },
+      "BTL_RESULT_LABEL_1122": {
+        "ID": "BTL_RESULT_LABEL_1122",
+        "Text": "遠距命中"
+      },
+      "BTL_RESULT_LABEL_1123": {
+        "ID": "BTL_RESULT_LABEL_1123",
+        "Text": "連殺"
+      },
+      "BTL_RESULT_LABEL_1124": {
+        "ID": "BTL_RESULT_LABEL_1124",
+        "Text": "一擊多殺"
+      },
+      "BTL_RESULT_LABEL_1125": {
+        "ID": "BTL_RESULT_LABEL_1125",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RESULT_LABEL_1126": {
+        "ID": "BTL_RESULT_LABEL_1126",
+        "Text": "跑得遠"
+      },
+      "BTL_RESULT_LABEL_1127": {
+        "ID": "BTL_RESULT_LABEL_1127",
+        "Text": "<GLO=GLS_GAME_WORDS_1412>"
+      },
+      "BTL_RESULT_LABEL_1128": {
+        "ID": "BTL_RESULT_LABEL_1128",
+        "Text": "彈地王"
+      },
+      "BTL_RESULT_LABEL_1129": {
+        "ID": "BTL_RESULT_LABEL_1129",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>回復"
+      },
+      "BTL_RESULT_LABEL_1130": {
+        "ID": "BTL_RESULT_LABEL_1130",
+        "Text": "死而復生"
+      },
+      "BTL_RESULT_LABEL_1131": {
+        "ID": "BTL_RESULT_LABEL_1131",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>重疊"
+      },
+      "BTL_RESULT_LABEL_1132": {
+        "ID": "BTL_RESULT_LABEL_1132",
+        "Text": "挑釁"
+      },
+      "BTL_RESULT_LABEL_1133": {
+        "ID": "BTL_RESULT_LABEL_1133",
+        "Text": "致敬"
+      },
+      "BTL_RESULT_LABEL_1134": {
+        "ID": "BTL_RESULT_LABEL_1134",
+        "Text": "放置"
+      },
+      "BTL_RESULT_LABEL_1135": {
+        "ID": "BTL_RESULT_LABEL_1135",
+        "Text": "助攻"
+      },
+      "BTL_RESULT_LABEL_1136": {
+        "ID": "BTL_RESULT_LABEL_1136",
+        "Text": "升級"
+      },
+      "BTL_RESULT_LABEL_1201": {
+        "ID": "BTL_RESULT_LABEL_1201",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "BTL_RESULT_LABEL_1202": {
+        "ID": "BTL_RESULT_LABEL_1202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "BTL_RESULT_LABEL_1203": {
+        "ID": "BTL_RESULT_LABEL_1203",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "BTL_RESULT_LABEL_1204": {
+        "ID": "BTL_RESULT_LABEL_1204",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "BTL_RESULT_LABEL_1205": {
+        "ID": "BTL_RESULT_LABEL_1205",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "BTL_RESULT_LABEL_1206": {
+        "ID": "BTL_RESULT_LABEL_1206",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "BTL_RESULT_LABEL_1207": {
+        "ID": "BTL_RESULT_LABEL_1207",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "BTL_RESULT_LABEL_1208": {
+        "ID": "BTL_RESULT_LABEL_1208",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "BTL_RESULT_LABEL_1209": {
+        "ID": "BTL_RESULT_LABEL_1209",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "BTL_RESULT_LABEL_1210": {
+        "ID": "BTL_RESULT_LABEL_1210",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "BTL_RESULT_LABEL_1211": {
+        "ID": "BTL_RESULT_LABEL_1211",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "BTL_RESULT_LABEL_1212": {
+        "ID": "BTL_RESULT_LABEL_1212",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1012>"
+      },
+      "BTL_RESULT_LABEL_1213": {
+        "ID": "BTL_RESULT_LABEL_1213",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "BTL_RESULT_LABEL_1214": {
+        "ID": "BTL_RESULT_LABEL_1214",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "BTL_RESULT_LABEL_1215": {
+        "ID": "BTL_RESULT_LABEL_1215",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "BTL_RESULT_LABEL_1216": {
+        "ID": "BTL_RESULT_LABEL_1216",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "BTL_RESULT_LABEL_1217": {
+        "ID": "BTL_RESULT_LABEL_1217",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RESULT_LABEL_1218": {
+        "ID": "BTL_RESULT_LABEL_1218",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RESULT_LABEL_1219": {
+        "ID": "BTL_RESULT_LABEL_1219",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RESULT_LABEL_1220": {
+        "ID": "BTL_RESULT_LABEL_1220",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RESULT_LABEL_1221": {
+        "ID": "BTL_RESULT_LABEL_1221",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RESULT_LABEL_1222": {
+        "ID": "BTL_RESULT_LABEL_1222",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RESULT_LABEL_1223": {
+        "ID": "BTL_RESULT_LABEL_1223",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RESULT_LABEL_1224": {
+        "ID": "BTL_RESULT_LABEL_1224",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RESULT_LABEL_1225": {
+        "ID": "BTL_RESULT_LABEL_1225",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RESULT_LABEL_1226": {
+        "ID": "BTL_RESULT_LABEL_1226",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RESULT_LABEL_1227": {
+        "ID": "BTL_RESULT_LABEL_1227",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "BTL_RANKING_LABEL_0001": {
+        "ID": "BTL_RANKING_LABEL_0001",
+        "Text": "給予傷害值"
+      },
+      "BTL_RANKING_LABEL_0002": {
+        "ID": "BTL_RANKING_LABEL_0002",
+        "Text": "承受傷害值"
+      },
+      "BTL_RANKING_LABEL_0003": {
+        "ID": "BTL_RANKING_LABEL_0003",
+        "Text": "王牌攻擊手"
+      },
+      "BTL_RANKING_LABEL_0004": {
+        "ID": "BTL_RANKING_LABEL_0004",
+        "Text": "首殺"
+      },
+      "BTL_RANKING_LABEL_0005": {
+        "ID": "BTL_RANKING_LABEL_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>累積"
+      },
+      "BTL_RANKING_LABEL_0006": {
+        "ID": "BTL_RANKING_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>品味"
+      },
+      "BTL_RANKING_LABEL_0007": {
+        "ID": "BTL_RANKING_LABEL_0007",
+        "Text": "妨礙"
+      },
+      "BTL_RANKING_LABEL_0008": {
+        "ID": "BTL_RANKING_LABEL_0008",
+        "Text": "加速<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "BTL_RANKING_LABEL_0009": {
+        "ID": "BTL_RANKING_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RANKING_LABEL_0010": {
+        "ID": "BTL_RANKING_LABEL_0010",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>狂熱"
+      },
+      "BTL_RANKING_LABEL_0011": {
+        "ID": "BTL_RANKING_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>"
+      },
+      "BTL_RANKING_LABEL_0012": {
+        "ID": "BTL_RANKING_LABEL_0012",
+        "Text": "大勝<GLO=GLS_GAME_WORDS_1813>"
+      },
+      "BTL_RANKING_LABEL_0013": {
+        "ID": "BTL_RANKING_LABEL_0013",
+        "Text": "終結者"
+      },
+      "BTL_RANKING_LABEL_0014": {
+        "ID": "BTL_RANKING_LABEL_0014",
+        "Text": "跑得遠"
+      },
+      "BTL_RANKING_LABEL_0015": {
+        "ID": "BTL_RANKING_LABEL_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "BTL_RANKING_LABEL_0016": {
+        "ID": "BTL_RANKING_LABEL_0016",
+        "Text": "覺醒"
+      },
+      "BTL_RANKING_LABEL_0017": {
+        "ID": "BTL_RANKING_LABEL_0017",
+        "Text": "遠程射手"
+      },
+      "BTL_RANKING_LABEL_0018": {
+        "ID": "BTL_RANKING_LABEL_0018",
+        "Text": "近身殺手"
+      },
+      "BTL_RANKING_LABEL_0019": {
+        "ID": "BTL_RANKING_LABEL_0019",
+        "Text": "得分王"
+      },
+      "BTL_RANKING_LABEL_0101": {
+        "ID": "BTL_RANKING_LABEL_0101",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "BTL_RANKING_LABEL_0102": {
+        "ID": "BTL_RANKING_LABEL_0102",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "BTL_RANKING_LABEL_0103": {
+        "ID": "BTL_RANKING_LABEL_0103",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "BTL_RANKING_LABEL_0104": {
+        "ID": "BTL_RANKING_LABEL_0104",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "BTL_RANKING_LABEL_0105": {
+        "ID": "BTL_RANKING_LABEL_0105",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "BTL_RANKING_LABEL_0106": {
+        "ID": "BTL_RANKING_LABEL_0106",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "BTL_RANKING_LABEL_0107": {
+        "ID": "BTL_RANKING_LABEL_0107",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "BTL_RANKING_LABEL_0108": {
+        "ID": "BTL_RANKING_LABEL_0108",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "BTL_RANKING_LABEL_0109": {
+        "ID": "BTL_RANKING_LABEL_0109",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "BTL_RANKING_LABEL_0110": {
+        "ID": "BTL_RANKING_LABEL_0110",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "BTL_RANKING_LABEL_0111": {
+        "ID": "BTL_RANKING_LABEL_0111",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "BTL_RANKING_LABEL_0112": {
+        "ID": "BTL_RANKING_LABEL_0112",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1012>"
+      },
+      "BTL_RANKING_LABEL_0113": {
+        "ID": "BTL_RANKING_LABEL_0113",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "BTL_RANKING_LABEL_0114": {
+        "ID": "BTL_RANKING_LABEL_0114",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "BTL_RANKING_LABEL_0115": {
+        "ID": "BTL_RANKING_LABEL_0115",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "BTL_RANKING_LABEL_0116": {
+        "ID": "BTL_RANKING_LABEL_0116",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "BTL_RANKING_LABEL_0117": {
+        "ID": "BTL_RANKING_LABEL_0117",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RANKING_LABEL_0118": {
+        "ID": "BTL_RANKING_LABEL_0118",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RANKING_LABEL_0119": {
+        "ID": "BTL_RANKING_LABEL_0119",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RANKING_LABEL_0120": {
+        "ID": "BTL_RANKING_LABEL_0120",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RANKING_LABEL_0121": {
+        "ID": "BTL_RANKING_LABEL_0121",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RANKING_LABEL_0122": {
+        "ID": "BTL_RANKING_LABEL_0122",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RANKING_LABEL_0123": {
+        "ID": "BTL_RANKING_LABEL_0123",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RANKING_LABEL_0124": {
+        "ID": "BTL_RANKING_LABEL_0124",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RANKING_LABEL_0125": {
+        "ID": "BTL_RANKING_LABEL_0125",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RANKING_LABEL_0126": {
+        "ID": "BTL_RANKING_LABEL_0126",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RANKING_LABEL_0127": {
+        "ID": "BTL_RANKING_LABEL_0127",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "BTL_RANKING_LABEL_0201": {
+        "ID": "BTL_RANKING_LABEL_0201",
+        "Text": "<GLO=GLS_GAME_WORDS_1819>無用"
+      },
+      "BTL_RANKING_LABEL_0202": {
+        "ID": "BTL_RANKING_LABEL_0202",
+        "Text": "<GLO=GLS_GAME_WORDS_1809>歡迎"
+      },
+      "BTL_RANKING_LABEL_0203": {
+        "ID": "BTL_RANKING_LABEL_0203",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>獵人"
+      },
+      "BTL_RANKING_LABEL_0204": {
+        "ID": "BTL_RANKING_LABEL_0204",
+        "Text": "頭目剋星"
+      },
+      "BTL_RANKING_LABEL_0205": {
+        "ID": "BTL_RANKING_LABEL_0205",
+        "Text": "擊滅王"
+      },
+      "BTL_MISSION_ORDER_LABEL_0001": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0001",
+        "Text": "事件"
+      },
+      "BTL_MISSION_ORDER_LABEL_0002": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>攻擊擊中"
+      },
+      "BTL_MISSION_ORDER_LABEL_0003": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1823>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0004": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1824>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0005": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0005",
+        "Text": "討伐頭目"
+      },
+      "BTL_MISSION_ORDER_LABEL_0009": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1834>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0010": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1836>"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0001": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0001",
+        "Text": "事件"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0002": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>攻擊擊中"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0003": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0003",
+        "Text": "讓對手的<GLO=GLS_GAME_WORDS_1422>歸零"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0004": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "Text": "在一定時間內生存"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0005": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0005",
+        "Text": "打倒強敵"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0009": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0009",
+        "Text": "打倒所有敵人"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0010": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "Text": "讓敵方的<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％以下"
+      },
+      "BTL_MISSION_TASK_LABEL_0001": {
+        "ID": "BTL_MISSION_TASK_LABEL_0001",
+        "Text": "<DYN=VALUE>/<DYN=MAX_VALUE>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0001": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>擊中<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0002": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>擊中<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0003": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0003",
+        "Text": "成功使出<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0004": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0004",
+        "Text": "不被攻擊到<DYN=VALUE>[ABS,FULL_WIDTH]次以上"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0005": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0005",
+        "Text": "成功使出<DYN=VALUE>[ABS,FULL_WIDTH]次<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0006": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0006",
+        "Text": "成功使出<DYN=VALUE>[ABS,FULL_WIDTH]次<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0007": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0007",
+        "Text": "用<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310><GLO=GLS_GAME_WORDS_1418>對手"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0008": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0008",
+        "Text": "用<GLO=GLS_GAME_WORDS_1314><GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0009": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0009",
+        "Text": "用<GLO=GLS_GAME_WORDS_1315><GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0010": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0010",
+        "Text": "用<GLO=GLS_GAME_WORDS_1402>時に<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0011": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0011",
+        "Text": "成功使出<DYN=VALUE>[ABS,FULL_WIDTH]次<GLO=GLS_GAME_WORDS_1409>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0012": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0012",
+        "Text": "成功使出<DYN=VALUE>[ABS,FULL_WIDTH]次<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0013": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0013",
+        "Text": "移動超過<DYN=VALUE>[FULL_WIDTH]ｍ"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0014": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0014",
+        "Text": "讓敵人彈地<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0015": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0015",
+        "Text": "讓敵人彈牆<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0016": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0016",
+        "Text": "讓敵人<GLO=GLS_GAME_WORDS_1429><DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0017": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0017",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>減少量不超過<DYN=VALUE>[ABS,FULL_WIDTH]"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0018": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0018",
+        "Text": "<GLO=GLS_GAME_WORDS_1605>成功"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0019": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0019",
+        "Text": "<GLO=GLS_GAME_WORDS_1606>成功"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0020": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0020",
+        "Text": "擊中空中的敵人<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0021": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0021",
+        "Text": "<GLO=GLS_GAME_WORDS_1430>成功擊中"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0022": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0022",
+        "Text": "1位玩家的<GLO=GLS_GAME_WORDS_1401>達到最大值下完成<GLO=GLS_GAME_WORDS_1815>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0023": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0023",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒以上沒有任何操作"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0024": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0024",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒內勝利"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（微）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（小）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（中）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（特大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>時的硬直時間（極大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>最大值<DYN=VALUE>[ABS,FULL_WIDTH]減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60",
+        "Text": "敵方<GLO=GLS_GAME_WORDS_1409>受到的傷害量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10",
+        "Text": "給予的傷害量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20",
+        "Text": "給予的傷害量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30",
+        "Text": "給予的傷害量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40",
+        "Text": "給予的傷害量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50",
+        "Text": "給予的傷害量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60",
+        "Text": "給予的傷害量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>的傷害量（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10",
+        "Text": "移動速度（微）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20",
+        "Text": "移動速度（小）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30",
+        "Text": "移動速度（中）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40",
+        "Text": "移動速度（大）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50",
+        "Text": "移動速度（特大）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60",
+        "Text": "移動速度（極大）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（微）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（小）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（中）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（微）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（小）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（中）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（大）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（特大）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>的高度（極大）降低"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（微）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（小）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（中）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（特大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>後的硬直時間（極大）增加"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（微）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（小）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（中）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（大）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（特大）低下"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017",
+        "Text": "-"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>/<GLO=GLS_GAME_WORDS_1508>的最大值減少<DYN=VALUE>[ABS,FULL_WIDTH]"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>僅可使用<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023",
+        "Text": "<GLO=GLS_GAME_WORDS_1313>僅可使用<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>僅可使用<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>僅可使用<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029",
+        "Text": "無法再<GLO=GLS_GAME_WORDS_1406>了"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>/<GLO=GLS_GAME_WORDS_1508>的上升僅可<DYN=VALUE>[ABS,FULL_WIDTH]次"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始經過<DYN=VALUE>[ABS,FULL_WIDTH]秒以內不能<GLO=GLS_GAME_WORDS_1816>的話，就變<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒經過時<GLO=GLS_GAME_WORDS_1401>/<GLO=GLS_GAME_WORDS_1508>是1的時候，變成<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒以內敵人一個都沒<GLO=GLS_GAME_WORDS_1418>的話，變成<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035",
+        "Text": "<GLO=GLS_GAME_WORDS_1414>的話，即<GLO=GLS_GAME_WORDS_1604>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036",
+        "Text": "若觸發<DYN=VALUE>[ABS,FULL_WIDTH]次<GLO=GLS_GAME_WORDS_1810>，\n就會變<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039",
+        "Text": "移動速度將減半"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（微）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（小）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（中）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（特大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60",
+        "Text": "每次受到攻擊<GLO=GLS_GAME_WORDS_1504>會（極大）減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041",
+        "Text": "-"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>緩緩減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起每<DYN=VALUE>[ABS,FULL_WIDTH]秒經過造成的傷害量對半"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044",
+        "Text": "受到<GLO=GLS_GAME_WORDS_1314>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1412>的話受到（中）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046",
+        "Text": "<GLO=GLS_GAME_WORDS_1404>不能使用"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％減少"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值減半"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10",
+        "Text": "每次受到攻擊時受到追加（微）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20",
+        "Text": "每次受到攻擊時受到追加（大）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30",
+        "Text": "每次受到攻擊時受到追加（中）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40",
+        "Text": "每次受到攻擊時受到追加（大）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50",
+        "Text": "每次受到攻擊時受到追加（特大）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60",
+        "Text": "每次受到攻擊時受到追加（極大）傷害"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050",
+        "Text": "被<GLO=GLS_GAME_WORDS_1418>的話<GLO=GLS_GAME_WORDS_1422>追加減少<DYN=VALUE>[ABS,FULL_WIDTH]"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051",
+        "Text": "任務失敗時，所獲得<GLO=GLS_GAME_WORDS_1812>/<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>減少<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052",
+        "Text": "受到攻擊時變成<GLO=GLS_GAME_WORDS_1414>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>非最大時，無法<GLO=GLS_GAME_WORDS_1406>和<GLO=GLS_GAME_WORDS_1404>"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054",
+        "Text": "任務失敗時，所獲得<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>減少<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始<DYN=VALUE>[ABS,FULL_WIDTH]秒以後，造成的傷害量減少<DYN=VALUE2>[ABS,RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056",
+        "Text": "最大<GLO=GLS_GAME_WORDS_1502>減少<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>、<GLO=GLS_GAME_WORDS_1406>、<GLO=GLS_GAME_WORDS_1405>變成無法使用"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058",
+        "Text": "所受傷害量變成<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059",
+        "Text": "任務失敗時，所獲得<GLO=GLS_GAME_WORDS_1812>減少<DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0004": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，僅一次<GLO=GLS_GAME_WORDS_1819><GLO=GLS_GAME_WORDS_1502><DYN=VALUE2>[RATE_TO_PCT,FULL_WIDTH]％"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10",
+        "Text": "給予的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20",
+        "Text": "給予的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30",
+        "Text": "給予的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40",
+        "Text": "給予的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50",
+        "Text": "給予的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0006": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始起<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，\n<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（微）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（小）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（中）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（大）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（特大）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（極大）上升"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（微）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（特大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>時<GLO=GLS_GAME_WORDS_1504>（極大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10",
+        "Text": "敵方的移動速度（微）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20",
+        "Text": "敵方的移動速度（小）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30",
+        "Text": "敵方的移動速度（中）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40",
+        "Text": "敵方的移動速度（大）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50",
+        "Text": "敵方的移動速度（特大）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60",
+        "Text": "敵方的移動速度（極大）低下"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始時，<DYN=VALUE>[ABS,FULL_WIDTH]秒為止，造成的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率我方全體的<GLO=GLS_GAME_WORDS_1502>（微）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率我方全體的<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0019": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1502>全<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0021": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>敵方時，有<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率我方全體追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0022": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022",
+        "Text": "受到攻擊時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率傷害無效化"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（特大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（極大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>成功時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率造成的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>成功時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率造成的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0025": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0025",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>量表變最大，不消耗"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0026",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>出現時，變<GLO=GLS_GAME_WORDS_1509>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>敵方則我方全體給予的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0029",
+        "Text": "直接<GLO=GLS_GAME_WORDS_1418><GLO=GLS_GAME_WORDS_1315>擊中的對象"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0031": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0031",
+        "Text": "-"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0032",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>成功時，我方全體的<GLO=GLS_GAME_WORDS_1502>全<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0033",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>時，我方全體的<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，我方全體造成的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0035",
+        "Text": "視所給予傷害量而定<GLO=GLS_GAME_WORDS_1819>\n<GLO=GLS_GAME_WORDS_1502>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0037": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0037",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>量<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0038": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0038",
+        "Text": "我方全體不再<GLO=GLS_GAME_WORDS_1432>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0039",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1504>不減少"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10",
+        "Text": "我方全體給予的傷害量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20",
+        "Text": "我方全體給予的傷害量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30",
+        "Text": "我方全體給予的傷害量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40",
+        "Text": "我方全體給予的傷害量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50",
+        "Text": "我方全體給予的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60",
+        "Text": "我方全體給予的傷害量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量2倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0042",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>的最大數增加<DYN=VALUE>[ABS,FULL_WIDTH]"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0043",
+        "Text": "阻止一次<GLO=GLS_GAME_WORDS_1422>的減少"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0044",
+        "Text": "任務通關時所獲得<GLO=GLS_GAME_WORDS_1812>/<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>變成<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大時，造成的傷害量和<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0046",
+        "Text": "任務通關時所獲得<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>變成<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0047",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>變成最大"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0048",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>開始<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量增加<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0049": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0049",
+        "Text": "造成的傷害量增加<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0050",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>變成最大，造成的傷害量（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（微）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（小）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（中）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（特大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>逐漸（極大）增加"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0052",
+        "Text": "任務通關時所獲得<GLO=GLS_GAME_WORDS_1812>變成<DYN=VALUE>[ABS,FULL_WIDTH]倍"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（微）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（特大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（極大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0001": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>出現時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方移動速度（小）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方移動速度（中）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>若擊中<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方移動速度（大）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_20",
+        "Text": "發動<GLO=GLS_UNIQUE_WORDS_0006>所需的時間（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_30",
+        "Text": "發動<GLO=GLS_UNIQUE_WORDS_0006>所需的時間（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_40",
+        "Text": "發動<GLO=GLS_UNIQUE_WORDS_0006>所需的時間（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_10",
+        "Text": "給予的傷害量（微）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_20",
+        "Text": "給予的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_30",
+        "Text": "給予的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_40",
+        "Text": "給予的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_50",
+        "Text": "給予的傷害量（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_60",
+        "Text": "給予的傷害量（極大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0008": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>敵方時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>全<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_10",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（微）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_20",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（小）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_30",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（中）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_40",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（大）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_50",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（特大）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_60",
+        "Text": "讓敵方<GLO=GLS_GAME_WORDS_1432>時，<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（極大）追加獲得"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_10",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（微）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_50",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（特大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_20",
+        "Text": "敵方的移動速度（小）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_30",
+        "Text": "敵方的移動速度（中）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_40",
+        "Text": "敵方的移動速度（大）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504>量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504>量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504>量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（小）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（中）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（大）低下"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1409>值（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1409>值（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1409>值（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_20",
+        "Text": "敵方攻擊時，（小）的機率不穩"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_30",
+        "Text": "敵方攻擊時，（中）的機率不穩"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_40",
+        "Text": "敵方攻擊時，（大）的機率不穩"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>最大值（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>漸漸（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>漸漸（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>漸漸（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，造成的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，造成的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，造成的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，造成的傷害量（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，造成的傷害量（極大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1314>的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1314>的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1314>的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1504>量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1504>量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1504>量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1504>量（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1502><DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，<GLO=GLS_GAME_WORDS_1504>量（極大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，僅一次<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，僅一次<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，僅一次<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>的增加量（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>/<GLO=GLS_GAME_WORDS_1310>對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（小）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（中）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（大）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（特大）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_20",
+        "Text": "受到的傷害量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_30",
+        "Text": "受到的傷害量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_40",
+        "Text": "受到的傷害量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0033_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0033_00",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害量減半"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0035": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0035",
+        "Text": "攻撃被<GLO=GLS_GAME_WORDS_1409>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的給予的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的給予的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>的給予的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_20",
+        "Text": "賦予弱化效果的話，<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（小）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_30",
+        "Text": "賦予弱化效果的話，<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（中）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_40",
+        "Text": "賦予弱化效果的話，<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（大）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_50",
+        "Text": "賦予弱化效果的話，<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>的<GLO=GLS_GAME_WORDS_1819>速度（特大）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>3以下的話，<GLO=GLS_GAME_WORDS_1409>值（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>3以下的話，<GLO=GLS_GAME_WORDS_1409>值（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1422>3以下的話，<GLO=GLS_GAME_WORDS_1409>值（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_20",
+        "Text": "視所給予傷害量而定，<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_30",
+        "Text": "視所給予傷害量而定，<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_40",
+        "Text": "視所給予傷害量而定，<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_10",
+        "Text": "攻擊擊中時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（微）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_20",
+        "Text": "攻擊擊中時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（小）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_30",
+        "Text": "攻擊擊中時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（中）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_40",
+        "Text": "攻擊擊中時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1504><GLO=GLS_GAME_WORDS_1819>速度（大）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0041": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0041",
+        "Text": "攻擊擊中時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，讓敵方不能使用<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_20",
+        "Text": "攻擊擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_30",
+        "Text": "攻擊擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_40",
+        "Text": "攻擊擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0043": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0043",
+        "Text": "攻擊擊中時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0044": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0044",
+        "Text": "受到攻擊時，<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，不消耗<GLO=GLS_GAME_WORDS_1504>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0045": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0045",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率追加獲得<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>時<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（微）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>量（極大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（微）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的消費量（特大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的<GLO=GLS_GAME_WORDS_1819>速度（小）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的<GLO=GLS_GAME_WORDS_1819>速度（中）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>的<GLO=GLS_GAME_WORDS_1819>速度（大）上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>時，<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_20",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_30",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_40",
+        "Text": "對敵方<GLO=GLS_GAME_WORDS_1409>造成的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0052": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0052",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害無效化"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（微）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（特大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％的機率受到的傷害（極大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>值（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506><GLO=GLS_GAME_WORDS_1819>速度（小）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506><GLO=GLS_GAME_WORDS_1819>速度（中）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506><GLO=GLS_GAME_WORDS_1819>速度（大）降低"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1502>最大值（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1502>最大值（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1502>最大值（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_20",
+        "Text": "敵方造成的傷害量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_30",
+        "Text": "敵方造成的傷害量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_40",
+        "Text": "敵方造成的傷害量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0058": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0058",
+        "Text": "如果對敵方造成傷害，<DYN=VALUE>[FULL_WIDTH]秒間敵方的<GLO=GLS_GAME_WORDS_1504>不會<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_10",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（微）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_20",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_30",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_40",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_50",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（特大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_60",
+        "Text": "如果對敵方造成傷害，敵方的<GLO=GLS_GAME_WORDS_1504>（極大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（微）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_50",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（特大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_60",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>的距離（極大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_20",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>最大值（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_30",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>最大值（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_40",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>最大值（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_20",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1409>值（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_30",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1409>值（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_40",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1409>值（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_20",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_30",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_40",
+        "Text": "我方全體的<GLO=GLS_GAME_WORDS_1502>逐漸（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0064_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0064_00",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體所受傷害減半"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體所受傷害（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體所受傷害（特大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體所受傷害（極大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_20",
+        "Text": "自己<GLO=GLS_GAME_WORDS_1410>時，有<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體的<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_30",
+        "Text": "自己<GLO=GLS_GAME_WORDS_1410>時，有<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體的<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_40",
+        "Text": "自己<GLO=GLS_GAME_WORDS_1410>時，有<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％機率使我方全體的<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_20",
+        "Text": "根據自己造成的傷害量，我方全體的<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_30",
+        "Text": "根據自己造成的傷害量，我方全體的<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_40",
+        "Text": "根據自己造成的傷害量，我方全體的<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1000": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>在<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH]％以下時，僅發動一次效果"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1502>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_20",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，所受傷害量（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，所受傷害量（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，所受傷害量（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_30",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_40",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_20",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，造成的傷害量（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_20",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（小）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（中）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>（大）增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1010_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1010_10",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，<GLO=GLS_GAME_WORDS_1502>漸漸（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1011": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1011",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，<GLO=GLS_GAME_WORDS_1502>漸漸（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1012": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1012",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，<GLO=GLS_GAME_WORDS_1502>漸漸（大）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間變成<GLO=GLS_GAME_WORDS_1423>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_10",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間<GLO=GLS_GAME_WORDS_1402>的增加量變成2倍"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間<GLO=GLS_GAME_WORDS_1504>的<GLO=GLS_GAME_WORDS_1819>速度上升"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方造成的傷害量減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_50",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1505>/<GLO=GLS_GAME_WORDS_1507>不再增加"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_60",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，<GLO=GLS_GAME_WORDS_1504>不減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_20",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_30",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_40",
+        "Text": "敵方的<GLO=GLS_GAME_WORDS_1503>/<GLO=GLS_GAME_WORDS_1506>（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_20",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1502>漸漸（小）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1502>漸漸（中）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，敵方的<GLO=GLS_GAME_WORDS_1502>漸漸（大）減少"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_20",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，我方全體的<GLO=GLS_GAME_WORDS_1502>漸漸（小）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_30",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，我方全體的<GLO=GLS_GAME_WORDS_1502>漸漸（中）<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_40",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH]秒之間，我方全體的<GLO=GLS_GAME_WORDS_1502>漸漸（大）<GLO=GLS_GAME_WORDS_1819>"
+      }
+    }
+  }
+]

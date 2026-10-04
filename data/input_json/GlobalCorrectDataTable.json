@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GlobalCorrectDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GlobalCorrect'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "Default": {
+        "ID": "Default",
+        "SuperArmor_Damage": 1.0,
+        "HyperArmor_Damage": 0.5,
+        "TagCombo_DownDamage": 1.0,
+        "Combo_Base": 0.9,
+        "Combo_Min": 0.6,
+        "Combo_Damage": 0.9,
+        "Combo_Blow": 0.9,
+        "Combo_BlowSmall": 0.9,
+        "Combo_BlowLarge": 0.9,
+        "Combo_Down": 0.9,
+        "Combo_TagCombo": 0.85,
+        "Combo_Casual": 1.0,
+        "ComboDown_Casual": 1.0,
+        "CursedEnergyExp_Base": -0.1,
+        "CursedEnergyExp_Max": 1.2,
+        "CursedEnergyExp_Min": 1.0,
+        "CursedEnergyExp_Level": -0.05,
+        "Rigidity_JumpBegin": [
+          0.8,
+          0.7,
+          0.6
+        ],
+        "Rigidity_RunJumpBegin": [
+          0.8,
+          0.7,
+          0.6
+        ],
+        "Rigidity_DashJumpBegin": [
+          0.75,
+          0.7,
+          0.65
+        ],
+        "Rigidity_JumpAirBegin": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Rigidity_DashBegin": [
+          1.0,
+          0.9,
+          0.8
+        ],
+        "Rigidity_DashEnd": [
+          1.0,
+          0.92,
+          0.88
+        ],
+        "Rigidity_DashAirBegin": [
+          1.0,
+          0.925,
+          0.9
+        ],
+        "Rigidity_DashAirEnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Rigidity_Landing": [
+          1.1,
+          1.0,
+          0.9
+        ]
+      }
+    }
+  }
+]

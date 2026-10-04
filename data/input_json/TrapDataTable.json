@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TrapDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_Trap'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TR_010_00": {
+        "ID": "TR_010_00",
+        "FileName_BP": "TR_010_00_BP",
+        "ActionType": "EGameTrapActionType::VolcanoHoming"
+      },
+      "TR_010_01": {
+        "ID": "TR_010_01",
+        "FileName_BP": "TR_010_00_BP",
+        "ActionType": "EGameTrapActionType::VolcanoOneShot"
+      },
+      "TR_010_02": {
+        "ID": "TR_010_02",
+        "FileName_BP": "TR_010_00_BP",
+        "ActionType": "EGameTrapActionType::VolcanoTrigger"
+      },
+      "TR_020_00": {
+        "ID": "TR_020_00",
+        "FileName_BP": "TR_020_00_BP",
+        "ActionType": "EGameTrapActionType::FlowerMachineGun"
+      },
+      "TR_030_00": {
+        "ID": "TR_030_00",
+        "FileName_BP": "TR_032_00_BP",
+        "ActionType": "EGameTrapActionType::PlantRootMove"
+      },
+      "TR_031_00": {
+        "ID": "TR_031_00",
+        "FileName_BP": "TR_031_00_BP",
+        "ActionType": "EGameTrapActionType::PlantWall"
+      },
+      "TR_031_10": {
+        "ID": "TR_031_10",
+        "FileName_BP": "TR_031_10_BP",
+        "ActionType": "EGameTrapActionType::PlantWall"
+      },
+      "TR_040_00": {
+        "ID": "TR_040_00",
+        "FileName_BP": "TR_040_00_BP",
+        "ActionType": "EGameTrapActionType::BodyRepel"
+      },
+      "TR_040_10": {
+        "ID": "TR_040_10",
+        "FileName_BP": "TR_040_10_BP",
+        "ActionType": "EGameTrapActionType::BodyRepel"
+      },
+      "TR_050_00": {
+        "ID": "TR_050_00",
+        "FileName_BP": "TR_050_00_BP",
+        "ActionType": "EGameTrapActionType::Uzumaki"
+      },
+      "TR_060_00": {
+        "ID": "TR_060_00",
+        "FileName_BP": "TR_060_00_BP",
+        "ActionType": "EGameTrapActionType::IceWall"
+      },
+      "TR_060_10": {
+        "ID": "TR_060_10",
+        "FileName_BP": "TR_060_10_BP",
+        "ActionType": "EGameTrapActionType::IceWall"
+      },
+      "TR_060_20": {
+        "ID": "TR_060_20",
+        "FileName_BP": "TR_060_20_BP",
+        "ActionType": "EGameTrapActionType::IceWall"
+      },
+      "TR_061_00": {
+        "ID": "TR_061_00",
+        "FileName_BP": "TR_061_00_BP",
+        "ActionType": "EGameTrapActionType::IceWall"
+      },
+      "TR_061_10": {
+        "ID": "TR_061_10",
+        "FileName_BP": "TR_061_10_BP",
+        "ActionType": "EGameTrapActionType::IceWall"
+      }
+    }
+  }
+]

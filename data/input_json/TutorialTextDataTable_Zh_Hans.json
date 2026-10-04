@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_Zh_Hans",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "移动"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "空中<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "地上<GLO=GLS_GAME_WORDS_1407>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "到五条老师旁边"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "关于移动"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "用<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>移动角色"
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "可以用<img id=\"Dash\"/>「<GLO=GLS_GAME_WORDS_1405>」\n<GLO=GLS_GAME_WORDS_1405>中会消耗「<GLO=GLS_GAME_WORDS_1504>」，而位于地面时能够<GLO=GLS_GAME_WORDS_1819>\n只要<GLO=GLS_GAME_WORDS_1405>中<GLO=GLS_GAME_WORDS_1406>，\n就会发动比平常跳得更高的「<GLO=GLS_GAME_WORDS_1407>」"
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "可以用<img id=\"Jump\"/>「<GLO=GLS_GAME_WORDS_1406>」\n而且只要<GLO=GLS_GAME_WORDS_1406>时再输入一次<img id=\"Jump\"/>\n便会发动二段<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "连续格斗攻击"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": "<img id=\"NormalAttack_1\"/> 连续输入"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "上勾拳"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "回旋踢"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "坠踢"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "飞踢"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "踢飞碎石"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>１"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "用<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>使<GLO=GLS_GAME_WORDS_1401>变成2"
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1302>"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "以<img id=\"NormalAttack_1\"/>攻击\n<img id=\"NormalAttack_2\"/>、<img id=\"NormalAttack_3\"/>也可以发动攻击\n而且同时按下<img id=\"MoveDown\"/>可以发动别的攻击"
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1417>"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>中会持续以敌方角色为目标\n发动攻击就会自动以敌方为对象进行攻击\n\n有复数敌人时可用<img id=\"TargetChangeLeft\"/><img id=\"TargetChangeRight\"/>切换攻击对象"
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "用诅咒祓除诅咒的攻击就是「<GLO=GLS_GAME_WORDS_1307>」\n是对敌人造成伤害的基本手段\n\n<img id=\"CursedEnergyAttack_1\"/>和<img id=\"CursedEnergyAttack_2\"/>可以各使出不同的<GLO=GLS_GAME_WORDS_1307>\n要使用这些招式，需要让<GLO=GLS_GAME_WORDS_1503>量表累积<GLO=GLS_GAME_WORDS_1503>\n<GLO=GLS_GAME_WORDS_1503>量表在使用过后会随时间<GLO=GLS_GAME_WORDS_1819>"
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1401>"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "让自己的<GLO=GLS_GAME_WORDS_1503>上升的攻击称为「<GLO=GLS_GAME_WORDS_1302>」\n<GLO=GLS_GAME_WORDS_1302>命中敌方会使<GLO=GLS_GAME_WORDS_1503>量表上升，到达一定的值就会让自己的<GLO=GLS_GAME_WORDS_1401>提升\n<GLO=GLS_GAME_WORDS_1503>升级的话，会强化<GLO=GLS_GAME_WORDS_1307>并增加伤害"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "让<GLO=GLS_GAME_WORDS_1301>成功"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": "<img id=\"NormalAttack_1\"/> 连续输入"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>攻击3次"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "避开攻击10秒"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"MoveLeft\"/>或<img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "让五条老师的<GLO=GLS_GAME_WORDS_1502>归零"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1301>"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "连续输入<img id=\"NormalAttack_1\"/>可以使出连结<GLO=GLS_GAME_WORDS_1302>和<GLO=GLS_GAME_WORDS_1307>的连击「<GLO=GLS_GAME_WORDS_1301>」\n只有在<GLO=GLS_GAME_WORDS_1503>足以发动<GLO=GLS_GAME_WORDS_1307>的状态下\n使出「<GLO=GLS_GAME_WORDS_1301>」会让最后的招式变化为<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1409>"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "用<img id=\"Guard\"/>发动挡下敌方攻击的「<GLO=GLS_GAME_WORDS_1409>」 \n长按中会成为<GLO=GLS_GAME_WORDS_1409>状态，所受伤害无效化\n但是以<GLO=GLS_GAME_WORDS_1409>持续承受攻击\n会使<GLO=GLS_GAME_WORDS_1409>破除，进入「<GLO=GLS_GAME_WORDS_1432>」状态\n这项状态将会成为重大破绽，需要注意\n\n另外，如果受到敌方攻击的瞬间<GLO=GLS_GAME_WORDS_1409>成功\n就会变成「<GLO=GLS_GAME_WORDS_1410>」，容易制造反击机会"
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1431>"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>时按下<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>会发动「<GLO=GLS_GAME_WORDS_1431>」\n往输入方向移动，避开敌方攻击"
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "总结"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "让<GLO=GLS_GAME_WORDS_1302>击中敌方，使<GLO=GLS_GAME_WORDS_1503>上升\n用<GLO=GLS_GAME_WORDS_1307>削减敌方的<GLO=GLS_GAME_WORDS_1502><GLO=GLS_GAME_WORDS_1418>敌方吧\n\n<GLO=GLS_GAME_WORDS_1418>敌方，让对手<GLO=GLS_GAME_WORDS_1422>归零就是<GLO=GLS_GAME_WORDS_1601>目标"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "那马上开始特训吧！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "好！请多指教！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "先试着来到我的身旁吧"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "动作不错！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "接下来试着让攻击打中我"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "要是受伤我可不管喔？"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "你在近身战斗这方面果然是高人一等啊！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "接下来我会攻击，你应对看看"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "很不错的持久力！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "最后我来教你<GLO=GLS_GAME_WORDS_1503>的控制！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "把<GLO=GLS_GAME_WORDS_1503>加在悠仁你的体术上击出吧"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "那我已经办得到了！！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "那你就试试看，反正你办不到的"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "这拳没有包含<GLO=GLS_GAME_WORDS_1503>喔"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "你还是最适合实战方式"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "认真攻过来吧"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "对<GLO=GLS_NAME_CP_010>指示<GLO=GLS_GAME_WORDS_1704>「协力」"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "让<GLO=GLS_GAME_WORDS_1402>成功"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "使<GLO=GLS_NAME_CP_040>的<GLO=GLS_GAME_WORDS_1401>变成3"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "让<GLO=GLS_GAME_WORDS_1314>成功"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "让<GLO=GLS_GAME_WORDS_1315>成功"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1704>"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "可以用<img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>指示我方角色在<GLO=GLS_GAME_WORDS_1813>时的行动\n\n<img id=\"Chat_0005\"/>一般：平均的行动\n<img id=\"Chat_0006\"/>猛攻：频繁使用<GLO=GLS_GAME_WORDS_1302>、<GLO=GLS_GAME_WORDS_1307>\n<img id=\"Chat_0007\"/>协力：积极进行合作\n<img id=\"Chat_0008\"/>慎重：常用<GLO=GLS_GAME_WORDS_1431>和<GLO=GLS_GAME_WORDS_1409>，走位避免受伤"
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "和伙伴角色攻击同一个敌人\n或是攻击正在攻击伙伴的敌人会产生「<GLO=GLS_GAME_WORDS_1402>」\n出现奖励后可以获得追加的<GLO=GLS_GAME_WORDS_1505>"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "用<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>可以使出「<GLO=GLS_GAME_WORDS_1313>」\n<GLO=GLS_GAME_WORDS_1313>无法<GLO=GLS_GAME_WORDS_1409>，击中敌方后，敌方就会变成特殊的受创状态\n在敌方的受创状态期间，伙伴的<GLO=GLS_GAME_WORDS_1301>或<GLO=GLS_GAME_WORDS_1302>击中敌方\n会发动和伙伴的合作攻击「<GLO=GLS_GAME_WORDS_1314>」\n\n<GLO=GLS_GAME_WORDS_1314>发动的话自己和伙伴的<GLO=GLS_GAME_WORDS_1401>会上升\n并且可以对敌方造成大量伤害"
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>最大时可以使用特殊招式「<GLO=GLS_GAME_WORDS_1315>」\n同时输入<img id=\"Guard\"/>和<img id=\"CursedEnergyAttack_2\"/>就可以发动\n招式效果有强力攻击或<GLO=GLS_UNIQUE_WORDS_0006>等，每个角色的招式效果不同\n另外<GLO=GLS_GAME_WORDS_1315>在<GLO=GLS_GAME_WORDS_1813>中只能发动一次"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "让<GLO=GLS_GAME_WORDS_1401>变成最大"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "让<GLO=GLS_GAME_WORDS_1315>成功"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "关于<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "一部分角色的<GLO=GLS_GAME_WORDS_1315>可以发动<GLO=GLS_UNIQUE_WORDS_0006>\n\n<GLO=GLS_UNIQUE_WORDS_0006>成功的话，能将敌方和我方拉进自己的领域\n在领域内自己的能力会提升，对敌方造成妨碍效果和大伤害\n可以在有利的状态展开<GLO=GLS_GAME_WORDS_1813>"
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "关于<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>会因以下任一原因解除\n时间经过、发动者被<GLO=GLS_GAME_WORDS_1418>、有别的<GLO=GLS_UNIQUE_WORDS_0006>覆盖过原本的领域\n另外，也有从展开后攻击，一连串进行到解除的类型存在\n\n一部分角色在<GLO=GLS_UNIQUE_WORDS_0006>解除后的一定时间内\n<GLO=GLS_GAME_WORDS_1307>可能会受到限制，需要注意"
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "关于适应"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "魔虚罗有「适应」对手攻击，并使其无效的能力。\n击败魔虚罗的咒力技会被适应，之后无法造成损伤。\n招式如果被适应了，与招式对应的法阵图示就会亮起。\n\n觉醒技可以造成损伤。\n最后就用这招式打败魔虚罗吧。"
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1001>"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "在「<GLO=GLS_GAME_WORDS_1001>」可以体验<GLO=GLS_GAME_WORDS_0001>的故事\n\n・<GLO=GLS_GAME_WORDS_1103>…\n　再次体验<GLO=GLS_UNIQUE_WORDS_0001>等人的战斗记录\n・<GLO=GLS_GAME_WORDS_1206>…\n　确认各角色的关系性"
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1103>"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "在这里可以照时间顺序选择任务体验故事\n\n根据任务将有特殊的<GLO=GLS_GAME_WORDS_1601>条件\n或「<GLO=GLS_GAME_WORDS_1817>」这种课题的类型\n任务细节可按下<img id=\"PopupMenu_2\"/>确认"
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1206>的进行"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "推进<GLO=GLS_GAME_WORDS_1103>会让<GLO=GLS_GAME_WORDS_1206>的角色开放\n以及角色之间的关系进展\n不时确认看看吧\n\n也可透过按下<img id=\"PopupMenu_1\"/>移动到<GLO=GLS_GAME_WORDS_1206>"
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1206>"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "在这里可以确认角色之间的关系性\n进行<GLO=GLS_GAME_WORDS_1103>会让角色之间的「<GLO=GLS_GAME_WORDS_1105>」上升\n可以获得报酬，或是观看开放的<GLO=GLS_GAME_WORDS_1706>"
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1002>"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "在这里可以连上网络进行线上对战\n\n・<GLO=GLS_GAME_WORDS_1102>…\n　可以轻松对战\n・<GLO=GLS_GAME_WORDS_1101>…\n　与实力相近的玩家们对战"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1101>与实力相近的玩家们对战\n依对战结果和分数会让「<GLO=GLS_GAME_WORDS_1901>」变动\n也可以依累计分数获得报酬\n详情可在「<GLO=GLS_GAME_WORDS_1208>」确认"
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1003>"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "在这里可以连上网络在线上和玩家协力\n以特殊规则进行与敌方的连续<GLO=GLS_GAME_WORDS_1813>\n\n・<GLO=GLS_GAME_WORDS_1801>…\n　可以和玩家协力\n　进行每次游玩会变化，以「<GLO=GLS_GAME_WORDS_1815>」构成的连续<GLO=GLS_GAME_WORDS_1813>\n　达成「<GLO=GLS_GAME_WORDS_1817>」的条件并打倒敌人获得高分吧\n　另外也有设有特殊胜败条件的<GLO=GLS_GAME_WORDS_1813>"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "・<GLO=GLS_GAME_WORDS_1802>…\n　敌人比<GLO=GLS_GAME_WORDS_1801>更强的模式\n　请以完全攻略为目标"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1003>"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "先游玩「<GLO=GLS_GAME_WORDS_1801>」，体验模式的流程吧\n第一次将是线下游玩\n\n另外，第一次以后只要选择「一个人游玩」\n就可以在线下游玩"
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1818>"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "在<GLO=GLS_GAME_WORDS_1801>只要游玩「<GLO=GLS_GAME_WORDS_1818>」就会变动\n当<GLO=GLS_GAME_WORDS_1818>上升，<GLO=GLS_GAME_WORDS_1801>的难度\n和<GLO=GLS_GAME_WORDS_1813>的构成也会阶段性变化\n协力的玩家将会优先配对<GLO=GLS_GAME_WORDS_1818>相近的玩家\n\n出击时可以任意设定<GLO=GLS_GAME_WORDS_1818>以调整难度\n※如果降低后出击，<GLO=GLS_GAME_WORDS_1818>上限不会提升"
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1805>/<GLO=GLS_GAME_WORDS_1804>"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "另外，在<GLO=GLS_GAME_WORDS_1003>\n可以「<GLO=GLS_GAME_WORDS_1804>」特殊的「<GLO=GLS_GAME_WORDS_1805>道具」或角色而达到强化\n游玩<GLO=GLS_GAME_WORDS_1801>、<GLO=GLS_GAME_WORDS_1802>以获得<GLO=GLS_GAME_WORDS_1812>\n强化角色吧\n\n强化后会比较容易攻略困难的<GLO=GLS_GAME_WORDS_1813>"
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1805>"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "<GLO=GLS_GAME_WORDS_1805>在<GLO=GLS_GAME_WORDS_1007>购买的道具的角色可以强化角色\n<GLO=GLS_GAME_WORDS_1805>最多可装3个，<GLO=GLS_GAME_WORDS_1804>角色就会开放栏位\n但是无法<GLO=GLS_GAME_WORDS_1805>复数个同一类型的道具\n\n<GLO=GLS_GAME_WORDS_1805>道具有可以永久<GLO=GLS_GAME_WORDS_1805>的类型\n和发挥一次效果就会消失的各种种类\n另外，游玩<GLO=GLS_GAME_WORDS_1003>可能会让<GLO=GLS_GAME_WORDS_1007>陈列新的道具"
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1804>"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "可以使用游玩<GLO=GLS_GAME_WORDS_1801>、<GLO=GLS_GAME_WORDS_1802>获得的<GLO=GLS_GAME_WORDS_1812>\n来提升角色的LV\nLV提升会强化数值，<GLO=GLS_GAME_WORDS_1805>栏位会被开放\n\n<GLO=GLS_GAME_WORDS_1812>是游玩任何角色都会共同累计，可以自由分配"
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "<GLO=GLS_GAME_WORDS_1809>的选择"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "在<GLO=GLS_GAME_WORDS_1003>可以对自己设定「<GLO=GLS_GAME_WORDS_1809>」\n设定<GLO=GLS_GAME_WORDS_1809>将会限制行动或数值等，而强化其他能力\n\n在设定<GLO=GLS_GAME_WORDS_1809>的状态下通关任务，可以追加获得<GLO=GLS_GAME_WORDS_1819>点数"
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "<GLO=GLS_GAME_WORDS_1831>可以做的事"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "在<GLO=GLS_GAME_WORDS_1831>画面可以为了准备下个任务\n<GLO=GLS_GAME_WORDS_1819>「<GLO=GLS_GAME_WORDS_1422>」或个别的「<GLO=GLS_GAME_WORDS_1502>」\n各个<GLO=GLS_GAME_WORDS_1819>都需要点数\n点数是由玩家各自持有，好好运用<GLO=GLS_GAME_WORDS_1819>吧\n\n这个<GLO=GLS_GAME_WORDS_1819>点数可在任务通关时获得\n另外，设定<GLO=GLS_GAME_WORDS_1809>的状态下通关任务，可以追加获得点数"
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1005>"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "在这里可以自由设定角色和规则来游玩<GLO=GLS_GAME_WORDS_1813>\n\n・角色设定…\n　可以设定我方和对手的角色选择及强度\n\n・玩家设定…\n　可以设定特殊项目\n\n・<GLO=GLS_GAME_WORDS_1813>设定…\n　可以设定关卡限制时间、<GLO=GLS_GAME_WORDS_1503>等规则"
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1004>"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "在这里可以连接网络在线上建立大厅\n与<DYN=FRIEND_WORD>和陌生人等固定成员游玩\n\n・建立大厅…以房主身分建立大厅\n　可以变更游玩方式和招募文来募集风格契合的玩家\n\n・寻找大厅…参加已建立的大厅\n　搜寻<DYN=FRIEND_WORD>或ID可以直接参加特定大厅"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "・角色选择…\n　选择在大厅操作的角色\n　在<GLO=GLS_GAME_WORDS_1813>可以选择别的角色，以喜欢的角色参加大厅吧！"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "大厅房主可以做的事"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "大厅房主长按<img id=\"BattlePause\"/>开始<GLO=GLS_GAME_WORDS_1813>\n成员到齐以后就开始吧"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "另外，可以用<img id=\"BattlePause\"/>打开选单做以下动作\n\n・出击模式的设定…\n　可以变更大厅成员游玩的<GLO=GLS_GAME_WORDS_1813>模式\n\n・玩家的踢除…\n　可以从大厅踢除玩家\n　这项操作要从大厅情报进行"
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "在<GLO=GLS_GAME_WORDS_1004>可以做的事"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "在<GLO=GLS_GAME_WORDS_1004>可以做以下动作\n\n・定型<GLO=GLS_GAME_WORDS_1416>…\n　用<img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>进行定型<GLO=GLS_GAME_WORDS_1416>\n\n・不显示UI…\n　可用<img id=\"WidgetDispSwitch\"/>切换UI的显示／不显示"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "・切换视角模式…\n　可以切换成能用<img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>自由移动视角的模式\n\n大厅房主开始<GLO=GLS_GAME_WORDS_1813>\n而要退出大厅可用<img id=\"BattlePause\"/>显示选单"
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1007>"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "在这里可以使用从<GLO=GLS_GAME_WORDS_1813>等获得的<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>\n购买<GLO=GLS_GAME_WORDS_2217>或<GLO=GLS_GAME_WORDS_1207>的<GLO=GLS_GAME_WORDS_1202>道具\n<GLO=GLS_GAME_WORDS_1003><GLO=GLS_GAME_WORDS_1813>专用道具等\n\n一部分道具为达成条件后可以购买"
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "关于<GLO=GLS_GAME_WORDS_2102>"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_2102>是可以<GLO=GLS_NAME_MAP_00>获得<GLO=GLS_GAME_WORDS_1007>道具的道具\n\n※不包含有开放条件的道具\n※如果抽中已取得，或是数量超过上限数量的道具\n将转变为<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>"
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "可以在这里观察角色\n进行各种<GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "<GLO=GLS_GAME_WORDS_1207><GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "可以照喜好<GLO=GLS_GAME_WORDS_1202><GLO=GLS_GAME_WORDS_1207>\n\n个别的<GLO=GLS_GAME_WORDS_1202>道具可透过游玩<GLO=GLS_GAME_WORDS_1813>或是在<GLO=GLS_GAME_WORDS_1007>购买来获得"
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "<GLO=GLS_GAME_WORDS_1416><GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "可以照喜好<GLO=GLS_GAME_WORDS_1202><GLO=GLS_GAME_WORDS_1813>中的定型<GLO=GLS_GAME_WORDS_1416>\n\n不同角色可以个别设定\n<GLO=GLS_GAME_WORDS_1202>适合游玩风格的<GLO=GLS_GAME_WORDS_1416>吧"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "VS姿势／<GLO=GLS_GAME_WORDS_1813>语音<GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "<GLO=GLS_GAME_WORDS_1202>VS姿势和<GLO=GLS_GAME_WORDS_1813>语音\n\n个别的<GLO=GLS_GAME_WORDS_1202>道具可透过游玩<GLO=GLS_GAME_WORDS_1813>或是在<GLO=GLS_GAME_WORDS_1007>购买而获得"
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1110>"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "追加内容「<GLO=GLS_GAME_WORDS_1110>」模式\n可以追体验新的<GLO=GLS_UNIQUE_WORDS_0001>们的战斗。\n※需要购买追加内容以游玩。"
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "可下载内容「<GLO=GLS_GAME_WORDS_1110>」模式\n可以追体验新的<GLO=GLS_UNIQUE_WORDS_0001>们的战斗。\n※需要购买可下载内容以游玩。"
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "新增内容「<GLO=GLS_GAME_WORDS_1110>」模式\n可以追体验新的<GLO=GLS_UNIQUE_WORDS_0001>们的战斗。\n※需要购买新增内容以游玩。"
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "追加内容「<GLO=GLS_GAME_WORDS_1110>」模式\n可以追体验新的<GLO=GLS_UNIQUE_WORDS_0001>们的战斗。\n※需要购买追加内容以游玩。"
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1010>"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "可以选择游玩角色和搭档角色，进行2VS2的5连战。\n选择路线与难度，赢过对战对象就可获得<GLO=GLS_GAME_WORDS_2103>或<GLO=GLS_GAME_WORDS_2009>。\n也挑战看看不战败接关的通关，以及困难难度吧。"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "关于<GLO=GLS_NAME_CN_240>的出现"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "如果重复游玩<GLO=GLS_GAME_WORDS_1801>，通关3个任务后有可能会出现<GLO=GLS_NAME_CN_240>\n出现机率提高时，<GLO=GLS_GAME_WORDS_1831>画面上显示的式神数量会增加"
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "关于<GLO=GLS_GAME_WORDS_1836>"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "魔虚罗战会有超耐力状态的魔虚罗出现\n魔虚罗的强度不受「熟练度」影响"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "魔虚罗有「适应」对手攻击，并使其无效的能力\n\n用咒力技/咒具技命中魔虚罗\n魔虚罗的「适应量表」就会开始随着时间上升\n当「适应量表」达到最高，或是让魔虚罗无法行动\n就会适应在量表上升期间对它造成最大伤害的招式，使该招式无效"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "招式如果被适应了，与招式对应的法阵图示就会亮起\n\n适应后，魔虚罗会以招式没被适应的角色为目标\n连击技造成的损伤不会无效化"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "魔虚罗随时都是超耐力状态\n但在「适应量表」上升期间，对它造成一定以上的伤害\n可暂时解除超耐力状态，使它无法行动\n只有这时候能让觉醒技和共连击命中它\n领域展开后会切换关卡的觉醒技随时可执行\n共连击则是每个角色只能命中1次"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "角色等级未满25时，将暂时上升至25\n与魔虚罗的战斗不能设定「束缚」\n会适用装备道具的效果"
+      }
+    }
+  }
+]

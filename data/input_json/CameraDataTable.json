@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CameraDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_Camera'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "Default": {
+        "ID": "Default",
+        "GazeLocation_AttenuateRate": 0.5,
+        "RotationPitch_AttenuateRate": 0.5,
+        "RotationYaw_AttenuateRate": 0.5,
+        "Distance_AttenuateRate": 0.5,
+        "TargetCamera_Distance": 200.0,
+        "FreeCamera_Distance": 250.0,
+        "ShootCamera_Distance": 200.0,
+        "TargetCamera_ActionDistance": 320.0,
+        "TargetCamera_ActionDistanceChangeTime_Run": 1.0,
+        "TargetCamera_ActionDistanceChangeTime_Dash": 0.2,
+        "TargetCamera_ActionDistanceChangeTime_Jump": 0.2,
+        "TargetCamera_ActionDistanceChangeTime_Step": 0.2,
+        "TargetCamera_DownDistance": 475.0,
+        "TargetCamera_DownDistanceChangeTime": 0.2,
+        "TargetCamera_NormalDistanceChangeWaitTime": 3.0,
+        "TargetCamera_NormalDistanceChangeTime": 1.5,
+        "LimitAngleH_Min": 25.0,
+        "LimitAngleHDistance_Min": 150.0,
+        "LimitAngleH_Max": 5.0,
+        "LimitAngleHDistance_Max": 700.0,
+        "LimitAngleV_Min": -40.0,
+        "LimitAngleV_Max": 25.0,
+        "OwnerHeightScale": 0.84,
+        "TargetCamera_OffsetAngleV": 1.5,
+        "CameraModeChange_InterpolationTime": 0.25
+      }
+    }
+  }
+]

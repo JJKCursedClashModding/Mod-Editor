@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MaterialOutlineDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_MaterialOutline'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BREAK_FALL": {
+        "ID": "BREAK_FALL",
+        "OutlineEmissiveColor": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "OutlineScale": 3.0,
+        "FadeInTime": 0.0,
+        "FadeOutTime": 0.0
+      },
+      "INVINCIBLE": {
+        "ID": "INVINCIBLE",
+        "OutlineEmissiveColor": {
+          "X": 0.6,
+          "Y": 0.6,
+          "Z": 0.9
+        },
+        "OutlineScale": 3.0,
+        "FadeInTime": 0.0,
+        "FadeOutTime": 0.0
+      },
+      "SUPER_ARMOR": {
+        "ID": "SUPER_ARMOR",
+        "OutlineEmissiveColor": {
+          "X": 1.1,
+          "Y": 0.8,
+          "Z": 0.0
+        },
+        "OutlineScale": 4.0,
+        "FadeInTime": 0.05,
+        "FadeOutTime": 0.0
+      },
+      "HYPER_ARMOR": {
+        "ID": "HYPER_ARMOR",
+        "OutlineEmissiveColor": {
+          "X": 1.1,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "OutlineScale": 4.0,
+        "FadeInTime": 0.05,
+        "FadeOutTime": 0.0
+      },
+      "LIMITLESS": {
+        "ID": "LIMITLESS",
+        "OutlineEmissiveColor": {
+          "X": 1.2,
+          "Y": 0.0,
+          "Z": 2.6
+        },
+        "OutlineScale": 4.0,
+        "FadeInTime": 0.05,
+        "FadeOutTime": 0.0
+      },
+      "COUNTER": {
+        "ID": "COUNTER",
+        "OutlineEmissiveColor": {
+          "X": 1.5,
+          "Y": 0.6,
+          "Z": 0.3
+        },
+        "OutlineScale": 4.0,
+        "FadeInTime": 0.0,
+        "FadeOutTime": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterSpecialAttackDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_CharacterSpecialAttack'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010": {
+        "ID": "CP_010",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_010_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_010_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_01"
+      },
+      "CP_020": {
+        "ID": "CP_020",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_020_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_020_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": true,
+        "Id_DomainExpansion": "CP_020",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_02"
+      },
+      "CP_030": {
+        "ID": "CP_030",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_030_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_030_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "CP_030",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_03"
+      },
+      "CP_040": {
+        "ID": "CP_040",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_040_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_040_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_04"
+      },
+      "CP_050": {
+        "ID": "CP_050",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_050_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_010_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "CP_050",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_05"
+      },
+      "CP_060": {
+        "ID": "CP_060",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_060_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_060_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_06"
+      },
+      "CP_070": {
+        "ID": "CP_070",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_070_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_070_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_07"
+      },
+      "CP_080": {
+        "ID": "CP_080",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_080_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_080_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_08"
+      },
+      "CP_090": {
+        "ID": "CP_090",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_090_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_090_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_09"
+      },
+      "CP_100": {
+        "ID": "CP_100",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_100_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_100_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_10"
+      },
+      "CP_110": {
+        "ID": "CP_110",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_110_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_110_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_11"
+      },
+      "CP_120": {
+        "ID": "CP_120",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_120_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_120_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_12"
+      },
+      "CP_130": {
+        "ID": "CP_130",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_010_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_010_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "CP_130",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_13"
+      },
+      "CP_140": {
+        "ID": "CP_140",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_140_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_140_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "CP_140",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_14"
+      },
+      "CP_150": {
+        "ID": "CP_150",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_150_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_150_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_15"
+      },
+      "CP_160": {
+        "ID": "CP_160",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_010_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_010_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_16"
+      },
+      "CN_040": {
+        "ID": "CN_040",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_060": {
+        "ID": "CN_060",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_070": {
+        "ID": "CN_070",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_080": {
+        "ID": "CN_080",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_090": {
+        "ID": "CN_090",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_110": {
+        "ID": "CN_110",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_120": {
+        "ID": "CN_120",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_130": {
+        "ID": "CN_130",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_140": {
+        "ID": "CN_140",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_150": {
+        "ID": "CN_150",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_160": {
+        "ID": "CN_160",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CN_170": {
+        "ID": "CN_170",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "None",
+        "Id_Damage_SoloSpecialAttack": "None",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CP_051": {
+        "ID": "CP_051",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_051_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_051_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_17"
+      },
+      "CP_121": {
+        "ID": "CP_121",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_121_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_121_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_18"
+      },
+      "CP_200": {
+        "ID": "CP_200",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_200_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_200_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_19"
+      },
+      "CP_170": {
+        "ID": "CP_170",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_170_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_170_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_20"
+      },
+      "CP_180": {
+        "ID": "CP_180",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_180_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_180_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_21"
+      },
+      "ST_CP_051": {
+        "ID": "ST_CP_051",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "ST_CP_051_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "ST_CP_051_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_17"
+      },
+      "CP_190": {
+        "ID": "CP_190",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_190_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_190_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_22"
+      },
+      "CP_210": {
+        "ID": "CP_210",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_210_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_210_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_23"
+      },
+      "CP_220": {
+        "ID": "CP_220",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_220_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_220_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_24"
+      },
+      "CP_230": {
+        "ID": "CP_230",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_230_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_230_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_25"
+      },
+      "CP_240": {
+        "ID": "CP_240",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_240_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_240_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_26"
+      },
+      "CP_260": {
+        "ID": "CP_260",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_260_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_260_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "CP_260",
+        "RankingRecord": "EGameRankingRecord::None"
+      },
+      "CP_270": {
+        "ID": "CP_270",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_270_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_270_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "None",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_27"
+      },
+      "ST_CP_260": {
+        "ID": "ST_CP_260",
+        "Id_GlossaryText_Name": "None",
+        "Id_Damage_SpecialTagCombo": "CP_260_DAMAGE_SPECIAL_TAG_COMBO",
+        "Id_Damage_SoloSpecialAttack": "CP_260_DAMAGE_SOLO_SPECIAL_ATTACK",
+        "bMultiHitSoloSpecialAttack": false,
+        "Id_DomainExpansion": "ST_CP_260",
+        "RankingRecord": "EGameRankingRecord::None"
+      }
+    }
+  }
+]

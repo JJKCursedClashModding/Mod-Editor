@@ -1,0 +1,3380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BuffDebuffDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_BuffDebuff'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BUFF_CP_010_PASSIVE_2": {
+        "ID": "BUFF_CP_010_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_010_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.9,
+          1.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_010_PASSIVE_3": {
+        "ID": "BUFF_CP_010_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_010_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.8,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_COERCION_CP_020": {
+        "ID": "BUFF_COERCION_CP_020",
+        "BuffDebuff": "EGameBuffDebuff::Coercion",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_HAIRPIN_1": {
+        "ID": "DEBUFF_HAIRPIN_1",
+        "BuffDebuff": "EGameBuffDebuff::Hairpin_1",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_HAIRPIN_2": {
+        "ID": "DEBUFF_HAIRPIN_2",
+        "BuffDebuff": "EGameBuffDebuff::Hairpin_2",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_HAIRPIN_3": {
+        "ID": "DEBUFF_HAIRPIN_3",
+        "BuffDebuff": "EGameBuffDebuff::Hairpin_3",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RESONANCE_1": {
+        "ID": "DEBUFF_RESONANCE_1",
+        "BuffDebuff": "EGameBuffDebuff::Resonance_1",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RESONANCE_2": {
+        "ID": "DEBUFF_RESONANCE_2",
+        "BuffDebuff": "EGameBuffDebuff::Resonance_2",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RESONANCE_3": {
+        "ID": "DEBUFF_RESONANCE_3",
+        "BuffDebuff": "EGameBuffDebuff::Resonance_3",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_040_PASSIVE": {
+        "ID": "BUFF_CP_040_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_040_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_060_PASSIVE_2": {
+        "ID": "BUFF_CP_060_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_060_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.1,
+          1.05,
+          1.05,
+          1.25,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_060_PASSIVE_3": {
+        "ID": "BUFF_CP_060_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_060_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          1.1,
+          1.1,
+          1.34,
+          2.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_081_PASSIVE_1": {
+        "ID": "BUFF_CP_081_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_081_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.3,
+          1.2,
+          1.5,
+          2.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_081_PASSIVE_2": {
+        "ID": "BUFF_CP_081_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_081_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.3,
+          1.2,
+          1.5,
+          2.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_081_PASSIVE_3": {
+        "ID": "BUFF_CP_081_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_081_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.3,
+          1.2,
+          1.5,
+          2.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_090_PASSIVE_1": {
+        "ID": "BUFF_CP_090_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_090_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.1,
+          1.2,
+          0.9,
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_090_PASSIVE_2": {
+        "ID": "BUFF_CP_090_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_090_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.1,
+          1.2,
+          0.85,
+          1.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_090_PASSIVE_3": {
+        "ID": "BUFF_CP_090_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_090_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.1,
+          1.2,
+          0.8,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_100_PASSIVE_1": {
+        "ID": "BUFF_CP_100_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_100_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.1,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_100_PASSIVE_2": {
+        "ID": "BUFF_CP_100_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_100_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.15,
+          0.85,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_100_PASSIVE_3": {
+        "ID": "BUFF_CP_100_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_100_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.2,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_110_CURSEDENERGYATTACK2": {
+        "ID": "BUFF_CP_110_CURSEDENERGYATTACK2",
+        "BuffDebuff": "EGameBuffDebuff::CP_110_CursedEnergyAttack2",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          13.0,
+          1.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_110_PASSIVE": {
+        "ID": "BUFF_CP_110_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_110_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          0.0,
+          0.95,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DOMAINEXPANSION_CP_130_USER": {
+        "ID": "BUFF_DOMAINEXPANSION_CP_130_USER",
+        "BuffDebuff": "EGameBuffDebuff::DomainExpansion_CP_130",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DOMAINEXPANSION_CP_130_ENEMY": {
+        "ID": "DEBUFF_DOMAINEXPANSION_CP_130_ENEMY",
+        "BuffDebuff": "EGameBuffDebuff::DomainExpansion_CP_130_Enemy",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.9,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DOMAINEXPANSION_CP_140_USER": {
+        "ID": "BUFF_DOMAINEXPANSION_CP_140_USER",
+        "BuffDebuff": "EGameBuffDebuff::DomainExpansion_CP_140",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.9,
+          1.1,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DOMAINEXPANSION_CP_140_ENEMY": {
+        "ID": "DEBUFF_DOMAINEXPANSION_CP_140_ENEMY",
+        "BuffDebuff": "EGameBuffDebuff::DomainExpansion_CP_140_Enemy",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.9,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_140_PASSIVE_1": {
+        "ID": "BUFF_CP_140_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_140_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.5,
+          1.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_140_PASSIVE_2": {
+        "ID": "BUFF_CP_140_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_140_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.8,
+          1.15,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_140_PASSIVE_3": {
+        "ID": "BUFF_CP_140_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_140_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          2.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_150_PASSIVE": {
+        "ID": "BUFF_CP_150_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_150_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackA": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackA",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackC": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackC",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackD": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackD",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackE": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackE",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          50.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackG": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackG",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          50.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackH_01": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackH_01",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackH_02": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackH_02",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          12.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ROT_TECHNIQUE_AttackH_03": {
+        "ID": "DEBUFF_ROT_TECHNIQUE_AttackH_03",
+        "BuffDebuff": "EGameBuffDebuff::RotTechnique",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DECAY_1": {
+        "ID": "DEBUFF_DECAY_1",
+        "BuffDebuff": "EGameBuffDebuff::Decay_1",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          0.3,
+          0.17,
+          0.08,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0.9,
+          0.8,
+          0.75,
+          0.7
+        ]
+      },
+      "DEBUFF_DECAY_2": {
+        "ID": "DEBUFF_DECAY_2",
+        "BuffDebuff": "EGameBuffDebuff::Decay_2",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          0.3,
+          0.17,
+          0.08,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0.9,
+          0.8,
+          0.75,
+          0.7
+        ]
+      },
+      "DEBUFF_DECAY_3": {
+        "ID": "DEBUFF_DECAY_3",
+        "BuffDebuff": "EGameBuffDebuff::Decay_3",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          -1.0,
+          0.3,
+          0.17,
+          0.08,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0.9,
+          0.8,
+          0.75,
+          0.7
+        ]
+      },
+      "BUFF_CP_160_PASSIVE": {
+        "ID": "BUFF_CP_160_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_160_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW": {
+        "ID": "DEBUFF_MOVE_SLOW",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.9,
+          11.0,
+          0.8,
+          12.0,
+          0.75,
+          13.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CN_010_1": {
+        "ID": "DEBUFF_MOVE_SLOW_CN_010_1",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.8,
+          5.0,
+          0.9,
+          5.0,
+          0.9,
+          5.0,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CN_010_2": {
+        "ID": "DEBUFF_MOVE_SLOW_CN_010_2",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.7,
+          20.0,
+          0.7,
+          20.0,
+          0.7,
+          20.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CN_081_1": {
+        "ID": "DEBUFF_MOVE_SLOW_CN_081_1",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.7,
+          22.0,
+          0.7,
+          25.0,
+          0.6,
+          30.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CN_081_2": {
+        "ID": "DEBUFF_MOVE_SLOW_CN_081_2",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          0.7,
+          28.0,
+          0.7,
+          30.0,
+          0.6,
+          35.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CP_130": {
+        "ID": "DEBUFF_MOVE_SLOW_CP_130",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.95,
+          5.0,
+          0.9,
+          5.0,
+          0.8,
+          5.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CP_230_1": {
+        "ID": "DEBUFF_MOVE_SLOW_CP_230_1",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          13.0,
+          0.9,
+          13.0,
+          0.9,
+          13.0,
+          0.9,
+          13.0,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CP_230_2": {
+        "ID": "DEBUFF_MOVE_SLOW_CP_230_2",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          13.0,
+          0.8,
+          13.0,
+          0.8,
+          13.0,
+          0.8,
+          13.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_CP_230_3": {
+        "ID": "DEBUFF_MOVE_SLOW_CP_230_3",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          13.0,
+          0.7,
+          13.0,
+          0.7,
+          13.0,
+          0.7,
+          13.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_1": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.95,
+          10.0,
+          0.95,
+          10.0,
+          0.95,
+          10.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_2": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.9,
+          10.0,
+          0.9,
+          10.0,
+          0.9,
+          10.0,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_3": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.85,
+          10.0,
+          0.85,
+          10.0,
+          0.85,
+          10.0,
+          0.85,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_4": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.8,
+          10.0,
+          0.8,
+          10.0,
+          0.8,
+          10.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_5": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.75,
+          10.0,
+          0.75,
+          10.0,
+          0.75,
+          10.0,
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_MOVE_SLOW_ITEM_6": {
+        "ID": "DEBUFF_MOVE_SLOW_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::MoveSlowItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.7,
+          10.0,
+          0.7,
+          10.0,
+          0.7,
+          10.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_1": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_2": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_3": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_4": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_5": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          40.0,
+          0.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_6": {
+        "ID": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::HitPointRecoverWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          40.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSEDENERGY_RECOVER_SLOW": {
+        "ID": "DEBUFF_CURSEDENERGY_RECOVER_SLOW",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyRecoverSlow",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.9,
+          11.0,
+          0.7,
+          12.0,
+          0.65,
+          13.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_REVIVAL": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_REVIVAL",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncrease",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_1": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_2": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_3": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.15,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_4": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_5": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          1.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_6": {
+        "ID": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          1.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_1": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_2": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_3": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_4": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_5": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          35.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_6": {
+        "ID": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyExpDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          40.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_1": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_2": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_3": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          7.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_4": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          9.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_5": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          11.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_DISABLED_ITEM_6": {
+        "ID": "DEBUFF_DASH_DISABLED_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::DashDisabledItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          13.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_1": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_2": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_3": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_4": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_5": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          35.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_UNLIMITED_ITEM_6": {
+        "ID": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeUnlimitedItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          40.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_1": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_2": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_3": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          60.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_4": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          65.0,
+          1.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_5": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          70.0,
+          1.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_6": {
+        "ID": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          75.0,
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_1": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_2": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_3": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.85,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_4": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_5": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_6": {
+        "ID": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeRecoverDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_1": {
+        "ID": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeNotRecoverItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_3": {
+        "ID": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeNotRecoverItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_5": {
+        "ID": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::DashGaugeNotRecoverItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_1": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_2": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_3": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.15,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_4": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_5": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SEND_DAMAGE_INCREASE_ITEM_6": {
+        "ID": "BUFF_SEND_DAMAGE_INCREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          1.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_1": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_2": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_3": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_4": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.65,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_5": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          35.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_6": {
+        "ID": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::SendDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          40.0,
+          0.55,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_1": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_2": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_3": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.85,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_4": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_5": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_6": {
+        "ID": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageDecreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          45.0,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_1": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_2": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_3": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_4": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_5": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_6": {
+        "ID": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::ReceiveDamageWithTimeItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_1": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_2": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_3": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_4": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_5": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_6": {
+        "ID": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::LinkComboCursedEnergyExpIncreaseItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_1": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_1",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_2": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_2",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_3": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_3",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_4": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_4",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          20.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_5": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_5",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          25.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_SUPER_ARMOR_ITEM_6": {
+        "ID": "BUFF_SUPER_ARMOR_ITEM_6",
+        "BuffDebuff": "EGameBuffDebuff::SuperArmorItem",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CURSEDENERGY_RECOVER_INCREASE_CN_090": {
+        "ID": "BUFF_CURSEDENERGY_RECOVER_INCREASE_CN_090",
+        "BuffDebuff": "EGameBuffDebuff::CursedEnergyRecoverIncrease",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          30.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_051_PASSIVE": {
+        "ID": "BUFF_CP_051_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_051_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_170_PASSIVE": {
+        "ID": "BUFF_CP_170_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_170_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.1,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_180_PASSIVE_1": {
+        "ID": "BUFF_CP_180_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_180_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_180_PASSIVE_2": {
+        "ID": "BUFF_CP_180_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_180_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_180_PASSIVE_3": {
+        "ID": "BUFF_CP_180_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_180_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          10.0,
+          1.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_200_PASSIVE": {
+        "ID": "BUFF_CP_200_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_200_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          35.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_190_PASSIVE": {
+        "ID": "BUFF_CP_190_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_190_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_210_PASSIVE": {
+        "ID": "BUFF_CP_210_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_210_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_230_CURSEDENERGYATTACK1": {
+        "ID": "BUFF_CP_230_CURSEDENERGYATTACK1",
+        "BuffDebuff": "EGameBuffDebuff::CP_230_CursedEnergyAttack1",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          1.15,
+          1.15,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CP_220_PASSIVE_1": {
+        "ID": "DEBUFF_CP_220_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_220_Passive_Weak",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.4,
+          0.85,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_CP_220_PASSIVE_2": {
+        "ID": "DEBUFF_CP_220_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_220_Passive_Strong",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          15.0,
+          0.25,
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_240_PASSIVE_1": {
+        "ID": "BUFF_CP_240_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_240_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.1,
+          0.9,
+          1.1,
+          0.9,
+          1.2,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_240_PASSIVE_2": {
+        "ID": "BUFF_CP_240_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_240_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.2,
+          0.8,
+          1.2,
+          0.8,
+          1.4,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_240_PASSIVE_3": {
+        "ID": "BUFF_CP_240_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_240_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.35,
+          0.6,
+          1.3,
+          0.7,
+          1.6,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_250_PASSIVE_1": {
+        "ID": "BUFF_CP_250_PASSIVE_1",
+        "BuffDebuff": "EGameBuffDebuff::CP_250_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_250_PASSIVE_2": {
+        "ID": "BUFF_CP_250_PASSIVE_2",
+        "BuffDebuff": "EGameBuffDebuff::CP_250_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_250_PASSIVE_3": {
+        "ID": "BUFF_CP_250_PASSIVE_3",
+        "BuffDebuff": "EGameBuffDebuff::CP_250_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CP_260_PASSIVE": {
+        "ID": "BUFF_CP_260_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CP_260_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.7,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CN_230_PASSIVE": {
+        "ID": "BUFF_CN_230_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CN_230_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          6.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CN_230_PASSIVE_ST": {
+        "ID": "BUFF_CN_230_PASSIVE_ST",
+        "BuffDebuff": "EGameBuffDebuff::CN_230_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "BUFF_CN_250_PASSIVE": {
+        "ID": "BUFF_CN_250_PASSIVE",
+        "BuffDebuff": "EGameBuffDebuff::CN_250_Passive",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_BEGIN": {
+        "ID": "DEBUFF_ICE_FORMATION_BEGIN",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Begin",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          10.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION": {
+        "ID": "DEBUFF_ICE_FORMATION",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Debuff",
+        "bEffectEnabled": true,
+        "FloatValue": [
+          0.95,
+          0.85,
+          0.6,
+          0.95,
+          0.85,
+          0.65,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKA_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKA_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKA_02_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKA_02_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKB_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKB_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKC_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKC_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          15.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKD_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKD_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          30.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKE_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKE_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKE_02_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKE_02_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          70.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ICE_FORMATION_ATTACKF_01_01": {
+        "ID": "DEBUFF_ICE_FORMATION_ATTACKF_01_01",
+        "BuffDebuff": "EGameBuffDebuff::IceFormation_Damage",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ADAPT_CURSEDENERGYATTACK_1": {
+        "ID": "DEBUFF_ADAPT_CURSEDENERGYATTACK_1",
+        "BuffDebuff": "EGameBuffDebuff::Adapt_CursedEnergyAttack_1",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ADAPT_CURSEDENERGYATTACK_2": {
+        "ID": "DEBUFF_ADAPT_CURSEDENERGYATTACK_2",
+        "BuffDebuff": "EGameBuffDebuff::Adapt_CursedEnergyAttack_2",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ADAPT_EXTRAATTACK": {
+        "ID": "DEBUFF_ADAPT_EXTRAATTACK",
+        "BuffDebuff": "EGameBuffDebuff::Adapt_ExtraAttack",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DEBUFF_ADAPT_TAGCOMBO": {
+        "ID": "DEBUFF_ADAPT_TAGCOMBO",
+        "BuffDebuff": "EGameBuffDebuff::Adapt_TagCombo",
+        "bEffectEnabled": false,
+        "FloatValue": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,323 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RankingRecordDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_RankingRecord'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "RANKING_RECORD_01": {
+        "ID": "RANKING_RECORD_01",
+        "RankingRecord": "EGameRankingRecord::SendDamage",
+        "PrizeThreshold": 1000,
+        "Priority": 24
+      },
+      "RANKING_RECORD_02": {
+        "ID": "RANKING_RECORD_02",
+        "RankingRecord": "EGameRankingRecord::ReceiveDamage",
+        "PrizeThreshold": 1000,
+        "Priority": 23
+      },
+      "RANKING_RECORD_03": {
+        "ID": "RANKING_RECORD_03",
+        "RankingRecord": "EGameRankingRecord::AceAttacker",
+        "PrizeThreshold": 3,
+        "Priority": 21
+      },
+      "RANKING_RECORD_04": {
+        "ID": "RANKING_RECORD_04",
+        "RankingRecord": "EGameRankingRecord::FirstDown",
+        "PrizeThreshold": 1,
+        "Priority": 20
+      },
+      "RANKING_RECORD_05": {
+        "ID": "RANKING_RECORD_05",
+        "RankingRecord": "EGameRankingRecord::CursedEnergyCharge",
+        "PrizeThreshold": 900,
+        "Priority": 19
+      },
+      "RANKING_RECORD_06": {
+        "ID": "RANKING_RECORD_06",
+        "RankingRecord": "EGameRankingRecord::CursedEnergySense",
+        "PrizeThreshold": 20,
+        "Priority": 18
+      },
+      "RANKING_RECORD_07": {
+        "ID": "RANKING_RECORD_07",
+        "RankingRecord": "EGameRankingRecord::Jammer",
+        "PrizeThreshold": 3,
+        "Priority": 17
+      },
+      "RANKING_RECORD_08": {
+        "ID": "RANKING_RECORD_08",
+        "RankingRecord": "EGameRankingRecord::TurboDash",
+        "PrizeThreshold": 9000,
+        "Priority": 16
+      },
+      "RANKING_RECORD_09": {
+        "ID": "RANKING_RECORD_09",
+        "RankingRecord": "EGameRankingRecord::JustGuard",
+        "PrizeThreshold": 3,
+        "Priority": 15
+      },
+      "RANKING_RECORD_10": {
+        "ID": "RANKING_RECORD_10",
+        "RankingRecord": "EGameRankingRecord::DomainExpansionMania",
+        "PrizeThreshold": 3,
+        "Priority": 0
+      },
+      "RANKING_RECORD_11": {
+        "ID": "RANKING_RECORD_11",
+        "RankingRecord": "EGameRankingRecord::GuardBreak",
+        "PrizeThreshold": 1,
+        "Priority": 14
+      },
+      "RANKING_RECORD_12": {
+        "ID": "RANKING_RECORD_12",
+        "RankingRecord": "EGameRankingRecord::OverwhelmingBattle",
+        "PrizeThreshold": 1,
+        "Priority": 13
+      },
+      "RANKING_RECORD_13": {
+        "ID": "RANKING_RECORD_13",
+        "RankingRecord": "EGameRankingRecord::Finisher",
+        "PrizeThreshold": 1,
+        "Priority": 12
+      },
+      "RANKING_RECORD_14": {
+        "ID": "RANKING_RECORD_14",
+        "RankingRecord": "EGameRankingRecord::Runner",
+        "PrizeThreshold": 1,
+        "Priority": 11
+      },
+      "RANKING_RECORD_15": {
+        "ID": "RANKING_RECORD_15",
+        "RankingRecord": "EGameRankingRecord::SpecialTagCombo",
+        "PrizeThreshold": 2,
+        "Priority": 10
+      },
+      "RANKING_RECORD_16": {
+        "ID": "RANKING_RECORD_16",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack",
+        "PrizeThreshold": 1,
+        "Priority": 9
+      },
+      "RANKING_RECORD_17": {
+        "ID": "RANKING_RECORD_17",
+        "RankingRecord": "EGameRankingRecord::LongShooter",
+        "PrizeThreshold": 25,
+        "Priority": 8
+      },
+      "RANKING_RECORD_18": {
+        "ID": "RANKING_RECORD_18",
+        "RankingRecord": "EGameRankingRecord::ShortHitter",
+        "PrizeThreshold": 25,
+        "Priority": 7
+      },
+      "RANKING_RECORD_19": {
+        "ID": "RANKING_RECORD_19",
+        "RankingRecord": "EGameRankingRecord::Scorer",
+        "PrizeThreshold": 4,
+        "Priority": 22
+      },
+      "RANKING_RECORD_20": {
+        "ID": "RANKING_RECORD_20",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_01",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_21": {
+        "ID": "RANKING_RECORD_21",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_02",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_22": {
+        "ID": "RANKING_RECORD_22",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_03",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_23": {
+        "ID": "RANKING_RECORD_23",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_04",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_24": {
+        "ID": "RANKING_RECORD_24",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_05",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_25": {
+        "ID": "RANKING_RECORD_25",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_06",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_26": {
+        "ID": "RANKING_RECORD_26",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_07",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_27": {
+        "ID": "RANKING_RECORD_27",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_08",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_28": {
+        "ID": "RANKING_RECORD_28",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_09",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_29": {
+        "ID": "RANKING_RECORD_29",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_10",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_30": {
+        "ID": "RANKING_RECORD_30",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_11",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_31": {
+        "ID": "RANKING_RECORD_31",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_12",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_32": {
+        "ID": "RANKING_RECORD_32",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_13",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_33": {
+        "ID": "RANKING_RECORD_33",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_14",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_34": {
+        "ID": "RANKING_RECORD_34",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_15",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_35": {
+        "ID": "RANKING_RECORD_35",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_16",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_36": {
+        "ID": "RANKING_RECORD_36",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_17",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_37": {
+        "ID": "RANKING_RECORD_37",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_18",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_38": {
+        "ID": "RANKING_RECORD_38",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_19",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_39": {
+        "ID": "RANKING_RECORD_39",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_20",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_40": {
+        "ID": "RANKING_RECORD_40",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_21",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_41": {
+        "ID": "RANKING_RECORD_41",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_22",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_42": {
+        "ID": "RANKING_RECORD_42",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_23",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_43": {
+        "ID": "RANKING_RECORD_43",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_24",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_44": {
+        "ID": "RANKING_RECORD_44",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_25",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_45": {
+        "ID": "RANKING_RECORD_45",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_26",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_46": {
+        "ID": "RANKING_RECORD_46",
+        "RankingRecord": "EGameRankingRecord::SuperCursedEnergyAttack_27",
+        "PrizeThreshold": 1,
+        "Priority": 30
+      },
+      "RANKING_RECORD_47": {
+        "ID": "RANKING_RECORD_47",
+        "RankingRecord": "EGameRankingRecord::NoRecovery",
+        "PrizeThreshold": 2,
+        "Priority": 29
+      },
+      "RANKING_RECORD_48": {
+        "ID": "RANKING_RECORD_48",
+        "RankingRecord": "EGameRankingRecord::BindingVowsWelcome",
+        "PrizeThreshold": 6,
+        "Priority": 28
+      },
+      "RANKING_RECORD_49": {
+        "ID": "RANKING_RECORD_49",
+        "RankingRecord": "EGameRankingRecord::CursedSpiritsHunter",
+        "PrizeThreshold": 1,
+        "Priority": 27
+      },
+      "RANKING_RECORD_50": {
+        "ID": "RANKING_RECORD_50",
+        "RankingRecord": "EGameRankingRecord::BossKiller",
+        "PrizeThreshold": 1,
+        "Priority": 26
+      },
+      "RANKING_RECORD_51": {
+        "ID": "RANKING_RECORD_51",
+        "RankingRecord": "EGameRankingRecord::AnnihilationKing",
+        "PrizeThreshold": 3,
+        "Priority": 25
+      }
+    }
+  }
+]

@@ -1,0 +1,2764 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StoryRoomPlacementDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_StoryRoomPlacement'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "ROOM_0000": {
+        "ID": "ROOM_0000",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0001": {
+        "ID": "ROOM_0001",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0002": {
+        "ID": "ROOM_0002",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0003": {
+        "ID": "ROOM_0003",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0004": {
+        "ID": "ROOM_0004",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0005": {
+        "ID": "ROOM_0005",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "CHR_05",
+          "None"
+        ]
+      },
+      "ROOM_0006": {
+        "ID": "ROOM_0006",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "CHR_03",
+          "None"
+        ]
+      },
+      "ROOM_0007": {
+        "ID": "ROOM_0007",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0008": {
+        "ID": "ROOM_0008",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0009": {
+        "ID": "ROOM_0009",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0010": {
+        "ID": "ROOM_0010",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0011": {
+        "ID": "ROOM_0011",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0012": {
+        "ID": "ROOM_0012",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0013": {
+        "ID": "ROOM_0013",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0014": {
+        "ID": "ROOM_0014",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0015": {
+        "ID": "ROOM_0015",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0016": {
+        "ID": "ROOM_0016",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          5,
+          5,
+          5,
+          5,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0017": {
+        "ID": "ROOM_0017",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          5,
+          5,
+          5,
+          5,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "CHR_04",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0021": {
+        "ID": "ROOM_0021",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0022": {
+        "ID": "ROOM_0022",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0023": {
+        "ID": "ROOM_0023",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "AM_CP_140_00_StoryMode_Idle_02",
+          "AM_CP_150_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0024": {
+        "ID": "ROOM_0024",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "AM_CP_140_00_StoryMode_Idle_01",
+          "AM_CP_150_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0025": {
+        "ID": "ROOM_0025",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_03",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_080"
+        ],
+        "VariationIndex": [
+          5,
+          5,
+          5,
+          5,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "CHR_05"
+        ]
+      },
+      "ROOM_0026": {
+        "ID": "ROOM_0026",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_100",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_100_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0028": {
+        "ID": "ROOM_0028",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0029": {
+        "ID": "ROOM_0029",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0030": {
+        "ID": "ROOM_0030",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "CP_090",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_090_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0031": {
+        "ID": "ROOM_0031",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "CP_090",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "AM_CP_090_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0032": {
+        "ID": "ROOM_0032",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_090",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_090_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0033": {
+        "ID": "ROOM_0033",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0034": {
+        "ID": "ROOM_0034",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_090_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0035": {
+        "ID": "ROOM_0035",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0036": {
+        "ID": "ROOM_0036",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0037": {
+        "ID": "ROOM_0037",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0038": {
+        "ID": "ROOM_0038",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_090_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0039": {
+        "ID": "ROOM_0039",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_05",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_01",
+          "AM_CP_140_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_05",
+          "CHR_06",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0044": {
+        "ID": "ROOM_0044",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0045": {
+        "ID": "ROOM_0045",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0046": {
+        "ID": "ROOM_0046",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "CHR_05",
+          "None"
+        ]
+      },
+      "ROOM_0047": {
+        "ID": "ROOM_0047",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_010",
+          "CP_100",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_100_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0048": {
+        "ID": "ROOM_0048",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_010",
+          "CP_100",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_100_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0049": {
+        "ID": "ROOM_0049",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_06",
+        "Id_Character": [
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_150_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0050": {
+        "ID": "ROOM_0050",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_07",
+        "Id_Character": [
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_150_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0051": {
+        "ID": "ROOM_0051",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_06",
+        "Id_Character": [
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_150_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0052": {
+        "ID": "ROOM_0052",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_02",
+          "AM_CP_140_00_StoryMode_Idle_02",
+          "AM_CP_150_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0053": {
+        "ID": "ROOM_0053",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_01",
+          "AM_CP_140_00_StoryMode_Idle_02",
+          "AM_CP_150_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_05",
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0054": {
+        "ID": "ROOM_0054",
+        "Id_Map": "SRM_20",
+        "LevelDesignName": "SRM_20_LevelDesign_01",
+        "CameraName": "CAM_08",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_130_00_StoryMode_Idle_01",
+          "AM_CP_140_00_StoryMode_Idle_01",
+          "AM_CP_150_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_05",
+          "CHR_06",
+          "CHR_03",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0055": {
+        "ID": "ROOM_0055",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_010",
+          "CP_100",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_100_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_03",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0059": {
+        "ID": "ROOM_0059",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_02",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0060": {
+        "ID": "ROOM_0060",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0061": {
+        "ID": "ROOM_0061",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0062": {
+        "ID": "ROOM_0062",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_030",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_030_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0063": {
+        "ID": "ROOM_0063",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_02",
+          "CHR_04",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0064": {
+        "ID": "ROOM_0064",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_040",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0066": {
+        "ID": "ROOM_0066",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_010_00_StoryMode_Idle_01",
+          "AM_CP_030_00_StoryMode_Idle_01",
+          "AM_CP_040_00_StoryMode_Idle_01",
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "CHR_04",
+          "CHR_02",
+          "CHR_03",
+          "None"
+        ]
+      },
+      "ROOM_0071": {
+        "ID": "ROOM_0071",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_02",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_110",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_110_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0072": {
+        "ID": "ROOM_0072",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_05",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_110",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          10,
+          10,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_01",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_110_00_StoryMode_Idle_01",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "CHR_04",
+          "CHR_01",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0074": {
+        "ID": "ROOM_0074",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_04",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_050",
+          "CP_110",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_110_00_StoryMode_Idle_01",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "CHR_01",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0075": {
+        "ID": "ROOM_0075",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_06",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_050",
+          "CP_080",
+          "CP_110",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_080_00_StoryMode_Idle_01",
+          "AM_CP_110_00_StoryMode_Idle_02",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "CHR_05",
+          "CHR_01",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0077": {
+        "ID": "ROOM_0077",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_06",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_110"
+        ],
+        "VariationIndex": [
+          10,
+          10,
+          10,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01",
+          "AM_CP_110_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_07",
+          "CHR_06",
+          "CHR_04",
+          "CHR_05",
+          "CHR_01"
+        ]
+      },
+      "ROOM_0078": {
+        "ID": "ROOM_0078",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_06",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_110"
+        ],
+        "VariationIndex": [
+          10,
+          10,
+          10,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01",
+          "AM_CP_110_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_07",
+          "CHR_06",
+          "CHR_04",
+          "CHR_05",
+          "CHR_01"
+        ]
+      },
+      "ROOM_0080": {
+        "ID": "ROOM_0080",
+        "Id_Map": "SRM_30",
+        "LevelDesignName": "SRM_30_LevelDesign_01",
+        "CameraName": "CAM_01",
+        "Id_Character": [
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_120_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0081": {
+        "ID": "ROOM_0081",
+        "Id_Map": "SRM_30",
+        "LevelDesignName": "SRM_30_LevelDesign_01",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_120_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_03",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0082": {
+        "ID": "ROOM_0082",
+        "Id_Map": "SRM_30",
+        "LevelDesignName": "SRM_30_LevelDesign_01",
+        "CameraName": "CAM_03",
+        "Id_Character": [
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_120_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0083": {
+        "ID": "ROOM_0083",
+        "Id_Map": "SRM_30",
+        "LevelDesignName": "SRM_30_LevelDesign_01",
+        "CameraName": "CAM_04",
+        "Id_Character": [
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_120_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0084": {
+        "ID": "ROOM_0084",
+        "Id_Map": "SRM_30",
+        "LevelDesignName": "SRM_30_LevelDesign_01",
+        "CameraName": "CAM_05",
+        "Id_Character": [
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "VariationIndex": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_120_00_StoryMode_Idle_02",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "PlacementName": [
+          "CHR_01",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "ROOM_0086": {
+        "ID": "ROOM_0086",
+        "Id_Map": "SRM_10",
+        "LevelDesignName": "SRM_10_LevelDesign_07",
+        "CameraName": "CAM_02",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_110"
+        ],
+        "VariationIndex": [
+          10,
+          10,
+          10,
+          0,
+          0
+        ],
+        "MaterialPattern": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "CharacterAnimation": [
+          "AM_CP_050_00_StoryMode_Idle_02",
+          "AM_CP_060_00_StoryMode_Idle_01",
+          "AM_CP_070_00_StoryMode_Idle_01",
+          "AM_CP_080_00_StoryMode_Idle_01",
+          "AM_CP_110_00_StoryMode_Idle_01"
+        ],
+        "PlacementName": [
+          "CHR_04",
+          "CHR_02",
+          "CHR_01",
+          "CHR_05",
+          "CHR_03"
+        ]
+      }
+    }
+  }
+]

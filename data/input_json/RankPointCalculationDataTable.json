@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RankPointCalculationDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_RankPointCalculation'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "DEFAULT": {
+        "ID": "DEFAULT",
+        "Result_Win": 23,
+        "Result_Lose": -43,
+        "Result_Draw": -10,
+        "Evaluation_S": 10,
+        "Evaluation_A": 5,
+        "Evaluation_B": 0,
+        "Evaluation_C": -5,
+        "ForceGaugeRate": 2,
+        "RankGapThreshold": 3000,
+        "RankGapRate": 0.2
+      }
+    }
+  }
+]

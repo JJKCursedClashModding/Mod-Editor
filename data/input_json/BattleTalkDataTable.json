@@ -1,0 +1,2609 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BattleTalkDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_BattleTalk'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "STMSN_01000M_01_01": {
+        "ID": "STMSN_01000M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Id_Voice": "VoOut_CP_050_Story_07_011010"
+      },
+      "STMSN_01000M_01_02": {
+        "ID": "STMSN_01000M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Id_Voice": "VoOut_CP_010_Story_07_021010"
+      },
+      "STMSN_01000M_01_03": {
+        "ID": "STMSN_01000M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Id_Voice": "VoOut_CP_050_Story_07_031010"
+      },
+      "STMSN_01000M_02_01": {
+        "ID": "STMSN_01000M_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Id_Voice": "VoOut_CP_050_Story_07_041010"
+      },
+      "STMSN_01000M_02_02": {
+        "ID": "STMSN_01000M_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Id_Voice": "VoOut_CP_050_Story_07_051010"
+      },
+      "STMSN_01000M_02_03": {
+        "ID": "STMSN_01000M_02_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Id_Voice": "VoOut_CP_010_Story_07_061010"
+      },
+      "STMSN_01000M_03_01": {
+        "ID": "STMSN_01000M_03_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Id_Voice": "VoOut_CP_050_Story_07_071010"
+      },
+      "STMSN_01000M_03_02": {
+        "ID": "STMSN_01000M_03_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Id_Voice": "VoOut_CP_050_Story_07_111010"
+      },
+      "STMSN_01000M_03_03": {
+        "ID": "STMSN_01000M_03_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Id_Voice": "VoOut_CP_010_Story_07_131010"
+      },
+      "STMSN_01000M_03_04": {
+        "ID": "STMSN_01000M_03_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Id_Voice": "VoOut_CP_050_Story_07_141010"
+      },
+      "STMSN_01000M_04_01": {
+        "ID": "STMSN_01000M_04_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Id_Voice": "VoOut_CP_050_Story_07_151010"
+      },
+      "STMSN_01000M_04_02": {
+        "ID": "STMSN_01000M_04_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Id_Voice": "VoOut_CP_050_Story_07_101010"
+      },
+      "STMSN_01000M_05_01": {
+        "ID": "STMSN_01000M_05_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Id_Voice": "VoOut_CP_050_Story_07_081010"
+      },
+      "STMSN_01000M_06_01": {
+        "ID": "STMSN_01000M_06_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Id_Voice": "VoOut_CP_050_Story_07_091010"
+      },
+      "STMSN_01000M_06_02": {
+        "ID": "STMSN_01000M_06_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Id_Voice": "VoOut_CP_050_Story_07_161010"
+      },
+      "STMSN_01000M_06_03": {
+        "ID": "STMSN_01000M_06_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Id_Voice": "VoOut_CP_050_Story_07_171010"
+      },
+      "STMSN_01001M_01_01": {
+        "ID": "STMSN_01001M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100102_0100",
+        "Id_Voice": "VoSTDM_0100102_0100"
+      },
+      "STMSN_01001M_01_02": {
+        "ID": "STMSN_01001M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100102_0110",
+        "Id_Voice": "VoSTDM_0100102_0110"
+      },
+      "STMSN_01001M_01_03": {
+        "ID": "STMSN_01001M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100102_0120",
+        "Id_Voice": "VoSTDM_0100102_0120"
+      },
+      "STMSN_01001M_01_04": {
+        "ID": "STMSN_01001M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100102_0130",
+        "Id_Voice": "VoSTDM_0100102_0130"
+      },
+      "STMSN_01001M_01_05": {
+        "ID": "STMSN_01001M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100102_0140",
+        "Id_Voice": "VoSTDM_0100102_0140"
+      },
+      "STMSN_01002M_01_01": {
+        "ID": "STMSN_01002M_01_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100202_0100",
+        "Id_Voice": "VoSTDM_0100202_0100"
+      },
+      "STMSN_01002M_01_02": {
+        "ID": "STMSN_01002M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0100202_0110",
+        "Id_Voice": "VoSTDM_0100202_0110"
+      },
+      "STMSN_01010M_01_01": {
+        "ID": "STMSN_01010M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0120",
+        "Id_Voice": "VoSTDM_0101002_0120"
+      },
+      "STMSN_01010M_01_02": {
+        "ID": "STMSN_01010M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0130",
+        "Id_Voice": "VoSTDM_0101002_0130"
+      },
+      "STMSN_01010M_01_03": {
+        "ID": "STMSN_01010M_01_03",
+        "WaitTime": 0.5,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0140",
+        "Id_Voice": "VoSTDM_0101002_0140"
+      },
+      "STMSN_01010M_01_04": {
+        "ID": "STMSN_01010M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0150",
+        "Id_Voice": "VoSTDM_0101002_0150"
+      },
+      "STMSN_01010M_01_05": {
+        "ID": "STMSN_01010M_01_05",
+        "WaitTime": 0.5,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0160",
+        "Id_Voice": "VoSTDM_0101002_0160"
+      },
+      "STMSN_01010M_01_06": {
+        "ID": "STMSN_01010M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0170",
+        "Id_Voice": "VoSTDM_0101002_0170"
+      },
+      "STMSN_01010M_01_07": {
+        "ID": "STMSN_01010M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0180",
+        "Id_Voice": "VoSTDM_0101002_0180"
+      },
+      "STMSN_01010M_01_08": {
+        "ID": "STMSN_01010M_01_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0190",
+        "Id_Voice": "VoSTDM_0101002_0190"
+      },
+      "STMSN_01010M_01_09": {
+        "ID": "STMSN_01010M_01_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0200",
+        "Id_Voice": "VoSTDM_0101002_0200"
+      },
+      "STMSN_01010M_01_10": {
+        "ID": "STMSN_01010M_01_10",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0210",
+        "Id_Voice": "VoSTDM_0101002_0210"
+      },
+      "STMSN_01010M_01_11": {
+        "ID": "STMSN_01010M_01_11",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0220",
+        "Id_Voice": "VoSTDM_0101002_0220"
+      },
+      "STMSN_01010M_01_12": {
+        "ID": "STMSN_01010M_01_12",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0230",
+        "Id_Voice": "VoSTDM_0101002_0230"
+      },
+      "STMSN_01010M_01_13": {
+        "ID": "STMSN_01010M_01_13",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0101002_0240",
+        "Id_Voice": "VoSTDM_0101002_0240"
+      },
+      "STMSN_02013M_01_01": {
+        "ID": "STMSN_02013M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0201302_0070",
+        "Id_Voice": "VoSTDM_0201302_0070"
+      },
+      "STMSN_02013M_01_02": {
+        "ID": "STMSN_02013M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0201302_0080",
+        "Id_Voice": "VoSTDM_0201302_0080"
+      },
+      "STMSN_02021M_01_01": {
+        "ID": "STMSN_02021M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0120",
+        "Id_Voice": "VoSTDM_0202102_0120"
+      },
+      "STMSN_02021M_01_02": {
+        "ID": "STMSN_02021M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0130",
+        "Id_Voice": "VoSTDM_0202102_0130"
+      },
+      "STMSN_02021M_01_03": {
+        "ID": "STMSN_02021M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_140",
+        "Id_CharacterVariation": "CP_140_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0140",
+        "Id_Voice": "VoSTDM_0202102_0140"
+      },
+      "STMSN_02021M_01_04": {
+        "ID": "STMSN_02021M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0150",
+        "Id_Voice": "VoSTDM_0202102_0150"
+      },
+      "STMSN_02021M_02_01": {
+        "ID": "STMSN_02021M_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_140",
+        "Id_CharacterVariation": "CP_140_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0160",
+        "Id_Voice": "VoSTDM_0202102_0160"
+      },
+      "STMSN_02021M_02_02": {
+        "ID": "STMSN_02021M_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202102_0170",
+        "Id_Voice": "VoSTDM_0202102_0170"
+      },
+      "STMSN_02022M_01_01": {
+        "ID": "STMSN_02022M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_140",
+        "Id_CharacterVariation": "CP_140_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0100",
+        "Id_Voice": "VoSTDM_0202202_0100"
+      },
+      "STMSN_02022M_01_02": {
+        "ID": "STMSN_02022M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0110",
+        "Id_Voice": "VoSTDM_0202202_0110"
+      },
+      "STMSN_02022M_01_03": {
+        "ID": "STMSN_02022M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0120",
+        "Id_Voice": "VoSTDM_0202202_0120"
+      },
+      "STMSN_02022M_01_04": {
+        "ID": "STMSN_02022M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0130",
+        "Id_Voice": "VoSTDM_0202202_0130"
+      },
+      "STMSN_02022M_01_05": {
+        "ID": "STMSN_02022M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0140",
+        "Id_Voice": "VoSTDM_0202202_0140"
+      },
+      "STMSN_02022M_01_06": {
+        "ID": "STMSN_02022M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0150",
+        "Id_Voice": "VoSTDM_0202202_0150"
+      },
+      "STMSN_02022M_01_07": {
+        "ID": "STMSN_02022M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0160",
+        "Id_Voice": "VoSTDM_0202202_0160"
+      },
+      "STMSN_02022M_01_08": {
+        "ID": "STMSN_02022M_01_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0170",
+        "Id_Voice": "VoSTDM_0202202_0170"
+      },
+      "STMSN_02022M_01_09": {
+        "ID": "STMSN_02022M_01_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0180",
+        "Id_Voice": "VoSTDM_0202202_0180"
+      },
+      "STMSN_02022M_01_10": {
+        "ID": "STMSN_02022M_01_10",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0190",
+        "Id_Voice": "VoSTDM_0202202_0190"
+      },
+      "STMSN_02022M_01_11": {
+        "ID": "STMSN_02022M_01_11",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0200",
+        "Id_Voice": "VoSTDM_0202202_0200"
+      },
+      "STMSN_02022M_01_12": {
+        "ID": "STMSN_02022M_01_12",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0210",
+        "Id_Voice": "VoSTDM_0202202_0210"
+      },
+      "STMSN_02022M_01_13": {
+        "ID": "STMSN_02022M_01_13",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202202_0220",
+        "Id_Voice": "VoSTDM_0202202_0220"
+      },
+      "STMSN_02026M_01_01": {
+        "ID": "STMSN_02026M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202602_0220",
+        "Id_Voice": "VoSTDM_0202602_0220"
+      },
+      "STMSN_02026M_01_02": {
+        "ID": "STMSN_02026M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202602_0230",
+        "Id_Voice": "VoSTDM_0202602_0230"
+      },
+      "STMSN_02026M_01_03": {
+        "ID": "STMSN_02026M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0202602_0240",
+        "Id_Voice": "VoSTDM_0202602_0240"
+      },
+      "STMSN_03030M_01_01": {
+        "ID": "STMSN_03030M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303002_0200",
+        "Id_Voice": "VoSTDM_0303002_0200"
+      },
+      "STMSN_03030M_01_02": {
+        "ID": "STMSN_03030M_01_02",
+        "WaitTime": 0.5,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303002_0210",
+        "Id_Voice": "VoSTDM_0303002_0210"
+      },
+      "STMSN_03030M_01_03": {
+        "ID": "STMSN_03030M_01_03",
+        "WaitTime": 0.5,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303002_0220",
+        "Id_Voice": "VoSTDM_0303002_0220"
+      },
+      "STMSN_03030M_01_04": {
+        "ID": "STMSN_03030M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303002_0230",
+        "Id_Voice": "VoSTDM_0303002_0230"
+      },
+      "STMSN_03030M_01_05": {
+        "ID": "STMSN_03030M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303002_0240",
+        "Id_Voice": "VoSTDM_0303002_0240"
+      },
+      "STMSN_03031M_01_01": {
+        "ID": "STMSN_03031M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303102_0060",
+        "Id_Voice": "VoSTDM_0303102_0060"
+      },
+      "STMSN_03031M_01_02": {
+        "ID": "STMSN_03031M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303102_0070",
+        "Id_Voice": "VoSTDM_0303102_0070"
+      },
+      "STMSN_03031M_01_03": {
+        "ID": "STMSN_03031M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303102_0080",
+        "Id_Voice": "VoSTDM_0303102_0080"
+      },
+      "STMSN_03031M_01_04": {
+        "ID": "STMSN_03031M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303102_0090",
+        "Id_Voice": "VoSTDM_0303102_0090"
+      },
+      "STMSN_03031M_01_05": {
+        "ID": "STMSN_03031M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303102_0100",
+        "Id_Voice": "VoSTDM_0303102_0100"
+      },
+      "STMSN_03032M_01_01": {
+        "ID": "STMSN_03032M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303202_0090",
+        "Id_Voice": "VoSTDM_0303202_0090"
+      },
+      "STMSN_03032M_01_02": {
+        "ID": "STMSN_03032M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303202_0100",
+        "Id_Voice": "VoSTDM_0303202_0100"
+      },
+      "STMSN_03032M_01_03": {
+        "ID": "STMSN_03032M_01_03",
+        "WaitTime": 0.5,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303202_0110",
+        "Id_Voice": "VoSTDM_0303202_0110"
+      },
+      "STMSN_03032M_01_04": {
+        "ID": "STMSN_03032M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303202_0120",
+        "Id_Voice": "VoSTDM_0303202_0120"
+      },
+      "STMSN_03032M_01_05": {
+        "ID": "STMSN_03032M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303202_0130",
+        "Id_Voice": "VoSTDM_0303202_0130"
+      },
+      "STMSN_03034M_01_01": {
+        "ID": "STMSN_03034M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303402_0100",
+        "Id_Voice": "VoSTDM_0303402_0100"
+      },
+      "STMSN_03034M_01_02": {
+        "ID": "STMSN_03034M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303402_0110",
+        "Id_Voice": "VoSTDM_0303402_0110"
+      },
+      "STMSN_03034M_01_03": {
+        "ID": "STMSN_03034M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303402_0120",
+        "Id_Voice": "VoSTDM_0303402_0120"
+      },
+      "STMSN_03034M_01_04": {
+        "ID": "STMSN_03034M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303402_0130",
+        "Id_Voice": "VoSTDM_0303402_0130"
+      },
+      "STMSN_03034M_01_05": {
+        "ID": "STMSN_03034M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303402_0140",
+        "Id_Voice": "VoSTDM_0303402_0140"
+      },
+      "STMSN_03035M_01_01": {
+        "ID": "STMSN_03035M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303502_0210",
+        "Id_Voice": "VoSTDM_0303502_0210"
+      },
+      "STMSN_03036M_01_01": {
+        "ID": "STMSN_03036M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303602_0093",
+        "Id_Voice": "VoSTDM_0303601_0093"
+      },
+      "STMSN_03036M_01_02": {
+        "ID": "STMSN_03036M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303602_0095",
+        "Id_Voice": "VoSTDM_0303601_0095"
+      },
+      "STMSN_03036M_01_03": {
+        "ID": "STMSN_03036M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303802_0100",
+        "Id_Voice": "VoSTDM_0303802_0100"
+      },
+      "STMSN_03036M_01_04": {
+        "ID": "STMSN_03036M_01_04",
+        "WaitTime": 1.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303602_0110",
+        "Id_Voice": "VoSTDM_0303602_0110"
+      },
+      "STMSN_03036M_01_05": {
+        "ID": "STMSN_03036M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303602_0120",
+        "Id_Voice": "VoSTDM_0303602_0120"
+      },
+      "STMSN_03036M_01_06": {
+        "ID": "STMSN_03036M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303602_0130",
+        "Id_Voice": "VoSTDM_0303602_0130"
+      },
+      "STMSN_03037M_01_01": {
+        "ID": "STMSN_03037M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CN_111",
+        "Id_CharacterVariation": "CN_111_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303702_0010",
+        "Id_Voice": "VoSTDM_0303702_0010"
+      },
+      "STMSN_03037M_01_02": {
+        "ID": "STMSN_03037M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_111",
+        "Id_CharacterVariation": "CN_111_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303702_0020",
+        "Id_Voice": "VoSTDM_0303702_0020"
+      },
+      "STMSN_03037M_01_03": {
+        "ID": "STMSN_03037M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303702_0030",
+        "Id_Voice": "VoSTDM_0303702_0030"
+      },
+      "STMSN_03038M_01_01": {
+        "ID": "STMSN_03038M_01_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303802_0060",
+        "Id_Voice": "VoSTDM_0303802_0060"
+      },
+      "STMSN_03038M_01_02": {
+        "ID": "STMSN_03038M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0303802_0070",
+        "Id_Voice": "VoSTDM_0303802_0070"
+      },
+      "STMSN_03041S_01_01": {
+        "ID": "STMSN_03041S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304102_0170",
+        "Id_Voice": "VoSTDM_0304102_0170"
+      },
+      "STMSN_03041S_01_02": {
+        "ID": "STMSN_03041S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304102_0180",
+        "Id_Voice": "VoSTDM_0304102_0180"
+      },
+      "STMSN_03041S_01_03": {
+        "ID": "STMSN_03041S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304102_0190",
+        "Id_Voice": "VoSTDM_0304102_0190"
+      },
+      "STMSN_03041S_01_04": {
+        "ID": "STMSN_03041S_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304102_0200",
+        "Id_Voice": "VoSTDM_0304102_0200"
+      },
+      "STMSN_03042S_01_01": {
+        "ID": "STMSN_03042S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304202_0170",
+        "Id_Voice": "VoSTDM_0304202_0170"
+      },
+      "STMSN_03042S_01_02": {
+        "ID": "STMSN_03042S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_080",
+        "Id_CharacterVariation": "CP_080_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304202_0180",
+        "Id_Voice": "VoSTDM_0304202_0180"
+      },
+      "STMSN_03042S_01_03": {
+        "ID": "STMSN_03042S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_070",
+        "Id_CharacterVariation": "CP_070_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304202_0190",
+        "Id_Voice": "VoSTDM_0304202_0190"
+      },
+      "STMSN_03043S_01_01": {
+        "ID": "STMSN_03043S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304302_0090",
+        "Id_Voice": "VoSTDM_0304302_0090"
+      },
+      "STMSN_03043S_01_02": {
+        "ID": "STMSN_03043S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304302_0100",
+        "Id_Voice": "VoSTDM_0304302_0100"
+      },
+      "STMSN_03043S_01_03": {
+        "ID": "STMSN_03043S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0304302_0110",
+        "Id_Voice": "VoSTDM_0304302_0110"
+      },
+      "STMSN_04045M_01_01": {
+        "ID": "STMSN_04045M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0330",
+        "Id_Voice": "VoSTDM_0404502_0330"
+      },
+      "STMSN_04045M_01_02": {
+        "ID": "STMSN_04045M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0340",
+        "Id_Voice": "VoSTDM_0404502_0340"
+      },
+      "STMSN_04045M_01_03": {
+        "ID": "STMSN_04045M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0350",
+        "Id_Voice": "VoSTDM_0404502_0350"
+      },
+      "STMSN_04045M_01_04": {
+        "ID": "STMSN_04045M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0360",
+        "Id_Voice": "VoSTDM_0404502_0360"
+      },
+      "STMSN_04045M_01_05": {
+        "ID": "STMSN_04045M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_080",
+        "Id_CharacterVariation": "CP_080_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0370",
+        "Id_Voice": "VoSTDM_0404502_0370"
+      },
+      "STMSN_04045M_01_06": {
+        "ID": "STMSN_04045M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_070",
+        "Id_CharacterVariation": "CP_070_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404502_0380",
+        "Id_Voice": "VoSTDM_0404502_0380"
+      },
+      "STMSN_04047M_01_01": {
+        "ID": "STMSN_04047M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404702_0100",
+        "Id_Voice": "VoSTDM_0404702_0100"
+      },
+      "STMSN_04047M_01_02": {
+        "ID": "STMSN_04047M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0404702_0110",
+        "Id_Voice": "VoSTDM_0404702_0110"
+      },
+      "STMSN_04050M_01_01": {
+        "ID": "STMSN_04050M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405002_0110",
+        "Id_Voice": "VoSTDM_0405002_0110"
+      },
+      "STMSN_04050M_01_02": {
+        "ID": "STMSN_04050M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_070",
+        "Id_CharacterVariation": "CP_070_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405002_0120",
+        "Id_Voice": "VoSTDM_0405002_0120"
+      },
+      "STMSN_04051M_01_01": {
+        "ID": "STMSN_04051M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405102_0080",
+        "Id_Voice": "VoSTDM_0405102_0080"
+      },
+      "STMSN_04051M_01_02": {
+        "ID": "STMSN_04051M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405102_0090",
+        "Id_Voice": "VoSTDM_0405102_0090"
+      },
+      "STMSN_04051M_02_01": {
+        "ID": "STMSN_04051M_02_01",
+        "WaitTime": 1.0,
+        "Id_Character": "CP_150",
+        "Id_CharacterVariation": "CP_150_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405102_0100",
+        "Id_Voice": "VoSTDM_0405102_0100"
+      },
+      "STMSN_04052M_01_01": {
+        "ID": "STMSN_04052M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405202_0250",
+        "Id_Voice": "VoSTDM_0405202_0250"
+      },
+      "STMSN_04052M_01_02": {
+        "ID": "STMSN_04052M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405202_0260",
+        "Id_Voice": "VoSTDM_0405202_0260"
+      },
+      "STMSN_04052M_01_03": {
+        "ID": "STMSN_04052M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405202_0270",
+        "Id_Voice": "VoSTDM_0405202_0270"
+      },
+      "STMSN_04052M_01_04": {
+        "ID": "STMSN_04052M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405202_0280",
+        "Id_Voice": "VoSTDM_0405202_0280"
+      },
+      "STMSN_04054M_01_01": {
+        "ID": "STMSN_04054M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_150",
+        "Id_CharacterVariation": "CP_150_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405402_0100",
+        "Id_Voice": "VoSTDM_0405402_0100"
+      },
+      "STMSN_04054M_01_02": {
+        "ID": "STMSN_04054M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405402_0110",
+        "Id_Voice": "VoSTDM_0405402_0110"
+      },
+      "STMSN_04054M_01_03": {
+        "ID": "STMSN_04054M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405402_0120",
+        "Id_Voice": "VoSTDM_0405402_0120"
+      },
+      "STMSN_04054M_01_04": {
+        "ID": "STMSN_04054M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405402_0130",
+        "Id_Voice": "VoSTDM_0405402_0130"
+      },
+      "STMSN_04056S_01_01": {
+        "ID": "STMSN_04056S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0130",
+        "Id_Voice": "VoSTDM_0405602_0130"
+      },
+      "STMSN_04056S_01_02": {
+        "ID": "STMSN_04056S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0140",
+        "Id_Voice": "VoSTDM_0405602_0140"
+      },
+      "STMSN_04056S_01_03": {
+        "ID": "STMSN_04056S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0150",
+        "Id_Voice": "VoSTDM_0405602_0150"
+      },
+      "STMSN_04056S_01_04": {
+        "ID": "STMSN_04056S_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_080",
+        "Id_CharacterVariation": "CP_080_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0160",
+        "Id_Voice": "VoSTDM_0405602_0160"
+      },
+      "STMSN_04056S_01_05": {
+        "ID": "STMSN_04056S_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0170",
+        "Id_Voice": "VoSTDM_0405602_0170"
+      },
+      "STMSN_04056S_01_06": {
+        "ID": "STMSN_04056S_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0180",
+        "Id_Voice": "VoSTDM_0405602_0180"
+      },
+      "STMSN_04056S_01_07": {
+        "ID": "STMSN_04056S_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0190",
+        "Id_Voice": "VoSTDM_0405602_0190"
+      },
+      "STMSN_04056S_02_01": {
+        "ID": "STMSN_04056S_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0200",
+        "Id_Voice": "VoSTDM_0405602_0200"
+      },
+      "STMSN_04056S_02_02": {
+        "ID": "STMSN_04056S_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0270",
+        "Id_Voice": "VoSTDM_0405602_0270"
+      },
+      "STMSN_04056S_02_03": {
+        "ID": "STMSN_04056S_02_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0250",
+        "Id_Voice": "VoSTDM_0405602_0250"
+      },
+      "STMSN_04056S_02_04": {
+        "ID": "STMSN_04056S_02_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0260",
+        "Id_Voice": "VoSTDM_0405602_0260"
+      },
+      "STMSN_04056S_03_01": {
+        "ID": "STMSN_04056S_03_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0210",
+        "Id_Voice": "VoSTDM_0405602_0210"
+      },
+      "STMSN_04056S_04_01": {
+        "ID": "STMSN_04056S_04_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0220",
+        "Id_Voice": "VoSTDM_0405602_0220"
+      },
+      "STMSN_04056S_05_01": {
+        "ID": "STMSN_04056S_05_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0230",
+        "Id_Voice": "VoSTDM_0405602_0230"
+      },
+      "STMSN_04056S_06_01": {
+        "ID": "STMSN_04056S_06_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0290",
+        "Id_Voice": "VoSTDM_0405602_0290"
+      },
+      "STMSN_04056S_07_01": {
+        "ID": "STMSN_04056S_07_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0300",
+        "Id_Voice": "VoSTDM_0405602_0300"
+      },
+      "STMSN_04056S_08_01": {
+        "ID": "STMSN_04056S_08_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405602_0310",
+        "Id_Voice": "VoSTDM_0405602_0310"
+      },
+      "STMSN_04058S_01_01": {
+        "ID": "STMSN_04058S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0080",
+        "Id_Voice": "VoSTDM_0405802_0080"
+      },
+      "STMSN_04058S_01_02": {
+        "ID": "STMSN_04058S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0090",
+        "Id_Voice": "VoSTDM_0405802_0090"
+      },
+      "STMSN_04058S_01_03": {
+        "ID": "STMSN_04058S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0100",
+        "Id_Voice": "VoSTDM_0405802_0100"
+      },
+      "STMSN_04058S_02_01": {
+        "ID": "STMSN_04058S_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0110",
+        "Id_Voice": "VoSTDM_0405802_0110"
+      },
+      "STMSN_04058S_03_01": {
+        "ID": "STMSN_04058S_03_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0120",
+        "Id_Voice": "VoSTDM_0405802_0120"
+      },
+      "STMSN_04058S_04_01": {
+        "ID": "STMSN_04058S_04_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0405802_0130",
+        "Id_Voice": "VoSTDM_0405802_0130"
+      },
+      "STMSN_05060M_01_01": {
+        "ID": "STMSN_05060M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CN_081",
+        "Id_CharacterVariation": "CN_081_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506002_0130",
+        "Id_Voice": "VoSTDM_0506002_0130"
+      },
+      "STMSN_05060M_01_02": {
+        "ID": "STMSN_05060M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506002_0140",
+        "Id_Voice": "VoSTDM_0506002_0140"
+      },
+      "STMSN_05060M_02_01": {
+        "ID": "STMSN_05060M_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_081",
+        "Id_CharacterVariation": "CN_081_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506002_0150",
+        "Id_Voice": "VoSTDM_0506002_0150"
+      },
+      "STMSN_05061M_01_01": {
+        "ID": "STMSN_05061M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506102_0040",
+        "Id_Voice": "VoSTDM_0506102_0040"
+      },
+      "STMSN_05062M_01_01": {
+        "ID": "STMSN_05062M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0190",
+        "Id_Voice": "VoSTDM_0506202_0190"
+      },
+      "STMSN_05062M_01_02": {
+        "ID": "STMSN_05062M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0200",
+        "Id_Voice": "VoSTDM_0506202_0200"
+      },
+      "STMSN_05062M_01_03": {
+        "ID": "STMSN_05062M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0210",
+        "Id_Voice": "VoSTDM_0506202_0210"
+      },
+      "STMSN_05062M_01_04": {
+        "ID": "STMSN_05062M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0220",
+        "Id_Voice": "VoSTDM_0506202_0220"
+      },
+      "STMSN_05062M_01_05": {
+        "ID": "STMSN_05062M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0230",
+        "Id_Voice": "VoSTDM_0506202_0230"
+      },
+      "STMSN_05062M_01_06": {
+        "ID": "STMSN_05062M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0240",
+        "Id_Voice": "VoSTDM_0506202_0240"
+      },
+      "STMSN_05062M_01_07": {
+        "ID": "STMSN_05062M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0250",
+        "Id_Voice": "VoSTDM_0506202_0250"
+      },
+      "STMSN_05062M_01_08": {
+        "ID": "STMSN_05062M_01_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0260",
+        "Id_Voice": "VoSTDM_0506202_0260"
+      },
+      "STMSN_05062M_01_09": {
+        "ID": "STMSN_05062M_01_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0270",
+        "Id_Voice": "VoSTDM_0506202_0270"
+      },
+      "STMSN_05062M_01_10": {
+        "ID": "STMSN_05062M_01_10",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0280",
+        "Id_Voice": "VoSTDM_0506202_0280"
+      },
+      "STMSN_05062M_01_11": {
+        "ID": "STMSN_05062M_01_11",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0290",
+        "Id_Voice": "VoSTDM_0506202_0290"
+      },
+      "STMSN_05062M_01_12": {
+        "ID": "STMSN_05062M_01_12",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0300",
+        "Id_Voice": "VoSTDM_0506202_0300"
+      },
+      "STMSN_05062M_01_13": {
+        "ID": "STMSN_05062M_01_13",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_030",
+        "Id_CharacterVariation": "CP_030_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0310",
+        "Id_Voice": "VoSTDM_0506202_0310"
+      },
+      "STMSN_05062M_01_14": {
+        "ID": "STMSN_05062M_01_14",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0320",
+        "Id_Voice": "VoSTDM_0506202_0320"
+      },
+      "STMSN_05062M_01_15": {
+        "ID": "STMSN_05062M_01_15",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506202_0330",
+        "Id_Voice": "VoSTDM_0506202_0330"
+      },
+      "STMSN_05068S_01_01": {
+        "ID": "STMSN_05068S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506802_0113",
+        "Id_Voice": "VoSTDM_0506802_0113"
+      },
+      "STMSN_05068S_01_02": {
+        "ID": "STMSN_05068S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_140",
+        "Id_CharacterVariation": "CP_140_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506802_0115",
+        "Id_Voice": "VoSTDM_0506802_0115"
+      },
+      "STMSN_05068S_01_03": {
+        "ID": "STMSN_05068S_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_150",
+        "Id_CharacterVariation": "CP_150_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0506802_0117",
+        "Id_Voice": "VoSTDM_0506802_0117"
+      },
+      "STMSN_05068S_01_04": {
+        "ID": "STMSN_05068S_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "T_UI_Character_BattleTalk_Image_CN_122_00",
+        "TextId": "STDM_0506802_0120",
+        "Id_Voice": "VoSTDM_0506802_0120"
+      },
+      "STMSN_05070S_01_01": {
+        "ID": "STMSN_05070S_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0507002_0220",
+        "Id_Voice": "VoSTDM_0507002_0220"
+      },
+      "STMSN_05070S_01_02": {
+        "ID": "STMSN_05070S_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0507002_0230",
+        "Id_Voice": "VoSTDM_0507002_0230"
+      },
+      "STMSN_05070S_02_01": {
+        "ID": "STMSN_05070S_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0507002_0240",
+        "Id_Voice": "VoSTDM_0507002_0240"
+      },
+      "STMSN_05070S_02_02": {
+        "ID": "STMSN_05070S_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0507002_0250",
+        "Id_Voice": "VoSTDM_0507002_0250"
+      },
+      "STMSN_06071M_01_01": {
+        "ID": "STMSN_06071M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607102_0250",
+        "Id_Voice": "VoSTDM_0607102_0250"
+      },
+      "STMSN_06071M_01_02": {
+        "ID": "STMSN_06071M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607102_0260",
+        "Id_Voice": "VoSTDM_0607102_0260"
+      },
+      "STMSN_06071M_01_03": {
+        "ID": "STMSN_06071M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_050",
+        "Id_CharacterVariation": "CP_050_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607102_0270",
+        "Id_Voice": "VoSTDM_0607102_0270"
+      },
+      "STMSN_06071M_01_04": {
+        "ID": "STMSN_06071M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607102_0280",
+        "Id_Voice": "VoSTDM_0607102_0280"
+      },
+      "STMSN_06072M_01_01": {
+        "ID": "STMSN_06072M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607202_0060",
+        "Id_Voice": "VoSTDM_0607202_0060"
+      },
+      "STMSN_06077M_01_01": {
+        "ID": "STMSN_06077M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607702_0060",
+        "Id_Voice": "VoSTDM_0607702_0060"
+      },
+      "STMSN_06077M_01_02": {
+        "ID": "STMSN_06077M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607702_0070",
+        "Id_Voice": "VoSTDM_0607702_0070"
+      },
+      "STMSN_06078M_01_01": {
+        "ID": "STMSN_06078M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CN_041",
+        "Id_CharacterVariation": "CN_041_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0130",
+        "Id_Voice": "VoSTDM_0607802_0130"
+      },
+      "STMSN_06078M_01_02": {
+        "ID": "STMSN_06078M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_071",
+        "Id_CharacterVariation": "CN_071_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0140",
+        "Id_Voice": "VoSTDM_0607802_0140"
+      },
+      "STMSN_06078M_01_03": {
+        "ID": "STMSN_06078M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0150",
+        "Id_Voice": "VoSTDM_0607802_0150"
+      },
+      "STMSN_06078M_02_01": {
+        "ID": "STMSN_06078M_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0160",
+        "Id_Voice": "VoSTDM_0607802_0160"
+      },
+      "STMSN_06078M_02_02": {
+        "ID": "STMSN_06078M_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0170",
+        "Id_Voice": "VoSTDM_0607802_0170"
+      },
+      "STMSN_06078M_02_03": {
+        "ID": "STMSN_06078M_02_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0180",
+        "Id_Voice": "VoSTDM_0607802_0180"
+      },
+      "STMSN_06078M_02_04": {
+        "ID": "STMSN_06078M_02_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0190",
+        "Id_Voice": "VoSTDM_0607802_0190"
+      },
+      "STMSN_06078M_02_05": {
+        "ID": "STMSN_06078M_02_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0200",
+        "Id_Voice": "VoSTDM_0607802_0200"
+      },
+      "STMSN_06078M_02_06": {
+        "ID": "STMSN_06078M_02_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0210",
+        "Id_Voice": "VoSTDM_0607802_0210"
+      },
+      "STMSN_06078M_02_07": {
+        "ID": "STMSN_06078M_02_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0220",
+        "Id_Voice": "VoSTDM_0607802_0220"
+      },
+      "STMSN_06078M_02_08": {
+        "ID": "STMSN_06078M_02_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0230",
+        "Id_Voice": "VoSTDM_0607802_0230"
+      },
+      "STMSN_06078M_02_09": {
+        "ID": "STMSN_06078M_02_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0607802_0240",
+        "Id_Voice": "VoSTDM_0607802_0240"
+      },
+      "STMSN_06082M_01_01": {
+        "ID": "STMSN_06082M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608202_0320",
+        "Id_Voice": "VoSTDM_0608202_0320"
+      },
+      "STMSN_06082M_01_02": {
+        "ID": "STMSN_06082M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_060",
+        "Id_CharacterVariation": "CP_060_20",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608202_0330",
+        "Id_Voice": "VoSTDM_0608202_0330"
+      },
+      "STMSN_06082M_01_03": {
+        "ID": "STMSN_06082M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608202_0340",
+        "Id_Voice": "VoSTDM_0608202_0340"
+      },
+      "STMSN_06084M_01_01": {
+        "ID": "STMSN_06084M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608402_0110",
+        "Id_Voice": "VoSTDM_0608402_0110"
+      },
+      "STMSN_06084M_01_02": {
+        "ID": "STMSN_06084M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608402_0120",
+        "Id_Voice": "VoSTDM_0608402_0120"
+      },
+      "STMSN_06084M_02_01": {
+        "ID": "STMSN_06084M_02_01",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608402_0130",
+        "Id_Voice": "VoSTDM_0608402_0130"
+      },
+      "STMSN_06085M_01_01": {
+        "ID": "STMSN_06085M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0120",
+        "Id_Voice": "VoSTDM_0608502_0120"
+      },
+      "STMSN_06085M_01_02": {
+        "ID": "STMSN_06085M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0130",
+        "Id_Voice": "VoSTDM_0608502_0130"
+      },
+      "STMSN_06085M_01_03": {
+        "ID": "STMSN_06085M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0140",
+        "Id_Voice": "VoSTDM_0608502_0140"
+      },
+      "STMSN_06085M_01_04": {
+        "ID": "STMSN_06085M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0150",
+        "Id_Voice": "VoSTDM_0608502_0150"
+      },
+      "STMSN_06085M_01_05": {
+        "ID": "STMSN_06085M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0160",
+        "Id_Voice": "VoSTDM_0608502_0160"
+      },
+      "STMSN_06085M_01_06": {
+        "ID": "STMSN_06085M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0170",
+        "Id_Voice": "VoSTDM_0608502_0170"
+      },
+      "STMSN_06085M_01_07": {
+        "ID": "STMSN_06085M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_110",
+        "Id_CharacterVariation": "CP_110_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0180",
+        "Id_Voice": "VoSTDM_0608502_0180"
+      },
+      "STMSN_06085M_01_08": {
+        "ID": "STMSN_06085M_01_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0190",
+        "Id_Voice": "VoSTDM_0608502_0190"
+      },
+      "STMSN_06085M_01_09": {
+        "ID": "STMSN_06085M_01_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_120",
+        "Id_CharacterVariation": "CP_120_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0608502_0200",
+        "Id_Voice": "VoSTDM_0608502_0200"
+      },
+      "STMSN_08091M_01_01": {
+        "ID": "STMSN_08091M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809102_0010",
+        "Id_Voice": "VoSTDM_0809102_0010"
+      },
+      "STMSN_08091M_01_02": {
+        "ID": "STMSN_08091M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809102_0020",
+        "Id_Voice": "VoSTDM_0809102_0020"
+      },
+      "STMSN_08092M_01_01": {
+        "ID": "STMSN_08092M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_121",
+        "Id_CharacterVariation": "CP_121_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0010",
+        "Id_Voice": "VoSTDM_0809202_0010"
+      },
+      "STMSN_08092M_01_02": {
+        "ID": "STMSN_08092M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_200",
+        "Id_CharacterVariation": "CP_200_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0020",
+        "Id_Voice": "VoSTDM_0809202_0020"
+      },
+      "STMSN_08092M_01_03": {
+        "ID": "STMSN_08092M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_200",
+        "Id_CharacterVariation": "CP_200_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0030",
+        "Id_Voice": "VoSTDM_0809202_0030"
+      },
+      "STMSN_08092M_01_04": {
+        "ID": "STMSN_08092M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_121",
+        "Id_CharacterVariation": "CP_121_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0040",
+        "Id_Voice": "VoSTDM_0809202_0040"
+      },
+      "STMSN_08092M_01_05": {
+        "ID": "STMSN_08092M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_200",
+        "Id_CharacterVariation": "CP_200_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0050",
+        "Id_Voice": "VoSTDM_0809202_0050"
+      },
+      "STMSN_08092M_01_06": {
+        "ID": "STMSN_08092M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_200",
+        "Id_CharacterVariation": "CP_200_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0060",
+        "Id_Voice": "VoSTDM_0809202_0060"
+      },
+      "STMSN_08092M_01_07": {
+        "ID": "STMSN_08092M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_121",
+        "Id_CharacterVariation": "CP_121_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809202_0070",
+        "Id_Voice": "VoSTDM_0809202_0070"
+      },
+      "STMSN_08093M_01_01": {
+        "ID": "STMSN_08093M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809302_0010",
+        "Id_Voice": "VoSTDM_0809302_0010"
+      },
+      "STMSN_08093M_01_02": {
+        "ID": "STMSN_08093M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809302_0020",
+        "Id_Voice": "VoSTDM_0809302_0020"
+      },
+      "STMSN_08093M_01_03": {
+        "ID": "STMSN_08093M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809302_0030",
+        "Id_Voice": "VoSTDM_0809302_0030"
+      },
+      "STMSN_08093M_01_04": {
+        "ID": "STMSN_08093M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_051",
+        "Id_CharacterVariation": "CP_051_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0809302_0040",
+        "Id_Voice": "VoSTDM_0809302_0040"
+      },
+      "STMSN_09101M_01_01": {
+        "ID": "STMSN_09101M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CN_230",
+        "Id_CharacterVariation": "CN_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910102_0200",
+        "Id_Voice": "VoSTDM_0910102_0200"
+      },
+      "STMSN_09101M_01_02": {
+        "ID": "STMSN_09101M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_230",
+        "Id_CharacterVariation": "CN_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910102_0210",
+        "Id_Voice": "VoSTDM_0910102_0210"
+      },
+      "STMSN_09101M_01_03": {
+        "ID": "STMSN_09101M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_230",
+        "Id_CharacterVariation": "CN_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910102_0220",
+        "Id_Voice": "VoSTDM_0910102_0220"
+      },
+      "STMSN_09101M_01_04": {
+        "ID": "STMSN_09101M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910102_0230",
+        "Id_Voice": "VoSTDM_0910102_0230"
+      },
+      "STMSN_09101M_01_05": {
+        "ID": "STMSN_09101M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_090",
+        "Id_CharacterVariation": "CP_090_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910102_0240",
+        "Id_Voice": "VoSTDM_0910102_0240"
+      },
+      "STMSN_09102M_01_01": {
+        "ID": "STMSN_09102M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0190",
+        "Id_Voice": "VoSTDM_0910202_0190"
+      },
+      "STMSN_09102M_01_02": {
+        "ID": "STMSN_09102M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0200",
+        "Id_Voice": "VoSTDM_0910202_0200"
+      },
+      "STMSN_09102M_01_03": {
+        "ID": "STMSN_09102M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0210",
+        "Id_Voice": "VoSTDM_0910202_0210"
+      },
+      "STMSN_09102M_01_04": {
+        "ID": "STMSN_09102M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0220",
+        "Id_Voice": "VoSTDM_0910202_0220"
+      },
+      "STMSN_09102M_01_05": {
+        "ID": "STMSN_09102M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0230",
+        "Id_Voice": "VoSTDM_0910202_0230"
+      },
+      "STMSN_09102M_01_06": {
+        "ID": "STMSN_09102M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0240",
+        "Id_Voice": "VoSTDM_0910202_0240"
+      },
+      "STMSN_09102M_01_07": {
+        "ID": "STMSN_09102M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0250",
+        "Id_Voice": "VoSTDM_0910202_0250"
+      },
+      "STMSN_09102M_01_08": {
+        "ID": "STMSN_09102M_01_08",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0260",
+        "Id_Voice": "VoSTDM_0910202_0260"
+      },
+      "STMSN_09102M_01_09": {
+        "ID": "STMSN_09102M_01_09",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0270",
+        "Id_Voice": "VoSTDM_0910202_0270"
+      },
+      "STMSN_09102M_01_10": {
+        "ID": "STMSN_09102M_01_10",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0280",
+        "Id_Voice": "VoSTDM_0910202_0280"
+      },
+      "STMSN_09102M_01_11": {
+        "ID": "STMSN_09102M_01_11",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_220",
+        "Id_CharacterVariation": "CP_220_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0290",
+        "Id_Voice": "VoSTDM_0910202_0290"
+      },
+      "STMSN_09102M_01_12": {
+        "ID": "STMSN_09102M_01_12",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0300",
+        "Id_Voice": "VoSTDM_0910202_0300"
+      },
+      "STMSN_09102M_01_13": {
+        "ID": "STMSN_09102M_01_13",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_230",
+        "Id_CharacterVariation": "CP_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0310",
+        "Id_Voice": "VoSTDM_0910202_0310"
+      },
+      "STMSN_09102M_01_14": {
+        "ID": "STMSN_09102M_01_14",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_230",
+        "Id_CharacterVariation": "CP_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0320",
+        "Id_Voice": "VoSTDM_0910202_0320"
+      },
+      "STMSN_09102M_01_15": {
+        "ID": "STMSN_09102M_01_15",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_230",
+        "Id_CharacterVariation": "CP_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910202_0330",
+        "Id_Voice": "VoSTDM_0910202_0330"
+      },
+      "STMSN_09103M_01_01": {
+        "ID": "STMSN_09103M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_260",
+        "Id_CharacterVariation": "CP_260_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910302_0190",
+        "Id_Voice": "VoSTDM_0910302_0190"
+      },
+      "STMSN_09103M_01_02": {
+        "ID": "STMSN_09103M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_270",
+        "Id_CharacterVariation": "CP_270_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910302_0200",
+        "Id_Voice": "VoSTDM_0910302_0200"
+      },
+      "STMSN_09103M_01_03": {
+        "ID": "STMSN_09103M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_270",
+        "Id_CharacterVariation": "CP_270_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910302_0210",
+        "Id_Voice": "VoSTDM_0910302_0210"
+      },
+      "STMSN_09103M_01_04": {
+        "ID": "STMSN_09103M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_260",
+        "Id_CharacterVariation": "CP_260_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910302_0220",
+        "Id_Voice": "VoSTDM_0910302_0220"
+      },
+      "STMSN_09103M_01_05": {
+        "ID": "STMSN_09103M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_260",
+        "Id_CharacterVariation": "CP_260_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910302_0230",
+        "Id_Voice": "VoSTDM_0910302_0230"
+      },
+      "STMSN_09104M_01_01": {
+        "ID": "STMSN_09104M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0300",
+        "Id_Voice": "VoSTDM_0910402_0300"
+      },
+      "STMSN_09104M_01_02": {
+        "ID": "STMSN_09104M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0310",
+        "Id_Voice": "VoSTDM_0910402_0310"
+      },
+      "STMSN_09104M_02_01": {
+        "ID": "STMSN_09104M_02_01",
+        "WaitTime": 5.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0320",
+        "Id_Voice": "VoSTDM_0910402_0320"
+      },
+      "STMSN_09104M_02_02": {
+        "ID": "STMSN_09104M_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_140",
+        "Id_CharacterVariation": "CP_140_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0330",
+        "Id_Voice": "VoSTDM_0910402_0330"
+      },
+      "STMSN_09104M_02_03": {
+        "ID": "STMSN_09104M_02_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0340",
+        "Id_Voice": "VoSTDM_0910402_0340"
+      },
+      "STMSN_09104M_02_04": {
+        "ID": "STMSN_09104M_02_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0350",
+        "Id_Voice": "VoSTDM_0910402_0350"
+      },
+      "STMSN_09104M_02_05": {
+        "ID": "STMSN_09104M_02_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910402_0360",
+        "Id_Voice": "VoSTDM_0910402_0360"
+      },
+      "STMSN_09106M_01_01": {
+        "ID": "STMSN_09106M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0440",
+        "Id_Voice": "VoSTDM_0910602_0440"
+      },
+      "STMSN_09106M_01_02": {
+        "ID": "STMSN_09106M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0450",
+        "Id_Voice": "VoSTDM_0910602_0450"
+      },
+      "STMSN_09106M_01_03": {
+        "ID": "STMSN_09106M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0460",
+        "Id_Voice": "VoSTDM_0910602_0460"
+      },
+      "STMSN_09106M_02_01": {
+        "ID": "STMSN_09106M_02_01",
+        "WaitTime": 1.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0470",
+        "Id_Voice": "VoSTDM_0910602_0470"
+      },
+      "STMSN_09106M_02_02": {
+        "ID": "STMSN_09106M_02_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0480",
+        "Id_Voice": "VoSTDM_0910602_0480"
+      },
+      "STMSN_09106M_02_03": {
+        "ID": "STMSN_09106M_02_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0490",
+        "Id_Voice": "VoSTDM_0910602_0490"
+      },
+      "STMSN_09106M_02_04": {
+        "ID": "STMSN_09106M_02_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0500",
+        "Id_Voice": "VoSTDM_0910602_0500"
+      },
+      "STMSN_09106M_02_05": {
+        "ID": "STMSN_09106M_02_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0510",
+        "Id_Voice": "VoSTDM_0910602_0510"
+      },
+      "STMSN_09106M_02_06": {
+        "ID": "STMSN_09106M_02_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0520",
+        "Id_Voice": "VoSTDM_0910602_0520"
+      },
+      "STMSN_09106M_02_07": {
+        "ID": "STMSN_09106M_02_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_020",
+        "Id_CharacterVariation": "CP_020_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910602_0530",
+        "Id_Voice": "VoSTDM_0910602_0530"
+      },
+      "STMSN_09107M_01_01": {
+        "ID": "STMSN_09107M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0310",
+        "Id_Voice": "VoSTDM_0910702_0310"
+      },
+      "STMSN_09107M_01_02": {
+        "ID": "STMSN_09107M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0320",
+        "Id_Voice": "VoSTDM_0910702_0320"
+      },
+      "STMSN_09107M_01_03": {
+        "ID": "STMSN_09107M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0330",
+        "Id_Voice": "VoSTDM_0910702_0330"
+      },
+      "STMSN_09107M_01_04": {
+        "ID": "STMSN_09107M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0340",
+        "Id_Voice": "VoSTDM_0910702_0340"
+      },
+      "STMSN_09107M_01_05": {
+        "ID": "STMSN_09107M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0350",
+        "Id_Voice": "VoSTDM_0910702_0350"
+      },
+      "STMSN_09107M_01_06": {
+        "ID": "STMSN_09107M_01_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0360",
+        "Id_Voice": "VoSTDM_0910702_0360"
+      },
+      "STMSN_09107M_01_07": {
+        "ID": "STMSN_09107M_01_07",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910702_0370",
+        "Id_Voice": "VoSTDM_0910702_0370"
+      },
+      "STMSN_09108M_01_01": {
+        "ID": "STMSN_09108M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910802_0230",
+        "Id_Voice": "VoSTDM_0910802_0230"
+      },
+      "STMSN_09108M_01_02": {
+        "ID": "STMSN_09108M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_040",
+        "Id_CharacterVariation": "CP_040_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0910802_0240",
+        "Id_Voice": "VoSTDM_0910802_0240"
+      },
+      "STMSN_09110M_01_01": {
+        "ID": "STMSN_09110M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_100",
+        "Id_CharacterVariation": "CP_100_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911002_0270",
+        "Id_Voice": "VoSTDM_0911002_0270"
+      },
+      "STMSN_09110M_01_02": {
+        "ID": "STMSN_09110M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911002_0280",
+        "Id_Voice": "VoSTDM_0911002_0280"
+      },
+      "STMSN_09110M_01_03": {
+        "ID": "STMSN_09110M_01_03",
+        "WaitTime": 0.8,
+        "Id_Character": "CP_130",
+        "Id_CharacterVariation": "CP_130_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911002_0290",
+        "Id_Voice": "VoSTDM_0911002_0290"
+      },
+      "STMSN_09111M_01_01": {
+        "ID": "STMSN_09111M_01_01",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_250",
+        "Id_CharacterVariation": "CP_250_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911102_0270",
+        "Id_Voice": "VoSTDM_0911102_0270"
+      },
+      "STMSN_09111M_01_02": {
+        "ID": "STMSN_09111M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_010",
+        "Id_CharacterVariation": "CP_010_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911102_0280",
+        "Id_Voice": "VoSTDM_0911102_0280"
+      },
+      "STMSN_09111M_01_03": {
+        "ID": "STMSN_09111M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_250",
+        "Id_CharacterVariation": "CP_250_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911102_0290",
+        "Id_Voice": "VoSTDM_0911102_0290"
+      },
+      "STMSN_09111M_01_04": {
+        "ID": "STMSN_09111M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_250",
+        "Id_CharacterVariation": "CP_250_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911102_0300",
+        "Id_Voice": "VoSTDM_0911102_0300"
+      },
+      "STMSN_09111M_01_05": {
+        "ID": "STMSN_09111M_01_05",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_250",
+        "Id_CharacterVariation": "CP_250_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911102_0310",
+        "Id_Voice": "VoSTDM_0911102_0310"
+      },
+      "STMSN_09112M_01_01": {
+        "ID": "STMSN_09112M_01_01",
+        "WaitTime": 1.0,
+        "Id_Character": "CP_170",
+        "Id_CharacterVariation": "CP_170_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0310",
+        "Id_Voice": "VoSTDM_0911202_0310"
+      },
+      "STMSN_09112M_01_02": {
+        "ID": "STMSN_09112M_01_02",
+        "WaitTime": 0.5,
+        "Id_Character": "CN_122",
+        "Id_CharacterVariation": "CN_122_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0320",
+        "Id_Voice": "VoSTDM_0911202_0320"
+      },
+      "STMSN_09112M_01_03": {
+        "ID": "STMSN_09112M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_122",
+        "Id_CharacterVariation": "CN_122_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0330",
+        "Id_Voice": "VoSTDM_0911202_0330"
+      },
+      "STMSN_09112M_01_04": {
+        "ID": "STMSN_09112M_01_04",
+        "WaitTime": 0.0,
+        "Id_Character": "CN_122",
+        "Id_CharacterVariation": "CN_122_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0340",
+        "Id_Voice": "VoSTDM_0911202_0340"
+      },
+      "STMSN_09112M_02_05": {
+        "ID": "STMSN_09112M_02_05",
+        "WaitTime": 1.5,
+        "Id_Character": "CP_210",
+        "Id_CharacterVariation": "CP_210_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0350",
+        "Id_Voice": "VoSTDM_0911202_0350"
+      },
+      "STMSN_09112M_02_06": {
+        "ID": "STMSN_09112M_02_06",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_210",
+        "Id_CharacterVariation": "CP_210_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911202_0360",
+        "Id_Voice": "VoSTDM_0911202_0360"
+      },
+      "STMSN_09113M_01_01": {
+        "ID": "STMSN_09113M_01_01",
+        "WaitTime": 2.5,
+        "Id_Character": "CN_122",
+        "Id_CharacterVariation": "CN_122_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911302_0340",
+        "Id_Voice": "VoSTDM_0911302_0340"
+      },
+      "STMSN_09113M_01_02": {
+        "ID": "STMSN_09113M_01_02",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_230",
+        "Id_CharacterVariation": "CP_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911302_0350",
+        "Id_Voice": "VoSTDM_0911302_0350"
+      },
+      "STMSN_09113M_01_03": {
+        "ID": "STMSN_09113M_01_03",
+        "WaitTime": 0.0,
+        "Id_Character": "CP_230",
+        "Id_CharacterVariation": "CP_230_00",
+        "BattleTalkImageFileName": "None",
+        "TextId": "STDM_0911302_0360",
+        "Id_Voice": "VoSTDM_0911302_0360"
+      }
+    }
+  }
+]

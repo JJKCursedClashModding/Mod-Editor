@@ -1,0 +1,2929 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BattleTextDataTable_Es_LA",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BTL_HUD_LABEL_0001": {
+        "ID": "BTL_HUD_LABEL_0001",
+        "Text": "<DYN=HIT_POINT>/<DYN=HIT_POINT_MAX>"
+      },
+      "BTL_HUD_LABEL_0101": {
+        "ID": "BTL_HUD_LABEL_0101",
+        "Text": "1"
+      },
+      "BTL_HUD_LABEL_0102": {
+        "ID": "BTL_HUD_LABEL_0102",
+        "Text": "2"
+      },
+      "BTL_HUD_LABEL_0103": {
+        "ID": "BTL_HUD_LABEL_0103",
+        "Text": "3"
+      },
+      "BTL_HUD_LABEL_0104": {
+        "ID": "BTL_HUD_LABEL_0104",
+        "Text": "+<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_HUD_LABEL_0201": {
+        "ID": "BTL_HUD_LABEL_0201",
+        "Text": "Normal"
+      },
+      "BTL_HUD_LABEL_0202": {
+        "ID": "BTL_HUD_LABEL_0202",
+        "Text": "Agresivo"
+      },
+      "BTL_HUD_LABEL_0203": {
+        "ID": "BTL_HUD_LABEL_0203",
+        "Text": "Cooperativo"
+      },
+      "BTL_HUD_LABEL_0204": {
+        "ID": "BTL_HUD_LABEL_0204",
+        "Text": "Precavido"
+      },
+      "BTL_HUD_LABEL_0301": {
+        "ID": "BTL_HUD_LABEL_0301",
+        "Text": "<DYN=MINUTES>:<DYN=SECONDS>"
+      },
+      "BTL_HUD_LABEL_0302": {
+        "ID": "BTL_HUD_LABEL_0302",
+        "Text": "∞"
+      },
+      "BTL_HUD_LABEL_0401": {
+        "ID": "BTL_HUD_LABEL_0401",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_HUD_LABEL_0402": {
+        "ID": "BTL_HUD_LABEL_0402",
+        "Text": "Noqueo doble"
+      },
+      "BTL_HUD_LABEL_0403": {
+        "ID": "BTL_HUD_LABEL_0403",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>"
+      },
+      "BTL_HUD_LABEL_0404": {
+        "ID": "BTL_HUD_LABEL_0404",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0007>"
+      },
+      "BTL_HUD_LABEL_0405": {
+        "ID": "BTL_HUD_LABEL_0405",
+        "Text": "Adaptado"
+      },
+      "BTL_HUD_LABEL_0501": {
+        "ID": "BTL_HUD_LABEL_0501",
+        "Text": "Cambio"
+      },
+      "BTL_HUD_LABEL_0502": {
+        "ID": "BTL_HUD_LABEL_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1416>"
+      },
+      "BTL_HUD_LABEL_0503": {
+        "ID": "BTL_HUD_LABEL_0503",
+        "Text": "<GLO=GLS_GAME_WORDS_1704>"
+      },
+      "BTL_HUD_LABEL_0504": {
+        "ID": "BTL_HUD_LABEL_0504",
+        "Text": "Hablar"
+      },
+      "BTL_HUD_LABEL_0505": {
+        "ID": "BTL_HUD_LABEL_0505",
+        "Text": "Único"
+      },
+      "BTL_HUD_LABEL_0506": {
+        "ID": "BTL_HUD_LABEL_0506",
+        "Text": "Elogio"
+      },
+      "BTL_HUD_LABEL_0507": {
+        "ID": "BTL_HUD_LABEL_0507",
+        "Text": "Provocación"
+      },
+      "BTL_HUD_LABEL_0508": {
+        "ID": "BTL_HUD_LABEL_0508",
+        "Text": "Objetivo: <DYN=TARGET>"
+      },
+      "BTL_HUD_LABEL_0509": {
+        "ID": "BTL_HUD_LABEL_0509",
+        "Text": "<DYN=USER_NAME> se ha ido."
+      },
+      "BTL_HUD_LABEL_0610": {
+        "ID": "BTL_HUD_LABEL_0610",
+        "Text": "Presiona <img id=\"NormalAttack_1\"/> repetidamente"
+      },
+      "BTL_HUD_LABEL_0611": {
+        "ID": "BTL_HUD_LABEL_0611",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>"
+      },
+      "BTL_HUD_LABEL_0620": {
+        "ID": "BTL_HUD_LABEL_0620",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0621": {
+        "ID": "BTL_HUD_LABEL_0621",
+        "Text": "<GLO=GLS_GAME_WORDS_1313>"
+      },
+      "BTL_HUD_LABEL_0630": {
+        "ID": "BTL_HUD_LABEL_0630",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>/<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0631": {
+        "ID": "BTL_HUD_LABEL_0631",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>"
+      },
+      "BTL_HUD_LABEL_0632": {
+        "ID": "BTL_HUD_LABEL_0632",
+        "Text": "<GLO=GLS_GAME_WORDS_1310>"
+      },
+      "BTL_HUD_LABEL_0640": {
+        "ID": "BTL_HUD_LABEL_0640",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0641": {
+        "ID": "BTL_HUD_LABEL_0641",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_HUD_LABEL_0650": {
+        "ID": "BTL_HUD_LABEL_0650",
+        "Text": "<img id=\"MoveLeft\"/>/<img id=\"MoveRight\"/>"
+      },
+      "BTL_HUD_LABEL_0651": {
+        "ID": "BTL_HUD_LABEL_0651",
+        "Text": "Cambia el punto de vista de jugador"
+      },
+      "BTL_HUD_LABEL_0660": {
+        "ID": "BTL_HUD_LABEL_0660",
+        "Text": "<img id=\"NormalAttack_2\"/>/<img id=\"NormalAttack_3\"/>"
+      },
+      "BTL_HUD_LABEL_0661": {
+        "ID": "BTL_HUD_LABEL_0661",
+        "Text": "Ritual de extracción"
+      },
+      "BTL_HUD_LABEL_0701": {
+        "ID": "BTL_HUD_LABEL_0701",
+        "Text": "Daño"
+      },
+      "BTL_HUD_LABEL_0710": {
+        "ID": "BTL_HUD_LABEL_0710",
+        "Text": "<GLO=GLS_GAME_WORDS_1505>"
+      },
+      "BTL_HUD_LABEL_0711": {
+        "ID": "BTL_HUD_LABEL_0711",
+        "Text": "<GLO=GLS_GAME_WORDS_1507>"
+      },
+      "BTL_HUD_LABEL_0801": {
+        "ID": "BTL_HUD_LABEL_0801",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "BTL_HUD_LABEL_0802": {
+        "ID": "BTL_HUD_LABEL_0802",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_HUD_LABEL_0803": {
+        "ID": "BTL_HUD_LABEL_0803",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "BTL_OVERLAY_LABEL_0001": {
+        "ID": "BTL_OVERLAY_LABEL_0001",
+        "Text": "Batalla"
+      },
+      "BTL_OVERLAY_LABEL_0002": {
+        "ID": "BTL_OVERLAY_LABEL_0002",
+        "Text": "Inicio"
+      },
+      "BTL_OVERLAY_LABEL_0003": {
+        "ID": "BTL_OVERLAY_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_OVERLAY_LABEL_0004": {
+        "ID": "BTL_OVERLAY_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_OVERLAY_LABEL_0005": {
+        "ID": "BTL_OVERLAY_LABEL_0005",
+        "Text": "Se acabó el tiempo"
+      },
+      "BTL_OVERLAY_LABEL_0006": {
+        "ID": "BTL_OVERLAY_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1605>"
+      },
+      "BTL_OVERLAY_LABEL_0007": {
+        "ID": "BTL_OVERLAY_LABEL_0007",
+        "Text": "<GLO=GLS_GAME_WORDS_1606>"
+      },
+      "BTL_OVERLAY_LABEL_0008": {
+        "ID": "BTL_OVERLAY_LABEL_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1603>"
+      },
+      "BTL_OVERLAY_LABEL_0009": {
+        "ID": "BTL_OVERLAY_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1604>"
+      },
+      "BTL_OVERLAY_LABEL_0010": {
+        "ID": "BTL_OVERLAY_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1815> <DYN=WAVE_INDEX>/<DYN=MAX_WAVE_INDEX>"
+      },
+      "BTL_OVERLAY_LABEL_0011": {
+        "ID": "BTL_OVERLAY_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1816>"
+      },
+      "BTL_OVERLAY_LABEL_0012": {
+        "ID": "BTL_OVERLAY_LABEL_0012",
+        "Text": "Completaste la misión"
+      },
+      "BTL_OVERLAY_LABEL_0013": {
+        "ID": "BTL_OVERLAY_LABEL_0013",
+        "Text": "Fallaste la misión"
+      },
+      "BTL_OVERLAY_LABEL_0014": {
+        "ID": "BTL_OVERLAY_LABEL_0014",
+        "Text": "Victoria en batalla rápida"
+      },
+      "BTL_OVERLAY_LABEL_0015": {
+        "ID": "BTL_OVERLAY_LABEL_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1802> Victoria"
+      },
+      "BTL_OVERLAY_LABEL_0016": {
+        "ID": "BTL_OVERLAY_LABEL_0016",
+        "Text": "¡Pelea!"
+      },
+      "BTL_OVERLAY_LABEL_0017": {
+        "ID": "BTL_OVERLAY_LABEL_0017",
+        "Text": "Mahoraga derrotado"
+      },
+      "BTL_OVERLAY_LABEL_0101": {
+        "ID": "BTL_OVERLAY_LABEL_0101",
+        "Text": "¡Oportunidad de ataque conjunto!"
+      },
+      "BTL_OVERLAY_LABEL_0102": {
+        "ID": "BTL_OVERLAY_LABEL_0102",
+        "Text": "¡Cuidado!"
+      },
+      "BTL_MARKER_LABEL_0001": {
+        "ID": "BTL_MARKER_LABEL_0001",
+        "Text": "J<DYN=PLAYER_INDEX>"
+      },
+      "BTL_POST_EFFECT_LABEL_0001": {
+        "ID": "BTL_POST_EFFECT_LABEL_0001",
+        "Text": "Te queda 1 minuto"
+      },
+      "BTL_RESULT_LABEL_0001": {
+        "ID": "BTL_RESULT_LABEL_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_0002": {
+        "ID": "BTL_RESULT_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1602>"
+      },
+      "BTL_RESULT_LABEL_0003": {
+        "ID": "BTL_RESULT_LABEL_0003",
+        "Text": "Empate"
+      },
+      "BTL_RESULT_LABEL_0101": {
+        "ID": "BTL_RESULT_LABEL_0101",
+        "Text": "MVP"
+      },
+      "BTL_RESULT_LABEL_0102": {
+        "ID": "BTL_RESULT_LABEL_0102",
+        "Text": "Rango"
+      },
+      "BTL_RESULT_LABEL_0201": {
+        "ID": "BTL_RESULT_LABEL_0201",
+        "Text": "Equipo A"
+      },
+      "BTL_RESULT_LABEL_0202": {
+        "ID": "BTL_RESULT_LABEL_0202",
+        "Text": "Equipo B"
+      },
+      "BTL_RESULT_LABEL_0301": {
+        "ID": "BTL_RESULT_LABEL_0301",
+        "Text": "C"
+      },
+      "BTL_RESULT_LABEL_0302": {
+        "ID": "BTL_RESULT_LABEL_0302",
+        "Text": "B"
+      },
+      "BTL_RESULT_LABEL_0303": {
+        "ID": "BTL_RESULT_LABEL_0303",
+        "Text": "A"
+      },
+      "BTL_RESULT_LABEL_0304": {
+        "ID": "BTL_RESULT_LABEL_0304",
+        "Text": "S"
+      },
+      "BTL_RESULT_LABEL_1001": {
+        "ID": "BTL_RESULT_LABEL_1001",
+        "Text": "Detalles"
+      },
+      "BTL_RESULT_LABEL_1002": {
+        "ID": "BTL_RESULT_LABEL_1002",
+        "Text": "Puntos de victoria"
+      },
+      "BTL_RESULT_LABEL_1003": {
+        "ID": "BTL_RESULT_LABEL_1003",
+        "Text": "Puntos de daño"
+      },
+      "BTL_RESULT_LABEL_1004": {
+        "ID": "BTL_RESULT_LABEL_1004",
+        "Text": "Puntos de ataque conjunto"
+      },
+      "BTL_RESULT_LABEL_1005": {
+        "ID": "BTL_RESULT_LABEL_1005",
+        "Text": "Puntos de movimiento del despertar"
+      },
+      "BTL_RESULT_LABEL_1006": {
+        "ID": "BTL_RESULT_LABEL_1006",
+        "Text": "Puntos de tiempo"
+      },
+      "BTL_RESULT_LABEL_1008": {
+        "ID": "BTL_RESULT_LABEL_1008",
+        "Text": "Puntos totales"
+      },
+      "BTL_RESULT_LABEL_1101": {
+        "ID": "BTL_RESULT_LABEL_1101",
+        "Text": "Detalles del puntaje"
+      },
+      "BTL_RESULT_LABEL_1102": {
+        "ID": "BTL_RESULT_LABEL_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_1601>"
+      },
+      "BTL_RESULT_LABEL_1103": {
+        "ID": "BTL_RESULT_LABEL_1103",
+        "Text": "Dominio"
+      },
+      "BTL_RESULT_LABEL_1104": {
+        "ID": "BTL_RESULT_LABEL_1104",
+        "Text": "Pelea pareja"
+      },
+      "BTL_RESULT_LABEL_1105": {
+        "ID": "BTL_RESULT_LABEL_1105",
+        "Text": "<GLO=GLS_GAME_WORDS_1418>"
+      },
+      "BTL_RESULT_LABEL_1106": {
+        "ID": "BTL_RESULT_LABEL_1106",
+        "Text": "Daño"
+      },
+      "BTL_RESULT_LABEL_1107": {
+        "ID": "BTL_RESULT_LABEL_1107",
+        "Text": "Bonificación de costo"
+      },
+      "BTL_RESULT_LABEL_1108": {
+        "ID": "BTL_RESULT_LABEL_1108",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>"
+      },
+      "BTL_RESULT_LABEL_1109": {
+        "ID": "BTL_RESULT_LABEL_1109",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>"
+      },
+      "BTL_RESULT_LABEL_1110": {
+        "ID": "BTL_RESULT_LABEL_1110",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>"
+      },
+      "BTL_RESULT_LABEL_1111": {
+        "ID": "BTL_RESULT_LABEL_1111",
+        "Text": "Golpe definitivo"
+      },
+      "BTL_RESULT_LABEL_1112": {
+        "ID": "BTL_RESULT_LABEL_1112",
+        "Text": "<GLO=GLS_GAME_WORDS_1430>"
+      },
+      "BTL_RESULT_LABEL_1113": {
+        "ID": "BTL_RESULT_LABEL_1113",
+        "Text": "Primera muerte"
+      },
+      "BTL_RESULT_LABEL_1114": {
+        "ID": "BTL_RESULT_LABEL_1114",
+        "Text": "Sin defensa"
+      },
+      "BTL_RESULT_LABEL_1115": {
+        "ID": "BTL_RESULT_LABEL_1115",
+        "Text": "Sin muertes"
+      },
+      "BTL_RESULT_LABEL_1116": {
+        "ID": "BTL_RESULT_LABEL_1116",
+        "Text": "Sin daño"
+      },
+      "BTL_RESULT_LABEL_1117": {
+        "ID": "BTL_RESULT_LABEL_1117",
+        "Text": "Rendimiento máximo"
+      },
+      "BTL_RESULT_LABEL_1118": {
+        "ID": "BTL_RESULT_LABEL_1118",
+        "Text": "Victoria rápida"
+      },
+      "BTL_RESULT_LABEL_1119": {
+        "ID": "BTL_RESULT_LABEL_1119",
+        "Text": "Aplastadefensas"
+      },
+      "BTL_RESULT_LABEL_1120": {
+        "ID": "BTL_RESULT_LABEL_1120",
+        "Text": "Remate"
+      },
+      "BTL_RESULT_LABEL_1121": {
+        "ID": "BTL_RESULT_LABEL_1121",
+        "Text": "Provocador de estado de afección"
+      },
+      "BTL_RESULT_LABEL_1122": {
+        "ID": "BTL_RESULT_LABEL_1122",
+        "Text": "Larga distancia"
+      },
+      "BTL_RESULT_LABEL_1123": {
+        "ID": "BTL_RESULT_LABEL_1123",
+        "Text": "Combo mortal"
+      },
+      "BTL_RESULT_LABEL_1124": {
+        "ID": "BTL_RESULT_LABEL_1124",
+        "Text": "Encadenado"
+      },
+      "BTL_RESULT_LABEL_1125": {
+        "ID": "BTL_RESULT_LABEL_1125",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RESULT_LABEL_1126": {
+        "ID": "BTL_RESULT_LABEL_1126",
+        "Text": "Corredor"
+      },
+      "BTL_RESULT_LABEL_1127": {
+        "ID": "BTL_RESULT_LABEL_1127",
+        "Text": "<GLO=GLS_GAME_WORDS_1412>"
+      },
+      "BTL_RESULT_LABEL_1128": {
+        "ID": "BTL_RESULT_LABEL_1128",
+        "Text": "Rebote en tierra"
+      },
+      "BTL_RESULT_LABEL_1129": {
+        "ID": "BTL_RESULT_LABEL_1129",
+        "Text": "Contraataque de Extensión de dominio"
+      },
+      "BTL_RESULT_LABEL_1130": {
+        "ID": "BTL_RESULT_LABEL_1130",
+        "Text": "Resurrección"
+      },
+      "BTL_RESULT_LABEL_1131": {
+        "ID": "BTL_RESULT_LABEL_1131",
+        "Text": "Doble Extensión de dominio"
+      },
+      "BTL_RESULT_LABEL_1132": {
+        "ID": "BTL_RESULT_LABEL_1132",
+        "Text": "Provocación"
+      },
+      "BTL_RESULT_LABEL_1133": {
+        "ID": "BTL_RESULT_LABEL_1133",
+        "Text": "Respeto"
+      },
+      "BTL_RESULT_LABEL_1134": {
+        "ID": "BTL_RESULT_LABEL_1134",
+        "Text": "En reposo"
+      },
+      "BTL_RESULT_LABEL_1135": {
+        "ID": "BTL_RESULT_LABEL_1135",
+        "Text": "Asistencia"
+      },
+      "BTL_RESULT_LABEL_1136": {
+        "ID": "BTL_RESULT_LABEL_1136",
+        "Text": "Subida de nivel"
+      },
+      "BTL_RESULT_LABEL_1201": {
+        "ID": "BTL_RESULT_LABEL_1201",
+        "Text": "Cuatro Destellos negros"
+      },
+      "BTL_RESULT_LABEL_1202": {
+        "ID": "BTL_RESULT_LABEL_1202",
+        "Text": "Extensión de dominio: Templo del Mal"
+      },
+      "BTL_RESULT_LABEL_1203": {
+        "ID": "BTL_RESULT_LABEL_1203",
+        "Text": "Extensión de dominio: Jardín Sombrío de Quimeras"
+      },
+      "BTL_RESULT_LABEL_1204": {
+        "ID": "BTL_RESULT_LABEL_1204",
+        "Text": "Técnica vudú: Hebilla"
+      },
+      "BTL_RESULT_LABEL_1205": {
+        "ID": "BTL_RESULT_LABEL_1205",
+        "Text": "Extensión de dominio: Vacío infinito"
+      },
+      "BTL_RESULT_LABEL_1206": {
+        "ID": "BTL_RESULT_LABEL_1206",
+        "Text": "Demostración de Nube errante"
+      },
+      "BTL_RESULT_LABEL_1207": {
+        "ID": "BTL_RESULT_LABEL_1207",
+        "Text": "Discurso maldito: \"Detente\"; \"Aplástate\""
+      },
+      "BTL_RESULT_LABEL_1208": {
+        "ID": "BTL_RESULT_LABEL_1208",
+        "Text": "Combo de Panda-Gorila"
+      },
+      "BTL_RESULT_LABEL_1209": {
+        "ID": "BTL_RESULT_LABEL_1209",
+        "Text": "Ritual racional"
+      },
+      "BTL_RESULT_LABEL_1210": {
+        "ID": "BTL_RESULT_LABEL_1210",
+        "Text": "Boogie Woogie"
+      },
+      "BTL_RESULT_LABEL_1211": {
+        "ID": "BTL_RESULT_LABEL_1211",
+        "Text": "Amor puro"
+      },
+      "BTL_RESULT_LABEL_1212": {
+        "ID": "BTL_RESULT_LABEL_1212",
+        "Text": "Manipulación de energía maldita extrema: Vorágine. "
+      },
+      "BTL_RESULT_LABEL_1213": {
+        "ID": "BTL_RESULT_LABEL_1213",
+        "Text": "Extensión de dominio: Encarnación de la perfección."
+      },
+      "BTL_RESULT_LABEL_1214": {
+        "ID": "BTL_RESULT_LABEL_1214",
+        "Text": "Extensión de dominio: Ataúd de la montaña de hierro."
+      },
+      "BTL_RESULT_LABEL_1215": {
+        "ID": "BTL_RESULT_LABEL_1215",
+        "Text": "Manifestación de raíces de árbol"
+      },
+      "BTL_RESULT_LABEL_1216": {
+        "ID": "BTL_RESULT_LABEL_1216",
+        "Text": "¡Rey Alado!"
+      },
+      "BTL_RESULT_LABEL_1217": {
+        "ID": "BTL_RESULT_LABEL_1217",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RESULT_LABEL_1218": {
+        "ID": "BTL_RESULT_LABEL_1218",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RESULT_LABEL_1219": {
+        "ID": "BTL_RESULT_LABEL_1219",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RESULT_LABEL_1220": {
+        "ID": "BTL_RESULT_LABEL_1220",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RESULT_LABEL_1221": {
+        "ID": "BTL_RESULT_LABEL_1221",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RESULT_LABEL_1222": {
+        "ID": "BTL_RESULT_LABEL_1222",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RESULT_LABEL_1223": {
+        "ID": "BTL_RESULT_LABEL_1223",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RESULT_LABEL_1224": {
+        "ID": "BTL_RESULT_LABEL_1224",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RESULT_LABEL_1225": {
+        "ID": "BTL_RESULT_LABEL_1225",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RESULT_LABEL_1226": {
+        "ID": "BTL_RESULT_LABEL_1226",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RESULT_LABEL_1227": {
+        "ID": "BTL_RESULT_LABEL_1227",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "BTL_RANKING_LABEL_0001": {
+        "ID": "BTL_RANKING_LABEL_0001",
+        "Text": "Daño infligido"
+      },
+      "BTL_RANKING_LABEL_0002": {
+        "ID": "BTL_RANKING_LABEL_0002",
+        "Text": "Daño recibido"
+      },
+      "BTL_RANKING_LABEL_0003": {
+        "ID": "BTL_RANKING_LABEL_0003",
+        "Text": "Mejor atacante"
+      },
+      "BTL_RANKING_LABEL_0004": {
+        "ID": "BTL_RANKING_LABEL_0004",
+        "Text": "Primera muerte"
+      },
+      "BTL_RANKING_LABEL_0005": {
+        "ID": "BTL_RANKING_LABEL_0005",
+        "Text": "Carga de energía maldita"
+      },
+      "BTL_RANKING_LABEL_0006": {
+        "ID": "BTL_RANKING_LABEL_0006",
+        "Text": "Especialista en energía maldita"
+      },
+      "BTL_RANKING_LABEL_0007": {
+        "ID": "BTL_RANKING_LABEL_0007",
+        "Text": "Desestabilizante"
+      },
+      "BTL_RANKING_LABEL_0008": {
+        "ID": "BTL_RANKING_LABEL_0008",
+        "Text": "Carrera turbo"
+      },
+      "BTL_RANKING_LABEL_0009": {
+        "ID": "BTL_RANKING_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1410>"
+      },
+      "BTL_RANKING_LABEL_0010": {
+        "ID": "BTL_RANKING_LABEL_0010",
+        "Text": "Maniático de la extensión de dominio"
+      },
+      "BTL_RANKING_LABEL_0011": {
+        "ID": "BTL_RANKING_LABEL_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1432>"
+      },
+      "BTL_RANKING_LABEL_0012": {
+        "ID": "BTL_RANKING_LABEL_0012",
+        "Text": "Dominador de batalla"
+      },
+      "BTL_RANKING_LABEL_0013": {
+        "ID": "BTL_RANKING_LABEL_0013",
+        "Text": "Remate"
+      },
+      "BTL_RANKING_LABEL_0014": {
+        "ID": "BTL_RANKING_LABEL_0014",
+        "Text": "Corredor"
+      },
+      "BTL_RANKING_LABEL_0015": {
+        "ID": "BTL_RANKING_LABEL_0015",
+        "Text": "Ataque conjunto"
+      },
+      "BTL_RANKING_LABEL_0016": {
+        "ID": "BTL_RANKING_LABEL_0016",
+        "Text": "Despertar"
+      },
+      "BTL_RANKING_LABEL_0017": {
+        "ID": "BTL_RANKING_LABEL_0017",
+        "Text": "Francotirador"
+      },
+      "BTL_RANKING_LABEL_0018": {
+        "ID": "BTL_RANKING_LABEL_0018",
+        "Text": "De cerca"
+      },
+      "BTL_RANKING_LABEL_0019": {
+        "ID": "BTL_RANKING_LABEL_0019",
+        "Text": "Puntuación"
+      },
+      "BTL_RANKING_LABEL_0101": {
+        "ID": "BTL_RANKING_LABEL_0101",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "BTL_RANKING_LABEL_0102": {
+        "ID": "BTL_RANKING_LABEL_0102",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "BTL_RANKING_LABEL_0103": {
+        "ID": "BTL_RANKING_LABEL_0103",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "BTL_RANKING_LABEL_0104": {
+        "ID": "BTL_RANKING_LABEL_0104",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "BTL_RANKING_LABEL_0105": {
+        "ID": "BTL_RANKING_LABEL_0105",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "BTL_RANKING_LABEL_0106": {
+        "ID": "BTL_RANKING_LABEL_0106",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "BTL_RANKING_LABEL_0107": {
+        "ID": "BTL_RANKING_LABEL_0107",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "BTL_RANKING_LABEL_0108": {
+        "ID": "BTL_RANKING_LABEL_0108",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "BTL_RANKING_LABEL_0109": {
+        "ID": "BTL_RANKING_LABEL_0109",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "BTL_RANKING_LABEL_0110": {
+        "ID": "BTL_RANKING_LABEL_0110",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "BTL_RANKING_LABEL_0111": {
+        "ID": "BTL_RANKING_LABEL_0111",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "BTL_RANKING_LABEL_0112": {
+        "ID": "BTL_RANKING_LABEL_0112",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1012>"
+      },
+      "BTL_RANKING_LABEL_0113": {
+        "ID": "BTL_RANKING_LABEL_0113",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "BTL_RANKING_LABEL_0114": {
+        "ID": "BTL_RANKING_LABEL_0114",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "BTL_RANKING_LABEL_0115": {
+        "ID": "BTL_RANKING_LABEL_0115",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "BTL_RANKING_LABEL_0116": {
+        "ID": "BTL_RANKING_LABEL_0116",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "BTL_RANKING_LABEL_0117": {
+        "ID": "BTL_RANKING_LABEL_0117",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "BTL_RANKING_LABEL_0118": {
+        "ID": "BTL_RANKING_LABEL_0118",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "BTL_RANKING_LABEL_0119": {
+        "ID": "BTL_RANKING_LABEL_0119",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "BTL_RANKING_LABEL_0120": {
+        "ID": "BTL_RANKING_LABEL_0120",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "BTL_RANKING_LABEL_0121": {
+        "ID": "BTL_RANKING_LABEL_0121",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "BTL_RANKING_LABEL_0122": {
+        "ID": "BTL_RANKING_LABEL_0122",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "BTL_RANKING_LABEL_0123": {
+        "ID": "BTL_RANKING_LABEL_0123",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "BTL_RANKING_LABEL_0124": {
+        "ID": "BTL_RANKING_LABEL_0124",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "BTL_RANKING_LABEL_0125": {
+        "ID": "BTL_RANKING_LABEL_0125",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "BTL_RANKING_LABEL_0126": {
+        "ID": "BTL_RANKING_LABEL_0126",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "BTL_RANKING_LABEL_0127": {
+        "ID": "BTL_RANKING_LABEL_0127",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "BTL_RANKING_LABEL_0201": {
+        "ID": "BTL_RANKING_LABEL_0201",
+        "Text": " Sin recuperación"
+      },
+      "BTL_RANKING_LABEL_0202": {
+        "ID": "BTL_RANKING_LABEL_0202",
+        "Text": "Bienvenida a Contrato vinculante"
+      },
+      "BTL_RANKING_LABEL_0203": {
+        "ID": "BTL_RANKING_LABEL_0203",
+        "Text": "Cazador de espíritu maldito"
+      },
+      "BTL_RANKING_LABEL_0204": {
+        "ID": "BTL_RANKING_LABEL_0204",
+        "Text": "Aniquilador de jefes"
+      },
+      "BTL_RANKING_LABEL_0205": {
+        "ID": "BTL_RANKING_LABEL_0205",
+        "Text": "Rey de la destrucción"
+      },
+      "BTL_MISSION_ORDER_LABEL_0001": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0001",
+        "Text": "Evento"
+      },
+      "BTL_MISSION_ORDER_LABEL_0002": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0002",
+        "Text": "Golpe de ATQ de movimiento del despertar"
+      },
+      "BTL_MISSION_ORDER_LABEL_0003": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1823>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0004": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1824>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0005": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0005",
+        "Text": "Evento de jefe"
+      },
+      "BTL_MISSION_ORDER_LABEL_0009": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1834>"
+      },
+      "BTL_MISSION_ORDER_LABEL_0010": {
+        "ID": "BTL_MISSION_ORDER_LABEL_0010",
+        "Text": "Batalla de Mahoraga"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0001": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0001",
+        "Text": "Evento"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0002": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0002",
+        "Text": "Golpe de ATQ de movimiento del despertar"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0003": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0003",
+        "Text": "¡Reduce a 0 el medidor de equipo del rival!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0004": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0004",
+        "Text": "¡Sobrevive durante un periodo de tiempo!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0005": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0005",
+        "Text": "¡Vence al enemigo más duro!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0009": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0009",
+        "Text": "¡Vence a todos los enemigos!"
+      },
+      "BTL_MISSION_ORDER_MESSAGE_0010": {
+        "ID": "BTL_MISSION_ORDER_MESSAGE_0010",
+        "Text": "Reduce la salud de tu enemigo a <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_MISSION_TASK_LABEL_0001": {
+        "ID": "BTL_MISSION_TASK_LABEL_0001",
+        "Text": "<DYN=VALUE>/<DYN=MAX_VALUE>"
+      },
+      "BTL_MISSION_TASK_MESSAGE_0001": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0001",
+        "Text": "Asesta un Ritual en combo/Ritual de extracción <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0002": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0002",
+        "Text": "Asesta un Ritual de energía maldita/Ritual de herramienta maldita <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0003": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0003",
+        "Text": "Realiza un movimiento del despertar."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0004": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0004",
+        "Text": "Evita que te golpeen <DYN=VALUE>[ABS,FULL_WIDTH] o más veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0005": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0005",
+        "Text": "Realiza un ataque conjunto <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0006": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0006",
+        "Text": "Realiza una Bonificación de cooperación <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0007": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0007",
+        "Text": "Derrota con un Ritual de energía maldita/Ritual de herramienta maldita."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0008": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0008",
+        "Text": "Gana con un ataque conjunto."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0009": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0009",
+        "Text": "Gana con un movimiento del despertar."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0010": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0010",
+        "Text": "Gana durante Bonificación de cooperación."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0011": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0011",
+        "Text": "Realiza una defensa <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0012": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0012",
+        "Text": "Realiza una defensa perfecta <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0013": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0013",
+        "Text": "Muévete <DYN=VALUE>[FULL_WIDTH] metros o más."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0014": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0014",
+        "Text": "Haz que un contrincante rebote contra el suelo <DYN=VALUE>[ABS,FULL_WIDTH] o más veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0015": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0015",
+        "Text": "Rebota a un rival contra la pared <DYN=VALUE>[ABS,FULL_WIDTH] o más veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0016": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0016",
+        "Text": "Derrota un enemigo <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0017": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0017",
+        "Text": "Evita reducir el medidor de equipo en <DYN=VALUE>[ABS,FULL_WIDTH] o más."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0018": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0018",
+        "Text": "Realiza un combo final."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0019": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0019",
+        "Text": "Realiza un Final con movimiento del despertar."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0020": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0020",
+        "Text": "Ataca a un enemigo en el aire <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0021": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0021",
+        "Text": "Asesta el primer golpe."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0022": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0022",
+        "Text": "Completa oleada con 1 jugador en nivel máximo de energía maldita."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0023": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0023",
+        "Text": "No hay ingreso durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) o más."
+      },
+      "BTL_MISSION_TASK_MESSAGE_0024": {
+        "ID": "BTL_MISSION_TASK_MESSAGE_0024",
+        "Text": "Gana en <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10",
+        "Text": "Reduce el valor de la defensa en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20",
+        "Text": "Reduce el valor de la defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30",
+        "Text": "Reduce el valor de la defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40",
+        "Text": "Reduce el valor de la defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50",
+        "Text": "Reduce el valor de la defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10",
+        "Text": "Reduce la cantidad del medidor de carrera en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20",
+        "Text": "Reduce la cantidad del medidor de carrera en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30",
+        "Text": "Reduce la cantidad del medidor de carrera en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40",
+        "Text": "Reduce la cantidad del medidor de carrera en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50",
+        "Text": "Reduce la cantidad del medidor de carrera en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_60",
+        "Text": "Reduce la cantidad del medidor de carrera en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_60",
+        "Text": "Extiende la duración de aturdimiento por la ruptura de la defensa en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10",
+        "Text": "Reduce el valor máximo de salud en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20",
+        "Text": "Reduce el valor máximo de salud en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30",
+        "Text": "Reduce el valor máximo de salud en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40",
+        "Text": "Reduce el valor máximo de salud en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50",
+        "Text": "Reduce el valor máximo de salud en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60",
+        "Text": "Reduce el valor máximo de salud en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005",
+        "Text": "Reduce el máx. de medidor de equipo en <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10",
+        "Text": "Reduce el daño infligido a la defensa en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20",
+        "Text": "Reduce el daño infligido a la defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30",
+        "Text": "Reduce el daño infligido a la defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40",
+        "Text": "Reduce el daño infligido a la defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50",
+        "Text": "Reduce el daño infligido a la defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_60",
+        "Text": "Reduce el daño infligido a la defensa en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10",
+        "Text": "Reduce el daño infligido en (XCH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20",
+        "Text": "Reduce el daño infligido en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30",
+        "Text": "Reduce el daño infligido en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40",
+        "Text": "Reduce el daño infligido en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50",
+        "Text": "Reduce el daño infligido en (XG) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_60",
+        "Text": "Reduce el daño infligido en (XXG) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10",
+        "Text": "Reduce el daño infligido en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20",
+        "Text": "Reduce el daño infligido en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30",
+        "Text": "Reduce el daño infligido en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40",
+        "Text": "Reduce el daño infligido en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50",
+        "Text": "Reduce el daño infligido en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_60",
+        "Text": "Reduce el daño infligido en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_10",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_20",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_30",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_40",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_50",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0010_60",
+        "Text": "Reduce el daño que inflige el Ritual de energía madita/Ritual de herramienta maldita en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_60",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10",
+        "Text": "Aumenta el consumo del medidor de carrera en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20",
+        "Text": "Aumenta el consumo del medidor de carrera en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30",
+        "Text": "Aumenta el consumo del medidor de carrera en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40",
+        "Text": "Aumenta el consumo del medidor de carrera en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50",
+        "Text": "Aumenta el consumo del medidor de carrera en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_60",
+        "Text": "Aumenta el consumo del medidor de carrera en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10",
+        "Text": "Reduce la altura del salto en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20",
+        "Text": "Reduce la altura del salto en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30",
+        "Text": "Reduce la altura del salto en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40",
+        "Text": "Reduce la altura del salto en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50",
+        "Text": "Reduce la altura del salto en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_60",
+        "Text": "Reduce la altura del salto en (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10",
+        "Text": "Extiende la duración del aturdimiento en (XCH) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20",
+        "Text": "Extiende la duración del aturdimiento en (CH) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30",
+        "Text": "Extiende la duración del aturdimiento en (M) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40",
+        "Text": "Extiende la duración del aturdimiento en (G) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50",
+        "Text": "Extiende la duración del aturdimiento en (XG) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_60",
+        "Text": "Extiende la duración del aturdimiento en (XXG) después dar un paso."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física en (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física en (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física en (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física en (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física en (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0017",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018",
+        "Text": "Reduce el nivel máx. de energía maldita/valor de nivel de fuerza física en <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020",
+        "Text": "Limita el uso de defensa a <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023",
+        "Text": "Limita el uso del ataque conjunto a <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026",
+        "Text": "Solo puedes dar pasos <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028",
+        "Text": "Limita el uso de salto a <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029",
+        "Text": "No se puede usar salto."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030",
+        "Text": "Limita el aumento de nivel de energía maldita/fuerza física a <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032",
+        "Text": "Elimina una oleada en <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) desde el inicio de la batalla o te incapacitarán."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033",
+        "Text": "Te incapacitarán si el nivel de energía maldita/fuerza física está en 1 <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) después de iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034",
+        "Text": "Derrota a un enemigo en <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) desde el inicio de la batalla o te incapacitarán."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035",
+        "Text": "Al incapacitarte, fallarás la misión."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036",
+        "Text": "Te incapacitarás después de incurrir en una penalización de Contrato vinculante <DYN=VALUE>[ABS,FULL_WIDTH] vez/veces."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039",
+        "Text": "Reduce la velocidad de movimiento del enemigo a la mitad."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_10",
+        "Text": "Reduce el medidor de carrera en (XCH) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_20",
+        "Text": "Reduce el medidor de carrera en (CH) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_30",
+        "Text": "Reduce el medidor de carrera en (M) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40",
+        "Text": "Reduce el medidor de carrera en (G) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_50",
+        "Text": "Reduce el medidor de carrera en (XG) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_60",
+        "Text": "Reduce el medidor de carrera en (XXG) cada vez que te ataquen."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0041",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042",
+        "Text": "Reduce la salud de forma gradual."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043",
+        "Text": "Reduce a la mitad el daño infligido cada <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) desde el inicio de la batalla."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de incapacitarte cuando recibes un ataque conjunto."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30",
+        "Text": "Recibe (M) de daño en rebote contra el muro."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046",
+        "Text": "No se puede correr."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0047",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física en <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]%."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048",
+        "Text": "Reduce a la mitad el valor máximo de salud."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_10",
+        "Text": "Recibir daño adicional cuando te atacan (XCH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_20",
+        "Text": "Recibir daño adicional cuando te atacan (CH)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30",
+        "Text": "Recibir daño adicional cuando te atacan (M)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_40",
+        "Text": "Recibir daño adicional cuando te atacan (G)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_50",
+        "Text": "Recibir daño adicional cuando te atacan (XG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_60",
+        "Text": "Recibir daño adicional cuando te atacan (XXG)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050",
+        "Text": "Reduce el medidor de equipo en <DYN=VALUE>[ABS,FULL_WIDTH] adicional cuando te derrotan."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051",
+        "Text": "EXP/<img id=\"Money_0001\"/> puntos Juju reducidos en <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH]% después de fallar la misión."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052",
+        "Text": "Queda incapacitado al ser atacado."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053",
+        "Text": "Se vuelve incapaz de correr o saltar cuando no está al máximo de salud."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054",
+        "Text": "Los <img id=\"Money_0001\"/> puntos Juju se reducen en un <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % tras fallar una misión."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055",
+        "Text": "Al principio de una batalla, el daño infligido se reduce en un <DYN=VALUE2>[ABS,RATE_TO_PCT,FULL_WIDTH] % durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0056",
+        "Text": "La salud máxima se reduce en un <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] %."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057",
+        "Text": "Se vuelve incapaz de hacer pasos, saltar y correr."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058",
+        "Text": "El daño recibido aumenta en x<DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059": {
+        "ID": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059",
+        "Text": "La EXP se reduce en un <DYN=VALUE>[ABS,RATE_TO_PCT,FULL_WIDTH] % tras fallar una misión."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10",
+        "Text": "Aumenta la salud máxima en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20",
+        "Text": "Aumenta la salud máx. en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30",
+        "Text": "Aumenta la salud máxima en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40",
+        "Text": "Aumenta la salud máxima en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50",
+        "Text": "Aumenta la salud máxima en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_60",
+        "Text": "Aumenta la salud máxima en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20",
+        "Text": "Aumenta la cantidad del medidor de carrera en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30",
+        "Text": "Aumenta la cantidad del medidor de carrera en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40",
+        "Text": "Aumenta la cantidad del medidor de carrera en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_60",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10",
+        "Text": "Aumenta el valor de defensa en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20",
+        "Text": "Aumenta el valor de defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30",
+        "Text": "Aumenta el valor de defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40",
+        "Text": "Aumenta el valor de defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50",
+        "Text": "Aumenta el valor de defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_60",
+        "Text": "Aumenta el valor de defensa en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0004": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004",
+        "Text": "<DYN=VALUE2>[RATE_TO_PCT,FULL_WIDTH] % de recuperación de salud cuando esta cae por debajo del <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % (una vez)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10",
+        "Text": "Aumenta el daño infligido en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20",
+        "Text": "Aumenta el daño infligido en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30",
+        "Text": "Aumenta el daño infligido en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40",
+        "Text": "Aumenta el daño infligido en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50",
+        "Text": "Aumenta el daño infligido en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0006": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006",
+        "Text": "Incrementa el aumento de energía maldita/potenciar fuerza física en (XG) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) cuando inicia la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10",
+        "Text": "Aumenta el daño infligido a la defensa en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20",
+        "Text": "Aumenta el daño infligido a la defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30",
+        "Text": "Aumenta el daño infligido a la defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40",
+        "Text": "Aumenta el daño infligido a la defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50",
+        "Text": "Aumenta el daño infligido a la defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_60",
+        "Text": "Aumenta el daño infligido a la defensa en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_60",
+        "Text": "Aumenta la cantidad de daño del ataque conjunto en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_60",
+        "Text": "Aumenta la cantidad de daño del movimiento del despertar en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_60",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10",
+        "Text": "Aumenta la recuperación del medidor de carrera en (XCH) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20",
+        "Text": "Aumenta la recuperación del medidor de carrera en (CH) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30",
+        "Text": "Aumenta la recuperación del medidor de carrera en (M) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40",
+        "Text": "Aumenta la recuperación del medidor de carrera en (G) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50",
+        "Text": "Aumenta la recuperación del medidor de carrera en (XG) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_60",
+        "Text": "Aumenta la recuperación del medidor de carrera en (XXG) al saltar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_60",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20",
+        "Text": "Aumenta el daño que infligen el Ritual de energía maldita/Ritual de herramienta maldita a la defensa en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30",
+        "Text": "Aumenta el daño que infligen el Ritual de energía maldita/Ritual de herramienta maldita a la defensa en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40",
+        "Text": "Aumenta el daño que infligen el Ritual de energía maldita/Ritual de herramienta maldita a la defensa en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50",
+        "Text": "Aumenta el daño que infligen el Ritual de energía maldita/Ritual de herramienta maldita a la defensa en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10",
+        "Text": "Aumenta el daño infligido en (XCH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20",
+        "Text": "Aumenta el daño infligido en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30",
+        "Text": "Aumenta el daño infligido en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40",
+        "Text": "Aumenta el daño infligido en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50",
+        "Text": "Aumenta el daño infligido en (XG) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_60",
+        "Text": "Aumenta el daño infligido en (XXG) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al iniciar la batalla."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de oportunidad para que los aliados recuperen salud en (XCH) al asestar un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de oportunidad para que los aliados recuperen salud en (CH) al asestar un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0019": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para recuperación de salud completa con una defensa perfecta."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0020": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para aumento adicional de energía maldita/potenciar fuerza física con una Bonificación de cooperación."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0021": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de que aliados obtengan aumento de energía maldita/potenciar fuerza física extra al derrotar un enemigo"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0022": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de cancelar el daño al recibir un ataque."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física durante una carrera en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física durante una carrera en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física durante una carrera en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física durante una carrera en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física durante una carrera en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de aumentar el daño infligido en (XCH) durante un ataque conjunto exitoso."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de aumentar el daño infligido en (CH) durante un ataque conjunto exitoso."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0025": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0025",
+        "Text": "Llena al máximo los medidores de energía maldita/fuerza física y detén el consumo del medidor."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0026": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0026",
+        "Text": "Entra al estado duradero al realizar Ritual en combo/Ritual de extracción "
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60",
+        "Text": "Aumenta el daño que infligen los aliados en (XXG) tras derrotar al enemigo."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0029": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0029",
+        "Text": "Derrota a cualquier rival que reciba el impacto de tu movimiento del despertar."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0031": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0031",
+        "Text": ""
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0032": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0032",
+        "Text": "Recuperación de salud total para todos los aliados al hacer un ataque conjunto exitoso."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0033": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0033",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de recuperación de la salud de todos los aliados al tener una defensa perfecta exitosa."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_10",
+        "Text": "Aumenta el daño que infligen todos los aliados en (XCH) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_20",
+        "Text": "Aumenta el daño que infligen todos los aliados en (CH) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_30",
+        "Text": "Aumenta el daño que infligen todos los aliados en (M) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_40",
+        "Text": "Aumenta el daño que infligen todos los aliados en (G) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_50",
+        "Text": "Aumenta el daño que infligen todos los aliados en (XG) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60",
+        "Text": "Aumenta el daño que infligen todos los aliados en (XXG) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0035": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0035",
+        "Text": "Recupera salud según el daño infligido."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0037": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0037",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH] veces a la salud de todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0038": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0038",
+        "Text": "Todos los aliados se vuelven inmunes a la ruptura de defensa."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0039": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0039",
+        "Text": "El medidor de carrera de todos los aliados ya no disminuirá."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_10",
+        "Text": "Aumenta el daño que infligen los aliados en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_20",
+        "Text": "Aumenta el daño que infligen los aliados en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_30",
+        "Text": "Aumenta el daño que infligen los aliados en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_40",
+        "Text": "Aumenta el daño que infligen los aliados en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_50",
+        "Text": "Aumenta el daño que infligen los aliados en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60",
+        "Text": "Aumenta el daño que infligen los aliados en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041",
+        "Text": "<DYN=VALUE>[ABS,FULL_WIDTH] de aumento de energía maldita/potenciar fuerza física para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_00",
+        "Text": "Doble aumento de energía maldita/mejora de fuerza física para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_10",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (XCH) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_20",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (CH) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_30",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (M) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_40",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (G) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_50",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (XG) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041_60",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (XXG) para todos los aliados."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0042": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0042",
+        "Text": "Aumenta el máximo del medidor de equipo en <DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0043": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0043",
+        "Text": "Evita que el medidor de equipo disminuya (solo una vez)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0044": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0044",
+        "Text": "EXP obtenida/<img id=\"Money_0001\"/> puntos Juju aumentados en <DYN=VALUE>[ABS,FULL_WIDTH]x después de completar la misión."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_10",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_20",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_30",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_40",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60",
+        "Text": "Cuando la salud está llena, el daño infligido y la recuperación de energía maldita/fuerza física aumentan en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0046": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0046",
+        "Text": "Los <img id=\"Money_0001\"/> puntos Juju aumentan en x<DYN=VALUE>[ABS,FULL_WIDTH] tras completar una misión."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0047": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0047",
+        "Text": "El nivel de energía maldita está al máximo."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0048": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0048",
+        "Text": "Al principio de la batalla, el daño infligido aumenta en x<DYN=VALUE>[ABS,FULL_WIDTH]x durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0049": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0049",
+        "Text": "El daño infligido aumenta en x<DYN=VALUE>[ABS,FULL_WIDTH]."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0050": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0050",
+        "Text": "El nivel de energía maldita está al máximo y el daño infligido aumenta en (XL)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_10",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (XCH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_20",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (CH)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (M)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_40",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (G)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_50",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (XG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_60",
+        "Text": "La energía maldita/fuerza física adicional aumenta gradualmente en (XXG)."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0052": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0052",
+        "Text": "La EXP obtenida aumenta en x<DYN=VALUE>[ABS,FULL_WIDTH] tras completar una misión."
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_10",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (XCH)"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_20",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (CH)"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (M)"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_40",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (G)"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_50",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (XG)"
+      },
+      "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_60",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (XXG)"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0001": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0001",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para aumento de energía maldita/potenciar fuerza física adicional cuando ocurra una Bonificación de cooperación."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física en (CH) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física en (M) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0002_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar energía maldita/fuerza física en (G) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_20",
+        "Text": "Aumenta el daño infligido a la defensa con Ritual en combo/Ritual de extracción en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_30",
+        "Text": "Aumenta el daño infligido a la defensa con Ritual en combo/Ritual de extracción en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0003_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0003_40",
+        "Text": "Aumenta el daño infligido a la defensa con Ritual en combo/Ritual de extracción en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la velocidad de movimiento del enemigo en (CH) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la velocidad de movimiento del enemigo en (M) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0004_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la velocidad de movimiento del enemigo en (G) cuando se asesta un Ritual en combo/Ritual de extracción."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_20",
+        "Text": "Reduce el tiempo de activación de la Extensión de dominio en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_30",
+        "Text": "Reduce el tiempo de activación de la Extensión de dominio en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0005_40",
+        "Text": "Reduce el tiempo de activación de la Extensión de dominio en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_10",
+        "Text": "Aumenta el daño infligido en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_20",
+        "Text": "Aumenta el daño infligido en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_30",
+        "Text": "Aumenta el daño infligido en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_40",
+        "Text": "Aumenta el daño infligido en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_50",
+        "Text": "Aumenta el daño infligido en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0007_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0007_60",
+        "Text": "Aumenta el daño infligido en (XXG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0008": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0008",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar por completo la energía maldita/fuerza física cuando derrotas a un enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_10",
+        "Text": "Obtén energía maldita/fuerza física adicional (XCH)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_20",
+        "Text": "Obtén energía maldita/fuerza física adicional (CH)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_30",
+        "Text": "Obtén energía maldita/fuerza física adicional (M)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_40",
+        "Text": "Obtén energía maldita/fuerza física adicional (G)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_50",
+        "Text": "Obtén energía maldita/fuerza física adicional (XG)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0009_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0009_60",
+        "Text": "Obtén energía maldita/fuerza física adicional (XXG)\nen una ruptura de defensa del enemigo."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_10",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física del enemigo en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_20",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_30",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_40",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0013_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0013_50",
+        "Text": "Reduce el aumento de energía maldita/mejora de fuerza física del enemigo en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_20",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_30",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0014_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0014_40",
+        "Text": "Reduce la velocidad de movimiento del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_20",
+        "Text": "Reduce la cantidad del medidor de carrera del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_30",
+        "Text": "Reduce la cantidad del medidor de carrera del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0015_40",
+        "Text": "Reduce la cantidad del medidor de carrera del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_20",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_30",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0016_40",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_20",
+        "Text": "Reduce el valor de defensa del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_30",
+        "Text": "Reduce el valor de defensa del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0017_40",
+        "Text": "Reduce el valor de defensa del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_20",
+        "Text": "Posibilidad de tropezar cuando te ataca un enemigo (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_30",
+        "Text": "Posibilidad de tropezar cuando te ataca un enemigo (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0018_40",
+        "Text": "Posibilidad de tropezar cuando te ataca un enemigo (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_20",
+        "Text": "Aumenta la salud máxima en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_30",
+        "Text": "Aumenta la salud máxima en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_40",
+        "Text": "Aumenta la salud máxima en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0020_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0020_50",
+        "Text": "Aumenta la salud máxima en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_20",
+        "Text": "Recuperación gradual de salud de (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_30",
+        "Text": "Recuperación gradual de salud de (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0021_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0021_40",
+        "Text": "Recuperación gradual de salud de (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_20",
+        "Text": "Aumenta el daño infligido en (CH) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_30",
+        "Text": "Aumenta el daño infligido en (M) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_40",
+        "Text": "Aumenta el daño infligido en (G) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_50",
+        "Text": "Aumenta el daño infligido en (XG) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0023_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0023_60",
+        "Text": "Aumenta el daño infligido en (XXG) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_20",
+        "Text": "Aumenta el daño que inflige el ataque conjunto en (CH) cuando la salud está al <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_30",
+        "Text": "Aumenta el daño que inflige el ataque conjunto en (M) cuando la salud está al <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0024_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0024_40",
+        "Text": "Aumenta el daño que inflige el ataque conjunto en (G) cuando la salud está al <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_20",
+        "Text": "Aumenta la cantidad del medidor de carrera en (CH) cuando la salud cae a <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_30",
+        "Text": "Aumenta la cantidad del medidor de carrera en (M) cuando la salud cae a <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_40",
+        "Text": "Aumenta la cantidad del medidor de carrera en (G) cuando la salud cae a <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_50",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XG) cuando la salud cae a <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0025_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0025_60",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XXG) cuando la salud cae a <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_20",
+        "Text": "Recupera salud en (CH) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % (solo una vez)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_30",
+        "Text": "Recupera salud en (M) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % (solo una vez)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0026_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0026_40",
+        "Text": "Recupera salud en (G) cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % (solo una vez)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_20",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_30",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_40",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0027_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0027_50",
+        "Text": "Aumento de energía maldita/mejora de fuerza física en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir energía maldita/fuerza física en (CH) cuando se asesta un Ritual de energía maldita/Ritual de herramienta maldita."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir energía maldita/fuerza física en (M) cuando se asesta un Ritual de energía maldita/Ritual de herramienta maldita."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0028_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0028_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir energía maldita/fuerza física en (G) cuando se asesta un Ritual de energía maldita/Ritual de herramienta maldita."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_20",
+        "Text": "Aumenta el daño infligido a la defensa por Ritual de energía maldita/Ritual de herramienta maldita en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_30",
+        "Text": "Aumenta el daño infligido a la defensa por Ritual de energía maldita/Ritual de herramienta maldita en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0029_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0029_40",
+        "Text": "Aumenta el daño infligido a la defensa por Ritual de energía maldita/Ritual de herramienta maldita en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_20",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_30",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_40",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0030_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0030_50",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_20",
+        "Text": "Reduce el daño recibido en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_30",
+        "Text": "Reduce el daño recibido en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0031_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0031_40",
+        "Text": "Reduce el daño recibido en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0033_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0033_00",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir a la mitad el daño recibido."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0035": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0035",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para aumento de energía maldita/potenciar fuerza física adicional cuando evitan tus ataques."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_20",
+        "Text": "Aumenta el daño infligido del ataque conjunto en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_30",
+        "Text": "Aumenta el daño infligido del ataque conjunto en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0036_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0036_40",
+        "Text": "Aumenta el daño infligido del ataque conjunto en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_20",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (CH) cuando te debilitas."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_30",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (M) cuando te debilitas."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_40",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (G) cuando te debilitas."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0037_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0037_50",
+        "Text": "Aumenta la velocidad de recuperación de energía maldita/fuerza física en (XG) cuando te debilitas."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_20",
+        "Text": "Aumenta el valor de defensa en (CH) cuando el medidor de equipo cae a 3 o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_30",
+        "Text": "Aumenta el valor de defensa en (M) cuando el medidor de equipo cae a 3 o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0038_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0038_40",
+        "Text": "Aumenta el valor de defensa en (G) cuando el medidor de equipo cae a 3 o menos."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_20",
+        "Text": "Recupera salud en (CH) según el daño infligido."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_30",
+        "Text": "Recupera salud en (M) según el daño infligido."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0039_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0039_40",
+        "Text": "Recupera salud en (G) según el daño infligido."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_10",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (XCH) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al asestar un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_20",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (CH) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al asestar un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_30",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (M) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al asestar un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0040_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0040_40",
+        "Text": "Reduce la velocidad de recuperación del medidor de carrera del enemigo en (G) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al asestar un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0041": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0041",
+        "Text": "Hace que el enemigo no pueda correr durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) al recibir un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la energía maldita/fuerza física del enemigo al asestar un golpe (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la energía maldita/fuerza física del enemigo al asestar un golpe (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0042_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0042_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir la energía maldita/fuerza física del enemigo al asestar un golpe (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0043": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0043",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de obtener energía maldita/fuerza física adicional al asestar un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0044": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0044",
+        "Text": "El medidor de carrera no se consume durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) después de recibir un golpe."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0045": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0045",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para aumento de energía maldita/potenciar fuerza física adicional durante una carrera."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para recuperar energía maldita/fuerza física en (CH) durante una carrera."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para recuperar energía maldita/fuerza física en (M) durante una carrera."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0046_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0046_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad para recuperar energía maldita/fuerza física en (G) durante una carrera."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_10",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_20",
+        "Text": "Aumenta la cantidad del medidor de carrera en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_30",
+        "Text": "Aumenta la cantidad del medidor de carrera en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_40",
+        "Text": "Aumenta la cantidad del medidor de carrera en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_50",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0047_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0047_60",
+        "Text": "Aumenta la cantidad del medidor de carrera en (XXG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_10",
+        "Text": "Reduce el consumo del medidor de carrera en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_20",
+        "Text": "Reduce el consumo del medidor de carrera en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_30",
+        "Text": "Reduce el consumo del medidor de carrera en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_40",
+        "Text": "Reduce el consumo del medidor de carrera en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0048_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0048_50",
+        "Text": "Reduce el consumo del medidor de carrera en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_20",
+        "Text": "Aumenta la velocidad de recuperación del medidor de carrera en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_30",
+        "Text": "Aumenta la velocidad de recuperación del medidor de carrera en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0049_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0049_40",
+        "Text": "Aumenta la velocidad de recuperación del medidor de carrera en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar salud en (CH) con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar salud en (M) con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0050_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0050_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar salud en (G) con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_20",
+        "Text": "Aumenta el daño infligido a defensa en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_30",
+        "Text": "Aumenta el daño infligido a defensa en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0051_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0051_40",
+        "Text": "Aumenta el daño infligido a defensa en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0052": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0052",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_10",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0053_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0053_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de anular el daño recibido en (XXG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_20",
+        "Text": "Aumenta el valor de defensa en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_30",
+        "Text": "Aumenta el valor de defensa en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0054_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0054_40",
+        "Text": "Aumenta el valor de defensa en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_20",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_30",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0055_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0055_40",
+        "Text": "Reduce la velocidad de recuperación de energía maldita/fuerza física del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_20",
+        "Text": "Reduce la salud máx. del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_30",
+        "Text": "Reduce la salud máx. del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0056_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0056_40",
+        "Text": "Reduce la salud máx. del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_20",
+        "Text": "Reduce el daño que inflige el enemigo (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_30",
+        "Text": "Reduce el daño que inflige el enemigo (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0057_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0057_40",
+        "Text": "Reduce el daño que inflige el enemigo (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0058": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0058",
+        "Text": "Impide la recuperación del medidor de carrera del enemigo durante <DYN=VALUE>[FULL_WIDTH] segundo(s) al infligir daño."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_10",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_20",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_30",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_40",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_50",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0059_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0059_60",
+        "Text": "Reduce el medidor de carrera del enemigo al infligir daño en (XXG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_10",
+        "Text": "Aumenta la distancia de los pasos en (XCH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_20",
+        "Text": "Aumenta la distancia de los pasos en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_30",
+        "Text": "Aumenta la distancia de los pasos en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_40",
+        "Text": "Aumenta la distancia de los pasos en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_50",
+        "Text": "Aumenta la distancia de los pasos en (XG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0060_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0060_60",
+        "Text": "Aumenta la distancia de los pasos en (XXG)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_20",
+        "Text": "Aumenta el máx. de salud de todos los aliados en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_30",
+        "Text": "Aumenta el máx. de salud de todos los aliados en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0061_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0061_40",
+        "Text": "Aumenta el máx. de salud de todos los aliados en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_20",
+        "Text": "Aumenta el valor de defensa de todos los aliados en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_30",
+        "Text": "Aumenta el valor de defensa de todos los aliados en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0062_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0062_40",
+        "Text": "Aumenta el valor de defensa de todos los aliados en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_20",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (CH)"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_30",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (M)"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0063_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0063_40",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (G)"
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0064_00": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0064_00",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir a la mitad el daño recibido de todos los aliados."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir a la mitad el daño recibido en (G) de todos los aliados."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_50",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir el daño recibido en (XG) de todos los aliados."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0065_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0065_60",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de reducir el daño recibido en (XXG) de todos los aliados."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_20",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar (CH) de salud de todos los aliados con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_30",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar (M) de salud de todos los aliados con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0066_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0066_40",
+        "Text": "<DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % de probabilidad de recuperar (G) de salud de todos los aliados con una defensa perfecta."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_20",
+        "Text": "Recupera (CH) de salud de todos los aliados según el daño que causaste."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_30",
+        "Text": "Recupera (M) de salud de todos los aliados según el daño que causaste."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_0067_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_0067_40",
+        "Text": "Recupera (G) de salud de todos los aliados según el daño que causaste."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1000": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1000",
+        "Text": "Activa el efecto cuando la salud cae por debajo de <DYN=VALUE>[RATE_TO_PCT,FULL_WIDTH] % o menos (solo una vez)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_20",
+        "Text": "Recuperación de salud de (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_30",
+        "Text": "Recuperación de salud de (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1001_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1001_40",
+        "Text": "Recuperación de salud de (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_20",
+        "Text": "Reduce el daño recibido en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_30",
+        "Text": "Reduce el daño recibido en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1002_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1002_40",
+        "Text": "Reduce el daño recibido en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_20",
+        "Text": "Recupera energía maldita/fuerza física en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_30",
+        "Text": "Recupera energía maldita/fuerza física en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1004_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1004_40",
+        "Text": "Recupera energía maldita/fuerza física en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_20",
+        "Text": "Recupera el medidor de carrera en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_30",
+        "Text": "Recupera el medidor de carrera en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1005_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1005_40",
+        "Text": "Recupera el medidor de carrera en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_20",
+        "Text": "Aumenta el daño infligido en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_30",
+        "Text": "Aumenta el daño infligido en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1006_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1006_40",
+        "Text": "Aumenta el daño infligido en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_20",
+        "Text": "Aumenta la energía maldita/fuerza física durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_30",
+        "Text": "Aumenta la energía maldita/fuerza física durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1007_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1007_40",
+        "Text": "Aumenta la energía maldita/fuerza física durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s) (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1010_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1010_10",
+        "Text": "Recupera gradualmente salud en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1011": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1011",
+        "Text": "Recupera gradualmente salud en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1012": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1012",
+        "Text": "Recupera gradualmente salud en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015",
+        "Text": "Entra en estado duradero por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_10": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_10",
+        "Text": "Duplica el aumento de Bonificación de cooperación por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_30",
+        "Text": "Aumenta la velocidad de recuperación del medidor de carrera por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_40",
+        "Text": "Reduce el daño que inflige el enemigo por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_50": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_50",
+        "Text": "Evita que la energía maldita/fuerza física del enemigo aumente durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1015_60": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1015_60",
+        "Text": "Detiene la reducción del medidor de carrera por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_20",
+        "Text": "Reduce la energía maldita/fuerza física del enemigo en (CH)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_30",
+        "Text": "Reduce la energía maldita/fuerza física del enemigo en (M)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1016_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1016_40",
+        "Text": "Reduce la energía maldita/fuerza física del enemigo en (G)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_20",
+        "Text": "Reduce gradualmente la salud del enemigo en (CH) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_30",
+        "Text": "Reduce gradualmente la salud del enemigo en (M) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1017_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1017_40",
+        "Text": "Reduce gradualmente la salud del enemigo en (G) por <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_20": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_20",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (CH) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_30": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_30",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (M) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      },
+      "BTL_ITEM_BUFF_MESSAGE_1018_40": {
+        "ID": "BTL_ITEM_BUFF_MESSAGE_1018_40",
+        "Text": "La salud de todos los aliados se recupera gradualmente en (G) durante <DYN=VALUE>[ABS,FULL_WIDTH] segundo(s)."
+      }
+    }
+  }
+]

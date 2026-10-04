@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_It",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "Un combattente che colpisce da distanza ravvicinata e che dimostra grande forza fisica.\nSconfiggi i nemici a distanza ravvicinata, scegliendo gli attacchi più adatti alla situazione.\n\n• Il suo potenziale \"Equipaggiamento potente\" gli permette di correre più facilmente a seconda dell'aumento del suo livello di energia malefica, permettendoti di avvicinarti per gli scontri corpo a corpo.\n• Cogli i nemici alla sprovvista con la tecnica con energia malefica Pugno Divergente e legala al Colpo in combo per danni massicci!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Raffica in mischia"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Montante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Calcio rotante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "Un attacco ravvicinato che scatena un'onda d'urto orizzontale in avanti."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Calcio in basso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "Un attacco ravvicinato che scatena un'onda d'urto verticale in avanti."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Calcio volante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "Un attacco ravvicinato che scatena un calcio volante dinamico.\nDiventi resistente durante l'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Lancio della pietra"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "Un attacco a distanza che lancia una pietra frantumata con un calcio.\nRallenta i nemici colpiti dall'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Pugno divergente/Lampo nero"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Livello energia malefica 1: Attacco ravvicinato che provoca due impatti con un colpo solo.\nLivello energia malefica 2: Aumenta i danni inflitti.\nLivello energia malefica 3: Diventa Lampo Nero al livello energia malefica 3.\nAttacco ravvicinato che infligge danni ingenti con un colpo potentissimo.\nQuesto attacco non può essere bloccato con una parata."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Colpo in combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "Un attacco ravvicinato dopo una serie di calci rotanti.\nIl numero di attacchi cambia in base al tuo livello energia malefica.\nLivello energia malefica 2: Cinque colpi aggiuntivi.\nLivello energia malefica 3: Colpo potente aggiuntivo con la mano destra."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Pugno divergente"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva con un colpo al corpo.\nCon la concentrazione al massimo, scateni quattro Lampi Neri e infliggi danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "Equipaggiamento potente"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "Si attiva progressivamente quando il livello energia malefica aumenta.\nRiduce il ritardo prima e dopo uno scatto.\nRiduce il consumo dell'indicatore scatto."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "Un assalitore che attacca indistintamente alleati e nemici a distanza ravvicinata in un'ampia area.\nI tuoi potenti attacchi fanno volare perfino gli alleati e ti conferiscono il dominio del campo di battaglia.\nNonostante questi attacchi ti lascino allo scoperto, ti rendono anche invulnerabile, quindi cerca di sfruttare ogni possibilità di passare all'attacco!\n\n• Il suo potenziale, \"Inversione della tecnica\", permette di recuperare i danni subiti contrattaccando, perciò resta sull'offensiva.\n• Il potenziale \"Intimidazione\", che si attiva al livello energia malefica 3, ti permette di congelare i nemici nelle vicinanze quando attacchi.\nImpedisci agli avversari di fare qualsiasi mossa, poi concatena in un attacco devastante!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Falciata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "Un attacco ravvicinato che scatena un potente fendente in avanti.\nDiventi invulnerabile prima dell'attacco.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando, puoi concatenare altre mosse in una tecnica con energia malefica."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Pugno destro"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "Un attacco a distanza che ti fa muovere subito verso il nemico per eseguire uno slancio.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Calcio verticale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per poi scagliarlo a terra.\nGenera un'onda d'urto dal punto di impatto del nemico.\nPuoi concatenare altre mosse a questo attacco."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Timbro"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "Un attacco ravvicinato in cui dai un calcio al terreno per generare un'onda d'urto.\nSe lo esegui a mezz'aria, ti schianti velocemente a terra.\nDiventi invulnerabile durante l'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Respingere"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Ti muovi subito verso il nemico e lo respingi con un braccio.\nLivello energia malefica 3: Intimidazione si attiva prima dell'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Martello"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Ti muovi subito verso il nemico e lo colpisci alle spalle.\nLivello energia malefica 3: Intimidazione si attiva prima dell'attacco.\nPuoi concatenare altre mosse a questo attacco."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Dorso della mano/Spezza"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Livello energia malefica 1: Attacco ravvicinato con il dorso della mano.\nLivello energia malefica 2: Diventa Demolizione al livello energia malefica 2.\nAttacco ravvicinato con un fendente che fa a fette il nemico davanti a te.\nLivello energia malefica 3: Aumenta il numero di fendenti."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Calcio/ <img id=\"Symbol_0002\"/> Apri"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Livello Energia Malefica 1: Attacco ravvicinato con calcio.\nLivello Energia Malefica 2: Diventa \"<img id=\"Symbol_0002\"/>\"\n\"Apri\" dal livello Energia Malefica 2.\nAttacco a distanza che carica una freccia infuocata, rilasciandola sotto forma di vortice gigantesco.\nSi può tenere premuto.\nLivello Energia Malefica 3: Espande l'area d'attacco e aumenta i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Fendente"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un fendente.\nEspandi il tuo dominio e colpisci il bersaglio senza sosta per infliggere danni ingenti.\nQuando il dominio si chiude, qualsiasi tecnica con energia malefica diventa temporaneamente un attacco di arti marziali."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Inversione della tecnica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "Si attiva al livello energia malefica 2 o superiore.\nRecuperi una porzione dei danni subiti quando infliggi danni a un nemico."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Intimidazione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "Si attiva al livello energia malefica 3.\nQuando esegui certi attacchi, chi si trova nelle vicinanze viene sopraffatto e non può agire."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "Re delle Maledizioni"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Diventa invulnerabile durante certi attacchi."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "Un maestro delle combo che attacca a distanza ravvicinata e che è specializzato negli attacchi coordinati con gli Shikigami.\nUsa il tuo Shikigami in base alle circostanze, sfruttandolo per l'attacco o per il supporto.\n\n• Evoca Nue o Cane di Giada: Totale con la tecnica delle Dieci Ombre per scatenare ulteriori attacchi dello Shikigami.\nPuoi ordinare al tuo Shikigami di attaccare da solo, permettendoti di colpire i nemici dalla distanza!\n• Il suo potenziale, \"Interpretazione della tecnica\", ti permette di controbattere con lo Shikigami quando subisci un assalto. Preparati ad attaccare senza pietà!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Doppio calcio rotante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una raffica di calci.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nAttiva un ulteriore attacco con uno Shikigami se ce n'è uno evocato."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Calcio in alto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Doppio attacco volante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nDiventi resistente durante l'attacco in salto."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Calcio volante a mezz'aria"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuando colpisce un nemico, lo sbatte a terra da mezz'aria con un calcio rotante.\nAttiva un ulteriore attacco con uno Shikigami se ce n'è uno evocato."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Rospo: Lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Evoca un rospo che distrugge l'area davanti a lui con la lingua.\nQuando colpisce un nemico lo lancia in alto.\nPuoi concatenare altre mosse a questo attacco.\nAttiva un ulteriore attacco con uno Shikigami se ce n'è uno evocato."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Rospo: Attrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Evoca un rospo che colpisce con la lingua in linea retta.\nAvvicina i nemici colpiti.\nPuoi concatenare altre mosse a questo attacco."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Tecnica delle Dieci Ombre"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Usa le ombre per evocare un partner Shikigami.\nMentre evochi uno Shikigami, l'energia malefica viene consumata continuamente.\nQuando Fushiguro attacca, in automatico lo fa anche lo Shikigami.\nPremi <img id=\"CursedEnergyAttack_1\"/> mentre evochi uno Shikigami per consumare energia malefica e ordinargli di attaccare.\nMentre usi altri comandi d'attacco puoi muoverti.\nPremi <img id=\"CursedEnergyAttack_1\"/> quando hai evocato uno Shikigami per ritirarlo.\nL'evocazione termina quando Fushiguro non ha più energia malefica a sufficienza.\nLivello energia malefica 1: Evoca Nue con <img id=\"CursedEnergyAttack_1\"/>.\nLivello energia malefica 2: Permette di evocare Totale con <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nLivello energia malefica 3: Rallenta i nemici colpiti da un attacco di Nue. Aumenta i danni inflitti da Totale."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Combo con Shikigami"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Esegui un attacco di squadra con il tuo Shikigami.\nLivello energia malefica 2: Aumenta i danni inflitti.\nSe eseguito quando non c'è uno Shikigami evocato, puoi evocare Totale.\nQuando Fushiguro attacca, lo Shikigami esegue automaticamente degli attacchi aggiuntivi.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti.\nQuando si attiva, Totale gira intorno al nemico."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Combo con Shikigami"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un calcio rotante all'indietro.\nDiffonde un'ombra che blocca i movimenti del nemico, poi infligge danni ingenti insieme al tuo Shikigami.\nQuando il dominio si chiude, non puoi usare nessuna tecnica con energia malefica per un periodo di tempo."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Interpretazione della tecnica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "Si attiva al livello energia malefica 3.\nFushiguro può guidare gli Shikigami anche quando è sotto attacco."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "Un'assalitrice che attacca dalla media distanza e che infligge ai nemici attacchi con Risonanza e Fermacapelli.\nMarchiare gli avversari per esercitare pressione è fondamentale per prendere iniziativa in qualsiasi battaglia.\n\n• Spirito del Fieno: Fermacapelli può essere disattivata in qualsiasi momento dopo aver sparato un chiodo, ma con il giusto tempismo sarà difficile per il nemico eseguire una parata.\n• Se il nemico si avvicina, non temere: cerca di mettere a segno Spirito del Fieno: Risonanza o una Tecnica dell'Estrazione.\n\nMarchiando il nemico puoi colpirlo da qualsiasi distanza, perciò approfittane per coglierlo continuamente di sorpresa!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Attacco con chiodo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "Un attacco a distanza che lancia più chiodi verso il nemico.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Raffica di chiodi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "Un attacco a distanza che lancia più chiodi verso il nemico."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Attacco ampio con chiodi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "Un attacco a media distanza che lancia un serie di chiodi."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "Doppio attacco con martello"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire due colpi con il martello."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Gran colpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "Un attacco ravvicinato con il martello mentre ti sposti in avanti."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\nSpara un chiodo infuso di Energia Malefica, infliggendo Fermacapelli a tutti i nemici che colpisce.\nSi può tenere premuto.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nAttiva Fermacapelli per infliggere danni a distanza.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Spirito del Fieno: Risonanza"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nInfligge l'effetto Risonanza prelevando una parte del nemico in caso di attacco diretto.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nAttiva Risonanza per infliggere danni a distanza.\nLivello energia malefica 2: Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Combo con chiodi"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva dopo un colpo con un chiodo infuso di energia malefica.\nInfondi energia malefica attraverso il chiodo a distanza, facendolo esplodere e infliggendo danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Prognosi"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Aumenta l'energia malefica ottenuta quando si attacca un nemico con Fermacapelli o con Risonanza."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "Un jolly di livello speciale che domina la scena con una tecnica inconsueta e con la sua incredibile padronanza delle arti marziali.\n\n• Il suo potenziale, \"Tecnica: Incantesimo del Minimo Infinito\", annulla qualsiasi attacco.\nLibera l'Infinito e scatenati!\n• Usa Prosecuzione della tecnica: Bagliore Blu per bloccare i movimenti dei nemici in fuga e Inversione della tecnica: Bagliore Rosso per tenere a distanza i nemici in avvicinamento.\nEspressione Immaginaria: Bagliore Viola è una potente tecnica che fagocita qualsiasi cosa.\n• Una volta attivata l'Espansione del Dominio: Vuoto Incommensurabile, ogni Tecnica con Energia Malefica si trasformerà in varianti speciali, dandoti una grandissima possibilità di assicurarti la vittoria!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Raffica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Colpo con ginocchio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Ti muovi subito verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Calcio rotante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Abbattimento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Ti muovi subito verso il nemico per lanciarlo con un calcio.\nDurante l'attacco, puoi concatenare altre mosse in un ulteriore attacco con schianto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Calcio in alto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo con un calcio.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Raffica di calci rotanti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Ti muovi subito verso il nemico per attaccarlo con una combo di calci.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in un ulteriore attacco con schianto."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Prosecuzione della tecnica: Bagliore Blu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Attira gli altri con la forza negativa incrementata della tecnica: Incantesimo del Minimo Infinito.\nSi può tenere premuto.\nUsa <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> per modificare il posizionamento.\nLivello energia malefica 2: Aumenta l'attrazione. Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente l'attrazione. Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Inversione della tecnica: Bagliore Rosso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Infondi energia positiva nella tecnica Minimo Infinito, ottenendo il potere di respingere.\nSi può tenere premuto.\nLivello energia malefica 2: Tempo di carica ridotto. Danni inflitti aumentati.\nLivello energia malefica 3: Tempo di carica ridotto ulteriormente. Danni inflitti aumentati ulteriormente."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Espressione Immaginaria: Bagliore Viola"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Livello energia malefica 3:\nFa scontrare l'infinito e la sua divergenza per scagliare un gigantesco frammento di materia immaginaria.\nSi muove in linea retta, inghiottendo i nemici sulla sua strada.\nQuesta tecnica può essere mantenuta."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Combo a mezz'aria"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Resta in posizione ed espandi il dominio che attira gli altri nel Minimo Infinito.\nGli avversari vengono sopraffatti da informazioni infinite e non possono muoversi per un certo periodo di tempo.\nQuando il dominio si chiude, qualsiasi tecnica con energia malefica diventa temporaneamente un attacco di arti marziali."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Sei occhi"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Sempre attivo.\nTiene traccia dell'indicatore dell'energia malefica dell'avversario."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Tecnica Minimo Infinito"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Si può attivare consumando l'indicatore di energia malefica parando per un periodo di tempo dopo aver raggiunto il livello energia malefica 2 o superiore. \nL'infinito appare attorno a te e un selezionato numero di attacchi non ti colpirà."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Levitazione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Fluttua tenendo premuto il salto."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "Una rapida maestra delle combo che si muove agilmente e che è capace di sferrare combo impressionanti.\nInvece dell'energia malefica, Maki usa la sua forza fisica per attaccare con mosse temibili.\n\n• Il suo potenziale, \"Indicatore colpi\", aumenta la sua velocità di movimento man mano che continua ad attaccare.\nNon avere alcuna pietà: continua ad attaccare prima che il nemico capisca cosa l'ha colpito!\n• Eludi gli attacchi nemici con \"Blocco e contrattacco\".\nPuoi anche annullare i tuoi attacchi per concatenarli con altre mosse!\nCrea combo originali per annientare i tuoi nemici!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Frenesia di spade"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire un fendente con una spada lunga.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con strumento maledetto."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Calcio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un calcio.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Combo di spada: Fendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una combo rapida da tre colpi di fendenti e calci."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Combo di spada: Colpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per colpire con la spada lunga.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in un ulteriore lancio con calcio."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Lancio di arma nascosta"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "Un attacco a distanza che lancia armi nascoste."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Slancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo con la tua spada lunga.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in un ulteriore fendente a terra."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Blocco e contrattacco"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Eludi gli attacchi nemici con una schivata.\nUsala mentre attacchi per annullare la tua azione.\nSi attiva automaticamente se sei immobile o durante uno scatto.\n<img id=\"CursedEnergyAttack_1\"/>\nSchivata sul posto.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/> o <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nSchivata nella direzione comandata.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>\nCapriola in avanti.\nLivello forza fisica 2: Riduce il tempo necessario per muoversi.\nLivello forza fisica 3: Riduce ulteriormente il tempo necessario per muoversi."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Spada rotante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Ruota la spada lunga per eseguire una danza con la spada.\nLivello forza fisica 2: Aumenta il numero di attacchi.\nLivello forza fisica 3: Aumenta ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Triplo attacco a mezz'aria"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un fendente con una spada lunga.\nMetti a segno innumerevoli colpi con lo strumento maledetto di livello speciale Nuvola Vagante."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Patto Celeste: Dono Fisico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "Non ha energia malefica, ma possiede abilità fisiche eccezionali."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Ha un indicatore speciale che aumenta man mano che colpisci il nemico.\nQuando l'indicatore colpi aumenta, si verifica un incremento della velocità di attacco, di movimento e della distanza coperta da ogni passo.\nL'indicatore si riduce dopo un certo periodo di tempo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "Un assalitore speciale che si prende gioco dei nemici unendo le arti marziali leggere e la potenza della Lingua Diabolica.\nUsa la Lingua Diabolica per mantenere il nemico costantemente sotto pressione.\n\n• Gli attacchi con la Lingua Diabolica sono potenti, ma se li usi troppo sarai tu a subirne i danni.\n• Se le condizioni della tua gola peggiorano, puoi bere un po' di sciroppo per la tosse attivando il recupero delle sue funzioni.\n• \"Non muoverti\" e \"Distorciti\" sono potenti tecniche con energia malefica che fungono da contrattacchi. \n• La quantità di indicatore gola che consumi usando la Lingua Diabolica varia a seconda della differenza di livello tra te e il nemico. Non perderlo di vista e scatena un contrattacco devastante al momento giusto!\nControlla attentamente la differenza di livello dell'energia malefica prima di fare qualsiasi mossa!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Calcio in combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per infliggere una miriade di colpi.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Tornado di calci"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un calcio rotante.\nQuesto attacco non può essere bloccato da una parata. C'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Calcio verticale con capriola"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "Un attacco ravvicinato che sferra una serie di calci verticali durante la caduta."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Dose di sciroppo per la tosse"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Prendi lo sciroppo per la tosse per il recupero della resistenza della gola.\nDurante questa azione puoi muoverti. Non puoi usare lo scatto."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Frenesia/\"Spazza via\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Attacco ravvicinato che ti guida verso il nemico per scatenare un'inarrestabile combo che ha inizio con un calcio volante.\nQuesto attacco può concatenarsi diventando \"Spazza via\".\n\"Spazza via\"\nAttacco a media distanza con parole infuse di energia malefica per far volare i nemici davanti a te."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "\"Fermati\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "Un attacco a media distanza con parole infuse di energia malefica per immobilizzare i nemici."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "\"Cadi\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "Un attacco a media distanza con parole infuse di energia malefica per far cadere i nemici davanti a te.\nLivello energia malefica 2: Aumenta i danni.\nLivello energia malefica 3: Aumenta ulteriormente i danni."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "\"Non muoverti\"; \"Distorciti\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Assumi una posa difensiva, poi usi la Lingua Diabolica quando subisci un attacco da un nemico.\nDi' \"Non muoverti\" per fermare il nemico, poi \"Distorciti\" per infliggere danni.\nLivello energia malefica 2: Aumenta i danni.\nLivello energia malefica 3: Aumenta ulteriormente i danni."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "\"Esplodi\""
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un colpo con ginocchio.\nUsa \"Fermati\" per bloccare i movimenti del nemico, poi infliggi danni ingenti con \"Implodi\"."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Utilizzatore della Lingua Diabolica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "L'uso della Lingua Diabolica consuma uno speciale indicatore gola.\nIl consumo dell'indicatore gola varia a seconda della differenza di livello energia malefica tra te e chi viene colpito dalla Lingua Diabolica.\nQuando l'indicatore gola è basso, il ritardo di attivazione aumenta e ti autoinfliggi dei danni."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "Con questo combattente mutante che attacca a distanza ravvicinata, puoi volare come un panda e pungere come un... gorilla? \nPanda ha mosse che lo rendono resistente, prevenendo esitazioni e interruzioni di attacchi, perciò fanne buon uso!\n\n• In modalità gorilla sei sempre resistente e ti muovi più rapidamente.\nGli attacchi leggeri ti faranno il solletico, dunque scatenati pure contro il nemico!\n• I danni di Battito Ritmico sono irrefrenabili!\nDacci dentro, perfino contro i nemici abili nelle parate!"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "Doppietta di <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una raffica di pugni veloci.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "Colpo di <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "Triplo <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "Un attacco ravvicinato che scatena una combo di tre colpi mentre ti sposti in avanti."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "Spezza-<GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "Un attacco ravvicinato che porta in basso entrambe le mani durante la caduta.\nSchianta l'avversario a terra prima di scagliarlo via con l'onda d'urto."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "Fianco <GLO=GLS_NAME_CP_080>/ Montante <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "Un attacco ravvicinato con il posteriore di un panda.\nDiventi resistente durante l'attacco.\nModalità gorilla: Un attacco ravvicinato in cui tendi entrambe le braccia mentre corri per scagliare via il nemico."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "Scivolata di <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "Un attacco ravvicinato che esegue una scivolata in avanti dinamica.\nDiventi resistente durante l'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "Corsa di <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Infligge innumerevoli colpi veloci prima di scagliare via il nemico con forza.\nLivello energia malefica 2: Aumenta il numero di attacchi.\nLivello energia malefica 3: Aumenta ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " Modalità <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Può essere usata a qualsiasi livello quando l'energia malefica è al massimo.\nCambia il nucleo per attivare la modalità gorilla, diventare immune all'arretramento e infliggere danni con tutti gli attacchi.\n\"Battito Ritmico\" si attiva in modalità gorilla.\nL'energia malefica viene consumata continuamente, riportandoti in modalità panda quando si esaurisce."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": " Colpo <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un montante.\nDopo aver eseguito una serie di colpi in modalità gorilla, effettui un lancio con tutta la forza per infliggere danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Aiuto dalla sorellona"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "Quando sei sull'orlo della sconfitta, ti tiene in vita con salute ridotta."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Battito Ritmico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Gli attacchi in modalità <GLO=GLS_NAME_CP_081> possono infliggere danni anche se il nemico sta usando la parata.\nQuesti danni non possono infliggere un colpo di grazia."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "Questo stregone di livello 1 brandisce delle tecniche dagli effetti devastanti.\nDurante certe mosse, è possibile concatenarle con il giusto tempismo per attivare Rituale esoterico dei dieci segmenti e infliggere colpi critici!\nMantieni la calma, studia il nemico e cerca di mettere a segno un colpo potentissimo!\n\n• Che si tratti dell'abile Rituale esoterico dei dieci segmenti o della potente Combo in mischia di quarto livello, usa ogni Tecnica con Energia Malefica in base alle circostanze.\n• Il suo potenziale \"Rilascio Energia Malefica\" si attiva quando il tempo è quasi finito, aumentando la sua forza in modo considerevole.\nQuesto ex impiegato non ha tempo per gli straordinari!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "Doppio fendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per attaccarlo due volte con un machete.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Colpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire un affondo con il machete.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Colpo in alto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per colpire con il tuo machete verso l'alto.\nRipetendo ulteriormente lo stesso comando al momento giusto, infliggi un colpo critico."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Respinta con calcio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "Un attacco ravvicinato con un calcio rotante."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Frantumazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per far oscillare il tuo machete verso il basso con tutta la tua forza.\nRipetendo ulteriormente lo stesso comando al momento giusto, infliggi un colpo critico."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Attacco con onda d'urto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "Un attacco ravvicinato in cui colpisci il terreno con un pugno per generare un'onda d'urto.\nSe lo esegui a mezz'aria, ti schianti velocemente a terra."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "Un attacco ravvicinato che sfrutta il rapporto di 7:3 per creare un punto debole e infliggere danni ingenti.\nQuesta tecnica può essere mantenuta.\nRipetendo ulteriormente lo stesso comando al momento giusto infliggi un colpo critico.\nLivello energia malefica 2: Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Combo in mischia da quattro colpi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "Un attacco ravvicinato che infonde il pugno e il machete di energia malefica e colpisce con entrambi in rapida successione.\nLivello energia malefica 2: Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Rituale esoterico dei dieci segmenti: Crollo Azionario"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva con un colpo al corpo.\nColpisci con fendenti precisi il punto debole creato dalla tua tecnica per infliggere danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Rilascio Energia Malefica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "Si attiva quando rimane poco tempo nella battaglia.\nL'energia malefica aumenta automaticamente.\nLa velocità di recupero dell'energia malefica aumenta.\nLa velocità di scatto aumenta.\nIl consumo dell'indicatore scatto si riduce."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "Un abilissimo stregone in grado di sferrare pugni da gorilla e di controllare l'andamento della battaglia scambiando le posizioni.\nMolti dei suoi attacchi sono ravvicinati, ma potendo scambiare la posizione con Boogie Woogie è in grado di avvicinarsi ai nemici e di eluderne facilmente gli attacchi.\n\n• Boogie Woogie gli permette di scambiare la propria posizione con qualsiasi bersaglio, perciò usala bene... e spesso!\n• La sua forza sconfinata fa volare i nemici a ogni colpo, ma puoi addirittura concatenare attacchi scambiando le posizioni!\n\nIl gioco di squadra resta fondamentale, ma con Boogie Woogie puoi trasformare uno svantaggio in un vantaggio!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Attacco in mischia a tridente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Un attacco che ti guida verso il nemico per scatenare una serie di colpi.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Calcio in alto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Respinta con calcio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per affettarlo velocemente e calciarlo lontano."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Lazo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "Un attacco ravvicinato in cui chi lo usa avanza con un lazo dopo una breve ricarica.\nDiventi resistente durante l'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Attacco con lancio di pietra di Boogie Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "Un attacco a distanza che lancia una pietra infusa di energia malefica.\nQuando colpisce un nemico, scambi la posizione con la pietra ed esegui subito un ulteriore attacco.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Teletrasporto con lancio di pietra di Boogie Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Lancia una pietra in qualsiasi direzione e prendi subito il suo posto.\nQuesta tecnica può essere mantenuta.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Batti le mani per scambiare all'istante le posizioni di due combattenti (può trattarsi di te e qualcun altro o di altri due).\nSeleziona il combattente con cui scambiare la posizione con un comando direzionale.\nQuesto attacco può concatenarsi con altre mosse.\n<img id=\"CursedEnergyAttack_1\"/> Scambia la tua posizione con quella del bersaglio.\n<img id=\"MoveLeft\"/> o <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/>: Scambia la posizione di un alleato con quella di un nemico.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Scambia la posizione di un nemico con quella di un altro nemico.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Scambia la tua posizione con quella di un alleato.\nLivello energia malefica 2: Il ritardo di attivazione è ridotto.\nLivello energia malefica 3: Il ritardo di attivazione è ridotto ulteriormente."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Colpo in combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "Un attacco ravvicinato in cui accumuli potere e scateni una potente raffica di quattro colpi.\nLivello energia malefica 2: Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Separazione integrale"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un calcio in alto.\nScambi la posizione con il nemico che subisce il calcio per scatenare un Lampo Nero che scaglia via il nemico e infligge danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Tecnica liberata"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "Usare Boogie Woogie avrà i seguenti effetti per un periodo di tempo: aumenta la velocità di movimento e riduce il consumo dell'indicatore scatto.\nQuesto effetto varia in base al livello energia malefica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "Un assalitore che attacca a distanza ravvicinata e che ribalta i tavoli dalla rabbia quando fanno del male ai suoi alleati.\n\n• Il suo potenziale, \"Furia\", fa apparire Rika quando l'indicatore è al massimo.\nAssalta il nemico con la tua incredibile energia malefica e con ulteriori attacchi potenti grazie a Rika!\n• Usa \"Determinazione\" per infondere la tua spada con energia malefica, in modo tale da infliggere danni con tecniche combo e tecniche dell'estrazione.\nContinua ad attaccare, poi usa \"Coraggio\" per infliggere danni ingenti!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Fendente a tridente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire un fendente con una spada.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nDurante la furia, Rika esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Fendente diagonale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire un fendente con una spada.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "Doppio fendente in basso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire due fendenti consecutivi.\nDurante la furia, <GLO=GLS_NAME_CN_040> esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Colpo scindente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "Un attacco che ti consente di sferrare un affondo e colpire il nemico con un fendente rotante.\nDurante la furia, <GLO=GLS_NAME_CN_040> esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Fendente in tuffo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "Un attacco ravvicinato in cui usi il salto per avvicinarti e poi esegui un fendente rotante a mezz'aria.\nQuesto attacco può concatenarsi con altre mosse.\nDurante la furia, Rika esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Fendente in scivolata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "Un attacco ravvicinato in cui scivoli per avvicinarti e poi esegui un fendente verso l'alto.\nQuesto attacco può concatenarsi con altre mosse.\nDurante la furia, Rika esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Coraggio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "Un attacco in cui ti avvicini al nemico ad alta velocità ed esegui dei fendenti consecutivi.\nDurante la furia, <GLO=GLS_NAME_CN_040> esegue un ulteriore attacco.\nLivello energia malefica 2: Aumenta il numero di attacchi.\nLivello energia malefica 3: Aumenta ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Determinazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Infonde la spada con energia malefica per potenziare gli attacchi.\nTutti gli attacchi possono infliggere danni.\nConsuma continuamente energia malefica e si interrompe quando si esegue un'altra mossa o l'energia malefica si riduce a zero."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Lampo nero"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva sferrando un pugno con la mano sinistra.\nElimina le restrizioni e rilascia una quantità enorme di energia malefica tramite Rika, infliggendo danni ingenti.\nDopo l'attivazione, Rika non si manifesterà più in quella battaglia."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Rabbia"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Ha un indicatore speciale che si riempie quando gli alleati vengono feriti o abbattuti.\nQuando l'indicatore è al massimo, Rika si manifesta e attacca insieme a Yuta.\nQuando Yuta è attaccato, puoi usare l'indicatore per eseguire un contrattacco con Rika premendo <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, o <img id=\"CursedEnergyAttack_2\"/>.\nSe Yuta è attaccato mentre para, l'indicatore verrà utilizzato e Rika contrattaccherà.\nMentre Rika è presente, il livello energia malefica è al massimo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "Un assalitore che attacca dalla media distanza e che usa Manipolazione degli Spiriti Maledetti per annientare gli avversari con numeri superiori.\nUsa le sue abilità di livello speciale per concatenare ogni tecnica dell'estrazione in una dannosa tecnica con energia malefica che sopraffarà i nemici.\n\n• Manipolazione degli Spiriti Maledetti: Grappolo spara in avanti una rapida raffica di spiriti maledetti, che assaltano qualsiasi nemico incontrino sulla propria strada.\n• Malgrado la sua lentezza, Manipolazione degli Spiriti Maledetti: Pilastro Luminoso rilascia un attacco ad area impossibile da schivare spostandosi verso l'alto, colpendo tutti gli avversari contemporaneamente.\n\nUsa le tecniche con energia malefica al momento giusto per avere la meglio sui tuoi nemici!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Raffica di spiriti maledetti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "Un attacco a media distanza che evoca diversi spiriti maledetti che si scagliano contro il nemico.\nDurante l'attacco, ripetendo l'input puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Vincolo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "Un attacco a media distanza che evoca uno spirito maledetto e vincola.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Attrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "Un attacco a media distanza che evoca due spiriti maledetti che si scagliano contro il nemico.\nDopo aver colpito torna indietro, trascinando con sé il nemico.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Carica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "Un attacco a media distanza che evoca uno spirito maledetto che dà la caccia al nemico e lo colpisce."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "Doppio attacco in mischia"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un calcio in salto.\nPoi colpisci e abbatti il nemico con il pugno destro.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "Un attacco ravvicinato che evoca uno spirito maledetto dai tuoi piedi mentre esegui un passo all'indietro.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Manipolazione degli Spiriti Maledetti: Grappolo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Usa due tipi di spiriti maledetti prigionieri per attaccare.\n<img id=\"CursedEnergyAttack_1\"/>\nAttacco a media distanza che lancia una serie di spiriti maledetti.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nAttacco ravvicinato che lancia diversi spiriti maledetti verso il nemico.\nLivello energia malefica 2: Evoca più spiriti maledetti e aumenta il numero di colpi.\nLivello energia malefica 3: Evoca ancora più spiriti maledetti e aumenta ulteriormente il numero di colpi."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Manipolazione degli Spiriti Maledetti: Pilastro Luminoso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Evoca uno spirito maledetto semi-livello 1 per generare un pilastro di luce alla posizione del nemico e attaccare.\nLivello energia malefica 2: Aumenta il numero di attacchi.\nLivello energia malefica 3: Aumenta ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Combo Nuvola Vagante"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Climax Vortice"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un calcio rotante all'indietro.\nNumerosi spiriti maledetti vengono presi dalla Manipolazione degli Spiriti Maledetti per poi rilasciarli insieme e infliggere danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Stregone nero liv. speciale"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "Si attiva al livello energia malefica 2 o superiore.\nPuoi ridurre il ritardo degli attacchi usando la tecnica con energia malefica.\nPuoi ridurlo ulteriormente quando il livello energia malefica aumenta."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "Un combattente che attacca a media distanza e che controlla l'andamento della battaglia con attacchi su vasta scala, per poi avvicinarsi e ridurre la salute del nemico.\nTrasforma il tuo corpo, variando la portata dei tuoi attacchi in base alle circostanze.\n\n• Il suo potenziale, \"Mutazione Oziosa\", infligge danni extra man mano che metti a segno attacchi, dunque non fermarti!\nDurante Espansione del dominio: Illuminazione Schizofrenica, Mutazione Oziosa viene potenziata notevolmente!\n• Libera gli umani trasfigurati con \"Ti faccio comportare bene\", che ti permette di attaccare i nemici a distanza.\nAttacca da entrambe le parti per abbattere il nemico!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Attacco trasfigurante: Braccio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per colpire con un braccio trasformato.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Attacco trasfigurante: Aculei"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "Un attacco ravvicinato in cui ti raggomitoli e fai crescere degli aculei in tutte le direzioni.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Raffica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per confonderlo con movimenti difficili da decifrare.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Raffica rotante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico prima che il tuo braccio trasformato in spada colpisca e poi scagli via il nemico con una mano gigante."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Attacco trasfigurante: Trapano"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "Un attacco perforante a media distanza che trasforma il tuo braccio in un trapano."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Attacco trasfigurante: Spada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "Un attacco ravvicinato che trasforma il tuo braccio in una spada."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "Comportati bene"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Evoca una serie di umani trasfigurati per attaccare i nemici.\nDanneggia i nemici colpiti e ne rallenta i movimenti.\nSe attivato senza risorse, causa vomito e rifornisce le scorte.\nLivello energia malefica 2: Aumenta le scorte.\nLivello energia malefica 3: Aumenta ulteriormente le scorte."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "\"Molteplicità di anime\" \"Respingi corpo\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Fonde diverse anime in una per aumentarne la massa e poi la lancia contro il nemico.\nConsuma tutte le scorte di umani trasfigurati.\nSi può tenere premuto.\nLivello Energia Malefica 2: Aumenta la portata dell'attacco.\nAumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente la portata dell'attacco.\nAumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Mutazione Oziosa"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Resti in posizione, formi un sigillo in bocca ed espandi il Dominio.\nCambia la mappa per un periodo di tempo e potenzia i tuoi attacchi.\nInoltre, riduce il recupero dell'Energia Malefica e la velocità di movimento dei nemici all'interno del Dominio.\nQuando il Dominio si chiude, non puoi usare nessuna Tecnica con Energia Malefica per un periodo di tempo."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Essenza dell'Anima"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "Quando un avversario ti attacca, l'energia malefica aumenta in base ai danni subiti."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Mutazione Oziosa"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Infliggi danni aggiuntivi quando entri in contatto con il nemico per un certo numero di attacchi.\nIl conteggio si azzera dopo un periodo di tempo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "Un esperto del campo di battaglia che attacca dalla medio-lunga distanza e che corre ovunque sul campo di battaglia, costringendo i nemici ad affrontarlo a distanza.\n\n• Attacca il nemico con tecniche combo che possono essere eseguite in movimento e cerca un'occasione con l'attacco ampio \"Fuoco dell'energia malefica\".\n• Attiva Espansione del dominio: Sepoltura dell'Enclave dei Monti di Ferro per attirare tutti i giocatori nel tuo dominio per un certo periodo di tempo.\nAll'interno del dominio le tue statistiche e ogni tecnica con energia malefica sono potenziate, perciò approfittane per soverchiare i nemici!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Palla di fuoco"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "Un attacco a distanza che lancia delle piccole palle di fuoco in rapida successione.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nDurante l'attacco puoi muoverti."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Palla di fuoco compressa"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "Un attacco a distanza che lancia palle di fuoco con entrambe le mani.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Apparizione vulcanica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "Un attacco a distanza che crea un vulcano che lancia fiamme ai piedi del nemico."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Trappola vulcanica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Crea una zona vulcanica nel luogo scelto.\nQuando un nemico entra nella zona, appare un vulcano che lancia fiamme."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Raffica di palle di fuoco"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "Un attacco a distanza che genera delle palle di fuoco sul posto e le spara dopo un breve periodo."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Scarica di fiamme"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "Un attacco ravvicinato che lancia fiamme mentre salti in avanti.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Fuoco di energia malefica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Rilascia energia malefica in linea retta per incenerire tutto quello che trova sulla sua strada.\nSi può tenere premuto.\nConsuma continuamente energia malefica quando è attivo.\nLivello energia malefica 2: Aumenta la portata dell'attacco. Aumenta i danni inflitti.\nLivello energia malefica 3: Aumenta ulteriormente la portata dell'attacco. Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Bruciatura/Esplosione/Tecnica Estrema Meteora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Attacca con delle palle di fuoco.\nLivello energia malefica 2: Le palle di fuoco diventano più grandi, aumentando i danni inflitti.\nLivello energia malefica 3: Diventa tecnica Estrema Meteora e causa un'enorme esplosione all'impatto.\nSi può tenere premuto."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Insetti Lapillo"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Resti in posizione ed espandi un dominio rovente come l'interno di un vulcano attivo.\nCambia la mappa per un periodo di tempo e potenzia le tecniche con energia malefica.\nInoltre, danneggia continuamente i nemici nella zona e ne ostacola il movimento.\nQuando il dominio si chiude, non puoi usare alcuna tecnica con energia malefica per un certo periodo di tempo."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "Orgoglio di uno spirito maledetto"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "Si attiva quando la tua salute è bassa.\nAumenta il recupero dell'energia malefica. Aumenta i danni della tecnica con energia malefica.\nQuesto effetto varia in base al livello energia malefica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "Un assalitore specializzato che attacca da qualsiasi distanza e che si dimostra incredibilmente versatile sul campo di battaglia.\n\n• L'attacco a distanza con radici ti permette di avvolgere le gambe dei nemici lontani con delle radici e di spingerli verso l'alto.\nPunta a una costante sequenza di attacchi a sorpresa!\n• L'attacco Barriera di Alberi erige davanti a te una parete di radici che fa volare i nemici vicini e che ti protegge dagli attacchi a distanza.\n\nAttacca con moderazione dalla lunga distanza! Colpisci dalla media distanza! Contrattacca da distanza ravvicinata!\nUsa ogni attacco per impedire al nemico di avvicinarsi troppo!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Attacco con palla di legno"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "Un attacco ravvicinato che spara una palla di legno con rami.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Colpo con palla di legno"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sparare una palla di legno.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Attacco ad area con radici"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "Un attacco ravvicinato che fa crescere delle radici nel terreno attorno a te.\nSe lo esegui a mezz'aria tornerai a terra.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Meditazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Mediti e carichi la tua Energia Malefica.\nAl livello di Energia Malefica massimo, recuperi tutta l'Energia Malefica che hai consumato.\nSi può tenere premuto.\nSe lo esegui a mezz'aria, ti schianti a terra."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Lancio di boccioli maledetti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "Un attacco a distanza che fa volare dei boccioli maledetti.\nRiduce la velocità di recupero di energia malefica dei nemici colpiti dall'attacco.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Pioggia di boccioli maledetti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "Un attacco a distanza che fa apparire un fiore gigante e fa volare una raffica di boccioli maledetti.\nI boccioli maledetti cadono dopo un certo periodo di tempo.\nRiduce la velocità di recupero di energia malefica dei nemici colpiti dall'attacco.\nSe lo esegui a mezz'aria tornerai a terra."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Attacco a distanza con radici"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Genera sotto il nemico delle radici che lo perforano.\nLivello energia malefica 2: Aumenta i danni inflitti. Espande l'area di attacco.\nLivello energia malefica 3: Aumenta ulteriormente i danni inflitti. Espande ulteriormente l'area di attacco."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Attacco barriera di alberi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Una parete di alberi cresce davanti a te e attacca.\nSe lo esegui a mezz'aria tornerai a terra.\nLivello energia malefica 2: Aumenta i danni. Aumenta il numero e l'altezza dei muri.\nLivello energia malefica 3: Aumenta ulteriormente i danni. Aumenta ulteriormente l'altezza dei muri."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Attacco albero gigante"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "Questo attacco non può essere bloccato.\nCrea un giardino di fiori attorno a te che si attiva quando metti a segno un colpo.\nIl giardino di fiori distrae il nemico, poi le radici lo perforano infliggendogli danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Braccio sinistro libero"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Libera il braccio sinistro quando si usa una mossa del risveglio e ottiene i seguenti effetti: riduce il tempo di generazione della tecnica con energia malefica e riduce il consumo di energia malefica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "Un combattente con effetti di controllo che colpisce a distanza usando combinazioni con i suoi fratelli e potenti alterazioni di stato.\nLa sua <GLO=GLS_GAME_WORDS_1427> include Climax: Re Alato, che diffonde sangue per infliggere danni, e Putrefazione, che usa il sangue per attivare le alterazioni di stato.\nFai buon uso di entrambe le mosse per avere la meglio sul nemico.\n\n• Gli effetti della <GLO=GLS_GAME_WORDS_1427>: Putrefazione aumentano in modo proporzionale al sangue utilizzato.\nFai fare al nemico un bel bagno di sangue!\n• <GLO=GLS_NAME_CN_260> non può usare attacchi sanguigni mentre la <GLO=GLS_GAME_WORDS_1427>: Putrefazione è attiva.\nIn questi casi puoi fare affidamento su <GLO=GLS_NAME_CN_080>!\n\nRicorda sempre che il segreto per vincere è la coordinazione tra fratelli!"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Attacco triplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico e che colpisce due volte in rapida successione.\nQuando va a segno, viene rilasciata Climax: Re Alato, che effettua un ulteriore attacco con il sangue.\nQuando Putrefazione è attiva, Kechizu esegue un ulteriore attacco.\nDurante l'attacco, ripetendo ulteriormente lo stesso comando puoi concatenare altre mosse in una tecnica con energia malefica."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Calcio al petto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un calcio in alto con la gamba destra.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrargli un montante.\nQuando va a segno, viene rilasciata Climax: Re Alato, che effettua un ulteriore attacco con il sangue.\nQuando Putrefazione è attiva, Kechizu esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Spada a due mani"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "Un attacco ravvicinato in cui ti sposti in avanti e colpisci con entrambe le mani.\nQuando va a segno, viene rilasciata Climax: Re Alato, che effettua un ulteriore attacco con il sangue.\nQuando Putrefazione è attiva, Kechizu esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Inseguimento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per slanciare velocemente il tuo braccio destro.\nSe vai a segno, <GLO=GLS_NAME_CN_080> esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Annientamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un calcio in alto con la gamba destra.\nSe vai a segno, <GLO=GLS_NAME_CN_080> esegue un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Fratellino"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Dai istruzioni a Kechizu.\nKechizu non può accettare istruzioni mentre è a terra.\n<img id=\"CursedEnergyAttack_1\"/>: Spruzza e marchia con il sangue.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Rivolgiti verso il nemico per scatenare una serie di colpi.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Torna da Eso. Non consuma energia malefica.\nLivello energia malefica 2: Aumenta la velocità di movimento di Kechizu.\nLivello energia malefica 3: Aumenta ulteriormente la velocità di movimento di Kechizu."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Tecnica estrema di Corrosione: Climax: Re Alato / Tecnica di Corrosione: Putrefazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>: Attiva la tecnica estrema di Corrosione: Climax: Re Alato per marchiare i nemici con il sangue e infliggere danni.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>: Attiva la tecnica di Corrosione: Putrefazione per ridurre la capacità di scatto dei nemici marchiati con il sangue.\nQuando è attiva, puoi marchiare i nemici con ulteriore sangue per infliggere danni continui.\nRilasciare la tecnica dopo averli marchiati con ulteriore sangue infliggerà ancora più danni.\nMarchiarli con il sangue più volte aumenterà l'effetto ancora di più.\nConsuma energia malefica continuamente finchè non si usa un ulteriore comando o l'energià malefica si riduce a zero.\nRe Alato non può essere attivato se Putrefazione è attiva.\nLivello energia malefica 2: Aumenta il numero di attacchi di Re Alato.\nLivello energia malefica 3: Aumenta ulteriormente il numero di attacchi di Re Alato, questa tecnica può essere mantenuta."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "Il potere della fratellanza"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "Questo attacco non può essere bloccato.\nSi attiva eseguendo un colpo con il dorso della mano.\nInsieme a Kechizu, intride il nemico di sangue e attiva la tecnica di Corrosione: Putrefazione per infliggere danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "Per mio fratello"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Potenzia gli attacchi di <GLO=GLS_NAME_CN_260> quando <GLO=GLS_NAME_CN_080> non è stato abbattuto."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "Lo stregone delle arti occulte più potente che può portarsi in vantaggio in qualsiasi situazione.\n\n• Restando sul posto attivi la Tecnica del Minimo Infinito che impedisce agli attacchi di colpirti.\n• La Prosecuzione della tecnica: Bagliore Blu ti permette di avvicinarti e attirare i nemici in un attimo.\nControlla i movimenti del tuo avversario!\n• Prosecuzione della tecnica: Bagliore Blu Massima potenza d'uscita è una tecnica potente che causa un danno notevole in grado di sovvertire le sorti dello scontro.\nSfrutta l'opportunità per ribaltare la situazione con un solo colpo!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Combo di calci"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una raffica di colpi in mischia.\nDurante l'attacco, puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Montante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Calci guida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "Un attacco a due colpi che ti guida verso il nemico e lo avvicina per poi respingerlo."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Attacco doppio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "Un movimento che ti guida verso il nemico per scatenare un attacco rapido a due colpi."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Colpi guida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico e lo avvicina per poi respingerlo con due colpi consecutivi. In seguito, lo riavvicina un'altra volta per eseguire un ulteriore attacco."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Colpo critico"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "Un attacco che ti guida verso il nemico per farlo volare all'indietro con un colpo potente."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Prosecuzione della tecnica: Bagliore Blu - Raffica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "Un attacco ravvicinato che ti manda direttamente dal nemico ad alta velocità e scatena una serie di colpi.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Prosecuzione della tecnica: Bagliore Blu - Massima potenza d'uscita"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Generi una versione enorme di Bagliore Blu alla Massima Potenza che attira gli avversari e allo stesso tempo infligge danni.\nLivello Energia Malefica 2: Tempo di carica ridotto.\nLivello Energia Malefica 3: Tempo di carica ridotto ulteriormente."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Inversione della tecnica: Bagliore Rosso"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Bagliore Viola"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva eseguendo un colpo con ginocchio.\nScatena un Bagliore Viola che infligge danni ingenti all'avversario."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "Il risveglio del più forte"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "Si attiva quando ti sconfiggono una volta.\nAlcuni attacchi in mischia e Prosecuzione della tecnica: Bagliore Blu - Massima potenza d'uscita sono migliorati.\nSi può attivare la Mossa Risveglio."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Tecnica Minimo Infinito"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "Si attiva dopo un po' di tempo quando ti fermi.\nL'infinito appare attorno a te e un certo numero di attacchi non ti colpirà."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Sei occhi"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Sempre attivo.\nTiene traccia dell'indicatore dell'Energia Malefica dell'avversario.\nL'Energia Malefica aumenta gradualmente."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Levitazione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Fluttua tenendo premuto il salto."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "Un giovane stregone delle arti occulte di livello speciale che combina eccellenti abilità di combattimento con una tecnica superba.\n\n• Tecnica di Manipolazione degli Spiriti Maledetti: Kuchisake-Onna espande un Quasi-dominio che reagisce agli attacchi nemici e contrattacca!\n• Il suo potenziale, \"Tecnica di Manipolazione degli Spiriti Maledetti\" attacca con degli spiriti maledetti per ripristinare la propria Energia Malefica.\nContinua a mettere a segno colpi!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Attacco in mischia da quattro colpi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una raffica di colpi in mischia.\nDurante l'attacco, puoi concatenare altre mosse in una Tecnica con Energia Malefica."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Carica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "Un attacco a media distanza che evoca uno spirito maledetto che si scaglia contro il nemico.\nQuesto attacco non può essere bloccato.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Attacco in mischia a tridente: Inseguimento con spiriti maledetti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare un attacco a tre colpi, poi evoca uno spirito maledetto che lo lancia in alto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "Doppio attacco in mischia"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Ti guida verso il nemico per scatenare un attacco rapido a due colpi.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "Doppio attacco in mischia: Inseguimento con spiriti maledetti"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare un attacco a due colpi, poi evoca uno spirito maledetto che lo lancia in alto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Colpo con spirito maledetto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "Un attacco a media distanza che lancia tre piccoli spiriti maledetti in rapida successione."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Raffica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Lancia dei piccoli spiriti maledetti che eseguono una serie di attacchi.\n<img id=\"CursedEnergyAttack_1\"/>\nUn attacco a media distanza che scatena più spiriti maledetti piccoli che inseguono il nemico.\nLivello Energia Malefica 2: Evoca più spiriti maledetti e aumenta il numero di colpi.\nLivello Energia Malefica 3: Evoca ancora più spiriti maledetti e aumenta ulteriormente il numero di colpi.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/>\nUn attacco a lunga distanza che scatena tantissimi spiriti maledetti piccoli in rapida successione.\nSi può tenere premuto.\nConsuma continuamente Energia Malefica quando è attivo.\nLivello Energia Malefica 2: Evoca più spiriti maledetti e attacca in un'area più ampia.\nLivello Energia Malefica 3: Evoca ancora più spiriti maledetti e attacca un'area ancora più ampia."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Tecnica Manipolazione degli Spiriti Maledetti: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Evoca <GLO=GLS_NAME_CN_200> ed espande un Quasi-dominio.\nI nemici che attaccano all'interno del Dominio vengono fatti a pezzi da innumerevoli tagli.\nConsuma continuamente Energia Malefica e si interrompe quando viene effettuato un altro input o quando l'Energia Malefica arriva a zero.\nLivello Energia Malefica 2: Aumenta il numero di attacchi e l'area del Dominio.\nLivello Energia Malefica 3: Aumenta ulteriormente il numero di attacchi e l'area del Dominio."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Tecnica Manipolazione degli Spiriti Maledetti: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti: Drago arcobaleno"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva eseguendo un colpo con gomito.\nScateni il Drago arcobaleno, lo spirito maledetto più forte a disposizione, direttamente contro il nemico per infliggere danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Tecnica di Manipolazione degli Spiriti Maledetti"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Recuperi un po' di Energia Malefica ogni volta che metti a segno un attacco con spiriti maledetti.\nLa quantità di Energia Malefica che recuperi dipende dal numero di spiriti maledetti.\nL'effetto, inoltre, varia in base al livello di Energia Malefica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "Un combattente a lunga distanza specializzato in attacchi a sorpresa e che può fornire fuoco di copertura da lontano.\n\n• Usa \"Prendere la mira\" per sparare proiettili infusi di Energia Malefica in qualsiasi direzione.\nPrendi bene la mira e metti a segno un colpo perfetto!\n• Non dimenticare di ricaricare per poter continuare a combattere.\n• Attaccare un nemico che non ti ha preso di mira aumenta la tua forza e il potenziamento dell'Energia Malefica.\nRicorda di sfruttare la direzione in cui sta mirando l'avversario!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Colpo singolo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "Un attacco a distanza che consuma un proiettile per sparare al nemico.\nDurante l'attacco, puoi concatenare altre mosse ripetendo l'input in una Tecnica con Energia Malefica.\nRicarica quando finiscono le munizioni."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Colpo da accovacciato"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "Un attacco a distanza che ti fa accovacciare sul posto e consuma un proiettile per sparare al nemico.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre.\nRicarica quando finiscono le munizioni."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Colpo rapido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "Una combo che spara rapidamente dei proiettili premendo continuamente <img id=\"NormalAttack_2\"/>.\nRicarica quando finiscono le munizioni."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Calcio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per spazzarlo via con un calcio rotante.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Accecamento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "Un attacco ravvicinato che solleva della sabbia sul posto, spaventando il nemico che colpisce.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Colpo doppio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare due colpi."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Prendere la mira"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "Un attacco a distanza che ti pianta sul posto per prendere la mira prima di sparare un proiettile infuso di Energia Malefica.\nControlla il mirino con <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> per mirare e sparare con la visuale sopra la spalla.\nIn questa modalità si consuma Energia Malefica e si possono sparare diversi colpi con <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> o <img id=\"CursedEnergyAttack_2\"/>.\nRicarica quando finiscono le munizioni.\nLivello Energia Malefica 1: <img id=\"NormalAttack_1\"/>: consuma 1 Energia Malefica.\n<img id=\"NormalAttack_2\"/>: consuma 1 Energia Malefica.\n<img id=\"CursedEnergyAttack_2\"/>: consuma 1 Energia Malefica.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\n<img id=\"NormalAttack_1\"/>: consuma 1 Energia Malefica.\n<img id=\"NormalAttack_2\"/>: consuma 2 Energia Malefica.\n<img id=\"CursedEnergyAttack_2\"/>: consuma 2 Energia Malefica.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti.\n<img id=\"NormalAttack_1\"/>: consuma 1 Energia Malefica.\n<img id=\"NormalAttack_2\"/>: consuma 3 Energia Malefica.\n<img id=\"CursedEnergyAttack_2\"/>: consuma 3 Energia Malefica."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Colpo caricato"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "Un attacco a distanza che infonde Energia Malefica in un proiettile per mettere a segno un colpo potente.\nSi può tenere premuto.\nTi puoi spostare durante la carica.\nNon puoi usare lo scatto.\nI danni aumentano in base a quanto viene caricato l'attacco.\nAlla carica massima il colpo penetra il nemico.\nRicarica quando finiscono le munizioni.\nLivello Energia Malefica 2: Riduce il tempo di carica. Aumenta i danni inflitti.\nLivello Energia Malefica 3: Riduce ulteriormente il tempo di carica. Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Ricarica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Ripristina i proiettili.\nTi puoi spostare durante la ricarica."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "Per fortuna è andato a segno"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Costruzione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "Questo attacco non può essere bloccato con una parata.\nRicarica quando finiscono le munizioni.\nSi attiva dopo aver colpito il nemico con un proiettile.\nSpara sei proiettili, poi usa Costruzione per sparare un settimo proiettile che infligge danni pesanti al nemico."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Allontanarsi non funziona"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Aumenta la potenza e l'Energia Malefica ottenuta quando attacchi un nemico che non ti sta prendendo di mira."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "Un'assalitrice volante che sfrutta i suoi incredibili movimenti aerei per confondere i suoi avversari.\n\n• \"Carica\" ti fa spostare molto velocemente mentre attacchi.\nFai perdere l'equilibrio al nemico e sfrutta quel momento per infliggere danni ingenti con Manipolazione degli oggetti: Falce della soppressione!\n• Il suo potenziale, \"Manipolazione degli oggetti\", sfrutta la tridimensionalità del campo e ti fornisce una mobilità che ti permette di attaccare da qualsiasi punto!"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Spazzata con scopa"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per colpire con una scopa.\nDurante l'attacco, puoi concatenare altre mosse ripetendo l'input in una Tecnica con Energia Malefica."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Turbine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "Un attacco a media distanza che genera un turbine che si sposta in avanti.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Spazzata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "Un attacco ravvicinato che piomba verso il basso per caricare verso il nemico.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Tuffo verticale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "Un tuffo verticale sul posto.\nSi può tenere premuto.\nQuesto movimento può essere seguito da uno scatto o può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Colpo di vento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "Un colpo a media distanza che genera vento per sparare al nemico.\nIl vento si diffonde all'impatto e lancia il nemico in alto."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Folata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "Un attacco ravvicinato che spazza con la scopa sul posto per generare vento."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Carica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Carica in avanti mentre cavalca una scopa.\nUsa <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> durante la carica per svoltare.\nLa velocità di movimento aumenta dopo l'attacco e le Tecniche dell'Estrazione che usano attacchi basati sul vento sono potenziate.\nSi può tenere premuto.\nLivello Energia Malefica 2: Aumenta i danni inflitti. Aumenta l'effetto dei potenziamenti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti. Aumenta l'effetto dei potenziamenti."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Manipolazione degli oggetti: Falce della soppressione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Lancia un attacco a distanza con Falce della soppressione verso il nemico.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Prova a prendermi"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Manipolazione degli oggetti: Falce della soppressione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "Questo attacco non può essere bloccato con una parata.\nSferra un calcio mentre cavalchi la scopa per attivarlo.\nLancia il nemico in aria dove non può fuggire, poi infligge danni pesanti con Manipolazione degli oggetti: Falce della soppressione."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Manipolazione degli oggetti"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Prendi il volo su una scopa.\nTieni premuto il salto per volare più in alto.\nTi sposti in aria e riempi l'Indicatore scatto."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "Un combattente a lunga distanza che intrappola i nemici usando una serie di attacchi con l'arco e con la Manipolazione ematica.\n\n• Esegui una serie di attacchi con l'arco per cogliere di sorpresa il nemico e scatenare la tecnica definitiva: Manipolazione ematica.\n• Manipolazione ematica: Purificazione tagliente rende più facile agganciare bersagli in movimento, perciò potrai infliggere danni agevolmente.\n• Più Manipolazione ematica: Convergenza/Ago di sangue è caricata, maggiori saranno la forza e la distanza coperta dall'attacco, il che ti darà la possibilità di trafiggere il nemico in un solo colpo!\nMantieni la calma, tieni d'occhio i movimenti del nemico e cerca di distruggerlo in un colpo solo!"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Freccia con Energia Malefica: Colpo continuo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "Un attacco a distanza che scaglia una serie di frecce contro il nemico.\nDurante l'attacco, ripetendo l'input puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Freccia con Energia Malefica: Colpo singolo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "Un attacco a distanza che tende l'arco con forza e scaglia una freccia.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Freccia con Energia Malefica: Colpo diretto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "Un attacco a distanza che scaglia rapidamente una freccia.\nSi può tenere premuto."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Freccia con Energia Malefica: Colpo curvo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "Un attacco a distanza che fa piovere frecce su tutti i nemici a portata.\nTieni premuto per decidere dove viene messo a segno l'attacco.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Freccia con Energia Malefica: Colpo laterale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "Un attacco a distanza che scaglia frecce in tre direzioni.\nPuò essere caricato per scagliare frecce a ricerca sul nemico usando la Manipolazione ematica.\nSi può tenere premuto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Manipolazione ematica: Costrizione rossa"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Resta in posizione e lancia una sacca di sangue contro il nemico quando ti attacca.\nColpendo il nemico con la sacca, lo inzupperai di sangue e lo immobilizzerai."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Manipolazione ematica: Purificazione tagliente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "Un attacco a ricerca a distanza che lancia una lama circolare e rotante di sangue compresso.\nIl numero di lame lanciate aumenta in base al livello di Energia Malefica.\nSi può tenere premuto.\nLivello Energia Malefica 2: Aumenta il numero di lame lanciate. Aumenta il consumo dell'Indicatore Sacca di sangue.\nLivello Energia Malefica 3: Aumenta ulteriormente il numero di lame lanciate. Aumenta ulteriormente il consumo dell'Indicatore Sacca di sangue."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Manipolazione ematica: Convergenza/Ago di sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "Un attacco a distanza che comprime il sangue per poi lanciarlo ad alta velocità.\nLa distanza coperta e i danni inflitti sono direttamente proporzionali alla carica.\nSi può tenere premuto.\nLivello Energia Malefica 2: Aumenta la quantità che può essere caricata.\nLivello Energia Malefica 3: Aumenta ulteriormente la quantità che può essere caricata."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Manipolazione ematica: Frenesia del Fosforo Rosso"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Manipolazione ematica: Ago di sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "Questo attacco non può essere bloccato con una parata.\nSi attiva quando la freccia trafigge il nemico.\nUna volta che la freccia è andata a segno, viene rilasciato Ago di sangue, che infligge danni ingenti."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Sacca di sangue"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "La quantità dell'indicatore Sacca di sangue dipende dalla tecnica di Manipolazione ematica usata.\nSe la usi quando l'indicatore Sacca di sangue è vuoto, consuma salute.\nL'indicatore non si consuma usando Attacchi combinati e Mosse risveglio."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Orgoglio del prossimo capofamiglia"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Riduce la quantità di sangue consumato quando la salute è pari o inferiore a metà.\nQuando l'indicatore Sacca di sangue è vuoto, la quantità di salute consumata è ridotta."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "Il massacratore di stregoni che annienta i nemici con i suoi strumenti maledetti insoliti e il suo fisico frutto di un Patto Celeste.\n\n• I suoi movimenti ad alta velocità ti permettono di annullare gli attacchi e concatenarli ad altri.\nNon tralasciare la fase d'attacco!\n• Alabarda inversa celeste: Fendente sferra diversi attacchi in base alla tua posizione rispetto a quella dell'avversario.\nCombinalo con i movimenti ad alta velocità per creare combo devastanti!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Fendente con calcio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per eseguire un fendente con Alabarda inversa celeste.\nDurante l'attacco, puoi concatenare altre mosse in una Tecnica con strumento maledetto."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Colpo tremendo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "Un attacco ravvicinato che ti fa muovere in avanti per colpire con tutta la tua forza.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Affondo sezionante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare un affondo con Alabarda inversa celeste."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Affondo verso il basso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "Un attacco ravvicinato che ti fa saltare in alto e in avanti prima di abbatterti sul nemico con Alabarda inversa celeste.\nScaglia via il nemico quando colpisci il terreno."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "Movimenti ad alta velocità"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Consuma l'Indicatore scatto per farti muovere velocemente.\nDopo il movimento puoi eseguirne altri con altri input.\nPuoi concatenare questa mossa allo stordimento di altre mosse e si può concatenare ad altri movimenti.\nSi può concatenare con altre mosse dopo il movimento.\n<img id=\"NormalAttack_3\"/>\nTi sposti verso il nemico.\n<img id=\"MoveLeft\"/> o <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/>\nTi sposti in avanti in diagonale.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/>\nTi sposti in avanti."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Iaijutsu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Resti sul posto e colpisci con Alabarda inversa celeste.\nSe un nemico ti attacca in questo periodo, lanci un contrattacco."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Alabarda inversa celeste: Fendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "Un colpo potente con Alabarda inversa celeste.\nScatena attacchi diversi in base alla tua posizione rispetto all'avversario.\nLivello forza fisica 2: Aumenta i danni inflitti.\nLivello forza fisica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Alabarda inversa celeste: Taglio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "Una raffica rapida di colpi con Alabarda inversa celeste.\nSi può tenere premuto.\nLivello forza fisica 2: Aumenta il numero di attacchi.\nLivello forza fisica 3: Aumenta ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Raffica di spiriti maledetti"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Catena dei diecimila anelli e Alabarda inversa celeste"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "Questo attacco non può essere bloccato con una parata.\nSferra un affondo con Alabarda inversa celeste per attivarlo.\nCollega Catena dei diecimila anelli e Alabarda inversa celeste per infliggere danni ingenti con una raffica di colpi."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Massacratore di stregoni"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Mettere a segno un colpo di grazia aumenta il tuo livello di forza fisica e riduce temporaneamente il consumo dell'Indicatore scatto.\nAl livello di forza fisica massimo fa riempire il tuo Indicatore di forza fisica."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Patto Celeste: Dono Fisico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Ottieni delle abilità fisiche eccezionali in cambio di tutta la tua Energia Malefica.\nPuoi saltare a mezz'aria più volte."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Alabarda inversa celeste"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Gli attacchi con Alabarda inversa celeste attivano forzatamente le tecniche del nemico."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "Un attacco ravvicinato che sfrutta la tecnica Estrazione per abbattere i nemici con colpi fulminei.\n\n• Il suo potenziale \"Stile della Nuova Ombra: Estrazione\" le consente di eseguire un attacco rapido e potente partendo con la spada ancora nel fodero.\nProva a tenere la spada nel fodero durante lo scontro per ottenere un vantaggio.\n• Contrattacca automaticamente tutti i nemici che entrano nel suo Stile della Nuova Ombra: Quasi-dominio e infligge danni ingenti.\nQuando vuoi passare all'attacco, accorcia le distanze fra te e il tuo nemico con la tecnica Stile della Nuova Ombra: Estrazione."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Fendente diagonale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare un Fendente diagonale.\nQuando il colpo va a segno, puoi eseguire automaticamente un secondo attacco, per poi rinfoderare la spada.\nRipetere ulteriormente l'input ti consentirà di utilizzare una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Fendente con lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo e colpirlo con un fendente.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Colpo scindente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per colpirlo con un fendente.\nQuando il colpo va a segno, scaglia via il nemico con un calcio e rinfodera la spada."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Fendente dell'Estrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "Un attacco ravvicinato che, una volta rinfoderata la spada, ti guida verso il nemico per sferrare un doppio fendente.\nSe hai già la spada nel fodero, puoi eseguire il doppio fendente immediatamente.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Rinfodero/Fendente rapido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Spada sguainata】\nRestando sul posto, rimetti la spada nel fodero.\n【Spada nel fodero】\nUn attacco ravvicinato in cui esegui all'istante un balzo in avanti per scatenare un Fendente rapido.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Evasione con rinfodero"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Eludi l'attacco nella direzione desiderata mentre rimetti la spada nel fodero.\nSe la tua spada è già nel fodero, verrà eseguita solo l'evasione.\nPuò concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "Stile della Nuova Ombra: Estrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "Un attacco ravvicinato che, una volta rinfoderata la spada, ti guida verso il nemico per sguainare la spada e sferrare un fendente devastante.\nSe hai già la spada nel fodero, puoi eseguire il fendente immediatamente.\nLivello Energia Malefica 2: Aumenta i danni inflitti. Espande l'area d'attacco.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti. Espande ulteriormente l'area d'attacco."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "Stile della Nuova Ombra: Quasi-dominio, Estrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Rinfodera la spada sul posto ed espande un Quasi-dominio.\nSi può eseguire molto più rapidamente quando la spada è nel fodero.\nAttacca automaticamente qualsiasi nemico che entra nel Dominio.\nRespinge automaticamente qualsiasi attacco proveniente dall'esterno del Dominio.\nQuando si espande il Quasi-dominio, è possibile concatenare l'Evasione con rinfodero.\nSi può tenere premuto.\nSe lo esegui a mezz'aria, ti schianti a terra.\nEnergia Malefica 2: Aumenta i danni inflitti. Espande l'area del Dominio.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti. Espande ulteriormente l'area del Dominio."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "Stile della Nuova Ombra: Quasi-dominio, Estrazione"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nQuando va a segno, colpisce l'avversario con un fendente verso l'alto.\nEspande un Quasi-dominio e infligge automaticamente danni ingenti contro qualsiasi nemico che entra nell'area del Dominio."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "Stile della Nuova Ombra: Estrazione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Dopo aver eseguito certi attacchi, rinfodera la spada.\nQuando hai la spada nel fodero, alcuni attacchi saranno più rapidi e copriranno distanze maggiori.\nSe pari un attacco o un tuo colpo viene respinto, la spada verrà sguainata.\nPer mantenere la posa con la spada nel fodero, esegui una parata perfetta."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "Un combattente molto potente che utilizza un'incredibile quantità di Energia Malefica grazie a un Patto Celeste.\n\n• Il suo potenziale, \"Patto Celeste\", gli permette di utilizzare Tecniche con Energia Malefica senza essere limitato dal suo livello di Energia Malefica.\n• Sfrutta i danni pesanti che può infliggere fin dalle prime fasi della battaglia per portarsi in vantaggio!\n• Utilizza le sue Tecniche dell'Estrazione per danzare sul campo di battaglia e confondere l'avversario."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Raffica in mischia"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una raffica di colpi in mischia.\nDurante l'attacco, puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Colpo di palmo potenziato"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico con una propulsione per lanciarlo in aria.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Ultra Cannon ad ampio raggio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "Un attacco a media distanza in cui utilizzi Ultra Cannon con la mano sinistra per incenerire un'area vasta."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Opzione spada: Ultra Shield"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Trasforma il braccio destro in uno scudo pieno di punte.\nIn questa posa, puoi respingere gli attacchi in arrivo con Ultra Shield.\nSe il contrattacco va a segno, questa mossa stordisce i nemici."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Doppio attacco in mischia potenziato"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico con una propulsione per scatenare due calci.\nIl tempo di carica è aumentato se si usa durante il surriscaldamento.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Montante potenziato"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico con una propulsione per scatenare un montante rapido che lo lancia in alto.\nIl tempo di carica è aumentato se si usa durante il surriscaldamento.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Opzione spada potenziata: Ultra Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Crei una lama dal braccio destro, poi ruoti rapidamente verso il nemico con una propulsione.\nSi può tenere premuto.\nLivello Energia Malefica 2: premi ripetutamente per aumentare il numero di attacchi.\nLivello Energia Malefica 3: premi ripetutamente per aumentare ulteriormente il numero di attacchi."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "Potenza elevata: Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "Un attacco a distanza in cui carichi e scateni l'Energia Malefica dalla mano sinistra.\nSi può tenere premuto.\nLivello Energia Malefica 2: aumenta i danni inflitti.\nLivello Energia Malefica 3: aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Attacco in mischia potenziato"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva colpendo un nemico con un proiettile.\nUsa la torretta dalla bocca e i due cannoni portatili contemporaneamente per utilizzare Ultimate Cannon e infliggere danni ingenti all'avversario."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Patto Celeste"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Ti permette di attivare tecniche più potenti rispetto a quelle consentite dal tuo Livello Energia Malefica.\nSi può attivare tenendo premuto il comando per un periodo di tempo durante l'utilizzo di una tecnica.\nIn base alla differenza tra il Livello Energia Malefica attivato e il tuo livello attuale, ti surriscalderai temporaneamente e la tua velocità di movimento e quella di recupero dell'Energia Malefica si ridurrà."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "Un combattente che sfrutta il sangue, altamente specializzato negli attacchi da qualsiasi distanza.\n\n• Con Manipolazione ematica: Frenesia del Fosforo Rosso attivo, infliggi danni con una Tecnica combo o una Tecnica dell'Estrazione mentre ottieni un enorme bonus alla velocità. Sfrutta questa velocità per avvicinarti al tuo avversario in un attimo.\n• Al livello Energia Malefica 3, Manipolazione ematica: Convergenza/Ago di sangue si può direzionare a destra e sinistra per mettere a segno un attacco in spazzata. Abbatti più nemici da lontano grazie a questa tecnica formidabile."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Combo in mischia da cinque colpi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nDurante l'attacco, ripetendo l'input puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Montante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Manipolazione ematica: Raffica di sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare due fendenti rapidi.\nQuesta mossa riduce temporaneamente la velocità del nemico quando il colpo va a segno.\nLa presenza di sfere di sangue aumenta i danni inflitti e l'Energia Malefica ottenuta.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "Doppio attacco in mischia"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare un colpo di sangue temprato e scagliarlo via.\nQuesta mossa riduce temporaneamente la velocità del nemico quando il colpo va a segno.\nLa presenza di sfere di sangue aumenta i danni inflitti e l'Energia Malefica ottenuta.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Manipolazione ematica: Purificazione tagliente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "Un attacco a distanza che lancia una lama rotante di sangue compresso.\nQuesta mossa riduce temporaneamente la velocità del nemico quando il colpo va a segno.\nConsuma 1 sfera di sangue.\nSe non hai a disposizione alcuna sfera di sangue, ne crea di nuove."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Ondata di sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "Un attacco ravvicinato in cui scateni un torrente di sangue che si trasforma in tantissimi aculei.\nQuesta mossa riduce temporaneamente la velocità del nemico quando il colpo va a segno.\nConsuma 1 sfera di sangue.\nSe non hai a disposizione alcuna sfera di sangue, ne crea di nuove."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Manipolazione ematica: Frenesia del Fosforo Rosso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Controlla i componenti del sangue per migliorare le abilità fisiche.\nQuando è attivo, si possono infliggere danni tramite Tecniche combo e Tecniche dell'Estrazione. Ha anche i seguenti effetti: velocità di attacco aumentata, velocità di guida aumentata, velocità di scatto aumentata, consumo indicatore scatto ridotto e danni inflitti alla parata aumentati.\n\nConsuma continuamente Energia Malefica e si interrompe quando si esegue un'altra mossa o l'Energia Malefica si riduce a zero."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Manipolazione ematica: Convergenza/Ago di sangue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "Un attacco a distanza che comprime il sangue per poi spararlo ad alta velocità.\nLa distanza coperta e i danni inflitti sono direttamente proporzionali alla carica.\nQuesta mossa riduce temporaneamente la velocità del nemico quando il colpo va a segno.\nConsuma 1 sfera di sangue.\nSe non hai a disposizione alcuna sfera di sangue, ne crea di nuove.\nSi può tenere premuto.\nLivello Energia Malefica 2: Riduce il tempo di carica.\nLivello Energia Malefica 3: Premi <img id=\"MoveLeft\"/><img id=\"MoveRight\"/> dopo aver liberato Ago di sangue per eseguire una spazzata."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Manipolazione ematica: Frenesia del Fosforo Rosso, Potenziamento"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva eseguendo un calcio all'indietro.\nScatena il sangue compresso con Convergenza in un proiettile omnidirezionale che infligge danni ingenti al nemico."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Sfera di sangue"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Si può utilizzare quando vengono create diverse sfere di sangue.\nAlcuni attacchi potenti consumano sfere di sangue.\nIl numero di sfere di sangue che puoi creare aumenta in base al tuo Livello Energia Malefica.\nSe non ti rimangono sfere di sangue, puoi crearne altre con <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/> o con <img id=\"CursedEnergyAttack_2\"/>."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Uteri Maledetti del Dipinto della Decomposizione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "Questa mossa riduce temporaneamente la velocità dell'avversario all'impatto se usi del sangue avvelenato.\nLa riduzione della velocità dipende dal Livello Energia Malefica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "Una combattente che predilige gli attacchi ravvicinati e comanda i suoi corvi per attaccare e difendersi mentre si avvale anche dell'aiuto degli alleati.\n\n• La sua Tecnica con Energia Malefica, \"Manipolazione dei corvi\", non serve solo a bloccare automaticamente gli attacchi, ma permette anche ai corvi di attaccare i nemici. Un utilizzo costante dei suoi corvi, manterrà in tuo favore le sorti della battaglia.\n• Il suo potenziale, \"Una vita passata a incarnare il potenziale inespresso\", migliora i suoi poteri quando gli altri collaborano con lei. Questi effetti saranno attivi per la durata della battaglia, perciò cerca di collaborare con gli altri il più possibile."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Triplo fendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi con ascia.\nDurante l'attacco, ripetendo il comando puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Colpo di ascia inverso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per lanciarlo con il retro della tua ascia.\nQuesto attacco non può essere bloccato con una parata.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Secondo attacco con lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Ti guida verso il nemico per eseguire un attacco ravvicinato con ascia che lo lancerà in alto.\nPremi nuovamente per eseguire un ulteriore attacco e scagliare via il nemico.\nPuò concatenarsi in un affondo verso il basso dalla prima fase.\nPuò concatenarsi in Manipolazione dei corvi dalla seconda fase."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Affondo verso il basso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "Un attacco ravvicinato in cui salti in alto e ti lanci giù in diagonale con l'ascia.\nSe lo esegui a mezz'aria, atterri sul posto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Colpo a mezz'aria"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico e lo lancia in aria con la tua ascia, prima di colpirlo nuovamente verso il terreno.\nRipetendo il comando puoi scagliare via il nemico.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Balzo travolgente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "Un attacco ravvicinato che ti permette di travolgere il nemico prima di saltare in aria.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Fendente rotante/Fendente verso il basso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "Un attacco ravvicinato che ti permette di scattare mentre impugni l'ascia e che può concatenarsi in altri attacchi ripetendo l'input.\nDurante lo scatto puoi muoverti in tutte le direzioni.\n<img id=\"CursedEnergyAttack_1\"/>\nFai oscillare l'ascia e attacchi mentre ruoti.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nSalti in aria e ti scagli a terra con un colpo potente di ascia.\nSi può attivare immediatamente da una posizione normale.\n\nLivello Energia Malefica 2: Aumenta la velocità dello scatto. Aumenta la durata dello scatto. Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente la velocità dello scatto. Aumenta ulteriormente la durata dello scatto. Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Manipolazione dei corvi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Evochi uno stormo di corvi attorno a te.\nGli uccelli ti seguono e ti proteggono da 1 attacco nemico.\nDopo aver bloccato un attacco, i corvi scompaiono.\nRipetere l'input ti permette di prendere di mira il nemico con i corvi e attaccarlo.\nMentre comandi i corvi puoi muoverti e puoi dirigere i corvi mentre scatti con Fendente rotante/Fendente in basso.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Combo a mezz'aria"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva mettendo a segno uno slancio con l'ascia.\nPuoi infliggere danni ingenti sbattendo contro il nemico dopo aver costretto i corvi a sacrificarsi e rimuovendo i limiti di Energia Malefica."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "Una vita passata a incarnare il potenziale inespresso"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "I seguenti effetti si ottengono ogni volta che si attiva una certa quantità di Bonus cooperazione:\nVelocità di scatto aumentata\nConsumo indicatore scatto ridotto\nRitardo dopo uno scatto ridotto\nVelocità recupero Energia Malefica aumentata\nRitardo dopo una parata ridotto\nQuesti effetti saranno attivi per la durata della battaglia.\nHa un limite superiore."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "Lo stregone più veloce che utilizza tecniche altamente rischiose, ma al contempo estremamente efficaci, per disorientare completamente gli avversari.\n\n• Il suo potenziale, \"Incantesimo di proiezione\", gli consente di eseguire movimenti rapidissimi durante le combo, consumando automaticamente energia maledetta.\nCiò consuma automaticamente Energia Malefica e richiede grande attenzione, poiché, se non ne ha abbastanza, resterà immobile.\n• La sua Tecnica con Energia Malefica, \"Incantesimo di proiezione: Colpo\", può concatenarsi dalle Tecniche dell'Estrazione <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> o <img id=\"NormalAttack_3\"/> premendo nuovamente lo stesso tasto.\nPiù volte Incantesimo di proiezione viene attivato durante una combo, più ingenti saranno i danni."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Scontro inverso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di colpi.\nDurante l'attacco, ripetendo il comando puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Colpo di palmo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un colpo con il palmo della mano.\nQuesto attacco non può essere bloccato con una parata.\nSe il nemico non è in stato di barcollamento, lo immobilizza.\nC'è una probabilità di attivare un attacco combinato se eseguito durante un combattimento a squadre."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Colpi con lancio"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico e lo lancia in aria, prima di colpirlo nuovamente verso il terreno.\nDurante l'attacco, ripetendo il comando puoi concatenarlo con una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Colpo penetrante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per sferrare un montante in salto.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Calcio triplo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico per scatenare una serie di calci.\nDurante l'attacco, ripetendo il comando puoi concatenare altre mosse in una Tecnica con Energia Malefica.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "Abbattimento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico dopo un salto indietro per sferrare un calcio.\nQuesto attacco può concatenarsi con altre mosse."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Incantesimo di proiezione: Colpo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Resta sul posto e usa Incantesimo di proiezione in modo che ti guidi davanti al nemico per scatenare un brutale attacco ravvicinato.\nScatta o salta mentre sei in posizione per muoverti in qualsiasi direzione.\nUsa una Tecnica combo o una Tecnica dell'Estrazione mentre sei in posizione o dopo un movimento per eseguire Incantesimo di proiezione.\nIn caso di concatenazione ad altre mosse, si può usare immediatamente, senza necessariamente essere in posizione.\nI danni inflitti con Incantesimo di proiezione cambiano solo in base al numero di volte che è stato utilizzato."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Incantesimo di proiezione: Barriera"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "Un attacco ravvicinato che ti guida verso il nemico con Incantesimo di proiezione per bloccare il nemico al contatto e scatenare una raffica di colpi.\nPuoi utilizzarlo ripetutamente al momento giusto per concatenarlo con altre mosse.\nSe la Tecnica fallisce, resti immobile temporaneamente.\nLivello Energia Malefica 2: Aumenta i danni inflitti.\nLivello Energia Malefica 3: Aumenta ulteriormente i danni inflitti."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Incantesimo di proiezione."
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "Questo attacco non può essere bloccato da una parata.\nSi attiva correndo contro il nemico.\nUsa Incantesimo di proiezione per aumentare la tua velocità e infliggere danni ingenti con una raffica rapida di attacchi."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Incantesimo di proiezione"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Si attiva quando si concatena ad altre mosse durante un attacco.\nInvece di guidarti verso il nemico, usa automaticamente l'Energia Malefica per farti ritrovare davanti a esso con Incantesimo di proiezione.\nTutte le mosse eseguite da Incantesimo di proiezione sono attacchi a colpo singolo.\nSe non hai abbastanza Energia Malefica, la tecnica non andrà a segno e resterai temporaneamente immobile.\nÈ possibile infliggere ulteriori danni usando Incantesimo di proiezione per creare diversi attacchi a catena."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Tecnica segreta: Emozione dei petali caduti!"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "Quando l'avversario sta espandendo il suo Dominio, la tua parata si trasforma in Emozione dei petali caduti. Consuma continuamente Energia Malefica per contrastare il Dominio e proteggerti. Sarai immune alla respinta e a Spezza-parata. Se non hai abbastanza Energia Malefica, eseguirai una parata normale."
+      }
+    }
+  }
+]

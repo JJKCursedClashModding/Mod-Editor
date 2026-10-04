@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Ko",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "우수한 신체 능력을 발휘하는 포텐셜이 특징인 근접 펀처.\n용도에 맞는 공격을 선택함으로써 근거리 전투에서 우위를 차지하고 적을 <GLO=GLS_GAME_WORDS_1418>한다.\n\n・포텐셜 「기어 업」은 <GLO=GLS_GAME_WORDS_1401>이 올라갈수록 <GLO=GLS_GAME_WORDS_1405>하기 쉬워지니,\n   과감하게 적의 품으로 파고들어 근거리 전투를 시도하자.\n・<GLO=GLS_GAME_WORDS_1307>는 허를 찌르기 쉬운 「경정권」을 기본으로 깔고, 「러시 콤보 공격」으로 큰 대미지를 노리자!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "연속 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 타격하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "어퍼"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "돌려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "전방에 가로로 충격파를 발생시키는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "내려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "전방에 세로로 충격파를 발생시키는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "날아 차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "힘찬 날아 차기를 하는 근거리 공격.\n공격 중에는 <GLO=GLS_GAME_WORDS_1509>가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "파편 날리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "바위를 차서 그 파편을 날리는 원거리 공격.\n명중한 적의 이동을 느리게 한다."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "경정권/흑섬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n한 번의 타격으로 두 번의 충격을 가하는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n<GLO=GLS_GAME_WORDS_1401> 3에 「흑섬」으로 변화.\n혼신의 일격으로 큰 대미지를 주는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "연격 난타"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "연속 돌려차기에서 이어지는 근거리 공격.\n<GLO=GLS_GAME_WORDS_1401>에 따라 공격 횟수가 변화한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n추가로 5연속 타격.\n【<GLO=GLS_GAME_WORDS_1401>３】\n추가로 더욱 호쾌한 라이트 스트레이트."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "경정권"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n몸통 박치기를 명중시키면 발동한다.\n극도의 집중 상태로 4연속 흑섬을 날려서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "기어 업"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 상승에 따라 단계적으로 발동.\n<GLO=GLS_GAME_WORDS_1405> 전후의 경직 감소.\n<GLO=GLS_GAME_WORDS_1504> 소비량 감소."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "적, 아군 상관없이 무차별적으로 공격하는 광범위 근접 어태커.\n강렬한 공격은 아군까지도 날려버리나, 방약무인으로 날뛸 수 있다.\n공격의 틈이 크나 <GLO=GLS_GAME_WORDS_1424>가 부여되니, 행동 타이밍이나 공격 기회를 잘 판단하자.\n\n・포텐셜 「반전술식」은 대미지를 입어도 반격해 <GLO=GLS_GAME_WORDS_1819>할 수 있으니 적극적으로 공격하자.\n・<GLO=GLS_GAME_WORDS_1401> 3부터 발동되는 포텐셜 「위압」은 공격 발생 시 주위 상대의 움직임을 멈출 수 있다.\n   상대의 행동을 저지하고 강력한 일격으로 연결하자!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "베어 넘기기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "전방을 강렬하게 베어 넘기는 근거리 공격.\n공격 전에는 <GLO=GLS_GAME_WORDS_1424>가 된다.\n공격 중에 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "오른쪽 정권 지르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "적에게 순간 이동해서 정권 지르기를 날린다.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "내려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 지면으로 차서 떨어뜨리는 근거리 공격.\n적의 낙하지점에 충격파가 발생한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "진각"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "지면을 차서 충격파를 발생시키는 근거리 공격.\n공중에서 사용하면 고속으로 낙하한다.\n공격 중에는 <GLO=GLS_GAME_WORDS_1424>가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "내던지기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "적에게 순간 이동해서 지면으로 내던진다.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 전에 「위압」이 발동된다."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "철퇴"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "적에게 순간 이동해서 배후에서 공격한다.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 전에 「위압」이 발동된다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "손등 치기/해"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n손등 치기로 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1401> 2 이상에서 「해」로 변화.\n눈앞에 적을 난도질하는 참격을 발생시키는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>３】\n참격 횟수가 늘어난다."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "발차기/「<img id=\"Symbol_0002\"/>」「푸가」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n발차기로 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1401> 2 이상에서 「<img id=\"Symbol_0002\"/>」「푸가」로 변화.\n불꽃의 화살을 겨눠 거대한 소용돌이로 발사하는 원거리 공격.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 범위가 넓어지고, 주는 대미지 상승."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "팔"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n거대한 참격을 명중시키면 발동한다.\n영역을 전개해서 대상 전체에 무수한 참격을 퍼부어 큰 대미지를 준다.\n영역이 닫히면 일정 시간 <GLO=GLS_GAME_WORDS_1307>가 체술로 변화한다."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "반전술식"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 2 이상일 때 발동.\n적에게 대미지를 주면, 직전에 받은 대미지의 일부를 <GLO=GLS_GAME_WORDS_1819>한다."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "위압"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 3일 때 발동.\n특정 공격 발생 시에 주위를 위압해서 일정 시간 행동 불능으로 만든다."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "저주의 왕"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "특정 공격 중 <GLO=GLS_GAME_WORDS_1424>가 된다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "식신과의 콤비네이션으로 공격을 쌓아가는 근접 콤보 어태커.\n상황에 따라 식신을 구분해 공격과 보조 모두 대응할 수 있다.\n\n・「십종영법술」로 누에 또는 혼을 소환하면, 식신의 추가 공격이 발생한다.\n   식신에게 명령하면 식신만 공격할 수도 있다. 멀리 떨어진 적을 공격하자!\n・포텐셜 「술식의 해석」이 발동하면 식신이 반격해주니 적극적으로 공격하자!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "2연속 돌려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 발차기를 날리는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n식신 소환 중에는 식신의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "차올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "도약 2연속 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 타격하는 근거리 공격.\n<GLO=GLS_GAME_WORDS_1406> 공격 중에는 <GLO=GLS_GAME_WORDS_1509>가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "공중 돌려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n명중 시, 쳐올린 적을 돌려차기로 떨어뜨린다.\n식신 소환 중에는 식신의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "두꺼비: 쳐올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "두꺼비를 소환해서 전방을 광범위하게 혓바닥으로 쓸어버린다.\n명중 시, 적을 바로 위로 쳐올린다.\n이 공격은 다른 기술로 파생할 수 있다.\n식신 소환 중에는 식신의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "두꺼비: 끌어당기기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "두꺼비를 소환해서 일직선으로 혓바닥을 뻗는다.\n명중 시, 적을 끌어당긴다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "십종영법술"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "그림자를 매개체로 식신을 소환해서 함께 행동한다.\n식신 소환 중에는 <GLO=GLS_GAME_WORDS_1503>을 계속 소비한다.\n식신은 후시구로의 공격에 맞춰서 자동으로 추가 공격한다.\n소환 중 <img id=\"CursedEnergyAttack_1\"/> 입력으로 <GLO=GLS_GAME_WORDS_1503>을 소비하고 식신에게 공격 명령을 내릴 수 있다.\n공격 명령 중에는 이동 조작이 가능하다.\n소환 중 <img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>으로 해제할 수 있다.\n소비하는 <GLO=GLS_GAME_WORDS_1503>이 부족하면 소환이 해제된다.\n【<GLO=GLS_GAME_WORDS_1401>１】\n<img id=\"CursedEnergyAttack_1\"/>으로 누에를 소환한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>으로 혼을 소환할 수 있게 된다.\n【<GLO=GLS_GAME_WORDS_1401>３】\n누에의 공격이 명중한 적의 이동을 느리게 한다.\n혼이 주는 대미지 상승."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "식신 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "식신과 연계 공격을 한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n식신을 소환하지 않은 경우, 발동 시 혼을 소환하게 된다.\n후시구로의 공격 후, 식신의 추가 공격이 발생한다.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n발동 시, 혼이 적의 배후로 간다."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "식신 협공"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n뒤돌려차기를 명중시키면 발동한다.\n그림자의 늪을 광범위하게 전개해서 움직임이 봉인된 적에게\n식신과 연계 공격으로 큰 대미지를 준다.\n영역이 닫히면 일정 시간 <GLO=GLS_GAME_WORDS_1307>를 사용할 수 없다."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "술식의 해석"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 3일 때 발동.\n후시구로가 공격받는 중에도 식신에게 명령할 수 있다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "독특한 공격 방법인 <GLO=GLS_UNIQUE_WORDS_1004>, 「공명」을 적에게 부여하는 중거리 어태커.\n마킹으로 심리적인 압박감을 부여해서 얼마나 전투의 주도권을 쥐느냐가 관건이다.\n\n・<GLO=GLS_UNIQUE_WORDS_1004>는 못을 박은 후 임의로 기폭할 수 있으니, <GLO=GLS_GAME_WORDS_1409>하기 어려운 타이밍을 노리자.\n・적이 거리를 좁혀도 당황하지 말고 추령주법 「공명」이나 <GLO=GLS_GAME_WORDS_1302>로 대처하자.\n\n마킹하면 거리와 상관없이 공격 가능하다는 성가신 특성을 잘 발휘해서 싸우자!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "못 박기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "적에게 연속으로 못을 날리는 원거리 공격.\n공격 중에는 방향을 입력해서 이동 가능하다.\n또한, 공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "쳐올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "연속 못 박기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "적에게 연속으로 못을 날리는 원거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "광범위 못 박기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "여러 개의 못을 부채꼴 모양으로 날리는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "2단 쇠망치 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쇠망치로 2연격을 날리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "크게 휘두르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "앞으로 파고들어 쇠망치를 크게 휘두르는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\n<GLO=GLS_GAME_WORDS_1503>을 실은 못을 날려서 명중한 적에게 비녀 효과를 부여한다.\n길게 누르기 가능.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n비녀를 일제히 발동해서 원격으로 대미지를 준다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "추령주법 「공명」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n직접 공격해서 적의 일부를 빼앗아 공명 효과를 부여한다.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n공명을 발동해서 원격으로 대미지를 준다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "못 연격"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n<GLO=GLS_GAME_WORDS_1503>을 실은 못을 명중시키면 발동한다.\n박힌 못에 원격으로 <GLO=GLS_GAME_WORDS_1503>을 흘려 넣고 내부에서부터 작렬시켜 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "여명 선고"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "비녀 효과 또는 공명 효과를 부여한 적에게 공격을 명중시켰을 때\n얻을 수 있는 <GLO=GLS_GAME_WORDS_1503>이 증가한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "규격을 벗어난 술식과 압도적인 체술로 전투를 지배하는 특급 올라운더.\n\n・<GLO=GLS_GAME_WORDS_1401> 2부터 발동되는 포텐셜 「무하한 주술」은 온갖 공격을 무효화한다.\n   무한을 현출하여 일방적으로 날뛰자.\n・도망치는 적은 술식 순전 「창」으로 움직임을 막고, 다가오는 적은 술식 반전 「혁」으로 접근을 막는다.\n   <GLO=GLS_UNIQUE_WORDS_1017>는 모든 것을 삼키는 큰 기술이다.\n・<GLO=GLS_UNIQUE_WORDS_1005>는 발동 후\n<GLO=GLS_GAME_WORDS_1307>가 특수한 것으로 변화한다. 승부를 마무리짓자!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "연속 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 타격하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "무릎 차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "적에게 순간 이동해서 쳐올린다.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다"
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "돌려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 타격하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "쳐서 떨어뜨리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "적에게 순간 이동해서 걷어찬다.\n공격 중 추가 입력을 하면 추가 공격, 쳐서 떨어뜨린다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "차올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 높이 차올리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "연속 돌려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "적에게 순간 이동해서 연속으로 발차기를 날린다.\n공격 중 추가 입력을 하면 추가 공격, 차서 떨어뜨린다."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "술식 순전 「창」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "부정적인 에너지를 강화한 무하한 주술로 끌어당기는 힘을 발생시킨다.\n길게 누르기 가능.\n<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>으로 임의의 위치에 설치할 수 있다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n끌어당기기 강화.\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n끌어당기기가 더욱 강화.\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "술식 반전 「혁」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "무하한 술식으로 긍정적인 에너지를 흘려 넣어서 튕겨내는 힘을 발생시킨다.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n차지 시간 단축.\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n차지 시간이 더욱 단축.\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>３】\n순전과 반전의 무한을 충돌시켜서 거대한 가상의 질량을 밀어낸다.\n일직선으로 뻗어나가 적을 집어삼킨다.\n길게 누르기로 사용 가능."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "공중 연격"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "제자리에서 자세를 잡고 무하한의 안쪽으로 끌어들이는 영역을 전개한다.\n무한의 정보를 흘려 넣은 상대는 일정 시간 행동 불능이 된다.\n영역이 닫히면 일정 시간 <GLO=GLS_GAME_WORDS_1307>가 체술로 변화한다."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "육안"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "항상 발동.\n상대의 <GLO=GLS_GAME_WORDS_1503> 게이지를 파악할 수 있다."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "무하한 주술"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 2 이상일 때, 일정 시간 <GLO=GLS_GAME_WORDS_1409>하면 <GLO=GLS_GAME_WORDS_1503> 게이지를 소비해서 발동 가능.\n자기 주위에 무한을 발동해서 일정 횟수 공격받지 않게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "부유"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>를 길게 누르면 부유할 수 있다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "날렵한 움직임에 더해 독자적인 콤보를 쌓아갈 수 있는 스피드 콤보 어태커.\n마키는 <GLO=GLS_GAME_WORDS_1503> 대신 <GLO=GLS_GAME_WORDS_1506>을 사용해 강력한 기술을 사용할 수 있다.\n\n・포텐셜 「<GLO=GLS_GAME_WORDS_1511>」는 공격을 계속 맞히면 이동 속도 등이 상승한다.\n   적에게 피할 틈을 주지 말고 공격을 퍼붓자!\n・「공방 일체」로 적의 공격을 회피할 수 있다.\n   추가로, 자신의 공격을 취소하고 다른 기술로 연결할 수도 있다.\n   오리지널 콤보를 조합해서 적을 압도하자!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "대도 난무"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 대도로 베는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1310>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "발차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 발차기를 날리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "대도 연격: 휘두르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 대도와 발차기의 날렵한 3연격을 날리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "대도 연격: 내려치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 대도를 내려치는 근거리 공격.\n공격 중 추가 입력을 하면 추가 공격, 차서 날려버린다."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "암기 던지기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "숨겨둔 암기를 투척하는 원거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "찌르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 대도를 휘둘러 쳐올리는 근거리 공격.\n공격 중 추가 입력을 하면 추가 공격, 지면에 찔러넣는다."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "공방 일체"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "회피 액션으로 적의 공격을 피한다.\n공격 중에 사용하면 액션을 캔슬 가능.\n멈춰선 상태, <GLO=GLS_GAME_WORDS_1405> 상태이면 자동으로 발동한다.\n<img id=\"CursedEnergyAttack_1\"/>\n제자리 회피.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/>, <img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n입력 방향으로 <GLO=GLS_GAME_WORDS_1431> 회피.\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n앞으로 공중제비.\n【<GLO=GLS_GAME_WORDS_1508>２】\n모션 시간 단축.\n【<GLO=GLS_GAME_WORDS_1508>３】\n모션 시간이 더욱 단축."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "대도 선회"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "대도를 화려하게 휘두르며 춤추듯이 연격을 날린다.\n【<GLO=GLS_GAME_WORDS_1508>２】\n공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1508>３】\n공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "3연속 공중 공격"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n대도로 찌르기를 명중시키면 발동한다.\n특급 <GLO=GLS_UNIQUE_WORDS_0008> 「유운」으로 여러 번 타격해서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "천여주박(피지컬 기프티드)"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>이 없는 대신 경이로운 신체 능력을 갖는다."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "적에게 공격을 명중시키면 쌓이는 전용 게이지가 있다.\n<GLO=GLS_GAME_WORDS_1511>가 올라가면 공격 속도, 이동 속도, <GLO=GLS_GAME_WORDS_1431>의 이동 거리가 상승한다.\n일정 시간 경과하면 게이지는 감소한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "가벼운 체술과 강력한 주언으로 적을 농락하는 특수 어태커.\n주언이 주는 심리적인 압박감을 방패 삼아 마구 공격하자.\n\n・「주언」 공격은 강력하지만, 지나치게 사용하면 자신도 대미지를 입는 양날의 검이다.\n   목 상태가 나빠지면 「목 통증 약」을 복용해서 <GLO=GLS_GAME_WORDS_1819>하자.\n・「움직이지 마」「비틀어져라」는 카운터로 발동하는 강력한 <GLO=GLS_GAME_WORDS_1307>.\n   적의 행동을 판별하고 매섭게 반격하자.\n・주언의 <GLO=GLS_GAME_WORDS_1513> 소비는 자신과 상대의 레벨 차이에 따라 달라진다.\n   적과의 <GLO=GLS_GAME_WORDS_1401> 차이를 잘 보고 행동하자!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "내려차기 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 다채롭게 타격하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "선풍각"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 몸을 회전시켜 걷어차는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "앞으로 내려차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "바로 아래로 낙하하며 연속으로 내려차기를 날리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "목 통증 약 복용"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "목 통증 약을 단숨에 들이켜 목의 내구력을 <GLO=GLS_GAME_WORDS_1819>한다.\n행동 중에는 이동 조작이 가능하다.\n<GLO=GLS_GAME_WORDS_1405> 불가능."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "체술 난무/「날아가 버려」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 날아 차기부터 쉼 없이 연격을 퍼붓는 근거리 공격.\n이 공격은 연격 도중에 추가 입력하면 「날아가 버려」로 파생 가능.\n「날아가 버려」\n<GLO=GLS_GAME_WORDS_1503>을 실은 언령을 내뱉어 전방의 적을 날려버리는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "「멈춰라」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>을 실은 언령을 내뱉어 적의 움직임을 멈추게 하는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "「떨어져」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>을 실은 언령을 내뱉어 전방의 적을 바로 아래로 떨어뜨리는 중거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "「움직이지 마」, 「비틀어져라」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "수비 자세를 취하고 적의 공격을 받으면 주언을 내뱉는다.\n「움직이지 마」로 움직임을 멈추게 한 뒤, 「비틀어져라」로 대미지를 준다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "「터져라」"
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n무릎 차기를 명중시키면 발동한다.\n「멈춰라」로 움직임을 멈추게 한 뒤, 「찌부러져라」로 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "주언사"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "주언을 사용하면 전용 <GLO=GLS_GAME_WORDS_1513>를 소비한다.\n<GLO=GLS_GAME_WORDS_1513>의 소비량은 주언이 성립한 상대와 자신의 <GLO=GLS_GAME_WORDS_1401> 차이에 따라 변동한다.\n<GLO=GLS_GAME_WORDS_1513>가 감소하면 발동 시의 빈틈이 커지며, 스스로 대미지를 입는다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "<GLO=GLS_NAME_CP_080>처럼 날고 <GLO=GLS_NAME_CP_081>처럼 찌르는, 전환형 근접 파이터.\n<GLO=GLS_GAME_WORDS_1509>가 되는 기술은 위축되지 않아서 끊기지 않으니 유효하게 활용하자!\n\n・<GLO=GLS_NAME_CP_081> 모드 중에는 늘 <GLO=GLS_GAME_WORDS_1509>가 되는 데다가 이동 속도도 빨라진다.\n   약간의 공격으로는 끄떡없으니 마음껏 날뛰자!\n・드러밍 비트의 대미지는 방어 불가!\n   상대가 <GLO=GLS_GAME_WORDS_1409>해도 신경 쓰지 말고 팍팍 공격하자."
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080> 원투"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 날카로운 펀치를 날리는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080> 스윙"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080> 트리플"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "앞으로 파고들어 3연속으로 펀치를 날리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080> 크러시"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "양손을 모아 바로 아래로 낙하하며 내려치는 근거리 공격.\n상대를 쳐서 떨어뜨리고, 지면에 착지한 충격으로 더 멀리 날려버린다."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "<GLO=GLS_NAME_CP_080> 힙/<GLO=GLS_NAME_CP_081> 어퍼"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "뒤로 엉덩이를 내미는 근거리 공격.\n공격 중에는 <GLO=GLS_GAME_WORDS_1509>가 된다.\n【<GLO=GLS_NAME_CP_081> 모드】\n전진하며 양손을 쳐들어서 날려버리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080> 태클"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "전방으로 힘차게 태클하는 근거리 공격.\n공격 중에는 <GLO=GLS_GAME_WORDS_1509>가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080> 러시"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "고속으로 여러 번 펀치를 날린 후, 있는 힘껏 날려버린다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": "<GLO=GLS_NAME_CP_081> 모드"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "각 레벨에서 <GLO=GLS_GAME_WORDS_1503>이 최대일 때 사용 가능.\n핵을 교체해서 <GLO=GLS_NAME_CP_081> 모드로 전환한다.\n항상 위축되지 않는 상태가 되고 모든 공격에 대미지를 줄 수 있게 된다.\n<GLO=GLS_NAME_CP_081> 모드에서는 「드러밍 비트」가 발동한다.\n계속 <GLO=GLS_GAME_WORDS_1503>을 소비해서 0이 되면 <GLO=GLS_NAME_CP_080> 모드로 돌아간다."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": "<GLO=GLS_NAME_CP_081> 스매시"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n어퍼를 명중시키면 발동한다.\n<GLO=GLS_NAME_CP_081> 모드로 연격을 날린 후, 있는 힘껏 내던져서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "누나의 핵 희생"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "위기 시 한 번만 <GLO=GLS_GAME_WORDS_1502>이 저하된 상태로 부활한다."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "드러밍 비트"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_081> 모드일 때의 공격은 <GLO=GLS_GAME_WORDS_1409>당해도 대미지를 줄 수 있다.\n이 대미지로 결정타를 날리는 것은 불가능하다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "테크니컬한 술식으로 파워풀하게 공격하는 샐러리맨 출신 1급 주술사.\n기술에 따라서는 타이밍에 맞게 추가 입력하면 「<GLO=GLS_UNIQUE_WORDS_1009>」이 발동해 크리티컬 히트가 된다.\n위력이 높아지니 냉정하게 판단해 혼신의 일격을 가하자!\n\n・<GLO=GLS_GAME_WORDS_1307>는 컴팩트한 「<GLO=GLS_UNIQUE_WORDS_1009>」 또는 큰 대미지를 주는 「4단 콤보 격투」.\n   상황에 따라 분별해 쓰자.\n・남은 시간이 줄어들면 포텐셜 「<GLO=GLS_GAME_WORDS_1503> 해방」이 발동, 대폭 파워 업한다.\n   야근은 빠르게 끝내자!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "2단 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 손도끼로 2회 베는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "찍기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 손도끼로 찍는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "휘두르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 손도끼를 크게 휘두르는 근거리 공격.\n타이밍에 맞춰서 추가 입력하면 크리티컬 히트가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "걷어차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "돌려차기를 날리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "쪼개기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 있는 힘껏 손도끼를 내리치는 근거리 공격.\n타이밍에 맞춰서 추가 입력하면 크리티컬 히트가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "충격파 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "주먹으로 지면을 쳐서 충격파를 발생시키는 근거리 공격.\n공중에서 사용하면 고속으로 낙하한다."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "7:3이 되는 점을 약점으로 만들어서 큰 대미지를 주는 근거리 공격.\n길게 누르기로 사용 가능.\n타이밍에 맞춰서 추가 입력하면 크리티컬 히트가 된다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "4단 콤보 격투"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "손도끼와 주먹에 <GLO=GLS_GAME_WORDS_1503>을 실어서 연속으로 날리는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>「와락와락」"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n몸통 박치기를 명중시키면 발동한다.\n자신의 술식으로 만들어 낸 약점을 정확히 베어내서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503> 해방"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>의 남은 시간이 적어지면 발동.\n<GLO=GLS_GAME_WORDS_1503>이 자동으로 상승.\n<GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도 상승.\n<GLO=GLS_GAME_WORDS_1405> 속도 상승.\n<GLO=GLS_GAME_WORDS_1504> 소비량 감소."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "교체하며 자유자재로 흐름을 만들어 주먹으로 제압하는 하이 센스 <GLO=GLS_NAME_CP_081>.\n근접 공격이 많으나 「<GLO=GLS_UNIQUE_WORDS_1010>」로 위치를 교체하여 거리를 좁히거나 공격을 피할 수 있다.\n\n・「<GLO=GLS_UNIQUE_WORDS_1010>」는 모든 대상과 교체가 가능하니 잘 활용하자!\n・파워 넘치는 공격은 적을 날려버리지만\n   「<GLO=GLS_UNIQUE_WORDS_1010>」로 위치를 바꿔 나를 향해 적을 날리면 추가 공격도 할 수 있다!\n\n세련된 연계가 필요하겠지만, 잘 활용하면 불리한 상황도 유리하게 뒤집을 수 있다!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "3단 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 타격한다.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "차올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "걷어차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 재빠른 손날치기로 시작해 가볍게 걷어차는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "래리어트"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "순간적으로 차지한 후, 래리어트로 전진하는 근거리 공격.\n공격 중에는 <GLO=GLS_GAME_WORDS_1509>가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "돌 던지기 <GLO=GLS_UNIQUE_WORDS_1010> 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>을 실은 돌을 던지는 원거리 공격.\n적에게 명중 시, 돌과 위치를 바꾸고 순간 이동해서 추가 공격한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "돌 던지기 <GLO=GLS_UNIQUE_WORDS_1010> 이동"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "임의의 방향으로 돌을 던지고 위치를 바꿔서 순간 이동한다.\n길게 누르기로 사용 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "손뼉을 쳐서 일정 범위 내의 자신과 타인, 또는 타인과 타인의 위치를 순간적으로 바꾼다.\n방향 입력에 따라 발동할 대상을 선택할 수 있다.\n이 공격은 다른 기술로 파생할 수 있다.\n<img id=\"CursedEnergyAttack_1\"/>\n자신과 <GLO=GLS_GAME_WORDS_1417>을 바꾼다.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n아군과 적을 바꾼다.\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n적끼리 바꾼다.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n자신과 아군을 바꾼다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n발동 시간 감소.\n【<GLO=GLS_GAME_WORDS_1401>３】\n발동 시간이 더욱 감소."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "연격 난타"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "힘을 모아서 강력한 4연격을 날리는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "천지 가르기"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n하이킥을 명중시키면 발동한다.\n걷어찬 적과의 위치를 바꾸고, 받아치듯이 혼신의 흑섬을 날려서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "술식 해금"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>를 사용하면 일정 시간 다음 효과를 얻는다.\n이동 속도 상승.\n<GLO=GLS_GAME_WORDS_1504> 소비량 감소.\n또한, 이 효과는 <GLO=GLS_GAME_WORDS_1401>에 따라 변동한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "자기 편이 상처입으면 분노해 상황을 뒤집는 근거리 어태커.\n\n・포텐셜 「격정」은 게이지가 최대치까지 차면 「<GLO=GLS_NAME_CN_040>」가 현현한다.\n   넘치는 <GLO=GLS_GAME_WORDS_1503>과 「<GLO=GLS_NAME_CN_040>」의 강력한 추가 공격으로 몰아붙이자!\n・「결의」로 도신에 「<GLO=GLS_GAME_WORDS_1503>」을 담으면 <GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>로도 대미지를 줄 수 있다.\n   단숨에 몰아붙인 후 「예기」로 큰 대미지를 노리자!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "3단 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 칼로 베어내는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "사선 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 칼로 베어내는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "2단 베어 넘기기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속으로 베어내는 근거리 공격.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "베어버리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "회전 베기로 적을 날려버리는 근거리 공격.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "다이빙 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>로 접근해 공중에서 회전 베기를 날리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "슬라이딩 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "슬라이딩으로 접근해서 베어 올리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "예기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "적에게 고속으로 접근해서 연속으로 베어낸다.\n격정 시에는 <GLO=GLS_NAME_CN_040>의 추가 공격이 발생한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "결의"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "칼에 <GLO=GLS_GAME_WORDS_1503>을 실어서 공격 성능을 강화한다.\n또한, 모든 공격에 대미지를 줄 수 있게 된다.\n계속 <GLO=GLS_GAME_WORDS_1503>을 소비하며, 재입력하거나 <GLO=GLS_GAME_WORDS_1503>이 0이 되면 해제된다."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "흑섬"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n왼손 펀치를 명중시키면 발동한다.\n제한을 해제하고 <GLO=GLS_NAME_CN_040>를 통해 방대한 <GLO=GLS_GAME_WORDS_1503>을 날려서 대미지를 준다.\n발동 후, 그 전투에서는 <GLO=GLS_NAME_CN_040>가 현현하지 않게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "격정"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "아군이 대미지를 받거나 <GLO=GLS_GAME_WORDS_1429>될 때 쌓이는 전용 게이지가 있다.\n최대 게이지가 되면 <GLO=GLS_NAME_CN_040>가 현현하여 옷코츠와 함께 공격한다.\n옷코츠가 공격을 받을 때 <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, <img id=\"CursedEnergyAttack_2\"/> 중 하나를 입력하면 게이지를 소비하고 <GLO=GLS_NAME_CN_040>의 카운터 공격이 발생한다.\n옷코츠가 <GLO=GLS_GAME_WORDS_1409> 중 공격을 받으면 게이지를 소비하고 <GLO=GLS_NAME_CN_040>의 카운터 공격이 발생한다.\n<GLO=GLS_NAME_CN_040>가 현현하는 동안에는 <GLO=GLS_GAME_WORDS_1401>이 최대가 된다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "「<GLO=GLS_UNIQUE_WORDS_0002> 조종술」을 통한 많은 공격 횟수로 상대를 농락하는 중거리 어태커.\n대응력이 높은 <GLO=GLS_GAME_WORDS_1302>에서 대미지를 주는 <GLO=GLS_GAME_WORDS_1307>로 파생 가능한 특급 성능으로 적을 압도하자.\n\n・「<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 일군」은 발생이 빠르며 여러 <GLO=GLS_UNIQUE_WORDS_0002>을 전방에 날려서 적을 끌어들이며 직진한다.\n・「<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 빛기둥」은 발생이 느리지만 공중에서도 피할 수 없는 범위 공격으로 적을 단번에 공격할 수 있다.\n\n상황에 따라 사용할 <GLO=GLS_GAME_WORDS_1307>를 구분해 적을 제압하자!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "여러 <GLO=GLS_UNIQUE_WORDS_0002>을 연속으로 소환해서 돌진시키는 중거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: <GLO=GLS_GAME_WORDS_1428>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>을 소환해서 <GLO=GLS_GAME_WORDS_1428>하는 중거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 끌어당기기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 2체를 소환해서 돌진시키는 중거리 공격.\n히트 시 되돌아 오며 적을 끌어당긴다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 돌진"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>을 소환해서 적을 쫓아가 공격하도록 시키는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "2단 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 날아 차기로 가격하는 근거리 공격.\n명중 시 추가 공격, 오른손 펀치를 날려 적을 쳐서 떨어뜨린다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 쳐올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "백 <GLO=GLS_GAME_WORDS_1431>하며 발밑에서 <GLO=GLS_UNIQUE_WORDS_0002>을 소환하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 일군"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "집어삼킨 <GLO=GLS_UNIQUE_WORDS_0002> 2종을 사역해서 공격한다.\n<img id=\"CursedEnergyAttack_1\"/>\n여러 <GLO=GLS_UNIQUE_WORDS_0002>을 돌진시키는 중거리 공격.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n여러 <GLO=GLS_UNIQUE_WORDS_0002>을 적에게 덤벼들게 하는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수 증가, 히트 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수가 더욱 증가, 히트 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 빛기둥"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "준1급 상당의 <GLO=GLS_UNIQUE_WORDS_0002>을 소환하고, 적이 있는 위치에 빛의 기둥을 발생시켜서 공격한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "유운: 연격"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술 극번 「소용돌이」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n뒤돌려차기를 명중시키면 발동한다.\n<GLO=GLS_UNIQUE_WORDS_0002> 조종술로 집어삼킨 대량의 <GLO=GLS_UNIQUE_WORDS_0002>을 하나로 뭉쳐 날려서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "특급 <GLO=GLS_UNIQUE_WORDS_0003>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401> 2 이상일 때 발동.\n공격으로 인한 경직을 <GLO=GLS_GAME_WORDS_1307>로 캔슬할 수 있다.\n<GLO=GLS_GAME_WORDS_1401>이 올라가면 더 빨리 캔슬할 수 있다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "리치가 긴 공격으로 흐름을 만들고 거리를 좁혀 적의 <GLO=GLS_GAME_WORDS_1502>을 깎아내는 중거리 파이터.\n몸을 자유롭게 변형시켜 임기응변으로 공격 거리를 컨트롤할 수 있다.\n\n・포텐셜 「무위전변」은 적에게 공격을 계속 맞히면 추가 대미지를 입힐 수 있다. 쉴 새 없이 공격하자!\n   <GLO=GLS_UNIQUE_WORDS_1013> 중에는 「무위전변」이 대폭 강화된다!\n・「얌전하게 만들어 볼까」로 개조인간을 꺼내 적에게 원격 공격을 할 수도 있다.\n   협공으로 적을 쓰러뜨리자!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "변형 공격: 팔"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 변형시킨 팔로 가격하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "변형 공격: 가시"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "몸을 둥글게 말고 전방위로 가시를 뻗는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "연속 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "적에게 <GLO=GLS_GAME_WORDS_1419>해서 예측하기 어려운 움직임으로 구사하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "연속 회전 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 팔을 검으로 바꿔 벤 후, 거대한 손으로 날려버리는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "변형 공격: 드릴"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "드릴로 변형시킨 팔을 뻗어서 꿰뚫는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "변형 공격: 검"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "팔을 검으로 바꿔서 베어 넘기는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "얌전하게 만들어 볼까"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "비축해둔 개조 인간을 소환해서 적을 공격한다.\n명중한 적에게 대미지를 주고, 이동을 느리게 한다.\n비축분이 없는 상태에서 발동하면 구토해서 비축분을 보충한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n소지 가능한 비축분 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n소지 가능한 비축분이 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "「다중혼」「발체」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "여러 영혼을 융합시키고 영혼의 질량을 높여서 적에게 날린다.\n비축해둔 개조 인간을 전부 소비한다.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 범위 확대.\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 범위가 더욱 확대.\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "무위전변"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "제자리에서 자세를 잡고 입 안에서 인을 맺어 영역을 전개한다.\n일정 시간 맵을 변화시키고, 자신의 공격을 강화한다.\n추가로, 영역 내 적의 <GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도와 이동 속도를 저하시킨다.\n영역이 닫히면 일정 시간 <GLO=GLS_GAME_WORDS_1307>를 사용할 수 없게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "영혼의 본질"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "공격받으면 대미지량에 따라서 <GLO=GLS_GAME_WORDS_1503>이 증가한다."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "무위전변"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "자기 공격에 일정 횟수 접촉하면 추가로 대미지를 준다.\n일정 시간 경과하면 횟수는 리셋된다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "전장을 활보하며 강제로 유리한 거리를 발생시켜 싸우는 중~원거리 슈터.\n\n・이동하면서도 가능한 <GLO=GLS_GAME_WORDS_1301>로 시작해, 기회를 노려 광범위 공격인 「<GLO=GLS_GAME_WORDS_1503> 염사」로 적을 일소하자.\n・<GLO=GLS_UNIQUE_WORDS_1014>을 발동하면 일정 시간 모든 플레이어를 영역에 끌어들인다.\n   영역 내에서는 자신의 스테이터스와 <GLO=GLS_GAME_WORDS_1307>가 강화되니 압도적인 힘으로 제압해 적을 유린하자!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "화구 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "연속으로 작은 불덩이를 날리는 원거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n공격 중에 이동 조작이 가능하다."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "압축 화구 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "양손으로 불덩이를 날리는 원거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "화산 현현"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "적의 발밑에 화염을 분사하는 화산을 발생시키는 원거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "화산 트랩 설치"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "화산 발생 에어리어를 지정한 위치에 설치한다.\n적이 에어리어에 침입하면 화산이 나타나 화염을 분사한다."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "화구 연탄"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "즉시 여러 개의 불덩이를 생성해서 느리게 발사하는 원거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "화염 방사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "뒤로 도약하며 화염을 내뿜는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503> 염사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "일직선으로 <GLO=GLS_GAME_WORDS_1503>을 방출해서 모조리 불태운다.\n길게 누르기 가능.\n발동 중에는 <GLO=GLS_GAME_WORDS_1503>을 계속 소비한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 범위 증가.\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 범위가 더욱 증가.\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "연/폭/극번 「운」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "불덩이를 날려서 공격한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n불덩이가 커져서 주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n극번 「운」으로 변화해서 착탄 시에 대폭발을 일으킨다.\n길게 누르기 가능."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "화력충"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "제자리에서 자세를 잡고 활화산의 화구 내부처럼 작열하는 영역을 전개한다.\n일정 시간 맵을 변화시키고, 자신의 <GLO=GLS_GAME_WORDS_1307>를 강화한다.\n또한, 영역 내의 적에게 계속 대미지를 주고 이동 속도를 저하시킨다.\n영역이 닫히면 일정 시간 <GLO=GLS_GAME_WORDS_1307>를 사용할 수 없게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>으로서의 긍지"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "자신의 <GLO=GLS_GAME_WORDS_1502>이 적어지면 발동.\n<GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도 상승.\n<GLO=GLS_GAME_WORDS_1307>의 대미지 증가.\n또한, 이 효과는 <GLO=GLS_GAME_WORDS_1401>에 따라 변동한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "지상에서 압도적인 대응력을 지닌 지상 특화 올레인지 어태커.\n\n・「원격식 수목 공격」은 떨어진 적의 발밑에 뿌리를 뻗어 찔러 올리는 공격을 할 수 있다.\n   적극적으로 기습을 노리자!\n・「장벽 수목 공격」은 자기 앞에 뿌리 벽을 출현시켜 근처의 적을 날리고 원거리 공격도 막을 수 있다.\n\n원거리에서 견제! 중거리에서 날리기! 근거리는 카운터!\n공격을 적절히 구사해서 적의 접근을 방지하자!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "나무 공 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "가지를 뻗어서 공격하는 나무 공을 날리는 중거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "나무 공 난타"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 나무 공을 휘두르는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "범위 수목 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "주위의 지면에 나무뿌리를 뻗는 근거리 공격.\n공중에서 사용하면 낙하한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "명상"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "명상을 해서 <GLO=GLS_GAME_WORDS_1503>을 모은다.\n<GLO=GLS_GAME_WORDS_1401>이 최대인 경우, 사용한 <GLO=GLS_GAME_WORDS_1503>을 회복한다.\n길게 누르기로 사용 가능.\n공중에서 사용하면 낙하한다."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "저주 씨앗 날리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "저주 씨앗을 튕겨서 날리는 원거리 공격.\n명중한 적의 <GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도를 늦춘다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "저주 씨앗 강우"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "거대한 꽃을 출현시켜서 저주 씨앗을 단번에 날리는 원거리 공격.\n날린 저주 씨앗은 일정 시간 후에 낙하한다.\n명중한 적의 <GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도를 늦춘다.\n공중에서 사용하면 낙하한다."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "원격식 수목 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "적의 바로 아래에서 나무뿌리를 발생시켜 꿰뚫는다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n공격 범위가 확장.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n공격 범위가 더욱 확장."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "장벽 수목 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "자신의 앞에 나무 벽을 생성해서 공격한다.\n공중에서 사용하면 낙하한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n벽 수가 증가하고 높이가 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n높이가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "거대 수목 공격"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n주위에 꽃밭을 전개해서 명중시키면 발동한다.\n꽃밭을 보고 전의를 상실한 적을 나무뿌리로 꿰뚫어서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "왼팔 해방"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>를 발동하면 왼팔을 해방해서 다음 효과를 얻는다.\n<GLO=GLS_GAME_WORDS_1307>의 발생 시간 단축.\n<GLO=GLS_GAME_WORDS_1503>의 소비량 저하."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "형제의 절묘한 콤비네이션과 강력한 <GLO=GLS_GAME_WORDS_1415> 공격을 지닌 원격 컨트롤형 파이터.\n「<GLO=GLS_GAME_WORDS_1427>」은 혈액을 묻혀 대미지를 주는 극번 「시왕」과 혈액을 트리거로 <GLO=GLS_GAME_WORDS_1415>을 부여하는 「후」를\n적절히 사용하면 적을 자신의 페이스로 끌어들일 수 있다.\n\n・<GLO=GLS_GAME_WORDS_1427> 「후」는 혈액을 묻힐수록 단계적으로 효과가 상승한다.\n   적극적으로 상대에게 혈액을 묻히자!\n・<GLO=GLS_GAME_WORDS_1427> 「후」 발동 중 <GLO=GLS_NAME_CN_260>는 혈액을 이용한 공격을 할 수 없게 된다.\n   발동 중에는 <GLO=GLS_NAME_CN_080>를 더 의지하자!\n\n형제의 연계가 <GLO=GLS_GAME_WORDS_1601>의 관건이니 늘 의식하며 행동하자!"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "3연속 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속 가격하는 근거리 공격.\n명중 시, 「시왕」으로 추가 공격해서 혈액을 묻힌다.\n「후」 발동 시에는 <GLO=GLS_NAME_CN_080>의 추가 공격이 발생한다.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "중단 차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 왼 다리로 적을 차올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "쳐올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 주먹을 휘둘러 적을 쳐올리는 근거리 공격.\n명중 시, 「시왕」으로 추가 공격해서 혈액을 묻힌다.\n「후」 발동 시에는 <GLO=GLS_NAME_CN_080>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "양손날"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "앞으로 파고들어 양손을 내려치는 근거리 공격.\n명중 시, 「시왕」으로 추가 공격해서 혈액을 묻힌다.\n「후」 발동 시에는 <GLO=GLS_NAME_CN_080>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "추격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 왼팔을 재빠르게 내지르는 근거리 공격.\n명중 시, <GLO=GLS_NAME_CN_080>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "굳히기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 오른 다리로 차올리는 근거리 공격.\n명중 시, <GLO=GLS_NAME_CN_080>의 추가 공격이 발생한다."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "동생아"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "<GLO=GLS_NAME_CN_080>에게 지시를 내려 행동하게 한다.\n<GLO=GLS_NAME_CN_080>가 <GLO=GLS_GAME_WORDS_1429> 중일 때는 지시를 받지 않는다.\n<img id=\"CursedEnergyAttack_1\"/>\n혈액을 분사해서 묻힌다.\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 공격한다.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n<GLO=GLS_NAME_CN_260>에게 돌아간다.\n<GLO=GLS_GAME_WORDS_1503>을 소비하지 않는다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_NAME_CN_080>의 이동 속도 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n<GLO=GLS_NAME_CN_080>의 이동 속도가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "<GLO=GLS_GAME_WORDS_1427> 극번 「시왕」/「후」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n<GLO=GLS_GAME_WORDS_1427> 극번 「시왕」을 발동해서 명중한 적에게 대미지를 주고 혈액을 부여한다.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n<GLO=GLS_GAME_WORDS_1427> 「후」를 발동해 혈액이 부여된 적의 <GLO=GLS_GAME_WORDS_1405> 성능을 저하시킨다.\n발동 중 혈액을 추가로 부여하면 적에게 지속 대미지를 입힌다.\n혈액을 추가 부여한 상태로 다시 입력하면 해제되며 더 대미지를 준다.\n혈액을 추가 부여한 횟수가 많을 수록 효과가 커진다.\n계속 <GLO=GLS_GAME_WORDS_1503>을 소비하며, 재입력 또는 <GLO=GLS_GAME_WORDS_1503>이 0이 되면 해제된다.\n「후」 발동 중에는 「시왕」을 발동할 수 없다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n「시왕」의 공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n「시왕」 공격 횟수가 더욱 증가하고 길게 누르기가 가능해진다."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "이것이 형제의 힘입니다"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n손등 치기를 명중시키면 발동한다.\n<GLO=GLS_NAME_CN_080>와 함께 적에게 혈액을 묻히고 <GLO=GLS_GAME_WORDS_1427> 「후」를 발동해서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "동생을 위해서"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "<GLO=GLS_NAME_CN_080>가 <GLO=GLS_GAME_WORDS_1429>되지 않았을 때, <GLO=GLS_NAME_CN_260>의 공격 성능이 상승한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "어떤 상황에서든 유리한 국면을 만들어내는\n방약무인한 최강의 <GLO=GLS_UNIQUE_WORDS_0001>.\n\n・그 자리에 머무르면 어떤 공격도 통하지 않는 무하한 주술이 발동.\n・술식 순전 「창」은 순식간에 적에게 접근하거나 끌어당길 수 있다.\n   적의 움직임을 자유롭게 컨트롤하자.\n・\"술식 순전 「창」 출력 최대\"는 광범위하게 쓸어 내서 전황을 뒤바꾸는 큰 기술이다.\n   기회를 노려서 역전의 한 수를 날리자!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "발차기 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 격투 공격을 하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "어퍼"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, <GLO=GLS_GAME_WORDS_1515> 중에 이 공격을 명중시키면\n<GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "끌어당기기 연각"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "적을 끌어당기면서 <GLO=GLS_GAME_WORDS_1419>하고, 날려버리는 2연속 공격."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "2연속 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 재빠르게 2연속 공격을 한다."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "끌어당기기 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "적을 끌어당기면서 <GLO=GLS_GAME_WORDS_1419>하고, 2연속 공격으로 날려버린 후,\n다시 끌어당겨서 추가 공격하는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "급소 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 강력한 일격으로 날려버린다."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "술식 순전 「창」 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "적의 눈앞으로 고속 이동해서 연격을 날리는 근거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "술식 순전 「창」 출력 최대"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "최대 출력으로 거대한 창을 발생시켜, 적을 끌어당기면서 공격한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n차지 시간 단축.\n【<GLO=GLS_GAME_WORDS_1401>３】\n차지 시간이 더욱 단축."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "술식 반전 「혁」"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n무릎 차기를 명중시키면 발동한다.\n<GLO=GLS_UNIQUE_WORDS_1017>를 날려 상대를 관통하는 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1515>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "한 번 <GLO=GLS_GAME_WORDS_1418>되면 발동한다.\n일부 격투 공격의 성능이 올라가 \"술식 순전 「창」 출력 최대\"의 성능도 상승한다.\n<GLO=GLS_GAME_WORDS_1315>를 발동할 수 있게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "무하한 주술"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "정지 상태로 일정 시간 경과하면 발동한다.\n자기 주위에 무한을 발동해서 일정 횟수 공격받지 않게 된다."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "육안"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "항상 발동.\n상대의 <GLO=GLS_GAME_WORDS_1503> 게이지를 파악할 수 있다.\n<GLO=GLS_GAME_WORDS_1503>이 서서히 상승한다."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "부유"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>를 길게 누르면 부유할 수 있다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "뛰어난 격투 센스와 술식을 겸비한 젊은 특급 <GLO=GLS_UNIQUE_WORDS_0001>.\n\n・<GLO=GLS_UNIQUE_WORDS_0002> 조종술: <GLO=GLS_NAME_CN_200>는 적의 공격에 반응해서 카운터가 발생하는 간이 영역을 전개한다!\n   적의 움직임을 제한해서 아군에게 유리한 상황을 만들자!\n・포텐셜 「<GLO=GLS_UNIQUE_WORDS_0002> 조종술」은 <GLO=GLS_UNIQUE_WORDS_0002>을 이용한 공격으로 자신의 <GLO=GLS_GAME_WORDS_1503>을 <GLO=GLS_GAME_WORDS_1819>한다.\n   공격을 계속 명중시켜 지속적으로 대미지를 주자!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "4단 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속으로 격투 공격을 하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 돌진"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>을 소환해서 돌진시키는 중거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "3단 격투 공격: <GLO=GLS_UNIQUE_WORDS_0002> 추가 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 3연속으로 공격한 후,\n<GLO=GLS_UNIQUE_WORDS_0002>을 소환해서 찔러 올리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "2단 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 재빠르게 2연속 공격한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "2단 격투 공격: <GLO=GLS_UNIQUE_WORDS_0002> 추가 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속 공격한 후,\n<GLO=GLS_UNIQUE_WORDS_0002>을 소환해서 날려버리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "소형 <GLO=GLS_UNIQUE_WORDS_0002>을 연속으로 3체 발사하는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: 연탄"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "소형 <GLO=GLS_UNIQUE_WORDS_0002>을 나누어 꺼내서 공격한다.\n<img id=\"CursedEnergyAttack_1\"/>\n소형 <GLO=GLS_UNIQUE_WORDS_0002> 여럿에게 적을 추격하게 하는 중거리 공격.\n【<GLO=GLS_GAME_WORDS_1401>２】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수 증가, 히트 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수가 더욱 증가, 히트 횟수가 더욱 증가.\n<SplitCommand>\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\n수많은 소형 <GLO=GLS_UNIQUE_WORDS_0002>을 연사하는 원거리 공격.\n길게 누르기 가능.\n발동 중에는 <GLO=GLS_GAME_WORDS_1503>을 계속 소비한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수 증가, 광범위한 공격 가능.\n【<GLO=GLS_GAME_WORDS_1401>３】\n소환하는 <GLO=GLS_UNIQUE_WORDS_0002> 수가 더욱 증가, 더욱 광범위한 공격 가능."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술: <GLO=GLS_NAME_CN_200>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "<GLO=GLS_NAME_CN_200>를 소환해서 간이 영역을 전개한다.\n영역 안에서 공격하는 적을 수많은 가위로 잘게 자른다.\n주력을 계속 소비하며, 다시 입력하거나 주력이 0이 되면 해제된다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n공격 횟수 증가, 영역 범위 확대.\n【<GLO=GLS_GAME_WORDS_1401>３】\n공격 횟수가 더욱 증가, 영역 범위가 더욱 확대."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술 「<GLO=GLS_NAME_CN_200>」"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n팔꿈치 치기를 명중시키면 발동한다.\n소지한 <GLO=GLS_UNIQUE_WORDS_0002> 중 최고 경도인 <GLO=GLS_NAME_CN_190>을 적에게 돌진시켜서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002> 조종술"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>을 이용한 공격이 명중할 때마다 자신의 <GLO=GLS_GAME_WORDS_1503>을 일정량 <GLO=GLS_GAME_WORDS_1819>한다.\n주력 회복량은 <GLO=GLS_UNIQUE_WORDS_0002>에 따라 다르다.\n또한, 이 효과는 <GLO=GLS_GAME_WORDS_1401>에 따라 변동한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "원거리에서 사격으로 엄호하며, 기습이 특기인 완전 원거리 어태커.\n\n・「저격」은 <GLO=GLS_GAME_WORDS_1503>을 실은 총알을 임의의 방향으로 사격할 수 있다.\n   잘 조준해서 강력한 일격을 선사하자.\n・기회를 놓치지 않도록 틈틈이 재장전하자.\n・자신을 타깃으로 삼지 않은 적을 공격하면 위력과 <GLO=GLS_GAME_WORDS_1503> 증가량이 상승한다.\n   적의 타깃이 되지 않도록 주의하며 유리하게 움직이자!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "단발 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "총알을 1발 소비해서 적을 사격하는 원거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n총알이 떨어진 경우에는 재장전한다."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "앉아서 쏘기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "제자리에 쭈그려 앉아 총알을 1발 소비해서 적을 사격하는 원거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다.\n총알이 떨어진 경우에는 재장전한다."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "연속 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "<img id=\"NormalAttack_2\"/>을 연속으로 입력해서, 들어있는 총알을 재빨리 다 쏘는 연속 공격.\n총알이 떨어진 경우에는 재장전한다."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "발차기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 돌려차기로 날려버리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "시야 가리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "제자리에서 모래를 뿌려 명중한 적을 위축시키는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "2연타"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속으로 후려치는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "저격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "제자리에서 적을 조준해 <GLO=GLS_GAME_WORDS_1503>을 실은 총알을 발사하는 원거리 공격.\n전용 조준을 <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>으로 조작해서 어깨너머 시점으로 저격할 수 있다.\n이 상태에서는 <GLO=GLS_GAME_WORDS_1503>을 소비해서 <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"CursedEnergyAttack_2\"/>으로 다른 사격이 가능하다.\n총알이 떨어진 경우에는 재장전한다.\n【<GLO=GLS_GAME_WORDS_1401>１】\n<img id=\"NormalAttack_1\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 1\n<img id=\"NormalAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 1\n<img id=\"CursedEnergyAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 1\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n<img id=\"NormalAttack_1\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 1\n<img id=\"NormalAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 2\n<img id=\"CursedEnergyAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 2\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n<img id=\"NormalAttack_1\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 1\n<img id=\"NormalAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 3\n<img id=\"CursedEnergyAttack_2\"/>: 소비 <GLO=GLS_GAME_WORDS_1503> 3"
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "차지 사격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "총알에 <GLO=GLS_GAME_WORDS_1503>을 실어 강력한 일격을 발사하는 원거리 공격.\n길게 누르기 가능.\n차지 중에는 이동 조작 가능.\n<GLO=GLS_GAME_WORDS_1405> 불가능.\n차지 시간에 따라 대미지가 상승한다.\n최대로 차지하면 관통한다.\n총알이 떨어진 경우에는 재장전한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n차지 시간 단축.\n대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n차지 시간이 더욱 단축.\n대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "재장전"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "총알을 보충한다.\n재장전 중에는 이동 조작 가능."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "맞아서 다행이야"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n총알이 떨어진 경우에는 재장전한다.\n총알을 1발 소비해서 사격하고, 명중시키면 발동한다.\n총알 6발을 전부 쏜 후, <GLO=GLS_UNIQUE_WORDS_1020>으로 7번째 총알을 쏴서 적에게 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "나와 거리를 두다니 바보 아냐?"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "자신을 타깃으로 삼지 않은 적을 공격하면 공격력, <GLO=GLS_GAME_WORDS_1503> 증가량이 상승한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "타의 추종을 불허하는 공중 이동으로 적을 교란하는 비행 어태커.\n\n・공격하면서 고속 이동이 가능한 「돌진」으로 적의 페이스를 무너뜨리고\n   틈을 노려서 츠쿠모 조종술 「칼바람」으로 큰 대미지를 주자!\n・포텐셜 「츠쿠모 조종술」로 필드를 입체적으로 활용해\n   어디에서든 공격할 수 있는 기동력을 살리자!"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "빗자루 치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 빗자루로 내리치는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "선풍"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "전방으로 나아가는 회오리바람을 발생시키는 중거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "급습 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "급강하해서 적에게 돌진하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "수직 낙하"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "제자리에서 수직 낙하한다.\n길게 누르기 가능.\n이동 후에는 다른 기술 또는 <GLO=GLS_GAME_WORDS_1405>로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "바람 일으키기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "바람을 일으켜서 적에게 날리는 중거리 사격.\n착탄 시 바람이 번지며 적을 위로 날린다."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "돌풍"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "제자리에서 빗자루를 휘둘러 바람을 일으키는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "돌진"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "빗자루에 타고 돌진한다.\n돌진 중에는 <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>으로 방향을 바꿀 수 있다.\n공격 후에는 자신의 이동 속도가 상승하고, 바람으로 공격하는 염출기가 강화된다.\n길게 누르기 가능.\n공격 후 <GLO=GLS_GAME_WORDS_1405>로 파생 가능\n【<GLO=GLS_GAME_WORDS_1401> 2】\n주는 대미지 상승.\n부여되는 버프의 효과 상승.\n【<GLO=GLS_GAME_WORDS_1401> 3】\n주는 대미지가 더욱 상승.\n부여되는 버프의 효과 상승."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "칼바람을 발생시켜서 적에게 날리는 원거리 공격.\n【<GLO=GLS_GAME_WORDS_1401> 2】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401> 3】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "어서 잡아 봐"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n빗자루에 탄 채로 걷어차기를 명중시키면 발동한다.\n적을 도망치지 못하게 공중으로 날려버린 후, <GLO=GLS_UNIQUE_WORDS_1021>을 날려서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "츠쿠모 조종술"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "빗자루를 타고 비행한다.\n<GLO=GLS_GAME_WORDS_1406>를 길게 누르면 계속 상승한다.\n공중에서는 활공 상태가 되어 <GLO=GLS_GAME_WORDS_1504>가 <GLO=GLS_GAME_WORDS_1819>된다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "궁술과 적혈조술로 다채롭게 공격하며 적을 궁지에 몰아넣는 원거리 어태커.\n\n・화살을 이용한 다양한 공격으로 빈틈을 만들어 큰 기술인 적혈조술로 연결하자.\n・적혈조술 「예불」은 움직이는 적에게도 맞히기 쉬워 착실하게 대미지를 노릴 수 있다.\n・적혈조술 「백렴/천혈」은 차지할수록 사정거리와 위력이 늘어 적을 단숨에 꿰뚫을 수 있다.\n   냉정하게 상대의 움직임을 보며, 정확히 조준한 일격으로 결판을 내자!"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "주력 화살: 연사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "적에게 연속으로 화살을 쏘는 원거리 공격.\n공격 중 추가 입력으로 주력기로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "주력 화살: 단발"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "활시위를 힘껏 당겨 화살을 쏘는 원거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "주력 화살: 종사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "사정거리가 길고 속도가 빠른 화살을 직선으로 쏘는 원거리 공격.\n길게 누르기 가능."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "주력 화살: 곡사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "사정 범위 내의 적 주위를 노리고\n화살들을 퍼붓는 원거리 공격.\n길게 누르기로 지정 위치에 공격할 수 있다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "주력 화살: 횡사"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "세 방향으로 화살을 쏘는 원거리 공격.\n차지하면 적혈조술로 적에게 <GLO=GLS_GAME_WORDS_1419>되는 화살을 쏠 수 있다.\n길게 누르기 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "적혈조술 「적박」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "그 자리에서 자리를 잡고, 적의 공격을 맞으면 혈액팩을 적에게 던진다.\n혈액팩이 적에게 맞으면, 혈액이 달라붙어 적의 움직임을 막을 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "적혈조술 「예불」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "혈액을 원반 형태로 압축하고 회전시켜 던지는, <GLO=GLS_GAME_WORDS_1419> 성능이 높은 원거리 공격.\n<GLO=GLS_GAME_WORDS_1401>에 따라 발사되는 수가 늘어난다. \n길게 누르기 가능\n【<GLO=GLS_GAME_WORDS_1401>２】\n발사 수 증가\n<GLO=GLS_GAME_WORDS_1516> 소비량 증가\n【<GLO=GLS_GAME_WORDS_1401>３】\n발사 수 더욱 증가\n<GLO=GLS_GAME_WORDS_1516> 소비량 더욱 증가"
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "적혈조술 「백렴/천혈」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "혈액을 압축하고 일직선으로 초고속 발사하는 원거리 공격.\n차지 단계에 따라 사정거리와 대미지가 상승한다.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n차지 단계 증가\n【<GLO=GLS_GAME_WORDS_1401>３】\n차지 단계가 더욱 증가"
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "적혈조술 「적린약동」"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n적에게 화살을 명중시키면 발동한다.\n적을 화살로 공격한 후 천혈을 쏴 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "혈액팩"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "적혈조술을 사용하면 기술에 따른 양의 <GLO=GLS_GAME_WORDS_1516>를 소비한다.\n<GLO=GLS_GAME_WORDS_1516>가 빈 상태일 때 기술을 사용하면 체력이 소비된다.\n<GLO=GLS_GAME_WORDS_1314>와 <GLO=GLS_GAME_WORDS_1315>에는 소비하지 않는다."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "차기 당주의 고집"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "체력이 반 이하가 되면 <GLO=GLS_GAME_WORDS_1516> 소비량이 감소한다.\n<GLO=GLS_GAME_WORDS_1516>가 빈 상태일 경우 체력 소비량이 감소한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "천부적인 육체와 이질적인 <GLO=GLS_UNIQUE_WORDS_0008>로 적을 유린하는 「주술사 킬러」.\n\n・「고속 이동」은 공격 캔슬, 다른 공격으로 파생이 가능하다.\n   공격 후에도 방심하지 말고 추가 공격으로 몰아붙이자.\n・「천역모: 일격」은 자신과 상대의 위치 관계에 따라 공격 내용이 변화한다.\n   「고속 이동」과 함께 콤보를 만들어보자!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "참축격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 천역모로 베는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1310>로 파생 가능."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "강격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "앞으로 내디디며 있는 힘껏 후려치는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "자돌양단"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 천역모로 찌르는 근거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "자돌하강"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "전방으로 뛰어오른 후, 천역모를 내리꽂으며 낙하하는 근거리 공격.\n상대를 끌어들이며 낙하하고, 착지와 동시에 날려버린다."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "고속 이동"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>를 소비해서 고속으로 이동한다.\n이동 후에는 추가 입력으로 더욱 이동 가능.\n다른 기술의 경직 상태에서 이 기술로 파생 가능하며\n일부 기술은 <GLO=GLS_GAME_WORDS_1419> 중에 파생할 수 있다.\n이동 후에는 다른 기술로 파생할 수 있다.\n<img id=\"NormalAttack_3\"/>\n상대가 있는 방향으로 이동한다.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/>+<img id=\"NormalAttack_3\"/>\n비스듬히 전방으로 이동한다.\n<img id=\"MoveUp\"/>+<img id=\"NormalAttack_3\"/>\n전방으로 이동한다."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "발도"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "제자리에서 자세를 잡고 눈앞을 천역모로 베어낸다.\n자세를 잡는 동안 공격을 받으면 그 순간 반격한다."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "천역모: 일격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "천역모를 이용한 강렬한 일격.\n자신의 방향과 상대의 위치에 따라 다른 공격을 한다.\n【<GLO=GLS_GAME_WORDS_1508>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1508>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "천역모: 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "천역모를 이용한 신속한 연격.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1508>２】\n공격 횟수 증가.\n【<GLO=GLS_GAME_WORDS_1508>３】\n공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0008> 연격"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n천역모로 찌르기를 명중시키면 발동한다.\n만리 사슬과 천역모를 연결해서 눈에 보이지 않는 연격으로 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "주술사 킬러"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "자신의 공격으로 결정타를 날리면 <GLO=GLS_GAME_WORDS_1508>이 상승하여 일정 시간 <GLO=GLS_GAME_WORDS_1504> 소비량이 감소한다.\n<GLO=GLS_GAME_WORDS_1508>이 이미 최대일 경우, <GLO=GLS_GAME_WORDS_1506> 게이지가 <GLO=GLS_GAME_WORDS_1819>된다."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "천여주박(피지컬 기프티드)"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>이 전혀 없는 대신 경이로운 신체 능력을 갖는다.\n공중 <GLO=GLS_GAME_WORDS_1406> 횟수가 많다."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "천역모"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "천역모를 이용한 공격은 적의 술식을 강제로 해제한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "발도술을 활용하며 신속의 참격으로 적을 일도양단하는 근거리 어태커.\n\n・포텐셜 신 카게류 「발도」로, 납도 상태에서 나오는 공격은 발생이 빠르고 강력해진다.\n　가능한 납도 상태로 행동하여 선수를 칠 수 있도록 하자.\n・「신 카게류 간이 영역」은 영역 내에 들어온 자를 전자동 반사로 반격해 큰 대미지를 준다.\n　공세를 펼치고 싶다면 주력기 신 카게류 「발도」로 단숨에 거리를 좁혀 공격하자."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "사선 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 대각선 아래로 베는 근거리 공격.\n명중 시 자동으로 추가 공격을 하며, 납도 상태로 이행한다.\n또 추가 입력을 하면 주력기로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "올려 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서, 쳐올리며 베어내는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "베어버리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 베어내는 근거리 공격.\n명중 시 발로 차서 날려 버리고 납도 상태로 이행한다."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "베어내기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "제자리에서 납도한 후, 적을 <GLO=GLS_GAME_WORDS_1419>해서 2번 베는 근거리 공격.\n이미 납도 상태일 경우 바로 2번 베기를 한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "납도/거합 참격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【발도 상태】\n제자리에서 납도 상태로 이행한다\n【납도 상태】\n순식간에 전방에 거합 베기를 하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "납도 회피"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "입력 방향으로 회피하며 납도한다.\n이미 납도 상태일 경우 회피만 한다.\n회피 후 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "신 카게류 「발도」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "제자리에서 납도한 후 적을 <GLO=GLS_GAME_WORDS_1419>해서 혼신의 거합술을 사용하는 근거리 공격.\n이미 납도 상태일 경우 바로 공격한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n공격 범위 확장.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n공격 범위가 더욱 확장."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "제자리에서 납도하고 간이 영역을 전개한다.\n이미 납도 상태일 경우 납도 모션을 생략한다.\n영역 내에 적이 침입하면 자동으로 요격한다.\n영역 밖에서 공격이 들어온 경우 자동으로 흘려 보낸다.\n간이 영역 전개 중에 「납도 회피」로 파생 가능.\n길게 누르기 가능.\n공중에서 사용하면 낙하한다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n영역의 범위 확장.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승.\n영역의 범위 확장."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n올려 베기 명중 시 발동한다.\n간이 영역을 전개하고 영역 내에 침입한 적을 전자동 반사로 반격해 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "신 카게류 「발도」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "특정 공격을 사용하면 납도 상태가 된다.\n납도 상태일 때는 일부 공격 준비 동작을 생략하고, 일부 공격의 <GLO=GLS_GAME_WORDS_1419>가 강화된다.\n납도 상태일 때 <GLO=GLS_GAME_WORDS_1409>를 하거나 공격을 받아 날아가면 발도 상태가 된다.\n<GLO=GLS_GAME_WORDS_1410>를 하면 납도 상태가 유지된다. "
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "천여주박으로 경이로운 <GLO=GLS_GAME_WORDS_1503> 출력이 주어진 고화력 어태커.\n\n・포텐셜 「천여주박」은 <GLO=GLS_GAME_WORDS_1401>의 제한 없이 <GLO=GLS_GAME_WORDS_1307>를 발동할 수 있다.\n　<GLO=GLS_GAME_WORDS_1813> 개시 직후부터 높은 대미지를 낼 수 있는 특성을 살려 시합에서 우위를 점하자!\n・기동력이 높은 <GLO=GLS_GAME_WORDS_1302>로 전장을 누비며 적을 농락하자."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "연속 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서, 연속으로 격투 공격을 하는 근거리 공격.\n공격 중에는 추가 입력으로 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 공격으로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "부스트 온 손바닥치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "제트 분사로 가속해 적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "광범위 「울트라 캐논」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "왼쪽 주먹에서 쏘는 울트라 캐논으로 넓은 범위를 불태우는 중거리 공격."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "소드 옵션 「울트라 실드」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "오른팔을 가시처럼 변형시켜 제자리에서 자세를 잡는다.\n자세를 잡는 동안 공격을 받으면 울트라 실드로 반격한다.\n반격이 명중하면 적을 경직시킨다."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "부스트 온 2단 격투"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "제트 분사로 가속해 적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속으로 차는 근거리 공격.\n오버 히트 상태일 때는 공격 개시 시의 차지 시간이 증가한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "부스트 온 어퍼"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "제트 분사로 가속해 적을 <GLO=GLS_GAME_WORDS_1419>해서, 기세 좋게 주먹을 휘둘러 쳐올리는 근거리 공격.\n오버 히트 상태일 때는 공격 개시 시의 차지 시간이 증가한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "소드 옵션 부스트 온 「울트라 스핀」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "오른팔에서 칼날을 꺼내 고속 회전시키며 제트 분사로 적에게 돌진한다.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n연속 입력으로 공격 횟수가 증가.\n【<GLO=GLS_GAME_WORDS_1401>３】\n연속 입력으로 공격 횟수가 더욱 증가."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "고출력 「울트라 캐논」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "왼쪽 주먹에서 <GLO=GLS_GAME_WORDS_1503>을 모아 쏘는 원거리 공격.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "부스트 온 격투 공격"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n발사한 탄이 명중 시 발동한다.\n입에서 포탑을 꺼내, 양손과 함께 쏘는 얼티밋 캐논으로 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "천여주박"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "현재의 <GLO=GLS_GAME_WORDS_1401> 이상의 성능으로 <GLO=GLS_GAME_WORDS_1307>를 발동할 수 있다.\n<GLO=GLS_GAME_WORDS_1307> 사용 시 일정 시간 길게 누르기를 하면 발동 가능.\n발동한 성능과의 레벨 차이에 따라 오버 히트 상태가 되며, 이동 속도 저하, <GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도 저하 효과가 부여된다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "혈액을 조작해서, 거리에 구애받지 않고 대미지를 낼 수 있는 초공격형 어태커.\n\n・적혈조술 「적린약동」은 발동 중 <GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>로 대미지를 줄 수 있고 이동 성능이 대폭 상승한다.\n　적과의 거리를 단숨에 좁혀서 몰아넣자.\n・적혈조술 「백렴/천혈」은 <GLO=GLS_GAME_WORDS_1401> 3일 때 발사 후 좌우로 쓸어버릴 수 있다.\n　원거리에서 적을 단번에 일소하자."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "5단 격투 콤보"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서, 연속으로 구타하는 근거리 공격.\n공격 중 추가 입력을 하면 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "어퍼"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "적혈조술 「혈인」 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 2연속으로 재빨리 베는 근거리 공격.\n명중시키면 일정 시간 적의 이동 속도를 저하시킨다.\n혈액구슬이 있는 상태라면 주는 대미지와 얻을 수 있는 <GLO=GLS_GAME_WORDS_1503>이 상승한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "2단 격투 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 혈액을 굳힌 묵직한 공격으로 날려버리는 근거리 공격.\n공격 중에는 <GLO=GLS_GAME_WORDS_1423>가 된다.\n혈액구슬이 있는 상태라면 주는 대미지와 얻을 수 있는 <GLO=GLS_GAME_WORDS_1503>이 상승한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "적혈조술 「예불」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "혈액을 원반 형태로 압축하고 회전시켜 던지는 원거리 공격.\n명중시키면 일정 시간 적의 이동 속도를 저하시킨다.\n혈액구슬을 1개 소비한다.\n혈액구슬이 없는 상태라면 새로운 혈액구슬을 생성한다."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "혈액 파상 공격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "혈액의 파도를 발생시키고, 다수의 가시로 변화시키는 근거리 공격.\n명중시키면 일정 시간 적의 이동 속도를 저하시킨다.\n혈액구슬을 1개 소비한다.\n혈액구슬이 없는 상태라면 새로운 혈액구슬을 생성한다."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "적혈조술 「적린약동」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "체내의 혈중 성분을 조작해 신체 능력을 향상시킨다.\n발동 중 <GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>로 대미지를 줄 수 있게 되며, 아래의 효과를 얻는다.\n공격 속도 상승.\n<GLO=GLS_GAME_WORDS_1419> 속도 상승.\n<GLO=GLS_GAME_WORDS_1405> 속도 상승.\n<GLO=GLS_GAME_WORDS_1504> 소비량 감소.\n<GLO=GLS_GAME_WORDS_1409>에 주는 대미지량 상승.\n\n<GLO=GLS_GAME_WORDS_1503>을 계속 소비하며, 재입력하거나 <GLO=GLS_GAME_WORDS_1503>이 0이 되면 해제된다."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "적혈조술 「백렴/천혈」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "혈액을 압축하고 일직선으로 초고속 발사하는 원거리 공격.\n차지 단계에 따라 사정거리와 대미지가 상승한다.\n명중시키면 일정 시간 적의 이동 속도를 저하시킨다.\n혈액구슬을 1개 소비한다.\n혈액구슬이 없는 상태라면 새로운 혈액구슬을 생성한다.\n길게 누르기 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n차지 시간 단축.\n【<GLO=GLS_GAME_WORDS_1401>３】\n천혈 발사 후 <img id=\"MoveLeft\"/><img id=\"MoveRight\"/>으로 쓸어버리는 공격이 가능해진다."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "적혈조술 「혁린약동, 재」"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n뒤차기 명중 시 발동한다.\n「백렴」으로 압축한 혈액을 해방해, 전방위 산탄처럼 쏴서 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "혈액구슬"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "혈액구슬을 여러 개 생성한 상태로 행동 가능.\n일부 강력한 기술에 혈액구슬을 소비한다.\n<GLO=GLS_GAME_WORDS_1401>에 따라 생성 가능한 혈액구슬의 수가 늘어난다.\n혈액구슬이 없는 상태에서는 <img id=\"NormalAttack_3\"/>,<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_3\"/>,<img id=\"CursedEnergyAttack_2\"/>으로 새로 혈액구슬을 생성할 수 있다."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0004>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "독성이 있는 혈액을 사용, 공격 명중 시 일정 시간 적의 이동 속도를 저하시킨다.\n<GLO=GLS_GAME_WORDS_1401>에 따라 이동 속도 저하률이 변동한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "공방 모두에 까마귀를 사역하며, 동료도 이용해 싸우는 근거리 어태커.\n\n・주력기 「흑조조술」은 공격을 자동으로 막으며, 까마귀를 돌격시킬 수도 있다.\n   늘 까마귀를 불러내고 유리하게 운영하자. \n・포텐셜 「용익 잠재력 그 자체가 목숨」으로, 연계를 할수록 메이메이가 강화된다.\n   배틀 끝까지 효과가 지속되니, 우선 적극적으로 연계를 노리자."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "3연속 베기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 도끼로 연속 공격을 하는 근거리 공격.\n공격 중 추가 입력을 하면 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "칼등치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 칼등치기로 쳐올리는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "쳐올린 후 추격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 도끼로 쳐올리는 근거리 공격.\n추가 입력으로 추가 공격을 해 날려버린다.\n첫 공격 후부터는 「낙하 찌르기」로 파생할 수 있다.\n두번째 공격 후부터는 「흑조조술」로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "낙하 찌르기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "제자리에서 뛰어오른 후 대각선 아래로 도끼를 내리꽂으며 낙하하는 근거리 공격.\n공중에서 사용하면 제자리에서 낙하한다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "공중 내리치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 도끼로 쳐올린 후 떨어뜨리는 근거리 공격.\n추가 입력으로 추가 공격을 해 날려버린다.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "밟아 뛰기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "적을 짓밟고 뛰어오르는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "회전 베기/내리치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "도끼를 들고 <GLO=GLS_GAME_WORDS_1405>, 추가 입력으로 공격으로 파생하는 근거리 공격.\n<GLO=GLS_GAME_WORDS_1405> 중에는 임의의 방향으로 이동 가능.\n<img id=\"CursedEnergyAttack_1\"/>\n회전하면서 도끼를 휘둘러 공격한다.\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n크게 뛰어올라 도끼를 내리치며 낙하한다.\n일반 상태에서 직접 발동할 수도 있다.\n\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1405> 속도 상승.\n<GLO=GLS_GAME_WORDS_1405> 가능 시간 연장.\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n<GLO=GLS_GAME_WORDS_1405> 속도가 더욱 상승.\n<GLO=GLS_GAME_WORDS_1405> 가능 시간이 더욱 연장.\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "흑조조술"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "자신의 주위에 까마귀를 소집한다.\n까마귀는 따라오며 적의 공격을 1회 막는다.\n공격을 막은 후 까마귀는 소멸한다.\n재입력하면 까마귀에게 지시를 내려 적을 향해 돌격시킨다.\n돌격 지시 중에는 이동 조작이 가능하며, 「회전 베기/내리치기」 중에도 지시 가능.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지가 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "공중 연격"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n도끼 찌르기 명중 시 발동한다.\n까마귀에게 죽음을 강제시켜 <GLO=GLS_GAME_WORDS_1503> 제한을 없애고 적에게 몸통박치기를 시켜 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "용익 잠재력 그 자체가 목숨"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>가 일정 횟수 발동할 때마다 아래의 효과를 얻는다.\n<GLO=GLS_GAME_WORDS_1405> 속도 상승.\n<GLO=GLS_GAME_WORDS_1504> 소비량 감소.\n<GLO=GLS_GAME_WORDS_1405> 후 경직 감소.\n<GLO=GLS_GAME_WORDS_1503> <GLO=GLS_GAME_WORDS_1819> 속도 상승.\n<GLO=GLS_GAME_WORDS_1409> 후 경직 감소.\n<GLO=GLS_GAME_WORDS_1813> 중에 효과가 계속 유지된다.\n효과에는 상한이 존재한다."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "하이 리스크-하이 리턴의 술식을 구사해 적을 농락하는 「최속의 주술사」.\n\n・포텐셜 「투사주법」으로, 공격의 파생에 의한 유도가 술식에서의 고속 이동으로 이어진다.\n　주력을 자동으로 소비하며, 주력이 부족할 경우 자신이 프리즈해버리므로 주의해야 한다.\n・주력기 「투사주법: 일격」은 <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/> 염출기를 다시 추가 입력해 파생 가능.\n　콤보 중 「투사주법」 발동 횟수가 많을수록 위력이 높아진다."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "철산고"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속 공격을 하는 근거리 공격.\n공격 중 추가 입력을 하면 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "손바닥치기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 손바닥치기 공격을 하는 근거리 공격.\n이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n경직 상태가 아닌 적에게 명중 시 프리즈시킨다.\n태그 출격 시, 이 공격을 명중시키면 <GLO=GLS_GAME_WORDS_1314> 찬스 상태가 된다."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "올려치기 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 쳐올린 후 쳐서 떨어뜨리는 근거리 공격.\n공격 중 추가 입력을 하면 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "찔러올리기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 뛰어오르며 어퍼를 날리는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "삼연각"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "적을 <GLO=GLS_GAME_WORDS_1419>해서 연속 발차기를 날리는 근거리 공격.\n공격 중 추가 입력을 하면 <GLO=GLS_GAME_WORDS_1307>로 파생 가능.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "차서 떨구기"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "뒤로 뛴 후 적을 <GLO=GLS_GAME_WORDS_1419>해서 발차기를 하는 근거리 공격.\n이 공격은 다른 기술로 파생할 수 있다."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "투사주법: 일격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "제자리에서 자세를 잡은 후 투사주법으로 <GLO=GLS_GAME_WORDS_1419>해서 힘껏 때리는 근거리 공격.\n자세 중 <GLO=GLS_GAME_WORDS_1405> 또는 <GLO=GLS_GAME_WORDS_1406> 입력으로 임의의 방향으로 2번까지, 오직 이동만 가능하다.\n자세 중 또는 이동 후 <GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302> 입력으로 투사주법에 의한 파생이 가능하다.\n다른 기술에서 파생해서 사용한 경우 자세를 생략한다.\n투사주법의 횟수에 따라 주는 대미지가 변화한다."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "투사주법: 연격"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "투사주법으로 <GLO=GLS_GAME_WORDS_1419>해서 적에게 닿아 프리즈시킨 후 연속 공격을 하는 근거리 공격.\n추가 공격 시에는 타이밍에 맞게 추가 입력을 하면 파생한다.\n파생에 실패하면 일정 시간 프리즈된다.\n【<GLO=GLS_GAME_WORDS_1401>２】\n주는 대미지 상승.\n【<GLO=GLS_GAME_WORDS_1401>３】\n주는 대미지 더욱 상승."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "투사주법"
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "이 공격은 <GLO=GLS_GAME_WORDS_1409>할 수 없다.\n돌진 명중 시 발동한다.\n투사주법으로 가속을 거듭한 최속의 연속 공격으로 큰 대미지를 준다."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "투사주법"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "공격 중 다른 기술로 파생할 때 발동.\n자동으로 <GLO=GLS_GAME_WORDS_1503>을 사용하여 <GLO=GLS_GAME_WORDS_1419>가 투사주법에 의한 이동으로 변한다.\n투사주법으로 나오는 공격은 각각 단발 공격이다.\n<GLO=GLS_GAME_WORDS_1503>이 부족하면 실패하며 일정 시간 프리즈된다.\n투사주법에 의한 파생을 거듭하면 공격 대미지가 올라간다."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "비전 「낙화의 정」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "적의 <GLO=GLS_UNIQUE_WORDS_0007>, <GLO=GLS_GAME_WORDS_1409>가 「낙화의 정」으로 변화한다.\n지속적으로 <GLO=GLS_GAME_WORDS_1503>을 소비하며, 카운터로 자신을 지킨다.\n넉백이 되지 않게 되며, <GLO=GLS_GAME_WORDS_1432>도 일어나지 않는다.\n<GLO=GLS_GAME_WORDS_1503>이 부족한 경우에는 일반적인 <GLO=GLS_GAME_WORDS_1409>가 된다."
+      }
+    }
+  }
+]

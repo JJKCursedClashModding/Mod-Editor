@@ -1,0 +1,4833 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "UniqueVoicePairDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_UniqueVoicePair'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "UNIQUE_PAIR_0001_01": {
+        "ID": "UNIQUE_PAIR_0001_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_091010",
+          "VoBtl_CP_090_Intro_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0001_02": {
+        "ID": "UNIQUE_PAIR_0001_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_092010",
+          "VoBtl_CP_090_Intro_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0001_10": {
+        "ID": "UNIQUE_PAIR_0001_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_090",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_090_Intro_3_011010",
+          "VoBtl_CP_010_Intro_3_093010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0001_11": {
+        "ID": "UNIQUE_PAIR_0001_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_090",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_090_Intro_3_012010",
+          "VoBtl_CP_010_Intro_3_094010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0002_01": {
+        "ID": "UNIQUE_PAIR_0002_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_051010",
+          "VoBtl_CP_050_Intro_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0002_02": {
+        "ID": "UNIQUE_PAIR_0002_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_052010",
+          "VoBtl_CP_050_Intro_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0002_10": {
+        "ID": "UNIQUE_PAIR_0002_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_011010",
+          "VoBtl_CP_010_Intro_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0002_11": {
+        "ID": "UNIQUE_PAIR_0002_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_012010",
+          "VoBtl_CP_010_Intro_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0003_01": {
+        "ID": "UNIQUE_PAIR_0003_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_041010",
+          "VoBtl_CP_040_Intro_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0003_02": {
+        "ID": "UNIQUE_PAIR_0003_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_042010",
+          "VoBtl_CP_040_Intro_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0003_10": {
+        "ID": "UNIQUE_PAIR_0003_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_031010",
+          "VoBtl_CP_030_Intro_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0003_11": {
+        "ID": "UNIQUE_PAIR_0003_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_032010",
+          "VoBtl_CP_030_Intro_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0004_01": {
+        "ID": "UNIQUE_PAIR_0004_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_051010",
+          "VoBtl_CP_050_Intro_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0004_02": {
+        "ID": "UNIQUE_PAIR_0004_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_052010",
+          "VoBtl_CP_050_Intro_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0004_10": {
+        "ID": "UNIQUE_PAIR_0004_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_031010",
+          "VoBtl_CP_030_Intro_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0004_11": {
+        "ID": "UNIQUE_PAIR_0004_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_032010",
+          "VoBtl_CP_030_Intro_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0005_01": {
+        "ID": "UNIQUE_PAIR_0005_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0005_02": {
+        "ID": "UNIQUE_PAIR_0005_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0005_10": {
+        "ID": "UNIQUE_PAIR_0005_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_031010",
+          "VoBtl_CP_030_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0005_11": {
+        "ID": "UNIQUE_PAIR_0005_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_032010",
+          "VoBtl_CP_030_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0006_01": {
+        "ID": "UNIQUE_PAIR_0006_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_051010",
+          "VoBtl_CP_050_Intro_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0006_02": {
+        "ID": "UNIQUE_PAIR_0006_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_052010",
+          "VoBtl_CP_050_Intro_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0006_10": {
+        "ID": "UNIQUE_PAIR_0006_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_041010",
+          "VoBtl_CP_040_Intro_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0006_11": {
+        "ID": "UNIQUE_PAIR_0006_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_042010",
+          "VoBtl_CP_040_Intro_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0007_01": {
+        "ID": "UNIQUE_PAIR_0007_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0007_02": {
+        "ID": "UNIQUE_PAIR_0007_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0007_10": {
+        "ID": "UNIQUE_PAIR_0007_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_041010",
+          "VoBtl_CP_040_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0007_11": {
+        "ID": "UNIQUE_PAIR_0007_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_042010",
+          "VoBtl_CP_040_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0008_01": {
+        "ID": "UNIQUE_PAIR_0008_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_111010",
+          "VoBtl_CP_110_Intro_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0008_02": {
+        "ID": "UNIQUE_PAIR_0008_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_112010",
+          "VoBtl_CP_110_Intro_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0008_10": {
+        "ID": "UNIQUE_PAIR_0008_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_051010",
+          "VoBtl_CP_050_Intro_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0008_11": {
+        "ID": "UNIQUE_PAIR_0008_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_052010",
+          "VoBtl_CP_050_Intro_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0009_01": {
+        "ID": "UNIQUE_PAIR_0009_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_071010",
+          "VoBtl_CP_070_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0009_02": {
+        "ID": "UNIQUE_PAIR_0009_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_072010",
+          "VoBtl_CP_070_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0009_10": {
+        "ID": "UNIQUE_PAIR_0009_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_070",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_073010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0009_11": {
+        "ID": "UNIQUE_PAIR_0009_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_070",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_074010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0010_01": {
+        "ID": "UNIQUE_PAIR_0010_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_081010",
+          "VoBtl_CP_080_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0010_02": {
+        "ID": "UNIQUE_PAIR_0010_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_082010",
+          "VoBtl_CP_080_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0010_10": {
+        "ID": "UNIQUE_PAIR_0010_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0010_11": {
+        "ID": "UNIQUE_PAIR_0010_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0011_01": {
+        "ID": "UNIQUE_PAIR_0011_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_070",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Intro_3_111010",
+          "VoBtl_CP_110_Intro_3_073010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0011_02": {
+        "ID": "UNIQUE_PAIR_0011_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_070",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Intro_3_112010",
+          "VoBtl_CP_110_Intro_3_074010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0011_10": {
+        "ID": "UNIQUE_PAIR_0011_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_071010",
+          "VoBtl_CP_070_Intro_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0011_11": {
+        "ID": "UNIQUE_PAIR_0011_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_072010",
+          "VoBtl_CP_070_Intro_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0012_01": {
+        "ID": "UNIQUE_PAIR_0012_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_111010",
+          "VoBtl_CP_110_Intro_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0012_02": {
+        "ID": "UNIQUE_PAIR_0012_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_112010",
+          "VoBtl_CP_110_Intro_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0012_10": {
+        "ID": "UNIQUE_PAIR_0012_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_081010",
+          "VoBtl_CP_080_Intro_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0012_11": {
+        "ID": "UNIQUE_PAIR_0012_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_110",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Intro_3_082010",
+          "VoBtl_CP_080_Intro_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0013_01": {
+        "ID": "UNIQUE_PAIR_0013_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_141010",
+          "VoBtl_CP_140_Intro_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0013_02": {
+        "ID": "UNIQUE_PAIR_0013_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_142010",
+          "VoBtl_CP_140_Intro_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0013_10": {
+        "ID": "UNIQUE_PAIR_0013_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_131010",
+          "VoBtl_CP_130_Intro_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0013_11": {
+        "ID": "UNIQUE_PAIR_0013_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_132010",
+          "VoBtl_CP_130_Intro_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0014_01": {
+        "ID": "UNIQUE_PAIR_0014_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_151010",
+          "VoBtl_CP_150_Intro_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0014_02": {
+        "ID": "UNIQUE_PAIR_0014_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_152010",
+          "VoBtl_CP_150_Intro_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0014_10": {
+        "ID": "UNIQUE_PAIR_0014_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_131010",
+          "VoBtl_CP_130_Intro_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0014_11": {
+        "ID": "UNIQUE_PAIR_0014_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_132010",
+          "VoBtl_CP_130_Intro_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0015_01": {
+        "ID": "UNIQUE_PAIR_0015_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_151010",
+          "VoBtl_CP_150_Intro_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0015_02": {
+        "ID": "UNIQUE_PAIR_0015_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_152010",
+          "VoBtl_CP_150_Intro_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0015_10": {
+        "ID": "UNIQUE_PAIR_0015_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_141010",
+          "VoBtl_CP_140_Intro_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0015_11": {
+        "ID": "UNIQUE_PAIR_0015_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_142010",
+          "VoBtl_CP_140_Intro_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0201_01": {
+        "ID": "UNIQUE_PAIR_0201_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_041010",
+          "VoBtl_CP_040_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0201_02": {
+        "ID": "UNIQUE_PAIR_0201_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_042010",
+          "VoBtl_CP_040_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0201_03": {
+        "ID": "UNIQUE_PAIR_0201_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0201_04": {
+        "ID": "UNIQUE_PAIR_0201_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0202_01": {
+        "ID": "UNIQUE_PAIR_0202_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0202_02": {
+        "ID": "UNIQUE_PAIR_0202_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0202_03": {
+        "ID": "UNIQUE_PAIR_0202_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0202_04": {
+        "ID": "UNIQUE_PAIR_0202_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0203_01": {
+        "ID": "UNIQUE_PAIR_0203_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0203_02": {
+        "ID": "UNIQUE_PAIR_0203_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0203_03": {
+        "ID": "UNIQUE_PAIR_0203_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0203_04": {
+        "ID": "UNIQUE_PAIR_0203_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0204_01": {
+        "ID": "UNIQUE_PAIR_0204_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0204_02": {
+        "ID": "UNIQUE_PAIR_0204_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0204_03": {
+        "ID": "UNIQUE_PAIR_0204_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0204_04": {
+        "ID": "UNIQUE_PAIR_0204_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0205_01": {
+        "ID": "UNIQUE_PAIR_0205_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_041010",
+          "VoBtl_CP_040_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0205_02": {
+        "ID": "UNIQUE_PAIR_0205_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_042010",
+          "VoBtl_CP_040_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0205_03": {
+        "ID": "UNIQUE_PAIR_0205_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0205_04": {
+        "ID": "UNIQUE_PAIR_0205_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_040",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0206_01": {
+        "ID": "UNIQUE_PAIR_0206_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0206_02": {
+        "ID": "UNIQUE_PAIR_0206_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0206_03": {
+        "ID": "UNIQUE_PAIR_0206_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0206_04": {
+        "ID": "UNIQUE_PAIR_0206_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0301_01": {
+        "ID": "UNIQUE_PAIR_0301_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_031010",
+          "VoBtl_CP_030_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0301_02": {
+        "ID": "UNIQUE_PAIR_0301_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_032010",
+          "VoBtl_CP_030_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0301_03": {
+        "ID": "UNIQUE_PAIR_0301_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0301_04": {
+        "ID": "UNIQUE_PAIR_0301_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_030",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0302_01": {
+        "ID": "UNIQUE_PAIR_0302_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0302_02": {
+        "ID": "UNIQUE_PAIR_0302_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0302_03": {
+        "ID": "UNIQUE_PAIR_0302_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0302_04": {
+        "ID": "UNIQUE_PAIR_0302_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0303_01": {
+        "ID": "UNIQUE_PAIR_0303_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0303_02": {
+        "ID": "UNIQUE_PAIR_0303_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0303_03": {
+        "ID": "UNIQUE_PAIR_0303_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0303_04": {
+        "ID": "UNIQUE_PAIR_0303_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0304_01": {
+        "ID": "UNIQUE_PAIR_0304_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0304_02": {
+        "ID": "UNIQUE_PAIR_0304_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0304_03": {
+        "ID": "UNIQUE_PAIR_0304_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0304_04": {
+        "ID": "UNIQUE_PAIR_0304_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0401_01": {
+        "ID": "UNIQUE_PAIR_0401_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_051010",
+          "VoBtl_CP_050_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0401_02": {
+        "ID": "UNIQUE_PAIR_0401_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_052010",
+          "VoBtl_CP_050_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0401_03": {
+        "ID": "UNIQUE_PAIR_0401_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0401_04": {
+        "ID": "UNIQUE_PAIR_0401_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_050",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0402_01": {
+        "ID": "UNIQUE_PAIR_0402_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0402_02": {
+        "ID": "UNIQUE_PAIR_0402_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0402_03": {
+        "ID": "UNIQUE_PAIR_0402_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0402_04": {
+        "ID": "UNIQUE_PAIR_0402_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0403_01": {
+        "ID": "UNIQUE_PAIR_0403_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0403_02": {
+        "ID": "UNIQUE_PAIR_0403_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0403_03": {
+        "ID": "UNIQUE_PAIR_0403_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0403_04": {
+        "ID": "UNIQUE_PAIR_0403_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0404_01": {
+        "ID": "UNIQUE_PAIR_0404_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0404_02": {
+        "ID": "UNIQUE_PAIR_0404_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0404_03": {
+        "ID": "UNIQUE_PAIR_0404_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0404_04": {
+        "ID": "UNIQUE_PAIR_0404_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0405_01": {
+        "ID": "UNIQUE_PAIR_0405_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0405_02": {
+        "ID": "UNIQUE_PAIR_0405_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0405_03": {
+        "ID": "UNIQUE_PAIR_0405_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0405_04": {
+        "ID": "UNIQUE_PAIR_0405_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0406_01": {
+        "ID": "UNIQUE_PAIR_0406_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0406_02": {
+        "ID": "UNIQUE_PAIR_0406_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_210",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0406_03": {
+        "ID": "UNIQUE_PAIR_0406_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_211010",
+          "VoBtl_CP_210_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0406_04": {
+        "ID": "UNIQUE_PAIR_0406_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_212010",
+          "VoBtl_CP_210_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0501_01": {
+        "ID": "UNIQUE_PAIR_0501_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_081010",
+          "VoBtl_CP_080_Intro_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0501_02": {
+        "ID": "UNIQUE_PAIR_0501_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_082010",
+          "VoBtl_CP_080_Intro_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0501_03": {
+        "ID": "UNIQUE_PAIR_0501_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_221010",
+          "VoBtl_CP_220_Intro_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0501_04": {
+        "ID": "UNIQUE_PAIR_0501_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_080",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Intro_3_222010",
+          "VoBtl_CP_220_Intro_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0502_01": {
+        "ID": "UNIQUE_PAIR_0502_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0502_02": {
+        "ID": "UNIQUE_PAIR_0502_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0502_03": {
+        "ID": "UNIQUE_PAIR_0502_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_221010",
+          "VoBtl_CP_220_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0502_04": {
+        "ID": "UNIQUE_PAIR_0502_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_222010",
+          "VoBtl_CP_220_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0503_01": {
+        "ID": "UNIQUE_PAIR_0503_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_171010",
+          "VoBtl_CP_170_Intro_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0503_02": {
+        "ID": "UNIQUE_PAIR_0503_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_172010",
+          "VoBtl_CP_170_Intro_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0503_03": {
+        "ID": "UNIQUE_PAIR_0503_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_221010",
+          "VoBtl_CP_220_Intro_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0503_04": {
+        "ID": "UNIQUE_PAIR_0503_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_170",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Intro_3_222010",
+          "VoBtl_CP_220_Intro_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0504_01": {
+        "ID": "UNIQUE_PAIR_0504_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_181010",
+          "VoBtl_CP_180_Intro_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0504_02": {
+        "ID": "UNIQUE_PAIR_0504_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_182010",
+          "VoBtl_CP_180_Intro_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0504_03": {
+        "ID": "UNIQUE_PAIR_0504_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_221010",
+          "VoBtl_CP_220_Intro_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0504_04": {
+        "ID": "UNIQUE_PAIR_0504_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_180",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Intro_3_222010",
+          "VoBtl_CP_220_Intro_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0505_01": {
+        "ID": "UNIQUE_PAIR_0505_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_191010",
+          "VoBtl_CP_190_Intro_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0505_02": {
+        "ID": "UNIQUE_PAIR_0505_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_220",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Intro_3_192010",
+          "VoBtl_CP_190_Intro_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0505_03": {
+        "ID": "UNIQUE_PAIR_0505_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_221010",
+          "VoBtl_CP_220_Intro_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0505_04": {
+        "ID": "UNIQUE_PAIR_0505_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_190",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Intro_3_222010",
+          "VoBtl_CP_220_Intro_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0506_01": {
+        "ID": "UNIQUE_PAIR_0506_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_131010",
+          "VoBtl_CP_130_Intro_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0506_02": {
+        "ID": "UNIQUE_PAIR_0506_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_132010",
+          "VoBtl_CP_130_Intro_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0506_03": {
+        "ID": "UNIQUE_PAIR_0506_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_231010",
+          "VoBtl_CP_230_Intro_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0506_04": {
+        "ID": "UNIQUE_PAIR_0506_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_130",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Intro_3_232010",
+          "VoBtl_CP_230_Intro_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0507_01": {
+        "ID": "UNIQUE_PAIR_0507_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_141010",
+          "VoBtl_CP_140_Intro_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0507_02": {
+        "ID": "UNIQUE_PAIR_0507_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_142010",
+          "VoBtl_CP_140_Intro_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0507_03": {
+        "ID": "UNIQUE_PAIR_0507_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_231010",
+          "VoBtl_CP_230_Intro_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0507_04": {
+        "ID": "UNIQUE_PAIR_0507_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_140",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Intro_3_232010",
+          "VoBtl_CP_230_Intro_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0508_01": {
+        "ID": "UNIQUE_PAIR_0508_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_151010",
+          "VoBtl_CP_150_Intro_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0508_02": {
+        "ID": "UNIQUE_PAIR_0508_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_152010",
+          "VoBtl_CP_150_Intro_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0508_03": {
+        "ID": "UNIQUE_PAIR_0508_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_231010",
+          "VoBtl_CP_230_Intro_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0508_04": {
+        "ID": "UNIQUE_PAIR_0508_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_150",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Intro_3_232010",
+          "VoBtl_CP_230_Intro_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0509_01": {
+        "ID": "UNIQUE_PAIR_0509_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CN_080",
+          "CP_160"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_161010",
+          "VoBtl_CN_080_Intro_3_233010",
+          "VoBtl_CP_160_Intro_3_233010"
+        ]
+      },
+      "UNIQUE_PAIR_0509_02": {
+        "ID": "UNIQUE_PAIR_0509_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_230",
+          "CN_080",
+          "CP_160"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Intro_3_162010",
+          "VoBtl_CN_080_Intro_3_234010",
+          "VoBtl_CP_160_Intro_3_234010"
+        ]
+      },
+      "UNIQUE_PAIR_0509_03": {
+        "ID": "UNIQUE_PAIR_0509_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CN_080",
+          "CP_160",
+          "CP_230"
+        ],
+        "Id_Voice": [
+          "VoBtl_CN_080_Intro_3_231010",
+          "VoBtl_CP_160_Intro_3_231010",
+          "VoBtl_CP_230_Intro_3_163010"
+        ]
+      },
+      "UNIQUE_PAIR_0509_04": {
+        "ID": "UNIQUE_PAIR_0509_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CN_080",
+          "CP_160",
+          "CP_230"
+        ],
+        "Id_Voice": [
+          "VoBtl_CN_080_Intro_3_232010",
+          "VoBtl_CP_160_Intro_3_232010",
+          "VoBtl_CP_230_Intro_3_164010"
+        ]
+      },
+      "UNIQUE_PAIR_0510_01": {
+        "ID": "UNIQUE_PAIR_0510_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_240",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Intro_3_011010",
+          "VoBtl_CP_010_Intro_3_243010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0510_02": {
+        "ID": "UNIQUE_PAIR_0510_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_240",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Intro_3_012010",
+          "VoBtl_CP_010_Intro_3_244010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0510_03": {
+        "ID": "UNIQUE_PAIR_0510_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_241010",
+          "VoBtl_CP_240_Intro_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0510_04": {
+        "ID": "UNIQUE_PAIR_0510_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_010",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Intro_3_242010",
+          "VoBtl_CP_240_Intro_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0511_01": {
+        "ID": "UNIQUE_PAIR_0511_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_240",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Intro_3_101010",
+          "VoBtl_CP_100_Intro_3_243010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0511_02": {
+        "ID": "UNIQUE_PAIR_0511_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_240",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Intro_3_102010",
+          "VoBtl_CP_100_Intro_3_244010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0511_03": {
+        "ID": "UNIQUE_PAIR_0511_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_241010",
+          "VoBtl_CP_240_Intro_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0511_04": {
+        "ID": "UNIQUE_PAIR_0511_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_100",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Intro_3_242010",
+          "VoBtl_CP_240_Intro_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0512_01": {
+        "ID": "UNIQUE_PAIR_0512_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_270",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_270_Intro_3_061010",
+          "VoBtl_CP_060_Intro_3_273010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0512_02": {
+        "ID": "UNIQUE_PAIR_0512_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_270",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_270_Intro_3_062010",
+          "VoBtl_CP_060_Intro_3_274010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0512_03": {
+        "ID": "UNIQUE_PAIR_0512_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_270",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_271010",
+          "VoBtl_CP_270_Intro_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_0512_04": {
+        "ID": "UNIQUE_PAIR_0512_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Appearance",
+        "Id_Character": [
+          "CP_060",
+          "CP_270",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Intro_3_272010",
+          "VoBtl_CP_270_Intro_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1001_01": {
+        "ID": "UNIQUE_PAIR_1001_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_091010",
+          "VoBtl_CP_090_Victory_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1001_02": {
+        "ID": "UNIQUE_PAIR_1001_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_092010",
+          "VoBtl_CP_090_Victory_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1001_10": {
+        "ID": "UNIQUE_PAIR_1001_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_090",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_090_Victory_3_011010",
+          "VoBtl_CP_010_Victory_3_093010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1001_11": {
+        "ID": "UNIQUE_PAIR_1001_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_090",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_090_Victory_3_012010",
+          "VoBtl_CP_010_Victory_3_094010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1002_01": {
+        "ID": "UNIQUE_PAIR_1002_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_051010",
+          "VoBtl_CP_050_Victory_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1002_02": {
+        "ID": "UNIQUE_PAIR_1002_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_052010",
+          "VoBtl_CP_050_Victory_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1002_10": {
+        "ID": "UNIQUE_PAIR_1002_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_011010",
+          "VoBtl_CP_010_Victory_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1002_11": {
+        "ID": "UNIQUE_PAIR_1002_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_012010",
+          "VoBtl_CP_010_Victory_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1003_01": {
+        "ID": "UNIQUE_PAIR_1003_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_041010",
+          "VoBtl_CP_040_Victory_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1003_02": {
+        "ID": "UNIQUE_PAIR_1003_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_042010",
+          "VoBtl_CP_040_Victory_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1003_10": {
+        "ID": "UNIQUE_PAIR_1003_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_031010",
+          "VoBtl_CP_030_Victory_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1003_11": {
+        "ID": "UNIQUE_PAIR_1003_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_032010",
+          "VoBtl_CP_030_Victory_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1004_01": {
+        "ID": "UNIQUE_PAIR_1004_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_051010",
+          "VoBtl_CP_050_Victory_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1004_02": {
+        "ID": "UNIQUE_PAIR_1004_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_052010",
+          "VoBtl_CP_050_Victory_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1004_10": {
+        "ID": "UNIQUE_PAIR_1004_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_031010",
+          "VoBtl_CP_030_Victory_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1004_11": {
+        "ID": "UNIQUE_PAIR_1004_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_032010",
+          "VoBtl_CP_030_Victory_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1005_01": {
+        "ID": "UNIQUE_PAIR_1005_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1005_02": {
+        "ID": "UNIQUE_PAIR_1005_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1005_10": {
+        "ID": "UNIQUE_PAIR_1005_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_031010",
+          "VoBtl_CP_030_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1005_11": {
+        "ID": "UNIQUE_PAIR_1005_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_032010",
+          "VoBtl_CP_030_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1006_01": {
+        "ID": "UNIQUE_PAIR_1006_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_051010",
+          "VoBtl_CP_050_Victory_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1006_02": {
+        "ID": "UNIQUE_PAIR_1006_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_052010",
+          "VoBtl_CP_050_Victory_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1006_10": {
+        "ID": "UNIQUE_PAIR_1006_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_041010",
+          "VoBtl_CP_040_Victory_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1006_11": {
+        "ID": "UNIQUE_PAIR_1006_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_042010",
+          "VoBtl_CP_040_Victory_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1007_01": {
+        "ID": "UNIQUE_PAIR_1007_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1007_02": {
+        "ID": "UNIQUE_PAIR_1007_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1007_10": {
+        "ID": "UNIQUE_PAIR_1007_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_041010",
+          "VoBtl_CP_040_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1007_11": {
+        "ID": "UNIQUE_PAIR_1007_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_042010",
+          "VoBtl_CP_040_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1008_01": {
+        "ID": "UNIQUE_PAIR_1008_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_111010",
+          "VoBtl_CP_110_Victory_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1008_02": {
+        "ID": "UNIQUE_PAIR_1008_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_112010",
+          "VoBtl_CP_110_Victory_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1008_10": {
+        "ID": "UNIQUE_PAIR_1008_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_051010",
+          "VoBtl_CP_050_Victory_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1008_11": {
+        "ID": "UNIQUE_PAIR_1008_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_052010",
+          "VoBtl_CP_050_Victory_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1009_01": {
+        "ID": "UNIQUE_PAIR_1009_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_071010",
+          "VoBtl_CP_070_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1009_02": {
+        "ID": "UNIQUE_PAIR_1009_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_072010",
+          "VoBtl_CP_070_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1009_10": {
+        "ID": "UNIQUE_PAIR_1009_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_070",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_073010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1009_11": {
+        "ID": "UNIQUE_PAIR_1009_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_070",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_074010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1010_01": {
+        "ID": "UNIQUE_PAIR_1010_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_081010",
+          "VoBtl_CP_080_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1010_02": {
+        "ID": "UNIQUE_PAIR_1010_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_082010",
+          "VoBtl_CP_080_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1010_10": {
+        "ID": "UNIQUE_PAIR_1010_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1010_11": {
+        "ID": "UNIQUE_PAIR_1010_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1011_01": {
+        "ID": "UNIQUE_PAIR_1011_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_070",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Victory_3_111010",
+          "VoBtl_CP_110_Victory_3_073010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1011_02": {
+        "ID": "UNIQUE_PAIR_1011_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_070",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_070_Victory_3_112010",
+          "VoBtl_CP_110_Victory_3_074010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1011_10": {
+        "ID": "UNIQUE_PAIR_1011_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_071010",
+          "VoBtl_CP_070_Victory_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1011_11": {
+        "ID": "UNIQUE_PAIR_1011_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_070",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_072010",
+          "VoBtl_CP_070_Victory_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1012_01": {
+        "ID": "UNIQUE_PAIR_1012_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_111010",
+          "VoBtl_CP_110_Victory_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1012_02": {
+        "ID": "UNIQUE_PAIR_1012_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_110",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_112010",
+          "VoBtl_CP_110_Victory_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1012_10": {
+        "ID": "UNIQUE_PAIR_1012_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_081010",
+          "VoBtl_CP_080_Victory_3_113010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1012_11": {
+        "ID": "UNIQUE_PAIR_1012_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_110",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_110_Victory_3_082010",
+          "VoBtl_CP_080_Victory_3_114010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1013_01": {
+        "ID": "UNIQUE_PAIR_1013_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_141010",
+          "VoBtl_CP_140_Victory_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1013_02": {
+        "ID": "UNIQUE_PAIR_1013_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_142010",
+          "VoBtl_CP_140_Victory_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1013_10": {
+        "ID": "UNIQUE_PAIR_1013_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_131010",
+          "VoBtl_CP_130_Victory_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1013_11": {
+        "ID": "UNIQUE_PAIR_1013_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_132010",
+          "VoBtl_CP_130_Victory_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1014_01": {
+        "ID": "UNIQUE_PAIR_1014_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_151010",
+          "VoBtl_CP_150_Victory_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1014_02": {
+        "ID": "UNIQUE_PAIR_1014_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_152010",
+          "VoBtl_CP_150_Victory_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1014_10": {
+        "ID": "UNIQUE_PAIR_1014_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_131010",
+          "VoBtl_CP_130_Victory_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1014_11": {
+        "ID": "UNIQUE_PAIR_1014_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_132010",
+          "VoBtl_CP_130_Victory_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1015_01": {
+        "ID": "UNIQUE_PAIR_1015_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_151010",
+          "VoBtl_CP_150_Victory_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1015_02": {
+        "ID": "UNIQUE_PAIR_1015_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_152010",
+          "VoBtl_CP_150_Victory_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1015_10": {
+        "ID": "UNIQUE_PAIR_1015_10",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_141010",
+          "VoBtl_CP_140_Victory_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1015_11": {
+        "ID": "UNIQUE_PAIR_1015_11",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_142010",
+          "VoBtl_CP_140_Victory_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1201_01": {
+        "ID": "UNIQUE_PAIR_1201_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_041010",
+          "VoBtl_CP_040_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1201_02": {
+        "ID": "UNIQUE_PAIR_1201_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_042010",
+          "VoBtl_CP_040_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1201_03": {
+        "ID": "UNIQUE_PAIR_1201_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1201_04": {
+        "ID": "UNIQUE_PAIR_1201_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1202_01": {
+        "ID": "UNIQUE_PAIR_1202_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1202_02": {
+        "ID": "UNIQUE_PAIR_1202_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1202_03": {
+        "ID": "UNIQUE_PAIR_1202_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1202_04": {
+        "ID": "UNIQUE_PAIR_1202_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1203_01": {
+        "ID": "UNIQUE_PAIR_1203_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1203_02": {
+        "ID": "UNIQUE_PAIR_1203_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1203_03": {
+        "ID": "UNIQUE_PAIR_1203_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1203_04": {
+        "ID": "UNIQUE_PAIR_1203_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1204_01": {
+        "ID": "UNIQUE_PAIR_1204_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1204_02": {
+        "ID": "UNIQUE_PAIR_1204_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1204_03": {
+        "ID": "UNIQUE_PAIR_1204_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1204_04": {
+        "ID": "UNIQUE_PAIR_1204_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1205_01": {
+        "ID": "UNIQUE_PAIR_1205_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_041010",
+          "VoBtl_CP_040_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1205_02": {
+        "ID": "UNIQUE_PAIR_1205_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_040",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_042010",
+          "VoBtl_CP_040_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1205_03": {
+        "ID": "UNIQUE_PAIR_1205_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_043010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1205_04": {
+        "ID": "UNIQUE_PAIR_1205_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_040",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_040_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_044010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1206_01": {
+        "ID": "UNIQUE_PAIR_1206_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1206_02": {
+        "ID": "UNIQUE_PAIR_1206_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1206_03": {
+        "ID": "UNIQUE_PAIR_1206_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1206_04": {
+        "ID": "UNIQUE_PAIR_1206_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1301_01": {
+        "ID": "UNIQUE_PAIR_1301_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_031010",
+          "VoBtl_CP_030_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1301_02": {
+        "ID": "UNIQUE_PAIR_1301_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_030",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_032010",
+          "VoBtl_CP_030_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1301_03": {
+        "ID": "UNIQUE_PAIR_1301_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_033010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1301_04": {
+        "ID": "UNIQUE_PAIR_1301_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_030",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_030_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_034010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1302_01": {
+        "ID": "UNIQUE_PAIR_1302_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1302_02": {
+        "ID": "UNIQUE_PAIR_1302_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1302_03": {
+        "ID": "UNIQUE_PAIR_1302_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1302_04": {
+        "ID": "UNIQUE_PAIR_1302_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1303_01": {
+        "ID": "UNIQUE_PAIR_1303_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1303_02": {
+        "ID": "UNIQUE_PAIR_1303_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1303_03": {
+        "ID": "UNIQUE_PAIR_1303_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1303_04": {
+        "ID": "UNIQUE_PAIR_1303_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1304_01": {
+        "ID": "UNIQUE_PAIR_1304_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1304_02": {
+        "ID": "UNIQUE_PAIR_1304_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1304_03": {
+        "ID": "UNIQUE_PAIR_1304_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1304_04": {
+        "ID": "UNIQUE_PAIR_1304_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1401_01": {
+        "ID": "UNIQUE_PAIR_1401_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_051010",
+          "VoBtl_CP_050_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1401_02": {
+        "ID": "UNIQUE_PAIR_1401_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_050",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_052010",
+          "VoBtl_CP_050_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1401_03": {
+        "ID": "UNIQUE_PAIR_1401_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_053010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1401_04": {
+        "ID": "UNIQUE_PAIR_1401_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_050",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_050_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_054010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1402_01": {
+        "ID": "UNIQUE_PAIR_1402_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1402_02": {
+        "ID": "UNIQUE_PAIR_1402_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1402_03": {
+        "ID": "UNIQUE_PAIR_1402_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1402_04": {
+        "ID": "UNIQUE_PAIR_1402_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_064010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1403_01": {
+        "ID": "UNIQUE_PAIR_1403_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1403_02": {
+        "ID": "UNIQUE_PAIR_1403_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1403_03": {
+        "ID": "UNIQUE_PAIR_1403_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1403_04": {
+        "ID": "UNIQUE_PAIR_1403_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1404_01": {
+        "ID": "UNIQUE_PAIR_1404_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1404_02": {
+        "ID": "UNIQUE_PAIR_1404_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1404_03": {
+        "ID": "UNIQUE_PAIR_1404_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1404_04": {
+        "ID": "UNIQUE_PAIR_1404_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1405_01": {
+        "ID": "UNIQUE_PAIR_1405_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1405_02": {
+        "ID": "UNIQUE_PAIR_1405_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1405_03": {
+        "ID": "UNIQUE_PAIR_1405_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1405_04": {
+        "ID": "UNIQUE_PAIR_1405_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1406_01": {
+        "ID": "UNIQUE_PAIR_1406_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_213010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1406_02": {
+        "ID": "UNIQUE_PAIR_1406_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_210",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_210_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_214010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1406_03": {
+        "ID": "UNIQUE_PAIR_1406_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_211010",
+          "VoBtl_CP_210_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1406_04": {
+        "ID": "UNIQUE_PAIR_1406_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_210",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_212010",
+          "VoBtl_CP_210_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1501_01": {
+        "ID": "UNIQUE_PAIR_1501_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_081010",
+          "VoBtl_CP_080_Victory_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1501_02": {
+        "ID": "UNIQUE_PAIR_1501_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_080",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_082010",
+          "VoBtl_CP_080_Victory_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1501_03": {
+        "ID": "UNIQUE_PAIR_1501_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_221010",
+          "VoBtl_CP_220_Victory_3_083010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1501_04": {
+        "ID": "UNIQUE_PAIR_1501_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_080",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_080_Victory_3_222010",
+          "VoBtl_CP_220_Victory_3_084010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1502_01": {
+        "ID": "UNIQUE_PAIR_1502_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1502_02": {
+        "ID": "UNIQUE_PAIR_1502_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1502_03": {
+        "ID": "UNIQUE_PAIR_1502_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_221010",
+          "VoBtl_CP_220_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1502_04": {
+        "ID": "UNIQUE_PAIR_1502_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_222010",
+          "VoBtl_CP_220_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1503_01": {
+        "ID": "UNIQUE_PAIR_1503_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_171010",
+          "VoBtl_CP_170_Victory_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1503_02": {
+        "ID": "UNIQUE_PAIR_1503_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_170",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_172010",
+          "VoBtl_CP_170_Victory_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1503_03": {
+        "ID": "UNIQUE_PAIR_1503_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_221010",
+          "VoBtl_CP_220_Victory_3_173010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1503_04": {
+        "ID": "UNIQUE_PAIR_1503_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_170",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_170_Victory_3_222010",
+          "VoBtl_CP_220_Victory_3_174010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1504_01": {
+        "ID": "UNIQUE_PAIR_1504_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_181010",
+          "VoBtl_CP_180_Victory_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1504_02": {
+        "ID": "UNIQUE_PAIR_1504_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_180",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_182010",
+          "VoBtl_CP_180_Victory_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1504_03": {
+        "ID": "UNIQUE_PAIR_1504_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_221010",
+          "VoBtl_CP_220_Victory_3_183010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1504_04": {
+        "ID": "UNIQUE_PAIR_1504_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_180",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_180_Victory_3_222010",
+          "VoBtl_CP_220_Victory_3_184010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1505_01": {
+        "ID": "UNIQUE_PAIR_1505_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_191010",
+          "VoBtl_CP_190_Victory_3_223010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1505_02": {
+        "ID": "UNIQUE_PAIR_1505_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_220",
+          "CP_190",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_220_Victory_3_192010",
+          "VoBtl_CP_190_Victory_3_224010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1505_03": {
+        "ID": "UNIQUE_PAIR_1505_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_221010",
+          "VoBtl_CP_220_Victory_3_193010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1505_04": {
+        "ID": "UNIQUE_PAIR_1505_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_190",
+          "CP_220",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_190_Victory_3_222010",
+          "VoBtl_CP_220_Victory_3_194010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1506_01": {
+        "ID": "UNIQUE_PAIR_1506_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_131010",
+          "VoBtl_CP_130_Victory_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1506_02": {
+        "ID": "UNIQUE_PAIR_1506_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_130",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_132010",
+          "VoBtl_CP_130_Victory_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1506_03": {
+        "ID": "UNIQUE_PAIR_1506_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_231010",
+          "VoBtl_CP_230_Victory_3_133010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1506_04": {
+        "ID": "UNIQUE_PAIR_1506_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_130",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_130_Victory_3_232010",
+          "VoBtl_CP_230_Victory_3_134010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1507_01": {
+        "ID": "UNIQUE_PAIR_1507_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_141010",
+          "VoBtl_CP_140_Victory_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1507_02": {
+        "ID": "UNIQUE_PAIR_1507_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_140",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_142010",
+          "VoBtl_CP_140_Victory_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1507_03": {
+        "ID": "UNIQUE_PAIR_1507_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_231010",
+          "VoBtl_CP_230_Victory_3_143010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1507_04": {
+        "ID": "UNIQUE_PAIR_1507_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_140",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_140_Victory_3_232010",
+          "VoBtl_CP_230_Victory_3_144010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1508_01": {
+        "ID": "UNIQUE_PAIR_1508_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_151010",
+          "VoBtl_CP_150_Victory_3_233010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1508_02": {
+        "ID": "UNIQUE_PAIR_1508_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_150",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_152010",
+          "VoBtl_CP_150_Victory_3_234010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1508_03": {
+        "ID": "UNIQUE_PAIR_1508_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_231010",
+          "VoBtl_CP_230_Victory_3_153010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1508_04": {
+        "ID": "UNIQUE_PAIR_1508_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_150",
+          "CP_230",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_150_Victory_3_232010",
+          "VoBtl_CP_230_Victory_3_154010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1509_01": {
+        "ID": "UNIQUE_PAIR_1509_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_160",
+          "CN_080"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_161010",
+          "VoBtl_CP_160_Victory_3_233010",
+          "VoBtl_CN_080_Victory_3_233010"
+        ]
+      },
+      "UNIQUE_PAIR_1509_02": {
+        "ID": "UNIQUE_PAIR_1509_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_230",
+          "CP_160",
+          "CN_080"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_230_Victory_3_162010",
+          "VoBtl_CP_160_Victory_3_234010",
+          "VoBtl_CN_080_Victory_3_234010"
+        ]
+      },
+      "UNIQUE_PAIR_1509_03": {
+        "ID": "UNIQUE_PAIR_1509_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_160",
+          "CN_080",
+          "CP_230"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_160_Victory_3_231010",
+          "VoBtl_CN_080_Victory_3_231010",
+          "VoBtl_CP_230_Victory_3_163010"
+        ]
+      },
+      "UNIQUE_PAIR_1509_04": {
+        "ID": "UNIQUE_PAIR_1509_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_160",
+          "CN_080",
+          "CP_230"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_160_Victory_3_232010",
+          "VoBtl_CN_080_Victory_3_232010",
+          "VoBtl_CP_230_Victory_3_164010"
+        ]
+      },
+      "UNIQUE_PAIR_1510_01": {
+        "ID": "UNIQUE_PAIR_1510_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_240",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Victory_3_011010",
+          "VoBtl_CP_010_Victory_3_243010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1510_02": {
+        "ID": "UNIQUE_PAIR_1510_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_240",
+          "CP_010",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Victory_3_012010",
+          "VoBtl_CP_010_Victory_3_244010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1510_03": {
+        "ID": "UNIQUE_PAIR_1510_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_241010",
+          "VoBtl_CP_240_Victory_3_013010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1510_04": {
+        "ID": "UNIQUE_PAIR_1510_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_010",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_010_Victory_3_242010",
+          "VoBtl_CP_240_Victory_3_014010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1511_01": {
+        "ID": "UNIQUE_PAIR_1511_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_240",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Victory_3_101010",
+          "VoBtl_CP_100_Victory_3_243010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1511_02": {
+        "ID": "UNIQUE_PAIR_1511_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_240",
+          "CP_100",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_240_Victory_3_102010",
+          "VoBtl_CP_100_Victory_3_244010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1511_03": {
+        "ID": "UNIQUE_PAIR_1511_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_241010",
+          "VoBtl_CP_240_Victory_3_103010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1511_04": {
+        "ID": "UNIQUE_PAIR_1511_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_100",
+          "CP_240",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_100_Victory_3_242010",
+          "VoBtl_CP_240_Victory_3_104010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1512_01": {
+        "ID": "UNIQUE_PAIR_1512_01",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_270",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_270_Victory_3_061010",
+          "VoBtl_CP_060_Victory_3_273010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1512_02": {
+        "ID": "UNIQUE_PAIR_1512_02",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_270",
+          "CP_060",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_270_Victory_3_062010",
+          "VoBtl_CP_060_Victory_3_274010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1512_03": {
+        "ID": "UNIQUE_PAIR_1512_03",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_270",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_271010",
+          "VoBtl_CP_270_Victory_3_063010",
+          "None"
+        ]
+      },
+      "UNIQUE_PAIR_1512_04": {
+        "ID": "UNIQUE_PAIR_1512_04",
+        "SeuqnecerType": "EGameSequencerUniquePairType::Result",
+        "Id_Character": [
+          "CP_060",
+          "CP_270",
+          "None"
+        ],
+        "Id_Voice": [
+          "VoBtl_CP_060_Victory_3_272010",
+          "VoBtl_CP_270_Victory_3_064010",
+          "None"
+        ]
+      }
+    }
+  }
+]

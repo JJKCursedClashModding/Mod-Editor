@@ -1,0 +1,1185 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BindingVowsDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_BindingVows'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "BINDING_VOWS_001": {
+        "ID": "BINDING_VOWS_001",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_01",
+          "HIT_POINT_MAX_ADD_01"
+        ]
+      },
+      "BINDING_VOWS_002": {
+        "ID": "BINDING_VOWS_002",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_02",
+          "HIT_POINT_MAX_ADD_02"
+        ]
+      },
+      "BINDING_VOWS_003": {
+        "ID": "BINDING_VOWS_003",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_03",
+          "HIT_POINT_MAX_ADD_03"
+        ]
+      },
+      "BINDING_VOWS_004": {
+        "ID": "BINDING_VOWS_004",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_04",
+          "HIT_POINT_MAX_ADD_04"
+        ]
+      },
+      "BINDING_VOWS_005": {
+        "ID": "BINDING_VOWS_005",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_05",
+          "HIT_POINT_MAX_ADD_05"
+        ]
+      },
+      "BINDING_VOWS_006": {
+        "ID": "BINDING_VOWS_006",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_01",
+          "HIT_POINT_MAX_ADD_01"
+        ]
+      },
+      "BINDING_VOWS_007": {
+        "ID": "BINDING_VOWS_007",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_02",
+          "HIT_POINT_MAX_ADD_02"
+        ]
+      },
+      "BINDING_VOWS_008": {
+        "ID": "BINDING_VOWS_008",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_03",
+          "HIT_POINT_MAX_ADD_03"
+        ]
+      },
+      "BINDING_VOWS_009": {
+        "ID": "BINDING_VOWS_009",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_04",
+          "HIT_POINT_MAX_ADD_04"
+        ]
+      },
+      "BINDING_VOWS_010": {
+        "ID": "BINDING_VOWS_010",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_05",
+          "HIT_POINT_MAX_ADD_05"
+        ]
+      },
+      "BINDING_VOWS_011": {
+        "ID": "BINDING_VOWS_011",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_01",
+          "DASH_GAUGE_MAX_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_012": {
+        "ID": "BINDING_VOWS_012",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_02",
+          "DASH_GAUGE_MAX_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_013": {
+        "ID": "BINDING_VOWS_013",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_03",
+          "DASH_GAUGE_MAX_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_014": {
+        "ID": "BINDING_VOWS_014",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_04",
+          "DASH_GAUGE_MAX_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_015": {
+        "ID": "BINDING_VOWS_015",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_05",
+          "DASH_GAUGE_MAX_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_016": {
+        "ID": "BINDING_VOWS_016",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_01",
+          "GUARD_DURABILITY_MAX_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_017": {
+        "ID": "BINDING_VOWS_017",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_02",
+          "GUARD_DURABILITY_MAX_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_018": {
+        "ID": "BINDING_VOWS_018",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_03",
+          "GUARD_DURABILITY_MAX_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_019": {
+        "ID": "BINDING_VOWS_019",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_04",
+          "GUARD_DURABILITY_MAX_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_020": {
+        "ID": "BINDING_VOWS_020",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_05",
+          "GUARD_DURABILITY_MAX_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_022": {
+        "ID": "BINDING_VOWS_022",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_02",
+          "HIT_POINT_ONCE_ADD_02"
+        ]
+      },
+      "BINDING_VOWS_023": {
+        "ID": "BINDING_VOWS_023",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_03",
+          "HIT_POINT_ONCE_ADD_03"
+        ]
+      },
+      "BINDING_VOWS_024": {
+        "ID": "BINDING_VOWS_024",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_04",
+          "HIT_POINT_ONCE_ADD_04"
+        ]
+      },
+      "BINDING_VOWS_025": {
+        "ID": "BINDING_VOWS_025",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_05",
+          "HIT_POINT_ONCE_ADD_05"
+        ]
+      },
+      "BINDING_VOWS_026": {
+        "ID": "BINDING_VOWS_026",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_01",
+          "SEND_ATTACK_DAMAGE_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_027": {
+        "ID": "BINDING_VOWS_027",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_02",
+          "SEND_ATTACK_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_028": {
+        "ID": "BINDING_VOWS_028",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_03",
+          "SEND_ATTACK_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_029": {
+        "ID": "BINDING_VOWS_029",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_04",
+          "SEND_ATTACK_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_030": {
+        "ID": "BINDING_VOWS_030",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_05",
+          "SEND_ATTACK_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_031": {
+        "ID": "BINDING_VOWS_031",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "FORCE_GAUGE_MAX_SUB_01",
+          "CURSED_ENERGY_EXP_WITH_TIME_01"
+        ]
+      },
+      "BINDING_VOWS_032": {
+        "ID": "BINDING_VOWS_032",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "FORCE_GAUGE_MAX_SUB_01",
+          "CURSED_ENERGY_EXP_WITH_TIME_02"
+        ]
+      },
+      "BINDING_VOWS_033": {
+        "ID": "BINDING_VOWS_033",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "FORCE_GAUGE_MAX_SUB_01",
+          "CURSED_ENERGY_EXP_WITH_TIME_03"
+        ]
+      },
+      "BINDING_VOWS_034": {
+        "ID": "BINDING_VOWS_034",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "FORCE_GAUGE_MAX_SUB_01",
+          "CURSED_ENERGY_EXP_WITH_TIME_04"
+        ]
+      },
+      "BINDING_VOWS_035": {
+        "ID": "BINDING_VOWS_035",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "FORCE_GAUGE_MAX_SUB_01",
+          "CURSED_ENERGY_EXP_WITH_TIME_05"
+        ]
+      },
+      "BINDING_VOWS_037": {
+        "ID": "BINDING_VOWS_037",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "DASH_GAUGE_INCREASE_02",
+          "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_038": {
+        "ID": "BINDING_VOWS_038",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "DASH_GAUGE_INCREASE_03",
+          "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_039": {
+        "ID": "BINDING_VOWS_039",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "DASH_GAUGE_INCREASE_04",
+          "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_040": {
+        "ID": "BINDING_VOWS_040",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "DASH_GAUGE_INCREASE_05",
+          "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_041": {
+        "ID": "BINDING_VOWS_041",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_042": {
+        "ID": "BINDING_VOWS_042",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_043": {
+        "ID": "BINDING_VOWS_043",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_044": {
+        "ID": "BINDING_VOWS_044",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_045": {
+        "ID": "BINDING_VOWS_045",
+        "Difficulty": "EGameBindingVowsDifficulty::High",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_02",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_046": {
+        "ID": "BINDING_VOWS_046",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_RECOVER_DECREASE_01",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_047": {
+        "ID": "BINDING_VOWS_047",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_RECOVER_DECREASE_02",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_048": {
+        "ID": "BINDING_VOWS_048",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_RECOVER_DECREASE_03",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_049": {
+        "ID": "BINDING_VOWS_049",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_RECOVER_DECREASE_04",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_050": {
+        "ID": "BINDING_VOWS_050",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_RECOVER_DECREASE_05",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_051": {
+        "ID": "BINDING_VOWS_051",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_01",
+          "DASH_GAUGE_MAX_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_052": {
+        "ID": "BINDING_VOWS_052",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_02",
+          "DASH_GAUGE_MAX_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_053": {
+        "ID": "BINDING_VOWS_053",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_03",
+          "DASH_GAUGE_MAX_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_054": {
+        "ID": "BINDING_VOWS_054",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_04",
+          "DASH_GAUGE_MAX_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_055": {
+        "ID": "BINDING_VOWS_055",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_05",
+          "DASH_GAUGE_MAX_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_056": {
+        "ID": "BINDING_VOWS_056",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_057": {
+        "ID": "BINDING_VOWS_057",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_02",
+          "CURSED_ENERGY_RECOVER_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_058": {
+        "ID": "BINDING_VOWS_058",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_03",
+          "CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_059": {
+        "ID": "BINDING_VOWS_059",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_04",
+          "CURSED_ENERGY_RECOVER_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_060": {
+        "ID": "BINDING_VOWS_060",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_05",
+          "CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_061": {
+        "ID": "BINDING_VOWS_061",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_01",
+          "DASH_GAUGE_WHEN_JUMP_01"
+        ]
+      },
+      "BINDING_VOWS_062": {
+        "ID": "BINDING_VOWS_062",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_02",
+          "DASH_GAUGE_WHEN_JUMP_02"
+        ]
+      },
+      "BINDING_VOWS_063": {
+        "ID": "BINDING_VOWS_063",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_03",
+          "DASH_GAUGE_WHEN_JUMP_03"
+        ]
+      },
+      "BINDING_VOWS_064": {
+        "ID": "BINDING_VOWS_064",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_04",
+          "DASH_GAUGE_WHEN_JUMP_04"
+        ]
+      },
+      "BINDING_VOWS_065": {
+        "ID": "BINDING_VOWS_065",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "STEP_RIGIDITY_05",
+          "DASH_GAUGE_WHEN_JUMP_05"
+        ]
+      },
+      "BINDING_VOWS_066": {
+        "ID": "BINDING_VOWS_066",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_01",
+          "MOVE_SPEED_ENEMY_01"
+        ]
+      },
+      "BINDING_VOWS_067": {
+        "ID": "BINDING_VOWS_067",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_02",
+          "MOVE_SPEED_ENEMY_02"
+        ]
+      },
+      "BINDING_VOWS_068": {
+        "ID": "BINDING_VOWS_068",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_03",
+          "MOVE_SPEED_ENEMY_03"
+        ]
+      },
+      "BINDING_VOWS_069": {
+        "ID": "BINDING_VOWS_069",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_04",
+          "MOVE_SPEED_ENEMY_04"
+        ]
+      },
+      "BINDING_VOWS_070": {
+        "ID": "BINDING_VOWS_070",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_POWER_05",
+          "MOVE_SPEED_ENEMY_05"
+        ]
+      },
+      "BINDING_VOWS_072": {
+        "ID": "BINDING_VOWS_072",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_02",
+          "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_073": {
+        "ID": "BINDING_VOWS_073",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_03",
+          "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_074": {
+        "ID": "BINDING_VOWS_074",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_04",
+          "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_075": {
+        "ID": "BINDING_VOWS_075",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_05",
+          "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_076": {
+        "ID": "BINDING_VOWS_076",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_01",
+          "SEND_ATTACK_DAMAGE_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_077": {
+        "ID": "BINDING_VOWS_077",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_02",
+          "SEND_ATTACK_DAMAGE_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_078": {
+        "ID": "BINDING_VOWS_078",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_03",
+          "SEND_ATTACK_DAMAGE_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_079": {
+        "ID": "BINDING_VOWS_079",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_04",
+          "SEND_ATTACK_DAMAGE_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_080": {
+        "ID": "BINDING_VOWS_080",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_05",
+          "SEND_ATTACK_DAMAGE_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_081": {
+        "ID": "BINDING_VOWS_081",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_01",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_082": {
+        "ID": "BINDING_VOWS_082",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_02",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_083": {
+        "ID": "BINDING_VOWS_083",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_03",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_084": {
+        "ID": "BINDING_VOWS_084",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_04",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_085": {
+        "ID": "BINDING_VOWS_085",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_05",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_086": {
+        "ID": "BINDING_VOWS_086",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_087": {
+        "ID": "BINDING_VOWS_087",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_088": {
+        "ID": "BINDING_VOWS_088",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_089": {
+        "ID": "BINDING_VOWS_089",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_090": {
+        "ID": "BINDING_VOWS_090",
+        "Difficulty": "EGameBindingVowsDifficulty::High",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_MAX_02",
+          "CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_091": {
+        "ID": "BINDING_VOWS_091",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_DECREASE_01",
+          "CURSED_ENERGY_RECOVER_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_092": {
+        "ID": "BINDING_VOWS_092",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_DECREASE_02",
+          "CURSED_ENERGY_RECOVER_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_093": {
+        "ID": "BINDING_VOWS_093",
+        "Difficulty": "EGameBindingVowsDifficulty::Low",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_DECREASE_03",
+          "CURSED_ENERGY_RECOVER_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_094": {
+        "ID": "BINDING_VOWS_094",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_DECREASE_04",
+          "CURSED_ENERGY_RECOVER_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_095": {
+        "ID": "BINDING_VOWS_095",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_DECREASE_05",
+          "CURSED_ENERGY_RECOVER_INCREASE_05"
+        ]
+      },
+      "BINDING_VOWS_096": {
+        "ID": "BINDING_VOWS_096",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_01",
+          "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_097": {
+        "ID": "BINDING_VOWS_097",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_02",
+          "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_02"
+        ]
+      },
+      "BINDING_VOWS_098": {
+        "ID": "BINDING_VOWS_098",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_03",
+          "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_03"
+        ]
+      },
+      "BINDING_VOWS_099": {
+        "ID": "BINDING_VOWS_099",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_04",
+          "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_04"
+        ]
+      },
+      "BINDING_VOWS_100": {
+        "ID": "BINDING_VOWS_100",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_05",
+          "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_05"
+        ]
+      },
+      "BINDING_VOWS_102": {
+        "ID": "BINDING_VOWS_102",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_01",
+          "HIT_POINT_WHEN_JUST_GUARD_01"
+        ]
+      },
+      "BINDING_VOWS_103": {
+        "ID": "BINDING_VOWS_103",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_02",
+          "HIT_POINT_WHEN_JUST_GUARD_02"
+        ]
+      },
+      "BINDING_VOWS_104": {
+        "ID": "BINDING_VOWS_104",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_03",
+          "HIT_POINT_WHEN_JUST_GUARD_03"
+        ]
+      },
+      "BINDING_VOWS_105": {
+        "ID": "BINDING_VOWS_105",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "GUARD_DURABILITY_MAX_DECREASE_04",
+          "HIT_POINT_WHEN_JUST_GUARD_04"
+        ]
+      },
+      "BINDING_VOWS_109": {
+        "ID": "BINDING_VOWS_109",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_02",
+          "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_02"
+        ]
+      },
+      "BINDING_VOWS_110": {
+        "ID": "BINDING_VOWS_110",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_03",
+          "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_03"
+        ]
+      },
+      "BINDING_VOWS_111": {
+        "ID": "BINDING_VOWS_111",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_04",
+          "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_04"
+        ]
+      },
+      "BINDING_VOWS_112": {
+        "ID": "BINDING_VOWS_112",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_05",
+          "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_05"
+        ]
+      },
+      "BINDING_VOWS_115": {
+        "ID": "BINDING_VOWS_115",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_02",
+          "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_02"
+        ]
+      },
+      "BINDING_VOWS_116": {
+        "ID": "BINDING_VOWS_116",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_03",
+          "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_03"
+        ]
+      },
+      "BINDING_VOWS_117": {
+        "ID": "BINDING_VOWS_117",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_04",
+          "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_04"
+        ]
+      },
+      "BINDING_VOWS_118": {
+        "ID": "BINDING_VOWS_118",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "SPECIAL_TAG_COMBO_COUNT_05",
+          "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_05"
+        ]
+      },
+      "BINDING_VOWS_120": {
+        "ID": "BINDING_VOWS_120",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_01",
+          "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01"
+        ]
+      },
+      "BINDING_VOWS_121": {
+        "ID": "BINDING_VOWS_121",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_02",
+          "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_02"
+        ]
+      },
+      "BINDING_VOWS_122": {
+        "ID": "BINDING_VOWS_122",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_03",
+          "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03"
+        ]
+      },
+      "BINDING_VOWS_123": {
+        "ID": "BINDING_VOWS_123",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_04",
+          "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_04"
+        ]
+      },
+      "BINDING_VOWS_124": {
+        "ID": "BINDING_VOWS_124",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_SUB_05",
+          "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05"
+        ]
+      },
+      "BINDING_VOWS_127": {
+        "ID": "BINDING_VOWS_127",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_COUNT_02",
+          "CURSED_ENERGY_WHEN_DASH_ADD_02"
+        ]
+      },
+      "BINDING_VOWS_128": {
+        "ID": "BINDING_VOWS_128",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_COUNT_03",
+          "CURSED_ENERGY_WHEN_DASH_ADD_03"
+        ]
+      },
+      "BINDING_VOWS_129": {
+        "ID": "BINDING_VOWS_129",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_COUNT_04",
+          "CURSED_ENERGY_WHEN_DASH_ADD_04"
+        ]
+      },
+      "BINDING_VOWS_130": {
+        "ID": "BINDING_VOWS_130",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "JUMP_COUNT_05",
+          "CURSED_ENERGY_WHEN_DASH_ADD_05"
+        ]
+      },
+      "BINDING_VOWS_131": {
+        "ID": "BINDING_VOWS_131",
+        "Difficulty": "EGameBindingVowsDifficulty::High",
+        "Id_BindingVowsEffect": [
+          "JUMP_COUNT_06",
+          "CURSED_ENERGY_WHEN_DASH_ADD_06"
+        ]
+      },
+      "BINDING_VOWS_132": {
+        "ID": "BINDING_VOWS_132",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_UP_COUNT_01",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_133": {
+        "ID": "BINDING_VOWS_133",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_UP_COUNT_02",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_02"
+        ]
+      },
+      "BINDING_VOWS_134": {
+        "ID": "BINDING_VOWS_134",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_UP_COUNT_03",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_03"
+        ]
+      },
+      "BINDING_VOWS_135": {
+        "ID": "BINDING_VOWS_135",
+        "Difficulty": "EGameBindingVowsDifficulty::Middle",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_LEVEL_UP_COUNT_04",
+          "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_04"
+        ]
+      },
+      "BINDING_VOWS_138": {
+        "ID": "BINDING_VOWS_138",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_WAVE_CLEAR_WITH_TIME_01",
+          "CURSED_ENERGY_UNLIMITED"
+        ]
+      },
+      "BINDING_VOWS_139": {
+        "ID": "BINDING_VOWS_139",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_CURSED_ENERGY_LEVEL_WITH_TIME_01",
+          "NORMAL_ATTACK_SUPER_ARMOR_01"
+        ]
+      },
+      "BINDING_VOWS_140": {
+        "ID": "BINDING_VOWS_140",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_KILL_WITH_TIME_01",
+          "SEND_ATTACK_DAMAGE_WHEN_KILL_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_142": {
+        "ID": "BINDING_VOWS_142",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_PENALTY_01",
+          "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_06"
+        ]
+      },
+      "BINDING_VOWS_145": {
+        "ID": "BINDING_VOWS_145",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "CURSED_ENERGY_EXP_DECREASE_06",
+          "HIT_POINT_WHEN_SPECIAL_TAG_COMBO_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_146": {
+        "ID": "BINDING_VOWS_146",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DASH_GAUGE_WHEN_DAMAGE_01",
+          "HIT_POINT_WHEN_JUST_GUARD_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_147": {
+        "ID": "BINDING_VOWS_147",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_WITH_TIME_DECREASE_01",
+          "SEND_ATTACK_DAMAGE_WHEN_HIT_POINT_MAX_RATE_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_148": {
+        "ID": "BINDING_VOWS_148",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "COST_MAX",
+          "HIT_POINT_WHEN_SEND_DAMAGE_01"
+        ]
+      },
+      "BINDING_VOWS_150": {
+        "ID": "BINDING_VOWS_150",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "RECEIVE_DAMAGE_WHEN_ATTACK_01",
+          "HIT_POINT_MAX_RATE_INCREASE_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_151": {
+        "ID": "BINDING_VOWS_151",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "RECEIVE_DAMAGE_WHEN_WALL_BOUND_01",
+          "GUARD_DURABILITY_UNLIMITED_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_154": {
+        "ID": "BINDING_VOWS_154",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_RATE_DECREASE_01",
+          "CURSED_ENERGY_EXP_ALLY_01"
+        ]
+      },
+      "BINDING_VOWS_155": {
+        "ID": "BINDING_VOWS_155",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_RECEIVE_SPECIAL_TAG_COMBO_01",
+          "FORCE_GAUGE_MAX_ADD_01"
+        ]
+      },
+      "BINDING_VOWS_156": {
+        "ID": "BINDING_VOWS_156",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "COST_01",
+          "FORCE_GAUGE_BARRIER_01"
+        ]
+      },
+      "BINDING_VOWS_157": {
+        "ID": "BINDING_VOWS_157",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "GET_MONEY_AND_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01",
+          "MONEY_AND_EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_158": {
+        "ID": "BINDING_VOWS_158",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DEAD_RECEIVE_ATTACK_01",
+          "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_02"
+        ]
+      },
+      "BINDING_VOWS_159": {
+        "ID": "BINDING_VOWS_159",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "RUN_JUMP_LIMIT_WITHOUT_HIT_POINT_MAX_01",
+          "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_01"
+        ]
+      },
+      "BINDING_VOWS_160": {
+        "ID": "BINDING_VOWS_160",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "GET_MONEY_WHEN_MISSION_FAILURE_DECREASE_01",
+          "MONEY_WHEN_MISSION_CLEAR_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_162": {
+        "ID": "BINDING_VOWS_162",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_MAX_RATE_DECREASE_01",
+          "CURSED_ENERGY_LEVEL_FULL_01"
+        ]
+      },
+      "BINDING_VOWS_163": {
+        "ID": "BINDING_VOWS_163",
+        "Difficulty": "EGameBindingVowsDifficulty::High",
+        "Id_BindingVowsEffect": [
+          "SEND_ATTACK_DAMAGE_WITH_TIME_HIGHER_DECREASE_01",
+          "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_165": {
+        "ID": "BINDING_VOWS_165",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "DASH_STEP_JUMP_LIMIT_01",
+          "CURSED_ENERGY_LEVEL_FULL_AND_SEND_ATTACK_DAMAGE_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_166": {
+        "ID": "BINDING_VOWS_166",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "HIT_POINT_WITH_TIME_DECREASE_01",
+          "CURSED_ENERGY_EXP_RECOVER_WITH_TIME_01"
+        ]
+      },
+      "BINDING_VOWS_167": {
+        "ID": "BINDING_VOWS_167",
+        "Difficulty": "EGameBindingVowsDifficulty::High",
+        "Id_BindingVowsEffect": [
+          "RECEIVE_DAMAGE_01",
+          "EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01"
+        ]
+      },
+      "BINDING_VOWS_168": {
+        "ID": "BINDING_VOWS_168",
+        "Difficulty": "EGameBindingVowsDifficulty::None",
+        "Id_BindingVowsEffect": [
+          "GET_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01",
+          "HIT_POINT_WITH_TIME_ALLY_INCREASE_01"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,2965 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EquipmentItemEffectDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_EquipmentItemEffect'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CURSED_TOOLS_HIT_POINT_MAX_ADD_01": {
+        "ID": "CURSED_TOOLS_HIT_POINT_MAX_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          50.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_30"
+      },
+      "CURSED_TOOLS_HIT_POINT_MAX_ADD_03": {
+        "ID": "CURSED_TOOLS_HIT_POINT_MAX_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          80.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_40"
+      },
+      "CURSED_TOOLS_HIT_POINT_MAX_ADD_05": {
+        "ID": "CURSED_TOOLS_HIT_POINT_MAX_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          120.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_50"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          30.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMax",
+        "EffectValue": [
+          50.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0020_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxAlly",
+        "EffectValue": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0061_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxAlly",
+        "EffectValue": [
+          25.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0061_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ADD_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxAlly",
+        "EffectValue": [
+          40.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0061_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxEnemy",
+        "EffectValue": [
+          -30.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0056_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxEnemy",
+        "EffectValue": [
+          -50.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0056_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_MAX_ENEMY_SUB_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointMaxEnemy",
+        "EffectValue": [
+          -70.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0056_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.3,
+          50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0050_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.3,
+          90.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0050_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.3,
+          130.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0050_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuardAlly",
+        "EffectValue": [
+          0.3,
+          50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0066_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuardAlly",
+        "EffectValue": [
+          0.3,
+          90.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0066_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_JUST_GUARD_ADD_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenJustGuardAlly",
+        "EffectValue": [
+          0.3,
+          130.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0066_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamage",
+        "EffectValue": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0039_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamage",
+        "EffectValue": [
+          0.18,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0039_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamage",
+        "EffectValue": [
+          0.26,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0039_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamageAlly",
+        "EffectValue": [
+          0.06,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0067_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamageAlly",
+        "EffectValue": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0067_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WHEN_SEND_DAMAGE_INCREASE_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWhenSendDamageAlly",
+        "EffectValue": [
+          0.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0067_40"
+      },
+      "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_01": {
+        "ID": "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          1.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_20"
+      },
+      "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_03": {
+        "ID": "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          1.8,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_30"
+      },
+      "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_05": {
+        "ID": "CURSED_TOOLS_HIT_POINT_WITH_TIME_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          2.2,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          0.5,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTime",
+        "EffectValue": [
+          1.7,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0021_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeAlly",
+        "EffectValue": [
+          0.333,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0063_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeAlly",
+        "EffectValue": [
+          0.444,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0063_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_WITH_TIME_INCREASE_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeAlly",
+        "EffectValue": [
+          0.833,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0063_40"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_01": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1010_10"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_03": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1011"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_05": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1012"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_01": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceAlly",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1018_20"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_03": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceAlly",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1018_30"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_05": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ALLY_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceAlly",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_HIT_POINT_RECOVER_WITH_TIME_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1018_40"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_01": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1017_20"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_03": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1017_30"
+      },
+      "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_05": {
+        "ID": "EXTRAS_HIT_POINT_WITH_TIME_ONCE_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointWithTimeOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_RECEIVE_DAMAGE_WITH_TIME_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1017_40"
+      },
+      "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_01": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.3,
+          50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0026_20"
+      },
+      "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_03": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.3,
+          150.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0026_30"
+      },
+      "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_05": {
+        "ID": "CURSED_OBJECTS_HIT_POINT_ONCE_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.3,
+          250.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0026_40"
+      },
+      "EXTRAS_HIT_POINT_ONCE_ADD_01": {
+        "ID": "EXTRAS_HIT_POINT_ONCE_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1001_20"
+      },
+      "EXTRAS_HIT_POINT_ONCE_ADD_03": {
+        "ID": "EXTRAS_HIT_POINT_ONCE_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          150.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1001_30"
+      },
+      "EXTRAS_HIT_POINT_ONCE_ADD_05": {
+        "ID": "EXTRAS_HIT_POINT_ONCE_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          300.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1001_40"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_01": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_20"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_03": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.07,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_30"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_05": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.09,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_01_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_01_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_10"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_02_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_02_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.2,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_04_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_04_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.3,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_05_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_05_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.5,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_50"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_01_02": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_01_02",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_02": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_03_02",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.2,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_05_02": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_INCREASE_05_02",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExp",
+        "EffectValue": [
+          1.3,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0027_40"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_01": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_20"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_03": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_30"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_05": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_MAX_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_40"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_20"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_30"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0047_40"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.05,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0025_20"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.15,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0025_30"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_04": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.35,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0025_40"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxWithHitPointRate",
+        "EffectValue": [
+          0.5,
+          1.4,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0025_50"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_06": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_WITH_HIT_POINT_RATE_INCREASE_06",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxWithHitPointRate",
+        "EffectValue": [
+          0.5,
+          1.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0025_60"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0015_20"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0015_30"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_MAX_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeMaxEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0015_40"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_01": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeConsume",
+        "EffectValue": [
+          0.97,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0048_20"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_02": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_02",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeConsume",
+        "EffectValue": [
+          0.965,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0048_30"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_03": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeConsume",
+        "EffectValue": [
+          0.96,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0048_40"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_05": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_CONSUME_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeConsume",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0048_50"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_01": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_20"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_03": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.07,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_30"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_05": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.09,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_40"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_20"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.11,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_30"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_RECOVER_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecover",
+        "EffectValue": [
+          1.17,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0049_40"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_01": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0016_20"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_03": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0016_30"
+      },
+      "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_05": {
+        "ID": "CURSED_TOOLS_DASH_GAUGE_RECOVER_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0016_40"
+      },
+      "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_01": {
+        "ID": "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_30"
+      },
+      "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_03": {
+        "ID": "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_30"
+      },
+      "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_05": {
+        "ID": "EXTRAS_DASH_GAUGE_RECOVER_ONCE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeRecoverOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_RECOVER_INCREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_30"
+      },
+      "EXTRAS_DASH_GAUGE_ONCE_01": {
+        "ID": "EXTRAS_DASH_GAUGE_ONCE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeOnce",
+        "EffectValue": [
+          0.4,
+          0.1,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1005_20"
+      },
+      "EXTRAS_DASH_GAUGE_ONCE_03": {
+        "ID": "EXTRAS_DASH_GAUGE_ONCE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeOnce",
+        "EffectValue": [
+          0.4,
+          0.3,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1005_30"
+      },
+      "EXTRAS_DASH_GAUGE_ONCE_05": {
+        "ID": "EXTRAS_DASH_GAUGE_ONCE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeOnce",
+        "EffectValue": [
+          0.4,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1005_40"
+      },
+      "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_01": {
+        "ID": "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeUnlimitedOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_60"
+      },
+      "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_03": {
+        "ID": "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeUnlimitedOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_60"
+      },
+      "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_05": {
+        "ID": "EXTRAS_DASH_GAUGE_UNLIMITED_ONCE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeUnlimitedOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_60"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeNotRecoverWhenSendDamage",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0058"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_03": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeNotRecoverWhenSendDamage",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0058"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_05": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_NOT_RECOVER_WHEN_SEND_DAMAGE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeNotRecoverWhenSendDamage",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_NOT_RECOVER_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0058"
+      },
+      "CURSED_OBJECTS_DASH_GAUGE_WHEN_SEND_DAMAGE_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_DASH_GAUGE_WHEN_SEND_DAMAGE_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DashGaugeWhenSendDamage",
+        "EffectValue": [
+          -0.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0059_20"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_01": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamage",
+        "EffectValue": [
+          0.97,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0031_20"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_03": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamage",
+        "EffectValue": [
+          0.96,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0031_30"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_05": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamage",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0031_40"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_01": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.05,
+          0.9,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_20"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_03": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.05,
+          0.8,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_30"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.05,
+          0.7,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_40"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_01": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.1,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0033_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_03": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.3,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0033_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_05": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0033_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_01": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.07,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0064_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_03": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.2,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0064_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_05": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_HALF_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.35,
+          0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0064_00"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.03,
+          0.95,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_20"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.03,
+          0.75,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_30"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_04": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.05,
+          0.4,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_40"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.1,
+          0.3,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_50"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_06": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_06",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProb",
+        "EffectValue": [
+          0.3,
+          0.2,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0053_60"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_04": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_04",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.03,
+          0.4,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0065_40"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_05": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.07,
+          0.3,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0065_50"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_06": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_PROB_DECREASE_ALLY_06",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithProbAlly",
+        "EffectValue": [
+          0.2,
+          0.2,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0065_60"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashGaugeRecover",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0040_20"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashGaugeRecover",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0040_30"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_GAUGE_RECOVER_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashGaugeRecover",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_GAUGE_RECOVER_DECREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0040_40"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_01": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_01",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashDisabled",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_DISABLED_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0041"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_03": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_03",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashDisabled",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_DISABLED_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0041"
+      },
+      "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_05": {
+        "ID": "CURSED_OBJECTS_ATTACK_WITH_DASH_DISABLED_05",
+        "EffectType": "EGameEquipmentItemEffectType::AttackWithDashDisabled",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_DASH_DISABLED_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0041"
+      },
+      "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_01": {
+        "ID": "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_01",
+        "EffectType": "EGameEquipmentItemEffectType::NormalAttackWithMoveSlow",
+        "EffectValue": [
+          0.03,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_MOVE_SLOW_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0004_20"
+      },
+      "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_03": {
+        "ID": "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_03",
+        "EffectType": "EGameEquipmentItemEffectType::NormalAttackWithMoveSlow",
+        "EffectValue": [
+          0.03,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_MOVE_SLOW_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0004_30"
+      },
+      "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_05": {
+        "ID": "CURSED_TOOLS_NORMAL_ATTACK_WITH_MOVE_SLOW_05",
+        "EffectType": "EGameEquipmentItemEffectType::NormalAttackWithMoveSlow",
+        "EffectValue": [
+          0.04,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_MOVE_SLOW_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0004_40"
+      },
+      "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_01": {
+        "ID": "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::DomainExpansionCastingTime",
+        "EffectValue": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0005_20"
+      },
+      "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_03": {
+        "ID": "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::DomainExpansionCastingTime",
+        "EffectValue": [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0005_30"
+      },
+      "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_05": {
+        "ID": "CURSED_TOOLS_DOMAIN_EXPANSION_CASTING_TIME_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::DomainExpansionCastingTime",
+        "EffectValue": [
+          -3.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0005_40"
+      },
+      "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_01": {
+        "ID": "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          30.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0036_20"
+      },
+      "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_03": {
+        "ID": "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          50.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0036_30"
+      },
+      "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_05": {
+        "ID": "CURSED_TOOLS_SEND_SPECIAL_TAG_COMBO_DAMAGE_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          70.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0036_40"
+      },
+      "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0024_20"
+      },
+      "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          110.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0024_30"
+      },
+      "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendSpecialTagComboDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          170.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0024_40"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.03,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0052"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.04,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0052"
+      },
+      "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05": {
+        "ID": "CURSED_TOOLS_RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0052"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_01": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithDashGauseUnlimited",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0044"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_03": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithDashGauseUnlimited",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0044"
+      },
+      "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_05": {
+        "ID": "CURSED_OBJECTS_RECEIVE_DAMAGE_WITH_DASH_GAUGE_UNLIMITED_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageWithDashGauseUnlimited",
+        "EffectValue": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_DASH_GAUGE_UNLIMITED_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0044"
+      },
+      "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_01": {
+        "ID": "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_01",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1002_20"
+      },
+      "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_03": {
+        "ID": "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_03",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1002_30"
+      },
+      "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_05": {
+        "ID": "EXTRAS_RECEIVE_DAMAGE_DECREASE_ITEM_05",
+        "EffectType": "EGameEquipmentItemEffectType::ReceiveDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_RECEIVE_DAMAGE_DECREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1002_40"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_01": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_20"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_03": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.07,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_30"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_05": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_RECOVER_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.09,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_02": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_02",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0030_50"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverWhenDebuff",
+        "EffectValue": [
+          1.0,
+          1.05,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0037_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverWhenDebuff",
+        "EffectValue": [
+          1.0,
+          1.15,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0037_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_04": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverWhenDebuff",
+        "EffectValue": [
+          1.0,
+          1.25,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0037_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_WHEN_DEBUFF_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverWhenDebuff",
+        "EffectValue": [
+          1.0,
+          1.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0037_50"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0055_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0055_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_RECOVER_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyRecoverEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0055_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.05,
+          10.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0046_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.05,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0046_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_DASH_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.05,
+          30.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0046_40"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_01": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenNormalAttack",
+        "EffectValue": [
+          0.03,
+          10.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0002_20"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_03": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenNormalAttack",
+        "EffectValue": [
+          0.05,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0002_30"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_05": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_NORMAL_ATTACK_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenNormalAttack",
+        "EffectValue": [
+          0.07,
+          30.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0002_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenKill",
+        "EffectValue": [
+          0.05,
+          1.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0008"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenKill",
+        "EffectValue": [
+          0.11,
+          1.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0008"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_KILL_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenKill",
+        "EffectValue": [
+          0.17,
+          1.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0008"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_01": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenCursedEnergyAttackEnemy",
+        "EffectValue": [
+          0.05,
+          -10.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0028_20"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_03": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenCursedEnergyAttackEnemy",
+        "EffectValue": [
+          0.07,
+          -20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0028_30"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_05": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_WHEN_CURSED_ENERGY_ATTACK_SUB_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenCursedEnergyAttackEnemy",
+        "EffectValue": [
+          0.09,
+          -30.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0028_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenAttackEnemy",
+        "EffectValue": [
+          0.05,
+          -10.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0042_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenAttackEnemy",
+        "EffectValue": [
+          0.15,
+          -30.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0042_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_WHEN_ATTACK_ENEMY_SUB_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyWhenAttackEnemy",
+        "EffectValue": [
+          0.25,
+          -50.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0042_40"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_01": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnce",
+        "EffectValue": [
+          0.4,
+          100.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1004_20"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_03": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnce",
+        "EffectValue": [
+          0.4,
+          140.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1004_30"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_05": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnce",
+        "EffectValue": [
+          0.4,
+          180.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1004_40"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_01": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnceEnemy",
+        "EffectValue": [
+          0.4,
+          -0.1,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1016_20"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_03": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnceEnemy",
+        "EffectValue": [
+          0.4,
+          -0.3,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1016_30"
+      },
+      "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_05": {
+        "ID": "EXTRAS_CURSED_ENERGY_ONCE_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyOnceEnemy",
+        "EffectValue": [
+          0.4,
+          -0.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1004_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0013_10"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_02": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_02",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpEnemy",
+        "EffectValue": [
+          0.9,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0013_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0013_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_04": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0013_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpEnemy",
+        "EffectValue": [
+          0.55,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0013_50"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenDash",
+        "EffectValue": [
+          0.03,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0045"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenDash",
+        "EffectValue": [
+          0.05,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0045"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_DASH_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenDash",
+        "EffectValue": [
+          0.07,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0045"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_01": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenAttack",
+        "EffectValue": [
+          0.03,
+          10.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0043"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_03": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenAttack",
+        "EffectValue": [
+          0.05,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0043"
+      },
+      "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_05": {
+        "ID": "CURSED_TOOLS_CURSED_ENERGY_EXP_WHEN_ATTACK_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenAttack",
+        "EffectValue": [
+          0.07,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0043"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuard",
+        "EffectValue": [
+          0.05,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0035"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuard",
+        "EffectValue": [
+          0.15,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0035"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuard",
+        "EffectValue": [
+          0.25,
+          20.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0035"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuardBreak",
+        "EffectValue": [
+          15.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0009_20"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuardBreak",
+        "EffectValue": [
+          45.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0009_30"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_SEND_GUARD_BREAK_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenSendGuardBreak",
+        "EffectValue": [
+          75.0,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0009_40"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_01": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.05,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0001"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_03": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.15,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0001"
+      },
+      "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_05": {
+        "ID": "CURSED_OBJECTS_CURSED_ENERGY_EXP_WHEN_LINK_COMBO_ADD_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.25,
+          15.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0001"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_01": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1007_20"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_03": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1007_30"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_05": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_CURSED_ENERGY_EXP_INCREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1007_40"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_01": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_50"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_03": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_50"
+      },
+      "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_05": {
+        "ID": "EXTRAS_CURSED_ENERGY_EXP_ONCE_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::CursedEnergyExpOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_CURSED_ENERGY_EXP_DECREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_50"
+      },
+      "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0051_20"
+      },
+      "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.07,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0051_30"
+      },
+      "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_TOOLS_SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.09,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0051_40"
+      },
+      "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendNormalAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0003_20"
+      },
+      "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendNormalAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0003_30"
+      },
+      "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_SEND_NORMAL_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendNormalAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0003_40"
+      },
+      "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0029_20"
+      },
+      "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0029_30"
+      },
+      "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0029_40"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0054_20"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0054_30"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0054_40"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_01": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_01",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxAlly",
+        "EffectValue": [
+          1.03,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0062_20"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_03": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_03",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxAlly",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0062_30"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_05": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_INCREASE_ALLY_05",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxAlly",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0062_40"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0017_20"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0017_30"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0017_40"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxWithForceGauge",
+        "EffectValue": [
+          3.0,
+          1.1,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0038_20"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxWithForceGauge",
+        "EffectValue": [
+          3.0,
+          1.2,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0038_30"
+      },
+      "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_GUARD_DURABILITY_MAX_WITH_FORCE_GAUGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::GuardDurabilityMaxWithForceGauge",
+        "EffectValue": [
+          3.0,
+          1.3,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0038_40"
+      },
+      "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.02,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_20"
+      },
+      "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.07,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_30"
+      },
+      "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_TOOLS_SEND_ATTACK_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.09,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_40"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.05,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_20"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_02": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_02",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_20"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.15,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_30"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_04": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.25,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_40"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0007_50"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_01": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.05,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0023_20"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_03": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.15,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0023_30"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_04": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_04",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageWithHitPointRate",
+        "EffectValue": [
+          0.1,
+          1.25,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0023_40"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageWithHitPointRate",
+        "EffectValue": [
+          0.2,
+          1.4,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0023_50"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_06": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_WITH_HIT_POINT_RATE_INCREASE_06",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageWithHitPointRate",
+        "EffectValue": [
+          0.3,
+          1.5,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0023_60"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_01": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_20"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_01": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_30"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_01": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.75,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_40"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_02": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_01_02",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_20"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_02": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_03_02",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.89,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_30"
+      },
+      "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_02": {
+        "ID": "CURSED_OBJECTS_SEND_ATTACK_DAMAGE_ENEMY_DECREASE_05_02",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageEnemy",
+        "EffectValue": [
+          0.83,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0057_40"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_01": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SEND_DAMAGE_INCREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1006_20"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_03": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SEND_DAMAGE_INCREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1006_30"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_05": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SEND_DAMAGE_INCREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1006_40"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_01": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_40"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_03": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_40"
+      },
+      "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_05": {
+        "ID": "EXTRAS_SEND_ATTACK_DAMAGE_ONCE_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SendAttackDamageOnceEnemy",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "DEBUFF_SEND_DAMAGE_DECREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_40"
+      },
+      "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_01": {
+        "ID": "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::LinkComboCursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_10"
+      },
+      "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_03": {
+        "ID": "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::LinkComboCursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_10"
+      },
+      "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_05": {
+        "ID": "EXTRAS_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::LinkComboCursedEnergyExpOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_LINK_COMBO_CURSED_ENERGY_EXP_INCREASE_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015_10"
+      },
+      "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_01": {
+        "ID": "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_01",
+        "EffectType": "EGameEquipmentItemEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.95,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0014_20"
+      },
+      "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_03": {
+        "ID": "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_03",
+        "EffectType": "EGameEquipmentItemEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.89,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0014_30"
+      },
+      "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_05": {
+        "ID": "CURSED_OBJECTS_MOVE_SPEED_ENEMY_DECREASE_05",
+        "EffectType": "EGameEquipmentItemEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.83,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0014_40"
+      },
+      "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_01": {
+        "ID": "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_01",
+        "EffectType": "EGameEquipmentItemEffectType::StaggerWhenAttackEnemy",
+        "EffectValue": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0018_20"
+      },
+      "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_03": {
+        "ID": "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_03",
+        "EffectType": "EGameEquipmentItemEffectType::StaggerWhenAttackEnemy",
+        "EffectValue": [
+          0.2,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0018_30"
+      },
+      "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_05": {
+        "ID": "CURSED_OBJECTS_STAGGER_WHEN_ATTACK_ENEMY_05",
+        "EffectType": "EGameEquipmentItemEffectType::StaggerWhenAttackEnemy",
+        "EffectValue": [
+          0.3,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0018_40"
+      },
+      "EXTRAS_SUPER_ARMOR_ONCE_01": {
+        "ID": "EXTRAS_SUPER_ARMOR_ONCE_01",
+        "EffectType": "EGameEquipmentItemEffectType::SuperArmorOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SUPER_ARMOR_ITEM_1",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015"
+      },
+      "EXTRAS_SUPER_ARMOR_ONCE_03": {
+        "ID": "EXTRAS_SUPER_ARMOR_ONCE_03",
+        "EffectType": "EGameEquipmentItemEffectType::SuperArmorOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SUPER_ARMOR_ITEM_3",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015"
+      },
+      "EXTRAS_SUPER_ARMOR_ONCE_05": {
+        "ID": "EXTRAS_SUPER_ARMOR_ONCE_05",
+        "EffectType": "EGameEquipmentItemEffectType::SuperArmorOnce",
+        "EffectValue": [
+          0.4,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "BUFF_SUPER_ARMOR_ITEM_5",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_1015"
+      },
+      "CURSED_TOOLS_STEP_DISTANCE_01": {
+        "ID": "CURSED_TOOLS_STEP_DISTANCE_01",
+        "EffectType": "EGameEquipmentItemEffectType::StepDistance",
+        "EffectValue": [
+          1.2,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0060_20"
+      },
+      "CURSED_TOOLS_STEP_DISTANCE_03": {
+        "ID": "CURSED_TOOLS_STEP_DISTANCE_03",
+        "EffectType": "EGameEquipmentItemEffectType::StepDistance",
+        "EffectValue": [
+          1.35,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0060_30"
+      },
+      "CURSED_TOOLS_STEP_DISTANCE_05": {
+        "ID": "CURSED_TOOLS_STEP_DISTANCE_05",
+        "EffectType": "EGameEquipmentItemEffectType::StepDistance",
+        "EffectValue": [
+          1.5,
+          0.0,
+          0.0
+        ],
+        "Id_BuffDebuff": "None",
+        "Id_BattleText": "BTL_ITEM_BUFF_MESSAGE_0060_40"
+      }
+    }
+  }
+]

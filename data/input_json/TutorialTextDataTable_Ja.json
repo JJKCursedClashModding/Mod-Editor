@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_Ja",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "移動"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "空中<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "地上<GLO=GLS_GAME_WORDS_1407>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/><img id=\"Symbol_0001\"/><img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "五条先生のそばに行く"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "移動について"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>でキャラクターを移動させます"
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>について"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "<img id=\"Dash\"/>で「<GLO=GLS_GAME_WORDS_1405>」することができます\n<GLO=GLS_GAME_WORDS_1405>中は「<GLO=GLS_GAME_WORDS_1504>」を消費し、地上にいることで<GLO=GLS_GAME_WORDS_1819>します\nさらに、<GLO=GLS_GAME_WORDS_1405>中に<GLO=GLS_GAME_WORDS_1406>すると、通常よりも高く跳べる\n「<GLO=GLS_GAME_WORDS_1407>」が発動します"
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>について"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "<img id=\"Jump\"/>で「<GLO=GLS_GAME_WORDS_1406>」することができます\nさらに<GLO=GLS_GAME_WORDS_1406>中にもう一度、<img id=\"Jump\"/>を入力すると、\n二段<GLO=GLS_GAME_WORDS_1406>が発動します"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "連続格闘攻撃"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": "<img id=\"NormalAttack_1\"/> 連続入力"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "アッパー"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "回し蹴り"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "蹴り下ろし"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "飛び蹴り"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "礫飛ばし"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>１"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>で<GLO=GLS_GAME_WORDS_1401>を２にする"
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "<GLO=GLS_GAME_WORDS_1302>について"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "<img id=\"NormalAttack_1\"/>で攻撃を行います\n<img id=\"NormalAttack_2\"/>・<img id=\"NormalAttack_3\"/>でも攻撃を発動することができます\nさらに、同時に<img id=\"MoveDown\"/>を入力することで別の攻撃を発動させることができます"
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1417>について"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>中は常に敵キャラクターをターゲットし続け、\n攻撃を発動すると、自動で敵対象に攻撃を行います\n\n敵が複数いる場合は、<img id=\"TargetChangeLeft\"/><img id=\"TargetChangeRight\"/>で攻撃対象を切り替えることができます"
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "<GLO=GLS_GAME_WORDS_1307>について"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "呪いを呪いで祓うための攻撃、それが「<GLO=GLS_GAME_WORDS_1307>」です\nこの攻撃が敵にダメージを与える基本的な手段となります\n\n<img id=\"CursedEnergyAttack_1\"/>と<img id=\"CursedEnergyAttack_2\"/>それぞれで違う<GLO=GLS_GAME_WORDS_1307>を繰り出せます\nこの技を使用するには、<GLO=GLS_GAME_WORDS_1503>ゲージに<GLO=GLS_GAME_WORDS_1503>が溜まっている必要があります\n<GLO=GLS_GAME_WORDS_1503>ゲージは使用しても時間経過とともに<GLO=GLS_GAME_WORDS_1819>します"
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>について"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "自身の<GLO=GLS_GAME_WORDS_1503>を上昇させる攻撃を「<GLO=GLS_GAME_WORDS_1302>」と呼びます\n<GLO=GLS_GAME_WORDS_1302>を敵にヒットさせることで<GLO=GLS_GAME_WORDS_1503>ゲージが上昇し、\n一定の値に到達すると、自身の<GLO=GLS_GAME_WORDS_1401>がアップします\nレベルアップすると、<GLO=GLS_GAME_WORDS_1307>が強化されダメージが増加していきます"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>を成功させる"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": "<img id=\"NormalAttack_1\"/> 連続入力"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "攻撃を３回<GLO=GLS_GAME_WORDS_1409>する"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "１０秒間攻撃を避ける"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"MoveLeft\"/>or<img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "五条先生の<GLO=GLS_GAME_WORDS_1502>を０にする"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "<GLO=GLS_GAME_WORDS_1301>について"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "<img id=\"NormalAttack_1\"/>を連続で入力することで、\n<GLO=GLS_GAME_WORDS_1302>と<GLO=GLS_GAME_WORDS_1307>を絡めたコンボ「<GLO=GLS_GAME_WORDS_1301>」を繰り出すことができます\n<GLO=GLS_GAME_WORDS_1307>を発動させるだけの<GLO=GLS_GAME_WORDS_1503>がある状態で、「<GLO=GLS_GAME_WORDS_1301>」を繰り出すことで\n最後の技が<GLO=GLS_GAME_WORDS_1307>に変化します"
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>について"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "<img id=\"Guard\"/>で敵の攻撃を防ぐ「<GLO=GLS_GAME_WORDS_1409>」を発動します\n入力中は<GLO=GLS_GAME_WORDS_1409>状態となり、受けたダメージを無効化します\nただし、<GLO=GLS_GAME_WORDS_1409>で攻撃を受け続けると<GLO=GLS_GAME_WORDS_1409>が崩れ\n「<GLO=GLS_GAME_WORDS_1432>」状態となります\nこの状態は大きな隙になってしまうので注意が必要です\n\nまた、敵の攻撃を受ける瞬間に<GLO=GLS_GAME_WORDS_1409>が成功すると\n「<GLO=GLS_GAME_WORDS_1410>」となり、反撃のチャンスを作りやすくなります"
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1431>について"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "<GLO=GLS_GAME_WORDS_1409>中に<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>を入力することで、「<GLO=GLS_GAME_WORDS_1431>」を発動します\n入力方向に移動し、敵の攻撃を避けることができます"
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "おさらい"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "<GLO=GLS_GAME_WORDS_1302>を敵にヒットさせ、<GLO=GLS_GAME_WORDS_1503>を上昇させていき\n<GLO=GLS_GAME_WORDS_1307>で敵の<GLO=GLS_GAME_WORDS_1502>を減らし<GLO=GLS_GAME_WORDS_1418>しましょう\n\n敵を<GLO=GLS_GAME_WORDS_1418>し、相手<GLO=GLS_GAME_WORDS_1422>を０にすることが<GLO=GLS_GAME_WORDS_1601>目標となります"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "じゃ早速特訓を始めようか！！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "オス！よろしくおなしゃす！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "まずは僕のところまで来てみようか"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "いい動きだ！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "次は僕に攻撃を当ててごらん"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "ケガしても知んないよ？"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "やっぱり近接戦闘に関しては頭一つ抜けてるね！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "次は僕が攻撃するから対処してみようか"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "いい耐久力（タフネス）だ！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "最後に<GLO=GLS_GAME_WORDS_1503>のコントロールについて教えよう！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "悠仁の体術に<GLO=GLS_GAME_WORDS_1503>を上乗せして撃ち込んでみようか"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "それなら俺もうできるぜ！！"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "じゃあやってごらん　どうせできないから"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "篭もってなかったね <GLO=GLS_GAME_WORDS_1503>"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "悠仁には実戦形式が一番かな"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "本気でかかっておいで"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "<GLO=GLS_NAME_CP_010>に<GLO=GLS_GAME_WORDS_1704>「協力」を指示する"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>を成功させる"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "<GLO=GLS_NAME_CP_040>の<GLO=GLS_GAME_WORDS_1401>を３にする"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>を成功させる"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>を成功させる"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "<GLO=GLS_GAME_WORDS_1704>について"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "味方のキャラクターに<GLO=GLS_GAME_WORDS_1813>中の行動を<img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>で指示することができます\n\n<img id=\"Chat_0005\"/> 通常：平均的な行動を行います\n<img id=\"Chat_0006\"/> 猛攻：<GLO=GLS_GAME_WORDS_1302>、<GLO=GLS_GAME_WORDS_1307>を頻繁に使用します\n<img id=\"Chat_0007\"/> 協力：連携を積極的に狙います\n<img id=\"Chat_0008\"/> 慎重：<GLO=GLS_GAME_WORDS_1431>や<GLO=GLS_GAME_WORDS_1409>を多用し、ダメージを受けないように立ち回ります"
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>について"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "味方のキャラクターと同じ敵を攻撃したり\n味方を攻撃している敵を攻撃すると「<GLO=GLS_GAME_WORDS_1402>」が発生します\nボーナスが発生すると、追加の<GLO=GLS_GAME_WORDS_1505>を獲得できます"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "<GLO=GLS_GAME_WORDS_1314>について"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_1\"/>で「<GLO=GLS_GAME_WORDS_1313>」を繰り出すことができます\n<GLO=GLS_GAME_WORDS_1313>は<GLO=GLS_GAME_WORDS_1409>ができず、敵にヒットすると特殊なやられ状態になります\nこのやられ状態中に、味方が<GLO=GLS_GAME_WORDS_1301>か<GLO=GLS_GAME_WORDS_1302>をヒットさせると、\n味方との連携攻撃「<GLO=GLS_GAME_WORDS_1314>」が発動します\n<GLO=GLS_GAME_WORDS_1314>が発動すると自身と味方の<GLO=GLS_GAME_WORDS_1401>が上がり、\nかつ敵に大ダメージを与えることができます"
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>について"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>が最大の時に使用できる特別な技が「<GLO=GLS_GAME_WORDS_1315>」です\n<img id=\"Guard\"/>と<img id=\"CursedEnergyAttack_2\"/>を同時に入力することで発動します\n技の効果は、強力な攻撃や<GLO=GLS_UNIQUE_WORDS_0006>などキャラクターごとに違います\n<GLO=GLS_GAME_WORDS_1315>は<GLO=GLS_GAME_WORDS_1813>中に一度のみ発動させることができます"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>を最大にする"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>を成功させる"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>＋<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>について"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "一部のキャラクターは<GLO=GLS_GAME_WORDS_1315>で、<GLO=GLS_UNIQUE_WORDS_0006>を発動できます\n\n<GLO=GLS_UNIQUE_WORDS_0006>が成功すると、自身の領域に敵味方を引きずり込みます\n領域内では自身の能力がアップしたり、敵に妨害効果や大ダメージを与えたり\n有利な状態で<GLO=GLS_GAME_WORDS_1813>を展開できます"
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>について"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0006>は、次のいずれかの条件で解除されます\n時間経過、発動者が<GLO=GLS_GAME_WORDS_1418>される、別の<GLO=GLS_UNIQUE_WORDS_0006>で上書きされる\nまた、展開から攻撃して解除までを一連で進行するものもあります\n\n一部のキャラクターは<GLO=GLS_UNIQUE_WORDS_0006>解除後の一定時間\n<GLO=GLS_GAME_WORDS_1307>が制限される場合もあるので注意が必要です"
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "適応について"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "魔虚羅は相手の攻撃に「適応」し無効化する能力があります\n魔虚羅を撃破した呪力技は適応されて以降ダメージを与えられなくなります\n適応されると、技に対応した法陣のアイコンが点灯します\n\n覚醒技でもダメージを与えることができます\n最後はこの技で屠り、魔虚羅を破りましょう"
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "<GLO=GLS_GAME_WORDS_1001>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "「<GLO=GLS_GAME_WORDS_1001>」モードでは<GLO=GLS_GAME_WORDS_0001>の物語を体験することができます\n\n・<GLO=GLS_GAME_WORDS_1103>…\n　<GLO=GLS_UNIQUE_WORDS_0001>達の戦いの記録を追体験していきます\n・<GLO=GLS_GAME_WORDS_1206>…\n　各キャラクターの関係性を確認します"
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "<GLO=GLS_GAME_WORDS_1103>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "ここでは時系列に沿って任務を選択し物語を体験することができます\n\n任務によっては特殊な<GLO=GLS_GAME_WORDS_1601>条件や\n「<GLO=GLS_GAME_WORDS_1817>」という課題が設けられているものも存在します\n任務の詳細は<img id=\"PopupMenu_2\"/>で確認することができます"
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1206>の進行"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "<GLO=GLS_GAME_WORDS_1103>を進行していくと\n<GLO=GLS_GAME_WORDS_1206>のキャラクターが解禁されたり\nキャラクター同士の関係性が進展したりしていきます\n時々確認するようにしましょう\n\n<GLO=GLS_GAME_WORDS_1206>へは<img id=\"PopupMenu_1\"/>でも移動できます"
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "<GLO=GLS_GAME_WORDS_1206>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "ここではキャラクター同士の関係性を確認することができます\n<GLO=GLS_GAME_WORDS_1103>の進行に応じてキャラクター同士の「<GLO=GLS_GAME_WORDS_1105>」が上昇していき\n報酬を獲得したり、解放した<GLO=GLS_GAME_WORDS_1706>を閲覧することができます"
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "<GLO=GLS_GAME_WORDS_1002>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "ここではネットワークに接続してオンラインで対戦を行うことができます\n\n・<GLO=GLS_GAME_WORDS_1102>…\n　気軽に対戦を行うことができます\n・<GLO=GLS_GAME_WORDS_1101>…\n　実力の近いプレイヤーたちと対戦します"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "<GLO=GLS_GAME_WORDS_1101>では、対戦結果の勝敗やスコアに応じて「<GLO=GLS_GAME_WORDS_1901>」が変動します\nまた、スコアの累計に応じて報酬を獲得することができます\n詳しくは、「<GLO=GLS_GAME_WORDS_1208>」で確認することができます"
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "ここではネットワークに接続してオンラインでプレイヤーと協力し\n特殊なルールで敵との連続<GLO=GLS_GAME_WORDS_1813>を行うことができます\n\n・<GLO=GLS_GAME_WORDS_1801>…\n　プレイヤー同士で協力し、プレイするたびに変化する「<GLO=GLS_GAME_WORDS_1815>」で構成された\n　連続<GLO=GLS_GAME_WORDS_1813>を行うことができます\n　「<GLO=GLS_GAME_WORDS_1817>」による条件達成をクリアしつつ、敵を倒し高得点を狙いましょう\n　また、特殊な勝敗条件が設けられている<GLO=GLS_GAME_WORDS_1813>もあります"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "・<GLO=GLS_GAME_WORDS_1802>…\n　<GLO=GLS_GAME_WORDS_1801>より更に強敵が立ちはだかるモードです\n　完全攻略を目指してみてください"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "まずは「<GLO=GLS_GAME_WORDS_1801>」をプレイし、モードの流れを体験してみましょう\n初回はオフラインでプレイします\n\nなお、初回以降も「ひとりでプレイ」を選択すると\nオフラインでプレイすることができます"
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "<GLO=GLS_GAME_WORDS_1818>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>ではプレイすると「<GLO=GLS_GAME_WORDS_1818>」が変動していきます\n<GLO=GLS_GAME_WORDS_1818>が上昇すると、<GLO=GLS_GAME_WORDS_1801>の難易度や\n<GLO=GLS_GAME_WORDS_1813>の構成が段階的に変化していきます\n協力するプレイヤーはこの<GLO=GLS_GAME_WORDS_1818>が近いプレイヤーを優先的にマッチングします\n\n出撃時に<GLO=GLS_GAME_WORDS_1818>を任意で設定し、難易度を調整する事もできます\n※下げて出撃した場合、<GLO=GLS_GAME_WORDS_1818>上限は上昇しません"
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "<GLO=GLS_GAME_WORDS_1805>/<GLO=GLS_GAME_WORDS_1804>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "また、<GLO=GLS_GAME_WORDS_1003>では\n特殊な「<GLO=GLS_GAME_WORDS_1805>アイテム」やキャラクターを「<GLO=GLS_GAME_WORDS_1804>」することで強化ができます\n<GLO=GLS_GAME_WORDS_1801>、<GLO=GLS_GAME_WORDS_1802>をプレイすることで<GLO=GLS_GAME_WORDS_1812>を獲得し\nキャラクターを強化しましょう\n\n強化することで、難しい<GLO=GLS_GAME_WORDS_1813>の攻略がしやすくなります"
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "<GLO=GLS_GAME_WORDS_1805>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "<GLO=GLS_GAME_WORDS_1007>で購入したアイテムを<GLO=GLS_GAME_WORDS_1805>しキャラクターを強化できます\n<GLO=GLS_GAME_WORDS_1805>は最大３つまで行うことができ、キャラクターを<GLO=GLS_GAME_WORDS_1804>することで解禁されます\nただし、同じカテゴリーのアイテムを複数<GLO=GLS_GAME_WORDS_1805>することはできません\n\n<GLO=GLS_GAME_WORDS_1805>アイテムには、永続的に<GLO=GLS_GAME_WORDS_1805>できるタイプや\n一度効果を発揮すると無くなるタイプなど、様々な種類があります\nまた、<GLO=GLS_GAME_WORDS_1003>をプレイすることで\n新たなアイテムが<GLO=GLS_GAME_WORDS_1007>に陳列される場合もあります"
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1804>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>、<GLO=GLS_GAME_WORDS_1802>をプレイすることで得た<GLO=GLS_GAME_WORDS_1812>を使用し\nキャラクターのLVをアップすることができます\nLVアップすると、パラメーターが強化されたり、<GLO=GLS_GAME_WORDS_1805>枠が解禁されていきます\n\n<GLO=GLS_GAME_WORDS_1812>はどのキャラクターでプレイしても共通で貯まるので\n自由に振り分けることができます"
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "<GLO=GLS_GAME_WORDS_1809>の選択"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "<GLO=GLS_GAME_WORDS_1003>では己に「<GLO=GLS_GAME_WORDS_1809>」を課すことができます\n<GLO=GLS_GAME_WORDS_1809>を課すと、アクションやパラメーターに制限が設けられますが、\n他の能力が強化されます\n\n<GLO=GLS_GAME_WORDS_1809>を課した状態でミッションをクリアすると、\n<GLO=GLS_GAME_WORDS_1819>ポイントを追加で獲得することができます"
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "<GLO=GLS_GAME_WORDS_1831>でできること"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "<GLO=GLS_GAME_WORDS_1831>画面では、次のミッションに備えて\n「<GLO=GLS_GAME_WORDS_1422>」やそれぞれの「<GLO=GLS_GAME_WORDS_1502>」を<GLO=GLS_GAME_WORDS_1819>することができます\n<GLO=GLS_GAME_WORDS_1819>にはそれぞれポイントが必要となります\nポイントはプレイヤーそれぞれが所持しているので、\n上手く活用して<GLO=GLS_GAME_WORDS_1819>しましょう\n\nこの<GLO=GLS_GAME_WORDS_1819>ポイントはミッションクリア時に獲得することができます\nまた、<GLO=GLS_GAME_WORDS_1809>を課した状態でミッションをクリアすることで追加で獲得ができます"
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "<GLO=GLS_GAME_WORDS_1005>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "ここでは自由にキャラクターやルールを設定し<GLO=GLS_GAME_WORDS_1813>をプレイすることができます\n\n・キャラクター設定…\n　味方や相手のキャラクター選択や強さを設定することができます\n\n・プレイヤー設定…\n　特殊な項目の設定ができます\n\n・<GLO=GLS_GAME_WORDS_1813>設定…\n　ステージや制限時間、<GLO=GLS_GAME_WORDS_1503>などルールの設定ができます"
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>について"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "ここではネットワークに接続してオンラインでロビーを作り\n<GLO=GLS_GAME_WORDS_3001>や知らない人と固定メンバーで遊ぶことができます\n\n・ロビーを作る…ホストとなりロビーを作成します\n　プレイスタイルや募集文を変更することで\n　スタイルに合ったプレイヤーを募集することができます\n\n・ロビーを探す…作成されたロビーへ参加します\n　<GLO=GLS_GAME_WORDS_3001>やID検索で特定のロビーへ直接参加することもできます"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "・キャラクター選択…\n　ロビーで操作するキャラクターを選択します\n　<GLO=GLS_GAME_WORDS_1813>では別途キャラクターを選択できるので、\n　好みのキャラクターでロビーへ参加しましょう！"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "ロビーホストができること"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "ロビーホストは <img id=\"BattlePause\"/>ホールドで<GLO=GLS_GAME_WORDS_1813>を開始します\nメンバーが揃ったら開始しましょう"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "また、 <img id=\"BattlePause\"/>でメニューを呼び出して以下のことができます\n\n・出撃モードの設定…\n　ロビーメンバーで遊ぶ<GLO=GLS_GAME_WORDS_1813>モードを変更できます\n\n・プレイヤーのキック…\n　ロビーからプレイヤーを退出させることができます\n　この操作はロビー情報から行います"
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>でできること"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "<GLO=GLS_GAME_WORDS_1004>では、以下のことができます\n\n・定形<GLO=GLS_GAME_WORDS_1416>…\n　<img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>で定形<GLO=GLS_GAME_WORDS_1416>を行うことができます\n・UIの非表示…\n　<img id=\"WidgetDispSwitch\"/>でUIの表示/非表示を切り替えることができます"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "・カメラモード切り替え…\n　<img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/>で自由な角度にカメラ移動ができるモードへ\n　切り替えることができます\n\n<GLO=GLS_GAME_WORDS_1813>の開始はロビーホストが行います\nロビーの退出は <img id=\"BattlePause\"/>でメニューを呼び出すことで行うことができます"
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "<GLO=GLS_GAME_WORDS_1007>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "ここでは、<GLO=GLS_GAME_WORDS_1813>などで獲得した<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>を使用して\n<GLO=GLS_GAME_WORDS_2217>や<GLO=GLS_GAME_WORDS_1207>の<GLO=GLS_GAME_WORDS_1202>アイテム\n<GLO=GLS_GAME_WORDS_1003><GLO=GLS_GAME_WORDS_1813>専用アイテムなどを購入することができます\n\n一部のアイテムは条件達成で購入できるようになります"
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_2102>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "<GLO=GLS_GAME_WORDS_2102>は<GLO=GLS_GAME_WORDS_1007>のアイテムを\n<GLO=GLS_NAME_MAP_00>で獲得することができるアイテムです\n\n※解放条件があるアイテムは入っていません\n※すでに入手済、もしくは所持上限を超えてしまうアイテムを獲得した場合は\n<img id=\"Money_0001\"/><GLO=GLS_GAME_WORDS_2103>に変換されます"
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "<GLO=GLS_GAME_WORDS_1202>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "ここでは、キャラクターを観察したり\n各種<GLO=GLS_GAME_WORDS_1202>を行うことができます"
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "<GLO=GLS_GAME_WORDS_1207><GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "<GLO=GLS_GAME_WORDS_1207>を好みに<GLO=GLS_GAME_WORDS_1202>することができます\n\nそれぞれの<GLO=GLS_GAME_WORDS_1202>アイテムは<GLO=GLS_GAME_WORDS_1813>をプレイしたり、\n<GLO=GLS_GAME_WORDS_1007>で購入したりすることで獲得することができます"
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "<GLO=GLS_GAME_WORDS_1416><GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>中の定形<GLO=GLS_GAME_WORDS_1416>を好みに<GLO=GLS_GAME_WORDS_1202>することができます\n\n<GLO=GLS_GAME_WORDS_1202>はキャラクターごとに行うことが可能なので\nプレイスタイルにあった<GLO=GLS_GAME_WORDS_1416>を<GLO=GLS_GAME_WORDS_1202>しましょう"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "VSポーズ/<GLO=GLS_GAME_WORDS_1813>ボイス<GLO=GLS_GAME_WORDS_1202>"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "VSポーズや<GLO=GLS_GAME_WORDS_1813>ボイスを<GLO=GLS_GAME_WORDS_1202>します\n\nそれぞれの<GLO=GLS_GAME_WORDS_1202>アイテムは<GLO=GLS_GAME_WORDS_1813>をプレイしたり、\n<GLO=GLS_GAME_WORDS_1007>で購入したりすることで獲得することができます"
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "<GLO=GLS_GAME_WORDS_1110>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "追加コンテンツ「<GLO=GLS_GAME_WORDS_1110>」モードでは\n新たな<GLO=GLS_UNIQUE_WORDS_0001>達による戦いの記録を追体験することができます\n※プレイするには追加コンテンツの購入が必要です"
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "<GLO=GLS_GAME_WORDS_1429>ロード コンテンツ「<GLO=GLS_GAME_WORDS_1110>」モードでは\n新たな<GLO=GLS_UNIQUE_WORDS_0001>達による戦いの記録を追体験することができます\n※プレイするには<GLO=GLS_GAME_WORDS_1429>ロード コンテンツの購入が必要です"
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "追加コンテンツ「<GLO=GLS_GAME_WORDS_1110>」モードでは\n新たな<GLO=GLS_UNIQUE_WORDS_0001>達による戦いの記録を追体験することができます\n※プレイするには追加コンテンツの購入が必要です"
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "追加コンテンツ「<GLO=GLS_GAME_WORDS_1110>」モードでは\n新たな<GLO=GLS_UNIQUE_WORDS_0001>達による戦いの記録を追体験することができます\n※プレイするには追加コンテンツの購入が必要です"
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "<GLO=GLS_GAME_WORDS_1010>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "プレイするキャラクターとパートナーのキャラクターを選んで\n2vs2の5連戦に挑むことができます\nルートと難易度を選択し、対戦相手に<GLO=GLS_GAME_WORDS_1601>することで\n<GLO=GLS_GAME_WORDS_2103>や<GLO=GLS_GAME_WORDS_2009>を獲得することができます\nノーコンティニューでのクリアや、難易度ハードにも挑戦してみましょう"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "<GLO=GLS_NAME_CN_240>の出現について"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_GAME_WORDS_1801>を繰り返しプレイしていると、３ミッションクリア後に<GLO=GLS_NAME_CN_240>が出現することがあります\n出現確率が高くなると、<GLO=GLS_GAME_WORDS_1831>画面上部に式神が表示され数が増えていきます"
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "<GLO=GLS_GAME_WORDS_1836>について"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "魔虚羅戦では超耐久状態の魔虚羅が出現します\n魔虚羅の強さは「熟練度」の影響を受けません"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "魔虚羅は相手の攻撃に「適応」し無効化する能力があります\n\n魔虚羅に呪力技/呪具技をヒットさせると適応を開始し\n時間経過で「適応ゲージ」が上昇しはじめます\n「適応ゲージ」が最大になるか、魔虚羅を行動不能にすると\nゲージの上昇中に最もダメージを与えた技に適応し、その技を無効化します"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "技が適応されると、技に対応した法陣のアイコンが点灯します\n\n適応後、魔虚羅は技が適応されなかったキャラクターをターゲットします\n連撃技によるダメージは無効化されません"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "魔虚羅は常に超耐久状態になっていますが、\n「適応ゲージ」上昇中に一定以上のダメージを与えることで\n一時的に超耐久状態を解除し、行動不能にすることができます\n行動不能時のみ、覚醒技と共連撃を入れることが可能になります\n領域展開してステージが切り替わる覚醒技のみ、いつでも実行可能です\n共連撃はキャラクター1人につき1回しか入りません"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "キャラクターのLVが25未満の場合は、一時的に25まで上昇します\n魔虚羅とのバトルでは「縛り」を課すことはできません\n装備アイテムの効果は適用されます"
+      }
+    }
+  }
+]

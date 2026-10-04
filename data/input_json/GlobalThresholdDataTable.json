@@ -1,0 +1,537 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GlobalThresholdDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GlobalThreshold'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "STORY_CHARA_RELATE_LV_1": {
+        "ID": "STORY_CHARA_RELATE_LV_1",
+        "Min": 0.0,
+        "Max": 24.0
+      },
+      "STORY_CHARA_RELATE_LV_2": {
+        "ID": "STORY_CHARA_RELATE_LV_2",
+        "Min": 25.0,
+        "Max": 49.0
+      },
+      "STORY_CHARA_RELATE_LV_3": {
+        "ID": "STORY_CHARA_RELATE_LV_3",
+        "Min": 50.0,
+        "Max": 74.0
+      },
+      "STORY_CHARA_RELATE_LV_4": {
+        "ID": "STORY_CHARA_RELATE_LV_4",
+        "Min": 75.0,
+        "Max": 99.0
+      },
+      "STORY_CHARA_RELATE_LV_5": {
+        "ID": "STORY_CHARA_RELATE_LV_5",
+        "Min": 100.0,
+        "Max": 100.0
+      },
+      "RANK_POINT_0_99": {
+        "ID": "RANK_POINT_0_99",
+        "Min": 0.0,
+        "Max": 99.0
+      },
+      "RANK_POINT_100_199": {
+        "ID": "RANK_POINT_100_199",
+        "Min": 100.0,
+        "Max": 199.0
+      },
+      "RANK_POINT_200_299": {
+        "ID": "RANK_POINT_200_299",
+        "Min": 200.0,
+        "Max": 299.0
+      },
+      "RANK_POINT_300_399": {
+        "ID": "RANK_POINT_300_399",
+        "Min": 300.0,
+        "Max": 399.0
+      },
+      "RANK_POINT_400_499": {
+        "ID": "RANK_POINT_400_499",
+        "Min": 400.0,
+        "Max": 499.0
+      },
+      "RANK_POINT_500_599": {
+        "ID": "RANK_POINT_500_599",
+        "Min": 500.0,
+        "Max": 599.0
+      },
+      "RANK_POINT_600_799": {
+        "ID": "RANK_POINT_600_799",
+        "Min": 600.0,
+        "Max": 799.0
+      },
+      "RANK_POINT_800_999": {
+        "ID": "RANK_POINT_800_999",
+        "Min": 800.0,
+        "Max": 999.0
+      },
+      "RANK_POINT_1000_1199": {
+        "ID": "RANK_POINT_1000_1199",
+        "Min": 1000.0,
+        "Max": 1199.0
+      },
+      "RANK_POINT_1200_1399": {
+        "ID": "RANK_POINT_1200_1399",
+        "Min": 1200.0,
+        "Max": 1399.0
+      },
+      "RANK_POINT_1400_1599": {
+        "ID": "RANK_POINT_1400_1599",
+        "Min": 1400.0,
+        "Max": 1599.0
+      },
+      "RANK_POINT_1600_1799": {
+        "ID": "RANK_POINT_1600_1799",
+        "Min": 1600.0,
+        "Max": 1799.0
+      },
+      "RANK_POINT_1800_1999": {
+        "ID": "RANK_POINT_1800_1999",
+        "Min": 1800.0,
+        "Max": 1999.0
+      },
+      "RANK_POINT_2000_2199": {
+        "ID": "RANK_POINT_2000_2199",
+        "Min": 2000.0,
+        "Max": 2199.0
+      },
+      "RANK_POINT_2200_2399": {
+        "ID": "RANK_POINT_2200_2399",
+        "Min": 2200.0,
+        "Max": 2399.0
+      },
+      "RANK_POINT_2400_2599": {
+        "ID": "RANK_POINT_2400_2599",
+        "Min": 2400.0,
+        "Max": 2599.0
+      },
+      "RANK_POINT_2600_2999": {
+        "ID": "RANK_POINT_2600_2999",
+        "Min": 2600.0,
+        "Max": 2999.0
+      },
+      "RANK_POINT_3000_3399": {
+        "ID": "RANK_POINT_3000_3399",
+        "Min": 3000.0,
+        "Max": 3399.0
+      },
+      "RANK_POINT_3400_3799": {
+        "ID": "RANK_POINT_3400_3799",
+        "Min": 3400.0,
+        "Max": 3799.0
+      },
+      "RANK_POINT_3800_4199": {
+        "ID": "RANK_POINT_3800_4199",
+        "Min": 3800.0,
+        "Max": 4199.0
+      },
+      "RANK_POINT_4200_4599": {
+        "ID": "RANK_POINT_4200_4599",
+        "Min": 4200.0,
+        "Max": 4599.0
+      },
+      "RANK_POINT_4600_5199": {
+        "ID": "RANK_POINT_4600_5199",
+        "Min": 4600.0,
+        "Max": 5199.0
+      },
+      "RANK_POINT_5200_5799": {
+        "ID": "RANK_POINT_5200_5799",
+        "Min": 5200.0,
+        "Max": 5799.0
+      },
+      "RANK_POINT_5800_6399": {
+        "ID": "RANK_POINT_5800_6399",
+        "Min": 5800.0,
+        "Max": 6399.0
+      },
+      "RANK_POINT_6400_6999": {
+        "ID": "RANK_POINT_6400_6999",
+        "Min": 6400.0,
+        "Max": 6999.0
+      },
+      "RANK_POINT_7000_7599": {
+        "ID": "RANK_POINT_7000_7599",
+        "Min": 7000.0,
+        "Max": 7599.0
+      },
+      "RANK_POINT_7600_99999": {
+        "ID": "RANK_POINT_7600_99999",
+        "Min": 7600.0,
+        "Max": 99999.0
+      },
+      "PVE_MISSION_A_01": {
+        "ID": "PVE_MISSION_A_01",
+        "Min": 0.0,
+        "Max": 390.0
+      },
+      "PVE_MISSION_A_02": {
+        "ID": "PVE_MISSION_A_02",
+        "Min": 391.0,
+        "Max": 600.0
+      },
+      "PVE_MISSION_A_03": {
+        "ID": "PVE_MISSION_A_03",
+        "Min": 601.0,
+        "Max": 1000.0
+      },
+      "PVE_MISSION_B_01": {
+        "ID": "PVE_MISSION_B_01",
+        "Min": 1001.0,
+        "Max": 1500.0
+      },
+      "PVE_MISSION_B_02": {
+        "ID": "PVE_MISSION_B_02",
+        "Min": 1501.0,
+        "Max": 3200.0
+      },
+      "PVE_MISSION_B_03": {
+        "ID": "PVE_MISSION_B_03",
+        "Min": 3201.0,
+        "Max": 5000.0
+      },
+      "PVE_MISSION_C_01": {
+        "ID": "PVE_MISSION_C_01",
+        "Min": 5001.0,
+        "Max": 6500.0
+      },
+      "PVE_MISSION_C_02": {
+        "ID": "PVE_MISSION_C_02",
+        "Min": 6501.0,
+        "Max": 10000.0
+      },
+      "PVE_MISSION_C_03": {
+        "ID": "PVE_MISSION_C_03",
+        "Min": 10001.0,
+        "Max": 15000.0
+      },
+      "PVE_MISSION_D_01": {
+        "ID": "PVE_MISSION_D_01",
+        "Min": 15001.0,
+        "Max": 17500.0
+      },
+      "PVE_MISSION_D_02": {
+        "ID": "PVE_MISSION_D_02",
+        "Min": 17501.0,
+        "Max": 22000.0
+      },
+      "PVE_MISSION_D_03": {
+        "ID": "PVE_MISSION_D_03",
+        "Min": 22001.0,
+        "Max": 30000.0
+      },
+      "PVE_MISSION_E_01": {
+        "ID": "PVE_MISSION_E_01",
+        "Min": 30001.0,
+        "Max": 35000.0
+      },
+      "PVE_MISSION_E_02": {
+        "ID": "PVE_MISSION_E_02",
+        "Min": 35001.0,
+        "Max": 42000.0
+      },
+      "PVE_MISSION_E_03": {
+        "ID": "PVE_MISSION_E_03",
+        "Min": 42001.0,
+        "Max": 50000.0
+      },
+      "PVE_MISSION_X_0_99999": {
+        "ID": "PVE_MISSION_X_0_99999",
+        "Min": 0.0,
+        "Max": 99999.0
+      },
+      "PVE_EXTRA_MISSION_POINT_01": {
+        "ID": "PVE_EXTRA_MISSION_POINT_01",
+        "Min": 0.0,
+        "Max": 9.0
+      },
+      "PVE_EXTRA_MISSION_POINT_02": {
+        "ID": "PVE_EXTRA_MISSION_POINT_02",
+        "Min": 10.0,
+        "Max": 19.0
+      },
+      "PVE_EXTRA_MISSION_POINT_03": {
+        "ID": "PVE_EXTRA_MISSION_POINT_03",
+        "Min": 20.0,
+        "Max": 29.0
+      },
+      "PVE_EXTRA_MISSION_POINT_04": {
+        "ID": "PVE_EXTRA_MISSION_POINT_04",
+        "Min": 30.0,
+        "Max": 39.0
+      },
+      "PVE_EXTRA_MISSION_POINT_05": {
+        "ID": "PVE_EXTRA_MISSION_POINT_05",
+        "Min": 40.0,
+        "Max": 49.0
+      },
+      "PVE_EXTRA_MISSION_POINT_06": {
+        "ID": "PVE_EXTRA_MISSION_POINT_06",
+        "Min": 50.0,
+        "Max": 59.0
+      },
+      "PVE_EXTRA_MISSION_POINT_07": {
+        "ID": "PVE_EXTRA_MISSION_POINT_07",
+        "Min": 60.0,
+        "Max": 69.0
+      },
+      "PVE_EXTRA_MISSION_POINT_08": {
+        "ID": "PVE_EXTRA_MISSION_POINT_08",
+        "Min": 70.0,
+        "Max": 79.0
+      },
+      "PVE_EXTRA_MISSION_POINT_09": {
+        "ID": "PVE_EXTRA_MISSION_POINT_09",
+        "Min": 80.0,
+        "Max": 89.0
+      },
+      "PVE_EXTRA_MISSION_POINT_10": {
+        "ID": "PVE_EXTRA_MISSION_POINT_10",
+        "Min": 90.0,
+        "Max": 99.0
+      },
+      "PVE_EXTRA_MISSION_POINT_11": {
+        "ID": "PVE_EXTRA_MISSION_POINT_11",
+        "Min": 100.0,
+        "Max": 100.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_01": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_01",
+        "Min": 0.0,
+        "Max": 149.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_02": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_02",
+        "Min": 150.0,
+        "Max": 159.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_03": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_03",
+        "Min": 160.0,
+        "Max": 169.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_04": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_04",
+        "Min": 170.0,
+        "Max": 179.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_05": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_05",
+        "Min": 180.0,
+        "Max": 189.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_06": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_06",
+        "Min": 190.0,
+        "Max": 199.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_TAG_07": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_TAG_07",
+        "Min": 200.0,
+        "Max": 200.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_01": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_01",
+        "Min": 0.0,
+        "Max": 49.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_02": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_02",
+        "Min": 50.0,
+        "Max": 59.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_03": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_03",
+        "Min": 60.0,
+        "Max": 69.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_04": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_04",
+        "Min": 70.0,
+        "Max": 79.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_05": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_05",
+        "Min": 80.0,
+        "Max": 89.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_06": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_06",
+        "Min": 90.0,
+        "Max": 99.0
+      },
+      "PVE_EXTRA_MISSION_LOTTERY_SOLO_07": {
+        "ID": "PVE_EXTRA_MISSION_LOTTERY_SOLO_07",
+        "Min": 100.0,
+        "Max": 100.0
+      },
+      "PVE_AI_LEVEL_01": {
+        "ID": "PVE_AI_LEVEL_01",
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "PVE_AI_LEVEL_02": {
+        "ID": "PVE_AI_LEVEL_02",
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "PVE_AI_LEVEL_03": {
+        "ID": "PVE_AI_LEVEL_03",
+        "Min": 0.0,
+        "Max": 600.0
+      },
+      "PVE_AI_LEVEL_04": {
+        "ID": "PVE_AI_LEVEL_04",
+        "Min": 601.0,
+        "Max": 1500.0
+      },
+      "PVE_AI_LEVEL_05": {
+        "ID": "PVE_AI_LEVEL_05",
+        "Min": 1501.0,
+        "Max": 5000.0
+      },
+      "PVE_AI_LEVEL_06": {
+        "ID": "PVE_AI_LEVEL_06",
+        "Min": 5001.0,
+        "Max": 10000.0
+      },
+      "PVE_AI_LEVEL_07": {
+        "ID": "PVE_AI_LEVEL_07",
+        "Min": 10001.0,
+        "Max": 15000.0
+      },
+      "PVE_AI_LEVEL_08": {
+        "ID": "PVE_AI_LEVEL_08",
+        "Min": 15001.0,
+        "Max": 25000.0
+      },
+      "PVE_AI_LEVEL_09": {
+        "ID": "PVE_AI_LEVEL_09",
+        "Min": 25001.0,
+        "Max": 99999.0
+      },
+      "PVE_AI_LEVEL_10": {
+        "ID": "PVE_AI_LEVEL_10",
+        "Min": -1.0,
+        "Max": -1.0
+      },
+      "PVE_ALLY_PARAMETER_01": {
+        "ID": "PVE_ALLY_PARAMETER_01",
+        "Min": 0.0,
+        "Max": 5000.0
+      },
+      "PVE_ALLY_PARAMETER_02": {
+        "ID": "PVE_ALLY_PARAMETER_02",
+        "Min": 5001.0,
+        "Max": 10000.0
+      },
+      "PVE_ALLY_PARAMETER_03": {
+        "ID": "PVE_ALLY_PARAMETER_03",
+        "Min": 10001.0,
+        "Max": 15000.0
+      },
+      "PVE_ALLY_PARAMETER_04": {
+        "ID": "PVE_ALLY_PARAMETER_04",
+        "Min": 15001.0,
+        "Max": 25000.0
+      },
+      "PVE_ALLY_PARAMETER_05": {
+        "ID": "PVE_ALLY_PARAMETER_05",
+        "Min": 25001.0,
+        "Max": 99999.0
+      },
+      "RESULT_SCORE_C": {
+        "ID": "RESULT_SCORE_C",
+        "Min": 0.0,
+        "Max": 499.0
+      },
+      "RESULT_SCORE_B": {
+        "ID": "RESULT_SCORE_B",
+        "Min": 500.0,
+        "Max": 1099.0
+      },
+      "RESULT_SCORE_A": {
+        "ID": "RESULT_SCORE_A",
+        "Min": 1100.0,
+        "Max": 1699.0
+      },
+      "RESULT_SCORE_S": {
+        "ID": "RESULT_SCORE_S",
+        "Min": 1700.0,
+        "Max": 9999999.0
+      },
+      "RESULT_SCORE_STORY_C": {
+        "ID": "RESULT_SCORE_STORY_C",
+        "Min": 0.0,
+        "Max": 299.0
+      },
+      "RESULT_SCORE_STORY_B": {
+        "ID": "RESULT_SCORE_STORY_B",
+        "Min": 300.0,
+        "Max": 499.0
+      },
+      "RESULT_SCORE_STORY_A": {
+        "ID": "RESULT_SCORE_STORY_A",
+        "Min": 500.0,
+        "Max": 999.0
+      },
+      "RESULT_SCORE_STORY_S": {
+        "ID": "RESULT_SCORE_STORY_S",
+        "Min": 1000.0,
+        "Max": 9999999.0
+      },
+      "RESULT_SCORE_PVE_C": {
+        "ID": "RESULT_SCORE_PVE_C",
+        "Min": 0.0,
+        "Max": 499.0
+      },
+      "RESULT_SCORE_PVE_B": {
+        "ID": "RESULT_SCORE_PVE_B",
+        "Min": 500.0,
+        "Max": 999.0
+      },
+      "RESULT_SCORE_PVE_A": {
+        "ID": "RESULT_SCORE_PVE_A",
+        "Min": 1000.0,
+        "Max": 1499.0
+      },
+      "RESULT_SCORE_PVE_S": {
+        "ID": "RESULT_SCORE_PVE_S",
+        "Min": 1500.0,
+        "Max": 9999999.0
+      },
+      "RESULT_SCORE_ARCADE_C": {
+        "ID": "RESULT_SCORE_ARCADE_C",
+        "Min": 0.0,
+        "Max": 499.0
+      },
+      "RESULT_SCORE_ARCADE_B": {
+        "ID": "RESULT_SCORE_ARCADE_B",
+        "Min": 500.0,
+        "Max": 1099.0
+      },
+      "RESULT_SCORE_ARCADE_A": {
+        "ID": "RESULT_SCORE_ARCADE_A",
+        "Min": 1100.0,
+        "Max": 1699.0
+      },
+      "RESULT_SCORE_ARCADE_S": {
+        "ID": "RESULT_SCORE_ARCADE_S",
+        "Min": 1700.0,
+        "Max": 9999999.0
+      }
+    }
+  }
+]

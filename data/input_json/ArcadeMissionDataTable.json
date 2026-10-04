@@ -1,0 +1,917 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ArcadeMissionDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_ArcadeMission'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "ARCADE_MISSION_A_01": {
+        "ID": "ARCADE_MISSION_A_01",
+        "Id_Map": "MAP_04",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_A_02": {
+        "ID": "ARCADE_MISSION_A_02",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_A_03": {
+        "ID": "ARCADE_MISSION_A_03",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_A_04": {
+        "ID": "ARCADE_MISSION_A_04",
+        "Id_Map": "MAP_03",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_A_05": {
+        "ID": "ARCADE_MISSION_A_05",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_B_01": {
+        "ID": "ARCADE_MISSION_B_01",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_B_02": {
+        "ID": "ARCADE_MISSION_B_02",
+        "Id_Map": "MAP_09",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_B_03": {
+        "ID": "ARCADE_MISSION_B_03",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_B_04": {
+        "ID": "ARCADE_MISSION_B_04",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_B_05": {
+        "ID": "ARCADE_MISSION_B_05",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_C_01": {
+        "ID": "ARCADE_MISSION_C_01",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_C_02": {
+        "ID": "ARCADE_MISSION_C_02",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_C_03": {
+        "ID": "ARCADE_MISSION_C_03",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_C_04": {
+        "ID": "ARCADE_MISSION_C_04",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_C_05": {
+        "ID": "ARCADE_MISSION_C_05",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_D_01": {
+        "ID": "ARCADE_MISSION_D_01",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_D_02": {
+        "ID": "ARCADE_MISSION_D_02",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_D_03": {
+        "ID": "ARCADE_MISSION_D_03",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_D_04": {
+        "ID": "ARCADE_MISSION_D_04",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_D_05": {
+        "ID": "ARCADE_MISSION_D_05",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_E_01": {
+        "ID": "ARCADE_MISSION_E_01",
+        "Id_Map": "MAP_13",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_E_02": {
+        "ID": "ARCADE_MISSION_E_02",
+        "Id_Map": "MAP_10",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_E_03": {
+        "ID": "ARCADE_MISSION_E_03",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_E_04": {
+        "ID": "ARCADE_MISSION_E_04",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_E_05": {
+        "ID": "ARCADE_MISSION_E_05",
+        "Id_Map": "MAP_16",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_F_01": {
+        "ID": "ARCADE_MISSION_F_01",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_01",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_F_02": {
+        "ID": "ARCADE_MISSION_F_02",
+        "Id_Map": "MAP_11",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_02",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_F_03": {
+        "ID": "ARCADE_MISSION_F_03",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_03",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_F_04": {
+        "ID": "ARCADE_MISSION_F_04",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_04",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_F_05": {
+        "ID": "ARCADE_MISSION_F_05",
+        "Id_Map": "MAP_12",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_05",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.3
+      },
+      "ARCADE_MISSION_A_11": {
+        "ID": "ARCADE_MISSION_A_11",
+        "Id_Map": "MAP_04",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_12": {
+        "ID": "ARCADE_MISSION_A_12",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_13": {
+        "ID": "ARCADE_MISSION_A_13",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_14": {
+        "ID": "ARCADE_MISSION_A_14",
+        "Id_Map": "MAP_03",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_15": {
+        "ID": "ARCADE_MISSION_A_15",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_11": {
+        "ID": "ARCADE_MISSION_B_11",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_12": {
+        "ID": "ARCADE_MISSION_B_12",
+        "Id_Map": "MAP_09",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_13": {
+        "ID": "ARCADE_MISSION_B_13",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_14": {
+        "ID": "ARCADE_MISSION_B_14",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_15": {
+        "ID": "ARCADE_MISSION_B_15",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_11": {
+        "ID": "ARCADE_MISSION_C_11",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_12": {
+        "ID": "ARCADE_MISSION_C_12",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_13": {
+        "ID": "ARCADE_MISSION_C_13",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_14": {
+        "ID": "ARCADE_MISSION_C_14",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_15": {
+        "ID": "ARCADE_MISSION_C_15",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_11": {
+        "ID": "ARCADE_MISSION_D_11",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_12": {
+        "ID": "ARCADE_MISSION_D_12",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_13": {
+        "ID": "ARCADE_MISSION_D_13",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_14": {
+        "ID": "ARCADE_MISSION_D_14",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_15": {
+        "ID": "ARCADE_MISSION_D_15",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_11": {
+        "ID": "ARCADE_MISSION_E_11",
+        "Id_Map": "MAP_13",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_12": {
+        "ID": "ARCADE_MISSION_E_12",
+        "Id_Map": "MAP_10",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_13": {
+        "ID": "ARCADE_MISSION_E_13",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_14": {
+        "ID": "ARCADE_MISSION_E_14",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_15": {
+        "ID": "ARCADE_MISSION_E_15",
+        "Id_Map": "MAP_16",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_11": {
+        "ID": "ARCADE_MISSION_F_11",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_11",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_12": {
+        "ID": "ARCADE_MISSION_F_12",
+        "Id_Map": "MAP_11",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_12",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_13": {
+        "ID": "ARCADE_MISSION_F_13",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_13",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_14": {
+        "ID": "ARCADE_MISSION_F_14",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_14",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_15": {
+        "ID": "ARCADE_MISSION_F_15",
+        "Id_Map": "MAP_12",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_15",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_21": {
+        "ID": "ARCADE_MISSION_A_21",
+        "Id_Map": "MAP_04",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_22": {
+        "ID": "ARCADE_MISSION_A_22",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_23": {
+        "ID": "ARCADE_MISSION_A_23",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_24": {
+        "ID": "ARCADE_MISSION_A_24",
+        "Id_Map": "MAP_03",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_A_25": {
+        "ID": "ARCADE_MISSION_A_25",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_A_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_21": {
+        "ID": "ARCADE_MISSION_B_21",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_22": {
+        "ID": "ARCADE_MISSION_B_22",
+        "Id_Map": "MAP_09",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_23": {
+        "ID": "ARCADE_MISSION_B_23",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_24": {
+        "ID": "ARCADE_MISSION_B_24",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_B_25": {
+        "ID": "ARCADE_MISSION_B_25",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_B_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_21": {
+        "ID": "ARCADE_MISSION_C_21",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_22": {
+        "ID": "ARCADE_MISSION_C_22",
+        "Id_Map": "MAP_05",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_23": {
+        "ID": "ARCADE_MISSION_C_23",
+        "Id_Map": "MAP_07",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_24": {
+        "ID": "ARCADE_MISSION_C_24",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_C_25": {
+        "ID": "ARCADE_MISSION_C_25",
+        "Id_Map": "MAP_01",
+        "Id_MissionWave": [
+          "ARCADE_C_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_21": {
+        "ID": "ARCADE_MISSION_D_21",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_22": {
+        "ID": "ARCADE_MISSION_D_22",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_23": {
+        "ID": "ARCADE_MISSION_D_23",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_24": {
+        "ID": "ARCADE_MISSION_D_24",
+        "Id_Map": "MAP_02",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_D_25": {
+        "ID": "ARCADE_MISSION_D_25",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_D_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_21": {
+        "ID": "ARCADE_MISSION_E_21",
+        "Id_Map": "MAP_13",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_22": {
+        "ID": "ARCADE_MISSION_E_22",
+        "Id_Map": "MAP_10",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_23": {
+        "ID": "ARCADE_MISSION_E_23",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_24": {
+        "ID": "ARCADE_MISSION_E_24",
+        "Id_Map": "MAP_15",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_E_25": {
+        "ID": "ARCADE_MISSION_E_25",
+        "Id_Map": "MAP_16",
+        "Id_MissionWave": [
+          "ARCADE_E_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_21": {
+        "ID": "ARCADE_MISSION_F_21",
+        "Id_Map": "MAP_08",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_21",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_22": {
+        "ID": "ARCADE_MISSION_F_22",
+        "Id_Map": "MAP_11",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_22",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_23": {
+        "ID": "ARCADE_MISSION_F_23",
+        "Id_Map": "MAP_06",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_23",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_24": {
+        "ID": "ARCADE_MISSION_F_24",
+        "Id_Map": "MAP_14",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_24",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      },
+      "ARCADE_MISSION_F_25": {
+        "ID": "ARCADE_MISSION_F_25",
+        "Id_Map": "MAP_12",
+        "Id_MissionWave": [
+          "ARCADE_F_WAVE_25",
+          "None",
+          "None"
+        ],
+        "ResultEvaluationScoreRate": 1.0
+      }
+    }
+  }
+]

@@ -1,0 +1,597 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChatDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_Chat'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CHAT_001": {
+        "ID": "CHAT_001",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Greeting_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_002": {
+        "ID": "CHAT_002",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Greeting_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_003": {
+        "ID": "CHAT_003",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Praise_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_004": {
+        "ID": "CHAT_004",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Praise_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_005": {
+        "ID": "CHAT_005",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Follow",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_006": {
+        "ID": "CHAT_006",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Apology",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_007": {
+        "ID": "CHAT_007",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Gratitude_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_008": {
+        "ID": "CHAT_008",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Gratitude_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_009": {
+        "ID": "CHAT_009",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::GoodBye",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_010": {
+        "ID": "CHAT_010",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::ThankYouForYourHardWork",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": true,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_011": {
+        "ID": "CHAT_011",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::RogerThat",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_012": {
+        "ID": "CHAT_012",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::Rejection",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_013": {
+        "ID": "CHAT_013",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::Encouragement",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_014": {
+        "ID": "CHAT_014",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::Pinch",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_015": {
+        "ID": "CHAT_015",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::ComeForward",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_016": {
+        "ID": "CHAT_016",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::ComeForward_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_017": {
+        "ID": "CHAT_017",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::GoDown",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_018": {
+        "ID": "CHAT_018",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::GoDown_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_019": {
+        "ID": "CHAT_019",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::Note",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_020": {
+        "ID": "CHAT_020",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::AimAtTheTarget",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_021": {
+        "ID": "CHAT_021",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::AimForAJointAttack",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_022": {
+        "ID": "CHAT_022",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::AimForAJointAttack_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_023": {
+        "ID": "CHAT_023",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::AimForASuperCursedEnergyAttack",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_024": {
+        "ID": "CHAT_024",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::AimForASuperCursedEnergyAttack_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_025": {
+        "ID": "CHAT_025",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::FightCloseBy",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_026": {
+        "ID": "CHAT_026",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::FightCloseBy_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_027": {
+        "ID": "CHAT_027",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::FightAway",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_028": {
+        "ID": "CHAT_028",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::FightAway_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_029": {
+        "ID": "CHAT_029",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LetMeTakeCareOfThat",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_030": {
+        "ID": "CHAT_030",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LetMeTakeCareOfThat_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_031": {
+        "ID": "CHAT_031",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LetsWorkTogether",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": false,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_032": {
+        "ID": "CHAT_032",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LetsWorkTogether_Out",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_033": {
+        "ID": "CHAT_033",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LevelReport_Low",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_034": {
+        "ID": "CHAT_034",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LevelReport_Medium",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_035": {
+        "ID": "CHAT_035",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LevelReport_High",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_036": {
+        "ID": "CHAT_036",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Provocation_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_037": {
+        "ID": "CHAT_037",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Provocation_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_038": {
+        "ID": "CHAT_038",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Respect_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_039": {
+        "ID": "CHAT_039",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Respect_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_040": {
+        "ID": "CHAT_040",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_1",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_041": {
+        "ID": "CHAT_041",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_2",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_042": {
+        "ID": "CHAT_042",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_3",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_043": {
+        "ID": "CHAT_043",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_4",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_044": {
+        "ID": "CHAT_044",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_5",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_045": {
+        "ID": "CHAT_045",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_6",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_046": {
+        "ID": "CHAT_046",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_7",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_047": {
+        "ID": "CHAT_047",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_8",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_048": {
+        "ID": "CHAT_048",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_9",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_049": {
+        "ID": "CHAT_049",
+        "ChatCategory": "EGameChatCategory::Unique",
+        "ChatLabel": "EGameChatLabel::Unique_10",
+        "bUseBattleEnabled": true,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_050": {
+        "ID": "CHAT_050",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Ready",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_051": {
+        "ID": "CHAT_051",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::UnderstoodOkay",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_052": {
+        "ID": "CHAT_052",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::EndsWith",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": false
+      },
+      "CHAT_053": {
+        "ID": "CHAT_053",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::WaitAMinute",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_054": {
+        "ID": "CHAT_054",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Change",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_055": {
+        "ID": "CHAT_055",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::ItWasAGoodMatch",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_056": {
+        "ID": "CHAT_056",
+        "ChatCategory": "EGameChatCategory::Conversation",
+        "ChatLabel": "EGameChatLabel::Exit",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": false,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_057": {
+        "ID": "CHAT_057",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::LetsAttack",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      },
+      "CHAT_058": {
+        "ID": "CHAT_058",
+        "ChatCategory": "EGameChatCategory::Tactics",
+        "ChatLabel": "EGameChatLabel::FightCarefully",
+        "bUseBattleEnabled": false,
+        "bUseLobbyEnabled": true,
+        "bUseVsEnabled": true,
+        "bUseBattleResultEnabled": false,
+        "bUseBattleIntervalEnabled": true
+      }
+    }
+  }
+]

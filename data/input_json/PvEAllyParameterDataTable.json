@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PvEAllyParameterDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_PvEAllyParameter'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "PVE_ALLY_PARAMETER_01": {
+        "ID": "PVE_ALLY_PARAMETER_01",
+        "Id_GlobalThreshold": "PVE_ALLY_PARAMETER_01",
+        "HitPointMaxRate": 1.0,
+        "CursedEnergyExpAddRate": 1.0,
+        "CursedEnergyRecoverRate": 1.0,
+        "GuardDurabilityMaxRate": 1.0,
+        "DashGaugeMaxRate": 1.0,
+        "DamageRate": 1.0
+      },
+      "PVE_ALLY_PARAMETER_02": {
+        "ID": "PVE_ALLY_PARAMETER_02",
+        "Id_GlobalThreshold": "PVE_ALLY_PARAMETER_02",
+        "HitPointMaxRate": 1.2,
+        "CursedEnergyExpAddRate": 1.0,
+        "CursedEnergyRecoverRate": 1.0,
+        "GuardDurabilityMaxRate": 1.0,
+        "DashGaugeMaxRate": 1.0,
+        "DamageRate": 1.1
+      },
+      "PVE_ALLY_PARAMETER_03": {
+        "ID": "PVE_ALLY_PARAMETER_03",
+        "Id_GlobalThreshold": "PVE_ALLY_PARAMETER_03",
+        "HitPointMaxRate": 1.3,
+        "CursedEnergyExpAddRate": 1.0,
+        "CursedEnergyRecoverRate": 1.0,
+        "GuardDurabilityMaxRate": 1.0,
+        "DashGaugeMaxRate": 1.0,
+        "DamageRate": 1.2
+      },
+      "PVE_ALLY_PARAMETER_04": {
+        "ID": "PVE_ALLY_PARAMETER_04",
+        "Id_GlobalThreshold": "PVE_ALLY_PARAMETER_04",
+        "HitPointMaxRate": 1.4,
+        "CursedEnergyExpAddRate": 1.03,
+        "CursedEnergyRecoverRate": 1.0,
+        "GuardDurabilityMaxRate": 1.0,
+        "DashGaugeMaxRate": 1.0,
+        "DamageRate": 1.4
+      },
+      "PVE_ALLY_PARAMETER_05": {
+        "ID": "PVE_ALLY_PARAMETER_05",
+        "Id_GlobalThreshold": "PVE_ALLY_PARAMETER_05",
+        "HitPointMaxRate": 1.5,
+        "CursedEnergyExpAddRate": 1.05,
+        "CursedEnergyRecoverRate": 1.0,
+        "GuardDurabilityMaxRate": 1.0,
+        "DashGaugeMaxRate": 1.0,
+        "DamageRate": 1.6
+      }
+    }
+  }
+]

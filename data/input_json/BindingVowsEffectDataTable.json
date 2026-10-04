@@ -1,0 +1,2168 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BindingVowsEffectDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_BindingVowsEffect'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "FORCE_GAUGE_MAX_SUB_01": {
+        "ID": "FORCE_GAUGE_MAX_SUB_01",
+        "EffectType": "EGameBindingVowsEffectType::ForceGaugeMax",
+        "EffectValue": [
+          -1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0005"
+      },
+      "FORCE_GAUGE_MAX_ADD_01": {
+        "ID": "FORCE_GAUGE_MAX_ADD_01",
+        "EffectType": "EGameBindingVowsEffectType::ForceGaugeMax",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0042"
+      },
+      "FORCE_GAUGE_BARRIER_01": {
+        "ID": "FORCE_GAUGE_BARRIER_01",
+        "EffectType": "EGameBindingVowsEffectType::ForceGaugeBarrier",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0043"
+      },
+      "COST_01": {
+        "ID": "COST_01",
+        "EffectType": "EGameBindingVowsEffectType::Cost",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0050"
+      },
+      "COST_MAX": {
+        "ID": "COST_MAX",
+        "EffectType": "EGameBindingVowsEffectType::Cost",
+        "EffectValue": [
+          99.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0035"
+      },
+      "HIT_POINT_MAX_SUB_01": {
+        "ID": "HIT_POINT_MAX_SUB_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -20.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_10"
+      },
+      "HIT_POINT_MAX_SUB_02": {
+        "ID": "HIT_POINT_MAX_SUB_02",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -40.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_20"
+      },
+      "HIT_POINT_MAX_SUB_03": {
+        "ID": "HIT_POINT_MAX_SUB_03",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -60.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_30"
+      },
+      "HIT_POINT_MAX_SUB_04": {
+        "ID": "HIT_POINT_MAX_SUB_04",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -80.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_40"
+      },
+      "HIT_POINT_MAX_SUB_05": {
+        "ID": "HIT_POINT_MAX_SUB_05",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -100.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_50"
+      },
+      "HIT_POINT_MAX_SUB_06": {
+        "ID": "HIT_POINT_MAX_SUB_06",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          -150.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0004_60"
+      },
+      "HIT_POINT_MAX_ADD_01": {
+        "ID": "HIT_POINT_MAX_ADD_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          20.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_10"
+      },
+      "HIT_POINT_MAX_ADD_02": {
+        "ID": "HIT_POINT_MAX_ADD_02",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          40.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_20"
+      },
+      "HIT_POINT_MAX_ADD_03": {
+        "ID": "HIT_POINT_MAX_ADD_03",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          60.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_30"
+      },
+      "HIT_POINT_MAX_ADD_04": {
+        "ID": "HIT_POINT_MAX_ADD_04",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          80.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_40"
+      },
+      "HIT_POINT_MAX_ADD_05": {
+        "ID": "HIT_POINT_MAX_ADD_05",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMax",
+        "EffectValue": [
+          100.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0001_50"
+      },
+      "HIT_POINT_MAX_RATE_DECREASE_01": {
+        "ID": "HIT_POINT_MAX_RATE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMaxRate",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0048"
+      },
+      "HIT_POINT_MAX_RATE_INCREASE_ALLY_01": {
+        "ID": "HIT_POINT_MAX_RATE_INCREASE_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointMaxRateAlly",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0037"
+      },
+      "HIT_POINT_WHEN_JUST_GUARD_01": {
+        "ID": "HIT_POINT_WHEN_JUST_GUARD_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.05,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019"
+      },
+      "HIT_POINT_WHEN_JUST_GUARD_02": {
+        "ID": "HIT_POINT_WHEN_JUST_GUARD_02",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.1,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019"
+      },
+      "HIT_POINT_WHEN_JUST_GUARD_03": {
+        "ID": "HIT_POINT_WHEN_JUST_GUARD_03",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.15,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019"
+      },
+      "HIT_POINT_WHEN_JUST_GUARD_04": {
+        "ID": "HIT_POINT_WHEN_JUST_GUARD_04",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenJustGuard",
+        "EffectValue": [
+          0.2,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0019"
+      },
+      "HIT_POINT_WHEN_JUST_GUARD_ALLY_01": {
+        "ID": "HIT_POINT_WHEN_JUST_GUARD_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenJustGuardAlly",
+        "EffectValue": [
+          0.25,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0033"
+      },
+      "HIT_POINT_WHEN_SEND_DAMAGE_01": {
+        "ID": "HIT_POINT_WHEN_SEND_DAMAGE_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenSendDamage",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0035"
+      },
+      "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_01": {
+        "ID": "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenNormalAttackAlly",
+        "EffectValue": [
+          0.1,
+          0.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10"
+      },
+      "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_02": {
+        "ID": "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_02",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenNormalAttackAlly",
+        "EffectValue": [
+          0.15,
+          0.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10"
+      },
+      "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_03": {
+        "ID": "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_03",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenNormalAttackAlly",
+        "EffectValue": [
+          0.2,
+          0.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_10"
+      },
+      "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_04": {
+        "ID": "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_04",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenNormalAttackAlly",
+        "EffectValue": [
+          0.3,
+          0.2
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20"
+      },
+      "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_05": {
+        "ID": "HIT_POINT_WHEN_NORMAL_ATTACK_ALLY_05",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenNormalAttackAlly",
+        "EffectValue": [
+          0.4,
+          0.2
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0018_20"
+      },
+      "HIT_POINT_WHEN_SPECIAL_TAG_COMBO_ALLY_01": {
+        "ID": "HIT_POINT_WHEN_SPECIAL_TAG_COMBO_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWhenSpecialTagComboAlly",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0032"
+      },
+      "HIT_POINT_WITH_TIME_DECREASE_01": {
+        "ID": "HIT_POINT_WITH_TIME_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWithTime",
+        "EffectValue": [
+          -1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0042"
+      },
+      "HIT_POINT_WITH_TIME_ALLY_INCREASE_01": {
+        "ID": "HIT_POINT_WITH_TIME_ALLY_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointWithTimeAlly",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0053_30"
+      },
+      "HIT_POINT_ONCE_ADD_01": {
+        "ID": "HIT_POINT_ONCE_ADD_01",
+        "EffectType": "EGameBindingVowsEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          0.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004"
+      },
+      "HIT_POINT_ONCE_ADD_02": {
+        "ID": "HIT_POINT_ONCE_ADD_02",
+        "EffectType": "EGameBindingVowsEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          0.2
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004"
+      },
+      "HIT_POINT_ONCE_ADD_03": {
+        "ID": "HIT_POINT_ONCE_ADD_03",
+        "EffectType": "EGameBindingVowsEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          0.3
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004"
+      },
+      "HIT_POINT_ONCE_ADD_04": {
+        "ID": "HIT_POINT_ONCE_ADD_04",
+        "EffectType": "EGameBindingVowsEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          0.4
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004"
+      },
+      "HIT_POINT_ONCE_ADD_05": {
+        "ID": "HIT_POINT_ONCE_ADD_05",
+        "EffectType": "EGameBindingVowsEffectType::HitPointOnce",
+        "EffectValue": [
+          0.4,
+          0.5
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0004"
+      },
+      "CURSED_ENERGY_RECOVER_DECREASE_01": {
+        "ID": "CURSED_ENERGY_RECOVER_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_10"
+      },
+      "CURSED_ENERGY_RECOVER_DECREASE_02": {
+        "ID": "CURSED_ENERGY_RECOVER_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_20"
+      },
+      "CURSED_ENERGY_RECOVER_DECREASE_03": {
+        "ID": "CURSED_ENERGY_RECOVER_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_30"
+      },
+      "CURSED_ENERGY_RECOVER_DECREASE_04": {
+        "ID": "CURSED_ENERGY_RECOVER_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_40"
+      },
+      "CURSED_ENERGY_RECOVER_DECREASE_05": {
+        "ID": "CURSED_ENERGY_RECOVER_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0016_50"
+      },
+      "CURSED_ENERGY_RECOVER_INCREASE_01": {
+        "ID": "CURSED_ENERGY_RECOVER_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.1,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_10"
+      },
+      "CURSED_ENERGY_RECOVER_INCREASE_02": {
+        "ID": "CURSED_ENERGY_RECOVER_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_20"
+      },
+      "CURSED_ENERGY_RECOVER_INCREASE_03": {
+        "ID": "CURSED_ENERGY_RECOVER_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.3,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_30"
+      },
+      "CURSED_ENERGY_RECOVER_INCREASE_04": {
+        "ID": "CURSED_ENERGY_RECOVER_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_40"
+      },
+      "CURSED_ENERGY_RECOVER_INCREASE_05": {
+        "ID": "CURSED_ENERGY_RECOVER_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyRecover",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0011_50"
+      },
+      "CURSED_ENERGY_WHEN_DASH_ADD_02": {
+        "ID": "CURSED_ENERGY_WHEN_DASH_ADD_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.1,
+          40.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_20"
+      },
+      "CURSED_ENERGY_WHEN_DASH_ADD_03": {
+        "ID": "CURSED_ENERGY_WHEN_DASH_ADD_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.15,
+          50.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_30"
+      },
+      "CURSED_ENERGY_WHEN_DASH_ADD_04": {
+        "ID": "CURSED_ENERGY_WHEN_DASH_ADD_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.2,
+          60.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_40"
+      },
+      "CURSED_ENERGY_WHEN_DASH_ADD_05": {
+        "ID": "CURSED_ENERGY_WHEN_DASH_ADD_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.3,
+          70.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_50"
+      },
+      "CURSED_ENERGY_WHEN_DASH_ADD_06": {
+        "ID": "CURSED_ENERGY_WHEN_DASH_ADD_06",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyWhenDash",
+        "EffectValue": [
+          0.5,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0023_60"
+      },
+      "CURSED_ENERGY_UNLIMITED": {
+        "ID": "CURSED_ENERGY_UNLIMITED",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyUnlimited",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0025"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_01": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.95,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_10"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_02": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_20"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_03": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.85,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_30"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_04": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_40"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_05": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.75,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_50"
+      },
+      "CURSED_ENERGY_EXP_DECREASE_06": {
+        "ID": "CURSED_ENERGY_EXP_DECREASE_06",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExp",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0009_60"
+      },
+      "CURSED_ENERGY_EXP_ALLY_01": {
+        "ID": "CURSED_ENERGY_EXP_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpAlly",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0041"
+      },
+      "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_02": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.1,
+          50.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020"
+      },
+      "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_03": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.15,
+          50.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020"
+      },
+      "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_04": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.2,
+          50.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020"
+      },
+      "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_05": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_LINK_COMBO_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenLinkCombo",
+        "EffectValue": [
+          0.3,
+          50.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0020"
+      },
+      "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_02": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenKillAlly",
+        "EffectValue": [
+          0.1,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021"
+      },
+      "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_03": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenKillAlly",
+        "EffectValue": [
+          0.15,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021"
+      },
+      "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_04": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenKillAlly",
+        "EffectValue": [
+          0.2,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021"
+      },
+      "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_05": {
+        "ID": "CURSED_ENERGY_EXP_WHEN_KILL_ALLY_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWhenKillAlly",
+        "EffectValue": [
+          0.3,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0021"
+      },
+      "CURSED_ENERGY_EXP_WITH_TIME_01": {
+        "ID": "CURSED_ENERGY_EXP_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWithTime",
+        "EffectValue": [
+          60.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006"
+      },
+      "CURSED_ENERGY_EXP_WITH_TIME_02": {
+        "ID": "CURSED_ENERGY_EXP_WITH_TIME_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWithTime",
+        "EffectValue": [
+          70.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006"
+      },
+      "CURSED_ENERGY_EXP_WITH_TIME_03": {
+        "ID": "CURSED_ENERGY_EXP_WITH_TIME_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWithTime",
+        "EffectValue": [
+          80.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006"
+      },
+      "CURSED_ENERGY_EXP_WITH_TIME_04": {
+        "ID": "CURSED_ENERGY_EXP_WITH_TIME_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWithTime",
+        "EffectValue": [
+          90.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006"
+      },
+      "CURSED_ENERGY_EXP_WITH_TIME_05": {
+        "ID": "CURSED_ENERGY_EXP_WITH_TIME_05",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpWithTime",
+        "EffectValue": [
+          100.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0006"
+      },
+      "CURSED_ENERGY_EXP_RECOVER_WITH_TIME_01": {
+        "ID": "CURSED_ENERGY_EXP_RECOVER_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyExpRecoverWithTime",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0051_30"
+      },
+      "CURSED_ENERGY_LEVEL_UP_COUNT_01": {
+        "ID": "CURSED_ENERGY_LEVEL_UP_COUNT_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelUpCount",
+        "EffectValue": [
+          10.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030"
+      },
+      "CURSED_ENERGY_LEVEL_UP_COUNT_02": {
+        "ID": "CURSED_ENERGY_LEVEL_UP_COUNT_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelUpCount",
+        "EffectValue": [
+          8.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030"
+      },
+      "CURSED_ENERGY_LEVEL_UP_COUNT_03": {
+        "ID": "CURSED_ENERGY_LEVEL_UP_COUNT_03",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelUpCount",
+        "EffectValue": [
+          5.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030"
+      },
+      "CURSED_ENERGY_LEVEL_UP_COUNT_04": {
+        "ID": "CURSED_ENERGY_LEVEL_UP_COUNT_04",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelUpCount",
+        "EffectValue": [
+          3.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0030"
+      },
+      "CURSED_ENERGY_LEVEL_MAX_01": {
+        "ID": "CURSED_ENERGY_LEVEL_MAX_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelMax",
+        "EffectValue": [
+          -1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018"
+      },
+      "CURSED_ENERGY_LEVEL_MAX_02": {
+        "ID": "CURSED_ENERGY_LEVEL_MAX_02",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelMax",
+        "EffectValue": [
+          -2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0018"
+      },
+      "CURSED_ENERGY_LEVEL_FULL_01": {
+        "ID": "CURSED_ENERGY_LEVEL_FULL_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelFull",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0047"
+      },
+      "CURSED_ENERGY_LEVEL_FULL_AND_SEND_ATTACK_DAMAGE_INCREASE_01": {
+        "ID": "CURSED_ENERGY_LEVEL_FULL_AND_SEND_ATTACK_DAMAGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::CursedEnergyLevelFullAndSendAttackDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0050"
+      },
+      "MOVE_SPEED_01": {
+        "ID": "MOVE_SPEED_01",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_10"
+      },
+      "MOVE_SPEED_02": {
+        "ID": "MOVE_SPEED_02",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.85,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_20"
+      },
+      "MOVE_SPEED_03": {
+        "ID": "MOVE_SPEED_03",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_30"
+      },
+      "MOVE_SPEED_04": {
+        "ID": "MOVE_SPEED_04",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.75,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_40"
+      },
+      "MOVE_SPEED_05": {
+        "ID": "MOVE_SPEED_05",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0011_50"
+      },
+      "MOVE_SPEED_06": {
+        "ID": "MOVE_SPEED_06",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeed",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0039"
+      },
+      "MOVE_SPEED_ENEMY_01": {
+        "ID": "MOVE_SPEED_ENEMY_01",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.95,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_10"
+      },
+      "MOVE_SPEED_ENEMY_02": {
+        "ID": "MOVE_SPEED_ENEMY_02",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_20"
+      },
+      "MOVE_SPEED_ENEMY_03": {
+        "ID": "MOVE_SPEED_ENEMY_03",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.85,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_30"
+      },
+      "MOVE_SPEED_ENEMY_04": {
+        "ID": "MOVE_SPEED_ENEMY_04",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_40"
+      },
+      "MOVE_SPEED_ENEMY_05": {
+        "ID": "MOVE_SPEED_ENEMY_05",
+        "EffectType": "EGameBindingVowsEffectType::MoveSpeedEnemy",
+        "EffectValue": [
+          0.75,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0013_50"
+      },
+      "RUN_LIMIT_01": {
+        "ID": "RUN_LIMIT_01",
+        "EffectType": "EGameBindingVowsEffectType::RunLimit",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0046"
+      },
+      "JUMP_COUNT_02": {
+        "ID": "JUMP_COUNT_02",
+        "EffectType": "EGameBindingVowsEffectType::JumpCount",
+        "EffectValue": [
+          8.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028"
+      },
+      "JUMP_COUNT_03": {
+        "ID": "JUMP_COUNT_03",
+        "EffectType": "EGameBindingVowsEffectType::JumpCount",
+        "EffectValue": [
+          5.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028"
+      },
+      "JUMP_COUNT_04": {
+        "ID": "JUMP_COUNT_04",
+        "EffectType": "EGameBindingVowsEffectType::JumpCount",
+        "EffectValue": [
+          3.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028"
+      },
+      "JUMP_COUNT_05": {
+        "ID": "JUMP_COUNT_05",
+        "EffectType": "EGameBindingVowsEffectType::JumpCount",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0028"
+      },
+      "JUMP_COUNT_06": {
+        "ID": "JUMP_COUNT_06",
+        "EffectType": "EGameBindingVowsEffectType::JumpCount",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0029"
+      },
+      "JUMP_POWER_01": {
+        "ID": "JUMP_POWER_01",
+        "EffectType": "EGameBindingVowsEffectType::JumpPower",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_10"
+      },
+      "JUMP_POWER_02": {
+        "ID": "JUMP_POWER_02",
+        "EffectType": "EGameBindingVowsEffectType::JumpPower",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_20"
+      },
+      "JUMP_POWER_03": {
+        "ID": "JUMP_POWER_03",
+        "EffectType": "EGameBindingVowsEffectType::JumpPower",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_30"
+      },
+      "JUMP_POWER_04": {
+        "ID": "JUMP_POWER_04",
+        "EffectType": "EGameBindingVowsEffectType::JumpPower",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_40"
+      },
+      "JUMP_POWER_05": {
+        "ID": "JUMP_POWER_05",
+        "EffectType": "EGameBindingVowsEffectType::JumpPower",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0013_50"
+      },
+      "RUN_JUMP_LIMIT_WITHOUT_HIT_POINT_MAX_01": {
+        "ID": "RUN_JUMP_LIMIT_WITHOUT_HIT_POINT_MAX_01",
+        "EffectType": "EGameBindingVowsEffectType::RunJumpLimitWithoutHitPointMax",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0053"
+      },
+      "DASH_GAUGE_MAX_DECREASE_01": {
+        "ID": "DASH_GAUGE_MAX_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_10"
+      },
+      "DASH_GAUGE_MAX_DECREASE_02": {
+        "ID": "DASH_GAUGE_MAX_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_20"
+      },
+      "DASH_GAUGE_MAX_DECREASE_03": {
+        "ID": "DASH_GAUGE_MAX_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_30"
+      },
+      "DASH_GAUGE_MAX_DECREASE_04": {
+        "ID": "DASH_GAUGE_MAX_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_40"
+      },
+      "DASH_GAUGE_MAX_DECREASE_05": {
+        "ID": "DASH_GAUGE_MAX_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0002_50"
+      },
+      "DASH_GAUGE_MAX_INCREASE_01": {
+        "ID": "DASH_GAUGE_MAX_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_10"
+      },
+      "DASH_GAUGE_MAX_INCREASE_02": {
+        "ID": "DASH_GAUGE_MAX_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_20"
+      },
+      "DASH_GAUGE_MAX_INCREASE_03": {
+        "ID": "DASH_GAUGE_MAX_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_30"
+      },
+      "DASH_GAUGE_MAX_INCREASE_04": {
+        "ID": "DASH_GAUGE_MAX_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_40"
+      },
+      "DASH_GAUGE_MAX_INCREASE_05": {
+        "ID": "DASH_GAUGE_MAX_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeMax",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0002_50"
+      },
+      "DASH_GAUGE_INCREASE_01": {
+        "ID": "DASH_GAUGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeConsume",
+        "EffectValue": [
+          1.1,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_10"
+      },
+      "DASH_GAUGE_INCREASE_02": {
+        "ID": "DASH_GAUGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeConsume",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_20"
+      },
+      "DASH_GAUGE_INCREASE_03": {
+        "ID": "DASH_GAUGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeConsume",
+        "EffectValue": [
+          1.3,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_30"
+      },
+      "DASH_GAUGE_INCREASE_04": {
+        "ID": "DASH_GAUGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeConsume",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_40"
+      },
+      "DASH_GAUGE_INCREASE_05": {
+        "ID": "DASH_GAUGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeConsume",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0012_50"
+      },
+      "DASH_GAUGE_WHEN_JUMP_01": {
+        "ID": "DASH_GAUGE_WHEN_JUMP_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenJump",
+        "EffectValue": [
+          0.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_10"
+      },
+      "DASH_GAUGE_WHEN_JUMP_02": {
+        "ID": "DASH_GAUGE_WHEN_JUMP_02",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenJump",
+        "EffectValue": [
+          0.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_20"
+      },
+      "DASH_GAUGE_WHEN_JUMP_03": {
+        "ID": "DASH_GAUGE_WHEN_JUMP_03",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenJump",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_30"
+      },
+      "DASH_GAUGE_WHEN_JUMP_04": {
+        "ID": "DASH_GAUGE_WHEN_JUMP_04",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenJump",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_40"
+      },
+      "DASH_GAUGE_WHEN_JUMP_05": {
+        "ID": "DASH_GAUGE_WHEN_JUMP_05",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenJump",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0012_50"
+      },
+      "DASH_GAUGE_WHEN_DAMAGE_01": {
+        "ID": "DASH_GAUGE_WHEN_DAMAGE_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeWhenDamage",
+        "EffectValue": [
+          -0.25,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0040_40"
+      },
+      "DASH_GAUGE_UNLIMITED_ALLY_01": {
+        "ID": "DASH_GAUGE_UNLIMITED_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::DashGaugeUnlimitedAlly",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0039"
+      },
+      "STEP_COUNT_01": {
+        "ID": "STEP_COUNT_01",
+        "EffectType": "EGameBindingVowsEffectType::StepCount",
+        "EffectValue": [
+          10.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026"
+      },
+      "STEP_COUNT_02": {
+        "ID": "STEP_COUNT_02",
+        "EffectType": "EGameBindingVowsEffectType::StepCount",
+        "EffectValue": [
+          8.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026"
+      },
+      "STEP_COUNT_03": {
+        "ID": "STEP_COUNT_03",
+        "EffectType": "EGameBindingVowsEffectType::StepCount",
+        "EffectValue": [
+          5.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026"
+      },
+      "STEP_COUNT_04": {
+        "ID": "STEP_COUNT_04",
+        "EffectType": "EGameBindingVowsEffectType::StepCount",
+        "EffectValue": [
+          3.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026"
+      },
+      "STEP_COUNT_05": {
+        "ID": "STEP_COUNT_05",
+        "EffectType": "EGameBindingVowsEffectType::StepCount",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0026"
+      },
+      "STEP_RIGIDITY_01": {
+        "ID": "STEP_RIGIDITY_01",
+        "EffectType": "EGameBindingVowsEffectType::StepRigidity",
+        "EffectValue": [
+          1.1,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_10"
+      },
+      "STEP_RIGIDITY_02": {
+        "ID": "STEP_RIGIDITY_02",
+        "EffectType": "EGameBindingVowsEffectType::StepRigidity",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_20"
+      },
+      "STEP_RIGIDITY_03": {
+        "ID": "STEP_RIGIDITY_03",
+        "EffectType": "EGameBindingVowsEffectType::StepRigidity",
+        "EffectValue": [
+          1.3,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_30"
+      },
+      "STEP_RIGIDITY_04": {
+        "ID": "STEP_RIGIDITY_04",
+        "EffectType": "EGameBindingVowsEffectType::StepRigidity",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_40"
+      },
+      "STEP_RIGIDITY_05": {
+        "ID": "STEP_RIGIDITY_05",
+        "EffectType": "EGameBindingVowsEffectType::StepRigidity",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0014_50"
+      },
+      "GUARD_COUNT_01": {
+        "ID": "GUARD_COUNT_01",
+        "EffectType": "EGameBindingVowsEffectType::GuardCount",
+        "EffectValue": [
+          10.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020"
+      },
+      "GUARD_COUNT_02": {
+        "ID": "GUARD_COUNT_02",
+        "EffectType": "EGameBindingVowsEffectType::GuardCount",
+        "EffectValue": [
+          8.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020"
+      },
+      "GUARD_COUNT_03": {
+        "ID": "GUARD_COUNT_03",
+        "EffectType": "EGameBindingVowsEffectType::GuardCount",
+        "EffectValue": [
+          5.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0020"
+      },
+      "GUARD_DURABILITY_MAX_DECREASE_01": {
+        "ID": "GUARD_DURABILITY_MAX_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_10"
+      },
+      "GUARD_DURABILITY_MAX_DECREASE_02": {
+        "ID": "GUARD_DURABILITY_MAX_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_20"
+      },
+      "GUARD_DURABILITY_MAX_DECREASE_03": {
+        "ID": "GUARD_DURABILITY_MAX_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_30"
+      },
+      "GUARD_DURABILITY_MAX_DECREASE_04": {
+        "ID": "GUARD_DURABILITY_MAX_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_40"
+      },
+      "GUARD_DURABILITY_MAX_DECREASE_05": {
+        "ID": "GUARD_DURABILITY_MAX_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0001_50"
+      },
+      "GUARD_DURABILITY_MAX_INCREASE_01": {
+        "ID": "GUARD_DURABILITY_MAX_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_10"
+      },
+      "GUARD_DURABILITY_MAX_INCREASE_02": {
+        "ID": "GUARD_DURABILITY_MAX_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_20"
+      },
+      "GUARD_DURABILITY_MAX_INCREASE_03": {
+        "ID": "GUARD_DURABILITY_MAX_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_30"
+      },
+      "GUARD_DURABILITY_MAX_INCREASE_04": {
+        "ID": "GUARD_DURABILITY_MAX_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_40"
+      },
+      "GUARD_DURABILITY_MAX_INCREASE_05": {
+        "ID": "GUARD_DURABILITY_MAX_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityMax",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0003_50"
+      },
+      "GUARD_DURABILITY_UNLIMITED_ALLY_01": {
+        "ID": "GUARD_DURABILITY_UNLIMITED_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::GuardDurabilityUnlimitedAlly",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0038"
+      },
+      "GUARD_BREAK_RIGIDITY_01": {
+        "ID": "GUARD_BREAK_RIGIDITY_01",
+        "EffectType": "EGameBindingVowsEffectType::GuardBreakRigidity",
+        "EffectValue": [
+          1.1,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_10"
+      },
+      "GUARD_BREAK_RIGIDITY_02": {
+        "ID": "GUARD_BREAK_RIGIDITY_02",
+        "EffectType": "EGameBindingVowsEffectType::GuardBreakRigidity",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_20"
+      },
+      "GUARD_BREAK_RIGIDITY_03": {
+        "ID": "GUARD_BREAK_RIGIDITY_03",
+        "EffectType": "EGameBindingVowsEffectType::GuardBreakRigidity",
+        "EffectValue": [
+          1.3,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_30"
+      },
+      "GUARD_BREAK_RIGIDITY_04": {
+        "ID": "GUARD_BREAK_RIGIDITY_04",
+        "EffectType": "EGameBindingVowsEffectType::GuardBreakRigidity",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_40"
+      },
+      "GUARD_BREAK_RIGIDITY_05": {
+        "ID": "GUARD_BREAK_RIGIDITY_05",
+        "EffectType": "EGameBindingVowsEffectType::GuardBreakRigidity",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0003_50"
+      },
+      "DASH_STEP_JUMP_LIMIT_01": {
+        "ID": "DASH_STEP_JUMP_LIMIT_01",
+        "EffectType": "EGameBindingVowsEffectType::DashStepJumpLimit",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0057"
+      },
+      "NORMAL_ATTACK_SUPER_ARMOR_01": {
+        "ID": "NORMAL_ATTACK_SUPER_ARMOR_01",
+        "EffectType": "EGameBindingVowsEffectType::NormalAttackSuperArmor",
+        "EffectValue": [
+          0.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0026"
+      },
+      "SPECIAL_TAG_COMBO_COUNT_02": {
+        "ID": "SPECIAL_TAG_COMBO_COUNT_02",
+        "EffectType": "EGameBindingVowsEffectType::SpecialTagComboCount",
+        "EffectValue": [
+          8.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023"
+      },
+      "SPECIAL_TAG_COMBO_COUNT_03": {
+        "ID": "SPECIAL_TAG_COMBO_COUNT_03",
+        "EffectType": "EGameBindingVowsEffectType::SpecialTagComboCount",
+        "EffectValue": [
+          5.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023"
+      },
+      "SPECIAL_TAG_COMBO_COUNT_04": {
+        "ID": "SPECIAL_TAG_COMBO_COUNT_04",
+        "EffectType": "EGameBindingVowsEffectType::SpecialTagComboCount",
+        "EffectValue": [
+          3.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023"
+      },
+      "SPECIAL_TAG_COMBO_COUNT_05": {
+        "ID": "SPECIAL_TAG_COMBO_COUNT_05",
+        "EffectType": "EGameBindingVowsEffectType::SpecialTagComboCount",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0023"
+      },
+      "SEND_ATTACK_DAMAGE_DECREASE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_10"
+      },
+      "SEND_ATTACK_DAMAGE_DECREASE_02": {
+        "ID": "SEND_ATTACK_DAMAGE_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_20"
+      },
+      "SEND_ATTACK_DAMAGE_DECREASE_03": {
+        "ID": "SEND_ATTACK_DAMAGE_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_30"
+      },
+      "SEND_ATTACK_DAMAGE_DECREASE_04": {
+        "ID": "SEND_ATTACK_DAMAGE_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          0.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_40"
+      },
+      "SEND_ATTACK_DAMAGE_DECREASE_05": {
+        "ID": "SEND_ATTACK_DAMAGE_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          0.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0008_50"
+      },
+      "SEND_ATTACK_DAMAGE_INCREASE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_10"
+      },
+      "SEND_ATTACK_DAMAGE_INCREASE_02": {
+        "ID": "SEND_ATTACK_DAMAGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_20"
+      },
+      "SEND_ATTACK_DAMAGE_INCREASE_03": {
+        "ID": "SEND_ATTACK_DAMAGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_30"
+      },
+      "SEND_ATTACK_DAMAGE_INCREASE_04": {
+        "ID": "SEND_ATTACK_DAMAGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_40"
+      },
+      "SEND_ATTACK_DAMAGE_INCREASE_05": {
+        "ID": "SEND_ATTACK_DAMAGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0005_50"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          60.0,
+          0.9
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_10"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_02": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          70.0,
+          0.8
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_20"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_03": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          80.0,
+          0.7
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_30"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_04": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          90.0,
+          0.6
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_40"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_05": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          100.0,
+          0.5
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0007_50"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          60.0,
+          1.4
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_10"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_02": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          70.0,
+          1.6
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_20"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_03": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          80.0,
+          1.8
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_30"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_04": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          90.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_40"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_05": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTime",
+        "EffectValue": [
+          100.0,
+          2.2
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0016_50"
+      },
+      "SEND_ATTACK_DAMAGE_WITH_TIME_HIGHER_DECREASE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_WITH_TIME_HIGHER_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWithTimeHigher",
+        "EffectValue": [
+          60.0,
+          0.5
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0055"
+      },
+      "SEND_ATTACK_DAMAGE_EVERY_WITH_TIME_01": {
+        "ID": "SEND_ATTACK_DAMAGE_EVERY_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+        "EffectValue": [
+          45.0,
+          0.5
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043"
+      },
+      "SEND_ATTACK_DAMAGE_EVERY_WITH_TIME_02": {
+        "ID": "SEND_ATTACK_DAMAGE_EVERY_WITH_TIME_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageEveryWithTime",
+        "EffectValue": [
+          60.0,
+          0.5
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0043"
+      },
+      "SEND_ATTACK_DAMAGE_ALLY_01": {
+        "ID": "SEND_ATTACK_DAMAGE_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageAlly",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0040_60"
+      },
+      "SEND_ATTACK_DAMAGE_WHEN_HIT_POINT_MAX_RATE_ALLY_01": {
+        "ID": "SEND_ATTACK_DAMAGE_WHEN_HIT_POINT_MAX_RATE_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWhenHitPointMaxRateAlly",
+        "EffectValue": [
+          0.5,
+          1.6
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0034_60"
+      },
+      "SEND_ATTACK_DAMAGE_WHEN_KILL_ALLY_01": {
+        "ID": "SEND_ATTACK_DAMAGE_WHEN_KILL_ALLY_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageWhenKillAlly",
+        "EffectValue": [
+          1.5,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0027_60"
+      },
+      "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_01": {
+        "ID": "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageAndCursedEnergyRecoverWithHitPointRate",
+        "EffectValue": [
+          1.0,
+          2.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_50"
+      },
+      "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_02": {
+        "ID": "SEND_ATTACK_DAMAGE_AND_CURSED_ENERGY_RECOVER_WITH_HIT_POINT_RATE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendAttackDamageAndCursedEnergyRecoverWithHitPointRate",
+        "EffectValue": [
+          1.0,
+          3.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0045_60"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_01": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          0.95,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_10"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_02": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          0.9,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_20"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_03": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          0.85,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_30"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_04": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          0.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_40"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_05": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_DECREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          0.7,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0006_50"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_01": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_10"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_02": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_20"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_30"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_04": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_40"
+      },
+      "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05": {
+        "ID": "SEND_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendGuardDurabilityDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0007_50"
+      },
+      "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_02": {
+        "ID": "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_20"
+      },
+      "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03": {
+        "ID": "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_30"
+      },
+      "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_04": {
+        "ID": "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_40"
+      },
+      "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05": {
+        "ID": "SEND_CURSED_ENERGY_ATTACK_GUARD_DURABILITY_DAMAGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendCursedEnergyAttackGuardDurabilityDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0014_50"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_01": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_10"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_02": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_20"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_03": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_30"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_04": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_40"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_05": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0009_50"
+      },
+      "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_06": {
+        "ID": "SEND_SUPER_CURSED_ENERGY_ATTACK_DAMAGE_INCREASE_06",
+        "EffectType": "EGameBindingVowsEffectType::SendSuperCursedEnergyAttackDamage",
+        "EffectValue": [
+          100.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0029"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_01": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          1.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_10"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_02": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          1.4,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_20"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_03": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          1.6,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_30"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_04": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          1.8,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_40"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_05": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_INCREASE_05",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0008_50"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_01": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamageWithProb",
+        "EffectValue": [
+          0.05,
+          1.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_02": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_02",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamageWithProb",
+        "EffectValue": [
+          0.1,
+          1.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_03": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_03",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamageWithProb",
+        "EffectValue": [
+          0.15,
+          1.1
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_10"
+      },
+      "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_04": {
+        "ID": "SEND_SPECIAL_TAG_COMBO_DAMAGE_WITH_PROB_INCREASE_04",
+        "EffectType": "EGameBindingVowsEffectType::SendSpecialTagComboDamageWithProb",
+        "EffectValue": [
+          0.2,
+          1.2
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0024_20"
+      },
+      "RECEIVE_DAMAGE_01": {
+        "ID": "RECEIVE_DAMAGE_01",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamage",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0058"
+      },
+      "RECEIVE_DAMAGE_WHEN_ATTACK_01": {
+        "ID": "RECEIVE_DAMAGE_WHEN_ATTACK_01",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageWhenAttack",
+        "EffectValue": [
+          30.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0049_30"
+      },
+      "RECEIVE_DAMAGE_WHEN_WALL_BOUND_01": {
+        "ID": "RECEIVE_DAMAGE_WHEN_WALL_BOUND_01",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageWhenWallBound",
+        "EffectValue": [
+          30.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0045_30"
+      },
+      "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01": {
+        "ID": "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_01",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.05,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022"
+      },
+      "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_02": {
+        "ID": "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_02",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.1,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022"
+      },
+      "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03": {
+        "ID": "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_03",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.15,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022"
+      },
+      "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_04": {
+        "ID": "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_04",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.2,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022"
+      },
+      "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05": {
+        "ID": "RECEIVE_DAMAGE_ZERO_WHEN_ATTACK_05",
+        "EffectType": "EGameBindingVowsEffectType::ReceiveDamageZeroWhenAttack",
+        "EffectValue": [
+          0.3,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0022"
+      },
+      "DEAD_WAVE_CLEAR_WITH_TIME_01": {
+        "ID": "DEAD_WAVE_CLEAR_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadWaveClearWithTime",
+        "EffectValue": [
+          90.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0032"
+      },
+      "DEAD_CURSED_ENERGY_LEVEL_WITH_TIME_01": {
+        "ID": "DEAD_CURSED_ENERGY_LEVEL_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadCursedEnergyLevelWithTime",
+        "EffectValue": [
+          60.0,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0033"
+      },
+      "DEAD_KILL_WITH_TIME_01": {
+        "ID": "DEAD_KILL_WITH_TIME_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadKillWithTime",
+        "EffectValue": [
+          60.0,
+          1.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0034"
+      },
+      "DEAD_PENALTY_01": {
+        "ID": "DEAD_PENALTY_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadPenalty",
+        "EffectValue": [
+          3.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0036"
+      },
+      "DEAD_RECEIVE_SPECIAL_TAG_COMBO_01": {
+        "ID": "DEAD_RECEIVE_SPECIAL_TAG_COMBO_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadReceiveSpecialTagCombo",
+        "EffectValue": [
+          0.3,
+          100.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0044"
+      },
+      "DEAD_RECEIVE_ATTACK_01": {
+        "ID": "DEAD_RECEIVE_ATTACK_01",
+        "EffectType": "EGameBindingVowsEffectType::DeadReceiveAttack",
+        "EffectValue": [
+          1.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0052"
+      },
+      "EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01": {
+        "ID": "EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::ExperienceWhenMissionClear",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0052"
+      },
+      "MONEY_AND_EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01": {
+        "ID": "MONEY_AND_EXPERIENCE_WHEN_MISSION_CLEAR_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::MoneyAndExperienceWhenMissionClear",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0044"
+      },
+      "MONEY_WHEN_MISSION_CLEAR_INCREASE_01": {
+        "ID": "MONEY_WHEN_MISSION_CLEAR_INCREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::MoneyWhenMissionClear",
+        "EffectValue": [
+          2.0,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_BUFF_MESSAGE_0046"
+      },
+      "GET_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01": {
+        "ID": "GET_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::GetExperienceWhenMissionFailure",
+        "EffectValue": [
+          -0.25,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0059"
+      },
+      "GET_MONEY_AND_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01": {
+        "ID": "GET_MONEY_AND_EXPERIENCE_WHEN_MISSION_FAILURE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::GetMoneyAndExperienceWhenMissionFailure",
+        "EffectValue": [
+          -0.25,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0051"
+      },
+      "GET_MONEY_WHEN_MISSION_FAILURE_DECREASE_01": {
+        "ID": "GET_MONEY_WHEN_MISSION_FAILURE_DECREASE_01",
+        "EffectType": "EGameBindingVowsEffectType::GetMoneyWhenMissionFailure",
+        "EffectValue": [
+          -0.25,
+          0.0
+        ],
+        "Id_BattleText": "BTL_BINDING_VOWS_DEBUFF_MESSAGE_0054"
+      }
+    }
+  }
+]

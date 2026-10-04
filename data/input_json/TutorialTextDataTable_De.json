@@ -1,0 +1,669 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TutorialTextDataTable_De",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TUT_INGAME_TASK_MESSAGE_0001": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0001",
+        "Text": "Bewegen"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0001": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0001",
+        "Text": "<img id=\"MoveUp\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0002": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0002",
+        "Text": "<GLO=GLS_GAME_WORDS_1405>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0002": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0002",
+        "Text": "<img id=\"Dash\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0003": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0003",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0003": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0003",
+        "Text": "<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0004": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0004",
+        "Text": "Sprung (in der Luft)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0004": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0004",
+        "Text": "<img id=\"Jump\"/>+<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0005": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0005",
+        "Text": "Sprintsprung (auf dem Boden)"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0005": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0005",
+        "Text": "<img id=\"Dash\"/>+<img id=\"Jump\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0006": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0006",
+        "Text": "Geh zu Satoru"
+      },
+      "TUT_INGAME_LABEL_0001": {
+        "ID": "TUT_INGAME_LABEL_0001",
+        "Text": "Bewegung"
+      },
+      "TUT_INGAME_MESSAGE_0001": {
+        "ID": "TUT_INGAME_MESSAGE_0001",
+        "Text": "Verwende <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>, um deinen Charakter zu bewegen."
+      },
+      "TUT_INGAME_LABEL_0002": {
+        "ID": "TUT_INGAME_LABEL_0002",
+        "Text": "Sprinten"
+      },
+      "TUT_INGAME_MESSAGE_0002": {
+        "ID": "TUT_INGAME_MESSAGE_0002",
+        "Text": "Du kannst mit <img id=\"Dash\"/> sprinten. Während des Sprintens wird deine Sprintanzeige verbraucht. Sie steigt wieder, wenn du am Boden bist. Wenn du während des Sprints springst, führst du einen Sprintsprung durch, sodass du höher springen kannst als normal."
+      },
+      "TUT_INGAME_LABEL_0003": {
+        "ID": "TUT_INGAME_LABEL_0003",
+        "Text": "Springen"
+      },
+      "TUT_INGAME_MESSAGE_0003": {
+        "ID": "TUT_INGAME_MESSAGE_0003",
+        "Text": "Mit <img id=\"Jump\"/> kannst du springen.\nDrücke erneut <img id=\"Jump\"/>, während des Springens um einen Doppelsprung zu machen."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0007": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0007",
+        "Text": "Angriffshagel"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0007": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0007",
+        "Text": "Verwende mehrmals <img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0008": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0008",
+        "Text": "Aufwärtshaken"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0008": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0008",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0009": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0009",
+        "Text": "Drehkick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0009": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0009",
+        "Text": "<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0010": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0010",
+        "Text": "Abwärtskick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0010": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0010",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_2\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0011": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0011",
+        "Text": "Dropkick"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0011": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0011",
+        "Text": "<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0012": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0012",
+        "Text": "Steinwurf"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0012": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0012",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0013": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0013",
+        "Text": "Fluchkrafttechniken 1"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0013": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0013",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0014": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0014",
+        "Text": "Erhöhe deine Fluchkraftstufe  auf 2 mit Kombo-/Extraktionstechniken."
+      },
+      "TUT_INGAME_LABEL_0004": {
+        "ID": "TUT_INGAME_LABEL_0004",
+        "Text": "Extraktionstechniken"
+      },
+      "TUT_INGAME_MESSAGE_0004": {
+        "ID": "TUT_INGAME_MESSAGE_0004",
+        "Text": "Greife mit <img id=\"NormalAttack_1\"/> an. \nDu kannst auch mit <img id=\"NormalAttack_2\"/> und <img id=\"NormalAttack_3\"/> angreifen. \nVerwende gleichzeitig <img id=\"MoveDown\"/>, um einen anderen Angriff auszuführen."
+      },
+      "TUT_INGAME_LABEL_0005": {
+        "ID": "TUT_INGAME_LABEL_0005",
+        "Text": "Anvisieren"
+      },
+      "TUT_INGAME_MESSAGE_0005": {
+        "ID": "TUT_INGAME_MESSAGE_0005",
+        "Text": "Fokussiere deine Angriffe während des Kampfes auf einen Gegner, damit deine Angriffe automatisch diesen Gegner ins Visier nehmen.\n\nWenn du gegen mehrere Gegner kämpfst, kannst du mit <img id=\"TargetChangeLeft\"/> und <img id=\"TargetChangeRight\"/> zwischen den Gegnern wechseln."
+      },
+      "TUT_INGAME_LABEL_0006": {
+        "ID": "TUT_INGAME_LABEL_0006",
+        "Text": "Fluchkrafttechniken"
+      },
+      "TUT_INGAME_MESSAGE_0006": {
+        "ID": "TUT_INGAME_MESSAGE_0006",
+        "Text": "Du brauchst einen Fluch, um einen Fluch austreiben zu können. \nHier kommen Fluchkrafttechniken ins Spiel.\nDies sind deine grundlegenden Arten, um Gegnern Schaden zuzufügen.\n\n<img id=\"CursedEnergyAttack_1\"/> und <img id=\"CursedEnergyAttack_2\"/> entfalten unterschiedliche Fluchkrafttechniken.\nDu musst die Fluchkraftanzeige mit Fluchkraft füllen, um diese Techniken zu verwenden.\nDie Erholung der Fluchkraftanzeige geschieht im Laufe der Zeit, \nauch während sie verbraucht wird."
+      },
+      "TUT_INGAME_LABEL_0007": {
+        "ID": "TUT_INGAME_LABEL_0007",
+        "Text": "Fluchkraftstufe"
+      },
+      "TUT_INGAME_MESSAGE_0007": {
+        "ID": "TUT_INGAME_MESSAGE_0007",
+        "Text": "Angriffe, die deine Fluchkraft erhöhen, werden Extraktionstechnik genannt. \nTriff einen Gegner mit Extraktionskraft, um deine Fluchkraftanzeige und damit deine Fluchkraftstufe in bestimmten Abständen zu erhöhen. \nWenn deine Stufe steigt, stärkt das deine Fluchkrafttechnik. So verursacht sie bei Gegnern mehr Schaden."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0015": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0015",
+        "Text": "Führe eine erfolgreiche Kombotechnik durch."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0015": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0015",
+        "Text": "Nutze wiederholt <img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0016": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0016",
+        "Text": "Gehe vor drei Angriffen in Deckung."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0016": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0016",
+        "Text": "<img id=\"Guard\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0017": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0017",
+        "Text": "Weiche 10 Sekunden lang Angriffen aus"
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0017": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0017",
+        "Text": "<img id=\"Guard\"/>+<img id=\"MoveLeft\"/> oder <img id=\"MoveRight\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0018": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0018",
+        "Text": "Verringere Satorus Gesundheit auf null."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0018": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0018",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>"
+      },
+      "TUT_INGAME_LABEL_0008": {
+        "ID": "TUT_INGAME_LABEL_0008",
+        "Text": "Kombotechniken"
+      },
+      "TUT_INGAME_MESSAGE_0008": {
+        "ID": "TUT_INGAME_MESSAGE_0008",
+        "Text": "Verwende mehrmals <img id=\"NormalAttack_1\"/>, um Kombotechniken auszulösen, die \nExtraktionstechniken und Fluchkrafttechniken miteinander kombinieren. \nWenn du genug Fluchkraft hast, wenn du eine Kombotechnik ausführst, wird der letzte Treffer eine Fluchkrafttechnik sein."
+      },
+      "TUT_INGAME_LABEL_0009": {
+        "ID": "TUT_INGAME_LABEL_0009",
+        "Text": "Deckung"
+      },
+      "TUT_INGAME_MESSAGE_0009": {
+        "ID": "TUT_INGAME_MESSAGE_0009",
+        "Text": "Verwende <img id=\"Guard\"/> als Deckung gegen Angriffe von Gegnern. \nDer erlittene Schaden wird aufgehoben, solange deine Deckung aktiv ist. \nAllerdings können zu viele Angriffe deine Deckung brechen, sodass es zu einem Deckungsbruch kommt. \nSei vorsichtig, denn dann bist du vollkommen ungeschützt! \n\nWenn die Deckung während eines gegnerischen Angriffs aktiviert ist, kannst du eine Perfekte Deckung ausführen. So kannst du zu einem Gegenangriff übergehen."
+      },
+      "TUT_INGAME_LABEL_0010": {
+        "ID": "TUT_INGAME_LABEL_0010",
+        "Text": "Schritte"
+      },
+      "TUT_INGAME_MESSAGE_0010": {
+        "ID": "TUT_INGAME_MESSAGE_0010",
+        "Text": "Verwende <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> während der Deckung, um einen Schritt zu machen.\nSo bewegst du dich in die Richtung der Eingabe, um gegnerischen Angriffen auszuweichen."
+      },
+      "TUT_INGAME_LABEL_0011": {
+        "ID": "TUT_INGAME_LABEL_0011",
+        "Text": "Exorzismus"
+      },
+      "TUT_INGAME_MESSAGE_0011": {
+        "ID": "TUT_INGAME_MESSAGE_0011",
+        "Text": "Greife Gegner mit Extraktionstechniken an, um deine Fluchkraft zu erhöhen.\nVerwende deine Fluchkrafttechniken, um die gegnerische Gesundheit zu senken, bis du sie besiegen kannst.\n\nDu musst deine Gegner besiegen und die gegnerische Teamanzeige auf null senken, um einen Sieg zu erzielen."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0001": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0001",
+        "Text": "Jetzt geht's weiter mit deinem Spezialtraining."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0002": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0002",
+        "Text": "Ja! Es ist mir eine Ehre!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0003": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0003",
+        "Text": "Warum kommst du denn nicht zu mir?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0004": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0004",
+        "Text": "Du bist schnell!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0005": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0005",
+        "Text": "Versuch als Nächstes, mich zu treffen."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0006": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0006",
+        "Text": "Ich übernehme keine Verantwortung, falls es wehtut."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0007": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0007",
+        "Text": "Wie gesagt, du hast ungeheures Talent für \nden Nahkampf."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0008": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0008",
+        "Text": "Jetzt bin ich dran. Mal sehen, ob du meinem Angriff standhalten kannst."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0009": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0009",
+        "Text": "Wow, nicht schlecht!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0010": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0010",
+        "Text": "Und zuletzt werde ich dir beibringen, wie du deine Fluchkraft kontrollierst!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0011": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0011",
+        "Text": "Lass deine Fluchkraft in deine Kampfkunst einfließen und versuche, mich zu treffen."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0012": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0012",
+        "Text": "Ich weiß schon, wie das geht!"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0013": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0013",
+        "Text": "Dann hau hier hin. Nicht, dass du das nicht schaffen würdest."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0014": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0014",
+        "Text": "Da war eindeutig keine Fluchkraft drin."
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0015": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0015",
+        "Text": "Du lernst wohl in der Praxis am besten, was?"
+      },
+      "TUT_INGAME_CHARACTER_MESSAGE_0016": {
+        "ID": "TUT_INGAME_CHARACTER_MESSAGE_0016",
+        "Text": "Dann greif mich an — kein Zurückhalten."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0101": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0101",
+        "Text": "Gib <GLO=GLS_NAME_CP_010> kooperative Taktikanweisungen."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0101": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0101",
+        "Text": "<img id=\"ChatLeft\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0102": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0102",
+        "Text": "Führe einen erfolgreichen Kooperationsbonus durch."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0103": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0103",
+        "Text": "Erhöhe die Fluchkraftstufe von <GLO=GLS_NAME_CP_040> auf 3."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0104": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0104",
+        "Text": "Führe einen erfolgreichen Teamangriff durch."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0104": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0104",
+        "Text": "<img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>"
+      },
+      "TUT_INGAME_TASK_MESSAGE_0105": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0105",
+        "Text": "Führe eine erfolgreiche Erweckter-Technik durch."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0105": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0105",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0101": {
+        "ID": "TUT_INGAME_LABEL_0101",
+        "Text": "Taktik"
+      },
+      "TUT_INGAME_MESSAGE_0101": {
+        "ID": "TUT_INGAME_MESSAGE_0101",
+        "Text": "Du kannst verbündeten Charakteren während des Kampfes Befehle erteilen, indem du <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/> verwendest. \n\n<img id=\"Chat_0005\"/> Normal: Führt eine ausgewogene Anzahl von Angriffen durch. \n<img id=\"Chat_0006\"/> Aggressiv: Verwendet häufig Extraktionstechniken und Fluchkrafttechniken. \n<img id=\"Chat_0007\"/> Kooperativ: Möchte mit dir zusammenarbeiten. \n<img id=\"Chat_0008\"/> Vorsichtig: Verwendet viele <GLO=GLS_GAME_WORDS_1431>e und häufig <GLO=GLS_GAME_WORDS_1409>, um Schaden zu vermeiden."
+      },
+      "TUT_INGAME_LABEL_0102": {
+        "ID": "TUT_INGAME_LABEL_0102",
+        "Text": "Kooperationsbonus"
+      },
+      "TUT_INGAME_MESSAGE_0102": {
+        "ID": "TUT_INGAME_MESSAGE_0102",
+        "Text": "Löse einen Kooperationsbonus aus, indem du denselben Gegner angreifst wie dein Verbündeter, oder einen Gegner angreifst, der deinen Verbündeten angreift.\nLöse diesen Bonus aus, um eine zusätzliche <GLO=GLS_GAME_WORDS_1505> zu erhalten!"
+      },
+      "TUT_INGAME_LABEL_0103": {
+        "ID": "TUT_INGAME_LABEL_0103",
+        "Text": "Teamangriffe"
+      },
+      "TUT_INGAME_MESSAGE_0103": {
+        "ID": "TUT_INGAME_MESSAGE_0103",
+        "Text": "Entfessle eine Teamangriffstechnik mit <img id=\"MoveDown\"/>+<img id=\"NormalAttack_1\"/>. Gegen \nTeamangriffstechniken hilft keine Deckung und wenn Gegner getroffen werden, geraten sie ins Taumeln. \nWenn ein Verbündeter in diesem Zustand eine Kombotechnik oder mit einer Extraktionstechnik trifft, \nwird zusammen mit diesem Verbündeten ein Teamangriff ausgelöst. \nBei einem Angriff mit Teamangriffstechnik wird die Fluchkraftstufe von dir und deinem Verbündeten erhöht. \nSo kannst du schweren Schaden verursachen."
+      },
+      "TUT_INGAME_LABEL_0104": {
+        "ID": "TUT_INGAME_LABEL_0104",
+        "Text": "Erweckter-Technik"
+      },
+      "TUT_INGAME_MESSAGE_0104": {
+        "ID": "TUT_INGAME_MESSAGE_0104",
+        "Text": "Wenn deine Fluchkraftstufe maximiert ist, erhältst du Zugang zu einer Erweckter-Technik. Aktiviere sie mit <img id=\"Guard\"/> + <img id=\"CursedEnergyAttack_2\"/>. Jeder Charakter ist unterschiedlich: von mächtigen Angriffen bis hin zu Sphärenentfaltungen. Die Erweckter-Technik kann nur ein Mal pro Kampf aktiviert werden."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0201": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0201",
+        "Text": "Maximiere deine aktuelle Fluchkraftstufe."
+      },
+      "TUT_INGAME_TASK_MESSAGE_0202": {
+        "ID": "TUT_INGAME_TASK_MESSAGE_0202",
+        "Text": "Führe eine erfolgreiche Erweckter-Technik durch."
+      },
+      "TUT_INGAME_TASK_COMMAND_LABEL_0202": {
+        "ID": "TUT_INGAME_TASK_COMMAND_LABEL_0202",
+        "Text": "<img id=\"Guard\"/>+<img id=\"CursedEnergyAttack_2\"/>"
+      },
+      "TUT_INGAME_LABEL_0201": {
+        "ID": "TUT_INGAME_LABEL_0201",
+        "Text": "Sphärenentfaltung"
+      },
+      "TUT_INGAME_MESSAGE_0201": {
+        "ID": "TUT_INGAME_MESSAGE_0201",
+        "Text": "Einige Charaktere können die Sphärenentfaltung mit ihrer Erweckter-Technik aktivieren.\n\nBei erfolgreicher Sphärenentfaltung werden sowohl deine Gegner als auch deine Verbündeten in deine Sphäre gezogen. In deiner Sphäre bist du im Vorteil, erhältst verbesserte Fähigkeiten und verursachst mehr Schaden. Deine Gegner leiden dagegen unter negativen Effekten."
+      },
+      "TUT_INGAME_LABEL_0202": {
+        "ID": "TUT_INGAME_LABEL_0202",
+        "Text": "Sphärenentfaltung"
+      },
+      "TUT_INGAME_MESSAGE_0202": {
+        "ID": "TUT_INGAME_MESSAGE_0202",
+        "Text": "Eine Sphärenentfaltung wird beendet, wenn die Zeit abläuft, \nder Nutzer besiegt wurde oder eine andere Sphärenentfaltung die aktuelle ablöst.\n\nBeachte: Einige Charaktere können in einer bestimmten Zeitspanne möglicherweise keine Fluchkrafttechniken verwenden, nachdem ihre Sphärenentfaltung beendet wurde."
+      },
+      "TUT_INGAME_LABEL_0301": {
+        "ID": "TUT_INGAME_LABEL_0301",
+        "Text": "Anpassung"
+      },
+      "TUT_INGAME_MESSAGE_0301": {
+        "ID": "TUT_INGAME_MESSAGE_0301",
+        "Text": "Mahoraga hat die Fähigkeit, sich anzupassen und Angriffe zu annullieren.\nMahoraga passt sich an Fluchkrafttechniken an, die verwendet wurden,\num es zu besiegen, und erleidet keinen Schaden mehr.\nDie entsprechenden Symbole an seinem Rad mit acht Griffen leuchten\nfür jede Technik auf, an die es sich anpasst.\n\nMit der Erweckter-Technik kann Schaden verursacht werden.\nStelle sicher, dass du Mahoraga ein für alle Mal mit der Erweckter-Technik besiegst."
+      },
+      "TUT_OUTGAME_LABEL_0001": {
+        "ID": "TUT_OUTGAME_LABEL_0001",
+        "Text": "Story-Modus"
+      },
+      "TUT_OUTGAME_MESSAGE_0001": {
+        "ID": "TUT_OUTGAME_MESSAGE_0001",
+        "Text": "Erlebe die Geschichte des Animes Jujutsu Kaisen im Story-Modus. \n\n• Match-Aufzeichnungen: \nDurchlebe die Probleme und Sorgen von Jujuzisten aus dem Anime. \n\n• Beziehungsdiagramm: \nHier siehst du die Beziehungen zwischen den einzelnen Charakteren."
+      },
+      "TUT_OUTGAME_LABEL_0101": {
+        "ID": "TUT_OUTGAME_LABEL_0101",
+        "Text": "Match-Aufzeichnungen"
+      },
+      "TUT_OUTGAME_MESSAGE_0101": {
+        "ID": "TUT_OUTGAME_MESSAGE_0101",
+        "Text": "Wähle Missionen aus, um die Geschichte der Reihenfolge nach zu spielen.\n\nBei einigen Missionen gibt es besondere Siegbedingungen oder Wellen.\nUnter <img id=\"PopupMenu_2\"/> findest du alle Details zur Mission."
+      },
+      "TUT_OUTGAME_LABEL_0102": {
+        "ID": "TUT_OUTGAME_LABEL_0102",
+        "Text": "Fortschritt der Beziehungsdiagramme"
+      },
+      "TUT_OUTGAME_MESSAGE_0102": {
+        "ID": "TUT_OUTGAME_MESSAGE_0102",
+        "Text": "Während du Fortschritte in den Match-Aufzeichnungen erzielst, werden Charaktere auf dem Beziehungsdiagramm freigeschaltet und es entstehen Beziehungen.\nEs lohnt sich, ab und zu einen Blick auf das Diagramm zu werfen!\n\nÜber <img id=\"PopupMenu_1\"/> gelangst du ebenfalls zum Beziehungsdiagramm."
+      },
+      "TUT_OUTGAME_LABEL_0201": {
+        "ID": "TUT_OUTGAME_LABEL_0201",
+        "Text": "Beziehungsdiagramm"
+      },
+      "TUT_OUTGAME_MESSAGE_0201": {
+        "ID": "TUT_OUTGAME_MESSAGE_0201",
+        "Text": "Hier siehst du die Beziehungen zwischen Charakteren.\nErhöhe die Beziehungsstärke von Charakteren im Laufe der Match-Aufzeichnungen, um dadurch Belohnungen zu verdienen und freigeschaltete kurze Storys anzusehen."
+      },
+      "TUT_OUTGAME_LABEL_0301": {
+        "ID": "TUT_OUTGAME_LABEL_0301",
+        "Text": "Online-Kampf"
+      },
+      "TUT_OUTGAME_MESSAGE_0301_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_10",
+        "Text": "Stelle eine Verbindung zum Netzwerk her, um online gegen andere Spieler\nzu spielen.\n\n• Schaukampf:\nNimm an Zufallsspielen mit \nanderen Spielern teil.\n• Ranglistenkampf:\nKämpfe gegen Spieler mit ähnlichen Fähigkeiten."
+      },
+      "TUT_OUTGAME_MESSAGE_0301_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0301_20",
+        "Text": "Die Kampfergebnisse und -punkte haben Einfluss auf deinen Spielerrang. \nDu kannst auch Belohnungen für deine Gesamtpunktzahl verdienen. \nSpielerinfo verwenden, um mehr Informationen zu finden."
+      },
+      "TUT_OUTGAME_LABEL_0401": {
+        "ID": "TUT_OUTGAME_LABEL_0401",
+        "Text": "Online-Koop"
+      },
+      "TUT_OUTGAME_MESSAGE_0401_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_10",
+        "Text": "Stelle eine Verbindung zum Netzwerk her, um dich mit anderen Online-Spielern zusammenzutun und in einer Reihe von Kämpfen mit Spezialregeln gegen Gegner anzutreten. \n\n• Rauschkampf: \nArbeite mit anderen Spielern zusammen, um Kämpfe zu gewinnen, die in Wellen kommen und sich in jedem Spiel ändern. \nErledige Aufgaben, besiege Gegner und strebe eine möglichst \nhohe Punktzahl an! \nEs gibt auch Kämpfe mit speziellen Gewinnbedingungen."
+      },
+      "TUT_OUTGAME_MESSAGE_0401_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0401_20",
+        "Text": "• Überlebenskampf: \nEin Modus, in dem du gegen noch stärkere Gegner kämpfen musst als im Rauschkampf. Werde der ultimative Sieger!"
+      },
+      "TUT_OUTGAME_LABEL_0402": {
+        "ID": "TUT_OUTGAME_LABEL_0402",
+        "Text": "Online-Koop"
+      },
+      "TUT_OUTGAME_MESSAGE_0402": {
+        "ID": "TUT_OUTGAME_MESSAGE_0402",
+        "Text": "Spiele zuerst einen Rauschkampf, um zu sehen, wie der Modus funktioniert.\nBeim ersten Spiel handelt es sich um einen Offline-Kampf.\n\nAnschließend kannst du jederzeit \"Alleine spielen\" auswählen, um die Offline-Version zu spielen."
+      },
+      "TUT_OUTGAME_LABEL_0403": {
+        "ID": "TUT_OUTGAME_LABEL_0403",
+        "Text": "Skill-Stufe"
+      },
+      "TUT_OUTGAME_MESSAGE_0403": {
+        "ID": "TUT_OUTGAME_MESSAGE_0403",
+        "Text": "Wenn du Rauschkampf spielst, beeinflusst das deine Skill-Stufe. \nWenn deine Skill-Stufe steigt, verändert das auch zunehmend den Schwierigkeitsgrad von Rauschkampf und die Kampfstruktur. \nKoop-Spieler mit ähnlichen Skill-Stufen werden in Matches einander zugeteilt. \nStelle deine Skill-Stufe ein, wenn der Kampf beginnt um die Schwierigkeit anzupassen. (Wenn du den Kampf mit einer verringerten Skill-Stufe betrittst, wird das Skill-Stufenlimit nicht steigen.)"
+      },
+      "TUT_OUTGAME_LABEL_0404": {
+        "ID": "TUT_OUTGAME_LABEL_0404",
+        "Text": "Ausrüsten/Trainieren"
+      },
+      "TUT_OUTGAME_MESSAGE_0404": {
+        "ID": "TUT_OUTGAME_MESSAGE_0404",
+        "Text": "In Online-Koop kannst du stärker werden, indem du dich mit speziellen Ausrüstungsgegenständen ausstattest oder deine Charaktere trainierst.\nSpiele Rauschkämpfe oder Überlebenskämpfe, um EP zu sammeln und deine Charaktere zu stärken.\n\nStärke deinen Charakter, um aus schwierigeren Kämpfen siegreich hervorzugehen."
+      },
+      "TUT_OUTGAME_LABEL_0501": {
+        "ID": "TUT_OUTGAME_LABEL_0501",
+        "Text": "Ausrüsten"
+      },
+      "TUT_OUTGAME_MESSAGE_0501": {
+        "ID": "TUT_OUTGAME_MESSAGE_0501",
+        "Text": "Ausrüstung, die du im Laden gekauft hast, ist dazu da, um deinen Charakter zu verstärken. Durch das Trainieren deines Charakters, kannst du bis zu drei Gegenstände ausrüsten. Du kannst jedoch nicht mehrere Gegenstände derselben Kategorie ausrüsten. \n\nMan unterscheidet bei Ausrüstung zwischen permanenten Gegenständen, Gegenständen mit einmaliger Nutzung, und mehr. Wenn du Online-Koop spielst, erscheinen möglicherweise neue Gegenstände im Laden."
+      },
+      "TUT_OUTGAME_LABEL_0502": {
+        "ID": "TUT_OUTGAME_LABEL_0502",
+        "Text": "Trainieren"
+      },
+      "TUT_OUTGAME_MESSAGE_0502": {
+        "ID": "TUT_OUTGAME_MESSAGE_0502",
+        "Text": "Nutze die EP, die du im Rauschkampf und Überlebenskampf gewonnen hast, um deine Charaktere auf die nächste Stufe zu bringen.\nDies erhöht ihre Werte und schaltet Ausrüstungsslots frei.\n\nEP werden unabhängig von deinem Charakter geteilt, also teile sie nach Belieben auf."
+      },
+      "TUT_OUTGAME_LABEL_0601": {
+        "ID": "TUT_OUTGAME_LABEL_0601",
+        "Text": "Bindenden Schwur auswählen"
+      },
+      "TUT_OUTGAME_MESSAGE_0601": {
+        "ID": "TUT_OUTGAME_MESSAGE_0601",
+        "Text": "In Online-Koop kannst du Bindenden Schwur auf dich selbst wirken.\nWenn du Bindenden Schwur auf dich selbst wirkst, schränkst du deine Aktionen und Werte ein, aber dafür werden andere Fähigkeiten verbessert.\n\nLöse Missionen mit Bindendem Schwur, um zusätzliche Erholungspunkte zu erhalten."
+      },
+      "TUT_OUTGAME_LABEL_0701": {
+        "ID": "TUT_OUTGAME_LABEL_0701",
+        "Text": "Pause-Aktionen"
+      },
+      "TUT_OUTGAME_MESSAGE_0701": {
+        "ID": "TUT_OUTGAME_MESSAGE_0701",
+        "Text": "Im Pausenmenü kannst du die Teamanzeige und die Gesundheit der Charaktere für die nächste Mission wiederherstellen.\nFür jede Erholung sind Punkte erforderlich.\nJeder Spieler verfügt über seine eigenen Punkte für die Erholung, also nutze sie weise!\n\nDiese Erholungspunkte werden vergeben, wenn du eine Mission abschließt.\nWenn du eine Mission mit Bindenen Schwüren abschließt, erhältst du zusätzliche Punkte."
+      },
+      "TUT_OUTGAME_LABEL_0801": {
+        "ID": "TUT_OUTGAME_LABEL_0801",
+        "Text": "Freier Kampf"
+      },
+      "TUT_OUTGAME_MESSAGE_0801": {
+        "ID": "TUT_OUTGAME_MESSAGE_0801",
+        "Text": "Du kannst deine Charaktere für den Kampf anpassen und Regeln festlegen.\n\n• Charaktereinstellungen:\nDu kannst Charaktere für Verbündete und Gegner auswählen und ihre Stärke festlegen.\n\n• Spielereinstellungen:\nDu kannst besondere Einstellungen anpassen.\n\n• Kampf-Einstellungen:\nLege Regeln für Level, Zeitbeschränkungen, Fluchkraft und mehr fest."
+      },
+      "TUT_OUTGAME_LABEL_0901": {
+        "ID": "TUT_OUTGAME_LABEL_0901",
+        "Text": "Online-Lobby"
+      },
+      "TUT_OUTGAME_MESSAGE_0901_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_10",
+        "Text": "Stelle eine Verbindung zum Netzwerk her, um Online-Lobbys zu erstellen. \nSpiele mit festgelegten Mitgliedern - entweder Freunden oder fremden Spielern. \n\n• Lobby erstellen: \nWerde ein Gastgeber und erstelle eine Lobby. \nVerändere den Spielstil und starte einen Aufruf für neue Spieler, die zu deinem Stil passen. \n\n• Lobbysuche: \nTritt existierenden Lobbys bei. Über die Suche nach Freunden oder IDs kannst du direkt bestimmten Lobbys beitreten."
+      },
+      "TUT_OUTGAME_MESSAGE_0901_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_0901_20",
+        "Text": "• Charakterauswahl: \nWähle einen Charakter aus, den du in Lobbys benutzen kannst. \nDu kannst einen anderen Charakter auswählen, um ihn im Kampf zu benutzen, also tritt mit deinem Lieblingscharakter der Lobby bei!"
+      },
+      "TUT_OUTGAME_LABEL_1001": {
+        "ID": "TUT_OUTGAME_LABEL_1001",
+        "Text": "Aktionen des Lobby-Gastgebers"
+      },
+      "TUT_OUTGAME_MESSAGE_1001_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_10",
+        "Text": "Der Lobby-Gastgeber kann einen Kampf starten, indem er <img id=\"BattlePause\"/> drückt.\nStarte, sobald alle deine Mitglieder bereit sind."
+      },
+      "TUT_OUTGAME_MESSAGE_1001_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1001_20",
+        "Text": "Du kannst auch das Menü mit <img id=\"BattlePause\"/> öffnen, um folgendes zu tun: \n\n• Kampfmodus-Einstellungen: \nStelle den Kampfmodus ein, mit dem Lobbymitglieder spielen können. \n\n• Spieler rausschmeißen:\nWirf einen Spieler aus deiner Lobby raus. \nDu kannst die Anleitung in deinen Lobby-Informationen finden."
+      },
+      "TUT_OUTGAME_LABEL_1002": {
+        "ID": "TUT_OUTGAME_LABEL_1002",
+        "Text": "Über die Online-Lobby"
+      },
+      "TUT_OUTGAME_MESSAGE_1002_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_10",
+        "Text": "In einer Online-Lobby kannst du folgendes tun: \n\n• Voreingestellte Nachrichten: \nVerwende voreingestellte Nachrichten mit <img id=\"ChatUp\"/><img id=\"ChatDown\"/><img id=\"ChatLeft\"/><img id=\"ChatRight\"/>. \n\n• UI anzeigen/verstecken: \nSchalte die UI mit <img id=\"WidgetDispSwitch\"/> an oder aus."
+      },
+      "TUT_OUTGAME_MESSAGE_1002_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1002_20",
+        "Text": "• Kameramodus wechseln: \nWechsle zu einem Modus, in dem du deine Kamera frei mit \n<img id=\"CameraUp\"/><img id=\"CameraDown\"/><img id=\"CameraLeft\"/><img id=\"CameraRight\"/> bewegen kannst. \n\nDer Kampf beginnt nach Entscheidung des Lobby-Gastgebers. \nDu kannst eine Lobby verlassen, indem du das Menü mit <img id=\"BattlePause\"/> öffnest."
+      },
+      "TUT_OUTGAME_LABEL_1101": {
+        "ID": "TUT_OUTGAME_LABEL_1101",
+        "Text": "Shop"
+      },
+      "TUT_OUTGAME_MESSAGE_1101": {
+        "ID": "TUT_OUTGAME_MESSAGE_1101",
+        "Text": "Nachdem du <img id=\"Money_0001\"/> Juju-Punkte in Kämpfen und anderen Modi verdient hast, kannst du sie verwenden, um Outfits, Spielerkarten-Anpassungen, Gegenstände für Online-Koop-Kämpfe und mehr zu kaufen.\n\nEinige Gegenstände sind erst erhältlich, wenn bestimmte Bedingungen erfüllt wurden."
+      },
+      "TUT_OUTGAME_LABEL_1102": {
+        "ID": "TUT_OUTGAME_LABEL_1102",
+        "Text": "Versiegelte Fluchkiste"
+      },
+      "TUT_OUTGAME_MESSAGE_1102": {
+        "ID": "TUT_OUTGAME_MESSAGE_1102",
+        "Text": "Verfluchte Siegelboxen enthalten zufällige Gegenstände aus dem Shop, die keine Freischaltbedingungen haben.\n(Sie enthalten keine Gegenstände mit Freischaltbedingungen.)\nBesitzt du den Gegenstand bereits oder hast zu viele davon, wird er in <img id=\"Money_0001\"/> Juju-Punkte umgewandelt.\n\n"
+      },
+      "TUT_OUTGAME_LABEL_1201": {
+        "ID": "TUT_OUTGAME_LABEL_1201",
+        "Text": "Anpassung"
+      },
+      "TUT_OUTGAME_MESSAGE_1201": {
+        "ID": "TUT_OUTGAME_MESSAGE_1201",
+        "Text": "Du kannst dir die Charaktere ansehen und eine Vielzahl von Anpassungen vornehmen."
+      },
+      "TUT_OUTGAME_LABEL_1202": {
+        "ID": "TUT_OUTGAME_LABEL_1202",
+        "Text": "Spielerkarten-Anpassung"
+      },
+      "TUT_OUTGAME_MESSAGE_1202": {
+        "ID": "TUT_OUTGAME_MESSAGE_1202",
+        "Text": "Du kannst deine Spielerkarten nach Belieben anpassen.\n\nJeder individualisierte Gegenstand kann im Kampf gewonnen werden oder ist im Shop erhältlich."
+      },
+      "TUT_OUTGAME_LABEL_1203": {
+        "ID": "TUT_OUTGAME_LABEL_1203",
+        "Text": "Chat-Anpassung"
+      },
+      "TUT_OUTGAME_MESSAGE_1203": {
+        "ID": "TUT_OUTGAME_MESSAGE_1203",
+        "Text": "Passe voreingestellte Nachrichten an, um sie im Kampf zu verwenden.\n\nDu kannst sie für jeden Charakter anpassen, also wähle Nachrichten aus, die zu deinem Spielstil passen!"
+      },
+      "TUT_OUTGAME_LABEL_1204": {
+        "ID": "TUT_OUTGAME_LABEL_1204",
+        "Text": "Kampfstellung/Kampfstimmen-Anpassung"
+      },
+      "TUT_OUTGAME_MESSAGE_1204": {
+        "ID": "TUT_OUTGAME_MESSAGE_1204",
+        "Text": "Du kannst die Kampfstellungen und benutzerdefinierte Sprachpakete für Charaktere während des Kampfes anpassen.\n\nBenutzerdefinierte Gegenstände können im Kampf erbeutet oder im Shop erworben werden."
+      },
+      "TUT_OUTGAME_LABEL_1301": {
+        "ID": "TUT_OUTGAME_LABEL_1301",
+        "Text": "Sonderstufe-Missionsaufzeichnungen"
+      },
+      "TUT_OUTGAME_MESSAGE_1301": {
+        "ID": "TUT_OUTGAME_MESSAGE_1301",
+        "Text": "Im Modus \"Sonderstufe-Missionsaufzeichnungen\" erlebst du noch nie zuvor gesehene Kämpfe zwischen neuen Jujuzisten.\n*Zum Spielen ist der Kauf des Add-on-Inhalts erforderlich."
+      },
+      "TUT_OUTGAME_MESSAGE_1302": {
+        "ID": "TUT_OUTGAME_MESSAGE_1302",
+        "Text": "Im Modus \"Sonderstufe-Missionsaufzeichnungen\" der Inhalte zum Herunterladen erlebst du noch nie zuvor gesehene Kämpfe zwischen neuen Jujuzisten.\n*Zum Spielen ist der Kauf der Inhalte zum Herunterladen erforderlich."
+      },
+      "TUT_OUTGAME_MESSAGE_1303": {
+        "ID": "TUT_OUTGAME_MESSAGE_1303",
+        "Text": "Im Modus \"Sonderstufe-Missionsaufzeichnungen\" erlebst du noch nie zuvor gesehene Kämpfe zwischen neuen Jujuzisten.\n*Zum Spielen sind herunterladbare Inhalte erforderlich."
+      },
+      "TUT_OUTGAME_MESSAGE_1304": {
+        "ID": "TUT_OUTGAME_MESSAGE_1304",
+        "Text": "Im Modus \"Sonderstufe-Missionsaufzeichnungen\" der Inhalte zum Herunterladen erlebst du noch nie zuvor gesehene Kämpfe zwischen neuen Jujuzisten.\n*Zum Spielen ist der Kauf der Inhalte zum Herunterladen erforderlich."
+      },
+      "TUT_OUTGAME_LABEL_1401": {
+        "ID": "TUT_OUTGAME_LABEL_1401",
+        "Text": "Arcade-Modus"
+      },
+      "TUT_OUTGAME_MESSAGE_1401": {
+        "ID": "TUT_OUTGAME_MESSAGE_1401",
+        "Text": "Tu dich mit einem Spieler deiner Wahl zusammen und teste deine Skills in fünf Zwei-gegen-Zwei-Kämpfen! Wähle einfach eine Route und einen Schwierigkeitsgrad aus und verdiene Juju-Punkte und -Platten, wenn du deine Gegner besiegst!\nLust auf eine Herausforderung? Erhöhe den Schwierigkeitsgrad oder versuche, ohne Game Overs durchzukommen!"
+      },
+      "TUT_OUTGAME_LABEL_1501": {
+        "ID": "TUT_OUTGAME_LABEL_1501",
+        "Text": "<GLO=GLS_NAME_CN_240>-Aussehen"
+      },
+      "TUT_OUTGAME_MESSAGE_1501": {
+        "ID": "TUT_OUTGAME_MESSAGE_1501",
+        "Text": "<GLO=GLS_NAME_CN_240> kann erscheinen, wenn mehrere Rauschkämpfe hintereinander gespielt und 3 Missionen abgeschlossen wurden. Je höher die Chance auf das Erscheinen ist, desto mehr Shikigami werden am oberen Rand des Pausenmenüs angezeigt."
+      },
+      "TUT_OUTGAME_LABEL_1601": {
+        "ID": "TUT_OUTGAME_LABEL_1601",
+        "Text": "Mahoraga-Kampf"
+      },
+      "TUT_OUTGAME_MESSAGE_1601_10": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_10",
+        "Text": "Kämpfe gegen das nahezu unbesiegbare Mahoraga.\nDa es von Skill-Stufen unbeeinflusst ist, ist Mahoraga wahrlich furchteinflößend."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_20": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_20",
+        "Text": "Mahoraga hat die Fähigkeit, sich anzupassen und gegnerische Angriffe zu annullieren.\nDie Anpassungsanzeige von Mahoraga befindet sich unter seiner Gesundheitsanzeige und füllt sich, wenn eine Fluchkrafttechnik oder eine Technik mit Körperkraft trifft.\nIst die Anzeige voll oder Mahoraga bewegungsunfähig, passt es sich an den Angriff an, der beim Aufbau der Anzeige den meisten Schaden verursacht hat, und annulliert im Gegenzug sämtlichen durch diesen Angriff erlittenen Schaden."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_30": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_30",
+        "Text": "Die entsprechenden Symbole an seinem Rad mit acht Griffen leuchten für jede Technik auf, an die es sich anpasst.\nNach der Anpassung visiert Mahoraga einen Charakter an, dem es sich noch nicht angepasst hat.\nSchaden aus Kombotechniken kann nicht annulliert werden."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_40": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_40",
+        "Text": "Mahoraga ist immer unverwundbar, aber wenn es beim Auffüllen der Anpassungsanzeige genug Schaden erleidet, wird dieser Status aufgehoben und es wird bewegungsunfähig.\nNur zu diesem Zeitpunkt können Erweckter-Techniken oder Teamangriffe erfolgreich ausgeübt werden.\nLediglich die Erweckter-Technik \"Sphärenentfaltung\" kann jederzeit verwendet werden, um zu einem anderen Level zu wechseln.\nJeder Charakter kann nur einen Teamangriff landen."
+      },
+      "TUT_OUTGAME_MESSAGE_1601_50": {
+        "ID": "TUT_OUTGAME_MESSAGE_1601_50",
+        "Text": "Charaktere unter Stufe 25 werden vorübergehend auf Stufe 25 befördert.\nBindende Schwüre können im Kampf gegen Mahoraga nicht verwendet werden.\nDie Effekte ausgerüsteter Gegenstände werden angewandt."
+      }
+    }
+  }
+]

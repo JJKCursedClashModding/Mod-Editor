@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ParallelAttackDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_ParallelAttack'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_030_ATTACKF_01_ORDER_01": {
+        "ID": "CP_030_ATTACKF_01_ORDER_01",
+        "CharacterAnimation": "AttackF_01_Order_01",
+        "CharacterAnimation_Lower": "AttackF_01_OrderL_01"
+      },
+      "CP_030_ATTACKF_01_NOTORDER_01": {
+        "ID": "CP_030_ATTACKF_01_NOTORDER_01",
+        "CharacterAnimation": "AttackF_01_NotOrder_01",
+        "CharacterAnimation_Lower": "AttackF_01_NotOrderL_01"
+      },
+      "CP_140_ATTACKC_01_SHOOT_01": {
+        "ID": "CP_140_ATTACKC_01_SHOOT_01",
+        "CharacterAnimation": "AttackC_01_Shoot_01",
+        "CharacterAnimation_Lower": "AttackC_01_ShootL_01"
+      },
+      "CP_160_ATTACKG_01_ORDER_01": {
+        "ID": "CP_160_ATTACKG_01_ORDER_01",
+        "CharacterAnimation": "AttackG_01_Order_01",
+        "CharacterAnimation_Lower": "AttackG_01_OrderL_01"
+      },
+      "CP_240_ATTACKH_01_ORDER_01": {
+        "ID": "CP_240_ATTACKH_01_ORDER_01",
+        "CharacterAnimation": "AttackH_01_Order_01",
+        "CharacterAnimation_Lower": "AttackH_01_OrderL_01"
+      },
+      "CN_230_ATTACKH_01_ORDER_01": {
+        "ID": "CN_230_ATTACKH_01_ORDER_01",
+        "CharacterAnimation": "AttackH_01_Order_01",
+        "CharacterAnimation_Lower": "AttackH_01_OrderL_01"
+      },
+      "CN_230_ATTACKH_02_ORDER_01": {
+        "ID": "CN_230_ATTACKH_02_ORDER_01",
+        "CharacterAnimation": "AttackH_02_Order_01",
+        "CharacterAnimation_Lower": "AttackH_02_OrderL_01"
+      }
+    }
+  }
+]

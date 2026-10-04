@@ -1,0 +1,497 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CameraShakeDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_CameraShake'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "TEST": {
+        "ID": "TEST",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalStumble_N": {
+        "ID": "NormalStumble_N",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 1.2,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 1.2,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalStumble_V": {
+        "ID": "NormalStumble_V",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 1.2,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalStumble_H": {
+        "ID": "NormalStumble_H",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 0.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 1.2,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalBlow_N": {
+        "ID": "NormalBlow_N",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 1.7,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 1.7,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalBlow_V": {
+        "ID": "NormalBlow_V",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 1.7,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "NormalBlow_H": {
+        "ID": "NormalBlow_H",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.1,
+        "RotOscillation_Pitch_Amplitude": 0.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 1.7,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CursedStumble_N": {
+        "ID": "CursedStumble_N",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CursedStumble_V": {
+        "ID": "CursedStumble_V",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CursedStumble_H": {
+        "ID": "CursedStumble_H",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 0.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CursedBlow_N": {
+        "ID": "CursedBlow_N",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CursedBlow_V": {
+        "ID": "CursedBlow_V",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CursedBlow_H": {
+        "ID": "CursedBlow_H",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 0.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "NormalShot": {
+        "ID": "NormalShot",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 1.0,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 1.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CursedShot": {
+        "ID": "CursedShot",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "MultiHit1": {
+        "ID": "MultiHit1",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 0.6,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 0.6,
+        "RotOscillation_Yaw_Frequency": 70.0
+      },
+      "MultiHit2": {
+        "ID": "MultiHit2",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 0.8,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 0.8,
+        "RotOscillation_Yaw_Frequency": 70.0
+      },
+      "MultiHit3": {
+        "ID": "MultiHit3",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 1.0,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 1.0,
+        "RotOscillation_Yaw_Frequency": 70.0
+      },
+      "CP_010_ATTACKE_01_01_3": {
+        "ID": "CP_010_ATTACKE_01_01_3",
+        "OscillationDuration": 0.6,
+        "OscillationBlendInTime": 0.2,
+        "OscillationBlendOutTime": 0.2,
+        "RotOscillation_Pitch_Amplitude": 5.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 5.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_010_ATTACKE_01_02_3": {
+        "ID": "CP_010_ATTACKE_01_02_3",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.4,
+        "RotOscillation_Pitch_Amplitude": 8.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 8.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_010_ATTACKE_02_01_3": {
+        "ID": "CP_010_ATTACKE_02_01_3",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.01,
+        "OscillationBlendOutTime": 0.2,
+        "RotOscillation_Pitch_Amplitude": 5.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 5.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_010_ATTACKE_02_02_3": {
+        "ID": "CP_010_ATTACKE_02_02_3",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.01,
+        "OscillationBlendOutTime": 0.4,
+        "RotOscillation_Pitch_Amplitude": 5.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 8.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_080_ATTACKG_01": {
+        "ID": "CP_080_ATTACKG_01",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.15,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_080_ATTACKG_04_01": {
+        "ID": "CP_080_ATTACKG_04_01",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.15,
+        "RotOscillation_Pitch_Amplitude": 3.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 3.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_080_ATTACKG_04_03": {
+        "ID": "CP_080_ATTACKG_04_03",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.15,
+        "RotOscillation_Pitch_Amplitude": 3.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 3.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_081_ATTACK_01": {
+        "ID": "CP_081_ATTACK_01",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.1,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 0.6,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 0.6,
+        "RotOscillation_Yaw_Frequency": 75.0
+      },
+      "CP_100_ATTACKH": {
+        "ID": "CP_100_ATTACKH",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 10.0,
+        "RotOscillation_Pitch_Frequency": 60.0,
+        "RotOscillation_Yaw_Amplitude": 10.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_140_ATTACKB_01_01": {
+        "ID": "CP_140_ATTACKB_01_01",
+        "OscillationDuration": 1.2,
+        "OscillationBlendInTime": 0.01,
+        "OscillationBlendOutTime": 1.2,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 100.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 100.0
+      },
+      "CP_140_ATTACKD_01_01": {
+        "ID": "CP_140_ATTACKD_01_01",
+        "OscillationDuration": 1.2,
+        "OscillationBlendInTime": 0.01,
+        "OscillationBlendOutTime": 1.2,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 100.0,
+        "RotOscillation_Yaw_Amplitude": 2.0,
+        "RotOscillation_Yaw_Frequency": 100.0
+      },
+      "CP_140_ATTACKE_03_02": {
+        "ID": "CP_140_ATTACKE_03_02",
+        "OscillationDuration": 2.0,
+        "OscillationBlendInTime": 0.01,
+        "OscillationBlendOutTime": 2.0,
+        "RotOscillation_Pitch_Amplitude": 1.5,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 70.0
+      },
+      "CP_040_ATTACKH_02_01_1": {
+        "ID": "CP_040_ATTACKH_02_01_1",
+        "OscillationDuration": 0.5,
+        "OscillationBlendInTime": 0.0,
+        "OscillationBlendOutTime": 0.2,
+        "RotOscillation_Pitch_Amplitude": 0.75,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 75.0
+      },
+      "CP_040_ATTACKH_02_01_2": {
+        "ID": "CP_040_ATTACKH_02_01_2",
+        "OscillationDuration": 0.65,
+        "OscillationBlendInTime": 0.0,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 0.75,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 75.0
+      },
+      "CP_040_ATTACKH_02_01_3": {
+        "ID": "CP_040_ATTACKH_02_01_3",
+        "OscillationDuration": 0.8,
+        "OscillationBlendInTime": 0.0,
+        "OscillationBlendOutTime": 0.5,
+        "RotOscillation_Pitch_Amplitude": 0.75,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 75.0
+      },
+      "CP_070_ATTACKG_01_01_1": {
+        "ID": "CP_070_ATTACKG_01_01_1",
+        "OscillationDuration": 0.2,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_070_ATTACKG_01_01_2": {
+        "ID": "CP_070_ATTACKG_01_01_2",
+        "OscillationDuration": 0.25,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_070_ATTACKG_01_01_3": {
+        "ID": "CP_070_ATTACKG_01_01_3",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.05,
+        "RotOscillation_Pitch_Amplitude": 2.0,
+        "RotOscillation_Pitch_Frequency": 90.0,
+        "RotOscillation_Yaw_Amplitude": 0.0,
+        "RotOscillation_Yaw_Frequency": 60.0
+      },
+      "CP_170_ATTACKG_01": {
+        "ID": "CP_170_ATTACKG_01",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 0.7,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 0.4,
+        "RotOscillation_Yaw_Frequency": 55.0
+      },
+      "CP_170_ATTACKH_02": {
+        "ID": "CP_170_ATTACKH_02",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 1.2,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 0.5,
+        "RotOscillation_Yaw_Frequency": 45.0
+      },
+      "CP_170_ATTACKH_03": {
+        "ID": "CP_170_ATTACKH_03",
+        "OscillationDuration": 0.45,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.35,
+        "RotOscillation_Pitch_Amplitude": 1.2,
+        "RotOscillation_Pitch_Frequency": 70.0,
+        "RotOscillation_Yaw_Amplitude": 0.5,
+        "RotOscillation_Yaw_Frequency": 45.0
+      },
+      "CP_170_ATTACKH_04": {
+        "ID": "CP_170_ATTACKH_04",
+        "OscillationDuration": 0.5,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.35,
+        "RotOscillation_Pitch_Amplitude": 1.2,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 0.5,
+        "RotOscillation_Yaw_Frequency": 50.0
+      },
+      "CP_170_ATTACKE": {
+        "ID": "CP_170_ATTACKE",
+        "OscillationDuration": 0.5,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.4,
+        "RotOscillation_Pitch_Amplitude": 0.7,
+        "RotOscillation_Pitch_Frequency": 50.0,
+        "RotOscillation_Yaw_Amplitude": 0.7,
+        "RotOscillation_Yaw_Frequency": 40.0
+      },
+      "CP_210_ATTACKG_01_01_1": {
+        "ID": "CP_210_ATTACKG_01_01_1",
+        "OscillationDuration": 0.3,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.2,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CP_210_ATTACKG_01_01_2": {
+        "ID": "CP_210_ATTACKG_01_01_2",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.4,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CP_210_ATTACKG_01_01_3": {
+        "ID": "CP_210_ATTACKG_01_01_3",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.35,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.6,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CP_210_ATTACKH_01_01_1": {
+        "ID": "CP_210_ATTACKH_01_01_1",
+        "OscillationDuration": 0.35,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.25,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.2,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CP_210_ATTACKH_01_01_2": {
+        "ID": "CP_210_ATTACKH_01_01_2",
+        "OscillationDuration": 0.4,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.3,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.4,
+        "RotOscillation_Yaw_Frequency": 80.0
+      },
+      "CP_210_ATTACKH_01_01_3": {
+        "ID": "CP_210_ATTACKH_01_01_3",
+        "OscillationDuration": 0.45,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 0.35,
+        "RotOscillation_Pitch_Amplitude": 0.1,
+        "RotOscillation_Pitch_Frequency": 80.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 85.0
+      },
+      "CP_250_ATTACKI_04_02": {
+        "ID": "CP_250_ATTACKI_04_02",
+        "OscillationDuration": 0.9,
+        "OscillationBlendInTime": 0.05,
+        "OscillationBlendOutTime": 1.0,
+        "RotOscillation_Pitch_Amplitude": 0.75,
+        "RotOscillation_Pitch_Frequency": 75.0,
+        "RotOscillation_Yaw_Amplitude": 1.5,
+        "RotOscillation_Yaw_Frequency": 75.0
+      }
+    }
+  }
+]

@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_En",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "A close-range Brawler who demonstrates outstanding physical potential.\nDefeat enemies up-close-and-personal, choosing attacks that suit the situation.\n\n• His Potential, \"High Gear,\" makes it easier to dash as his Cursed Energy Level increases, letting you slip into the enemy's pocket for melee engagements.\n• Catch opponents off-guard with the Cursed Energy Technique Divergent Fist, then chain into Combo Strike for massive damage!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Melee Attack Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of blows.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Spinning Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "A close-range attack that sends a horizontal shockwave forward."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Downward Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "A close-range attack that sends a vertical shockwave forward."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Dropkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "A close-range attack that unleashes a dynamic dropkick.\nDurable state during the attack."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Stone Throw"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "A long-range attack that launches a stone shattered with a kick.\nSlows enemies hit by the attack."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Divergent Fist/Black Flash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Cursed Energy Level 1: Close-range attack that deals two impacts with one blow.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Changes to Black Flash at Cursed Energy Level 3.\nClose-range attack that deals massive damage with a full-force blow.\nThis attack cannot be guarded."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Combo Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "A close-range attack connecting from a series of spinning kicks.\nThe number of attacks changes depending on your Cursed Energy Level.\nCursed Energy Level 2: Five additional blows.\nCursed Energy Level 3: Additional powerful right-handed strike."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Divergent Fist"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a body blow.\nAt maximum focus, four Black Flashes are unleashed for massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "High Gear"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "Activates incrementally as Cursed Energy Level increases.\nDecreases delay before and after a dash.\nDecreases Dash Gauge consumption."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "A Striker with close-range attacks that assail friend and foe alike over a wide area.\nYour powerful attacks send even allies flying, and give you the run of the battlefield.\nAlthough these attacks leave you wide open, they put you in an invulnerable state, so keep an eye out for chances to maneuver and attack!\n\n• His Potential, \"Reverse Cursed Technique,\" grants recovery from damage taken when you counterattack, so stay on the offensive.\n• The Potential \"Intimidation,\" which activates from Cursed Energy Level 3, lets you freeze surrounding foes when you attack.\nStop opponents in their tracks, then chain into a devastating attack!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Mow Down"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "A close-range attack unleashing an intense slash forward.\nInvulnerable state before the attack.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Right Fist"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "A long-range attack that instantly moves toward the enemy to unleash a thrust.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Axe Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "A close-range attack that will guide you to the enemy and slam them into the ground.\nGenerates a shockwave at the enemy's point of impact.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Stamp"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "A close-range attack in which you kick the ground with your foot to generate a shockwave.\nWhen performed in midair, you will come quickly crashing down to the ground.\nInvulnerable state during the attack."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Knock Away"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Move instantly toward the enemy and knock them away with one arm.\nCursed Energy Level 3: Intimidation activates before the attack."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Hammer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Move instantly toward the enemy and strike them from behind.\nCursed Energy Level 3: Intimidation activates before the attack.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Backhand/Dismantle"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Cursed Energy Level 1: Close-range backhand attack.\nCursed Energy Level 2: Changes to Dismantle from Cursed Energy Level 2.\nClose-range attack with a slash that hews the enemy in front of you.\nCursed Energy Level 3: Increases the number of slashes."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Kick/<img id=\"Symbol_0002\"/> Open"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Cursed Energy Level 1: Close-range kick attack.\nCursed Energy Level 2: Changes to \"<img id=\"Symbol_0002\"/>\"\n\"Open\" from Cursed Energy Level 2.\nLong-range attack that readies a flame arrow, unleashing it as a giant vortex.\nCan be held down.\nCursed Energy Level 3: Expands the area of attack, and increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Cleave"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a giant slash.\nExpand your Domain and relentlessly slash the target for massive damage.\nWhen the Domain closes, Cursed Energy Techniques change to martial arts for a certain amount of time."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Reverse Cursed Technique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "Activated at Cursed Energy Level 2 or higher.\nRecovers a portion of the damage you took when you in turn deal damage an enemy."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Intimidation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "Activated at Cursed Energy Level 3.\nWhen you perform certain attacks, those in the surrounding area will be overpowered and unable to act."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "King of Curses"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Become invulnerable during certain attacks."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "A close-range Combo Master that specializes in coordinated strikes with Shikigami.\nUse your Shikigami as the situation warrants, offering utility for attacking or support.\n\n• Summon Nue or Divine Dog: Totality with the Ten Shadows Technique to trigger Shikigami follow-up attacks.\nYou can command your Shikigami to attack on its own, letting you strike at foes while at a distance!\n• His Potential, \"Technique Interpretation,\" lets you counter with Shikigami when attacked. Get ready to attack with impunity!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Double Spinning Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a flurry of kicks.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nTriggers a Shikigami follow-up attack while one is summoned."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Upward Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Flying Double Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of blows.\nDurable state during the jump attack."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Midair Spinning Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nWhen it hits an enemy, it slams them down from midair with a spinning kick.\nTriggers a Shikigami follow-up attack while one is summoned."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Toad: Launch"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Summon a Toad that razes the area in front of it with its tongue.\nWhen it hits an enemy, it launches them straight up into the air.\nThis attack can chain into other moves.\nTriggers a Shikigami follow-up attack while one is summoned."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Toad: Draw In"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Summon a Toad that shoots its tongue out in a straight line.\nWhen it hits an enemy, it draws them in.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Ten Shadows Technique"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Use shadows as a medium to summon a Shikigami partner that acts with you.\nCursed Energy is continuously consumed while a Shikigami is summoned.\nWhen Fushiguro attacks, Shikigami automatically execute follow-up attacks.\nPress <img id=\"CursedEnergyAttack_1\"/> while a Shikigami is summoned to consume Cursed Energy and command it to attack.\nYou can move while giving attack commands.\nPress <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> while a Shikigami is summoned to unsummon it.\nSummoning ends when Fushiguro lacks sufficient Cursed Energy.\nCursed Energy Level 1: Summon Nue with <img id=\"CursedEnergyAttack_1\"/>.\nCursed Energy Level 2: Enable summoning Totality with <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nCursed Energy Level 3: Slows enemies hit by an attack from Nue. Increases damage dealt by Totality."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Shikigami Combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Execute a team attack with your Shikigami.\nCursed Energy Level 2: Increases damage dealt.\nIf activated without a Shikigami currently summoned, you will become able to summon Totality.\nWhen Fushiguro attacks, Shikigami automatically execute follow-up attacks.\nCursed Energy Level 3: Further increases damage dealt.\nWhen activated, Totality circles around the enemy."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Shikigami Combo"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a backward spinning kick.\nSpread a shadow pool that seals enemy movements, then deal massive damage together with your Shikigami.\nWhen the Domain closes, you cannot use Cursed Energy Techniques for a certain amount of time."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Technique Interpretation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "Activated at Cursed Energy Level 3.\nFushiguro can command the Shikigami even while under attack."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "A mid-range Striker who inflicts unique Resonance and Hairpin attacks on foes.\nMarking opponents to apply pressure is the key to take the initiative in any battle.\n\n• Straw Doll Technique: Hairpin can be detonated any time after you drive in the nail, so aim for timing that is difficult to guard.\n• No need to panic even if the enemy closes the gap; you can take them on with a well-placed Straw Doll Technique: Resonance or Extraction Technique.\n\nMarking lets you strike from any distance, so take advantage to keep your opponents guessing!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Nail Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "A long-range attack that launches multiple nails at the enemy.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Launch"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Nail Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "A long-range attack that launches multiple nails at the enemy."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Wide-Range Nail Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "A mid-range attack that launches a wave of nails."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "One-Two Hammer Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash two blows with a hammer."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Big Swing"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "A close-range attack that sweeps your hammer in a wide arc while stepping forward."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\nShoot a nail imbued with Cursed Energy, inflicting Hairpin on any enemy it hits.\nCan be held down.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nActivates Hairpin to deal damage from a distance all at once.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Straw Doll Technique: Resonance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nInflicts the Resonance effect by taking a part of the enemy when attacking directly.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nActivates Resonance to deal damage from a distance.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Nail Combo"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a hit with a nail imbued with Cursed Energy.\nInject Cursed Energy through the nail from a distance, detonating it for massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Prognosis"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Increases the Cursed Energy gained when attacking an enemy with a Hairpin or Resonance effect."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "A Special Grade All-Rounder who dominates the conversation with unusual Cursed Technique and overwhelming martial prowess.\n\n• His Potential, \"Limitless Cursed Technique,\" nullifies any and all attacks.\nUnleash Infinity and let yourself run wild!\n• Use Technique Amplification: Blue to seal the movements of fleeing enemies, and Technique Reversal: Red to prevent encroaching foes from reaching you.\nHollow Purple is a powerful technique that consumes all.\n• Once Domain Expansion: Unlimited Void has activated, Cursed Energy Techniques will change into special variations, making for a perfect opportunity to clinch a win!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Barrage Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of blows.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Knee Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Move instantly toward the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Spinning Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of blows.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Knock Down"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Move instantly toward the enemy and launch them with a kick.\nWhile attacking, additional input can be used for a follow-up slam attack.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Upward Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "A close-range attack that will guide you to the enemy to launch them with a kick.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Spinning Kick Flurry"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Move instantly toward the enemy for a kick combo.\nWhile attacking, repeating the input can be used for a follow-up kick slam."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Technique Amplification: Blue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Draw others in with the enhanced negative power of the Limitless Cursed Technique.\nCan be held down.\nUse <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> to adjust positioning.\nCursed Energy Level 2: Strengthens attraction. Increases damage dealt.\nCursed Energy Level 3: Further strengthens attraction. Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Cursed Technique Reversal: Red"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Pour positive energy into the Limitless Cursed Technique, creating the power to repel.\nCan be held down.\nCursed Energy Level 2: Shortens charging time. Increases damage dealt.\nCursed Energy Level 3: Further shortens charging time. Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Hollow Purple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Cursed Energy Level 3:\nClash the amplification and reversal infinites together to launch a giant piece of imaginary matter.\nMoves in a straight line, swallowing up enemies in its path.\nCan be held down."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Midair Combo"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Stay in place and expand a Domain that draws others into Limitless.\nOpponents are filled with infinite information and become unable to move for a certain amount of time.\nWhen the Domain closes, Cursed Energy Techniques temporarily become martial arts attacks."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Six Eyes"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Always activated.\nKeeps track of the opponent's Cursed Energy Gauge."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Limitless Cursed Technique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Can be activated by consuming the Cursed Energy gauge by guarding for a period of time when Cursed Energy Level is 2 or higher.\nInfinity appears around you, and a select number of attacks will not hit you."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Levitation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Levitate by holding down jump."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "A speedy Combo Master with nimble movements on top of impressive combo strings.\nMaki uses physical strength in lieu of Cursed Energy to unleash fearsome moves.\n\n• Her Potential, \"Strike Gauge,\" boosts her movement speed as she lands attacks.\nShow no quarter, and press the offensive before the enemy knows what's hit them!\n• Evade enemy attacks with \"Block and Counter\".\nYou can also cancel your own attacks to chain into other moves!\nWhip out original combos to overwhelm your foes!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Sword Frenzy"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "A close-range attack that will guide you to the enemy to slash with a long sword.\nWhile attacking, repeating the input can be used to chain into a Cursed Tool Technique."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a kick.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Sword Combo: Cleave"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a fast three-hit combo of slashes and kicks."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Sword Combo: Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "A close-range attack that will guide you to the enemy to swing down your long sword.\nWhile attacking, repeating the input can be used for a follow-up launching kick."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Concealed Weapon Throw"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "A long-range attack that throws concealed weapons."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Thrust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them with your long sword.\nWhile attacking, repeating the input can be used for a follow-up ground stab."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Block and Counter"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Evade enemy attacks with a dodge action.\nUse this while attacking to cancel your action.\nActivates automatically if you are standing still or dashing.\n<img id=\"CursedEnergyAttack_1\"/>\nDodge on the spot.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/>, or <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nstep dodge in the input direction.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>\nSomersault forward.\nPhysical Strength Level 2: Shortens time taken to move.\nPhysical Strength Level 3: Further shortens time taken to move."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Sword Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Twirl around your long sword, unleashing a sword dance.\nPhysical Strength Level 2: Increases the number of attacks.\nPhysical Strength Level 3: Further increases the number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Midair Triple Attack"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a long sword stab.\nLand countless blows with the Special Grade Cursed Tool Playful Cloud, inflicting massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Heavenly Pact: Physically Gifted"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "Has no Cursed Energy, but possesses exceptional physical abilities."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Has a special gauge that builds up by hitting the enemy.\nWhen the Strike Gauge goes up, attack speed, movement speed, and step travel distance increase.\nThe gauge decreases after a certain amount of time."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "A special Striker who mixes light martial arts with powerful Cursed Speech to toy with foes.\nUse Cursed Speech to apply constant pressure to the enemy's defenses.\n\n• Cursed Speech attacks are powerful, but use them too much and you'll be the one taking damage.\n• If your throat condition worsens, recovery is available with a drink of cough syrup.\n• \"Don't Move\" and \"Get Twisted\" are powerful Cursed Energy Techniques that activate as counters. \n• The amount of Throat Gauge consumed through Cursed Speech differs depending on the gap in level between you and the enemy. Watch your foe, and unleash a devastating counterattack when the time is right!\nKeep a close eye on your Cursed Energy Level gap before making your moves!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Combo Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "A close-range attack that will guide you to the enemy to deal a myriad of blows.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Tornado Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a spinning kick.\nThis attack cannot be blocked with a guard. Triggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Somersault Axe Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "A close-range attack that unleashes a series of axe kicks while falling."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Dose of Cough Syrup"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Gulp down cough syrup for throat durability recovery.\nYou can move during this action. Cannot dash."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Frenzy/\"Blast Away\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Close-range attack that guide you to the enemy to unleash a relentless combo attack from a dropkick.\nThis attack can chain into \"Blast Away.\"\n\"Blast Away\"\nMid-range attack that uses speech imbued with Cursed Energy to send foes in front flying."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "\"Stop\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "A mid-range attack that uses speech imbued with Cursed Energy to stop foes in their tracks."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "\"Fall\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "A mid-range attack that uses speech imbued with Cursed Energy to drop foes in front straight down.\nCursed Energy Level 2: Increases damage.\nCursed Energy Level 3: Further increases damage."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "\"Don't Move\"; \"Get Twisted\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Take a defensive stance, then unleash Cursed Speech when attacked by an enemy.\nSay \"Don't Move\" to stop the enemy, then \"Get Twisted\" to deal damage.\nCursed Energy Level 2: Increases damage.\nCursed Energy Level 3: Further increases damage."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "\"Explode\""
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a knee strike.\nUse \"Stop\" to seal movement, then deal massive damage with \"Get Crushed.\""
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Cursed Speaker"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "Using Cursed Speech consumes a special Throat Gauge.\nThroat Gauge consumption varies depending on the difference in Cursed Energy Level between yourself and the person affected by the Cursed Speech.\nWhen the Throat Gauge is low, activation delay increases and you take self-inflicted damage."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "With this dual-form, close-range Fighter, you can float like a panda, and sting like a...gorilla? \nPanda has moves that put him in a durable state, preventing flinching and attack interruption, so make good use of them!\n\n• In Gorilla Mode, you are always in a durable state and move faster.\nLight attacks won't faze you, so feel free to go ape on your foes!\n• Damage from the Drumming Beat is anything but blockable!\nPour on the pain, even against guarding enemies!"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080> One-Two"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a barrage of sharp punches.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080> Swing"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080> Triple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "A close-range attack that unleashes a three-hit combo while stepping forward."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080> Crush"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "A close-range attack bringing both hands down while falling.\nSlams the opponent into the ground before sending them flying with the subsequent shockwave."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "<GLO=GLS_NAME_CP_080> Hip/ <GLO=GLS_NAME_CP_081> Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "A close-range attack employing a panda's posterior.\nDurable state during the attack.\nGorilla Mode: A close-range attack in which you rush while swinging both arms up to send the enemy flying."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080> Tackle"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "A close-range attack that unleashes a dynamic forward tackle.\nDurable state during the attack."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080> Rush"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Land countless high-speed blows before sending the enemy flying at full force.\nCursed Energy Level 2: Increases the number of attacks.\nCursed Energy Level 3: Further increases the number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " <GLO=GLS_NAME_CP_081> Mode"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Can be used at any level when Cursed Energy is at maximum.\nSwap cores to change to Gorilla Mode, becoming completely resistant to flinching and able to deal damage with all attacks.\n\"Drumming Beat\" activates when in Gorilla Mode.\nCursed Energy is continuously consumed, reverting you back to Panda Mode when it runs out."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": " <GLO=GLS_NAME_CP_081> Smash"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing an uppercut.\nAfter landing a series of blows in Gorilla Mode, throw as hard as you can to deal massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Big Sis Stand-In"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "When on the brink of defeat, revives once only with reduced health ."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Drumming Beat"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Attacks in <GLO=GLS_NAME_CP_081> Mode can cause damage even if enemy is using guard.\nThis damage cannot be used for a finishing blow."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "This Grade 1 Sorcerer wields technical Cursed Techniques to devastating effect.\nWith the correct timing, additional input will trigger a Ratio Technique during certain moves for critical hits!\nKeep a cool head, suss out your foe, and aim for a full-powered strike!\n\n• Be it your with your dexterous Ratio Technique or high-damage Four-Part Melee Combo, make use of your Cursed Energy Techniques as the situation warrants.\n• His Potential, \"Cursed Energy Release,\" activates when time's almost run out, giving him a sizeable power-up.\nThis ex-salaryman has no time for overtime!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "One-Two Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "A close-range attack that will guide you to the enemy to slash twice with a machete.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "A close-range attack that will guide you to the enemy to thrust a machete into them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Swing Up"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "A close-range attack that will guide you to the enemy to widely swing your machete upward.\nRepeating the input at the right time will result in in a critical hit."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Kick Away"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "A close-range attack with a spinning kick."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Shatter"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "A close-range attack that will guide you to the enemy to swing your machete downward with all your might.\nRepeating the input at the right time will result in a critical hit."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Shockwave Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "A close-range attack in which you strike the ground with your fist and generate a shockwave.\nWhen performed midair, you will come quickly crashing down to the ground."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "A close-range attack that uses the 7:3 ratio point as a weak spot to deal massive damage.\nCan be held down.\nRepeating the input at the right time will result in a critical hit.\nCursed Energy 2: Increases damage dealt.\nCursed Energy 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Four-Part Melee Combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "A close-range attack that imbues your machete and fist with Cursed Energy and strikes with both in succession.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Ratio Technique: Collapse"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a body blow.\nAccurately slashes through the weak point created by your Cursed Technique to deal massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Cursed Energy Release"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "Activates when remaining battle time is low.\nCursed Energy automatically increases.\nCursed Energy recovery speed increases.\nDash speed increases.\nDash Gauge consumption decreases."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "A highly skilled Sorcerer who packs a gorilla-like punch and controls the flow of battle by switching positions.\nEven though many of his attacks are close range, since he is able to switch positions with Boogie Woogie, he can close in on foes and evade attacks as he pleases.\n\n• Boogie Woogie lets him switch with any target, so use it wisely, and often!\n• His extreme strength sends foes flying with every strike, but you can still deliver follow-up attacks by switching positions!\n\nSkillful teamwork will still be essential, but with Boogie Woogie, you have the ability to turn a disadvantage in your favor!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Three-Pronged Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Guides you to the enemy to unleash a series of blows.\nWhile attacking, repeating the input can be used to chain into Cursed Energy Techniques.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Upward Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Kick Away"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "A close-range attack that will guide you to the enemy to quickly chop them and kick them away."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Lariat"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "A close-range attack in which the attacker advances with a lariat after a brief charge up.\nDurable state during the attack."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Stone Throw Boogie Woogie Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "A long-range attack that throws a stone imbued with Cursed Energy.\nWhen it hits an enemy, you swap positions with the stone and instantly perform a follow-up attack.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Stone Throw Boogie Woogie Teleport"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Throw a stone in any direction, and then instantly swap positions with it.\nCan be held down.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Clap your hands to instantly swap two fighters' positions (either yourself with someone else, or two others).\nSelect whom to swap with by inputting a direction.\nThis attack can chain into other moves.\n<img id=\"CursedEnergyAttack_1\"/>: Swap yourself and the target.\n<img id=\"MoveLeft\"/> or <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/>: Swap an ally and enemy.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Swap an enemy with an enemy.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Swap yourself and an ally.\nCursed Energy Level 2: Activation delay is reduced.\nCursed Energy Level 3: Activation delay is further reduced."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Combo Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "A close-range attack in which you gather power and unleash a powerful four-strike barrage.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Head-to-Toe Split"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a high kick.\nSwaps your position with the kicked enemy's for you to unleash a full-strength Black Flash to send the enemy flying and deal massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Cursed Technique Unleashed"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "Using Boogie Woogie will have the following effects for a period of time: increases movement speed; decreases Dash Gauge consumption.\nThis effect varies depending on Cursed Energy Level."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "A close-range Striker who turns the tables in a rage whenever his allies are hurt.\n\n• His Potential, \"Rage,\" manifests Rika when the gauge is maxed out.\nAssault the enemy with your overwhelming Cursed Energy and powerful follow-ups with Rika!\n• Use \"Determination\" to imbue your sword with Cursed Energy, letting you inflict damage with Combo Techniques and Extraction Techniques.\nPress the attack, then use \"Courage\" for massive damage!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Three-Pronged Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "A close-range attack that will guide you to the enemy to slash with a sword.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nWhen in a rage, <GLO=GLS_NAME_CN_040> performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Diagonal Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "A close-range attack that will guide you to the enemy to slash with a sword.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "One-Two Downward Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "A close-range attack that will guide you to the enemy to slash in two consecutive strikes.\nWhen in a rage, <GLO=GLS_NAME_CN_040> performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Severing Blow"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "An attack that lets you thrust and blast the enemy with a spinning slash.\nWhen in a rage, <GLO=GLS_NAME_CN_040> performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Plunging Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "A close-range attack in which you jump to approach, and then perform a spinning slash in midair.\nThis attack can chain into other moves.\nWhen in a rage, Rika performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Sliding Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "A close-range in which you slide to approach, and then perform an upward slice.\nThis attack can chain into other moves.\nWhen in a rage, Rika performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Courage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "An attack in which you approach the enemy at high speed and slash in consecutive strikes.\nWhen in a rage, <GLO=GLS_NAME_CN_040> performs a follow-up attack.\nCursed Energy Level 2: Increases number of attacks.\nCursed Energy Level 3: Further increases number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Determination"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Imbues your sword with Cursed Energy to enhance attacks.\nAlso makes all attacks able to inflict damage.\nContinuously consumes Cursed Energy and is lifted when another input is made or Cursed Energy is reduced to zero."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Black Flash"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a left fist strike.\nLifts restrictions and releases an enormous amount of Cursed Energy through Rika, dealing massive damage.\nAfter activation, Rika will not manifest again in that battle."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Rage"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Has a special gauge that fills when allies are damaged or downed.\nWhen the gauge is maxed out, Rika will manifest and attack along with Yuta.\nWhen Yuta is attacked, you can use up the gauge to perform a counter with Rika by pressing <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, or <img id=\"CursedEnergyAttack_2\"/>.\nIf Yuta is attacked while guarding, the gauge will be used up and Rika will counterattack.\nWhile Rika is manifested, your Cursed Energy Level will be at its max."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "A mid-range Striker that uses Cursed Spirit Manipulation to overwhelm opponents with superior numbers.\nUse his Special Grade skills to chain from versatile Extraction Techniques into to damaging Cursed Energy Technique, overpowering foes.\n\n• Cursed Spirit Manipulation: Cluster releases a quick burst of Cursed Spirits forward, charging through any foes in their path.\n• Cursed Spirit Manipulation: Luminous Pillar is slow, but fires an area attack with no way to dodge upward, attacking all opponents at once.\n\nSave your Cursed Energy Techniques for the right moments for mastery over your foes!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Cursed Spirit Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "A mid-range attack that summons multiple Cursed Spirits in succession to rush at the enemy.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Cursed Spirit Manipulation: Bind"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "A mid-range attack that summons a Cursed Spirit and then binds.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Cursed Spirit Manipulation: Draw In"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "A mid-range attack that summons two Cursed Spirits to rush at the enemy.\nReturns back after landing, drawing the enemy in.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Cursed Spirit Manipulation: Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "A mid-range attack that summons a Cursed Spirit to chase down and strike the enemy."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "One-Two Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "A close-range attack that will guide you to the enemy to deliver a leaping kick.\nFollows up with a hit and strikes down the enemy with your right fist.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Cursed Spirit Manipulation: Launch"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "A close-range attack that summons Cursed Spirits by your feet while stepping backward.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Cursed Spirit Manipulation: Cluster"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Use two types of captured Cursed Spirits to attack.\n<img id=\"CursedEnergyAttack_1\"/>\nMid-range attack launching multiple Cursed Spirits.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nClose-range attack launching multiple Cursed Spirits at the enemy.\nCursed Energy Level 2: Summons more Cursed Spirits and increases the number of hits.\nCursed Energy Level 3: Summons even more Cursed Spirits and further increases the number of hits."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Cursed Spirit Manipulation: Luminous Pillar"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Summons a Semi Grade 1 Cursed Spirit to generate a pillar of light at the enemy's location and attack.\nCursed Energy Level 2: Increases number of attacks.\nCursed Energy Level 3: Further increases number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Playful Cloud Combo"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Cursed Spirit Manipulation, Supreme Art: Maelstrom"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a backward spinning kick.\nA large number of Cursed Spirits taken in by Cursed Spirit Manipulation are released as one to inflict massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Special Grade Curse User"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "Activates at Cursed Energy Level 2 or higher.\nBecome able to cancel delay from attacks by using Cursed Energy Technique.\nCan cancel even faster when Cursed Energy Level increases."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "A mid-range Fighter that controls the flow with far-reaching attacks, before closing the distance to whittle down enemy health .\nTransform your own body, controlling your attack distance as the situation warrants.\n\n• His Potential, \"Idle Transfiguration,\" does extra damage as you keep landing attacks, so never let up!\nDuring Domain Expansion: Self-Embodiment of Perfection, Idle Transfiguration gets a huge power-up!\n• Release transfigured humans with \"You Need to Behave,\" letting you attack enemies at long range.\nAttack from both sides to fell your foe!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Transformation Attack: Arm"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "A close-range attack that will guide you to the enemy to strike with a transformed arm.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Transformation Attack: Spikes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "A close-range attack in which your body curls up and grows needles in all directions.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Barrage Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "A close-range attack that will guide you to the enemy to confound them with hard-to-read movements.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Spin Attack Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "A close-range attack that will guide you to the enemy, before your arm turns into a sword, slashes, and then blasts the enemy away with a giant hand."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Transformation Attack: Drill"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "A mid-range piercing attack that turns your arm into a drill."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Transformation Attack: Sword"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "A close-range attack that turns your arm into a sword and cleaves."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "You Need to Behave"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Summons stocked transfigured humans to attack enemies.\nDamages enemies and slows their movement on hit.\nIf activated with no stock, causes vomiting and replenishes stock.\nCursed Energy Level 2: Increases stock held.\nCursed Energy Level 3: Further increases stock held."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "\"Soul Multiplicity\" \"Body Repel\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Fuses multiple souls into one to increase mass and then fires it at the enemy.\nConsumes entire stockpile of transfigured humans.\nCan be held down.\nCursed Energy Level 2: Expands attack range.\nIncreases damage dealt.\nCursed Energy Level 3: Further expands attack range.\nFurther increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Idle Transfiguration"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Stay in place, form a seal in your mouth, and lay a Domain.\nChanges the map for a period of time and enhances your attacks.\nIn addition, it reduces the Cursed Energy recovery and movement speed of enemies within the Domain.\nWhen the Domain closes, you cannot use any Cursed Energy Techniques for a period of time."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Essence of the Soul"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "When attacked by an opponent, Cursed Energy increases according to the amount of damage taken."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Idle Transfiguration"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Deal additional damage when you make contact with the enemy via your attacks a certain number of times.\nThe count will reset after a period of time."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "A mid- to long-range Zoner who rushes around the battlefield, forcing foes to fight at his range.\n\n• Set up the enemy with Combo Techniques that can be executed on the go, and look for an opportunity to wipe out the enemy with the wide-range attack \"Cursed Energy Fire.\"\n• Activate Domain Expansion: Coffin of the Iron Mountain to draw all players into your Domain for a set period of time.\nYour stats and Cursed Energy Technique are boosted within the Domain, so flaunt absolute control over your foes!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Fireball"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "A long-range attack that launches small fireballs in rapid succession.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nMovement controls can be used during your attack."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Compressed Fireball"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "A long-range attack that shoots fireballs with both hands.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Volcano Manifestation"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "A long-range attack that creates a volcano that spews flames at the feet of the enemy."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Volcano Trap"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Establishes a volcanic area at a specified location.\nWhen an enemy enters the area, a volcano appears and spews flames."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Fireball Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "A long-range attack that generates multiple fireballs on the spot and fires them with a delay."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Flame Burst"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "A close-range attack that shoots flames while leaping backward.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Cursed Energy Fire"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Releases Cursed Energy in a straight line to incinerate everything in its path.\nCan be held down.\nContinuously consumes Cursed Energy while in effect.\nCursed Energy Level 2: Increases attack range. Increases damage dealt.\nCursed Energy Level 3: Further increases attack range. Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Burn/Explode/Maximum Meteor"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Releases fireballs to attack.\nCursed Energy Level 2: Fireballs become larger, increasing the damage they inflict.\nCursed Energy Level 3: Changes to Maximum Meteor, causing a huge explosion when it lands.\nCan be held down."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Ember Insects"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Stay in place and lay a scorching-hot Domain like the inside of an active volcano.\nChanges the map for a period of time and enhances your Cursed Energy Techniques.\nIn addition, it continuously damages enemies in the area and hinders their movement.\nWhen the Domain closes, you cannot use any Cursed Energy Techniques for a period of time."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "A Cursed Spirit's Pride"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "Activates when your health is low.\nIncreases Cursed Energy recovery. Increases damage from Cursed Energy Technique.\nThis effect varies depending on Cursed Energy Level."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "A specialized all-range Striker demonstrating overwhelming versatility on the ground.\n\n• Remote Tree Root Attack lets you spread roots around the legs of distant foes and hit them upward.\nAim for a steady stream of surprise strikes!\n• Tree Barrier Attack erects a wall of roots in front of you, sending nearby foes flying and guarding against long-range attacks.\n\nLong-range restraint! Mid-range launchers! Close-range counters!\nUse every attack to prevent the enemy from getting too close!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Wooden Ball Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "A close-range attack that sends a Wooden Ball flying with branches that attack.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Wooden Ball Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "A close-range attack that will guide you to the enemy to swing a Wooden Ball around.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Area Tree Root Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "A close-range attack that causes tree roots to grow into the ground around you.\nWhen performed in midair, you will come down to the ground.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Meditate"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Meditate and charge your Cursed Energy.\nAt maximum Cursed Energy Level, this will recover any Cursed Energy you have used.\nCan be held down.\nWhen performed in midair, you will come down to the ground."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Cursed Bud Fling"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "A long-range attack that sends cursed seeds flying.\nSlows down Cursed Energy recovery for enemies hit by the attack.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Cursed Bud Rain"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "A long-range attack that makes a giant flower appear and sends cursed seeds flying all at once.\nThe flying cursed seeds fall after a certain time.\nSlows down Cursed Energy recovery for enemies hit by the attack.\nWhen performed in midair, you will come down to the ground."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Remote Tree Root Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Generates tree roots from directly under the enemy and pierces them.\nCursed Energy Level 2: Increases damage dealt. Expands area of attack.\nCursed Energy Level 3: Further increases damage dealt. Further expands area of attack."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Tree Barrier Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Grows a wall of trees in front of you and attacks.\nWhen performed in midair, you will come down to the ground.\nCursed Energy Level 2: Increases damage. Increases the number and height of walls.\nCursed Energy Level 3: Further increases damage. Further increases height."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Giant Tree Attack"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "This attack cannot be guarded against.\nDeploys a flower garden around you, and is then activated by landing a blow.\nThe flower garden distracts the enemy, then tree roots pierce them to inflict massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Left Arm Unbound"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Unbinds left arm when activating an Awakened Move and gains the following effects: shortens Cursed Energy Technique generation time; reduces Cursed Energy consumption."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "A long-range control-type Fighter who uses supreme sibling combinations and powerful Status Ailment attacks.\nHis <GLO=GLS_GAME_WORDS_1427> includes Supreme Art: Wing King, which spreads blood to deal damage, and Decay, which uses blood to trigger Status Ailments.\nMake good use of both moves to pull the opponent into your flow.\n\n• The effects of <GLO=GLS_GAME_WORDS_1427>: Decay stacks the more blood you apply.\nGive 'em a real sanguine shower!\n• <GLO=GLS_NAME_CN_260> can't use blood attacks while <GLO=GLS_GAME_WORDS_1427>: Decay is activated.\nYou can count on <GLO=GLS_NAME_CN_080> in those cases!\n\nAlways remember, coordination between siblings is the key to victory!"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Triple Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Close-range attack that guides you to the enemy and strikes twice in quick succession.\nWhen it hits, Wing King is unleashed, making a follow-up attack with blood.\nWhen Decay is active, a follow-up attack by <GLO=GLS_NAME_CN_080> will trigger.\nWhile attacking, repeating the input can be used to chain into Cursed Energy Techniques."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Torso Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "A close-range attack that will guide you to the enemy to land an upward kick to the enemy with your right leg.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Launch"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "A close-range attack that guides you to the enemy to deliver an uppercut.\nWhen it hits, Wing King is unleashed, making a follow-up attack with blood.\nWhen Decay is active, a follow-up attack by <GLO=GLS_NAME_CN_080> will trigger."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Two-Handed Sword"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "A close-range attack in which you step forward and swing down with both hands.\nWhen it hits, Wing King is unleashed, making a follow-up attack with blood.\nWhen Decay is active, a follow-up attack by <GLO=GLS_NAME_CN_080> will trigger."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Pursuit Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "A close-range attack that will guide you to the enemy to quickly thrust out your right arm.\nIf it lands, <GLO=GLS_NAME_CN_080> performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Overkill"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "A close-range attack that will guide you to the enemy to make an upward kick with your right leg.\nIf it lands, <GLO=GLS_NAME_CN_080> performs a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Little Brother"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Give instructions to Kechizu.\nKechizu cannot accept instructions while he is downed.\n<img id=\"CursedEnergyAttack_1\"/>: Spray and mark with blood.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Guide to the enemy to deliver multiple blows.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Return to Eso. Does not consume Cursed Energy.\nCursed Energy Level 2: Increases Kechizu's movement speed.\nCursed Energy Level 3: Further increases Kechizu's movement speed."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Supreme Rot Technique: Wing King / Rot Technique: Decay"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>: Activates Supreme Rot Technique: Wing King to mark enemies with blood and deal damage.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>: Activates Rot Technique: Decay to reduce the dashing ability of enemies marked with blood.\nWhile activated, you can mark enemies with additional blood to deal continuous damage.\nReleasing the Technique after marking them with additional blood will deal even more damage.\nThe more times you mark them with blood, the greater the effect.\nContinuously consumes Cursed Energy, and is lifted when another input is made or Cursed Energy is reduced to zero.\nWing King cannot be activated while Decay is active.\nCursed Energy Level 2: Increases number of Wing King attacks.\nCursed Energy Level 3: Further increases the number of Wing King attacks, can be held down."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "The Power of Brotherhood"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a backhand blow.\nAlong with Kechizu, douse the enemy with blood and activate Rot Technique: Decay to inflict massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "For My Brother"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Boosts <GLO=GLS_NAME_CN_260>'s attacks when <GLO=GLS_NAME_CN_080> is not down."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "The most powerful Jujutsu Sorcerer who can find a way to gain the upper hand in any situation.\n\n• Staying in place will activate Limitless Technique, preventing any attacks from hitting you.\n• Cursed Technique Amplification: Blue lets you get close to and pulls in enemies in an instant.\nControl your opponent's movements at will!\n• Cursed Technique Amplification: Blue Maximum Output is a hard-hitting technique that cuts a wide swath and lets you turn the tables on your opponent.\nSeize your chance to turn things around in a single blow!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Kick Combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a flurry of melee strikes.\nWhile attacking, additional input can be used to chain into a Cursed Energy Technique.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Guiding Kicks"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "A two-hitter that will guide you to the enemy while pulling them in, then knock them back."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Double Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "A move that will guide you to the enemy, then you unleash a rapid, two-hit attack."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Guiding Blows"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "A close-range attack that will guide you to the enemy while pulling them in, sends them flying with back-to-back hits, then pulls them in one more time for a follow-up attack."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Critical Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "An attack that will guide you to the enemy, then sends them flying with a powerful blow."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Cursed Technique Amplification: Blue Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "A close-range attack that sends you straight to your opponent at high speed to unleash a series of blows.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Cursed Technique Amplification: Blue Maximum Output"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Generate a massive version of Blue at Maximum Output which pulls foes in and deals damage at the same time.\nCursed Energy Level 2: Shortens charging time.\nCursed Energy Level 3: Shortens charging time even more."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Cursed Technique Reversal: Red"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Hollow Purple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a knee strike.\nUnleashes Hollow Purple to deal massive damage to your opponent."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "Awakening of the Strongest"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "Activates when defeated once.\nSome melee attacks and Technique Amplification: Blue Maximum Output are enhanced.\nAwakened Move can be activated."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Limitless Cursed Technique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "Activates while stopped after some time has passed.\nInfinity appears around you, and a select number of attacks will not hit you."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Six Eyes"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Always activated.\nKeeps track of the opponent's Cursed Energy Gauge.\nCursed Energy increases gradually."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Levitation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Levitate by holding down jump."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "A young Special Grade Jujutsu Sorcerer who combines excellent fighting sense with superb Cursed Technique.\n\n• Cursed Spirit Manipulation: Kuchisake-Onna deploys a Simple Domain that reacts to enemy attacks and counters as well!\n• His Potential, \"Cursed Spirit Manipulation,\" attacks with Cursed Spirits to restore your own Cursed Energy.\nKeep landing hits to pile on the pain!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Four-Hit Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a flurry of melee strikes.\nWhile attacking, additional input can be used to chain into a Cursed Energy Technique."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Cursed Spirit Manipulation: Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "A mid-range attack that summons a Cursed Spirit to rush at the enemy.\nThis attack cannot be blocked.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Three-Pronged Melee Attack: Cursed Spirit Pursuit"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a triple-hit attack, then summons a Cursed Spirit to launch them upward.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "One-Two Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Guides you to the enemy to unleash a quick two-hit attack.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "One-Two Melee Attack: Cursed Spirit Pursuit"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a two-hit attack, then summons a Cursed Spirit to launch them upward.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Cursed Spirit Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "A mid-range attack that launches three small Cursed Spirits in rapid succession."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Cursed Spirit Manipulation: Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Sends out small Cursed Spirits for a variety of attacks.\n<img id=\"CursedEnergyAttack_1\"/>\nA mid-range attack that unleashes multiple small Cursed Spirits to chase the enemy.\nCursed Energy Level 2: Summons more Cursed Spirits, increases the number of hits.\nCursed Energy Level 3: Summons even more Cursed Spirits, further increases the number of hits.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/>\nA long-range attack that unleashes countless small Cursed Spirits in rapid succession.\nCan be held down.\nContinuously consumes Cursed Energy while in effect.\nCursed Energy Level 2: Summons more Cursed Spirits, attacks a wider area.\nCursed Energy Level 3: Summons even more Cursed Spirits, attacks an even wider area."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Cursed Spirit Manipulation: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Summons <GLO=GLS_NAME_CN_200> and lays out a Simple Domain.\nEnemies who attack within the Domain are cut into pieces by countless shears.\nContinuously consumes Cursed Energy and is lifted when another input is made or Cursed Energy is reduced to zero.\nCursed Energy Level 2: Increases number of attacks and expands the Domain area.\nCursed Energy Level 3: Further increases number of attacks and expands the Domain area."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Cursed Spirit Manipulation: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Cursed Spirit Manipulation: Rainbow Dragon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing an elbow strike.\nUnleash Rainbow Dragon, the strongest Cursed Spirit on hand, straight at the enemy to deal massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Cursed Spirit Manipulation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Recovers some Cursed Energy every time you land a Cursed Spirit attack.\nAmount recovered depends on Cursed Spirit.\nEffect also varies depending on your Cursed Energy Level."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "A fully long-range attacker who specializes in surprise attacks and can provide cover fire support from a distance.\n\n• Use \"Taking Aim\" to shoot bullets imbued with Cursed Energy in any direction.\nAim well and unleash a killer shot!\n• Be sure to keep an eye out for chances to reload so you can stay in the fight.\n• Attacking an enemy who isn't gunning for you increases your strength and Cursed Energy boost.\nDon't forget to take advantage of where your enemy's aiming!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Single Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "A long-range attack that consumes one bullet to shoot at the enemy.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nReloads when out of ammo."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Crouching Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "A long-range attack that makes you crouch on the spot and consume one bullet to shoot at the enemy.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat.\nReloads when out of ammo."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Rapid Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "A combo attack that quickly fires loaded bullets with continuous <img id=\"NormalAttack_2\"/> presses.\nReloads when out of ammo."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "A close-range attack will guide you to the enemy to blow them away with a spinning kick.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Blind"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "A close-range attack that sprays sand on the spot, frightening the enemy it hits.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Double Blow"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "A close-range attack that will guide you to the enemy to unleash two blows."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Taking Aim"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "A long-range attack that plants you on the spot to take aim before firing a bullet imbued with Cursed Energy.\nControl the aiming reticle with <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> to aim and shoot from an over-the-shoulder perspective.\nCursed Energy is consumed in this mode, and different shots can be fired with <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, or <img id=\"CursedEnergyAttack_2\"/>.\nReloads when out of ammo.\nCursed Energy Level 1: <img id=\"NormalAttack_1\"/>: Consumes 1 Cursed Energy.\n<img id=\"NormalAttack_2\"/>: Consumes 1 Cursed Energy.\n<img id=\"CursedEnergyAttack_2\"/>: Consumes 1 Cursed Energy.\nCursed Energy Level 2: Increases damage dealt.\n<img id=\"NormalAttack_1\"/>: Consumes 1 Cursed Energy.\n<img id=\"NormalAttack_2\"/>: Consumes 2 Cursed Energy.\n<img id=\"CursedEnergyAttack_2\"/>: Consumes 2 Cursed Energy.\nCursed Energy Level 3: Further increases damage dealt.\n<img id=\"NormalAttack_1\"/>: Consumes 1 Cursed Energy.\n<img id=\"NormalAttack_2\"/>: Consumes 3 Cursed Energy.\n<img id=\"CursedEnergyAttack_2\"/>Consumes 3 Cursed Energy."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Charge Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "A long-range attack that imbues Cursed Energy into a bullet to fire a powerful shot.\nCan be held down.\nCan move while charging up.\nCannot dash.\nDamage increases the longer the attack is charged.\nMaximum charge causes the shot to penetrate.\nReloads when out of ammo.\nCursed Energy Level 2: Shortens charge time. Increases damage dealt.\nCursed Energy Level 3: Further shortens charge time. Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Reload"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Replenishes your bullets.\nCan move while reloading."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "Glad that One Landed"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Construction"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "This attack cannot be blocked with a guard.\nReloads when out of ammo.\nActivated by spending one bullet to fire and hit.\nFires six bullets, then uses Construction to fire a seventh bullet that inflicts heavy damage on the enemy."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Gaining Distance Won't Work"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Boosts power and Cursed Energy gained when you attack enemies that are not targeting you."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "A flying Striker who uses her unrivaled aerial movement to befuddle her foes.\n\n• \"Charge\" lets you move at high speed while attacking.\nKnock the enemy off balance, then use that opening to deal massive damage with Tool Manipulation: Wind Scythe!\n• Her Potential, \"Tool Manipulation,\" utilizes the field three-dimensionally, offering mobility that lets you attack from anywhere!"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Broom Sweep"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "A close-range attack that will guide you to the enemy to strike with a broom.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Whirlwind"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "A mid-range attack that generates a whirlwind moving forward.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Swoop Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "A close-range attack that swoops down to charge at the enemy.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Vertical Dive"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "A vertical dive on the spot.\nCan be held down.\nThis move can be followed with a dash or chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Wind Whip"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "A mid-range shot that generates wind to fire at the enemy.\nThe wind spreads on impact and launches enemies upward."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Gust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "A close-range attack that sweeps the broom on the spot to generate wind."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Charges forward forcefully while riding a broom.\nUse <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> while charging to turn.\nMovement speed increases after attacking, and Extraction Techniques using wind-based attacks are enhanced.\nCan be held down.\nCursed Energy Level 2: Increases damage dealt. Raises effect of buff.\nCursed Energy Level 3: Further increases damage dealt. Raises effect of buff."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Tool Manipulation: Wind Scythe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Launches a long-range Wind Scythe at the enemy.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Try and Catch Me"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Tool Manipulation: Wind Scythe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "This attack cannot be blocked with a guard.\nLand a kick while riding your broom to activate.\nBlasts the enemy into the air where they can't escape, then inflicts heavy damage with Tool Manipulation: Wind Scythe."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Tool Manipulation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Take flight atop a broom.\nHold jump to fly higher.\nYou will glide through the air, recovering your Dash Gauge."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "A long-range attacker who corners enemies by using a variety of archery and Blood Manipulation attacks.\n\n• Perform a variety of archery-based attacks to catch the enemy off guard and unleash the ultimate technique: Blood Manipulation.\n• Blood Manipulation: Slicing Exorcism makes it easy to target mobile enemies, so damage is sure to be dealt.\n• The more Blood Manipulation: Convergence/Piercing Blood is charged up, the more your range and force increases, giving you a chance to pierce your enemy in a single blow!\nKeep calm, watch your enemy's movement, and aim to take them down in one shot!"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Cursed Energy Arrow: Continuous Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "A long-range attack that unleashes one arrow after the other at the enemy.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Cursed Energy Arrow: Single Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "A long-range attack that draws the bow hard to unleash an arrow.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Cursed Energy Arrow: Straight Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "A long-range attack that unleashes an arrow straight ahead with range and speed.\nCan be held down."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Cursed Energy Arrow: Curved Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "A long-range attack that rains down multiple arrows on all enemies within range.\nHold to specify where the attack lands.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Cursed Energy Arrow: Side Shot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "A long-range attack that fires arrows in three directions.\nCan be charged to unleash homing arrows on your enemy using Blood Manipulation.\nCan be held down.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Blood Manipulation: Crimson Binding"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Stay in place and throw a blood bag at the enemy when attacked.\nLanding the bag on the enemy will drench them in blood, making it possible to stop them in their tracks."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Blood Manipulation: Slicing Exorcism"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "A long-range homing attack that launches a rotating, circular blade of compressed blood.\nNumber of blades launched increases depending on Cursed Energy Level.\nCan be held down.\nCursed Energy Level 2: Increases number of blades launched. Increases Blood Bag Gauge consumption.\nCursed Energy Level 3: Further increases number of blades launched. Further increases Blood Bag Gauge consumption."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Blood Manipulation: Convergence/Piercing Blood"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "A long-range attack that compresses blood to shoot straight ahead at high speed.\nRange and damage increase the more it is charged.\nCan be held down.\nCursed Energy Level 2: Increases amount that can be charged.\nCursed Energy Level 3: Further increases amount that can be charged."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Blood Manipulation: Flowing Red Scale"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Blood Manipulation: Piercing Blood"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "This attack cannot be blocked with a guard.\nActivated when the arrow pierces the enemy.\nAfter the arrow hits, Piercing Blood is unleashed for massive damage."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Blood Bag"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "The amount of Blood Bag Gauge consumed depends on the Blood Manipulation technique used.\nConsumes health if used when Blood Bag Gauge is empty.\nGauge is not consumed with Joint Attacks and Awakened Moves."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Pride of the Next Family Head"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Reduces amount of blood consumed when health is at half or lower.\nWhen Blood Bag Gauge is empty, amount of health consumed is reduced."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "The Sorcerer Killer who lays waste to enemies with his unusual Cursed Tools and gifted physique that is the result of a Heavenly Pact.\n\n• His High-Speed Movement can be used to cancel attacks and chain into others.\nNo letting up on offense, here!\n• Inverted Spear of Heaven: Slash unleashes different attacks depending on your orientation to your opponent.\nCombine it with High-Speed Movement to create devastating combos!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Slash Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "A close-range attack that will guide you to the enemy to slash with Inverted Spear of Heaven.\nWhile attacking, additional inputs can be used to chain into Cursed Tool Techniques."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Haymaker"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "A close-range attack that steps forward to strike as hard as you can.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Bisecting Thrust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a thrust with Inverted Spear of Heaven."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Downward Thrust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "A close-range attack that leaps up and forward before descending on the enemy with Inverted Spear of Heaven.\nSends the enemy flying when you hit the ground."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "High-Speed Movement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Consumes the Dash Gauge to move at high speed.\nAfter moving, you can perform further movements with additional inputs.\nYou can chain into this move from the stun of other moves, and you can chain into certain move during guiding moves.\nCan be chained into other moves after moving.\n<img id=\"NormalAttack_3\"/>\nMove toward the opponent.\n<img id=\"MoveLeft\"/> or <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/>\nMove diagonally forward.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/>\nMove forward."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Iai"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Stay in place and slash with Inverted Spear of Heaven.\nLaunches a counterattack if an enemy attacks you during this."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Inverted Spear of Heaven: Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "A powerful blow with Inverted Spear of Heaven.\nUnleashes a different attack depending on your orientation to the opponent.\nPhysical Strength Level 2: Increases damage dealt.\nPhysical Strength Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Inverted Spear of Heaven: Chop"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "A swift flurry of strikes with Inverted Spear of Heaven.\nCan be held down.\nPhysical Strength Level 2: Increases the number of attacks.\nPhysical Strength Level 3: Further increases the number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Cursed Spirit Barrage"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Chain of a Thousand Miles and Inverted Spear of Heaven"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "This attack cannot be blocked with a guard.\nLand a thrust with Inverted Spear of Heaven to activate.\nConnects Chain of a Thousand Miles and Inverted Spear of Heaven to deal massive damage with a dizzying barrage of blows."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Sorcerer Killer"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Landing a finishing blow increases your Physical Strength Level, and temporarily reduces Dash Gauge consumption.\nAt maximum Physical Strength Level, this instead causes your Physical Strength Gauge to recover."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Heavenly Pact: Physically Gifted"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Be endowed with exceptional physical abilities in exchange for a complete lack of Cursed Energy.\nCan jump midair numerous times."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Inverted Spear of Heaven"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Attacks from Inverted Spear of Heaven forcefully release enemy Cursed Techniques."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "A close-range attacker who utilizes the Quick Draw technique to cut down enemies with lightning-fast strikes.\n\n• Her Potential \"New Shadow Style: Quick Draw\" allows her to perform a quick and powerful attack starting from a sheathed stance.\nTry to keep her sword sheathed during battle to gain the upper hand.\n• Automatically counterattacks all foes who enter her New Shadow Style: Simple Domain for huge damage.\nClose the distance between you and your enemy with the Cursed Technique New Shadow Style: Quick Draw when you are ready to go on the offensive."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Diagonal Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a diagonal slash.\nOn hit, automatically perform a follow up attack and go into Sheathed Stance.\nFurther repeating the input will allow you to use a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Launching Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "A close-range attack that will guide you to launch the enemy and slash them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Severing Blow"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "A close-range attack that will guide you to the enemy to slash them.\nOn hit, kick the enemy to send them flying and go into Sheathed Stance."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Extracting Slice"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "A close-range attack where you sheathe your sword and are guided to the enemy to unleash a double slash.\nCan perform the double slash instantly if you are already in Sheathed Stance.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Sheathe/Quick Slice"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Unsheathed Stance】\nSheathe your sword where you stand.\n【Sheathed Stance】\nA close-range attack where you instantly leap forward to unleash a Quick Slice.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Sheathe Evasion"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Evade in the direction you want while sheathing your sword.\nWill only perform an evade if your sword is already sheathed.\nCan chain into other moves after evading."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "New Shadow Style: Quick Draw"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "A close-range attack where you sheathe your sword and are guided to the enemy to unleash a devastating unsheathing slice.\nCan perform the slice instantly if you are already in Sheathed Stance.\nCursed Energy Level 2: Increases damage dealt. Expands area of attack.\nCursed Energy Level 3: Further increases damage dealt. Further expands area of attack."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "New Shadow Style: Simple Domain, Quick Draw"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Sheathes sword where you stand and lays out a Simple Domain.\nCan perform much quicker from Sheathed Stance.\nAutomatically attacks any enemies who enter the Domain.\nAutomatically parries any attacks that come from outside the Domain.\nAble to chain into Sheathe Evasion while laying out the Simple Domain.\nCan be held down.\nWhen performed in midair, you will come down to the ground.\nCursed Energy Level 2: Increases damage dealt. Expands area of Domain.\nCursed Energy Level 3: Further increases damage dealt. Further expands area of Domain."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "New Shadow Style: Simple Domain, Quick Draw"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "This attack cannot be guarded against.\nActivates upon landing an upward slice on the opponent.\nLays out a Simple Domain, and automatically inflicts heavy damage on any enemies who enter it."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "New Shadow Style: Quick Draw"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Enter Sheathed Stance after using certain attacks.\nIn Sheathed Stance, certain attacks will be performed quicker and guiding range for some attacks will be increased.\nYou will enter Unsheathed Stance if you guard while in the stance or are knocked back.\nPerform a Perfect Guard to maintain the stance."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "An attacker who packs some serious firepower as well as astounding Cursed Energy output due to a Heavenly Pact.\n\n• His Potential \"Heavenly Pact\" allows him to unleash Cursed Energy Techniques without being limited by Cursed Energy Levels.\n• Take advantage of the grave damage he can deal right from the start of the battle to gain the upper hand!\n• Utilize his high-mobility Extraction Techniques to dance around the battlefield and confuse your opponent."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Melee Attack Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a flurry of melee strikes.\nWhile attacking, additional input can be used to chain into a Cursed Energy Technique.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Boost On Palm Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "A close-range attack that will guide you to the enemy using jet propulsion and let you launch them into the air.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Wide-Range Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "A mid-range attack in which you fire Ultra Cannon from your left hand to incinerate a large area."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Sword Option: Ultra Shield"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Transforms right arm into a spiky shield and braces.\nWhile in this stance, you can deflect incoming attacks with Ultra Shield.\nThis move will stun enemies if the counter is successful."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Boost On One-Two Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "A close-range attack that will guide you to the enemy using jet propulsion to unleash two kicks.\nHas increased charge time when used while overheated.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Boost On Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "A close-range attack that will guide you to the enemy using jet propulsion to unleash a rapid uppercut that will launch them upward.\nHas increased charge time when used while overheated.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Sword Option Boost On: Ultra Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Produce a blade from your right arm, then spin rapidly towards the enemy using jet propulsion.\nCan be held down.\nCursed Energy Level 2: Press repeatedly to increase the number of attacks.\nCursed Energy Level 3: Press repeatedly to further increase the number of attacks."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "High Output: Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "A long-range attack in which you charge and unleash Cursed Energy from your left hand.\nCan be held down.\nCursed Energy Level 2: Increases damage dealt.\nCursed Energy Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Boost On Melee Attack"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by hitting an enemy with a projectile.\nUse the turret in your mouth and two hand cannons together to fire Ultimate Cannon and deal massive damage to the enemy."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Heavenly Pact"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Allows you to activate stronger Cursed Techniques than that of your current Cursed Energy Level.\nCan be activated by holding down the input for a period of time while using a Cursed Technique.\nBased on the difference between the Cursed Energy Level activated and your current level, you will temporarily overheat and experience a reduction in your movement speed and Cursed Energy recovery speed."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "A blood-based attacker who is highly specialized in offense and adept at attacking from any distance.\n\n• With Blood Manipulation: Flowing Red Scale activated, deal damage with Combo or Extraction Techniques while also gaining a massive speed boost. Use this speed to get up and personal with your foe in an instant.\n• At Cursed Energy Level 3, Blood Manipulation: Convergence/Piercing Blood can be aimed right and left for a sweeping attack. Take down multiple enemies from afar with this formidable technique."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Five-Part Melee Combo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of strikes.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Blood Manipulation: Blood Edge Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash two rapid slashes.\nThis move will temporarily reduce enemy's speed on hit.\nThe presence of blood spheres increases damage dealt and Cursed Energy gained.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "One-Two Melee Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a hardened blood blow and send them flying.\nThis move will temporarily reduce enemy's speed on hit.\nThe presence of blood spheres increases damage dealt and Cursed Energy gained.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Blood Manipulation: Slicing Exorcism"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "A long-range attack that launches a rotating, circular blade of compressed blood.\nThis move will temporarily reduce enemy's speed on hit.\nConsumes 1 blood sphere.\nCreates new blood spheres if none are available."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Blood Wave"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "A close-range attack in which you unleash a torrent of blood that turns into countless spikes.\nThis move will temporarily reduce enemy's speed on hit.\nConsumes 1 blood sphere.\nCreates new blood spheres if none are available."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Blood Manipulation: Flowing Red Scale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Control the components of blood to improve physical ability.\nWhile in effect, damage can be dealt through Combo Techniques/Extraction Techniques. It also has the following effects: increased attack speed, increased guide speed, increased dash speed, decreased Dash Gauge consumption, and increased damage dealt to guard.\n\nContinuously consumes Cursed Energy and is lifted when another input is made or Cursed Energy is reduced to zero."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Blood Manipulation: Convergence/Piercing Blood"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "A long-range attack that compresses blood to shoot straight ahead at high speed.\nRange and damage increase the more it is charged.\nThis move will temporarily reduce opponent's speed on hit.\nConsumes 1 blood sphere.\nCreates new blood spheres if none are available.\nCan be held down.\nCursed Energy Level 2: Shortens charge time.\nCursed Energy Level 3: Press <img id=\"MoveLeft\"/><img id=\"MoveRight\"/> after firing Piercing Blood to perform a sweeping motion."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Blood Manipulation: Flowing Red Scale, Stack"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by landing a back kick.\nRelease blood compressed with Convergence for an omnidirectional projectile attack that deals massive damage to your enemy."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Blood Sphere"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Can be used once multiple blood spheres have been created.\nSome powerful attacks will consume blood spheres.\nNumber of blood spheres you can create will increase based on your Cursed Energy Level.\nIf you have no blood spheres left, then you can create more by using <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/>, or <img id=\"CursedEnergyAttack_2\"/>."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Death Painting Wombs"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "This move will temporarily reduce opponent's speed on hit if using poisonous blood.\nDegree of speed reduction depends on Cursed Energy Level."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "A close-range attacker who commands her crows to attack and defend her while also using allies to help her fight.\n\n• Her Cursed Energy Technique \"Black Bird Manipulation\" can be used not only to automatically block attacks, but also to make her crows assault enemies. Make constant use of her crows to keep the battle in your favor.\n• Her Potential \"A Life Practically Embodying Service\" boosts her powers the more others work together with her. This effect lasts throughout the battle, so aim to work with others as much as possible."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Triple Slice"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of axe blows.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Back Axe Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "A close-range attack that will guide you to the enemy to launch them with the back of your axe.\nThis attack cannot be blocked with a guard.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Launching Follow-Up Attack"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Guides you to the enemy to perform a close-range axe attack that will launch them upward.\nPress again to perform a follow-up attack and send them flying.\nCan chain into a downward thrust from first stage.\nCan chain into Black Bird Manipulation from second stage."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Downward Thrust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "A close-range attack in which you jump up and plummet down diagonally, axe-first.\nWhen performed in midair, you will drop down on the spot.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Midair Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "A close-range attack that guides you to the enemy to launch them into the air with your axe before striking them back down to the ground.\nRepeating the input can be used to send the enemy flying.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Trampling Leap"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "A close-range attack that allows you to trample the enemy before leaping high into the air.\nThis attack can be chained into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Spinning Slash/Downward Slash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "A close-range attack that allows you to dash while wielding your axe, which can then chain into other attacks by repeating the input.\nCan move in any direction while dashing.\n<img id=\"CursedEnergyAttack_1\"/>\nSwing the axe around and attack while spinning.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nLeap high into the air, then come back down while bringing down your axe in a powerful blow.\nCan be activated immediately from a normal stance.\n\nCursed Energy Level 2: Increases dash speed. Increases dash duration. Increases damage dealt.\nCursed Energy Level 3: Further increases dash speed. Further increases dash duration. Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Black Bird Manipulation"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Summon a murder of crows around you.\nThe birds will trail you and protect you from exactly 1 enemy attack.\nUpon successfully blocking an attack, the crows will vanish.\nRepeated input will allow you to target the enemy and direct the crows to attack them.\nCan move while directing crows to attack, as well as instruct crows while dashing when using Spinning Slash/Downward Slash.\nCursed Level 2: Increases damage dealt.\nCursed Level 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Midair Combo"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "This attack cannot be guarded against.\nLand a thrust with axe to activate.\nCan deal heavy damage by ramming into the enemy after forcing crows to sacrifice themselves, which removes any limits on Cursed Energy."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "A life practically embodying service potential."
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "The following effects will be gained each time a set amount of Cooperation Bonuses activate:\nIncreased dash speed\nDecreased Dash Gauge consumption\nDecreased delay after a dash\nIncreased Cursed Energy recovery speed\nDecreased delay after a guard\nThe above will be effective throughout the battle.\nHas upper limit."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "The Fastest Sorcerer who employs high-risk, high-return Cursed Techniques to completely disorient his opponents.\n\n• His Potential, \"Projection Sorcery,\" induces high-speed movement from attack chains using his Cursed Technique.\nThis consumes Cursed Energy automatically and requires careful application; otherwise he will freeze up when he doesn't have enough.\n• His Cursed Energy Technique \"Projection Sorcery: Strike\" can be chained from Extraction Techniques <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> or <img id=\"NormalAttack_3\"/> by repeating the input.\nThe more times Projection Sorcery is triggered during a combo, the higher the damage."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Back Clash"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of blows.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Palm Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "A close-range attack that guides you to the enemy to unleash a palm strike.\nThis attack cannot be blocked with a guard.\nIf the enemy hit is not in a stagger state, they will freeze.\nTriggers a Joint Attack Chance if it lands while engaging in tag team combat."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Launching Blows"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "A close-range attack that guides you to the enemy to launch them into the air before striking them back down to the ground.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Piercing Blow"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "A close-range attack that will guide you to the enemy to unleash an uppercut while jumping.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Triple Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "A close-range attack that will guide you to the enemy to unleash a series of kicks.\nWhile attacking, repeating the input can be used to chain into a Cursed Energy Technique.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "Knockdown"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "A close-range attack that guides you to the enemy after leaping back to land a sharp kick.\nThis attack can chain into other moves."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Projection Sorcery: Strike"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Stand in place and use Projection Sorcery to guide you to the enemy and unleash a brutal, close-range attack.\nDash or jump while in the stance to move in any direction up to 2 times.\nUse a Combo Technique or Extraction Technique while in the stance or after moving to chain into other moves using Projection Sorcery.\nCan use immediately without getting into stance when chained from other moves.\nDamage dealt with Projection Sorcery changes only based on the number of times it has been used."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Projection Sorcery: Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "A close-range attack that guides you to the enemy with Projection Sorcery to freeze the opponent upon contact and deal a flurry of attacks.\nRepeated input at the right time can be used to chain into other moves.\nIf the technique fails, you will temporarily freeze.\nCursed Energy 2: Increases damage dealt.\nCursed Energy 3: Further increases damage dealt."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Projection Sorcery."
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "This attack cannot be guarded against.\nActivated by successfully rushing the enemy.\nUse Projection Sorcery to build up your speed and deal massive damage with a swift barrage of attacks."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Projection Sorcery"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Activates when chained into other moves while attacking.\nAutomatically uses Cursed Energy to move you to the enemy with Projection Sorcery instead of guiding you.\nAll moves performed from Projection Sorcery are single-hit attacks.\nIf lacking sufficient Cursed Energy, the technique will fail and you will temporarily freeze.\nFurther damage can be dealt by using Projection Sorcery to create multiple attack chains."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Secret Art: Falling Blossom Emotion!"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "When the opponent is actively expanding their Domain, your guard will turn into Falling Blossom Emotion. This continuously consumes Cursed Energy to counter the Domain and protect you. You will be immune from knock back and Guard Break. If you lack sufficient Cursed Energy, you will just perform a normal guard instead."
+      }
+    }
+  }
+]

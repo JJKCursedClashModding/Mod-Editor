@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Ja",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "優秀なフィジカルを発揮する潜在能力が特徴の近接パンチャー\n用途に合わせた攻撃を選ぶことで、近距離戦闘で優位を保ち続け敵を<GLO=GLS_GAME_WORDS_1418>する\n\n・潜在能力“ギアアップ”は<GLO=GLS_GAME_WORDS_1401>が上昇するほど<GLO=GLS_GAME_WORDS_1405>しやすくなる\n　果敢に敵の懐に潜り込み、近距離戦を挑もう\n・<GLO=GLS_GAME_WORDS_1307>は隙を突きやすい“逕庭拳”をベースに狙い、ここぞの時には“連撃殴打”で大ダメージを狙おう！"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "連続格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で打撃を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "アッパー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "回し蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "前方へ横に衝撃波を発生させる近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "蹴り下ろし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "前方へ縦に衝撃波を発生させる近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "飛び蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "勢いよく飛び蹴りを繰り出す近距離攻撃\n攻撃中は<GLO=GLS_GAME_WORDS_1509>になる"
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "礫飛ばし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "岩を蹴り砕き礫を飛ばす遠距離攻撃\nヒットした敵の移動を遅くさせる"
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "逕庭拳／黒閃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n一度の打撃で二度の衝撃を与える近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n<GLO=GLS_GAME_WORDS_1401>３で「黒閃」に変化\n渾身の一撃で大ダメージを与える近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない"
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "連撃殴打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "連続回し蹴りから繋げる近距離攻撃\n<GLO=GLS_GAME_WORDS_1401>によって攻撃回数が変化する\n【<GLO=GLS_GAME_WORDS_1401>２】\n追加で５連続の殴打\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に追加で豪快な右ストレート"
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "逕庭拳"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n体当たりをヒットさせることで発動する\n極度の集中状態で４連続の黒閃を放ち大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "ギアアップ"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>の上昇によって段階的に発動\n<GLO=GLS_GAME_WORDS_1405>前後の硬直減少\n<GLO=GLS_GAME_WORDS_1504>消費量減少"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "敵、味方関係なく、無差別に攻撃を行う広範囲近接アタッカー\n強烈な攻撃は味方をも吹き飛ばしてしまうが、傍若無人に暴れまわることができる\n攻撃の隙が大きいが、<GLO=GLS_GAME_WORDS_1424>が付与されるので、立ち回りや攻撃チャンスをしっかり見極めよう\n\n・潜在能力“反転術式”はダメージを受けても、反撃することで<GLO=GLS_GAME_WORDS_1819>ができるため、積極的に攻撃をしよう\n・<GLO=GLS_GAME_WORDS_1401>３から発動する潜在能力“威圧”は攻撃発生時に周囲の相手の動きを止めることができる\n　相手の行動を阻止して強力な一撃に繋げよう！"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "薙ぎ払い"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "前方を強烈に薙ぎ払う近距離攻撃\n攻撃前は<GLO=GLS_GAME_WORDS_1424>になる\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "右正拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "敵へ瞬時に移動し、正拳突きを放つ\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "踵落とし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、地面に叩き落とす近距離攻撃\n敵の落下地点に衝撃波が発生する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "震脚"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "足で地面を蹴り、衝撃波を発生させる近距離攻撃\n空中で行うと、高速で落下する\n攻撃中は<GLO=GLS_GAME_WORDS_1424>になる"
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "叩き飛ばし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "敵へ瞬時に移動し、片手で叩き飛ばす\n【<GLO=GLS_GAME_WORDS_1401>３】\n攻撃前に「威圧」が発動する"
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "鉄槌"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "敵へ瞬時に移動し、背後から殴りつける\n【<GLO=GLS_GAME_WORDS_1401>３】\n攻撃前に「威圧」が発動する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "裏拳／解"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n裏拳による近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1401>２以上で「解」に変化\n目の前に敵を切り刻む斬撃を発生させる近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>３】\n斬撃の回数が増える"
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "蹴り／「<img id=\"Symbol_0002\"/>」「開」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>１】\n蹴りによる近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1401>２以上で「<img id=\"Symbol_0002\"/>」「開」に変化\n炎の矢を構え、巨大な渦として撃ち出す遠距離攻撃\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>３】\n攻撃範囲が広がり、与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "捌"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n巨大な斬撃をヒットさせることで発動する\n領域を展開し、対象全てに斬撃を絶え間なく浴びせ大ダメージを与える\n領域が閉じると一定時間<GLO=GLS_GAME_WORDS_1307>が体術に変化する"
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "反転術式"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>２以上で発動\n敵にダメージを与えると、直前に受けたダメージの一部を<GLO=GLS_GAME_WORDS_1819>する"
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "威圧"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>３で発動\n特定の攻撃発生時に周囲を威圧し、一定時間行動不能にする"
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "呪いの王"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "特定の攻撃中、<GLO=GLS_GAME_WORDS_1424>になる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "式神とのコンビネーションで畳み掛ける近接コンボアタッカー\n状況に合わせて式神を使い分けることで、攻めも補助も万能に対応できる\n\n・“十種影法術”で鵺または渾を召喚することで、式神による追撃が発生する\n　式神に命令すれば式神単体での攻撃も可能、離れた敵に攻撃を仕掛けよう！\n・潜在能力“術式の解釈”が発動すると式神による反撃ができるので、積極的に攻め込もう！"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "二連回し蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で蹴りつける近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\n式神召喚中は式神の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "蹴り上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "跳び二連攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で打撃を放つ近距離攻撃\n<GLO=GLS_GAME_WORDS_1406>攻撃中は<GLO=GLS_GAME_WORDS_1509>になる"
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "空中回し蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nヒット時、打ち上げた敵を回し蹴りで叩き落とす\n式神召喚中は式神の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "蝦蟇：打ち上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "蝦蟇を召喚し、前方広範囲を舌で振り払う\nヒット時、敵を真上に打ち上げる\nこの攻撃は別の技への派生が可能\n式神召喚中は式神の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "蝦蟇：引き寄せ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "蝦蟇を召喚し、一直線に舌を伸ばす\nヒット時、敵を引き寄せる\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "十種影法術"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "影を媒体として式神を召喚し、共に行動する\n式神召喚中は、<GLO=GLS_GAME_WORDS_1503>を継続消費する\n式神は伏黒の攻撃に合わせて自動で追撃を行う\n召喚中に<img id=\"CursedEnergyAttack_1\"/>を入力することで<GLO=GLS_GAME_WORDS_1503>を消費して式神に攻撃命令を出すことができる\n攻撃命令中は移動操作ができる\n召喚中に<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>で解除できる\n消費する<GLO=GLS_GAME_WORDS_1503>が不足した場合は召喚が解除される\n【<GLO=GLS_GAME_WORDS_1401>１】\n<img id=\"CursedEnergyAttack_1\"/>で鵺を召喚する\n【<GLO=GLS_GAME_WORDS_1401>２】\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>で渾が召喚可能になる\n【<GLO=GLS_GAME_WORDS_1401>３】\n鵺による攻撃がヒットした敵の移動を遅くさせる\n渾が与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "式神連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "式神との連携攻撃を行う\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n式神を召喚していない場合、発動時に渾を召喚するようになる\n伏黒の攻撃後、式神による追撃が発生する\n【<GLO=GLS_GAME_WORDS_1401>３】　\n更に与えるダメージ上昇\n発動時、渾が敵の背後に回り込む"
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "式神共撃"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n後ろ回し蹴りをヒットさせることで発動する\n影の沼を広範囲に展開し、動きを封じた敵へ式神と連携攻撃を仕掛け大ダメージを与える\n領域が閉じると一定時間<GLO=GLS_GAME_WORDS_1307>が使用できなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "術式の解釈"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>３で発動\n伏黒が攻撃を受けている間も式神に命令することができる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "独特の攻撃方法である“<GLO=GLS_UNIQUE_WORDS_1004>、「共鳴り」”を敵に付与する中距離アタッカー\nマーキングを付与することでプレッシャーを与え、どれだけ戦闘の主導権を握れるかが鍵だ\n\n・“<GLO=GLS_UNIQUE_WORDS_1004>”は釘を撃ち込んだ後任意で起爆できる、<GLO=GLS_GAME_WORDS_1409>されにくいタイミングを狙おう\n・敵に距離を詰められても慌てず、“芻霊呪法「共鳴り」”や<GLO=GLS_GAME_WORDS_1302>で対処しよう\n\nマーキングをすればどの距離でも攻撃に関与できる、厄介さを存分に発揮して戦おう！"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "釘撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "敵へ連続で釘を放つ遠距離攻撃\n攻撃中は方向入力で移動ができる\nさらに攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "打ち上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "連続釘撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "敵へ連続で釘を放つ遠距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "広範囲釘撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "複数の釘を扇状に放つ中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "二段金槌攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、金槌による２連撃を放つ近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "大振り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "前方へ踏み込みながら金槌を大きく振り払う近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\n<GLO=GLS_GAME_WORDS_1503>を篭めた釘を放ち、ヒットした敵に簪効果を付与する\n長押し可能\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n簪を一斉に発動し、遠隔でダメージを与える\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "芻霊呪法「共鳴り」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n自身が直接攻撃することで敵の一部を奪い、共鳴り効果を付与する\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n共鳴りを発動し、遠隔でダメージを与える\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "釘連撃"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n<GLO=GLS_GAME_WORDS_1503>を篭めた釘をヒットさせることで発動する\n刺さった釘へ遠隔で<GLO=GLS_GAME_WORDS_1503>を流し込み、内側から炸裂させ大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "余命宣告"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "簪効果または共鳴り効果を付与している敵に攻撃を当てた際に得られる<GLO=GLS_GAME_WORDS_1503>が増加する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "規格外の術式と圧倒的な体術で場を支配する、特級オールラウンダー\n\n・<GLO=GLS_GAME_WORDS_1401>２から発動する潜在能力“無下限呪術”はあらゆる攻撃を無効化する\n　無限を現出し、一方的に暴れまわろう\n・逃げる敵は“術式順転「蒼」”で動きを封じ、向かってくる敵は“術式反転「赫」”で寄せ付けない\n　“<GLO=GLS_UNIQUE_WORDS_1017>”は全てを飲み込む大技だ\n・“<GLO=GLS_UNIQUE_WORDS_1005>”は発動後、<GLO=GLS_GAME_WORDS_1307>が特殊なものに変化する、勝負を決めてしまおう！"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "連続攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で打撃を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "膝蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "敵へ瞬時に移動し、打ち上げる\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "回し蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で打撃を放つ近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "叩き落とし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "敵へ瞬時に移動し、蹴り飛ばす\n攻撃中は追加入力で追撃し、叩き落とす\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "蹴り上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "敵へ<GLO=GLS_GAME_WORDS_1419>し、高く蹴り上げる近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "連続回し蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "敵へ瞬時に移動し、連続で蹴りつける\n攻撃中は追加入力で追撃し、蹴り落とす"
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "術式順転「蒼」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "負の力を強化した無下限呪術で、引き寄せる力を発生させる\n長押し可能\n<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>で任意の位置に設置可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n引き寄せ強化\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に引き寄せ強化\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "術式反転「赫」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "無下限の術式に正の力を流し込み、弾く力を発生させる\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n溜め時間短縮\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に溜め時間短縮\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>３】\n順転と反転の無限を衝突させ、巨大な仮想の質量を押し出す\n一直線に進み、敵を飲み込む\n長押し可能"
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "空中連撃"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "その場で構え、無下限の内側へ引き込む領域を展開する\n無限の情報を流し込まれた相手は、一定時間行動不能になる\n領域が閉じると一定時間<GLO=GLS_GAME_WORDS_1307>が体術に変化する"
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "六眼"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "常時発動\n相手の<GLO=GLS_GAME_WORDS_1503>ゲージを把握することができる"
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "無下限呪術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>２以上の時、一定時間<GLO=GLS_GAME_WORDS_1409>をすることで<GLO=GLS_GAME_WORDS_1503>ゲージを消費して発動可能\n自身の周囲に無限を現出し、一定回数攻撃を受け付けなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "浮遊"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>を長押しすることで浮遊できる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "素早い動きに加え、独自のコンボ組み立てができるスピードコンボアタッカー\n真希は<GLO=GLS_GAME_WORDS_1503>の代わりに、<GLO=GLS_GAME_WORDS_1506>を使用して強力な技を使用することができる\n\n・潜在能力“<GLO=GLS_GAME_WORDS_1511>”は攻撃を当て続けると移動速度などが上昇していく\n　敵に避ける隙を与えずに、畳み掛けるように攻撃を続けよう！\n・“攻防一体”では敵の攻撃を回避できる\n　更に、自身の攻撃をキャンセルして別の技へ繋げることも可能だ\n　オリジナルのコンボを編み出し敵を圧倒しよう！"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "大刀乱舞"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、大刀で斬り込む近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1310>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、蹴りつける近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "大刀連撃：薙ぎ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、大刀と蹴りによる素早い３連撃を繰り出す近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "大刀連撃：打ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、大刀を打ち下ろす近距離攻撃\n攻撃中は追加入力で追撃し、蹴り飛ばす"
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "暗器投げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "隠し持った暗器を投擲する遠距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "突き刺し"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、大刀で打ち上げる近距離攻撃\n攻撃中は追加入力で追撃し、地面に突き刺す"
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "攻防一体"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "回避アクションをして、敵の攻撃を躱す\n攻撃中に行うことでアクションをキャンセル可能\n立ち止まり、<GLO=GLS_GAME_WORDS_1405>状態であれば自動で発動する\n<img id=\"CursedEnergyAttack_1\"/>\nその場回避\n<img id=\"MoveLeft\"/>,<img id=\"MoveRight\"/>,<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n入力方向に<GLO=GLS_GAME_WORDS_1431>回避\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n前方へ宙返り\n【<GLO=GLS_GAME_WORDS_1508>２】\nモーション時間短縮\n【<GLO=GLS_GAME_WORDS_1508>３】\n更にモーション時間短縮"
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "大刀旋回"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "大刀を華麗に回しながら、踊るように連撃を繰り出す\n【<GLO=GLS_GAME_WORDS_1508>２】\n攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1508>３】\n更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "三連空撃"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n大刀の突きをヒットさせることで発動する\n特級<GLO=GLS_UNIQUE_WORDS_0008>「游雲」で何度も打撃を叩き込み大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "天与呪縛：フィジカルギフテッド"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>を持たない代わりに類稀な身体能力を有する"
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "敵に攻撃を当てることで溜まる専用のゲージを持つ\n<GLO=GLS_GAME_WORDS_1511>が上がると攻撃速度、移動速度、<GLO=GLS_GAME_WORDS_1431>の移動距離が上昇する\n一定時間経つとゲージは減少していく"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "軽やかな体術と強力な呪言で敵を翻弄する特殊アタッカー\n呪言によるプレッシャーを盾に立ち回ろう\n\n・呪言による攻撃は強力だが、使いすぎると自身もダメージを受けてしまう諸刃の剣だ\n　喉の状態が悪くなったら“のどナオール”を服用して<GLO=GLS_GAME_WORDS_1819>しよう\n・“「動くな」「捻れろ」”はカウンターで発動する強力な<GLO=GLS_GAME_WORDS_1307>、敵の行動を見極めて手痛い反撃を食らわせよう\n・呪言による<GLO=GLS_GAME_WORDS_1513>の消費は自身と相手のレベル差によって変化する\n　敵との<GLO=GLS_GAME_WORDS_1401>差をよく見て行動しよう！"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "蹴連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、多彩な打撃を打ち込む近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "旋風脚"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、身体を旋回させて蹴り飛ばす近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "前宙踵落とし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "真下へ落下しながら踵落としを連続でくり出す近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "のどナオール服用"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "のど薬を一気飲みし、喉の耐久力を<GLO=GLS_GAME_WORDS_1819>する\n行動中は移動操作ができる\n<GLO=GLS_GAME_WORDS_1405>不可"
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "体術乱舞／「ぶっとべ」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、飛び蹴りから畳み掛けるように連撃を繰り出す近距離攻撃\nこの攻撃は連撃途中に追加入力をすることで「ぶっとべ」へ派生可能\n「ぶっとべ」\n<GLO=GLS_GAME_WORDS_1503>を篭めた言霊を放ち、前方の敵を吹っ飛ばす中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "「止まれ」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>を篭めた言霊を放ち、敵の動きを止める中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "「堕ちろ」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>を篭めた言霊を放ち、前方の敵を真下へ堕とす中距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\nダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更にダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "「動くな」「捻れろ」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "身を守る構えをし、敵に攻撃されると呪言を放つ\n「動くな」で動きを止め、更に「捻れろ」でダメージを与える\n【<GLO=GLS_GAME_WORDS_1401>２】\nダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更にダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "「爆ぜろ」"
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n膝蹴りをヒットさせることで発動する\n「止まれ」で動きを止めた後、「潰れろ」により大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "呪言使い"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "呪言を使用すると、専用の<GLO=GLS_GAME_WORDS_1513>を消費する\n<GLO=GLS_GAME_WORDS_1513>の消費量は呪言が成立した相手と自身の<GLO=GLS_GAME_WORDS_1401>の差によって変動する\n<GLO=GLS_GAME_WORDS_1513>が少なくなると発動時の隙が大きくなり、自傷ダメージを負う"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "<GLO=GLS_NAME_CP_080>のように舞い、<GLO=GLS_NAME_CP_081>のように刺す、切り替え型近接ファイター\n<GLO=GLS_GAME_WORDS_1509>になる技は怯まなくなり中断されにくい、有効に活用しよう！\n\n・“<GLO=GLS_NAME_CP_081>モード”中は常に<GLO=GLS_GAME_WORDS_1509>になり、更に移動速度もアップする\n　多少の攻撃ではびくともしないので思う存分暴れよう！\n・“激震掌”によるダメージは防御不能！\n　<GLO=GLS_GAME_WORDS_1409>されても構わずガンガン攻めよう"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080>ワンツー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、鋭いパンチを繰り出す近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080>スイング"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080>トリプル"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "前に踏み込みながら３連続で拳を打ち込む近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080>クラッシュ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "両手を組み、真下へ落下しながら振り下ろす近距離攻撃\n相手を叩き落とし、地面に着地した衝撃で更に吹っ飛ばす"
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "<GLO=GLS_NAME_CP_080>ヒップ／<GLO=GLS_NAME_CP_081>アッパー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "後ろを向いてお尻を突き出す近距離攻撃\n攻撃中は<GLO=GLS_GAME_WORDS_1509>になる\n【<GLO=GLS_NAME_CP_081>モード】\n前進しながら両手を振り上げ吹っ飛ばす近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080>タックル"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "前方へ勢いよくタックルする近距離攻撃\n攻撃中は<GLO=GLS_GAME_WORDS_1509>になる"
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080>ラッシュ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "高速で何度も拳を叩き込んだ後、思い切り吹っ飛ばす\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": "<GLO=GLS_NAME_CP_081>モード"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "各レベルで<GLO=GLS_GAME_WORDS_1503>が最大の時に使用可能\n核を入れ替え、<GLO=GLS_NAME_CP_081>モードへ転換する\n常に怯み状態にならなくなり、全ての攻撃でダメージを与えることが可能になる\n<GLO=GLS_NAME_CP_081>モードでは「激震掌」が発動する\n継続的に<GLO=GLS_GAME_WORDS_1503>を消費し、０になると<GLO=GLS_NAME_CP_080>モードへ戻る"
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": "<GLO=GLS_NAME_CP_081>スマッシュ"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nアッパーがヒットすることで発動する\n<GLO=GLS_NAME_CP_081>モードで連撃を叩き込んだ後、思い切り投げ飛ばし大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "お姉ちゃん核身代わり"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "ピンチの時、１度だけ<GLO=GLS_GAME_WORDS_1502>が低下した状態で復活する"
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "激震掌"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_081>モード時の攻撃は<GLO=GLS_GAME_WORDS_1409>をされてもダメージを与えることができる\nこのダメージでトドメを刺すことはできない"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "テクニカルな術式でパワフルに攻め立てる、脱サラ一級術師\n技によってはタイミングよく追加入力すると“<GLO=GLS_UNIQUE_WORDS_1009>”が発動しクリティカルヒットになる\n威力が上がるので冷静に見極め渾身の一撃を叩き込もう！\n\n・<GLO=GLS_GAME_WORDS_1307>はコンパクトな“<GLO=GLS_UNIQUE_WORDS_1009>”か大ダメージの“四段コンボ格闘”か、状況に合わせて使い分けよう\n・残り時間が少なくなると潜在能力“<GLO=GLS_GAME_WORDS_1503>解放”が発動し、大幅にパワーアップする\n　残業は手早く済ませよう！"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "二段斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、鉈で２回斬りつける近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "打突"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、鉈を突き刺す近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "振り上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、鉈を大きく振り上げる近距離攻撃\nタイミングよく追加入力をすることでクリティカルヒットになる"
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "蹴り飛ばし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "回し蹴りを繰り出す近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "叩き割り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、思い切り鉈を振り下ろす近距離攻撃\nタイミングよく追加入力をすることでクリティカルヒットになる"
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "衝撃波攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "拳で地面を殴り衝撃波を発生させる近距離攻撃\n空中で行うと、高速で落下する"
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "７対３となる点を弱点とすることで大ダメージを与える近距離攻撃\n長押し可能\nタイミングよく追加入力をするとクリティカルヒットになる\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "四段コンボ格闘"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "鉈と拳に<GLO=GLS_GAME_WORDS_1503>を篭め連続で打ち込む近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>「瓦落瓦落」"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n体当たりをヒットさせることで発動する\n自身の術式により生み出した弱点を正確に斬り抜き、大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>解放"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>の残り時間が少なくなると発動\n<GLO=GLS_GAME_WORDS_1503>が自動で上昇する\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上昇\n<GLO=GLS_GAME_WORDS_1405>速度上昇\n<GLO=GLS_GAME_WORDS_1504>消費量減少"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "入れ替えで自在に流れを作り、拳で制す、ハイセンス<GLO=GLS_NAME_CP_081>\n近接攻撃が多いが、“<GLO=GLS_UNIQUE_WORDS_1010>”で位置を入れ替えることで、距離を縮めたり、攻撃を避けることができる\n\n・“<GLO=GLS_UNIQUE_WORDS_1010>”はあらゆる対象の入れ替えが可能だ、上手く扱おう！\n・有り余るパワーから繰り出される攻撃は敵を吹き飛ばしてしまうが\n　“<GLO=GLS_UNIQUE_WORDS_1010>”で位置を変え、自分に向かって敵を吹き飛ばせば追撃をすることも可能だ！\n\n洗練された連携が不可欠だが、入れ替え次第で不利をも有利に変えられるぞ！"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "三段格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で打撃を放つ\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "蹴り上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "蹴り飛ばし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、素早いチョップから軽やかに蹴り飛ばす近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "ラリアット"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "一瞬溜めた後、ラリアットで前進する近距離攻撃\n攻撃中は<GLO=GLS_GAME_WORDS_1509>になる"
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "石投げ<GLO=GLS_UNIQUE_WORDS_1010>攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>を篭めた石を投げる遠距離攻撃\n敵にヒット時、石と位置を入れ替え瞬時に移動し、追撃する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "石投げ<GLO=GLS_UNIQUE_WORDS_1010>移動"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "任意の方向に石を投げ、位置を入れ替え瞬時に移動する\n長押し可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "手を叩くことで一定範囲内の自身と他者、または他者と他者の位置を一瞬で入れ替える\n方向入力によって発動する対象を選択することができる\nこの攻撃は別の技への派生が可能\n<img id=\"CursedEnergyAttack_1\"/>\n自分と<GLO=GLS_GAME_WORDS_1417>を入れ替える\n<img id=\"MoveLeft\"/>,<img id=\"MoveRight\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n味方と敵を入れ替える\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n敵と敵を入れ替える\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n自分と味方を入れ替える\n【<GLO=GLS_GAME_WORDS_1401>２】\n発動の隙が減少\n【<GLO=GLS_GAME_WORDS_1401>３】\n発動の隙がさらに減少"
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "連撃殴打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "力を溜めて、強力な四連撃を放つ近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "天地割り"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nハイキックをヒットさせることで発動する\n蹴り飛ばした敵との位置を入れ替え、打ち返すように渾身の黒閃を放ち大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "術式の解禁"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>を使用することで一定時間以下の効果を得る\n移動速度上昇\n<GLO=GLS_GAME_WORDS_1504>消費量減少\nまた、この効果は<GLO=GLS_GAME_WORDS_1401>によって変動する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "味方が傷つくとキレて状況をひっくり返す近距離アタッカー\n\n・潜在能力“激情”はゲージが最大になると“<GLO=GLS_NAME_CN_040>”が顕現する\n　有り余る<GLO=GLS_GAME_WORDS_1503>と“<GLO=GLS_NAME_CN_040>”による強力な追撃で攻め立てよう！\n・“決意”で刀に<GLO=GLS_GAME_WORDS_1503>を込めると<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>でもダメージを与えることができる\n　一気に攻め立てて、更に“鋭気”で大ダメージを狙おう！"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "三段斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、刀で斬り込む近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "袈裟斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、刀で斬りつける近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "二段斬り下ろし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、２連続で斬りつける近距離攻撃\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "斬り払い"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "回転斬りで敵を吹き飛ばす近距離攻撃\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "飛び込み斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>をして接近し、空中で回転斬りを繰り出す近距離攻撃\nこの攻撃は別の技への派生が可能\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "滑り込み斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "スライディングで接近し斬り上げる近距離攻撃\nこの攻撃は別の技への派生が可能\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "鋭気"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "敵に高速で接近し、連続で斬りつける\n激情時は<GLO=GLS_NAME_CN_040>による追撃が発生する\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "決意"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "刀に<GLO=GLS_GAME_WORDS_1503>を篭め、攻撃の性能を強化する\n更に全ての攻撃でダメージを与えることが可能になる\n継続的に<GLO=GLS_GAME_WORDS_1503>を消費し、再度入力をするか<GLO=GLS_GAME_WORDS_1503>が０になると解除される"
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "黒閃"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n左拳による殴打をヒットさせることで発動する\n制限を解除し、<GLO=GLS_NAME_CN_040>を介して膨大な<GLO=GLS_GAME_WORDS_1503>を放ち大ダメージを与える\n発動後、その戦闘では<GLO=GLS_NAME_CN_040>が顕現しなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "激情"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "味方の被ダメージや<GLO=GLS_GAME_WORDS_1429>で貯まる専用のゲージを持つ\nゲージが最大になると<GLO=GLS_NAME_CN_040>が顕現し、乙骨と共に攻撃する\n乙骨が攻撃を受けた際に<img id=\"NormalAttack_1\"/>,<img id=\"NormalAttack_2\"/>,<img id=\"NormalAttack_3\"/>,<img id=\"CursedEnergyAttack_1\"/>,<img id=\"CursedEnergyAttack_2\"/>いずれかを入力することでゲージを消費して<GLO=GLS_NAME_CN_040>によるカウンター攻撃が発生する\n乙骨が<GLO=GLS_GAME_WORDS_1409>中に攻撃を受けるとゲージを消費して<GLO=GLS_NAME_CN_040>によるカウンター攻撃が発生する\n<GLO=GLS_NAME_CN_040>が顕現している間は<GLO=GLS_GAME_WORDS_1401>が最大になる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "“<GLO=GLS_UNIQUE_WORDS_0002>操術”による手数の多さで相手を翻弄する中距離アタッカー\n対応力の高い<GLO=GLS_GAME_WORDS_1302>から、ダメージを与える<GLO=GLS_GAME_WORDS_1307>に派生できる特級性能で敵を圧倒しよう\n\n・“<GLO=GLS_UNIQUE_WORDS_0002>操術：一群”は、発生が早く複数の<GLO=GLS_UNIQUE_WORDS_0002>を前方へ放ち、敵を巻き込みながら直進する\n・“<GLO=GLS_UNIQUE_WORDS_0002>操術：光柱”は、発生が遅いが上空に逃げ場のない範囲攻撃で、敵をまとめて攻撃できる\n\n場面に応じて使用する<GLO=GLS_GAME_WORDS_1307>を出し分けて敵を制圧しよう！"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "複数の<GLO=GLS_UNIQUE_WORDS_0002>を連続で召喚し突進させる中距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：<GLO=GLS_GAME_WORDS_1428>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>を召喚し<GLO=GLS_GAME_WORDS_1428>する中距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：引き寄せ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>を2体召喚し突進させる中距離攻撃\nヒット時に折り返し敵を引き寄せる\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：突進"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>を召喚し、敵を追いかけて攻撃させる中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "二段格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、跳び蹴りを繰り出す近距離攻撃\nヒット時に追撃し、右拳を打ち込み敵を叩き落とす\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：打ち上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "バック<GLO=GLS_GAME_WORDS_1431>をしながら足元から<GLO=GLS_UNIQUE_WORDS_0002>を召喚する近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：一群"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "取り込んだ<GLO=GLS_UNIQUE_WORDS_0002>２種を使役し攻撃する\n<img id=\"CursedEnergyAttack_1\"/>\n複数の<GLO=GLS_UNIQUE_WORDS_0002>を突進させる中距離攻撃\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n複数の<GLO=GLS_UNIQUE_WORDS_0002>を敵に向かって飛びかからせる近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、ヒット回数が増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、ヒット回数が増加"
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：光柱"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "準一級相当の<GLO=GLS_UNIQUE_WORDS_0002>を召喚し、敵のいる位置に光の柱を発生させ攻撃する\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "游雲　連撃"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術 極ノ番「うずまき」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n後ろ回し蹴りをヒットさせることで発動する\n<GLO=GLS_UNIQUE_WORDS_0002>操術により取り込んだ大量の<GLO=GLS_UNIQUE_WORDS_0002>を１つにして放ち大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "特級<GLO=GLS_UNIQUE_WORDS_0003>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>２以上で発動\n攻撃の硬直を<GLO=GLS_GAME_WORDS_1307>でキャンセルできる\n<GLO=GLS_GAME_WORDS_1401>が上がると更に早くキャンセルできる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "リーチのある攻撃で流れを作り、距離を詰めて敵の<GLO=GLS_GAME_WORDS_1502>を削る中距離ファイター\n身体を自在に変形させ、臨機応変に攻撃の距離をコントロールできる\n\n・潜在能力“無為転変”は敵に攻撃を当て続けると追加でダメージが与えられる、間髪入れずに攻撃を続けよう！\n　“<GLO=GLS_UNIQUE_WORDS_1013>”中は“無為転変”が大幅に強化されるぞ！\n・“大人しくしてもらおうか”で改造人間を出して、敵に遠隔攻撃をすることもできる\n　挟み撃ちにして、敵を倒そう！"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "変形攻撃：腕"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、変形させた腕で殴る近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "変形攻撃：トゲ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "身体を丸めて、全方位に針を伸ばす近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "連続攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、読みづらい動きで繰り出される近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "連続回転攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、腕を剣に変え斬り裂いた後巨大な手で吹き飛ばす近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "変形攻撃：ドリル"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "先端をドリルに変形させた腕を伸ばして貫く中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "変形攻撃：剣"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "腕を剣に変えて薙ぎ払う近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "大人しくしてもらおうか"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "ストックしている改造人間を召喚し敵を襲わせる\nヒットした敵にダメージを与え、移動を遅くする\nストックがない状態で発動すると嘔吐をし、ストックを補充する\n【<GLO=GLS_GAME_WORDS_1401>２】\n所持できるストック増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に所持できるストック増加"
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "「多重魂」「撥体」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "複数の魂を融合させることで魂の質量を高め、敵へと放つ\n改造人間のストックを全て消費する\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃範囲拡大\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃範囲拡大\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "無為転変"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "その場で構え、口の中で印を結び領域を展開する\n一定時間マップを変化させ、自身の攻撃を強化する\nさらに領域内の敵の<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度と、移動速度を低下させる\n領域が閉じると一定時間<GLO=GLS_GAME_WORDS_1307>が使用できなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "魂の本質"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "相手の攻撃を受けるとダメージ量に応じて<GLO=GLS_GAME_WORDS_1503>が増加する"
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "無為転変"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "自らの攻撃で一定回数触れると追加でダメージを与える\n一定時間経過すると回数はリセットされる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "戦場を駆け巡り、得意距離を押し付けながら戦う中～遠距離シューター\n\n・移動しながら行える<GLO=GLS_GAME_WORDS_1301>で仕掛け、隙をみて広範囲に攻撃可能な“<GLO=GLS_GAME_WORDS_1503>炎射”で敵を一掃しよう\n・“<GLO=GLS_UNIQUE_WORDS_1014>”を発動することで一定時間すべてのプレイヤーを領域に引きずり込む\n　領域内では自身のステータスや<GLO=GLS_GAME_WORDS_1307>が強化されるため圧倒的制圧力で敵を蹂躙しよう！"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "火球射撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "連続で小さな火球を飛ばす遠距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\n攻撃中に移動操作ができる"
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "圧縮火球射撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "両手で火球を放つ遠距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "火山顕現"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "敵の足元に炎を噴射する火山を発生させる遠距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "火山トラップ設置"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "火山発生エリアを指定の位置に設置する\n敵がエリアに侵入すると火山が現れ炎を噴射する"
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "火球連弾"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "その場で複数の火球を生成し、遅らせて発射する遠距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "火炎放射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "後方へ跳びながら火炎を放つ近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>炎射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "一直線に<GLO=GLS_GAME_WORDS_1503>を放ち焼き尽くす\n長押し可能\n発動中は<GLO=GLS_GAME_WORDS_1503>を継続的に消費する\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃範囲増加\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃範囲増加\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "燃／爆／極ノ番「隕」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "火球を放ち攻撃する\n【<GLO=GLS_GAME_WORDS_1401>２】\n火球が大きくなり与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n極ノ番「隕」に変化し着弾時に大爆発を引き起こす\n長押し可能"
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "火礫蟲"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "その場で構え、活火山の火口内部が如き灼熱の領域を展開する\n一定時間マップを変化させ、自身の<GLO=GLS_GAME_WORDS_1307>を強化する\nさらに領域内の敵に継続的にダメージを与え、移動性能を下げる\n領域が閉じると一定時間<GLO=GLS_GAME_WORDS_1307>が使用できなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>としての矜恃"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "自身の<GLO=GLS_GAME_WORDS_1502>が少なくなると発動\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上昇\n<GLO=GLS_GAME_WORDS_1307>のダメージ増加\nまた、この効果は<GLO=GLS_GAME_WORDS_1401>によって変動する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "地上で圧倒的な対応力をもった地上特化オールレンジアタッカー\n\n・“遠隔式樹木攻撃”は、離れた敵の足元に根を張って突き上げ攻撃ができる\n　積極的に不意打ちを狙おう！\n・“障壁樹木攻撃”は、自身の前に根の壁を出現させ付近の敵を吹き飛ばし、遠距離攻撃も防ぐことができる\n\n遠距離から牽制！中距離で吹き飛ばし！近距離はカウンター！\n攻撃を使い分けて、敵を近寄らせないようにしよう！"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "木毬攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "枝を伸ばし攻撃する木の毬を飛ばす中距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "木毬殴打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、木の毬を振り回す近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "範囲樹木攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "周囲の地面に木の根を張り巡らせる近距離攻撃\n空中で行うと落下する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "瞑想"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "瞑想を行い、<GLO=GLS_GAME_WORDS_1503>を溜める\n<GLO=GLS_GAME_WORDS_1401>が最大の場合、使用した<GLO=GLS_GAME_WORDS_1503>を回復する\n長押し可能\n空中で行うと落下する"
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "呪種飛ばし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "呪種を弾いて飛ばす遠距離攻撃\nヒットした敵の<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度を遅くする\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "呪種降雨"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "巨大な花を出現させ、呪種を一気に飛ばす遠距離攻撃\n飛ばした呪種は一定時間後に落下する\nヒットした敵の<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度を遅くする\n空中で行うと落下する"
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "遠隔式樹木攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "敵の真下から木の根を発生させ貫く\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n攻撃範囲拡張\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n更に攻撃範囲拡張"
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "障壁樹木攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "自身の前方に根の壁を生やし攻撃する\n空中で行うと落下する\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n壁の数が増え、高さが増す\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n更に高さが増す"
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "巨大樹木攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n周囲に花畑を展開し、ヒットさせることで発動する\n花畑により気が緩んだ敵を木の根で貫き、大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "左腕解放"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>を発動すると左腕を解放し以下の効果を得る\n<GLO=GLS_GAME_WORDS_1307>の発生時間短縮\n<GLO=GLS_GAME_WORDS_1503>の消費量低下"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "絶妙な兄弟コンビネーションと強力な<GLO=GLS_GAME_WORDS_1415>攻撃を持つ、遠隔コントロール型ファイター\n“<GLO=GLS_GAME_WORDS_1427>”は血液を浴びせてダメージを与える“極ノ番「翅王」”と血液をトリガーに<GLO=GLS_GAME_WORDS_1415>を与える“「朽」”を\n上手く使い分けることで、敵を自分達のペースに引きずり込むことができる\n\n・“<GLO=GLS_GAME_WORDS_1427>「朽」”は血液を浴びせる程、段階的に効果が上昇する\n　積極的に血を浴びせよう！\n・“<GLO=GLS_GAME_WORDS_1427>「朽」”を発動している間、<GLO=GLS_NAME_CN_260>は血液による攻撃ができなくなる\n　発動中は<GLO=GLS_NAME_CN_080>をいつも以上に頼りにしよう！\n\n兄弟の連携が<GLO=GLS_GAME_WORDS_1601>の要、常に意識して立ち回ろう！"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "３連続攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、２連続で殴りつける近距離攻撃\nヒット時、更に「翅王」で追撃し血液を付与する\n「朽」発動時は<GLO=GLS_NAME_CN_080>の追撃が発生する\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "中段蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、右脚で敵を蹴り上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "打ち上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、拳を振り上げ敵を打ち上げる近距離攻撃\nヒット時、更に「翅王」で追撃し血液を付与する\n「朽」発動時は<GLO=GLS_NAME_CN_080>の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "両手刀"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "前方へ踏み込み両手を振り下ろす近距離攻撃\nヒット時、更に「翅王」で追撃し血液を付与する\n「朽」発動時は<GLO=GLS_NAME_CN_080>の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "追い打ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、右腕を素早く突き出す近距離攻撃\nヒット時、<GLO=GLS_NAME_CN_080>の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "ダメ押し"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、右脚で蹴り上げる近距離攻撃\nヒット時、<GLO=GLS_NAME_CN_080>の追撃が発生する"
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "弟よ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "<GLO=GLS_NAME_CN_080>に指示を出し行動させる\n<GLO=GLS_NAME_CN_080>が<GLO=GLS_GAME_WORDS_1429>している間は指示を受け付けない\n<img id=\"CursedEnergyAttack_1\"/>\n血液を噴射し付与する\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n敵に<GLO=GLS_GAME_WORDS_1419>し、連続で攻撃する\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n<GLO=GLS_NAME_CN_260>の元へ戻る\n<GLO=GLS_GAME_WORDS_1503>を消費しない\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_NAME_CN_080>の移動速度上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に<GLO=GLS_NAME_CN_080>の移動速度上昇"
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "<GLO=GLS_GAME_WORDS_1427>　極ノ番「翅王」/「朽」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n<GLO=GLS_GAME_WORDS_1427>　極ノ番「翅王」を発動しヒットした敵にダメージを与え血液を付与する\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n<GLO=GLS_GAME_WORDS_1427>「朽」を発動し、血液を付与した敵の<GLO=GLS_GAME_WORDS_1405>性能を下げる\n発動中に血液を追加で付与することで敵に継続的にダメージを与える\n血液を追加で付与した状態で再度入力し解除することで、更にダメージを与える\n血液を追加で付与した回数が多いほど効果が上がる\n継続的に<GLO=GLS_GAME_WORDS_1503>を消費し、再度入力をするか<GLO=GLS_GAME_WORDS_1503>が０になると解除される\n「朽」発動中は「翅王」を発動できない\n【<GLO=GLS_GAME_WORDS_1401>２】\n「翅王」の攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n「翅王」攻撃回数が更に増加　長押し可能になる"
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "これが兄弟の力です"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n裏拳をヒットさせることで発動する\n<GLO=GLS_NAME_CN_080>と共に敵に血液を浴びせ、<GLO=GLS_GAME_WORDS_1427>「朽」を発動し大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "弟のために"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "<GLO=GLS_NAME_CN_080>が<GLO=GLS_GAME_WORDS_1429>していないとき、<GLO=GLS_NAME_CN_260>の攻撃の性能が上昇する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "どんな状況でも自分の有利な場面を作り出せる傍若無人の最強<GLO=GLS_UNIQUE_WORDS_0001>\n\n・その場に留まることで、あらゆる攻撃が当たらなくなる無下限呪術が発動\n・術式順転「蒼」は敵に一瞬で近づいたり、引き寄せることができる\n　敵の動きを自在にコントロールしよう\n・“術式順転「蒼」出力最大”は広範囲を薙ぎ払い戦況を一変させる大技\n　チャンスを見極め逆転の一手を繰り出そう！"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "蹴り連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、格闘攻撃を連続で行う近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "アッパー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、<GLO=GLS_GAME_WORDS_1515>中にこの攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "引き寄せ連脚"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "敵を引き寄せながら<GLO=GLS_GAME_WORDS_1419>し、敵を吹き飛ばす2連続攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "2連攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、素早い2連続攻撃を行う"
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "引き寄せ連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "敵を引き寄せながら<GLO=GLS_GAME_WORDS_1419>し、2連続攻撃で敵を吹き飛ばした後、再度引き寄せて追撃をする近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "急所攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、強力な一撃で敵を吹き飛ばす"
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "術式順転「蒼」連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "敵の目の前に高速で移動し、連撃をする近距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "術式順転「蒼」出力最大"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "出力最大で巨大な蒼を発生させ、敵を引き寄せつつ攻撃をする\n【<GLO=GLS_GAME_WORDS_1401>２】\nチャージ時間短縮\n【<GLO=GLS_GAME_WORDS_1401>３】\n更にチャージ時間短縮"
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "術式反転「赫」"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n膝蹴りをヒットさせることで発動する\n<GLO=GLS_UNIQUE_WORDS_1017>を放ち、相手を貫き大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1515>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "自身が1度<GLO=GLS_GAME_WORDS_1418>されると発動する\n一部の格闘攻撃の性能が上がり、“術式順転「蒼」出力最大”の性能も上昇する\n<GLO=GLS_GAME_WORDS_1315>が発動可能になる"
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "無下限呪術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "停止状態で一定時間経過すると発動する\n自身の周囲に無限を現出し、一定回数攻撃を受け付けなくなる"
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "六眼"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "常時発動\n相手の<GLO=GLS_GAME_WORDS_1503>ゲージを把握することができる\n<GLO=GLS_GAME_WORDS_1503>が徐々に上昇する"
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "浮遊"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>を長押しすることで浮遊できる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "優れた格闘センスと術式を併せ持つ若かりし特級<GLO=GLS_UNIQUE_WORDS_0001>\n\n・“<GLO=GLS_UNIQUE_WORDS_0002>操術:<GLO=GLS_NAME_CN_200>”は敵の攻撃に反応しカウンターが発生する簡易領域を展開！\n　敵の動きを制限して味方に有利な状況を作り出そう！\n・潜在能力「<GLO=GLS_UNIQUE_WORDS_0002>操術」は<GLO=GLS_UNIQUE_WORDS_0002>による攻撃で自身の<GLO=GLS_GAME_WORDS_1503>が<GLO=GLS_GAME_WORDS_1819>する\n　攻撃を当て続けて継続的にダメージを伸ばそう！"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "四段格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、格闘攻撃を連続で行う近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：突進"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>を召喚し突進させる中距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "三段格闘攻撃：<GLO=GLS_UNIQUE_WORDS_0002>追撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、３連続で攻撃を行った後に<GLO=GLS_UNIQUE_WORDS_0002>を召喚して敵を突き上げる近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "二段格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、素早い２連続攻撃を行う\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "二段格闘攻撃：<GLO=GLS_UNIQUE_WORDS_0002>追撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、２連続で攻撃を行った後に<GLO=GLS_UNIQUE_WORDS_0002>を召喚して敵を吹き飛ばす近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>射撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "小型<GLO=GLS_UNIQUE_WORDS_0002>を連続で３体発射する中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：連弾"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "小型<GLO=GLS_UNIQUE_WORDS_0002>を出し分けて攻撃する\n<img id=\"CursedEnergyAttack_1\"/>\n複数の小型<GLO=GLS_UNIQUE_WORDS_0002>に敵を追わせる中距離攻撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、ヒット回数が増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、ヒット回数が増加\n<SplitCommand>\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n無数の小型<GLO=GLS_UNIQUE_WORDS_0002>を連射する遠距離攻撃\n長押し可能\n発動中は<GLO=GLS_GAME_WORDS_1503>を継続的に消費する\n【<GLO=GLS_GAME_WORDS_1401>２】\n召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、広範囲に攻撃できる\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に召喚する<GLO=GLS_UNIQUE_WORDS_0002>の数が増え、より広範囲に攻撃できる"
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：<GLO=GLS_NAME_CN_200>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "<GLO=GLS_NAME_CN_200>を召喚し、簡易領域を展開する\n領域内で攻撃を行った敵を無数の鋏によって切り刻む\n継続的に呪力を消費し、再度入力をするか呪力が０になると解除される\n【<GLO=GLS_GAME_WORDS_1401>２】\n攻撃回数増加、領域の範囲拡大\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に攻撃回数増加、領域の範囲拡大"
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術「<GLO=GLS_NAME_CN_200>」"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n肘打ちをヒットさせることで発動する\n手持ちの<GLO=GLS_UNIQUE_WORDS_0002>で最高硬度の<GLO=GLS_NAME_CN_190>を敵に突進させ大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>による攻撃がヒットする度に自身の<GLO=GLS_GAME_WORDS_1503>を一定量<GLO=GLS_GAME_WORDS_1819>する\n呪力回復量は呪霊に応じて異なる\nまた、この効果は<GLO=GLS_GAME_WORDS_1401>によって変動する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "遠距離から射撃で援護する、不意打ちを得意とする完全遠距離アタッカー\n\n・“狙い撃ち”は<GLO=GLS_GAME_WORDS_1503>を込めた弾丸を任意の方向へ射撃することが可能\n　よく狙って強力な一撃をお見舞いしよう\n・チャンスを逃さないよう、隙を見てこまめにリロードしよう\n・自分を狙っていない敵に攻撃をすると威力や<GLO=GLS_GAME_WORDS_1503>増加量が上昇する\n　敵の狙いに注意して有利に立ち回ろう！"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "単発射撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "弾丸を1発消費して敵に射撃をする遠距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\n弾丸が空の場合リロードする"
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "しゃがみ撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "その場でしゃがみ、弾丸を1発消費して敵を射撃する遠距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる\n弾丸が空の場合リロードする"
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "連続射撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "<img id=\"NormalAttack_2\"/>を連続で入力することで、入っている弾丸を素早く撃ちきることができる連続攻撃\n弾丸が空の場合リロードする"
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "蹴り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、回し蹴りで敵を吹っ飛ばす近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "目潰し"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "その場で砂を撒き、当たった敵を怯ませる近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "二連打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、2連続で殴りつける近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "狙い撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "その場で敵に狙いを定め、<GLO=GLS_GAME_WORDS_1503>を込めた弾丸を放つ遠距離攻撃\n専用の照準を<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>で操作して、肩越し視点で狙い撃ちをすることができる\nこの状態では<GLO=GLS_GAME_WORDS_1503>を消費して、<img id=\"NormalAttack_1\"/>,<img id=\"NormalAttack_2\"/>,<img id=\"CursedEnergyAttack_2\"/>により異なる射撃が可能\n弾丸が空の場合リロードする\n【<GLO=GLS_GAME_WORDS_1401>１】\n<img id=\"NormalAttack_1\"/>：消費<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"CursedEnergyAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>1\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n<img id=\"NormalAttack_1\"/>：消費<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>2\n<img id=\"CursedEnergyAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>2\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n<img id=\"NormalAttack_1\"/>：消費<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>3\n<img id=\"CursedEnergyAttack_2\"/>：消費<GLO=GLS_GAME_WORDS_1503>3"
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "溜め撃ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "弾丸に<GLO=GLS_GAME_WORDS_1503>を込め、強力な一撃を発射する遠距離攻撃\n長押し可能\n溜め中は移動操作が可能\n<GLO=GLS_GAME_WORDS_1405>不可\n溜めた時間に応じて、ダメージが上昇する\n最大まで溜めると貫通する\n弾丸が空の場合リロードする\n【<GLO=GLS_GAME_WORDS_1401>２】\n溜め時間短縮\nダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に溜め時間短縮\n更にダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "リロード"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "弾丸を補充する\nリロード中は移動操作が可能"
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "よかった、当たって"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n弾丸が空の場合リロードする\n弾丸を1発消費して射撃し、ヒットさせることで発動する\n弾丸を6発撃ちきった後、<GLO=GLS_UNIQUE_WORDS_1020>で7発目を撃ち、敵に大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "距離とるとかバカじゃない？"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "自分にターゲットが向いていない敵を攻撃すると攻撃力、<GLO=GLS_GAME_WORDS_1503>増加量が上がる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "他の追随を許さない空中移動で敵を撹乱する飛行アタッカー\n\n・攻撃しつつ高速移動が可能な“突進”で敵のペースを崩し、\n　隙を見て“付喪操術「鎌異断」”で大ダメージを与えよう！\n・潜在能力「付喪操術」でフィールドを立体的に活用し、\n　どこからでも攻撃を仕掛けられる機動力を生かそう！"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "箒振り払い"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、箒で叩きつける近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "旋風"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "前方に進む旋風を発生させる中距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "急襲攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "急降下して敵へ突進する近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "垂直落下"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "その場で垂直落下する\n長押し可能\n移動後は別の技、または<GLO=GLS_GAME_WORDS_1405>への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "風起こし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "風を巻き起こし敵に放つ中距離射撃\n着弾時に風が広がり敵を打ち上げる"
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "突風"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "その場で箒を薙ぎ払い風を巻き起こす近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "突進"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "箒に乗って勢いよく突進する\n突進中は<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>で曲がることができる\n攻撃後は自身の移動速度が上昇し、風で攻撃する捻出技が強化される\n長押し可能\n攻撃後に<GLO=GLS_GAME_WORDS_1405>への派生が可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n付与されるバフの効果上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n付与されるバフの効果上昇"
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "鎌異断を発生させ敵へ放つ遠距離射撃\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "さっさと捕まえてみろよ"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n箒に乗ったまま蹴りつけ、ヒットさせることで発動する\n敵を逃げ場のない空中へ吹き飛ばした後、<GLO=GLS_UNIQUE_WORDS_1021>を放ち大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "付喪操術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "箒に乗り飛行する\n<GLO=GLS_GAME_WORDS_1406>を長押しすることで上昇し続ける\n空中では滑空状態となり、<GLO=GLS_GAME_WORDS_1504>が<GLO=GLS_GAME_WORDS_1819>する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "弓術と赤血操術による多彩な攻撃で敵を追い詰める、遠距離アタッカー\n\n・弓矢による様々な攻撃で隙を生み出し、大技の赤血操術に繋げよう\n・赤血操術「苅祓」は動いている敵にも当てやすく、着実にダメージを狙っていける\n・赤血操術「百斂/穿血」は、溜めるほど射程と威力が上がり敵を一気に貫くことができる\n　冷静に相手の動きを見て、狙いすました一撃で決着を付けよう！"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "呪力矢：連射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "敵へ連続で矢を放つ遠距離攻撃\n攻撃中は追加入力で、呪力技へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "呪力矢：単射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "弓を強く引き絞り、矢を放つ遠距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "呪力矢：縦射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "射程と弾速がある矢を直線上に放つ遠距離攻撃\n長押し可能"
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "呪力矢：曲射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "射程範囲内にいる敵の周りを狙って、\n複数の矢を降らせる遠距離攻撃\n長押しすることで、指定の位置に攻撃できる\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "呪力矢：横射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "３方向に矢を放つ遠距離攻撃\n溜めることで赤血操術により、敵に<GLO=GLS_GAME_WORDS_1419>する矢を放つことができる\n長押し可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "赤血操術「赤縛」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "その場で構え、敵に攻撃されると血液パックを敵に投げる\n血液パックが敵に当たると、血液が絡みつき敵の動きを止めることができる"
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "赤血操術「苅祓」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "血液を円盤状に圧縮し、回転させて投げる、<GLO=GLS_GAME_WORDS_1419>性能が高い遠距離攻撃\n<GLO=GLS_GAME_WORDS_1401>に応じて、発射される数が増える \n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n発射数増加\n<GLO=GLS_GAME_WORDS_1516>消費量増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に発射数増加\n更に<GLO=GLS_GAME_WORDS_1516>消費量増加"
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "赤血操術「百斂/穿血」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "血液を圧縮し、一直線に超高速で発射する遠距離攻撃\n溜め段階に応じて射程距離と与えるダメージが上昇する\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n溜め段階増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に溜め段階増加"
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "赤血操術「赤鱗躍動」"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n敵に矢をヒットさせることで発動する\n敵を矢で攻撃した後、穿血を放ち大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "血液パック"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "赤血操術を使用すると、各技に応じた量で<GLO=GLS_GAME_WORDS_1516>を消費する\n<GLO=GLS_GAME_WORDS_1516>が空の状態で使用すると、体力が消費される\n<GLO=GLS_GAME_WORDS_1314>と<GLO=GLS_GAME_WORDS_1315>では消費しない"
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "次代当主の意地"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "体力が半分以下になると、<GLO=GLS_GAME_WORDS_1516>の消費量が減少する\n<GLO=GLS_GAME_WORDS_1516>が空の場合は、体力の消費量が減少する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "天与の肉体と異質な<GLO=GLS_UNIQUE_WORDS_0008>で敵を蹂躙する「術師殺し」\n\n・“高速移動”は攻撃のキャンセルと別の攻撃への派生が可能\n　攻撃後も追撃の手を緩めず畳み掛けよう\n・“天逆鉾：斬襲”は自身と相手の位置関係によって攻撃内容が変化する\n　“高速移動”と合わせてコンボを組み立てよう！"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "斬蹴撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、天逆鉾で斬りつける近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1310>へ派生可能"
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "強撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "前に踏み出し、思い切り殴りつける近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "刺突両断"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、天逆鉾で突きを放つ近距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "刺突下降"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "前方に跳び上がった後、天逆鉾を突き立てながら落下する近距離攻撃\n相手を巻き込みながら落下し、着地と同時に吹っ飛ばす"
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "高速移動"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1504>を消費し、高速で移動する\n移動後は追加入力で、更に移動することができる\n別の技の硬直からこの技へ派生することができ、一部の技は<GLO=GLS_GAME_WORDS_1419>中に派生することができる\n移動後は別の技への派生が可能\n<img id=\"NormalAttack_3\"/>\n相手の方向へ移動する\n<img id=\"MoveLeft\"/>,<img id=\"MoveRight\"/>＋<img id=\"NormalAttack_3\"/>\n斜め前方向へ移動する\n<img id=\"MoveUp\"/>＋<img id=\"NormalAttack_3\"/>\n前方へ移動する"
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "居合"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "その場で構え、目の前を天逆鉾で斬りつける\n構えている間、敵に攻撃されるとその瞬間に反撃する"
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "天逆鉾：斬襲"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "天逆鉾による強烈な一撃\n自身の向きに対する相手の位置によって異なる攻撃を行う\n【<GLO=GLS_GAME_WORDS_1508>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1508>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "天逆鉾：斬裂"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "天逆鉾による神速の連撃\n長押し可能\n【<GLO=GLS_GAME_WORDS_1508>２】\n攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1508>３】\n更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0008>連撃"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n天逆鉾による突きをヒットさせることで発動する\n万里ノ鎖と天逆鉾を連結させ、目にも止まらぬ連撃で大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "術師殺し"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "自身の攻撃でトドメを刺すと、<GLO=GLS_GAME_WORDS_1508>が上昇し、一定時間<GLO=GLS_GAME_WORDS_1504>消費量が減少する\n<GLO=GLS_GAME_WORDS_1508>が既に最大の場合、<GLO=GLS_GAME_WORDS_1506>ゲージが<GLO=GLS_GAME_WORDS_1819>する"
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "天与呪縛：フィジカルギフテッド"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>を全く持たない代わりに稀有な身体能力を有する\n空中<GLO=GLS_GAME_WORDS_1406>の回数が多い"
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "天逆鉾"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "天逆鉾による攻撃は敵の術式を強制的に解除させる"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "抜刀術を使いこなし、神速の斬撃で敵を一刀両断する近距離アタッカー\n\n・潜在能力“シン・陰流 「抜刀」”により、納刀状態から繰り出される攻撃は発生が早く強力になる\n　できるだけ納刀状態で立ち回り、常に先手を取れるようにしよう\n・“シン・陰流 簡易領域”は領域内に入った者を全自動反射で迎撃し大ダメージを与える\n　自分から攻めたいときは呪力技“シン・陰流「抜刀」”で一気に距離を詰め攻撃しよう"
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "袈裟斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、袈裟斬りを行う近距離攻撃\nヒット時は自動で追撃し、納刀状態へ移行する\n更に追加入力で、呪力技へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "打ち上げ斬り"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げながら斬り抜ける近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "斬り払い"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、斬り払う近距離攻撃\nヒット時は蹴り飛ばし、納刀状態へ移行する"
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "斬り抜き"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "その場で納刀してから敵に<GLO=GLS_GAME_WORDS_1419>し、2度斬り込む近距離攻撃\n納刀状態の場合、即座に2度斬り込む\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "納刀/居合斬撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【抜刀状態】\nその場で納刀状態へ移行する\n【納刀状態】\n前方へ瞬時に居合い斬りを放つ近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "納刀回避"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "入力方向へ回避しながら納刀する\n納刀状態であれば回避のみ行う\n回避後は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "シン・陰流「抜刀」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "その場で納刀してから敵に<GLO=GLS_GAME_WORDS_1419>し、渾身の居合を放つ近距離攻撃\n納刀状態の場合、即座に攻撃をする\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n攻撃範囲拡張\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n更に攻撃範囲拡張"
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "その場で納刀し、簡易領域を展開する\n納刀状態の場合、納刀モーションを省略する\n領域内に敵が侵入すると自動で迎撃する\n領域外から攻撃を受けた場合は自動で受け流す\n簡易領域の展開中に「納刀回避」へ派生が可能\n長押し可能\n空中で行うと落下する\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n領域の範囲拡張\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇\n領域の範囲拡張"
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n斬り上げをヒットさせることで発動する\n簡易領域を展開し、領域内に侵入した敵へ全自動反射で迎撃し大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "シン・陰流「抜刀」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "特定の攻撃を行うと納刀状態になる\n納刀状態では一部の攻撃準備動作を省略し、一部の攻撃の<GLO=GLS_GAME_WORDS_1419>が強化される\n納刀状態で<GLO=GLS_GAME_WORDS_1409>をするか攻撃を受け吹っ飛ばされると抜刀状態になる\n<GLO=GLS_GAME_WORDS_1410>をすると納刀状態を継続する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "天与呪縛により驚異的な<GLO=GLS_GAME_WORDS_1503>出力を与えられた高火力アタッカー\n\n・潜在能力”天与呪縛”は<GLO=GLS_GAME_WORDS_1401>の制限を受けずに<GLO=GLS_GAME_WORDS_1307>を発動することができる\n　<GLO=GLS_GAME_WORDS_1813>開始直後から高いダメージを出せる特性を生かして試合を優位に運ぼう！\n・機動力の高い<GLO=GLS_GAME_WORDS_1302>で、戦場を駆け回り敵を翻弄しよう"
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "連続格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、格闘攻撃を連続で行う近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "推力加算掌底"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "ジェット噴射で加速して敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "広範囲「大祓砲」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "左掌から放つ大祓砲で広範囲を焼き払う、中距離攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "刀源解放「剣山盾」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "右腕を剣山の様に変形させてその場で構える\n構えている間に攻撃されると、剣山盾で反撃する\n反撃がヒットすると敵をひるませる"
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "推力加算2段格闘"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "ジェット噴射で加速して敵に<GLO=GLS_GAME_WORDS_1419>し、2連続で蹴りつける近距離攻撃\nオーバーヒート状態の時は攻撃開始時の溜め時間が増加\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "推力加算アッパー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "ジェット噴射で加速して敵に<GLO=GLS_GAME_WORDS_1419>し、拳を勢いよく振り上げて打ち上げる近距離攻撃\nオーバーヒート状態の時は攻撃開始時の溜め時間が増加\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "刀源解放 推力加算 「絶技抉剔」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "右腕から刃を出し、高速回転させながらジェット噴射で敵に突進する\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n連続入力で攻撃回数増加\n【<GLO=GLS_GAME_WORDS_1401>３】\n連続入力で更に攻撃回数増加"
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "高出力「大祓砲」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "左掌から<GLO=GLS_GAME_WORDS_1503>を溜めて放つ遠距離攻撃\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "推力加算格闘攻撃"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n発射した弾をヒットさせることで発動する\n口から砲塔を出し、両手と共に放つ三重大祓砲で大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "天与呪縛"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "現在の<GLO=GLS_GAME_WORDS_1401>以上の性能で<GLO=GLS_GAME_WORDS_1307>を発動することができる\n<GLO=GLS_GAME_WORDS_1307>使用時に一定時間長押しすることで発動可能\n発動した性能とのレベル差に応じてオーバーヒート状態となり、移動速度低下、<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度の低下効果が付与される"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "血液を操作し、距離に捉われずダメージを出せる超攻撃型アタッカー\n\n・“赤血操術「赤鱗躍動」”は発動中に<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>でダメージを与えることができるようになる上、移動性能が大幅に上昇する\n　敵との距離を一気に縮めて畳み掛けよう\n・“赤血操術「百斂・穿血」”は<GLO=GLS_GAME_WORDS_1401>３で発射後に左右に薙ぎ払うことができる\n　遠距離からまとめて敵を一掃しよう"
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "5段格闘コンボ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連続で殴打を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "アッパー"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "赤血操術「血刃」連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、2連続で素早く切り裂く近距離攻撃\n攻撃をヒットさせると、敵の移動速度を一定時間低下させる\n血液玉がある場合、与えるダメージと得られる<GLO=GLS_GAME_WORDS_1503>が上昇する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "2段格闘攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、血液を固めた重い攻撃で敵を吹き飛ばす近距離攻撃\n攻撃中は<GLO=GLS_GAME_WORDS_1423>になる\n血液玉がある場合、与えるダメージと得られる<GLO=GLS_GAME_WORDS_1503>が上昇する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "赤血操術「苅祓」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "血液を円盤状に圧縮し、回転させて投げる遠距離攻撃\n攻撃をヒットさせると、敵の移動速度を一定時間低下させる\n血液玉を１つ消費する\n血液玉がない状態では、新しい血液玉を生成する"
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "血液波状攻撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "血液の波を発生させ、多数の棘に変化させる近距離攻撃\n攻撃をヒットさせると、敵の移動速度を一定時間低下させる\n血液玉を１つ消費する\n血液玉がない状態では、新しい血液玉を生成する"
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "赤血操術「赤鱗躍動」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "体内の血中成分を操作し、身体能力を向上させる\n発動中は<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>でダメージを与えられるようになり、以下の効果を得る\n攻撃速度上昇\n<GLO=GLS_GAME_WORDS_1419>速度上昇\n<GLO=GLS_GAME_WORDS_1405>速度上昇\n<GLO=GLS_GAME_WORDS_1504>消費量減少\n<GLO=GLS_GAME_WORDS_1409>に与えるダメージ量上昇\n\n継続的に<GLO=GLS_GAME_WORDS_1503>を消費し、再度入力をするか<GLO=GLS_GAME_WORDS_1503>が０になると解除される"
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "赤血操術「百斂・穿血」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "血液を圧縮し、一直線に超高速で発射する遠距離攻撃\n溜め段階に応じて射程距離と与えるダメージが上昇する\n攻撃をヒットさせると、敵の移動速度を一定時間低下させる\n血液玉を１つ消費する\n血液玉がない状態では、新しい血液玉を生成する\n長押し可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n溜め時間短縮\n【<GLO=GLS_GAME_WORDS_1401>３】\n穿血発射後に<img id=\"MoveLeft\"/><img id=\"MoveRight\"/>で薙ぎ払いができるようになる"
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "赤血操術「赫鱗躍動・載」"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n後ろ蹴りをヒットさせることで発動する\n「百斂」で圧縮した血液を解放し、全方位散弾のように撃ち抜いて大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "血液玉"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "血液玉を複数生成した状態で行動可能\n一部の強力な攻撃では血液玉を消費する\n<GLO=GLS_GAME_WORDS_1401>に応じて、生成できる血液玉の数が増える\n血液玉がない状態では、<img id=\"NormalAttack_3\"/>,<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_3\"/>,<img id=\"CursedEnergyAttack_2\"/>で新しく血液玉を生成することができる\n"
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0004>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "毒性がある血液を使用した攻撃をヒットさせると、敵の移動速度を一定時間低下させる\n<GLO=GLS_GAME_WORDS_1401>に応じて、移動速度の低下率が変動する"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "攻防共に烏を使役しつつ、仲間も利用し戦う近距離アタッカー\n\n・呪力技“黒鳥操術”は攻撃を自動で防ぐ上、烏を突撃させることもできる\n　常に烏を従え、有利に立ち回ろう\n・潜在能力“用益潜在力そのものが命”により、連携をすればするほど冥冥が強化されていく\n　バトルの終わりまで効果が続くので、まずは積極的に連携を狙おう"
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "三連斬りつけ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、斧による連撃を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "峰打ち"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、峰打ちで打ち上げる近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "打ち上げ追撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、斧で打ち上げる近距離攻撃\n追加入力でさらに追撃し吹っ飛ばす\n1段目からは“落下突き”に派生が可能\n2段目からは“黒鳥操術”に派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "落下突き"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "その場で跳び上がり、斜め下へ斧を突き立てながら落下する近距離攻撃\n空中ではその場から落下する\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "空中叩きつけ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、斧で打ち上げてから叩き落とす近距離攻撃\n追加入力でさらに追撃し吹っ飛ばす\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "踏み跳び"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "敵を踏みつけて跳び上がる近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "回転斬り/振り下ろし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "斧を構えながら<GLO=GLS_GAME_WORDS_1405>し、追加入力で攻撃へ派生する近距離攻撃\n<GLO=GLS_GAME_WORDS_1405>中は任意の方向に移動が可能\n<img id=\"CursedEnergyAttack_1\"/>\n回転しながら斧を振り回し攻撃する\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n大きく跳び上がり、斧を振り下ろしながら落下する\n通常状態から直接発動することも可能\n\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1405>速度上昇\n<GLO=GLS_GAME_WORDS_1405>可能時間延長\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に<GLO=GLS_GAME_WORDS_1405>速度上昇\n更に<GLO=GLS_GAME_WORDS_1405>可能時間延長\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "黒鳥操術"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "自身の周囲に烏を招集する\n烏は自身に追従し、敵の攻撃を1回だけ防ぐ\n攻撃を防ぐと烏は消滅する\n再度入力すると烏へ指示し敵に突撃させる\n突撃指示中は移動操作ができ、“回転斬り/振り下ろし”の<GLO=GLS_GAME_WORDS_1405>中も指示が可能\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "空中連撃"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n斧による突きをヒットさせることで発動する\n烏に自死を強制させ、<GLO=GLS_GAME_WORDS_1503>制限を消し去り敵に体当たりさせて大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "用益潜在力そのものが命"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>が一定回数発動する度に以下の効果を得る\n<GLO=GLS_GAME_WORDS_1405>速度上昇\n<GLO=GLS_GAME_WORDS_1504>消費量減少\n<GLO=GLS_GAME_WORDS_1405>後硬直減少\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上昇\n<GLO=GLS_GAME_WORDS_1409>後硬直減少\n<GLO=GLS_GAME_WORDS_1813>中は効果が永続する\n上限あり"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "ハイリスク・ハイリターンな術式を使いこなし敵を翻弄する「最速の術師」\n\n・潜在能力“投射呪法”により、攻撃の派生による誘導が術式での高速移動になる\n　呪力を自動で消費し、足りない場合は自身がフリーズしてしまうため注意が必要\n・呪力技“投射呪法：一撃”は<img id=\"NormalAttack_1\"/>,<img id=\"NormalAttack_2\"/>,<img id=\"NormalAttack_3\"/>の捻出技を更に追加入力することで派生が可能\n　コンボ中の“投射呪法”の発動回数が多いほど威力が上がる"
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "鉄山靠"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、連撃を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "掌底"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、掌底を放つ近距離攻撃\nこの攻撃は<GLO=GLS_GAME_WORDS_1409>できない\nやられ状態でない敵にヒットした時、敵をフリーズさせる\nタッグ出撃時、この攻撃をヒットさせると<GLO=GLS_GAME_WORDS_1314>チャンス状態になる"
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "揚げ打ち連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、打ち上げてから殴り落とす近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "突き上げ"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、飛び上がりながらアッパーを放つ近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "三連脚"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "敵に<GLO=GLS_GAME_WORDS_1419>し、蹴りの連撃を放つ近距離攻撃\n攻撃中は追加入力で、<GLO=GLS_GAME_WORDS_1307>へ派生可能\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "蹴り落とし"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "後ろに跳んでから敵に<GLO=GLS_GAME_WORDS_1419>し、蹴りつける近距離攻撃\nこの攻撃は別の技への派生が可能"
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "投射呪法：一撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "その場で構えた後、投射呪法で<GLO=GLS_GAME_WORDS_1419>して思い切り殴りつける近距離攻撃\n構え中に<GLO=GLS_GAME_WORDS_1405>または<GLO=GLS_GAME_WORDS_1406>入力をすることで任意の方向へ２回まで移動のみをすることができる\n構え中または移動後に<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>を入力することで投射呪法による派生が可能\n別の技から派生して出した場合、構えを省略する\n投射呪法の回数によってのみ与えるダメージが変化する"
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "投射呪法：連撃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "投射呪法で<GLO=GLS_GAME_WORDS_1419>し、敵に触れフリーズさせてから連撃を叩き込む近距離攻撃\n追撃時はタイミング良く追加入力をすることで派生する\n派生に失敗すると一定時間フリーズする\n【<GLO=GLS_GAME_WORDS_1401>２】\n与えるダメージ上昇\n【<GLO=GLS_GAME_WORDS_1401>３】\n更に与えるダメージ上昇"
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "投射呪法"
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "この攻撃は<GLO=GLS_GAME_WORDS_1409>できない\n突進をヒットさせることで発動する\n投射呪法による加速を重ねた最速の連撃で大ダメージを与える"
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "投射呪法"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "攻撃中、別の技へ派生する際に発動\n自動で<GLO=GLS_GAME_WORDS_1503>を使用し、<GLO=GLS_GAME_WORDS_1419>が投射呪法による移動に変化する\n投射呪法で出す攻撃はそれぞれ単発の攻撃になる\n<GLO=GLS_GAME_WORDS_1503>が不足している場合は失敗し、一定時間フリーズする\n投射呪法による派生を重ねることで攻撃のダメージが上がっていく"
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "秘伝「落花の情」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "敵の<GLO=GLS_UNIQUE_WORDS_0007>、<GLO=GLS_GAME_WORDS_1409>が「落花の情」に変化する\n継続的に<GLO=GLS_GAME_WORDS_1503>を消費し、カウンターで自身を守る\nノックバックしなくなり、<GLO=GLS_GAME_WORDS_1432>もしない\n<GLO=GLS_GAME_WORDS_1503>が不足している場合は通常の<GLO=GLS_GAME_WORDS_1409>になる"
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RankPointDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_RankPoint'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "GRADE4_01": {
+        "ID": "GRADE4_01",
+        "RankPointClass": "EGameRankPointClass::Grade4",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_0_99",
+        "LoseLowerLimit": 0
+      },
+      "GRADE4_02": {
+        "ID": "GRADE4_02",
+        "RankPointClass": "EGameRankPointClass::Grade4",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_100_199",
+        "LoseLowerLimit": 0
+      },
+      "GRADE4_03": {
+        "ID": "GRADE4_03",
+        "RankPointClass": "EGameRankPointClass::Grade4",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_200_299",
+        "LoseLowerLimit": 0
+      },
+      "GRADE3_01": {
+        "ID": "GRADE3_01",
+        "RankPointClass": "EGameRankPointClass::Grade3",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_300_399",
+        "LoseLowerLimit": 0
+      },
+      "GRADE3_02": {
+        "ID": "GRADE3_02",
+        "RankPointClass": "EGameRankPointClass::Grade3",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_400_499",
+        "LoseLowerLimit": 0
+      },
+      "GRADE3_03": {
+        "ID": "GRADE3_03",
+        "RankPointClass": "EGameRankPointClass::Grade3",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_500_599",
+        "LoseLowerLimit": 0
+      },
+      "SEMI_GRADE2_01": {
+        "ID": "SEMI_GRADE2_01",
+        "RankPointClass": "EGameRankPointClass::SemiGrade2",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_600_799",
+        "LoseLowerLimit": -5
+      },
+      "SEMI_GRADE2_02": {
+        "ID": "SEMI_GRADE2_02",
+        "RankPointClass": "EGameRankPointClass::SemiGrade2",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_800_999",
+        "LoseLowerLimit": -5
+      },
+      "SEMI_GRADE2_03": {
+        "ID": "SEMI_GRADE2_03",
+        "RankPointClass": "EGameRankPointClass::SemiGrade2",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_1000_1199",
+        "LoseLowerLimit": -5
+      },
+      "SEMI_GRADE2_04": {
+        "ID": "SEMI_GRADE2_04",
+        "RankPointClass": "EGameRankPointClass::SemiGrade2",
+        "RankPointGrade": "EGameRankPointGrade::Gold",
+        "Id_GlobalThreshold": "RANK_POINT_1200_1399",
+        "LoseLowerLimit": -5
+      },
+      "SEMI_GRADE2_05": {
+        "ID": "SEMI_GRADE2_05",
+        "RankPointClass": "EGameRankPointClass::SemiGrade2",
+        "RankPointGrade": "EGameRankPointGrade::Platinum",
+        "Id_GlobalThreshold": "RANK_POINT_1400_1599",
+        "LoseLowerLimit": -5
+      },
+      "GRADE2_01": {
+        "ID": "GRADE2_01",
+        "RankPointClass": "EGameRankPointClass::Grade2",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_1600_1799",
+        "LoseLowerLimit": -10
+      },
+      "GRADE2_02": {
+        "ID": "GRADE2_02",
+        "RankPointClass": "EGameRankPointClass::Grade2",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_1800_1999",
+        "LoseLowerLimit": -10
+      },
+      "GRADE2_03": {
+        "ID": "GRADE2_03",
+        "RankPointClass": "EGameRankPointClass::Grade2",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_2000_2199",
+        "LoseLowerLimit": -10
+      },
+      "GRADE2_04": {
+        "ID": "GRADE2_04",
+        "RankPointClass": "EGameRankPointClass::Grade2",
+        "RankPointGrade": "EGameRankPointGrade::Gold",
+        "Id_GlobalThreshold": "RANK_POINT_2200_2399",
+        "LoseLowerLimit": -10
+      },
+      "GRADE2_05": {
+        "ID": "GRADE2_05",
+        "RankPointClass": "EGameRankPointClass::Grade2",
+        "RankPointGrade": "EGameRankPointGrade::Platinum",
+        "Id_GlobalThreshold": "RANK_POINT_2400_2599",
+        "LoseLowerLimit": -10
+      },
+      "SEMI_GRADE1_01": {
+        "ID": "SEMI_GRADE1_01",
+        "RankPointClass": "EGameRankPointClass::SemiGrade1",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_2600_2999",
+        "LoseLowerLimit": -20
+      },
+      "SEMI_GRADE1_02": {
+        "ID": "SEMI_GRADE1_02",
+        "RankPointClass": "EGameRankPointClass::SemiGrade1",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_3000_3399",
+        "LoseLowerLimit": -20
+      },
+      "SEMI_GRADE1_03": {
+        "ID": "SEMI_GRADE1_03",
+        "RankPointClass": "EGameRankPointClass::SemiGrade1",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_3400_3799",
+        "LoseLowerLimit": -20
+      },
+      "SEMI_GRADE1_04": {
+        "ID": "SEMI_GRADE1_04",
+        "RankPointClass": "EGameRankPointClass::SemiGrade1",
+        "RankPointGrade": "EGameRankPointGrade::Gold",
+        "Id_GlobalThreshold": "RANK_POINT_3800_4199",
+        "LoseLowerLimit": -20
+      },
+      "SEMI_GRADE1_05": {
+        "ID": "SEMI_GRADE1_05",
+        "RankPointClass": "EGameRankPointClass::SemiGrade1",
+        "RankPointGrade": "EGameRankPointGrade::Platinum",
+        "Id_GlobalThreshold": "RANK_POINT_4200_4599",
+        "LoseLowerLimit": -20
+      },
+      "GRADE1_01": {
+        "ID": "GRADE1_01",
+        "RankPointClass": "EGameRankPointClass::Grade1",
+        "RankPointGrade": "EGameRankPointGrade::Vermilion",
+        "Id_GlobalThreshold": "RANK_POINT_4600_5199",
+        "LoseLowerLimit": -22
+      },
+      "GRADE1_02": {
+        "ID": "GRADE1_02",
+        "RankPointClass": "EGameRankPointClass::Grade1",
+        "RankPointGrade": "EGameRankPointGrade::Bronze",
+        "Id_GlobalThreshold": "RANK_POINT_5200_5799",
+        "LoseLowerLimit": -24
+      },
+      "GRADE1_03": {
+        "ID": "GRADE1_03",
+        "RankPointClass": "EGameRankPointClass::Grade1",
+        "RankPointGrade": "EGameRankPointGrade::Silver",
+        "Id_GlobalThreshold": "RANK_POINT_5800_6399",
+        "LoseLowerLimit": -26
+      },
+      "GRADE1_04": {
+        "ID": "GRADE1_04",
+        "RankPointClass": "EGameRankPointClass::Grade1",
+        "RankPointGrade": "EGameRankPointGrade::Gold",
+        "Id_GlobalThreshold": "RANK_POINT_6400_6999",
+        "LoseLowerLimit": -28
+      },
+      "GRADE1_05": {
+        "ID": "GRADE1_05",
+        "RankPointClass": "EGameRankPointClass::Grade1",
+        "RankPointGrade": "EGameRankPointGrade::Platinum",
+        "Id_GlobalThreshold": "RANK_POINT_7000_7599",
+        "LoseLowerLimit": -30
+      },
+      "SPECIAL_GRADE_01": {
+        "ID": "SPECIAL_GRADE_01",
+        "RankPointClass": "EGameRankPointClass::SpecialGrade",
+        "RankPointGrade": "EGameRankPointGrade::None",
+        "Id_GlobalThreshold": "RANK_POINT_7600_99999",
+        "LoseLowerLimit": -40
+      }
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DomainExpansionRateDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_DomainExpansionRate'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_140": {
+        "ID": "CP_140",
+        "Run_Speed_End_Rate": 1.1,
+        "Dash_Cancel_Time_Rate": 0.8,
+        "Dash_GaugeConsumeBegin_Rate": 0.8,
+        "Dash_GaugeConsume_Rate": 0.8,
+        "Dash_Speed_S_Rate": 1.1,
+        "Dash_Speed_M_Rate": 1.1,
+        "Dash_Speed_E_Rate": 1.1,
+        "DashAir_GaugeConsumeBegin_Rate": 0.6,
+        "DashAir_GaugeConsume_Rate": 0.6,
+        "DashAir_Speed_S_Rate": 1.1,
+        "DashAir_Speed_M_Rate": 1.1,
+        "DashAir_Speed_E_Rate": 1.1,
+        "HomingDashAir_GaugeConsumeBegin_Rate": 0.6,
+        "HomingDashAir_GaugeConsume_Rate": 0.6,
+        "HomingDashAir_Speed_S_Rate": 1.1,
+        "HomingDashAir_Speed_M_Rate": 1.1,
+        "HomingDashAir_Speed_E_Rate": 1.1,
+        "Damage_Rate": 0.9,
+        "Down_Damage_Rate": 0.9,
+        "GuardDurability_Damage_Rate": 0.9,
+        "DownTime_Min_Add": 1.0,
+        "DownTime_Max_Add": 1.0
+      },
+      "CP_140_ALLY": {
+        "ID": "CP_140_ALLY",
+        "Run_Speed_End_Rate": 1.0,
+        "Dash_Cancel_Time_Rate": 1.0,
+        "Dash_GaugeConsumeBegin_Rate": 1.0,
+        "Dash_GaugeConsume_Rate": 1.0,
+        "Dash_Speed_S_Rate": 1.0,
+        "Dash_Speed_M_Rate": 1.0,
+        "Dash_Speed_E_Rate": 1.0,
+        "DashAir_GaugeConsumeBegin_Rate": 1.0,
+        "DashAir_GaugeConsume_Rate": 1.0,
+        "DashAir_Speed_S_Rate": 1.0,
+        "DashAir_Speed_M_Rate": 1.0,
+        "DashAir_Speed_E_Rate": 1.0,
+        "HomingDashAir_GaugeConsumeBegin_Rate": 1.0,
+        "HomingDashAir_GaugeConsume_Rate": 1.0,
+        "HomingDashAir_Speed_S_Rate": 1.0,
+        "HomingDashAir_Speed_M_Rate": 1.0,
+        "HomingDashAir_Speed_E_Rate": 1.0,
+        "Damage_Rate": 1.0,
+        "Down_Damage_Rate": 1.0,
+        "GuardDurability_Damage_Rate": 1.0,
+        "DownTime_Min_Add": 0.0,
+        "DownTime_Max_Add": 0.0
+      },
+      "CP_140_ENEMY": {
+        "ID": "CP_140_ENEMY",
+        "Run_Speed_End_Rate": 0.9,
+        "Dash_Cancel_Time_Rate": 1.0,
+        "Dash_GaugeConsumeBegin_Rate": 1.1,
+        "Dash_GaugeConsume_Rate": 1.1,
+        "Dash_Speed_S_Rate": 0.9,
+        "Dash_Speed_M_Rate": 0.9,
+        "Dash_Speed_E_Rate": 0.9,
+        "DashAir_GaugeConsumeBegin_Rate": 1.2,
+        "DashAir_GaugeConsume_Rate": 1.2,
+        "DashAir_Speed_S_Rate": 0.9,
+        "DashAir_Speed_M_Rate": 0.9,
+        "DashAir_Speed_E_Rate": 0.9,
+        "HomingDashAir_GaugeConsumeBegin_Rate": 1.2,
+        "HomingDashAir_GaugeConsume_Rate": 1.2,
+        "HomingDashAir_Speed_S_Rate": 0.9,
+        "HomingDashAir_Speed_M_Rate": 0.9,
+        "HomingDashAir_Speed_E_Rate": 0.9,
+        "Damage_Rate": 1.1,
+        "Down_Damage_Rate": 1.0,
+        "GuardDurability_Damage_Rate": 1.1,
+        "DownTime_Min_Add": 0.0,
+        "DownTime_Max_Add": 0.0
+      }
+    }
+  }
+]

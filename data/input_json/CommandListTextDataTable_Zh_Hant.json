@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Zh_Hant",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "最大特徵是潛在能力可充分活用優異體能的近距離拳手。\n搭配不同狀況出招，就能在近身戰中掌握優勢，連續<GLO=GLS_GAME_WORDS_1418>敵人。\n\n．潛在能力「升檔」，會隨著<GLO=GLS_GAME_WORDS_1401>累積而越發容易<GLO=GLS_GAME_WORDS_1405>。\n英勇貼近敵人，挑起近距離戰鬥吧。\n．<GLO=GLS_GAME_WORDS_1307>先以容易製造缺口的「逕庭拳」鋪陳，在發現破綻的一瞬間發動「連續毆打」重創敵人！"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "連續格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續揮打出擊的近距離攻擊。\n更可以攻擊到一半追加輸入，延伸為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "上勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，朝上打飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "迴旋踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "朝前方製造橫向衝擊波的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "墜踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "朝前方製造縱向衝擊波的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "飛踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "使出強力飛踢的近距離攻擊。\n攻擊中會維持<GLO=GLS_GAME_WORDS_1509>。"
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "踢飛碎石"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "朝敵人踢碎岩石，讓碎石飛向敵人的遠距離攻擊。\n命中敵人可讓其移動遲緩。"
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "逕庭拳／黑閃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>1】\n打擊一次卻可造成兩次傷害的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n<GLO=GLS_GAME_WORDS_1401>3時，\n變化為「黑閃」用全力一擊給予極大傷害的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。"
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "連續毆打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "連續迴旋踢組成的近距離攻擊。\n攻擊次數會隨著<GLO=GLS_GAME_WORDS_1401>不同而變化。\n【<GLO=GLS_GAME_WORDS_1401>2】\n追加毆打5連擊。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步追加豪邁的右直拳。"
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "逕庭拳"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n會於身體撞擊命中敵人時觸發。\n極度集中狀態下，可連續4次施放黑閃給予可觀傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "升檔"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "隨著<GLO=GLS_GAME_WORDS_1401>上升階段式發動。\n減少<GLO=GLS_GAME_WORDS_1405>前後的僵直時間。\n減少消耗<GLO=GLS_GAME_WORDS_1504>。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "不分敵我進行無差別攻擊的大範圍近距離攻擊手。\n劇烈攻擊會連夥伴一起吹飛，但能夠如入無人之地般大肆進攻。\n雖然攻擊時空隙較大，不過會獲得<GLO=GLS_GAME_WORDS_1424>彌補，好好判斷並抓準走位移動或攻擊的時機吧。\n\n．潛在能力「反轉術式」在受到攻擊時能藉由反擊<GLO=GLS_GAME_WORDS_1819>自己，所以還請積極進攻。\n．<GLO=GLS_GAME_WORDS_1401>3時發動潛在能力「威嚇」，可在攻擊時讓周圍敵人停止動作。\n趁機阻止敵人一舉重創對方吧！"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "橫掃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "強勁掃蕩前方的近距離攻擊。\n攻擊前會進入<GLO=GLS_GAME_WORDS_1424>。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "右直拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "瞬間移動靠近敵人，朝其正面直拳。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "下壓踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，將其朝地擊落的近距離攻擊。\n敵人落地處會產生衝擊波。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "震腳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "腳蹬地製造衝擊波的近距離攻擊。\n若在半空中施放，則會高速落下。\n攻擊中維持<GLO=GLS_GAME_WORDS_1424>。"
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "打飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "瞬間移動靠近敵人，單手將其打飛。\n【<GLO=GLS_GAME_WORDS_1401>3】\n攻擊前發動「威嚇」。"
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "鐵鎚"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "瞬間移動靠近敵人，從背後出手毆打。\n【<GLO=GLS_GAME_WORDS_1401>3】\n攻擊前發動「威嚇」。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "反手拳／解"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>1】\n近距離反手拳。\n【<GLO=GLS_GAME_WORDS_1401>2】\n<GLO=GLS_GAME_WORDS_1401>2以上時，\n變化為「解」在前方產生凌厲斬擊的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>3】\n增加斬擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "踢／「<img id=\"Symbol_0002\"/>」「開」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>1】\n近距離踢擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n<GLO=GLS_GAME_WORDS_1401>2以上時，\n變化為「<img id=\"Symbol_0002\"/>」「開」架起火焰箭，夾帶巨大火焰漩渦發射的遠距離攻擊。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>3】\n擴大攻擊範圍，提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "捌"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n會在巨大斬擊命中敵人同時發動。\n展開領域，讓所有對象沐浴在無止盡的斬擊下，給予強烈傷害。\n關閉領域後一段時間內<GLO=GLS_GAME_WORDS_1307>會轉為體術。"
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "反轉術式"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>2以上發動。\n給予敵人傷害後可稍加<GLO=GLS_GAME_WORDS_1819>自己先前所受的傷。"
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "威嚇"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>3發動。\n使出特定攻擊時威嚇周圍，使敵人一定時間無法行動。"
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "詛咒之王"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "特定攻擊時呈現<GLO=GLS_GAME_WORDS_1424>。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "和式神合作緊迫進攻的近距離連擊攻擊手。\n配合不同戰況靈活運用不同式神，進攻、輔助都能面面俱到。\n\n．以「十種影法術」召喚出鵺或渾，將有來自式神的追加攻擊。\n只要下達指令，還能讓單一式神對距離較遠的敵人出手！\n．潛在能力「術式詮釋」發動後，就可利用式神反擊，積極進攻吧！"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "二迴旋踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續施加踢擊的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n若為式神召喚期間，式神會再追擊。"
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "挑飛踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，往上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "跳躍二連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續打擊對方的近距離攻擊。\n<GLO=GLS_GAME_WORDS_1406>攻擊中會維持<GLO=GLS_GAME_WORDS_1509>。"
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "空中迴旋踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，往上挑飛的近距離攻擊。\n擊中時用迴旋踢擊落被打飛的敵人。\n若為式神召喚期間，式神會再追擊。"
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "蝦蟆：挑飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "召喚蝦蟆，以舌頭大範圍掃蕩前方。\n順利命中可將敵人擊飛。\n此攻擊能夠轉為其他招式。\n若為式神召喚期間，式神會再追擊。"
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "蝦蟆：引敵"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "召喚蝦蟆直線伸長舌頭攻擊。\n順利命中可將敵人拉近。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "十種影法術"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "以影子為觸媒召喚式神，共同行動。\n式神召喚期間會持續消耗<GLO=GLS_GAME_WORDS_1503>。\n式神會配合伏黑的攻擊自動追擊。\n召喚期間輸入<img id=\"CursedEnergyAttack_1\"/>可消耗<GLO=GLS_GAME_WORDS_1503>命令式神攻擊，\n且命令其攻擊不影響移動操作。\n召喚中能以<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>解除。\n當<GLO=GLS_GAME_WORDS_1503>不夠消耗時就會結束召喚。\n【<GLO=GLS_GAME_WORDS_1401>1】\n<img id=\"CursedEnergyAttack_1\"/>召喚鵺。\n【<GLO=GLS_GAME_WORDS_1401>2】\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>可召喚渾。\n【<GLO=GLS_GAME_WORDS_1401>3】\n可讓鵺擊中的敵人移動遲緩，\n且提升渾給予的傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "式神連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "和式神聯手攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n若尚未召喚任何式神，發招後會自動召喚出渾，\n並在伏黑出招後式神接續追擊。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。\n發招時渾會繞至敵人背後。"
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "式神共擊"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n可於後迴旋踢命中時發動。\n大範圍展開黑影沼澤，\n與式神聯手攻擊行動被封鎖的敵人，給予巨大傷害。\n關閉領域後一段時間內無法使用<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "術式詮釋"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>3發動。\n伏黑受敵人攻擊期間依然能對式神下令。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "以獨特攻擊手段，<GLO=GLS_UNIQUE_WORDS_1004>及「共鳴」標記敵人的中距離攻擊手。\n如何藉由標記來施壓以掌握戰鬥主導權，是致勝的關鍵。\n\n．<GLO=GLS_UNIQUE_WORDS_1004>打入釘子後能自由引爆，瞄準敵人難以<GLO=GLS_GAME_WORDS_1409>的時機出手吧。\n．就算被敵人近身也不需慌張，使出芻靈咒法「共鳴」及<GLO=GLS_GAME_WORDS_1302>應對便可。\n\n只要做上標記，不管多遠的距離都能攻擊到對方，在戰場上緊咬敵人不放吧！"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "釘擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "朝敵人連續射出釘子的遠距離攻擊。\n攻擊中追加輸入方向便可移動，\n若再追加輸入則可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "挑飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，往上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "連續釘擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "朝敵人連續射出釘子的遠距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "大範圍釘擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "多根釘子擺開呈扇形射出的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "二段釘鎚攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以釘鎚2連擊的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "揮舞"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "邊往前踏步邊以釘槌大幅度橫掃前方的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\n射出包裹<GLO=GLS_GAME_WORDS_1503>的釘子，命中時對敵人附加簪的效果。\n可長按維持架式。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n一舉發動簪，隔空給予傷害。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n近一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "芻靈咒法「共鳴」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n親自攻擊奪下敵人的一部分，附加共鳴效果。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n發動共鳴，隔空給予傷害。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n近一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "釘連擊"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n射出包裹<GLO=GLS_GAME_WORDS_1503>的釘子，成功命中便可發動。\n隔空朝刺中的釘子輸入<GLO=GLS_GAME_WORDS_1503>，由內朝外炸開製造巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "餘命宣告"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "攻擊命中帶有簪或共鳴效果的敵人時，所得<GLO=GLS_GAME_WORDS_1503>增加。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "利用超乎水準的術式搭配壓倒性強大的體術，一人壓制全場的全能強者。\n\n．<GLO=GLS_GAME_WORDS_1401>2以上時，發動潛在能力「無下限咒術」\n顯現可讓各種攻擊失效的無限，單方面輾壓對手！\n．以「術式順轉『蒼』」封住欲逃跑的敵人動作，迎面過來的敵人則用「術式反轉『赫』」使其無法近身。\n「<GLO=GLS_UNIQUE_WORDS_1017>」是能吞沒一切的大絕招。\n．<GLO=GLS_UNIQUE_WORDS_1005>發動後，<GLO=GLS_GAME_WORDS_1307>將變化為特殊技能，讓你一舉拿下勝利！"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "連續攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續打擊對方的近距離攻擊。\n攻擊中追加輸入便可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "膝擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "瞬間移動靠近敵人，挑飛使其騰空。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "迴旋踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續打擊對方的近距離攻擊。\n此攻擊還可擊出後轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "下墜擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "瞬間移動靠近敵人將其踢飛。\n攻擊後追加輸入能追加攻擊打落敵人。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "挑飛踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，將敵人踢向高處的近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "連續迴旋踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "瞬間移動靠近敵人並連續踢擊。\n攻擊中追加輸入可再追擊，朝地踢落對手。"
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "術式順轉「蒼」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "以負面力量強化的無下限術式，觸發引力。\n可長按維持架式。\n用<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>可設置於任意位置\n【<GLO=GLS_GAME_WORDS_1401>2】\n強化引力。\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步強化引力。\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "術式反轉「赫」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "往無下限術式導入正極力量，觸發反彈力。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>2】\n縮短蓄力時間。\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步縮短蓄力時間。\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "【<GLO=GLS_GAME_WORDS_1401>3】\n讓順轉和反轉彼此的無限互相衝突，推送出因此產生的虛幻質量，\n並朝直線前進吞噬敵人。\n可長按延續效果。"
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "空中連擊"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "當場構築並展開將人吸入無下限內側的領域。\n被灌入無限情報的對象，會因此不得動彈一段時間。\n關閉領域後一段時間內<GLO=GLS_GAME_WORDS_1307>會轉為體術。"
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "六眼"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "常態發動。\n可掌握對手的<GLO=GLS_GAME_WORDS_1503>量表。"
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "無下限咒術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>2以上時，持續<GLO=GLS_GAME_WORDS_1409>一段時間後可消耗<GLO=GLS_GAME_WORDS_1503>量表發動招式。\n在自己身旁環繞無限，抵銷一定次數的攻擊。"
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "飄浮"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "長按<GLO=GLS_GAME_WORDS_1406>能在空中飄浮。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "敏捷動作加上自創的招式組合，屬於速度型連擊攻擊手。\n無法使用<GLO=GLS_GAME_WORDS_1503>，但相對的真希可用<GLO=GLS_GAME_WORDS_1506>使出強勁招式。\n\n．潛在能力「<GLO=GLS_GAME_WORDS_1511>」：當攻擊持續命中就會隨之提升移動速度。\n不給予敵人躲避的機會，一招接一招緊迫盯人！\n．「攻防一體」可迴避敵人的攻擊，也能夠取消自己的攻擊轉接其他技能。\n組合出屬於自己風格的連擊，橫掃戰場！"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "大刀亂舞"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以大刀斬擊的近距離攻擊。\n攻擊中追加輸入可轉接至<GLO=GLS_GAME_WORDS_1310>。"
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "踢擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，施展踢擊的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，便可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "大刀連擊：橫掃"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，施展以大刀搭配踢擊迅速3連擊的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "大刀連擊：揮打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人以大刀砍向敵人的近距離攻擊。\n攻擊中追加輸入可再追擊，踢飛對方。"
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "暗器投擲"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "投擲所藏暗器的遠距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "突刺"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以大刀挑飛的近距離攻擊。\n攻擊中追加輸入可再追擊，朝地面突刺。"
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "攻防一體"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "使出迴避動作，躲開敵人攻擊。\n攻擊中使用可中斷當前動作。\n站立不動或<GLO=GLS_GAME_WORDS_1405>狀態下會自動發動。\n<img id=\"CursedEnergyAttack_1\"/>\n當場迴避。\n<img id=\"MoveLeft\"/>,<img id=\"MoveRight\"/>,<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n朝輸入方向<GLO=GLS_GAME_WORDS_1431>迴避。\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n朝前空翻。\n【<GLO=GLS_GAME_WORDS_1508>2】\n縮短動作時間。\n【<GLO=GLS_GAME_WORDS_1508>3】\n進一步縮短動作時間。"
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "大刀迴旋"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "華麗地揮舞大刀，如同舞蹈般連擊敵人。\n【<GLO=GLS_GAME_WORDS_1508>2】\n增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1508>3】\n進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "三連空擊"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n大刀突刺成功命中時發動。\n揮舞特級<GLO=GLS_UNIQUE_WORDS_0008>「游雲」，無數次狠狠打擊敵人帶來巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "天與咒縛：肉體天賦"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "缺乏<GLO=GLS_GAME_WORDS_1503>但相對的擁有罕見身體能力。"
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "持有擊中敵人以累積的專用量表。\n隨著<GLO=GLS_GAME_WORDS_1511>累積，可提升攻擊速度、移動速度及<GLO=GLS_GAME_WORDS_1431>移動距離。\n維持一段時間後量表會逐漸減少。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "活用輕巧體術及強大咒言控制對手的特殊攻擊手。\n邊以咒言震懾對手為盾，一步步逼近攻破敵人。\n\n．咒言雖說威力驚人，但也是過度使用會讓自己受到傷害的雙面刃。\n一旦喉嚨狀況不佳，立刻使用「喉嚨消炎藥」<GLO=GLS_GAME_WORDS_1819>狀態吧。\n．「不准動、扭曲吧」是可在反制敵人的時候發招的強力<GLO=GLS_GAME_WORDS_1307>。\n．咒言造成的<GLO=GLS_GAME_WORDS_1513>消耗會因自己和對手的等級差而變化\n　看清楚和敵方的<GLO=GLS_GAME_WORDS_1401>差再行動吧！"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "連踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以精湛打擊招呼對手的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "旋風腿"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，迴轉身體踢飛對方的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "前翻下壓踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "垂直墜落同時連續使出下壓踢的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "使用喉嚨消炎藥"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "一口氣用光整瓶喉嚨消炎藥，<GLO=GLS_GAME_WORDS_1819>喉嚨耐力。\n可同時操作角色移動，但無法<GLO=GLS_GAME_WORDS_1405>。"
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "體術亂舞／「飛走吧」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，密集飛踢到讓對手無從應對的近距離攻擊。\n此攻擊可於連擊途中追加輸入，轉為咒言「飛走吧」。\n\n「飛走吧」\n說出包含<GLO=GLS_GAME_WORDS_1503>的言靈，將前方敵人吹飛的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "「停下來」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "說出包裹<GLO=GLS_GAME_WORDS_1503>的言靈，制止前方敵人動作的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "「墜落吧」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "說出包裹<GLO=GLS_GAME_WORDS_1503>的言靈，讓前方敵人朝下墜落的中距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "「不准動」「扭曲吧」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "擺出防護動作，一旦被敵人攻擊就會施放咒言。\n以「不准動」制止敵人動作，接著用「扭曲吧」給予傷害。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "「爆炸吧」"
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n膝擊成功命中時發動。\n「停下來」中斷敵人動作後，「壓扁吧」給予巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "咒言師"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "使用咒言後，會消耗特有的<GLO=GLS_GAME_WORDS_1513>。\n<GLO=GLS_GAME_WORDS_1513>的消耗程度，會依據咒言成立對象與自己的<GLO=GLS_GAME_WORDS_1401>的差距而浮動。\n若<GLO=GLS_GAME_WORDS_1513>過低，發動咒言時空檔變大，得承受反噬傷害。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "靈活如<GLO=GLS_NAME_CP_080>，猛擊如<GLO=GLS_NAME_CP_081>，因應戰局切換模式的近距離攻擊手。\n搭配<GLO=GLS_GAME_WORDS_1509>的技能都果敢勇猛不容易被中斷，可以多加利用！\n\n．「<GLO=GLS_NAME_CP_081>模式」中會常態維持<GLO=GLS_GAME_WORDS_1509>，並進一步拉高移動速度。\n即便受到些許攻擊也無傷大雅，能夠肆無忌憚地戰鬥！\n．「激震掌」造成的傷害都無法防禦！\n就算被<GLO=GLS_GAME_WORDS_1409>也不必在意，繼續進攻吧！"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080>組合拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續施展凌厲拳擊的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊也可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080>勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，朝上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080>三連拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "朝前踏步的同時揮拳3連擊的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080>重捶"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "雙手交握，落下同時朝下墜擊的近距離攻擊。\n將敵人捶落至地面後，追加以落地衝擊波震飛對方。"
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "<GLO=GLS_NAME_CP_080>屁股攻擊／<GLO=GLS_NAME_CP_081>上勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "朝後方翹起屁股撞擊的近距離攻擊。\n攻擊中維持<GLO=GLS_GAME_WORDS_1409>。\n【<GLO=GLS_NAME_CP_081>模式】\n邊行進邊舞動雙臂揮飛敵人的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080>衝撞"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "朝前方狠狠衝撞的近距離攻擊。\n攻擊中維持<GLO=GLS_GAME_WORDS_1509>。"
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080>連拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "無數次急速拳擊，再狠狠地擊飛敵人。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": "<GLO=GLS_NAME_CP_081>模式"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "切換核心，轉為<GLO=GLS_NAME_CP_081>模式。\n可讓自己長時間維持不怯弱狀態，且所有攻擊都可以帶來有效傷害。\n<GLO=GLS_NAME_CP_081>模式下發動「激震掌」，\n會持續消耗<GLO=GLS_GAME_WORDS_1503>，歸零時恢復<GLO=GLS_NAME_CP_080>模式。"
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": "<GLO=GLS_NAME_CP_081>猛擊"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n上勾拳命中時發動。\n以<GLO=GLS_NAME_CP_081>模式狠狠連擊，再全力甩投敵人給予巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "姊姊的核心－替身"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "陷入危機時，僅有1次機會復活為<GLO=GLS_GAME_WORDS_1502>低微的狀態。"
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "激震掌"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_081>模式的攻擊即使被對方<GLO=GLS_GAME_WORDS_1409>，也能造成傷害。\n但無法憑藉這些傷害了結敵人。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "以精湛巧妙的術式搭配強而有力的攻擊，前上班族一級術師。\n配合不同招式抓準時機點追加輸入，就可發動「<GLO=GLS_UNIQUE_WORDS_1009>」打出暴擊。\n因為威力相當可觀，務必要冷靜尋覓時機好打出致勝一擊！\n\n．<GLO=GLS_GAME_WORDS_1307>是堅實的「<GLO=GLS_UNIQUE_WORDS_1009>」及威力驚人的「四段連擊格鬥」，可搭配戰況靈活運用。\n．若所剩時間無幾，會發動潛在能力「<GLO=GLS_GAME_WORDS_1503>解放」大幅提升自身威力。\n既然加班就必須盡快搞定才行！"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "二段斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以柴刀攻擊敵人兩次的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊也可於連擊途中轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "打刺擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以柴刀突刺的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "揮飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，大幅度向上揮劈柴刀的近距離攻擊。\n抓準時機追加輸入的話甚至能成為爆擊。"
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "踢飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "會使出迴旋踢的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "敲碎"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以柴刀全力揮劈的近距離攻擊。\n抓準時機追加輸入的話甚至能成為爆擊。"
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "衝擊波攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "朝地面出拳製造衝擊波的近距離攻擊。\n若在半空中施放，則會急速下落。"
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "將7比3的劃分點視為弱點，由此給予巨大傷害的近距離攻擊。\n可長按延續效果。\n抓準時機追加輸入的話甚至能成為爆擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "四段連擊格鬥"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "以<GLO=GLS_GAME_WORDS_1503>包裹柴刀與拳頭，連續打擊對手的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>「瓦落瓦落」"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n身體衝撞命中時發動。\n準確斬開由自身術式所定義的弱點，帶來巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>解放"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1813>剩餘時間不多時發動。\n<GLO=GLS_GAME_WORDS_1503>自動上升。\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上升。\n<GLO=GLS_GAME_WORDS_1405>衝刺速度上昇。\n<GLO=GLS_GAME_WORDS_1504>消耗量減少。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "互換位置自由創造戰局走向後以拳頭制伏敵人，高水準<GLO=GLS_NAME_CP_081>。\n大多使用近身攻擊，也能利用「<GLO=GLS_UNIQUE_WORDS_1010>」對換位置拉近距離或迴避敵人攻擊。\n\n．「<GLO=GLS_UNIQUE_WORDS_1010>」可以對調任何對象的位置，建議多加利用！\n．怪力帶來的攻擊會將對手擊飛至遠處，但利用「<GLO=GLS_UNIQUE_WORDS_1010>」改變位置，就能讓敵人變成朝自己飛來，藉此追擊敵人！\n\n熟練地搭配使用固然重要，但有時對調位置也能逆轉戰況創造優勢！"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "三段格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續施放打擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "挑飛踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，朝上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "踢飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，敏捷使出手刀再輕巧踢飛的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "金勾臂"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "瞬間蓄力後，使用金勾臂向前衝的近距離攻擊。\n攻擊中維持<GLO=GLS_GAME_WORDS_1509>。"
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "投石<GLO=GLS_UNIQUE_WORDS_1010>攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "投擲包裹<GLO=GLS_GAME_WORDS_1503>的石頭的遠距離攻擊。\n命中敵人時，可與石頭互換位置瞬間靠近敵人追加攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "投石<GLO=GLS_UNIQUE_WORDS_1010>移動"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "朝任意方向投擲石頭，與其互換位置瞬間移動。\n可長按延續效果。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "藉由擊掌，在固定範圍內瞬間互換自己與他人，或他人與他人的位置。\n輸入方向可選擇發招對象。\n此攻擊能夠轉為其他招式。\n<img id=\"CursedEnergyAttack_1\"/>\n將自己與<GLO=GLS_GAME_WORDS_1417>互換。\n<img id=\"MoveLeft\"/>,<img id=\"MoveRight\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n將夥伴與敵人互換。\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n將敵人與敵人互換。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n將自己與夥伴互換。\n【<GLO=GLS_GAME_WORDS_1401>2】\n減少互換時的空檔。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步減少互換時的空檔。"
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "連續毆打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "蓄力後施放強勁四連擊的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "開天闢地"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n高踢命中時發動。\n與踢飛的敵人互換位置，再回頭全力施放黑閃，帶來巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "術式解禁"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "發動<GLO=GLS_UNIQUE_WORDS_1010>後一段時間內獲得以下效果：\n移動速度上升。\n<GLO=GLS_GAME_WORDS_1504>消耗量減少。\n另外，此效果會隨<GLO=GLS_GAME_WORDS_1401>而浮動。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "一旦夥伴受傷就容易暴怒顛覆戰局的近距離攻擊手。\n\n．潛在能力「激動」，「<GLO=GLS_NAME_CN_040>」會在量表升到最大值時顯現。\n活用自身充沛的咒力及「<GLO=GLS_NAME_CN_040>」的強力追擊猛攻敵人！\n．「決意」可將<GLO=GLS_GAME_WORDS_1503>灌入刀中，讓<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>都能帶來有效傷害。\n一鼓作氣逼緊敵人，最後再用「銳氣」創造出驚人傷害！"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "三段斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人揮刀重砍的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "袈裟斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人揮斬的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "二段下斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人揮斬2連擊的近距離攻擊。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "斬擊掃蕩"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "以迴旋斬砍飛敵人的近距離攻擊。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "跳斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1406>靠近敵人，凌空使出迴旋斬的近距離攻擊。\n此攻擊能夠轉為其他招式。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "滑衝斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "滑壘接近敵人再朝上挑斬的近距離攻擊。\n此攻擊能夠轉為其他招式。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "銳氣"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "高速靠近敵人，連續揮斬。\n激動時還會由<GLO=GLS_NAME_CN_040>追加攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "決意"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "用<GLO=GLS_GAME_WORDS_1503>包裹刀刃，強化攻擊能力。\n而且能讓所有攻擊都可以造成傷害。\n使用期間會持續消耗<GLO=GLS_GAME_WORDS_1503>，直到再次輸入或<GLO=GLS_GAME_WORDS_1503>歸零便會解除。"
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "黑閃"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n左拳毆打命中時發動。\n解除限制，藉由<GLO=GLS_NAME_CN_040>釋放出龐大<GLO=GLS_GAME_WORDS_1503>給予巨大傷害。\n發動過後該場戰鬥<GLO=GLS_NAME_CN_040>就無法再顯現。"
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "激動"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "擁有當我方成員受傷害或<GLO=GLS_GAME_WORDS_1429>時會累積的專用量表。\n量表蓄滿時讓<GLO=GLS_NAME_CN_040>顯現，與乙骨聯手攻擊。\n乙骨受到攻擊時按下<img id=\"NormalAttack_1\"/>，<img id=\"NormalAttack_2\"/><img id=\"NormalAttack_3\"/><img id=\"CursedEnergyAttack_1\"/><img id=\"CursedEnergyAttack_2\"/>任一將消耗量表，產生來自<GLO=GLS_NAME_CN_040>的反擊攻擊。\n乙骨在<GLO=GLS_GAME_WORDS_1409>時受到攻擊，會消耗量表產生來自<GLO=GLS_NAME_CN_040>的反擊攻擊。\n<GLO=GLS_NAME_CN_040>顯現期間，<GLO=GLS_GAME_WORDS_1401>會達到最大值。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "以「<GLO=GLS_UNIQUE_WORDS_0002>操術」層出不窮的攻擊手段，讓敵人應接不暇的中距離攻擊手。\n能從應變度高的<GLO=GLS_GAME_WORDS_1302>，迅速轉為有效傷害對手的<GLO=GLS_GAME_WORDS_1307>，創造出媲美特級的威力壓制敵人。\n\n．「<GLO=GLS_UNIQUE_WORDS_0002>操術：一群」能放出大量現身快速的<GLO=GLS_UNIQUE_WORDS_0002>，朝前衝鋒攻擊敵人。\n．「<GLO=GLS_UNIQUE_WORDS_0002>操術：光柱」雖然現身過程較慢，卻是可以封住上方退路的範圍攻擊，能夠一網打盡敵人。\n\n配合不同戰況運用不同<GLO=GLS_GAME_WORDS_1307>，壓制住敵人吧！"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "連續召喚複數<GLO=GLS_UNIQUE_WORDS_0002>衝向敵人的中距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：<GLO=GLS_GAME_WORDS_1428>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "召喚<GLO=GLS_UNIQUE_WORDS_0002><GLO=GLS_GAME_WORDS_1428>敵人的中距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：引敵"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "召喚2個<GLO=GLS_UNIQUE_WORDS_0002>衝向敵人的中距離攻擊。\n命中後會折返將敵人誘導過來。"
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：前衝"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "召喚<GLO=GLS_UNIQUE_WORDS_0002>追著敵人攻擊的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "二段格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人跳踢的近距離攻擊。\n命中時會追擊，以右拳重毆打落敵人。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：挑飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "後<GLO=GLS_GAME_WORDS_1431>同時在腳邊召喚出<GLO=GLS_UNIQUE_WORDS_0002>的近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：一群"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "操縱2種收服的<GLO=GLS_UNIQUE_WORDS_0002>攻擊敵人。\n<img id=\"CursedEnergyAttack_1\"/>\n複數<GLO=GLS_UNIQUE_WORDS_0002>衝向敵人的中距離攻擊。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n複數<GLO=GLS_UNIQUE_WORDS_0002>飛向敵人的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加所召喚的<GLO=GLS_UNIQUE_WORDS_0002>數量並提高命中次數。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加所召喚的<GLO=GLS_UNIQUE_WORDS_0002>數量並提高命中次數。"
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：光柱"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "召喚出堪比準一級的<GLO=GLS_UNIQUE_WORDS_0002>，往敵人所在位置使出光柱攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "游雲　連擊"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術 極之番「漩渦」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n後迴旋踢命中時發動。\n將<GLO=GLS_UNIQUE_WORDS_0002>操術所收服的大量<GLO=GLS_UNIQUE_WORDS_0002>合而為一後放出，帶來巨大傷害。\n"
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "特級<GLO=GLS_UNIQUE_WORDS_0003>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1401>2以上發動。\n可用<GLO=GLS_GAME_WORDS_1307>取消攻擊後的僵直時間。\n隨著<GLO=GLS_GAME_WORDS_1401>上升可以更快取消。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "用距離足夠的攻擊手段控制戰局走向，縮短敵我距離削弱對手<GLO=GLS_GAME_WORDS_1502>的中距離戰士。\n能夠隨意變形身體，掌控攻擊距離臨機應變。\n\n．潛在能力「無為轉變」，只要攻擊持續命中敵人就可追加額外傷害，好好利用別留給敵人任何喘息空間！\n若有<GLO=GLS_UNIQUE_WORDS_1013>，還能再大幅強化「無為轉變」的威力！\n．「乖乖聽話喔」會派出改造人，遠距離攻擊敵人。\n很適合兩頭包抄擊潰敵手！"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "變形攻擊：手臂"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人以變形手臂毆打對方的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "變形攻擊：尖刺"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "身體縮成一團後全面凸出尖針的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "連續攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人用難以解讀的動作近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "連續迴轉攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，將手轉為劍狀斬下後再以巨拳打飛對方的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "變形攻擊：鑽頭"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "手前端變為鑽頭後，伸長手臂貫穿敵人的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "變形攻擊：劍"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "手化為劍後掃蕩敵人的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "乖乖聽話喔"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "召喚庫存的改造人襲擊敵人。\n命中後會讓對方負傷，移動遲緩。\n若無庫存就發動招式則改為嘔吐補充改造人。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加可庫存量。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加可庫存量。"
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "「多重魂」「撥體」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "融合複數個靈魂提升靈魂質量朝敵人釋放。\n會需要消耗所有庫存的改造人。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>2】\n擴大攻擊範圍。\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步擴大攻擊範圍。\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "無為轉變"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "當場擺出架式，在口中結印展開領域。\n會於一定時間內改變地圖環境，強化自身攻擊。\n而且領域內敵人的<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度、移動速度會降低。\n領域關閉後一段時間內無法使用<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "靈魂本質"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "受到對手攻擊後，可隨所承受的攻擊量增加<GLO=GLS_GAME_WORDS_1503>。"
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "無為轉變"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "隨著自己的攻擊累積到一定次數便會追加傷害。\n次數經過一段時間後會重新計算。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "穿梭戰場上，保持有利距離交戰的中～遠距離射擊手。\n\n．利用能邊移動邊出招的<GLO=GLS_GAME_WORDS_1301>攻擊，一找到機會就使出大範圍「<GLO=GLS_GAME_WORDS_1503>噴火」掃蕩敵人。\n．<GLO=GLS_UNIQUE_WORDS_1014>發動後，將所有玩家拉進領域一段時間。\n領域內自身能力值與<GLO=GLS_GAME_WORDS_1307>都會變強，可佔據絕對優勢蹂躪對手！"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "火球射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "連續射出小火球的遠距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n攻擊中仍可移動。"
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "壓縮火球射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "兩手放出火球的遠距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "火山顯現"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "在敵人腳邊製造會噴發火焰的火山的遠距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "設置火山陷阱"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "預先指定火山發生區域。\n一旦敵人入侵該區域，便會竄起火山朝其噴射火焰。"
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "火球連射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "當場製造複數火球，稍微延遲後發射的遠距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "火焰噴射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "後跳同時施放火焰的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "<GLO=GLS_GAME_WORDS_1503>噴火"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "直線釋放<GLO=GLS_GAME_WORDS_1503>燒毀一切。\n可長按延續效果。\n發動中會持續消耗<GLO=GLS_GAME_WORDS_1503>。\n【<GLO=GLS_GAME_WORDS_1401>2】\n擴大攻擊範圍。\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步擴大攻擊範圍。\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "燃／爆／極之番「隕」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "施放火球攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n加大火球提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>3】\n變化為極之番「隕」並在命中時引發大爆炸。\n可長按維持架式。"
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "火礫蟲"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "當場擺出架式，展開炙熱到有如活火山噴發口內部的領域。\n會於一定時間內改變地圖環境，強化自身<GLO=GLS_GAME_WORDS_1307>，\n並會持續對領域內的敵人造成傷害，讓敵人的移動能力降低。\n領域關閉後一段時間內無法使用<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>的矜持"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "自身<GLO=GLS_GAME_WORDS_1502>低微的時候發動。\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上升。\n<GLO=GLS_GAME_WORDS_1307>的傷害值增加。\n此外，此效果會隨<GLO=GLS_GAME_WORDS_1401>而浮動。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "擁有陸上無人能及的應戰能力，屬於地面特化全射程攻擊手。\n\n．「遠距離樹木攻擊」可以在較遠的敵人腳邊竄起樹根，突襲對手。\n推薦多加利用出奇制勝！\n．「樹木屏障攻擊」會在面前用樹根豎起一道牆，擊飛靠近的敵人，也可以防禦遠處過來的攻擊。\n\n遠距離可以牽制！中距離可以擊飛！近距離可以反擊！\n靈活搭配運用，讓敵人無從近身吧！"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "木毬攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "朝敵人發射會伸展樹枝的毬果的近距離攻擊。\n追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "木毬毆打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人揮舞毬果的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "樹木範圍攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "在自身周圍的地面釋放出樹根的近距離攻擊。\n若於半空中使用會墜落。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "冥想"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "開始冥想儲存<GLO=GLS_GAME_WORDS_1503>。\n<GLO=GLS_GAME_WORDS_1401>為最大時，回復已使用的<GLO=GLS_GAME_WORDS_1503>。\n可長按延續效果。\n若半空中使用會強制落地。"
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "咒種噴發"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "彈射出咒種的遠距離攻擊。\n命中敵人會降低其<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "咒種降雨"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "盛開巨大花苞，一口氣彈射所有咒種的遠距離攻擊。\n飛出的咒種一段時間後會落地，\n若有命中敵人便降低其<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度。\n若於半空中使用會墜落。"
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "遠距離樹木攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "從敵人腳下竄出樹根貫穿攻擊。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n擴張攻擊範圍。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。\n進一步擴張攻擊範圍。"
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "樹木屏障攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "在自己前方催生出樹牆加以攻擊。\n若於半空中使用會墜落。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升給予傷害值。\n增加樹牆的數目和高度。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升給予傷害值。\n進一步增加高度。"
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "巨大樹木攻擊"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n朝周圍展開花田，觸及敵人後發動。\n利用樹根貫穿因花田而鬆懈警覺心的敵人，給予巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "解放左臂"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1315>發動後解放左臂獲得以下效果：\n縮短<GLO=GLS_GAME_WORDS_1307>發招時間。\n<GLO=GLS_GAME_WORDS_1503>消耗量降低。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "有著兄弟絕妙默契與強勁的<GLO=GLS_GAME_WORDS_1415>攻擊手段，屬於遠距離控場型戰士。\n「<GLO=GLS_GAME_WORDS_1427>」是以「極之番『翅王』」朝敵人潑灑血液給予傷害，\n與發動「朽」把那些血液當成觸媒附加<GLO=GLS_GAME_WORDS_1415>，巧妙地搭配使用就能牽著敵人的鼻子走。\n\n．<GLO=GLS_GAME_WORDS_1427>「朽」：敵人沾上的血液量越多，效果便會階段性地提升。\n積極朝敵人潑灑血液吧！\n．<GLO=GLS_GAME_WORDS_1427>「朽」發動期間，<GLO=GLS_NAME_CN_260>會無法利用血液做其他攻擊。\n這時候需要比平常更仰賴<GLO=GLS_NAME_CN_080>的幫助！\n\n兄弟合作無間才是<GLO=GLS_GAME_WORDS_1601>關鍵，戰鬥時務必銘記於心！"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "3連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人連續毆打2次的近距離攻擊。\n若成功命中，會追加以「翅王」潑灑血液。\n「朽」發動時產生<GLO=GLS_NAME_CN_080>的追擊\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "中段踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以右腳向上踢飛敵人的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "挑飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，上勾拳挑飛敵人的近距離攻擊。\n若成功命中，會追加以「翅王」潑灑血液。\n「朽」發動時產生<GLO=GLS_NAME_CN_080>的追擊"
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "雙手刀"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "朝前踏步雙手下劈的近距離攻擊。\n若成功命中，會追加以「翅王」潑灑血液。\n「朽」發動時產生<GLO=GLS_NAME_CN_080>的追擊。"
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "近前刺拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，快速揮出右刺拳的近距離攻擊。\n若成功命中，會讓<GLO=GLS_NAME_CN_080>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "致勝一擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以右腳向上踢飛敵人的近距離攻擊。\n若成功命中，會讓<GLO=GLS_NAME_CN_080>追加攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "弟弟啊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "讓<GLO=GLS_NAME_CN_080>依自己指令行動。\n但<GLO=GLS_NAME_CN_080><GLO=GLS_GAME_WORDS_1429>期間無法遵循指令。\n<img id=\"CursedEnergyAttack_1\"/>\n噴射潑灑血液。\n<img id=\"MoveUp\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n<GLO=GLS_GAME_WORDS_1419>向敵人連續攻擊。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n回到<GLO=GLS_NAME_CN_260>身邊。\n不會消耗<GLO=GLS_GAME_WORDS_1503>。\n【<GLO=GLS_GAME_WORDS_1401>2】\n提升<GLO=GLS_NAME_CN_080>的移動速度。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步提升<GLO=GLS_NAME_CN_080>的移動速度。"
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "<GLO=GLS_GAME_WORDS_1427>　極之番「翅王」/「朽」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\n發動<GLO=GLS_GAME_WORDS_1427>　極之番「翅王」，命中後傷害敵人並潑灑血液。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_2\"/>\n發動<GLO=GLS_GAME_WORDS_1427>「朽」，降低已被潑灑血液敵人的<GLO=GLS_GAME_WORDS_1405>能力。\n發動中追加潑灑血液會持續傷害敵人。\n追加潑灑血液的狀態下再次輸入並解除，可給予更多傷害。\n追加潑灑血液的次數越多效果越強。\n持續消耗<GLO=GLS_GAME_WORDS_1503>，再次輸入或是<GLO=GLS_GAME_WORDS_1503>歸零就會解除。\n「朽」發動中無法發動「翅王」。\n【<GLO=GLS_GAME_WORDS_1401>2】\n增加「翅王」的攻擊次數。\n【<GLO=GLS_GAME_WORDS_1401>3】\n進一步增加翅王攻擊次數，可長按延續效果。"
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "這就是兄弟的力量"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n反手拳命中時發動。\n與<GLO=GLS_NAME_CN_080>聯手潑灑血雨，發動蝕爛腐術「朽」帶來巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "為了弟弟"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "<GLO=GLS_NAME_CN_080>未<GLO=GLS_GAME_WORDS_1429>期間<GLO=GLS_NAME_CN_260>的攻擊能力上升。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "在任何情況下，都能創造出對自己有利場面的目中無人最強<GLO=GLS_UNIQUE_WORDS_0001>。\n\n・如果停留在原地，將發動讓所有攻擊無法命中的無下限咒術。\n・術式順轉「蒼」可以瞬間接近敵人或將敵人拉近，\n　用來自由控制敵人的行動吧。\n・ 「術式順轉 『蒼 』最大輸出 」是大範圍橫掃，能徹底改變戰況的大招。\n　看準機會，使出反敗為勝的一擊吧！"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "連續踢擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續進行格鬥攻擊的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "上勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，往上打出的近距離攻擊\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時，如果在<GLO=GLS_GAME_WORDS_1515>中讓此攻擊命中，\n會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "拉近連踢"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "拉近並<GLO=GLS_GAME_WORDS_1419>向敵人，踢飛敵人的2連擊。"
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "2連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，快速進行2連續攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "拉近連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "拉近並<GLO=GLS_GAME_WORDS_1419>向敵人，用2連擊打飛敵人後，再次拉近追擊的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "要害攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，以強力一擊打飛敵人。"
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "術式順轉「蒼」連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "高速移動到敵人面前，進行連擊的近距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "術式順轉「蒼」最大輸出"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "用最大輸出產生巨大的蒼，拉近敵人進行攻擊。\n【<GLO=GLS_GAME_WORDS_1401>２】\n縮短蓄力時間。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步縮短蓄力時間。"
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "術式反轉「赫」"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1017>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n膝擊成功命中時發動。\n釋放<GLO=GLS_UNIQUE_WORDS_1017>，貫穿對方造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1515>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "自己被<GLO=GLS_GAME_WORDS_1418>一次時發動。\n一部分格鬥攻擊的性能提升，「術式順轉『蒼』最大輸出」的性能也提升。\n變為可發動<GLO=GLS_GAME_WORDS_1315>。"
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "無下限咒術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "停止狀態經過一定時間後發動。\n自己的周圍出現無限，不會受到一定次數的攻擊。"
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "六眼"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "常態發動。\n可掌握對手的<GLO=GLS_GAME_WORDS_1503>量表。\n<GLO=GLS_GAME_WORDS_1503>逐漸上升。"
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "浮游"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "長按<GLO=GLS_GAME_WORDS_1406>可以浮游。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "兼具卓越格鬥天份和術式的年輕特級<GLO=GLS_UNIQUE_WORDS_0001>。\n\n・「<GLO=GLS_UNIQUE_WORDS_0002>操術：<GLO=GLS_NAME_CN_200>」會對敵人的攻擊做出反應，展開產生反擊的簡易領域！\n　限制敵人的動作，創造有利於我方的局面吧！\n・潛在能力「<GLO=GLS_UNIQUE_WORDS_0002>操術」是透過<GLO=GLS_UNIQUE_WORDS_0002>的攻擊使自己的<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>。\n　持續攻擊增加傷害吧！"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "四段格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續進行格鬥攻擊的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：衝刺"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "召喚<GLO=GLS_UNIQUE_WORDS_0002>進行突襲的中距離攻擊\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時，如果讓此攻擊命中，會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "三段格鬥攻擊：<GLO=GLS_UNIQUE_WORDS_0002>追擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，進行3連續攻擊後召喚<GLO=GLS_UNIQUE_WORDS_0002>進行衝撞敵人的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "二段格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，快速進行2連續攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "二段格鬥攻擊：<GLO=GLS_UNIQUE_WORDS_0002>追擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，進行2連續攻擊後召喚<GLO=GLS_UNIQUE_WORDS_0002>進行擊飛敵人的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "連續發射3個小型<GLO=GLS_UNIQUE_WORDS_0002>的中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：連彈"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "派出小型<GLO=GLS_UNIQUE_WORDS_0002>個別攻擊。\n<img id=\"CursedEnergyAttack_1\"/>\n讓複數的小型<GLO=GLS_UNIQUE_WORDS_0002>追趕敵人的中距離攻擊。\n【<GLO=GLS_GAME_WORDS_1401>２】\n召喚<GLO=GLS_UNIQUE_WORDS_0002>的數量增加，命中次數增加。\n【<GLO=GLS_GAME_WORDS_1401>３】\n召喚<GLO=GLS_UNIQUE_WORDS_0002>的數量進一步增加，命中次數增加。\n<SplitCommand>\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n連續發射無數小型<GLO=GLS_UNIQUE_WORDS_0002>的遠距離攻擊。\n可長按維持架式。\n發動中持續消耗<GLO=GLS_GAME_WORDS_1503>\n【<GLO=GLS_GAME_WORDS_1401>２】\n召喚<GLO=GLS_UNIQUE_WORDS_0002>的數量增加，可進行廣泛攻擊。\n【<GLO=GLS_GAME_WORDS_1401>３】\n召喚<GLO=GLS_UNIQUE_WORDS_0002>的數量進一步增加，可進行更廣泛的攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：<GLO=GLS_NAME_CN_200>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "召喚<GLO=GLS_NAME_CN_200>，展開簡易領域。\n用無數剪刀切割在領域內發動攻擊的敵人。\n持續消耗咒力，再次輸入或咒力歸零時則會解除。\n【<GLO=GLS_GAME_WORDS_1401>２】\n增加攻擊次數，擴大領域範圍。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步增加攻擊次數，擴大領域範圍。"
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術：「<GLO=GLS_NAME_CN_200>」"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1018>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n肘擊成功命中時發動。\n讓持有<GLO=GLS_UNIQUE_WORDS_0002>中最高硬度的<GLO=GLS_NAME_CN_190>衝向敵人，造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0002>操術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "每當<GLO=GLS_UNIQUE_WORDS_0002>的攻擊命中時，自己的<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>一定的量。\n咒力回復量因咒靈而異。\n另外，該效果會根據<GLO=GLS_GAME_WORDS_1401>而變動。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "擅長遠距離射擊支援，出其不意的遠距攻擊者。\n\n・「狙擊」可將裝有<GLO=GLS_GAME_WORDS_1503>的子彈向任意方向射擊。\n　好好瞄準，發出強力的一擊吧。\n・把握空檔頻繁裝填，以免錯過攻擊機會。\n・如果攻擊並非以自己為目標的敵人，威力及<GLO=GLS_GAME_WORDS_1503>增加量會上升。\n　注意敵人的目標，做出有利的走位吧！"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "單發射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "消耗一發子彈向敵人射擊的遠距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。\n子彈為空時則重新裝填。"
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "蹲下射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "當場蹲下，消耗一發子彈向敵人射擊的遠距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時，如果在讓此攻擊命中，會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。\n子彈為空時則重新裝填。"
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "連續射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "連續輸入<img id=\"NormalAttack_2\"/>可以快速射出已裝填子彈的連續攻擊。\n子彈為空時則重新裝填。"
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "踢擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用迴旋踢擊飛敵人的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "致盲攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "當場撒出沙子，讓被擊中的敵人退縮的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "二連打"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續毆打2次的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "狙擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "當場瞄準敵人，發射裝有<GLO=GLS_GAME_WORDS_1503>的子彈的遠距離攻擊。\n可用<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>操作專用瞄準器，以越肩視點進行狙擊。\n在該狀態下，消耗<GLO=GLS_GAME_WORDS_1503>，可以用<img id=\"NormalAttack_1\"/>，<img id=\"NormalAttack_2\"/>、<img id=\"CursedEnergyAttack_2\"/>進行不同的射擊。\n子彈為空時則重新裝填。\n【<GLO=GLS_GAME_WORDS_1401>１】\n<img id=\"NormalAttack_1\"/>：消耗<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"CursedEnergyAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>1【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n<img id=\"NormalAttack_1\"/>：消耗<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>2\n<img id=\"CursedEnergyAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>2【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。\n<img id=\"NormalAttack_1\"/>：消耗<GLO=GLS_GAME_WORDS_1503>1\n<img id=\"NormalAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>3\n<img id=\"CursedEnergyAttack_2\"/>：消耗<GLO=GLS_GAME_WORDS_1503>3"
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "蓄力射擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "在子彈中裝入<GLO=GLS_GAME_WORDS_1503>，發射強力一擊的遠距離攻擊。\n可長按維持架式。\n蓄力中可進行移動操作。\n無法<GLO=GLS_GAME_WORDS_1405>。\n損傷會隨著蓄力時間而上升，\n累積到最大值時會貫通。\n子彈為空時則重新裝填。\n【<GLO=GLS_GAME_WORDS_1401>２】\n縮短蓄力時間。\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步進縮短蓄力時間。\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "重新裝填"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "補充子彈。\n重新裝填中可進行移動操作。"
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "太好了，擊中了呢"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1020>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n子彈為空時則重新裝填。\n消耗1發子彈射擊，命中則發動。\n發射6發子彈後，用<GLO=GLS_UNIQUE_WORDS_1020>發射第7發，對敵人造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "笨蛋才會拉開距離吧？"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "攻擊未盯上自己的敵人時，攻擊力和<GLO=GLS_GAME_WORDS_1503>增加量上升。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "以無人能及的空中移動擾亂敵人的飛行攻擊者。\n\n・以可一邊攻擊一邊高速移動的「前衝」來破壞敵人步調，\n　並趁機用「付喪操術『鐮異斷』」造成大量傷害吧！\n・以潛在能力「付喪操術」立體地活用場地，\n　發揮從任何地點都能發動攻擊的機動力！"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "揮箒掃擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用掃帚打擊敵人的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。"
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "旋風"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "產生會向前進的旋風的中距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時，如果讓此攻擊命中，會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "急襲攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "俯衝向敵人的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "垂直落下"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "就地垂直降落，\n可長按維持動作。\n移動後可轉為其他招式或<GLO=GLS_GAME_WORDS_1405>。"
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "起風"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "捲起風向敵人發射的中距離射擊。\n命中時風勢會擴散把敵人往上轟。"
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "強風"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "當場用掃帚橫掃，掀起一陣風的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "衝刺"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "騎著掃帚奮力向前衝，\n在衝刺過程中可用<img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>轉彎。\n攻擊後自己的移動速度提升，並強化用風攻擊的激發技。\n可長按維持架式。\n攻擊後可轉變為<GLO=GLS_GAME_WORDS_1405>。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n提升賦予的強化效果。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。\n進一步提升賦予的強化效果。"
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "向敵人發出鐮異斷的遠距離射擊。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "快來抓住我啊"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1021>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n乘坐在掃帚上踢擊，命中時發動。\n將敵人吹向無處可逃的空中後，施展<GLO=GLS_UNIQUE_WORDS_1021>造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "付喪操術"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "乘掃帚飛行，\n長按<GLO=GLS_GAME_WORDS_1406>可持續上升。\n在空中是滑翔狀態，<GLO=GLS_GAME_WORDS_1504>會<GLO=GLS_GAME_WORDS_1819>。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "以弓術和赤血操術進行種類豐富的攻擊，將敵人逼入絕境的遠距離攻擊手。\n\n・以弓箭進行各種攻擊讓敵人產生破綻，再接續使用大招赤血操術吧。\n・赤血操術「苅祓」較容易擊中移動中的敵人，故能確實給予敵人傷害。\n・赤血操術「百斂/穿血」蓄力越久則射程和威力越高，可以一口氣貫穿敵人。\n　冷靜觀察對手的動作，用仔細瞄準的一擊定勝負吧！"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "咒力箭：連射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "向敵人連續射出箭矢的遠距離攻擊。\n攻擊中追加輸入可轉為咒力技。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "咒力箭：單射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "用力拉緊弓，射出箭矢的遠距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "咒力箭：縱射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "遠距離攻擊，可在直線上射出兼具射程與速度的箭矢。\n可長按維持架式。"
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "咒力箭：曲射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "瞄準射程範圍內的敵人周圍，\n降下複數箭矢的遠距離攻擊。\n長按可攻擊指定的位置。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "咒力箭：橫射"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "朝3方向射出箭矢的遠距離攻擊。\n蓄力可以赤血操術射出<GLO=GLS_GAME_WORDS_1419>至敵人的箭矢。\n可長按維持架式。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "赤血操術「赤縛」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "當場擺出架式，一被敵人攻擊就會把血袋丟向敵人。\n血袋擊中敵人會讓血液纏繞敵人，可停止敵人的動作。"
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "赤血操術「苅祓」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "把血液壓縮為圓盤狀旋轉丟出，是<GLO=GLS_GAME_WORDS_1419>性能高的遠距離攻擊。\n根據<GLO=GLS_GAME_WORDS_1401>，可發射數量也會增加。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>２】\n發射數量增加，\n<GLO=GLS_GAME_WORDS_1516>消耗量增加。\n【<GLO=GLS_GAME_WORDS_1401>３】\n發射數量進一步增加，\n<GLO=GLS_GAME_WORDS_1516>消耗量進一步增加。"
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "赤血操術「百斂/穿血」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "壓縮血液，以超高速一直線發射的遠距離攻擊。\n根據蓄力階段，射程距離與給予的傷害皆會增加。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>２】\n蓄力階段增加\n【<GLO=GLS_GAME_WORDS_1401>３】\n蓄力階段進一步增加"
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "赤血操術「赤鱗躍動」"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1027>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n箭矢射中敵人即會發動。\n以箭矢攻擊敵人後，會施放穿血並造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "血袋"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "使用赤血操術，將會依各招式所使用血液量消耗<GLO=GLS_GAME_WORDS_1516>。\n如果在<GLO=GLS_GAME_WORDS_1516>為零時使用，將會消耗體力。\n<GLO=GLS_GAME_WORDS_1314>和<GLO=GLS_GAME_WORDS_1315>不會消耗。"
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "下代當主的志氣"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "體力在一半以下時，<GLO=GLS_GAME_WORDS_1516>的消耗量會減少。\n如果當下<GLO=GLS_GAME_WORDS_1516>為零，則體力的消耗量會減少。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "以天與咒縛的肉體和特殊<GLO=GLS_UNIQUE_WORDS_0008>蹂躪敵人的「術師殺手」。\n\n・「高速移動」可以取消攻擊和轉為其他攻擊。\n　攻擊後也別放慢步調，繼續追擊吧。\n・「天逆鉾：斬襲」的攻擊方式，會根據自己和對方的位置關係發生變化。\n　搭配「高速移動」組成連擊吧！"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "斬踢擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用天逆鉾斬擊的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1310>。"
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "強擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "向前踏步，用全力毆打的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時，如果讓此攻擊命中，會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "突刺兩斷"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用天逆鉾突刺的近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "突刺降落"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "向前跳躍後，邊直立天逆鉾邊落地的近距離攻擊。\n把對手捲進來並落地，著地的同時擊飛對手。"
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "高速移動"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "消耗<GLO=GLS_GAME_WORDS_1504>高速移動。\n移動後追加輸入能夠進一步移動。\n可以從其他招式的硬直轉為此招式，部分招式則可在<GLO=GLS_GAME_WORDS_1419>途中轉為此招式。\n移動後可轉為其他招式。\n<img id=\"NormalAttack_3\"/>\n向對手的方向移動。\n<img id=\"MoveLeft\"/>，<img id=\"MoveRight\"/>＋<img id=\"NormalAttack_3\"/>\n向斜前方移動。\n<img id=\"MoveUp\"/>＋<img id=\"NormalAttack_3\"/>\n向前方移動。"
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "居合"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "當場擺好架勢，用天逆鉾斬擊眼前對手。\n保持架勢期間，一旦被敵人攻擊就會立即反擊。"
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "天逆鉾：斬襲"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "用天逆鉾使出強烈的一擊。\n根據對方朝向自己的位置，進行不同攻擊。\n【<GLO=GLS_GAME_WORDS_1508>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1508>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "天逆鉾：斬裂"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "使用天逆鉾的神速連擊。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1508>２】\n增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1508>３】\n進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0008>連擊"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1019>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n使用天逆鉾的突刺命中時發動。\n讓萬里之鎖與天逆鉾連結，以迅雷不及掩耳的連擊造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "術師殺手"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "如果用自己的攻擊做最後一擊，<GLO=GLS_GAME_WORDS_1508>會上升，一定時間內<GLO=GLS_GAME_WORDS_1504>消耗量減少。\n如果<GLO=GLS_GAME_WORDS_1508>已經是最大值，<GLO=GLS_GAME_WORDS_1506>量表會<GLO=GLS_GAME_WORDS_1819>。"
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "天與咒縛：肉體天賦"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "雖然完全沒有<GLO=GLS_GAME_WORDS_1503>，但具有極為少見的肉體能力。\n空中<GLO=GLS_GAME_WORDS_1406>的次數較多。"
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "天逆鉾"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "天逆鉾的攻擊會強制解除敵人的術式。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "活用拔刀術，以神速斬擊將敵人一刀兩斷的近距離攻擊者。\n\n・潛在能力「新陰流『拔刀』」可以讓從收刀狀態使出的攻擊迅速且強力。\n　盡量以收刀狀態來移動，讓自己總是能搶得先機。\n・「新陰流　簡易領域」會對進入領域的人全自動反射迎擊，造成大量傷害。\n　自己想進攻時可以用咒力技「新陰流『拔刀』」一口氣拉近距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "袈裟斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，進行袈裟斬的近距離攻擊。\n擊中時自動再追擊，進入收刀狀態。\n再追加輸入可轉為咒力技。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "揮刀斬飛"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，將其向上斬飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "橫斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，近距離施展橫斬。\n擊中時踢飛敵人，進入收刀狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "兩斷斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "當場收刀後<GLO=GLS_GAME_WORDS_1419>向敵人，近距離重砍2刀。\n收刀狀態下可立刻重砍2刀。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "收刀/居合斬擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【拔刀狀態】\n當場進入收刀狀態。\n【收刀狀態】\n瞬間向前方施展居合斬的近距離攻擊。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "收刀迴避"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "往輸入方向邊迴避邊收刀。\n如為收刀狀態則只進行迴避。\n迴避後可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "新陰流「拔刀」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "當場收刀後<GLO=GLS_GAME_WORDS_1419>向敵人，發出全力居合斬的近距離攻擊。\n收刀狀態可立刻進行攻擊。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n擴張攻擊範圍。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。\n進一步擴張攻擊範圍。"
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "當場收刀，展開簡易領域。\n如為收刀狀態則省略收刀動作。\n自動迎擊侵入領域內的敵人。\n自動化解來自領域外的攻擊。\n在簡易領域中展開可轉為「收刀迴避」。\n可長按維持架式。\n若半空中使用會強制落地。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n擴張領域範圍。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。\n進一步擴張領域範圍。"
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1025>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n向上斬擊命中即會發動。\n展開簡易領域，對進入領域的人全自動反射迎擊，造成大量傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "新陰流「拔刀」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "進行特定攻擊將會變為收刀狀態。\n收刀狀態將省略一部分攻擊準備動作，強化一部分攻擊的<GLO=GLS_GAME_WORDS_1419>性能。\n在收刀狀態<GLO=GLS_GAME_WORDS_1409>或受到攻擊擊飛，則會變為拔刀狀態。\n<GLO=GLS_GAME_WORDS_1410>則會維持收刀狀態。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "因為天與咒縛獲得了驚人<GLO=GLS_GAME_WORDS_1503>輸出的高火力攻擊者。\n\n・潛在能力「天與咒縛」可以不受<GLO=GLS_GAME_WORDS_1401>限制發動<GLO=GLS_GAME_WORDS_1307>。\n　運用<GLO=GLS_GAME_WORDS_1813>一開始就能打出高傷害的特性，在比賽取得優勢吧！\n・用高機動力的<GLO=GLS_GAME_WORDS_1302>，穿梭戰場玩弄敵人吧。"
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "連續格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續進行格鬥攻擊的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "推力加算掌擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "以噴射氣流加速<GLO=GLS_GAME_WORDS_1419>向敵人，往上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "廣範圍「大祓砲」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "左手掌施放大祓砲燃燒廣大範圍，中距離攻擊。"
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "刀源解放「劍山盾」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "讓右手臂變形成像劍山一樣，當場擺出架式。\n這期間如果受到攻擊，會用劍山盾反擊。\n反擊擊中將使敵人後仰。"
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "推力加算2段格鬥"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "以噴射氣流加速<GLO=GLS_GAME_WORDS_1419>向敵人，連續踢擊2次的近距離攻擊。\n過熱狀態時，開始攻擊的蓄力時間會增加。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "推力加算上勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "以噴射氣流加速<GLO=GLS_GAME_WORDS_1419>向敵人，用力揮拳向上打飛的近距離攻擊。\n過熱狀態時，開始攻擊的蓄力時間會增加。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "刀源解放 推力加算「絕技抉剔」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "從右手臂伸出刀刃，邊高速旋轉右手邊以噴射氣流衝向敵人。\n可長按蓄力。\n【<GLO=GLS_GAME_WORDS_1508>２】\n接連輸入增加攻擊次數。\n【<GLO=GLS_GAME_WORDS_1508>３】\n接連輸入進一步增加攻擊次數。"
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "高輸出「大祓砲」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "從左手掌發射蓄積的<GLO=GLS_GAME_WORDS_1503>的遠距離攻擊。\n可長按蓄力。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "推力加算格鬥"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n發射的子彈命中時發動。\n從口部伸出砲塔，與雙手一同發射三重大祓砲造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "天與咒縛"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "可以用比現在<GLO=GLS_GAME_WORDS_1401>更高的性能發動<GLO=GLS_GAME_WORDS_1307>。\n使用<GLO=GLS_GAME_WORDS_1307>時長按一段時間即可發動。\n根據與已發動性能的等級差距，會變為過熱狀態，賦予移動速度降低、\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度低下的效果。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "可以操作血液，不受距離限制攻擊敵方的超特化攻擊手。\n\n・赤血操術「赤鱗躍動」發動中可以用<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>對敵方造成損傷，\n　移動性能還會大幅提升，一口氣拉近與敵方的距離連續攻擊吧。\n・赤血操術「百斂・穿血」在<GLO=GLS_GAME_WORDS_1401>3時發射後可以左右橫掃，\n　從遠距離一次打倒所有敵人。"
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "5段格鬥連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續施展毆打的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "上勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，往上挑飛的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "赤血操術「血刃」連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，快速切割2次的近距離攻擊。\n若成功命中，可讓敵方在一定時間內降低移動速度。\n有血球的狀態，造成的傷害和可獲得<GLO=GLS_GAME_WORDS_1503>會增加。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "2段格鬥攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用凝固血液的沉重攻擊打飛敵人的近距離攻擊。\n攻擊中會變為<GLO=GLS_GAME_WORDS_1423>。\n有血球的狀態，造成的傷害和可獲得的<GLO=GLS_GAME_WORDS_1503>會增加。\n此攻擊可轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "赤血操術「苅祓」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "把血液壓縮為圓盤狀旋轉丟出的遠距離攻擊。\n若成功命中，可讓敵方在一定時間內降低移動速度。\n消耗1個血球。\n沒有血球的狀態，會產生新的血球。"
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "血液波狀攻擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "施放出血液的波流，變化成許多荊棘的近距離攻擊。\n若成功命中，可讓敵方在一定時間內降低移動速度。\n消耗1個血球。\n沒有血球的狀態，會產生新的血球。"
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "赤血操術「赤鱗躍動」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "操作體內的血中成分，提升身體能力。\n發動中可以用<GLO=GLS_GAME_WORDS_1301>／<GLO=GLS_GAME_WORDS_1302>造成損傷，並獲得以下效果：\n攻擊速度上升。\n<GLO=GLS_GAME_WORDS_1419>速度上升。\n<GLO=GLS_GAME_WORDS_1405>速度上升。\n<GLO=GLS_GAME_WORDS_1504>消耗量減少。\n對<GLO=GLS_GAME_WORDS_1409>的傷害量提升。\n\n持續消耗<GLO=GLS_GAME_WORDS_1503>，再次輸入或<GLO=GLS_GAME_WORDS_1503>歸零時則會解除。\n"
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "赤血操術「百斂・穿血」"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "壓縮血液，以超高速一直線發射的遠距離攻擊。\n根據蓄力階段，射程距離與給予的傷害皆會增加。\n若成功命中，可讓敵方在一定時間內降低移動速度。\n消耗1個血球。\n沒有血球的狀態，會產生新的血球。\n可長按維持架式。\n【<GLO=GLS_GAME_WORDS_1401>２】\n蓄力時間縮短。\n【<GLO=GLS_GAME_WORDS_1401>３】\n發射穿血後用<img id=\"MoveLeft\"/><img id=\"MoveRight\"/>可展開橫掃。"
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "赤血操術「赫鱗躍動・載」"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n後踢擊中可發動。\n解放用「百斂」壓縮的血液，像全方位散彈一樣射出，造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "血球"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "可以在持有複數血球的狀態下行動，\n一部分強力攻擊會消耗血球。\n隨<GLO=GLS_GAME_WORDS_1401>增加可製造的血球數。\n沒有血球時，可按<img id=\"NormalAttack_3\"/>，<img id=\"MoveDown\"/>＋<img id=\"NormalAttack_3\"/>，<img id=\"CursedEnergyAttack_2\"/>產生新的血球。"
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_0004>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "使用有毒性的血液攻擊命中時，讓敵方在一定時間內降低移動速度。\n隨<GLO=GLS_GAME_WORDS_1401>增加移動速度的降低幅度。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "在攻防方面都驅使烏鴉，也利用夥伴來戰鬥的近距離攻擊者。\n\n・咒力技「黑鳥操術」會自動防禦攻擊，也能讓烏鴉突擊。\n　隨時驅使烏鴉，創造優勢吧。\n・因為潛在能力「生命價值就在於用益潛在力」，合作得越多就越能強化冥冥。\n　效果會持續到戰鬥結束，所以積極合作吧。"
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "三連斬"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續進行斧頭攻擊的近距離攻擊。\n攻擊中追加輸入，可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "刀背擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用斧背往上挑飛敵人的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n組隊出擊時若成功命中，可製造<GLO=GLS_GAME_WORDS_1314>的機會。"
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "上揮追擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用斧頭向上揮出的近距離攻擊。\n追加輸入可再追擊以擊飛敵人。\n第1段後可轉為「落地撞擊」，\n第2段後可轉為「黑鳥操術」。"
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "落地撞擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "當場跳起，邊把斧頭劃向斜下方邊落下的近距離攻擊。\n若於半空中使用會當場落地。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "空中擊落"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，用斧頭向上揮再擊落的近距離攻擊。\n攻擊中追加輸入可再追擊，打飛敵人。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "踩踏跳躍"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "重踩敵人向上跳的近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "迴旋轉/下揮"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "邊舉著斧頭邊<GLO=GLS_GAME_WORDS_1405>，追加輸入可轉變為攻擊的近距離攻擊。\n<GLO=GLS_GAME_WORDS_1405>中可往任意方向移動。\n<img id=\"CursedEnergyAttack_1\"/>\n邊旋轉邊揮動斧頭攻擊。\n<img id=\"MoveDown\"/>＋<img id=\"CursedEnergyAttack_1\"/>\n高高跳起後揮下斧頭並落地。\n可以從一般狀態直接發動。\n\n【<GLO=GLS_GAME_WORDS_1401>２】\n<GLO=GLS_GAME_WORDS_1405>速度上升\n<GLO=GLS_GAME_WORDS_1405>時間延長\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n<GLO=GLS_GAME_WORDS_1405>速度進一步上升\n<GLO=GLS_GAME_WORDS_1405>時間進一步延長\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "黑鳥操術"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "在自己周圍召喚烏鴉，讓烏鴉跟隨自己，擋住敵人1次攻擊。\n擋住敵人攻擊後烏鴉會消失。\n再次輸入可指示烏鴉向敵人突擊。\n突擊指示中可以移動，「迴旋轉/下揮」的<GLO=GLS_GAME_WORDS_1405>中也能指示。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "空中連擊"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n以斧頭撞擊命中時發動。\n強制烏鴉自殺，消除<GLO=GLS_GAME_WORDS_1503>限制造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "生命價值就在於用益潛在力"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1402>每發動一定次數可獲得以下效果：\n<GLO=GLS_GAME_WORDS_1405>速度上升\n<GLO=GLS_GAME_WORDS_1504>消耗量減少\n<GLO=GLS_GAME_WORDS_1405>後的硬直時間減少\n<GLO=GLS_GAME_WORDS_1503><GLO=GLS_GAME_WORDS_1819>速度上升\n<GLO=GLS_GAME_WORDS_1409>後的硬直時間減少\n<GLO=GLS_GAME_WORDS_1813>中效果永遠持續\n有上限。"
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "活用高風險、高報酬術式玩弄敵人的「最快的術師」。\n\n・潛在能力「投射咒法」，讓衍生後的攻擊誘導變成以術式進行高速移動。\n　自動消耗咒力，需注意咒力不夠時會讓自己僵直。\n・從<img id=\"NormalAttack_1\"/>、<img id=\"NormalAttack_2\"/>、<img id=\"NormalAttack_3\"/>的激發技後追加輸入可轉變為咒力技「投射咒法：一擊」。\n　連擊中的「投射咒法」發動次數越多，威力也會越大。"
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "鐵山靠"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，使出連擊的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "掌擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，使出掌擊的近距離攻擊。\n此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n命中未處於受攻擊狀態的敵人時，將使敵人僵直。\n組隊出擊時，如果讓此攻擊命中，\n會變成<GLO=GLS_GAME_WORDS_1314>機會狀態。"
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "上揮連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，向上打飛再擊落的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "上跳勾拳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，邊向上跳邊使出上勾拳的近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "三連腳"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "<GLO=GLS_GAME_WORDS_1419>向敵人，連續踢擊的近距離攻擊。\n攻擊中追加輸入可轉為<GLO=GLS_GAME_WORDS_1307>。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "踢落"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "往後跳再<GLO=GLS_GAME_WORDS_1419>向敵人，進行踢擊的近距離攻擊。\n此攻擊能夠轉為其他招式。"
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "投射咒法：一擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "當場擺出架式，以投射咒法<GLO=GLS_GAME_WORDS_1419>後用力重擊的近距離攻擊。\n擺出架式時輸入<GLO=GLS_GAME_WORDS_1405>或是<GLO=GLS_GAME_WORDS_1406>可往任意方向移動，最多2次。\n擺出架式時或移動後輸入<GLO=GLS_GAME_WORDS_1301>/<GLO=GLS_GAME_WORDS_1302>可以使出投射咒法的衍生攻擊。\n如果是從其他招式轉變，將省略架式。\n所造成傷害量只會受投射咒法的次數影響。"
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "投射咒法：連擊"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "以投射咒法<GLO=GLS_GAME_WORDS_1419>，碰觸敵人使其僵直後進行連擊的近距離攻擊。\n在正確時機追加輸入可衍生成追擊。\n衍生失敗將僵直一定時間。\n【<GLO=GLS_GAME_WORDS_1401>２】\n提升給予傷害值。\n【<GLO=GLS_GAME_WORDS_1401>３】\n進一步提升給予傷害值。"
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "投射咒法"
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "此攻擊無法<GLO=GLS_GAME_WORDS_1409>。\n衝刺命中時發動。\n重複以投射咒法加速的最快連擊造成巨大傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "投射咒法"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "攻擊中轉為其他招式時發動。\n自動使用<GLO=GLS_GAME_WORDS_1503>，<GLO=GLS_GAME_WORDS_1419>變化為依照投射咒法移動。\n以投射咒法使出的攻擊是個別的單發攻擊。\n<GLO=GLS_GAME_WORDS_1503>不足時則失敗，僵直一定時間。\n多次使用投射咒法的衍生攻擊將提升攻擊的傷害。"
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "秘傳「落花之情」"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "當敵人的<GLO=GLS_UNIQUE_WORDS_0007>，<GLO=GLS_GAME_WORDS_1409>會變化為「落花之情」。\n持續消耗<GLO=GLS_GAME_WORDS_1503>，用反擊保護自己。\n不會被擊退，也不會被<GLO=GLS_GAME_WORDS_1432>。\n<GLO=GLS_GAME_WORDS_1503>不足時將會變成普通的<GLO=GLS_GAME_WORDS_1409>。"
+      }
+    }
+  }
+]

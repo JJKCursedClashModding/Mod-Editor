@@ -1,0 +1,582 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerCardEmblemDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_PlayerCardEmblem'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "10": {
+        "ID": "10",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_010"
+      },
+      "20": {
+        "ID": "20",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_010"
+      },
+      "30": {
+        "ID": "30",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_010"
+      },
+      "35": {
+        "ID": "35",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_010"
+      },
+      "40": {
+        "ID": "40",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_020"
+      },
+      "50": {
+        "ID": "50",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_020"
+      },
+      "60": {
+        "ID": "60",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_020"
+      },
+      "65": {
+        "ID": "65",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_020"
+      },
+      "70": {
+        "ID": "70",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_030"
+      },
+      "80": {
+        "ID": "80",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_030"
+      },
+      "90": {
+        "ID": "90",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_030"
+      },
+      "95": {
+        "ID": "95",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_030"
+      },
+      "100": {
+        "ID": "100",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_040"
+      },
+      "110": {
+        "ID": "110",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_040"
+      },
+      "120": {
+        "ID": "120",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_040"
+      },
+      "125": {
+        "ID": "125",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_040"
+      },
+      "130": {
+        "ID": "130",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_050"
+      },
+      "140": {
+        "ID": "140",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_050"
+      },
+      "150": {
+        "ID": "150",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_050"
+      },
+      "155": {
+        "ID": "155",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_050"
+      },
+      "160": {
+        "ID": "160",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_060"
+      },
+      "170": {
+        "ID": "170",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_060"
+      },
+      "180": {
+        "ID": "180",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_060"
+      },
+      "185": {
+        "ID": "185",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_060"
+      },
+      "190": {
+        "ID": "190",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_070"
+      },
+      "200": {
+        "ID": "200",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_070"
+      },
+      "210": {
+        "ID": "210",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_070"
+      },
+      "215": {
+        "ID": "215",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_070"
+      },
+      "220": {
+        "ID": "220",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_080"
+      },
+      "230": {
+        "ID": "230",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_080"
+      },
+      "240": {
+        "ID": "240",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_080"
+      },
+      "245": {
+        "ID": "245",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_080"
+      },
+      "250": {
+        "ID": "250",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_090"
+      },
+      "260": {
+        "ID": "260",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_090"
+      },
+      "270": {
+        "ID": "270",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_090"
+      },
+      "275": {
+        "ID": "275",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_090"
+      },
+      "280": {
+        "ID": "280",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_100"
+      },
+      "290": {
+        "ID": "290",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_100"
+      },
+      "300": {
+        "ID": "300",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_100"
+      },
+      "305": {
+        "ID": "305",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_100"
+      },
+      "310": {
+        "ID": "310",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_110"
+      },
+      "320": {
+        "ID": "320",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_110"
+      },
+      "330": {
+        "ID": "330",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_110"
+      },
+      "335": {
+        "ID": "335",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_110"
+      },
+      "340": {
+        "ID": "340",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_120"
+      },
+      "350": {
+        "ID": "350",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_120"
+      },
+      "360": {
+        "ID": "360",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_120"
+      },
+      "365": {
+        "ID": "365",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_120"
+      },
+      "370": {
+        "ID": "370",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_130"
+      },
+      "380": {
+        "ID": "380",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_130"
+      },
+      "390": {
+        "ID": "390",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_130"
+      },
+      "395": {
+        "ID": "395",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_130"
+      },
+      "400": {
+        "ID": "400",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_140"
+      },
+      "410": {
+        "ID": "410",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_140"
+      },
+      "420": {
+        "ID": "420",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_140"
+      },
+      "425": {
+        "ID": "425",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_140"
+      },
+      "430": {
+        "ID": "430",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_150"
+      },
+      "440": {
+        "ID": "440",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_150"
+      },
+      "450": {
+        "ID": "450",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_150"
+      },
+      "455": {
+        "ID": "455",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_150"
+      },
+      "460": {
+        "ID": "460",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_160"
+      },
+      "470": {
+        "ID": "470",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_160"
+      },
+      "480": {
+        "ID": "480",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_160"
+      },
+      "485": {
+        "ID": "485",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_160"
+      },
+      "486": {
+        "ID": "486",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "NAME_None"
+      },
+      "500": {
+        "ID": "500",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_170"
+      },
+      "510": {
+        "ID": "510",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_170"
+      },
+      "520": {
+        "ID": "520",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_170"
+      },
+      "530": {
+        "ID": "530",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_170"
+      },
+      "540": {
+        "ID": "540",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_180"
+      },
+      "550": {
+        "ID": "550",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_180"
+      },
+      "560": {
+        "ID": "560",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_180"
+      },
+      "570": {
+        "ID": "570",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_180"
+      },
+      "660": {
+        "ID": "660",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_190"
+      },
+      "670": {
+        "ID": "670",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_190"
+      },
+      "680": {
+        "ID": "680",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_190"
+      },
+      "690": {
+        "ID": "690",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_190"
+      },
+      "580": {
+        "ID": "580",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_210"
+      },
+      "590": {
+        "ID": "590",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_210"
+      },
+      "600": {
+        "ID": "600",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_210"
+      },
+      "610": {
+        "ID": "610",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_210"
+      },
+      "620": {
+        "ID": "620",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_220"
+      },
+      "630": {
+        "ID": "630",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_220"
+      },
+      "640": {
+        "ID": "640",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_220"
+      },
+      "650": {
+        "ID": "650",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_220"
+      },
+      "700": {
+        "ID": "700",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CN_240"
+      },
+      "710": {
+        "ID": "710",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CN_240"
+      },
+      "720": {
+        "ID": "720",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CN_240"
+      },
+      "730": {
+        "ID": "730",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CN_240"
+      },
+      "2000": {
+        "ID": "2000",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_051"
+      },
+      "2010": {
+        "ID": "2010",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_051"
+      },
+      "2020": {
+        "ID": "2020",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_051"
+      },
+      "2030": {
+        "ID": "2030",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_051"
+      },
+      "2040": {
+        "ID": "2040",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_121"
+      },
+      "2050": {
+        "ID": "2050",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_121"
+      },
+      "2060": {
+        "ID": "2060",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_121"
+      },
+      "2070": {
+        "ID": "2070",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_121"
+      },
+      "2080": {
+        "ID": "2080",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_200"
+      },
+      "2090": {
+        "ID": "2090",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_200"
+      },
+      "2100": {
+        "ID": "2100",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_200"
+      },
+      "2110": {
+        "ID": "2110",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_200"
+      },
+      "2120": {
+        "ID": "2120",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_230"
+      },
+      "2130": {
+        "ID": "2130",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_230"
+      },
+      "2140": {
+        "ID": "2140",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_230"
+      },
+      "2150": {
+        "ID": "2150",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_230"
+      },
+      "2160": {
+        "ID": "2160",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_270"
+      },
+      "2170": {
+        "ID": "2170",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_270"
+      },
+      "2180": {
+        "ID": "2180",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_270"
+      },
+      "2190": {
+        "ID": "2190",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_270"
+      },
+      "2200": {
+        "ID": "2200",
+        "GradeType": "EGameEmblemGradeType::Grade1",
+        "Id_Character": "CP_240"
+      },
+      "2210": {
+        "ID": "2210",
+        "GradeType": "EGameEmblemGradeType::Grade2",
+        "Id_Character": "CP_240"
+      },
+      "2220": {
+        "ID": "2220",
+        "GradeType": "EGameEmblemGradeType::Grade3",
+        "Id_Character": "CP_240"
+      },
+      "2230": {
+        "ID": "2230",
+        "GradeType": "EGameEmblemGradeType::Grade4",
+        "Id_Character": "CP_240"
+      }
+    }
+  }
+]

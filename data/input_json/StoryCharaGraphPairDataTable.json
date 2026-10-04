@@ -1,0 +1,769 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StoryCharaGraphPairDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_StoryCharaGraphPair'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010": {
+        "ID": "CP_010",
+        "Id_Character": [
+          "CP_020",
+          "CP_030",
+          "CP_040",
+          "CP_050",
+          "CP_090",
+          "CP_100",
+          "CP_130",
+          "CP_150",
+          "CP_160"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_010_CP_020",
+          "CP_010_CP_030",
+          "CP_010_CP_040",
+          "CP_010_CP_050",
+          "CP_010_CP_090",
+          "CP_010_CP_100",
+          "CP_010_CP_130",
+          "CP_010_CP_150",
+          "CP_010_CP_160"
+        ]
+      },
+      "CP_020": {
+        "ID": "CP_020",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_020_CP_010",
+          "CP_020_CP_030",
+          "CP_020_CP_050",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_030": {
+        "ID": "CP_030",
+        "Id_Character": [
+          "CP_010",
+          "CP_020",
+          "CP_040",
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_100",
+          "CP_150"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "EndRelateLevel": [
+          5,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_030_CP_010",
+          "CP_030_CP_020",
+          "CP_030_CP_040",
+          "CP_030_CP_050",
+          "CP_030_CP_060",
+          "CP_030_CP_070",
+          "CP_030_CP_080",
+          "CP_030_CP_100",
+          "CP_030_CP_150"
+        ]
+      },
+      "CP_040": {
+        "ID": "CP_040",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_160",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_040_CP_010",
+          "CP_040_CP_030",
+          "CP_040_CP_050",
+          "CP_040_CP_060",
+          "CP_040_CP_070",
+          "CP_040_CP_080",
+          "CP_040_CP_160",
+          "None",
+          "None"
+        ]
+      },
+      "CP_050": {
+        "ID": "CP_050",
+        "Id_Character": [
+          "CP_010",
+          "CP_020",
+          "CP_030",
+          "CP_040",
+          "CP_090",
+          "CP_110",
+          "CP_120",
+          "CP_140",
+          "CP_150"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          3,
+          1,
+          1
+        ],
+        "EndRelateLevel": [
+          5,
+          3,
+          5,
+          5,
+          5,
+          3,
+          5,
+          3,
+          3
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_050_CP_010",
+          "CP_050_CP_020",
+          "CP_050_CP_030",
+          "CP_050_CP_040",
+          "CP_050_CP_090",
+          "CP_050_CP_110",
+          "CP_050_CP_120",
+          "CP_050_CP_140",
+          "CP_050_CP_150"
+        ]
+      },
+      "CP_060": {
+        "ID": "CP_060",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_070",
+          "CP_080",
+          "CP_110",
+          "CP_120",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          2,
+          1,
+          3,
+          3,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_060_CP_030",
+          "CP_060_CP_040",
+          "CP_060_CP_070",
+          "CP_060_CP_080",
+          "CP_060_CP_110",
+          "CP_060_CP_120",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_070": {
+        "ID": "CP_070",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_080",
+          "CP_110",
+          "CP_120",
+          "CP_150",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          2,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          3,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_070_CP_030",
+          "CP_070_CP_040",
+          "CP_070_CP_060",
+          "CP_070_CP_080",
+          "CP_070_CP_110",
+          "CP_070_CP_120",
+          "CP_070_CP_150",
+          "None",
+          "None"
+        ]
+      },
+      "CP_080": {
+        "ID": "CP_080",
+        "Id_Character": [
+          "CP_030",
+          "CP_040",
+          "CP_060",
+          "CP_070",
+          "CP_110",
+          "CP_120",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          2,
+          1,
+          3,
+          3,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_080_CP_030",
+          "CP_080_CP_040",
+          "CP_080_CP_060",
+          "CP_080_CP_070",
+          "CP_080_CP_110",
+          "CP_080_CP_120",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_090": {
+        "ID": "CP_090",
+        "Id_Character": [
+          "CP_010",
+          "CP_050",
+          "CP_130",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_090_CP_010",
+          "CP_090_CP_050",
+          "CP_090_CP_130",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_100": {
+        "ID": "CP_100",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_100_CP_010",
+          "CP_100_CP_030",
+          "CP_100_CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_110": {
+        "ID": "CP_110",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          3,
+          5,
+          5,
+          5,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_110_CP_050",
+          "CP_110_CP_060",
+          "CP_110_CP_070",
+          "CP_110_CP_080",
+          "CP_110_CP_120",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_120": {
+        "ID": "CP_120",
+        "Id_Character": [
+          "CP_050",
+          "CP_060",
+          "CP_070",
+          "CP_080",
+          "CP_110",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_120_CP_050",
+          "CP_120_CP_060",
+          "CP_120_CP_070",
+          "CP_120_CP_080",
+          "CP_120_CP_110",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_130": {
+        "ID": "CP_130",
+        "Id_Character": [
+          "CP_010",
+          "CP_090",
+          "CP_140",
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_130_CP_010",
+          "CP_130_CP_090",
+          "CP_130_CP_140",
+          "CP_130_CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_140": {
+        "ID": "CP_140",
+        "Id_Character": [
+          "CP_050",
+          "CP_130",
+          "CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          3,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_140_CP_050",
+          "CP_140_CP_130",
+          "CP_140_CP_150",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_150": {
+        "ID": "CP_150",
+        "Id_Character": [
+          "CP_010",
+          "CP_030",
+          "CP_050",
+          "CP_070",
+          "CP_100",
+          "CP_130",
+          "CP_140",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          5,
+          5,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_150_CP_010",
+          "CP_150_CP_030",
+          "CP_150_CP_050",
+          "CP_150_CP_070",
+          "CP_150_CP_100",
+          "CP_150_CP_130",
+          "CP_150_CP_140",
+          "None",
+          "None"
+        ]
+      },
+      "CP_160": {
+        "ID": "CP_160",
+        "Id_Character": [
+          "CP_010",
+          "CP_040",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "StartRelateLevel": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "EndRelateLevel": [
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Id_StoryCharaRelateLevel": [
+          "CP_160_CP_010",
+          "CP_160_CP_040",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      }
+    }
+  }
+]

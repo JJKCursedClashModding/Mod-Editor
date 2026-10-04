@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_De",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "Ein Nahkämpfer mit außerordentlichem körperlichem Potenzial.\nDu kannst Gegner aus nächster Nähe besiegen, indem du passende Angriffe für jede Situation wählst.\n\n• Sein Potenzial, \"Schnellgang\", erleichtert das Sprinten, wenn seine Fluchkraftstufe ansteigt, und ermöglicht es dir, blitzschnell an den Gegner zugelangen, um ihn im Nahkampf anzugreifen.\n• Überrasche deine Gegner mit der Fluchkrafttechnik \"Divergenzschlag\" und sorge dann mit \"Komboschlag\" für massiven Schaden!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Angriffshagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Angriffsfolge auszulösen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Aufwärtshaken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Drehkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem eine horizontale Schockwelle ausgesandt wird."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Abwärtskick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem eine vertikale Schockwelle ausgesandt wird."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Dropkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite mit einem dynamischen Sprungkick.\nDauerhafter Zustand während des Angriffs."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Steinwurf"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem zertrümmerte Steine geworfen werden.\nGegner, die vom Angriff getroffen wurden, werden gelähmt."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Divergenzschlag/Schwarzer Blitz"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Fluchkraftstufe 1: Angriff mit kurzer Reichweite, der mit einem Schlag zwei Treffer landet.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Wechselt auf Fluchkraftstufe 3 zu \"Schwarzer Blitz\".\nAngriff mit kurzer Reichweite, der durch einen brutalen Schlag schweren Schaden verursacht.\nDeckung ist gegen diesen Angriff nicht möglich."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Komboschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der aus einer Reihe von Drehkicks entsteht.\nDie Zahl der Angriffe verändert sich je nach Fluchkraftstufe.\nFluchkraftstufe 2: Fünf zusätzliche Schläge.\nFluchtkraftstufe 3: Zusätzlicher kraftvoller rechtshändiger Schlag."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Divergenzschlag"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Treffer am Körper aktiviert.\nBei maximaler Konzentration werden vier Schwarze Blitze ausgelöst, die schweren Schaden verursachen."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "Schnellgang"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "Wird schrittweise aktiviert, wenn die Fluchkraftstufe sich erhöht.\nVerringert die Verzögerung vor und nach einem Sprint.\nVerringert den Verbrauch der Sprintanzeige."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "Ein Kämpfer mit Angriffen mit kurzer Reichweite, die sowohl Freund als auch Feind in einem größeren Bereich treffen.\nMächtige Angriffe schleudern selbst Verbündete durch die Luft und geben dir die Kontrolle über das Schlachtfeld.\nDabei wirst du zwar angreifbar, erlangst aber auch den unverwundbaren Zustand, halte also die Augen nach Angriffschancen offen!\n\n• Sein Potenzial \"Fluchtechnikumkehr\" gewährt bei einem Gegenangriff Erholung von erlittenem Schaden, also bleib in der Offensive.\n• Das Potenzial \"Einschüchterung\", das durch Fluchkraftstufe 3 aktiviert wird, friert umstehende Gegner ein.\nHalte deine Gegner auf und entfessle zerstörerische Angriffe!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Niedermähen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der einen heftigen Schlag nach vorne auslöst.\nUnverwundbarer Zustand vor dem Angriff.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Rechte Faust"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem du dich schnell zum Gegner bewegst, um ihn zu attackieren.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Axtkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn zu Boden zu schleudern.\nErzeugt eine Schockwelle am Aufschlagpunkt des Gegners."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Stampfen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du mit dem Fuß auf den Boden trittst, um eine Schockwelle zu erzeugen.\nWenn du ihn in der Luft ausführst, stürzt du schnell zu Boden.\nUnverwundbarer Zustand während des Angriffs."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Wegschlagen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Bewege dich sofort auf den Gegner zu und schlage ihn mit einem Arm weg.\nFluchkraftstufe 3: Einschüchterung wird vor dem Angriff aktiviert."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Hammer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Bewege dich sofort auf den Gegner zu und greife ihn von hinten an.\nFluchkraftstufe 3: Einschüchterung wird vor dem Angriff aktiviert.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Rückhand/Zerlegen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Fluchkraftstufe 1: Rückhandangriff mit kurzer Reichweite.\nFluchkraftstufe 2: Wechselt ab Fluchkraftstufe 2 zu \"Demontieren\".\nAngriff mit kurzer Reichweite und einem Hieb, der den Gegner vor dir umwirft.\nFluchkraftstufe 3: Erhöht die Anzahl der Hiebe."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Kick/ <img id=\"Symbol_0002\"/> Öffnen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Fluchkraftstufe 1: Angriff mit kurzer Reichweite per Kick.\nFluchkraftstufe 2: Wechselt von \"<img id=\"Symbol_0002\"/>\"\n\"Öffnen\" zu Fluchkraftstufe 2.\nAngriff mit hoher Reichweite, bei dem ein Flammenpfeil als ein riesiger Wirbel herausgeschossen kommt.\nKann unterdrückt werden.\nFluchkraftstufe 3: Erweitert den Angriffsbereich und erhöht den verursachten Schaden."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Spalter"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen gewaltigen Hieb aktiviert.\nDehne deine Sphäre aus und verpasse dem Ziel gnadenlos Hiebe, um schweren Schaden zu verursachen.\nSchließt sich die Sphäre, werden Fluchkrafttechniken für eine Weile zu normalen Kampfkünsten."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Fluchtechnik-Umkehrung"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "Wird bei Fluchkraftstufe 2 oder höher aktiviert.\nStellt einen Teil des Schadens, den du erlitten hast, als Gesundheit wieder her, wenn du im Gegenzug einem Gegner Schaden zufügst."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Einschüchterung"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "Wird bei Fluchkraftstufe 3 aktiviert.\nWenn du bestimmte Angriffe ausführst, überwältigst du Leute in der Umgebung und sie sind handlungsunfähig."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "König der Flüche"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Werde bei bestimmten Angriffen unverwundbar."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "Ein Nahkampf-Kombo-Meister, der auf Angriffe mit Hilfe von Shikigami spezialisiert ist. \nNutze deinen Shikigami, wie du ihn brauchst, und setze ihn im Angriff oder als Unterstützung ein.\n\n• Beschwöre Nue oder \"Götterhund: Chaos!\" mit der Zehnschatten-Technik, um Shikigami-Folgeangriffe auszulösen.\nDu kannst deinem Shikigami befehlen, selbstständig anzugreifen, wodurch du deine Feinde aus der Distanz bekämpfen kannst!\n• Sein Potenzial \"Technikinterpretation\" lässt deinen Shikigami einen Konter ausführen, wenn du angegriffen wirst. Greife ohne Konsequenzen an!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Doppel-Drehkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einer Reihe von Kicks anzugreifen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nLöst einen Shikigami-Folgeangriff aus, während einer beschworen wird."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Aufwärtskick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Luft-Doppelattacke"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Angriffsfolge auszulösen.\nDauerhafter Zustand während des Sprungangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Luft-Drehkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nWenn ein Gegner getroffen wird, schleuderst du ihn mit einem Drehkick zu Boden.\nWenn ein Shikigami beschworen wird, wird ein Shikigami-Folgeangriff ausgelöst."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Kröte: Werfen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Beschwöre eine Kröte, die den Bereich vor ihr mit ihrer Zunge verwüstet. \nBei einem Treffer werden Gegner direkt in die Luft geschleudert. \nDieser Angriff kann mit anderen Techniken verkettet werden.\nLöst einen Shikigami-Folgeangriff aus, während einer beschworen wird."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Kröte: Heranziehen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Beschwöre eine Kröte, die ihre Zunge in gerader Linie nach vorn schnellen lässt.\nBei einem Treffer werden Gegner herangezogen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Zehnschattentechnik"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Verwendet Schatten als Medium, um einen Shikigami als deinen Partner zu beschwören. \nDie Fluchkraft wird ständig verbraucht, solange ein Shikigami beschworen wird.\nWenn Megumi angreift, führt das Shikigami automatisch Folgeangriffe aus.\nDrücke <img id=\"CursedEnergyAttack_1\"/>, solange ein Shikigami beschworen wird, um Fluchkraft zu verwenden und erteile ihm den Angriffsbefehl.\nDu kannst dich bewegen, während du Befehle erteilst.\nDrücke <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> während ein Shikigami beschworen wird, um die Beschwörung wieder aufzuheben.\nDas beschworene Shikigami verschwindet, wenn Fushiguro nicht genügend Fluchkraft hat.\nFluchkraft Stufe 1: Beschwört Nue mit <img id=\"CursedEnergyAttack_1\"/>.\nFluchkraft Stufe 2: Beschwört Chaos mit <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nFluchkraft Stufe 3: Verlangsamt Gegner, die von Nues Angriffen getroffen wurden. Erhöht den von Chaos verursachten Schaden."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Shikigami-Kombo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Führe gemeinsam mit deinem Shikigami einen Teamangriff aus.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nWenn kein Shikigami beschworen wurde, kannst du Chaos beschwören.\nWenn Megumi angreift, führen Shikigami automatisch Folgeangriffe aus.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter.\nBei Aktivierung kreist Chaos um den Gegner herum."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Shikigami-Kombo"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Rückwärtsdrehkick aktiviert.\nErzeugt einen Schattenbereich, der die Bewegungen des Gegners sperrt, und fügt ihm dann zusammen mit deinem Shikigami schweren Schaden zu.\nWenn sich die Sphäre schließt, kannst du vorübergehend keine Fluchkrafttechnik nutzen."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Technikinterpretation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "Wird bei Fluchkraftstufe 3 aktiviert.\nMegumi kann die Shikigami auch dann befehligen, wenn sie angegriffen werden."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "Eine Angreiferin mit mittlerer Reichweite, die mit Resonanz- und Haarnadel-Angriffen kämpft.\nDer Schlüssel zum Sieg liegt im Markieren der Gegner, um die Initiative zu ergreifen.\n\n• \"Strohpuppen-Voodoo: Haarnadel\" kann jederzeit ausgelöst werden, wenn du den Nagel eingeschlagen hast, also achte auf Timing und Deckung.\n• Auch wenn der Gegner aufschließt, ist das kein Grund zur Panik. Erledige ihn mit gut platziertem \"Strohpuppen-Voodoo: Resonanz\" oder einer Extraktionstechnik.\n\n• Markierte Gegner können aus jeder Distanz angegriffen werden, also nutze diesen Vorteil!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Nagelangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem der Gegner mit Nägeln beschossen wird.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Start"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Nagelsperrfeuer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem der Gegner mit Nägeln beschossen wird."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Weitflächiger Nagelangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, bei dem eine Welle von Nägeln ausgelöst wird."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "Eins-Zwei-Hammerschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um zwei Schläge mit einem Hammer zu landen."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Mächtiger Schwung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du deinen Hammer in einem weiten Bogen schwingst, während du nach vorne trittst."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\nSchießt einen Nagel, der mit Fluchkraft aufgeladen ist und hinterlässt bei jedem getroffenen Gegner eine Haarnadel.\nKann unterdrückt werden.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nAktiviert die Haarnadel, um aus der Ferne sämtlichen Schaden auf einmal zu verursachen.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Strohpuppen-Voodoo: Resonanz"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nBei einem direkten Angriff wird einem Körperteil des Gegners aufgrund des Resonanzeffekts Schaden zugefügt.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nAktiviert Resonanz, um von Weitem Schäden zu verursachen.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Nagelkombo"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Treffer mit einem Nagel aktiviert, der mit Fluchkraft aufgeladen ist.\nAus der Ferne wird Fluchkraft durch den Nagel injiziert, sodass er explodiert und schweren Schaden verursacht."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Prognose"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Erhöht die Fluchkraft, die du erhältst, wenn du einen Gegner mit einem Haarnadel- oder Resonanzeffekt angreifst."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "Ein Allrounder der Sonderstufe, der mit einer ungewöhnlichen Fluchtechnik und unfassbaren Kampffähigkeiten überzeugt.\n\n• Sein Potenzial \"Endlose Fluchtechnik\" annulliert sämtliche Angriffe.\nEntfessle die Endlosigkeit und dreh durch!\n• Verwende \"Fluchtechnik-Verstärkung: Blau\", um flüchtende Gegner aufzuhalten, und \"Fluchtechnik-Umkehrung: Rot\", um dir Feinde vom Leib zu halten.\n\"Hohles Purpur\" ist eine mächtige, alles konsumierende Technik.\n• Ist \"Sphärenentfaltung: Unbegrenzte Leere\" erst aktiviert ändern sich Fluchkrafttechniken zu besonderen Varianten, die perfekt geeignet sind, um einen Sieg zu sichern!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Schlaghagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Angriffsfolge auszulösen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Knieschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Bewege dich sofort auf den Gegner zu, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Drehkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Angriffsfolge auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Niederschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Bewege dich sofort auf den Gegner zu, um ihn mit einem Kick anzugreifen.\nWährend des Angriffs kann eine zusätzliche Technik für einen nachfolgenden Schmetterangriff verwendet werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Aufwärtskick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem Kick wegzustoßen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Drehkick-Reihe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Bewege dich sofort auf den Gegner zu, um eine Kickkombo auszuführen.\nWährend des Angriffs können diese Technik wiederholt werden, um einen nachfolgenden Schmetterkick auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Fluchtechnik-Verstärkung: Blau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Ziehe andere mit der negativen Energie der Endlosen Fluchtechnik an.\nKann unterdrückt werden.\nPasse die Position mit <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> an.\nFluchkraftstufe 2: Verstärkt die Anziehung. Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Verstärkt die Anziehung weiter. Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Fluchtechnik-Umkehrung: Rot"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Lade die Endlose Fluchtechnik mit positiver Energie auf, um Abwehrkraft zu erzeugen.\nKann unterdrückt werden.\nFluchkraftstufe 2: Verkürzt die Aufladezeit. Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Verkürzt die Aufladezeit weiter. Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Hohles Purpur"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Fluchkraftstufe 3:\nLass die Unendlichkeit und ihre Divergenz aufeinanderprallen, um ein riesiges Stück imaginärer Materie auszustoßen.\nKann unterdrückt werden."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Luftkombo"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Bleib an Ort und Stelle und erweitere die Sphäre, die den Gegner in die Endlosigkeit zieht.\nGegner werden mit unendlich vielen Informationen gefüllt und können sich eine Zeit lang nicht mehr bewegen.\nWenn sich die Sphäre schließt, wird jede Fluchkrafttechnik vorübergehend zu einem Kampfkunstangriff."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Sechs Augen"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Immer aktiviert.\nBehält die Fluchkraftanzeige des Gegners im Blick."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Endlose Fluchtechnik"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Kann durch den Verbrauch der Fluchkraftanzeige aktiviert werden, indem du für eine bestimmte Zeit Deckung verwendest, wenn deine Fluchkraftstufe 2 oder höher ist.\nDie Unendlichkeit erscheint um dich herum und eine ausgewählte Anzahl von Angriffen wird dich nicht treffen."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Schweben"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Halte Springen gedrückt, um zu schweben."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "Eine schnelle Kombomeisterin mit flinken Bewegungen und beeindruckenden Kombos.\nMaki nutzt Körperkraft anstelle von Fluchkraft, um furchterregende Moves zu entfesseln.\n\n• Ihr Potenzial \"Schlaganzeige\" erhöht bei Treffern ihr Bewegungstempo.\nZeige keine Gnade und ergreife die Offensive, bevor der Gegner reagieren kann!\n• Weiche gegnerischen Angriffen mit \"Block und Konter\" aus.\nDu kannst auch eigene Angriffe abbrechen und zu anderen Techniken umwandeln!\nVerkette Kombos, um deine Gegner zu überwältigen!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Schwertraserei"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem langen Schwert zu treffen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchwerkzeugtechnik auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Kick zu entfesseln.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Schwertkombo: Spalter"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine schnelle Dreierkombo aus Schlägen und Kicks auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Schwertkombo: Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um dein langes Schwert zu schwingen.\nWährend des Angriffs kann diese Technik wiederholt werden, um einen nachfolgenden Kick auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Versteckter Waffenwurf"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem verborgene Waffen geworfen werden."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Stoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit deinem langen Schwert anzugreifen.\nWährend des Angriffs kann diese Technik wiederholt werden, um im Anschluss auf den Gegner am Boden einzustechen."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Block und Konter"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Weiche gegnerischen Angriffen mit einer Ausweichbewegung aus.\nWenn du dies bei einem Angriff verwendest, brichst du deine Aktion ab.\nWird beim Stillstehen oder Sprinten automatisch aktiviert.\n<img id=\"CursedEnergyAttack_1\"/>\nAuf der Stelle ausweichen.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/> oder <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nSchritt in die gewählte Richtung ausweichen.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>\nVorwärtssalto.\nKörperkraftstufe 2: Verkürzt die Bewegungszeit.\nKörperkraftstufe 3: Verkürzt die Bewegungszeit weiter."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Schwertdrehung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Wirble mit deinem langen Schwert herum und führe einen Schwerttanz aus.\nKörperkraftstufe 2: Erhöht die Anzahl der Angriffe.\nKörperkraftstufe 3: Erhöht die Anzahl der Angriffe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Luft-Dreifachattacke"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen langen Schwertstich aktiviert.\nLande mit dem Sonderfluchwerkzeug \"Wonnenwolke\" unzählige Treffer und verursache schweren Schaden."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Bann des Himmels: Körperlich gesegnet"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "Besitzt keine Fluchkraft, verfügt aber über außergewöhnliche körperliche Fähigkeiten."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Verfügt über eine spezielle Anzeige, die durch gegnerische Treffer aufgeladen wird.\nSteigt die Schlaganzeige an, erhöhen sich Angriffstempo, Bewegungstempo und die Schrittweite.\nDie Anzeige klingt nach einer gewissen Zeit ab."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "Ein spezieller Kämpfer, der leichte Kampfkunst mit mächtiger Fluchrede kombiniert, um mit seinen Gegnern zu spielen.\nVerwende Fluchrede, um ständig Druck auf die gegnerische Verteidigung auszuüben.\n\n• Angriffe mit Fluchrede sind mächtig, aber Vorsicht: Verwendest du zu viele, dann trägst du den Schaden davon.\n• Wenn sich der Zustand deines Halses verschlechtert, kannst du mit einem Schluck Hustensaft Erholung erreichen.\n• \"Keine Bewegung\" und \"Verdrehen\" sind mächtige Fluchkrafttechniken, die als Konter aktiviert werden können. \n• Die Menge an Kehlenanzeige, die durch Fluchrede verbraucht wird, hängt vom Stufenunterschied zwischen dir und deinem Gegner ab. Behalte ihn im Auge und unternimm zum richtigen Zeitpunkt einen mächtigen Gegenangriff!\nBeachte den Unterschied in der Fluchkraftstufe, bevor du angreifst!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Kombokick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Hagel von Schlägen auszulösen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Tornadokick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Drehkick zu entfesseln.\nDieser Angriff kann nicht durch Deckung geblockt werden. Wenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Salto-Axtkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der im Fallen eine Reihe von Axttritten auslöst."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Hustensaftdosis"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Trinke Hustensaft, um deinen Hals zu stärken.\nDu kannst dich währenddessen bewegen. Du kannst nicht sprinten."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Raserei/\"Wegblasen\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine gnadenlose Kombo aus einem Dropkick heraus zu entfesseln.\nDieser Angriff kann mit \"Wegblasen\" kombiniert werden.\n\"Wegblasen\"\nAngriff mit mittlerer Reichweite, der Sprache mit Fluchkraft verwendet, um Gegner vor dir in die Luft zu schleudern."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "\"Stopp\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der Sprache verwendet, die mit Fluchkraft aufgeladen ist, um Gegner aufzuhalten."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "\"Fallen\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der Sprache verwendet, die mit Fluchkraft aufgeladen ist, um Gegner vor dir zu Fall zu bringen.\nFluchkraftstufe 2: Erhöht den Schaden.\nFluchkraftstufe 3: Erhöht den Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "\"Keine Bewegung\", \"Verdrehen\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Nimm eine Verteidigungsposition ein und entfessle \"Fluchrede\", wenn ein Gegner angreift.\nSag \"Keine Bewegung\", um den Gegner aufzuhalten, und dann \"Verdrehen\", um Schaden zu verursachen.\nFluchkraftstufe 2: Erhöht den Schaden.\nFluchkraftstufe 3: Erhöht den Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "\"Explodieren\""
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Knieschlag aktiviert.\nVerwende \"Stopp\", um die Bewegung anzuhalten, und verursache dann mit \"Sei zerquetscht!\" schweren Schaden."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Verfluchter Sprecher"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "Bei der Verwendung von Fluchrede verbrauchst du eine besondere Kehlenanzeige.\nDer Verbrauch der Kehlenanzeige variiert je nach unterschiedliche Fluchkraftstufe zwischen dir und der Person, die von der Fluchrede betroffen ist.\nWenn die Kehlenanzeige niedrig ist, kommt es zu einer Aktivierungsverzögerung und du trägst den Schaden davon."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "Mit diesem Dual-Form-Nahkämpfer kannst du schweben wie ein Panda und zustechen wie ein ... Gorilla?\nPandas Techniken bewirken einen dauerhaften Zustand und verhindern so Zucken und Angriffsunterbrechungen, also setze sie gezielt ein!\n\n• Im Gorilla-Modus bist du immer im Dauerhaften Zustand und bewegst dich schneller.\nLeichte Angriffe können dir nichts anhaben, also lass den Affen auf deine Feinde los!\n• Der Schaden durch den Trommelschlag ist alles nur nicht blockbar!\nLiefere den Schmerz auch gegen Gegner in Deckung!"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080>-Eins-Zwei"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Vielzahl von scharfen Schlägen auszulösen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080>-Schwung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080>-Triple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der eine Dreierkombo aus Schlägen auslöst, während du nach vorne gehst."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080>-Zerstörer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem beide Hände im Fallen nach unten gestreckt werden.\nDer Gegner wird in den Boden gerammt und durch die anschließende Schockwelle in die Luft geschleudert."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "<GLO=GLS_NAME_CP_080>-Hüfte/<GLO=GLS_NAME_CP_081>-Aufwärtshaken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem die Haltung eines Pandas angenommen wird.\nDauerhafter Zustand während des Angriffs.\nGorilla-Modus: Ein Angriff mit kurzer Reichweite, bei dem du beide Arme noch oben schwingst, um den Gegner in die Luft zu schleudern."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080>-Angriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du einen Gegner vor dir rammst. \nDauerhafter Zustand während des Angriffs."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080>-Rausch"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Landet zahlreiche schnelle Schläge, bevor der Gegner mit voller Wucht in die Luft geschleudert wird.\nFluchkraftstufe 2: Erhöht die Anzahl der Angriffe.\nFluchkraftstufe 3: Erhöht die Anzahl der Angriffe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " <GLO=GLS_NAME_CP_081>-Modus"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Kann bei maximaler Fluchkraft auf jeder Stufe verwendet werden.\nWechsle in den Gorilla-Modus, um vollständig unempfindlich gegen Erschütterungen zu sein\nund mit allen Angriffen Schaden zu verursachen.\n\"Trommelschlag\" wird im Gorilla-Modus aktiviert.\nFluchkraft wird laufend verbraucht. Wenn sie ausläuft, wirst du in den Panda-Modus zurückversetzt."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": " <GLO=GLS_NAME_CP_081>-Schlag"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "Kann nur einmal bei maximaler Fluchkraft verwendet werden.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWird durch einen Aufwärtshaken aktiviert.\nNachdem du im Gorilla-Modus eine Reihe von Angriffsfolgen gelandet hast, schlägst du so hart wie möglich zu, um schweren Schaden zu verursachen."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Große Schwester-Vertretung"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "Belebt kurz vor einer Niederlage mit reduzierter Gesundheit wieder."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Trommelschlag"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Angriffe im <GLO=GLS_NAME_CP_081>-Modus können auch dann Schaden verursachen, wenn der Gegner Deckung verwendet.\nDieser Schaden kann nicht für einen finalen Schlag verwendet werden."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "Dieser Jujuzist der Stufe 1 nutzt Fluchtechniken mit verheerender Wirkung. \nBei richtigem Timing lösen zusätzliche Befehle während bestimmten Techniken eine Verhältnistechnik für kritische Treffer aus! \nBleib locker, durchschaue deine Feinde und lande einen starken Treffer! \n\n• Ob mit deiner geschickten Verhältnistechnik oder einer hochkarätigen Vierer-Nahkampfkombo, setze deine Fluchkrafttechniken ein, wie du sie brauchst. \n• Sein Potenzial \"Fluchkraft-Entfesselung\", wird aktiviert, wenn die Zeit fast abgelaufen ist, wodurch er deutlich verstärkt wird. \nDieser Ex-Angestellte hat keine Zeit für Überstunden!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "Eins-Zwei-Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn zweimal mit der Machete zu treffen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Machete in ihn zu rammen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Aufschwung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um deine Machete hoch in die Luft zu schwingen.\nEine zum richtigen Zeitpunkt wiederholte Technik landet einen kritischen Treffer."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Wegtreten"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite mit einem Drehkick."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Zerschmettern"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um deine Machete mit aller Kraft hoch in die Luft zu schwingen. \nEine zum richtigen Zeitpunkt wiederholte Technik landet einen kritischen Treffer."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Schockwellen-Angriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du mit deiner Faust auf den Boden schlägst, um eine Schockwelle auszulösen.\nWenn du ihn in der Luft ausführst, stürzt du schnell zu Boden."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem das 7:3-Verhältnis als Schwachstelle genutzt wird, um schweren Schaden zu verursachen.\nKann unterdrückt werden.\nEine zum richtigen Zeitpunkt wiederholte Technik landet einen kritischen Treffer.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Vierer-Nahkampfkombo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du nacheinander mit deiner Machete und deiner Faust, die Fluchkraft enthalten, zuschlägst.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Verhältnistechnik: Kollaps"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Treffer am Körper aktiviert.\nTrifft genau die Schwachstelle, die durch deine Fluchtechnik entstanden ist, und verursacht schweren Schaden."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Fluchkraft-Entfesselung"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "Wird aktiviert, wenn nur noch wenig Zeit im Kampf verbleibt.\nFluchkraft erhöht sich automatisch.\nDas Wiederherstellungstempo der Fluchkraft erhöht sich.\nDas Sprinttempo erhöht sich.\nDer Verbrauch der Sprintanzeige sinkt."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "Ein immens begabter Jujuzist mit gorillaähnlichen Schlägen und der Fähigkeit, im Kampf die Position zu wechseln.\nAuch wenn er eigentlich Nahkämpfer ist, kann er durch die Positionswechsel mit \"Boogie-Woogie\" zu Gegnern aufschließen und Angriffen nach Bedarf ausweichen.\n\n• \"Boogie-Woogie\" lässt ihn mit beliebigen Zielen tauschen, also setze es weise ein – und oft!\n• Mit seiner extremen Stärke wirbelt er bei jedem Schlag die Gegner durch die Luft. Du kannst aber trotzdem nachsetzen, indem du die Position wechselst!\n\nTeamwork bleibt wichtig, aber mit \"Boogie-Woogie\" hast du die Möglichkeit, einen Nachteil zu deinem Vorteil zu machen!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Dreifacher Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Führt dich zum Gegner, um eine Angriffsfolge auszulösen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Aufwärtskick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Wegtreten"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn sofort zu schlagen und wegzutreten."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Lasso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem der Angreifer nach kurzem Aufladen wie ein Lasso vorrückt.\nDauerhafter Zustand während des Angriffs."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Steinwurf-Boogie-Woogie-Angriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem ein Stein geworfen wird, der Fluchkraft enthält.\nWenn ein Gegner getroffen wird, tauschst du deine Position mit dem Stein und führst sofort einen Folgeangriff aus.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Steinwurf-Boogie-Woogie-Teleport"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Wirf einen Stein in eine beliebige Richtung und tausche dann sofort die Position mit ihm.\nKann unterdrückt werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Klatsche in die Hände, um augenblicklich die Position von zwei Kämpfern (entweder deine eigene Position oder die Position von zwei anderen) auszutauschen. \nWähle aus, wer getauscht werden soll, indem du die Richtung vorgibst. \nDieser Angriff kann mit anderen Techniken verkettet werden.\n<img id=\"CursedEnergyAttack_1\"/>: Tausche deine Position und das Ziel aus. \n<img id=\"MoveLeft\"/> or <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/>: Tausche einen Verbündeten und einen Gegner aus. \n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Tausche einen Gegner gegen einen anderen aus. \n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Tausche eine Position mit der eines Verbündeten. \nFluchkraft Stufe 2: Verringert die Aktivierungsverzögerung. \nFluchkraft Stufe 3: Verringert die Aktivierungsverzögerung weiter."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Komboschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du Kraft sammelst und eine mächtige Folge aus vier Schlägen abgibst.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Kopf-zu-Fuß-Spaltung"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen hohen Tritt aktiviert.\nVertauscht deine Position mit der des getroffenen Gegners, damit du einen Schwarzen Blitz in voller Stärke auslösen kannst, der den Gegner in die Luft schleudert und schweren Schaden verursacht."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Fluchtechnik entfesselt"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "Die Verwendung von \"Boogie-Woogie\" hat vorübergehend folgende Auswirkungen: Erhöht das Bewegungstempo und verringert den Verbrauch der Sprintanzeige.\nDiese Wirkung hängt von der Fluchkraftstufe ab."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "Ein Nahkämpfer, der vor Wut das Blatt wendet, wenn seine Verbündeten verletzt werden.\n\n• Sein Potenzial \"Wut\" manifestiert Rika, wenn die Anzeige voll ist.\nÜberrenne deine Gegner mit deiner Fluchkraft und mächtigen Folgeangriffen mit Rika!\n• Nutze \"Bestimmung\", um dein Schwert mit Fluchkraft zu belegen, wodurch du Schaden durch Kombo- und Extraktionstechniken verursachen kannst.\nMache Druck und verursache durch \"Mut\" schweren Schaden!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Dreifachschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem langen Schwert zu treffen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nBei Wut führt Rika einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Diagonalschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem Schwert anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "Eins-Zwei-Tiefschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit zwei aufeinanderfolgenden Schlägen zu treffen.\nBei Wut führt <GLO=GLS_NAME_CN_040> einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Abtrennender Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "Ein Angriff, bei dem du den Gegner mit einem Drehschlag erwischst und in die Luft stößt.\nBei Wut führt <GLO=GLS_NAME_CN_040> einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Tauchschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du dich dem Gegner per Sprung näherst und dann einen Drehschlag in der Luft ausführst.\nDieser Angriff kann mit anderen Techniken verkettet werden.\nBei Wut führt Rika einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Gleithieb"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du an den Gegner herangleitest und dann einen Schlag nach oben ausführst.\nDieser Angriff kann mit anderen Techniken verkettet werden.\nBei Wut führt Rika einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Mut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du dich dem Gegner mit hoher Geschwindigkeit näherst und ihn mit aufeinanderfolgenden Schlägen triffst.\nBei Wut führt <GLO=GLS_NAME_CN_040> einen Folgeangriff aus.\nFluchkraftstufe 2: Erhöht die Zahl der Angriffe.\nFluchkraftstufe 3: Erhöht die Zahl der Angriffe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Bestimmung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Die Angriffe deines Schwerts werden durch Fluchkraft verstärkt.\nAlle Angriffe verursachen Schaden.\nVerbraucht laufend Fluchkraft und hört erst auf, wenn eine andere Technik verwendet wird oder die Fluchkraft auf null sinkt."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Schwarzer Blitz"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Treffer mit einem linken Faustschlag aktiviert.\nHebt Beschränkungen auf und setzt dank Rika eine enorme Menge an Fluchkraft frei, die schweren Schaden verursacht.\nNach der Aktivierung erscheint Rika nicht mehr in diesem Kampf."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Wut"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Hat eine spezielle Anzeige, die sich füllt, wenn Verbündete Schaden erleiden oder am Boden sind.\nWenn die Anzeige voll ist, wird sich Rika manifestieren und zusammen mit Yuta angreifen. \nWenn Yuka angegriffen wird, kannst du die Anzeige verwenden, um einen Konter mit Rita auszuführen, indem du <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, oder <img id=\"CursedEnergyAttack_2\"/> drückst.\nWird Yuta beim Beschützen angegriffen, wird die Anzeige verbraucht und Rita startet einen Gegenangriff.\nWährend Rika manifestiert ist, ist die Fluchkraftstufe auf ihrem Maximum."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "Ein Kämpfer mit mittlerer Reichweite, der Fluchgeist-Manipulation verwendet, um Gegner in der Überzahl zu besiegen.\nVerwende seine Sonderstufen-Skills, um vielseitige Extraktionstechniken mit zerstörerischen Fluchkrafttechniken zu verketten und damit Gegner zu besiegen.\n\n• \"Fluchgeistkontrolle: Anhäufen\" löst eine schnelle Explosionswelle mit Fluchgeistern nach vorne aus, die jeden Gegner mitreißt, der im Weg steht.\n• \"Fluchgeistkontrolle: Lichtsäule\" ist langsam, aber löst einen Angriff auf den Bereich aus. Es kann nicht nach oben ausgewichen werden und so werden alle Gegner auf einmal angegriffen.\n\nSpare dir deine Fluchkrafttechniken auf, um sie im entscheidenden Moment zu verwenden und so die Oberhand über deine Gegner zu gewinnen!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Fluchgeisthagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "Ein Angriff mit mittlerer Reichweite, bei dem mehrere Fluchgeister beschworen und auf den Gegner gehetzt werden.\nWährend des Angriffs kann er durch Wiederholen der Eingabe mit einer Fluchkrafttechnik verkettet werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Fluchgeistkontrolle: Bindung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der einen Fluchgeist beschwört und ihn bindet.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Fluchgeistkontrolle: Heranziehen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der zwei Fluchgeister beschwört und auf den Gegner hetzt.\nKehrt nach dem Treffer zurück und zieht den Gegner mit.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Fluchgeistkontrolle: Ladung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der einen Fluchgeist beschwört, der den Gegner verfolgt und zu Boden schlägt."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "Eins-Zwei-Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Sprungkick auszuführen.\nDaraufhin folgt ein Treffer und der Gegner wird mit der rechten Faust niedergeschlagen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Fluchgeistkontrolle: Werfen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der einen Fluchgeist zu deinen Füßen beschwört, während du einen Schritt nach hinten machst.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Fluchgeistkontrolle: Anhäufen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Verwende zwei Arten von gefangenen Fluchgeistern, um anzugreifen.\n<img id=\"CursedEnergyAttack_1\"/>\nBei einem Angriff mit mittlerer Reichweite werden mehrere Fluchgeister freigelassen.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nBei einem Angriff mit kurzer Reichweite werden mehrere Fluchgeister auf den Gegner losgelassen.\nFluchkraftstufe 2: Beschwört mehrere Fluchgeister und erhöht die Anzahl der Treffer.\nFluchkraftstufe 3: Beschwört noch mehr Fluchgeister und erhöht die Anzahl der Treffer weiter."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Fluchgeistkontrolle: Lichtsäule"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Beschwört einen Fluchgeist der Mittelstufe 1, um eine Lichtsäule am Standort des Gegners zu erzeugen und ihn anzugreifen.\nFluchkraftstufe 2: Erhöht die Zahl der Angriffe.\nFluchkraftstufe 3: Erhöht die Zahl der Angriffe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Wonnenwolke-Kombo"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Ultimative Fluchgeistkontrolle: Mahlstrom"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Rückwärtsdrehkick aktiviert.\nEine große Menge an Fluchkraft wird von Fluchgeistern aufgenommen. Manipulationen werden gleichzeitig ausgelöst, um massiven Schaden zu verursachen."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Fluchmagier der Sonderstufe"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "Wird bei Fluchkraftstufe 2 oder höher aktiviert.\nMit Fluchkrafttechnik kann die Verzögerung von Angriffen aufgehoben werden.\nKann noch schneller aufgehoben werden, wenn die Fluchkraftstufe steigt."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "Ein Kämpfer, der auf mittlere Distanz mit weitreichenden Angriffen das Geschehen kontrolliert, bevor er der Gesundheit der Gegner aus der Nähe zusetzt.\nVerwandle deinen Körper und passe deine Angriffsdistanz der Situation an.\n\n• Sein Potenzial \"Ruhender Wandel\" verursacht bei mehreren Treffern zusätzlichen Schaden, also lass nicht nach!\nWährend der \"Sphärenentfaltung: Mantel der inneren Erleuchtung\" wird \"Ruhender Wandel\" massiv verstärkt!\n• Entfessle verwandelte Menschen mit \"Du musst dich benehmen\", wodurch du Gegner auf weitere Distanz angreifen kannst.\nGreife deinen Feind von beiden Seiten an, um ihn niederzuringen!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Transformationsangriff: Arm"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem verwandelten Arm zu treffen.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Transformationsangriff: Spitzen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem sich dein Körper zusammenrollt und in alle Richtungen Stachel wachsen lässt.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Schlaghagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, bevor du ihn mit uneindeutigen Bewegungen verwirrst.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Drehangriffshagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, bevor dein Arm sich in ein Schwert verwandelt, den Gegner trifft und ihn mit einer Riesenhand wegschleudert."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Transformationsangriff: Bohrer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "Ein Angriff mit mittlerer Reichweite, bei dem sich dein Arm in einen Bohrer verwandelt."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Transformationsangriff: Schwert"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem sich dein Arm in ein Schwert verwandelt und zuschlägt."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "Du musst dich benehmen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Beschwört Horden von verwandelten Menschen herauf, um Gegner anzugreifen.\nFügt Gegnern Schaden zu und verlangsamt ihre Bewegung.\nWenn der Angriff aktiviert wird, obwohl kein Vorrat vorhanden ist, verursacht er Erbrechen und füllt den Vorrat wieder auf.\nFluchkraftstufe 2: Erhöht den Vorrat.\nFluchkraftstufe 3: Erhöht den Vorrat weiter."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "\"Seelenmultiplikation\" \"Körperabstoßung\""
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Verschmilzt mehrere Seelen zu einer, um die Masse zu erhöhen und damit auf den Gegner zu zielen.\nVerschlingt ganze Vorräte an verwandelten Menschen.\nKann unterdrückt werden.\nFluchkraftstufe 2: Vergrößert die Angriffsfläche.\nErhöht den verursachten Schaden.\nFluchkraftstufe 3: Vergrößert die Angriffsfläche weiter.\nErhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Ruhender Wandel"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Bleib an Ort und Stelle, forme ein Siegel in deinem Mund und lege eine Sphäre.\nVerändert die Karte für eine Zeit und verstärkt deine Angriffe.\nZudem werden Fluchkraftregeneration und Bewegungstempo der Gegner innerhalb der Sphäre verringert.\nWenn sich die Sphäre schließt, kannst du vorübergehend keine Fluchkrafttechniken nutzen."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Seelenessenz"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "Beim Angriff eines Gegners erhöht sich die Fluchkraft entsprechend der Höhe des erlittenen Schadens."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Ruhender Wandel"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Verursache zusätzlichen Schaden, wenn du mit deinen Angriffen eine bestimmte Anzahl von Kontakten mit dem Gegner hast.\nDer Zähler wird nach gewisser Zeit zurückgesetzt."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "Ein Kämpfer über mittlere und lange Distanz, der den Feinden auf dem Schlachtfeld seinen Kampfstil aufzwingt.\n\n• Lege dir den Gegner mit Kombotechniken zurecht, die du in der Bewegung aktivierst und suche Möglichkeiten, den Gegner mit dem Distanzangriff \"Fluchkraft-Feuer\" zu erledigen.\n• Aktiviere \"Sphärenentfaltung: Der Sarg des Eisenbergs\", um alle Spieler vorübergehend in deine Sphäre zu ziehen.\nDeine Werte und Fluchkrafttechniken werden in der Sphäre verstärkt, also übernimm die Kontrolle über deine Feinde!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Feuerball"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem in schneller Folge mit kleinen Feuerbällen geschossen wird.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDie Bewegungssteuerung kann während deines Angriffs verwendet werden."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Komprimierter Feuerball"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem Feuerbälle aus beiden Händen geschossen werden.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Vulkan-Manifestation"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem ein Vulkan entsteht, der Flammen zu Füßen des Gegners spuckt."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Vulkanfalle"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Erzeugt an einem bestimmten Standort ein vulkanisches Gebiet.\nWenn ein Gegner den Standort betritt, erscheint ein Vulkan und spuckt Flammen."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Feuerballhagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, der mehrere Feuerbälle auf einmal erzeugt und sie mit Verzögerung abfeuert."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Flammenschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem Flammen ausgestoßen werden, während du nach hinten springst.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Fluchkraft-Feuer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Setzt Fluchkraft in einer geraden Linie frei, um alles, was im Weg ist, zu verbrennen.\nKann unterdrückt werden.\nVerbraucht laufend Fluchkraft, solange aktiv.\nFluchkraft Stufe 2: Vergrößert die Angriffsfläche. Erhöht den verursachten Schaden.\nFluchkraft Stufe 3: Vergrößert die Angriffsfläche weiter. Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Brennen/Explodieren/Maximalmeteor"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Spuckt Feuerbälle, um anzugreifen.\nFluchkraft Stufe 2: Feuerbälle werden größer und verursachen so mehr Schaden.\nFluchkraft Stufe 3: Verwandelt sich in \"Maximalmeteor\" und verursacht beim Aufprall eine gewaltige Explosion.\nKann unterdrückt werden."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Bernsteininsekten"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Bleib an Ort und Stelle und erschaffe eine glühend heiße Sphäre wie das Innere eines aktiven Vulkans.\nVerändert die Karte für einen Zeitraum und verbessert Fluchkrafttechniken.\nZudem fügt es Gegnern in der Umgebung fortlaufend Schaden zu und behindert deren Bewegungen.\nWenn sich die Sphäre schließt, kannst du vorübergehend keine Fluchkrafttechniken nutzen."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "Stolz eines Fluchgeists"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "Wird aktiviert, wenn deine Gesundheit niedrig ist.\nErhöht die Wiederherstellung der Fluchkraft. Erhöht den Schaden von Fluchkrafttechniken.\nDiese Wirkung hängt von der Fluchkraftstufe ab."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "Ein Kämpfer mit Angriffen mit hoher Reichweite, der am Boden unglaublich vielseitig ist. \n\n• Mit dem Baumwurzel-Fernangriff lässt du Wurzeln an den Beinen entfernter Gegner sprießen, die sie in die Luft schleudern. \nStrebe nach einem stetigen Strom an Überraschungsangriffen! \n• Der Baumbarrieren-Angriff errichtet eine Wand aus Wurzeln vor dir, die Feinde in der Nähe durch die Luft fliegen lässt und dich vor Distanzangriffen schützt. \n\nKeine Angriffe auf hohe Entfernung! Mittelreichweitenwerfer! Konter auf kurze Entfernung! \nNutze all deine Angriffe, um dir den Gegner vom Leib zu halten!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Holzballangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der eine Holzkugel mit angreifenden Ästen herumfliegen lässt.\nWährend des Angriffs kann diese Technik wiederholt werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Holzballschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Holzkugel zu schwingen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Baumwurzel-Flächenangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der Baumwurzeln in den Boden um dich herum wachsen lässt.\nWenn du ihn in der Luft ausführst, stürzt du schnell zu Boden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Meditieren"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Meditiere und lade deine Fluchkraft auf.\nBei maximaler Fluchkraftstufe wird dadurch sämtliche verbrauchte Fluchkraft wiederhergestellt.\nKann unterdrückt werden.\nWenn du dies in der Luft ausführst, stürzt du zu Boden."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Fluchsamenschleuder"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, der verfluchte Samen wirft.\nVerlangsamt das Wiederherstellungstempo der Fluchkraft für getroffene Gegner.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Fluchsamenregen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "Ein Angriff mit hoher Reichweite, der eine riesige Blume beschwört und gleichzeitig verfluchte Samen herumfliegen lässt.\nDie verfluchten Samen fallen irgendwann ab.\nVerlangsamt das Wiederherstellungstempo der Fluchkraft getroffener Gegner.\nWenn du ihn in der Luft ausführst, stürzt du schnell zu Boden.\n"
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Baumwurzel-Fernangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Erzeugt Baumwurzeln direkt unter dem Gegner, die ihn durchbohren.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nErweitert den Angriffsbereich.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter. Erweitert den Angriffsbereich weiter."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Baumbarriere"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Lässt eine Wand aus Bäumen vor dir wachsen und greift an.\nWenn du ihn in der Luft ausführst, stürzt du zu Boden.\nFluchkraftstufe 2: Erhöht den Schaden. Verkürzt die Aktivierungszeit des Angriffs. Erhöht die Anzahl und Höhe der Wände.\nFluchkraftstufe 3: Erhöht den Schaden weiter. Verkürzt die Aktivierungszeit weiter. Erhöht die Höhe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Riesenbaumangriff"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nErschafft einen Blumengarten um dich herum, der durch einen Treffer aktiviert wird.\nDer Blumengarten lenkt den Gegner ab, woraufhin er von Baumwurzeln durchbohrt wird, die ihm schweren Schaden zufügen."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Linker Arm ungebunden"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Entkoppelt den linken Arm, wenn Erweckter-Technik aktiviert wird, und hat folgende Auswirkungen: Verkürzt die Generierung der Fluchkrafttechnik und verringert den Verbrauch der Fluchkraft."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "Ein kontrollierender Fernkämpfer, der starke Zwillingskombos und mächtige Statusleiden-Angriffe nutzt.\nSeine <GLO=GLS_GAME_WORDS_1427> enthält \"Ultimative Technik: Flügelkönig\", die Blut fließen lässt und Schaden verursacht und \"Verfall\", der mit Blut Statusleiden auslöst.\nNutze beide Techniken, um den Gegner in deine Gewalt zu ziehen.\n\n• Die Effekte von \"<GLO=GLS_GAME_WORDS_1427>: Verfall\" stapeln sich, je mehr Blut du einsetzt.\nBade sie im roten Gold!\n• <GLO=GLS_NAME_CN_260> kann keine Blutangriffe verwenden, während \"<GLO=GLS_GAME_WORDS_1427>: Verfall\" aktiv ist.\nIn solchen Fällen kannst du dich auf <GLO=GLS_NAME_CN_080> verlassen!\n\nDenk immer daran, dass die Verbindung zwischen Geschwistern der Schlüssel zum Sieg ist!"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Dreifachattacke"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt und zweimal hintereinander trifft.\nBei Erfolg wird \"Flügelkönig\" entfesselt, woraufhin ein Folgeangriff mit Blut stattfindet.\nIst \"Verfall\" aktiv, wir ein Folgeangriff von Kechizu ausgelöst.\nWährend des Angriffs kann diese Technik wiederholt werden, um Fluchkrafttechniken auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Torsokick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihm mit deinem rechten Bein einen Aufwärtskick zu verpassen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance eines Teamangriffs."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Abschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Aufwärtshaken auszuführen.\nBei Erfolg wird Flügelkönig entfesselt, woraufhin ein Folgeangriff mit Blut stattfindet.\nIst \"Verfall\" aktiv, wird ein Folgeangriff von Kechizu ausgelöst."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Zweihandschwert"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du nach vorn trittst und mit beiden Händen zuschlägst.\nBei Erfolg wird der Flügelkönig entfesselt, woraufhin ein Folgeangriff mit Blut stattfindet.\nIst \"Verfall\" aktiv, wir ein Folgeangriff von Kechizu ausgelöst."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Verfolgungsangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihm schnell deinen rechten Arm entgegenzustoßen.\nBei einem Treffer führt <GLO=GLS_NAME_CN_080> einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Overkill"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihm mit deinem rechten Bein einen Aufwärtskick zu verpassen.\nBei einem Treffer führt <GLO=GLS_NAME_CN_080> einen Folgeangriff aus."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Kleiner Bruder"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Gib Kechizu Anweisungen.\nKechizu kann, wenn er zu Boden gegangen ist, keine Anweisungen annehmen.\n<img id=\"CursedEnergyAttack_1\"/> Sprühe und markiere mit Blut.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> Führt zum Gegner, um ihm mehrere Schläge zu verpassen.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> Zu Eso zurückkehren.\nVerbraucht keine Fluchkraft.\n[<GLO=GLS_GAME_WORDS_1401> 2] Erhöht Keichizus Bewegungstempo.\n[<GLO=GLS_GAME_WORDS_1401> 3] Erhöht Keichizus Bewegungstempo weiter."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Ultimative Verwesungstechnik: Flügelkönig / Verwesungstechnik: Verfall"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nAktiviert die höchste Verfallstechnik: Flügelkönig, um Gegner mit Blut zu markieren und ihnen Schaden zuzufügen.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nAktiviert die Verfallstechnik: Verfall, um die Sprintfähigkeit von Gegnern, die mit Blut markiert sind, zu reduzieren.\nWährend sie aktiviert ist, können Feinde mit zusätzlichem Blut markiert werden, um ihnen kontinuierlich Schaden zuzufügen.\nLoslassen der Technik nachdem sie mit zusätzlichem Blut markiert wurden, verursacht noch mehr Schaden.\nJe öfter du sie mit Blut markierst, desto größer ist der Effekt.\nVerbraucht laufend Fluchkraft und hört erst auf, wenn eine andere Technik verwendet wird oder die Fluchkraft auf null sinkt.\nFluchkraftstufe 2:\nErhöht die Anzahl der Flügelkönig-Angriffe.\nFluchkraftstufe 3:\nErhöht die Anzahl der Flügelkönig-Angriffe weiter, kann unterdrückt werden."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "Die Macht der Bruderschaft"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Rückhandschlag aktiviert.\nZusammen mit Kechizu übergießt du den Gegner mit Blut und aktivierst die Verwesungstechnik \"Verfall\", um schweren Schaden zu verursachen."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "Für meinen Bruder"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Verstärkt die Angriffe von <GLO=GLS_NAME_CN_260>, wenn <GLO=GLS_NAME_CN_080> nicht am Boden ist."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "Der mächtigste Jujuzist, der in jeder Situation die Oberhand gewinnen kann.\n\n• Auf einer Stelle zu stehen, aktiviert Endlosigkeit, die dafür sorgt, dass dich kein Angriff trifft.\n• \"Fluchtechnik-Verstärkung: Blau\" lässt dich in die Nähe der Gegner kommen und sie sofort zu dir ziehen.\nKontrolliere die Bewegungen deiner Gegner nach Belieben!\n• \"Fluchtechnik-Verstärkung: Blau – Maximaleinsatz\" ist eine eindrucksvolle Technik, die viel Schaden anrichtet und dir hilft, das Blatt zu wenden.\nNutze deine Chance, das Ruder mit einem Schlag herumzureißen!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Kickkombo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Hagel von Schlägen auszulösen.\nWährend des Angriffs kann eine zusätzliche Technik verwendet werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Aufwärtshaken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht mit Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Leitende Kicks"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "Ein Doppelangriff, der dich zum Gegner befördert und ihn heranzieht, bevor er ihn zurückstößt."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Doppelattacke"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "Ein Angriff, der dich zum Gegner führt, um dann einen schnellen Doppelschlag zu entfesseln."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Leitende Schläge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "Angriff mit kurzer Reichweite, der dich zum Gegner befördert und ihn heranzieht, ihn mit aufeinanderfolgenden Treffern in die Luft wirft und ihn dann erneut heranzieht, um einen Folgeangriff auszuführen."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Kritischer Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "Ein Angriff, der dich zum Gegner führt, um ihn mit einem mächtigen Schlag in die Luft zu werfen."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Fluchtechnik-Verstärkung: Blau – Sperrfeuer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich mit hohem Tempo zum Gegner befördert, um eine Angriffsfolge zu entfesseln.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Fluchtechnik-Verstärkung: Blau – Maximaleinsatz"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Generiere eine massive Version von Blau mit Maximaler Leistung, die Gegner heranzieht und gleichzeitig Schaden verursacht.\nFluchkraftstufe 2: Verkürzt die Aufladezeit.\nFluchkraftstufe 3: Verkürzt die Aufladezeit noch mehr."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Fluchtechnik-Umkehrung: Rot"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Hohles Purpur"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Knieschlag aktiviert.\nEntfesselt Hohles Purpur, um dem Gegner massiven Schaden zuzufügen."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "Erwachen des Stärksten"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "Wird aktiviert, wenn du einmal besiegt wirst.\nEinige Nahkampfangriffe und \"Fluchtechnik-Verstärkung: Blau – Maximaleinsatz\" sind verstärkt.\nErweckter-Technik kann aktiviert werden."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Endlose Fluchtechnik"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "Wird aktiviert, nachdem du eine Zeit lang still stehst.\nDie Unendlichkeit erscheint um dich herum und eine bestimmte Anzahl von Angriffen wird dich nicht treffen."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Sechs Augen"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Immer aktiviert.\nBehält die Fluchkraftanzeige des Gegners im Blick.\nFluchkraft wird schrittweise erhöht."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Schweben"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Halte Springen gedrückt, um zu schweben."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "Ein junger Jujuzist der Sonderstufe, der exzellentes Kampfgespür mit außergewöhnlicher Fluchtechnik verbindet.\n\n• \"Fluchgeistkontrolle: Kuchisake-Onna\" erschafft eine einfache Sphäre, die auf gegnerische Angriffe und Konter reagiert!\n• Sein Potenzial \"Fluchgeistkontrolle\" greift mit Fluchgeistern an, um deine eigene Fluchkraft wiederherzustellen.\nLande Treffer um Treffer und setze deinen Gegnern immer weiter zu!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Vierfach-Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Hagel von Schlägen auszulösen.\nWährend des Angriffs kann eine zusätzliche Technik verwendet werden, um eine Fluchkrafttechnik auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Fluchgeistkontrolle: Ladung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der einen Fluchgeist beschwört, der auf den Gegner zustürmt.\nDieser Angriff kann nicht geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Dreifacher Nahkampfangriff: Fluchgeist-Verfolgung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Attacke aus drei Schlägen auszulösen, bevor ein Fluchgeist beschworen wird, der den Gegner nach oben wirft.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "Eins-Zwei-Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Führt dich zum Gegner, um dann einen schnellen Doppelschlag zu entfesseln.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "Eins-Zwei-Nahkampfangriff: Fluchgeist-Verfolgung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Attacke aus zwei Schlägen auszulösen, bevor ein Fluchgeist beschworen wird, der den Gegner nach oben wirft.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Fluchgeistschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, bei dem drei kleine Fluchgeister in Folge beschworen werden."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Fluchgeistkontrolle: Sperrfeuer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Entsendet kleine Fluchgeister für verschiedene Angriffe.\n<img id=\"CursedEnergyAttack_1\"/>\nAngriff mit mittlerer Reichweite, der mehrere Fluchgeister auf die Jagd nach dem Gegner schickt.\nFluchkraftstufe 2: Beschwört mehr Fluchgeister und erhöht die Trefferanzahl.\nFluchkraftstufe 3: Beschwört noch mehr Fluchgeister und erhöht die Trefferanzahl weiter.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/>\nAngriff mit hoher Reichweite, der zahllose kleine Fluchgeister in kurzen Abständen entfesselt.\nKann unterdrückt werden.\nVerbraucht im aktiven Zustand dauerhaft Fluchkraft.\nFluchkraftstufe 2: Beschwört mehr Fluchgeister und greift einen größeren Bereich an.\nFluchkraftstufe 3: Beschwört noch mehr Fluchgeister und greift einen noch größeren Bereich an."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Fluchgeistkontrolle: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Beschwört <GLO=GLS_NAME_CN_200> und erzeugt eine Simpel-Sphäre.\nGegner, die innerhalb der Sphäre angreifen, werden von zahllosen Scheren in Stücke geschnitten.\nVerbraucht laufend Fluchkraft und hört erst auf, wenn eine andere Technik verwendet wird oder die Fluchkraft auf null sinkt.\nFluchkraftstufe 2: Erhöht die Anzahl der Angriffe und erweitert das Sphärengebiet.\nFluchkraftstufe 3: Erhöht die Anzahl der Angriffe weiter und vergrößert das Sphärengebiet weiter."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Fluchgeistkontrolle: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Fluchgeistkontrolle: Regenbogendrache"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Ellbogentreffer aktiviert.\nEntfessle den Regenbogendrachen, den stärksten verfügbaren Fluchgeist, um dem Gegner massiven Schaden zuzufügen."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Fluchgeistkontrolle"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Stellt jedes Mal etwas Fluchkraft wieder her, wenn du einen Fluchgeistangriff landest.\nDie wiederhergestellte Menge hängt vom Fluchgeist ab.\nDieser Effekt variiert zudem je nach Fluchkraftstufe."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "Eine Angreiferin mit ausschließlich hoher Reichweite, die auf Überraschungsangriffe spezialisiert ist und unterstützenden Feuerschutz aus der Ferne bieten kann.\n\n• Nutze \"Anvisieren\", um von Fluchkraft durchdrungene Kugeln in eine beliebige Richtung abzufeuern.\nZiele genau und entfessle einen Mörderschuss!\n• Halte Ausschau nach Gelegenheiten zum Nachladen, um im Kampf zu bleiben.\n• Greifst du Gegner an, die es nicht auf dich abgesehen haben, erhöht das deine Verbesserungen für Kraft und Fluchkraft.\nVergiss nicht, davon zu profitieren, wo dein Gegner hinzielt!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Einzelschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "Ein Angriff mit hoher Reichweite, der eine Kugel konsumiert, um diese auf den Gegner abzufeuern.\nWährend des Angriffs kann er durch Wiederholen der Eingabe mit einer Fluchkrafttechnik verkettet werden.\nLädt nach, wenn die Munition ausgeht."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Geduckter Schuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem du auf der Stelle kauerst und eine Kugel konsumierst, um diese auf den Gegner abzufeuern.\nDieser Angriff kann nicht mit Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff.\nLädt nach, wenn die Munition ausgeht."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Schnellschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "Ein Komboangriff, der durch wiederholtes Drücken von <img id=\"NormalAttack_2\"/> geladene Kugeln abfeuert.\nLädt nach, wenn die Munition ausgeht."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Kick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihm mit einem Drehkick zuzusetzen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Blenden"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der Sand vom Boden aufwirbelt und den getroffenen Gegner verängstigt.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Doppelschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um zwei Schläge auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Anvisieren"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem du an Ort und Stelle bleibst, um zu zielen, bevor du eine von Fluchkraft durchdrungene Kugel abfeuerst.\nKontrolliere das Fadenkreuz mit <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>, um zu zielen und aus der Schulterperspektive zu schießen.\nIn diesem Modus wird Fluchkraft verbraucht und du kannst mit <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> oder <img id=\"CursedEnergyAttack_2\"/> verschiedene Schüsse abfeuern.\nLädt nach, wenn die Munition ausgeht.\nFluchkraftstufe 1: <img id=\"NormalAttack_1\"/>: Verbraucht 1 Fluchkraft.\n<img id=\"NormalAttack_2\"/>: Verbraucht 1 Fluchkraft.\n<img id=\"CursedEnergyAttack_2\"/>: Verbraucht 1 Fluchkraft.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\n<img id=\"NormalAttack_1\"/>: Verbraucht 1 Fluchkraft.\n<img id=\"NormalAttack_2\"/>: Verbraucht 2 Fluchkraft.\n<img id=\"CursedEnergyAttack_2\"/>: Verbraucht 2 Fluchkraft.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter.\n<img id=\"NormalAttack_1\"/>: Verbraucht 1 Fluchkraft.\n<img id=\"NormalAttack_2\"/>: Verbraucht 3 Fluchkraft.\n<img id=\"CursedEnergyAttack_2\"/>: Verbraucht 3 Fluchkraft."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Schuss aufladen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "Angriff mit hoher Reichweite, der eine Kugel mit Fluchkraft erfüllt, um einen mächtigen Schuss abzufeuern.\nKann unterdrückt werden.\nKann in der Bewegung aufladen.\nSprinten nicht möglich.\nDer Schaden erhöht sich weiter, je länger der Angriff aufgeladen wird.\nBei maximaler Aufladung durchdringt der Schuss den Gegner.\nLädt nach, wenn die Munition ausgeht.\nFluchkraftstufe 2: Verkürzt die Ladezeit. Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Verkürzt die Aufladezeit weiter. Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Nachladen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Füllt Munition auf.\nKann sich beim Nachladen bewegen."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "Ein Glückstreffer"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Konstruktions-Technik"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "Dieser Angriff kann nicht mit Deckung geblockt werden.\nLädt nach, wenn die Munition ausgeht.\nWird durch einen Treffer nach abfeuern einer Kugel aktiviert.\nFeuert sechs Kugeln ab und verwendet dann Konstruktions-Technik, um eine siebte Kugel abzufeuern, die dem Gegner schweren Schaden zufügt."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Abstand zu gewinnen, ist keine Option"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Steigert die gewonnene Macht und Fluchkraft, wenn du Gegner angreifst, die dich nicht anvisieren."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "Eine fliegende Stürmerin, die ihre unvergleichliche Luftbeweglichkeit nutzt, um ihre Gegner zu überrumpeln.\n\n• Mit \"Laden\" bewegst du dich bei hohem Tempo, während du angreifst.\nBring den Gegner aus dem Gleichgewicht und nutze die Lücke, um mit \"Werkzeug-Manipulation: Wirbelwindsichel\" massiven Schaden zu verursachen!\n• Ihr Potenzial \"Werkzeug-Manipulation\" nutzt die Dreidimensionalität des Feldes, um dir Beweglichkeit zu bieten, mit der du von überall angreifen kannst!"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Besenwischer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem Besen zu treffen.\nWährend des Angriffs kann er durch Wiederholen der Eingabe mit einer Fluchkrafttechnik verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Wirbelwind"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "Ein Angriff mit mittlerer Reichweite, der einen sich nach vorn bewegenden Wirbelwind generiert.\nDieser Angriff kann nicht mit Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Sturzschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du dich herabstürzt, um auf den Gegner zuzustürmen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Senkrechtsprung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "Ein Senkrechtsprung auf einer Stelle.\nKann unterdrückt werden.\nDu kannst danach einen weiteren Angriff ausführen oder ihn mit anderen verketten."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Windpeitsche"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "Ein Schuss mit mittlerer Reichweite, der Wind generiert, um auf den Gegner zu schießen.\nDer Wind breitet sich beim Aufprall aus und wirft Gegner nach oben."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Böe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der den Besen auf einer Stelle schwingt, um Wind zu generieren."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Laden"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Stürmt auf einem Besen gewaltsam nach vorn.\nNutze beim Ansturm <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/>, um zu lenken.\nDas Bewegungstempo erhöht sich nach dem Angriff und einige Extraktionstechniken, die windbasierte Angriffe nutzen, werden verstärkt.\nKann unterdrückt werden.\nFluchkraftstufe 2: Erhöht den verursachten Schaden. Erhöht Verstärkungseffekt.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter. Erhöht Verstärkungseffekt."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Werkzeug-Manipulation: Wirbelwindsichel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Entfesselt eine Wirbelwindsichel mit hoher Reichweite in Richtung des Gegners.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Fang mich doch"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Werkzeug-Manipulation: Wirbelwindsichel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "Dieser Angriff kann nicht durch Deckung geblockt werden.\nVerpasse zur Aktivierung dem Gegner von deinem Besen aus einen Kick.\nSchlägt den Gegner in die Luft, wo er dir nicht entkommen kann, bevor mit \"Werkzeug-Manipulation: Wirbelwindsichel\" schwerer Schaden verursacht wird."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Werkzeug-Manipulation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Hebe auf einem Besen ab.\nSpringen gedrückt halten, um höher zu fliegen.\nDu gleitest durch die Lüfte und füllst deine Sprintanzeige auf."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "Ein Angreifer mit hoher Reichweite, der Gegner mit einer Vielzahl von Bogen- und Blutmanipulationsangriffen in die Ecke treibt.\n\n• Führe eine Vielzahl von Bogenangriffen aus, um den Gegner auf dem falschen Fuß zu erwischen und entfessle die ultimative Technik: Blutmanipulation.\n• Mit Blutmanipulation: Schnittaustreibung ist es ein Leichtes, agile Gegner anzuvisieren, sodass Gegnern garantiert Schaden erleiden.\n• Je mehr von \"Blutmanipulation: Konvergenz/Blutstoß\" aufgeladen ist, desto mehr steigen deine Reichweite und Kraft, sodass du deinen Gegner mit nur einem Schlag durchbohren kannst!\nBleib ruhig, beobachte die Bewegungen des Gegners, und ziele so, dass du deinen Gegner mit nur einem Schlag außer Gefecht setzt!"
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Bogen-Fluchkraft: Kontinuierlicher Schuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem der Gegner mit einem Pfeil nach dem anderen beschossen wird.\nWährend des Angriffs kann er durch Wiederholen der Eingabe mit einer Fluchkrafttechnik verkettet werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Bogen-Fluchkraft: Einzelschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem der Bogen gespannt wird, um einen Pfeil abzuschießen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Bogen-Fluchkraft: Gerader Schuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem ein Pfeil geradeaus mit großer Reichweite und höchster Geschwindigkeit abgeschossen wird.\nKann unterdrückt werden."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Bogen-Fluchkraft: Bogenförmiger Schuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem mehrere Pfeile auf alle Gegner in Reichweite regnen.\nHalten, um zu bestimmen, wo der Angriff landet.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Bogen-Fluchkraft: Seitenschuss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem Pfeile in drei verschiedene Richtungen abgeschossen werden.\nKann aufgeladen werden, um mit Blutmanipulation zielsuchende Pfeile auf den Gegner abzuschießen.\nKann unterdrückt werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Blutmanipulation: Purpurfesseln"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Bleib an Ort und Stelle und wirf bei gegnerischen Angriffen einen Blutbeutel auf den Gegner.\nLandet der Beutel auf dem Gegner, ist er blutgetränkt und kann so aufgehalten werden."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Blutmanipulation: Schnittaustreibung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "Ein zielsuchender Angriff mit hoher Reichweite, bei dem eine rotierende, kreisförmige Klinge aus gepresstem Blut entfesselt wird.\nJe höher die Fluchkraftstufe ist, desto mehr Klingen werden entfesselt.\nKann unterdrückt werden.\nFluchkraftstufe 2: Erhöht die Anzahl an abgefeuerten Klingen. Erhöht den Verbrauch der Blutbeutel-Anzeige.\nFluchkraftstufe 3: Erhöht die Anzahl an abgefeuerten Klingen weiter. Erhöht den Verbrauch der Blutbeutel-Anzeige weiter."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Blutmanipulation: Konvergenz/Blutstoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem Blut zusammengepresst und mit hohem Tempo geradeaus geschossen wird.\nJe aufgeladener der Angriff, desto höher sind die Reichweite und der verursachte Schaden.\nKann unterdrückt werden.\nFluchkraftstufe 2: Erhöht die Menge, die geladen werden kann.\nFluchkraftstufe 3: Erhöht die Menge, die geladen werden kann, weiter."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Blutmanipulation: Roter Schuppenfluss"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Blutmanipulation: Blutstoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "Dieser Angriff kann nicht durch Deckung geblockt werden.\nWird aktiviert, wenn der Pfeil den Gegner durchbohrt.\nNach dem der Pfeil den Gegner durchbohrt hat, wird \"Blutstoß\" entfesselt, das schweren Schaden verursacht."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Blutbeutel"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "Die Menge der verbrauchten Blutbeutelanzeige hängt von der verwendeten Blutmanipulationstechnik ab.\nGesundheit wird verbraucht, wenn sie bei einer leeren Blutbeutelanzeige verwendet wird.\nAnzeige wird bei Teamangriffen und Erweckter-Techniken nicht verbraucht."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Der Stolz des nächsten Familienoberhaupts"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Verringert die Menge an verbrauchtem Blut, wenn Gesundheit bei Hälfte oder niedriger ist.\nBei einer leeren Blutbeutelanzeige wird die Menge an verbrauchter Gesundheit reduziert."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "Der Jujuzisten-Mörder, der seine Gegner mit ungewöhnlichen Fluchwerkzeugen und durch Körperkraft, die er durch einen Bann des Himmels gewonnen hat, zur Strecke bringt.\n\n• Mit seiner Hochgeschwindigkeitsbewegung lassen sich Angriffe unterbrechen und mit anderen verketten.\nHier wird in der Offensive nicht nachgelassen!\n• \"Amanosakahoko: Schneiden\" entfesselt je nach Blickrichtung zum Gegner verschiedene Angriffe.\nIn Kombination mit \"Hochgeschwindigkeitsbewegung\" zündest du zerstörerische Kombos!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Schnittkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit einem Amanosakahoko zu treffen.\nWährend des Angriffs kann er durch Wiederholen der Eingabe mit Fluchwerkzeugtechniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Schwinger"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du nach vorn trittst, um so hart zuzuschlagen, wie du kannst.\nDieser Angriff kann nicht mit Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Halbierender Stoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Stoß mit Amanosakahoko auszulösen."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Abwärtsstoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "Angriff mit kurzer Reichweite, bei dem du nach oben und nach vorn springst, bevor du mit Amanosakahoko auf den Gegner herabstürzt.\nWirft den Gegner in die Luft, wenn du auf dem Boden aufkommst."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "Hochgeschwindigkeitsbewegung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Verbraucht die Sprintanzeige, um sich mit hohem Tempo zu bewegen.\nNach einer Bewegung kannst du weitere Bewegungen ausführen.\nDu kannst diesen Angriff mit der Betäubung anderer Angriffe oder gewissen Leitangriffen verketten.\nKann nach der Bewegung mit anderen Angriffen verkettet werden.\n<img id=\"NormalAttack_3\"/>\nBewegt dich auf den Gegner zu.\n<img id=\"MoveLeft\"/> oder <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/>\nBewegt dich diagonal nach vorn.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/>\nBewegt dich nach vorn."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Neuer-Schattenstil-Iai"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Bleibe auf einer Stelle stehen und verursache einen Schnitt mit Amanosakahoko.\nStartet einen Gegenangriff, wenn der Gegner dich währenddessen angreift."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Amanosakahoko: Schneiden"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "Ein mächtiger Schlag mit Amanosakahoko.\nEntfesselt je nach Blickrichtung zum Gegner verschiedene Angriffe.\nKörperkraftstufe 2: Erhöht den verursachten Schaden.\nKörperkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Amanosakahoko: Hacken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "Eine schnelle Vielzahl an Treffern mit Amanosakahoko.\nKann unterdrückt werden.\nKörperkraftstufe 2: Erhöht die Anzahl der Angriffe.\nKörperkraftstufe 3: Erhöht die Anzahl der Angriffe weiter."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Fluchgeisthagel"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Banri-Kette und Amanosakahoko"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "Dieser Angriff kann nicht mit Deckung geblockt werden.\nVerpasse dem Gegner zur Aktivierung einen Treffer mit Amanosakahoko.\nVerbindet Banri-Kette und Amanosakahoko, um massiven Schaden durch eine schwindelerregende Anzahl an Schlägen zu verursachen."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Jujuzisten-Mörder"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Landest du einen finalen Schlag, erhöht sich deine Körperkraftstufe und dein Sprintanzeigenverbrauch verringert sich vorübergehend.\nAuf maximaler Körperkraftstufe erholt sich stattdessen deine Körperkraftanzeige."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Bann des Himmels: Körperlich gesegnet"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Lass dich mit unvergleichlichen körperlichen Fähigkeiten segnen, indem du dafür die Fluchkraft vollständig aufgibst.\nKann in der Luft mehrfach springen."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Amanosakahoko"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Angriffe mit Amanosakahoko entfesseln auf gewaltsame Art und Weise gegnerische Fluchtechniken."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "Eine Angreiferin mit kurzer Reichweite, die die Schwertzieher-Technik nutzt, um Gegner mit blitzschnellen Schlägen außer Gefecht zu setzen.\n\n• Dank ihres Potenzials mit dem \"Neuen Schattenstil: Schwertzieher\" kann sie von der Schwertscheiden-Position aus einen schnellen und mächtigen Angriff ausführen.\nVersuche, während des Kampfs ihr Schwert in der Schwertscheide zu lassen, um die Oberhand zu gewinnen.\n• Startet automatisch Gegenangriffe gegen alle Gegner, die ihren \"Neuen Schattenstil: Einfache Sphäre,\" betreten und richtet schweren Schaden an.\nVerkürze den Abstand zwischen dir und deinem Gegner mit \"Neuer Schattenstil: Schwertzieher\", wenn du bereit bist, in die Offensive zu gehen."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Diagonalschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Diagonalschlag auszulösen.\nFühre bei einem Treffer automatisch einen Folgeangriff aus und gehe in die Schwertscheiden-Position.\nDurch das weitere Wiederholen der Eingabe kann eine Fluchkrafttechnik verwendet werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Ansturmschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Schlag auszuführen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfs ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Abtrennender Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Schlag auszuführen.\nWenn du den Gegner triffst, verpasse ihm einen Tritt, um ihn in die Luft zu schleudern und gehe in die Schwertscheiden-Position."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Extraktionsschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem dein Schwert in der Schwertscheide steckt und der dich zum Gegner führt, um einen doppelten Schlag auszuführen.\nWenn du bereits in der Schwertscheiden-Position bist, kannst du sofort einen doppelten Schlag ausführen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Schwertscheide/Schnellschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Schwert-Position】\nStecke dein Schwert in die Scheide.\n【Schwertscheiden-Position】\nEin Angriff mit kurzer Reichweite, bei dem du sofort nach vorn springst, um einen Schnellschlag auszuführen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Schwertscheiden-Ausweichen"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Weiche in die Richtung deiner Wahl aus, während dein Schwert in der Schwertscheide steckt.\nDu kannst nur ausweichen, wenn dein Schwert bereits in der Scheide steckt.\nDieser Angriff kann nach dem Ausweichen mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "Neuer Schattenstil: Schwertzieher"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem dein Schwert in der Schwertscheide steckt und der dich zum Gegner führt, um einen zerstörerischen Schwertschlag auszuführen.\nDer Schlag kann sofort ausgeführt werden, wenn du bereits in der Schwertscheiden-Position bist.\nFluchkraftstufe 2: Erhöht den verursachten Schaden. Erweitert den Angriffsbereich.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter. Erweitert den Angriffsbereich weiter."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "Neuer Schattenstil: Einfache Sphäre, Schwertzieher"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Steckt dein Schwert in die Schwertscheide und erzeugt eine einfache Sphäre.\nWenn du bereits in der Schwertscheiden-Position bist, kann der Angriff viel schneller ausgeführt werden.\nGegner, die die Sphäre betreten, werden automatisch angegriffen.\nAngriffe, die von außerhalb der Sphäre kommen, werden automatisch abgewehrt.\nKann mit Schwertscheiden-Ausweichen verkettet werden, während die einfache Sphäre erzeugt wurde.\nKann unterdrückt werden.\nWenn du dies in der Luft ausführst, stürzt du zu Boden.\nFluchkraftstufe 2: Erhöht den verursachten Schaden. Erweitert den Angriffsbereich.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter. Erweitert den Angriffsbereich weiter."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "Neuer Schattenstil: Einfache Sphäre, Schwertzieher"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird aktiviert, sobald du einen Schlag nach oben beim Gegner landest.\nErzeugt eine einfache Sphäre und verursacht automatisch schweren Schaden bei allen Gegnern, die sie betreten."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "Neuer Schattenstil: Schwertzieher"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Geht nach bestimmten Angriffen in die Schwertscheiden-Position.\nIn der Schwertscheiden-Position werden bestimmte Angriffe schneller ausgeführt und die leitende Reichweite für einige Angriffe erhöht.\nDu gehst in die Schwert-Position, wenn du während der Schwertscheiden-Position in Deckung gehst oder zurückgestoßen wirst.\nFühre eine perfekte Deckung aus, um die Schwertscheiden-Position beizubehalten."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "Ein Angreifer mit einer immensen Schusskraft und einer ungeheuren Menge an Fluchkraft, die er seinem Bann des Himmels zu verdanken hat.\n\n• Dank seines Potenzials \"Bann des Himmels\" kann er Fluchkrafttechniken entfesseln, ohne von Fluchkraftstufen eingeschränkt zu werden.\n• Profitiere von dem schweren Schaden, den er direkt zu Beginn des Kampfes verursachen kann, um die Oberhand zu gewinnen!\n• Nutze seine äußerst bewegliche Extraktionstechnik, um auf dem Schlachtfeld herumzuwirbeln und deinen Gegner zu verwirren."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Angriffshagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Hagel von Schlägen auszulösen.\nWährend des Angriffs kann eine zusätzliche Technik verwendet werden, um eine Fluchkrafttechnik auszulösen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Verbesserter Schlag mit der Handfläche"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich mithilfe eines Düsenantriebs zum Gegner führt, um ihn in die Luft zu werfen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Weitflächige Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "Ein Angriff mit mittlerer Reichweite, bei dem du mit einer Ultra Cannon in der linken Hand schießt, um eine große Fläche zu verbrennen."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Sword Option: Ultra Shield"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Verwandelt den rechten Arm in einen stacheligen Schild mit Klammern.\nIn dieser Haltung kannst du eingehende Angriffe mit Ultra Shield ablenken.\nDieser Angriff betäubt Gegner, wenn der Konter erfolgreich ist."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Verbesserter Eins-Zwei-Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich mithilfe eines Düsenantriebs zum Gegner führt, um zwei Kicks auszulösen.\nHat eine erhöhte Ladezeit, wenn er bei Überhitzung verwendet wird.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Verbesserter Aufwärtshaken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich mithilfe eines Düsenantriebs zum Gegner führt, um einen schnellen Aufwärtshaken auszuführen, der den Gegner nach oben wirft.\nHat eine erhöhte Ladezeit, wenn er bei Überhitzung verwendet wird.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Sword Option Boost On: Ultra Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Erzeugt mit deinem rechten Arm eine Klinge und wirbelt dich mithilfe eines Düsenantriebs schnell in Richtung des Gegners.\nKann unterdrückt werden.\nFluchkraftstufe 2: Durch wiederholtes Drücken wird die Anzahl der Angriffe erhöht.\nFluchkraftstufe 3: Durch wiederholtes Drücken wird die Anzahl der Angriffe weiter erhöht."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "Hoher Einsatz: Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem du Fluchkraft sammelst und anschließend mit deiner linken Hand freisetzt.\nKann unterdrückt werden.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Verbesserter Nahkampfangriff"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird aktiviert, wenn der Gegner mit einer Schusswaffe getroffen wurde.\nNutze den Revolver in deinem Mund zusammen mit zwei Handkanonen, um Ultimate Cannon zu schießen und dem Gegner schweren Schaden zuzufügen."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Bann des Himmels"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Erlaubt es dir, stärkere Fluchtechniken zu aktivieren, als auf deiner aktuellen Fluchkraftstufe möglich ist.\nKann aktiviert werden, indem du die Eingabe für eine bestimmte Zeit wiederholst, während du eine Fluchtechnik verwendest.\nJe nachdem, wie groß der Unterschied zwischen deiner aktivierten Fluchkraftstufe und deiner aktuellen Stufe ist, wirst du vorübergehend überheizen und ein verringertes Bewegungstempo sowie eine verringerte Wiederherstellungsgeschwindigkeit deiner Fluchkraft erleben."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "Ein höchst versierter Angreifer mit Bluttechnik, der darin spezialisiert ist, aus jeder Distanz anzugreifen.\n\n• Wenn Blutmanipulation: Roter Schuppenfluss aktiviert ist, kannst du mit Kombo- oder Extraktionstechniken Schaden verursachen und erhältst gleichzeitig eine enorme Tempo-Verbesserung. Nutze diese Geschwindigkeit, um es sofort und aus nächster Nähe mit deinem Gegner aufzunehmen.\n• Auf Fluchkraftstufe 3 kannst du mit Blutmanipulation: Konvergenz/Blutbohrer rechts und links zielen, um einen Wischangriff auszulösen. Besiege mit dieser herausragenden Technik mehrere Gegner gleichzeitig aus der Ferne."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Fünfer-Nahkampfkombo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Reihe von Schlägen auszulösen.\nWährend des Angriffs kann durch Wiederholen der Eingabe eine Fluchkrafttechnik ausgelöst werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Aufwärtshaken"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Blutmanipulation: Blutiger Klingenhagel"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um zwei schnelle Schläge auszulösen.\nDieser Angriff verringert vorübergehend das Tempo des Gegners bei einem Treffer.\nIn Anwesenheit von Blutsphären werden der verursachte Schaden sowie die Fluchkraft, die du erhältst, erhöht.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "Eins-Zwei-Nahkampfangriff"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen harten Blutschlag auszuführen und den Gegner in die Luft zu schleudern.\nDieser Angriff verringert vorübergehend das Tempo des Gegners bei einem Treffer.\nIn Anwesenheit von Blutsphären werden der verursachte Schaden sowie die Fluchkraft, die du erhältst, erhöht.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Blutmanipulation: Schnittaustreibung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem eine rotierende, kreisförmige Klinge aus gepresstem Blut entfesselt wird.\nDieser Angriff verringert vorübergehend das Tempo des Gegners bei einem Treffer.\nVerbraucht 1 Blutsphäre.\nErschafft neue Blutsphären, sollten keine verfügbar sein."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Blutwelle"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem ein Blutschwall entfesselt wird, aus dem unzählige Spitzen entstehen.\nDieser Angriff verringert vorübergehend das Tempo des Gegners bei einem Treffer.\nVerbraucht 1 Blutsphäre.\nErschafft neue Blutsphären, sollten keine verfügbar sein."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Blutmanipulation: Roter Schuppenfluss"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Kontrolliert die Bestandteile des Blutes, um die körperlichen Fähigkeiten zu verbessern.\nSolange die Technik aktiv ist, können Schäden durch Kombotechniken/Extraktionstechniken verursacht werden. Die Technik hat auch die folgenden Auswirkungen: erhöhtes Angriffs-, Führungs- und Sprinttempo, sinkenden Verbrauch der Sprintanzeige, und erhöhten verursachten Schaden gegen Deckung.\n\nVerbraucht laufend Fluchkraft und hört erst auf, wenn eine andere Technik verwendet wird oder die Fluchkraft auf null sinkt."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Blutmanipulation: Konvergenz/Blutbohrer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "Ein Angriff mit hoher Reichweite, bei dem Blut zusammengepresst und mit hohem Tempo geradeaus geschossen wird.\nJe aufgeladener der Angriff, desto höher sind die Reichweite und der verursachte Schaden.\nDieser Angriff verringert vorübergehend das Tempo des Gegners nach Treffern.\nVerbrauche 1 Blutsphäre.\nErschafft neue Blutsphären, sollten keine verfügbar sein.\nKann unterdrückt werden.\nFluchkraftstufe 2: Verkürzt die Aufladezeit.\nFluchkraftstufe 3: Drücke <img id=\"MoveLeft\"/><img id=\"MoveRight\"/>, nachdem du Blutbohrer abgefeuert hast, um eine Wischbewegung durchzuführen."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Blutmanipulation: Roter Schuppenfluss, Ladung"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird durch einen Schlag nach hinten aktiviert.\nEntfessle mit Konvergenz gepresstes Blut, um einen Schusswaffenangriff in alle Richtungen auszulösen, der dem Gegner schweren Schaden zufügt."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Blutsphäre"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Kann verwendet werden, sobald mehrere Blutsphären erschaffen wurden.\nEinige mächtige Angriffe verbrauchen Blutsphären.\nDie Anzahl der Blutsphären, die du erschaffen kannst, wird, abhängig von deiner Fluchkraftstufe, zunehmen.\nFalls keine Blutsphären übrig sind, kannst du mehr erschaffen, indem du <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/> oder <img id=\"CursedEnergyAttack_2\"/> verwendest."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Uterus-Todesbilder"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "Bei einem Treffer wird diese Technik bei Nutzung von vergiftetem Blut das Tempo des Gegners vorübergehend verringern.\nGrad der Verringerung des gegnerischen Tempos hängt von Fluchkraftstufe ab."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "Eine Angreiferin mit kurzer Reichweite, die ihre Krähen kontrollieren kann, um für sie anzugreifen oder sie zu verteidigen, während sie gleichzeitig ihre Verbündeten nutzt, um ihr im Kampf zu helfen.\n\n• Ihre Fluchkrafttechnik \"Schwarzvogel-Manipulation\" kann verwendet werden, um Angriffe automatisch zu blockieren und ihre Krähen dazu zu bringen, Gegner anzugreifen. Nutze ihre Krähen stetig, um den Kampf zu deinen Gunsten zu wenden.\n• Ihr Potenzial \"Ein Leben, das quasi Dienstpotenzial verkörpert.\" verstärkt ihre Kräfte, je mehr Leute mit ihr zusammenarbeiten. Dieser Effekt hält bis zum Kampfende an, also solltest du so oft wie möglich mit anderen zusammenkämpfen."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Dreifachschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Reihe von Axtschlägen auszulösen.\nWährend des Angriffs kann durch Wiederholen der Eingabe eine Fluchkrafttechnik ausgelöst werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Schlag mit der Rückseite der Axt"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mit der Rückseite deiner Axt anzugreifen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Folgeangriff starten"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Führt dich zum Gegner, um einen Axtangriff mit kurzer Reichweite auszuführen, der ihn nach oben wirft.\nErneut drücken, um einen Folgeangriff auszuführen und ihn in die Luft zu schleudern.\nKann mit einem Abwärtsstoß aus der ersten Stufe verkettet werden.\nKann mit Schwarzvogel-Manipulation aus der zweiten Stufe verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Abwärtsstoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du hochspringst und diagonal herunterfällst, mit der Axt voraus.\nWenn du diese Technik in der Luft ausführst, stürzt du auf der Stelle zu Boden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Luftschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn mithilfe deiner Axt in die Luft zu schleudern, bevor du ihn wieder zu Boden schlägst.\nWährend des Angriffs kannst du durch Wiederholen der Eingabe den Gegner in die Luft schleudern.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Trittsprung"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der es dir ermöglicht, den Gegner zu zertrampeln, bevor du einen hohen Sprung ausführst.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Drehschlag/Tiefschlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "Ein Angriff mit kurzer Reichweite, bei dem du sprintest und gleichzeitig deine Axt schwingst. Durch Wiederholen der Eingabe kann dieser Angriff mit anderen Techniken verkettet werden.\nBeim Sprinten kannst du dich in jede beliebige Richtung bewegen.\n<img id=\"CursedEnergyAttack_1\"/>\nSchwinge deine Axt und greife an, während du dich drehst.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nFühre einen hohen Sprung aus und lande mit einem mächtigen Axtschlag.\nKann sofort aus der normalen Position aktiviert werden.\n\nFluchkraftstufe 2: Erhöht das Sprinttempo. Erhöht die Sprintdauer. Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht das Sprinttempo weiter. Erhöht die Sprintdauer weiter. Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Schwarzvogel-Manipulation"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Beschwöre eine Krähenschar um dich herum herauf.\nDie Vögel werden dir folgen und dich vor genau 1 gegnerischen Angriff schützen.\nSobald die Krähen einen Angriff erfolgreich geblockt haben, verschwinden sie.\nDurch Wiederholen der Eingabe kann der Gegner ins Visier genommen und die Krähen zum Angriff bewegt werden.\nDu kannst dich bewegen, während du den Krähen den Befehl zum Angriff erteilst. Außerdem kannst du die Krähen beim Sprinten steuern, indem du Drehschlag/Tiefschlag verwendest.\nFluchkraftstufe 2: Erhöht den verursachten Schaden.\nFluchkraftstufe 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Luftkombo"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird aktiviert, wenn ein Treffer mit der Axt erzielt wurde.\nKann schweren Schaden verursachen, indem du sie in den Gegner rammst, nachdem du die Krähen gezwungen hast, sich zu opfern. Dadurch wird jegliche Begrenzung der Fluchkraft aufgehoben."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "Ein Leben, das quasi Dienstpotenzial verkörpert."
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "Die folgenden Auswirkungen werden jedes Mal erzielt, wenn eine bestimmte Menge an Kooperationsboni aktiviert wurde:\nerhöhtes Sprinttempo,\nsinkender Verbrauch der Sprintanzeige,\nerhöhte Wiederherstellungsgeschwindigkeit der Fluchkraft,\nverringerte Verzögerung nach Deckung.\nDie oben genannten Auswirkungen werden während des gesamten Kampfes aktiv sein.\nHat eine Höchstgrenze."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "Der schnellste Jujuzist, der mit risikoreichen, aber lohnenswerten Fluchkrafttechniken aufwartet, um seinen Gegnern jegliche Orientierung zu rauben.\n\n• Sein Potenzial \"Projektionsmagie\" nutzt blitzschnelle Bewegungen aus Angriffsketten mithilfe seiner Fluchkrafttechnik.\nDabei wird automatisch Fluchkraft verbraucht, weswegen ein gefühlvoller Einsatz nötig ist, um zu vermeiden, dass ihm diese ausgeht und er einfriert.\n• Seine Fluchkrafttechnik \"Projektionsmagie: Schlag\" kann mit den Extraktionstechniken <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> oder <img id=\"NormalAttack_3\"/> durch Wiederholen der Eingabe verkettet werden.\nJe öfter Projektionsmagie während einer Kombo ausgelöst wird, desto höher der Schaden."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Hinterer Zusammenstoß"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um eine Angriffsfolge auszulösen.\nWährend des Angriffs kann durch Wiederholen der Eingabe eine Fluchkrafttechnik ausgelöst werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Schlag mit der Handfläche"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um einen Schlag mit der Handfläche auszuführen.\nDieser Angriff kann nicht durch Deckung geblockt werden.\nWenn der getroffene Gegner nicht ins Taumeln gerät, wird er einfrieren.\nWenn dieser Angriff während eines Doppelteam-Kampfes ausgeführt wird, besteht die Chance auf einen Teamangriff."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Ansturmschläge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um ihn in die Luft zu schleudern, bevor du ihn wieder zu Boden schlägst.\nWährend des Angriffs kann durch Wiederholen der Eingabe eine Fluchkrafttechnik ausgelöst werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Bohrender Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um im Sprung einen Aufwärtshaken auszuführen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Dreifachkick"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, um mit einer Reihe von Kicks anzugreifen.\nWährend des Angriffs kann durch Wiederholen der Eingabe eine Fluchkrafttechnik ausgelöst werden.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "K.-o.-Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich zum Gegner führt, nachdem du nach hinten gesprungen bist, um ihm einen scharfen Kick zu verpassen.\nDieser Angriff kann mit anderen Techniken verkettet werden."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Projektionsmagie: Schlag"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Bleibe an einer Stelle stehen und setze Projektionsmagie ein, um dich zum Gegner zu führen und einen brutalen Angriff mit kurzer Reichweite zu entfesseln.\nSprinte oder springe in dieser Haltung, um dich in eine beliebige Richtung zu bewegen.\nSetze in der Haltung oder nach einer Bewegung eine Kombo- oder Extraktionstechnik ein, um Projektionsmagie-Aktionen durchzuführen.\nSofort und ohne Haltung einsetzbar, wenn eine Aneinanderkettung an andere Aktionen vorausgeht.\nDurch Projektionsmagie verursachter Schaden verändert sich nur anhand der Einsatzhäufigkeit."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Projektionsmagie: Sperrfeuer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "Ein Angriff mit kurzer Reichweite, der dich mit Projektionsmagie zum Gegner führt, um ihn bei Kontakt einzufrieren und eine Reihe von Angriffen auszulösen.\nDurch Wiederholen der Eingabe zur richtigen Zeit kann die Technik verwendet werden, um mit anderen Techniken verkettet zu werden.\nScheitert die Technik, wirst du vorübergehend eingefroren.\nFluchkraft 2: Erhöht den verursachten Schaden.\nFluchkraft 3: Erhöht den verursachten Schaden weiter."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Projektionsmagie."
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "Deckung ist gegen diesen Angriff nicht möglich.\nWird aktiviert, wenn der Gegner erfolgreich bedrängt wurde.\nNutze Projektionsmagie, um dein Tempo aufzubauen und mit einem schnellen Angriffshagel dem Gegner schweren Schaden zuzufügen."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Projektionsmagie"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Wird nach Aneinanderkettung mit anderen Angriffen aktiviert.\nVerbraucht automatisch Fluchkraft, um dich mit Projektionsmagie zum Gegner zu bewegen, anstatt dich zu führen.\nAlle durch Projektionsmagie ausgeführten Angriffe sind Einzelangriffe.\nBei mangelnder Fluchkraft scheitert die Technik und du frierst vorübergehend ein.\nWeiterer Schaden kann durch Verwendung der Projektionsmagie zum Erschaffen mehrerer Angriffsketten verursacht werden."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Geheime Kunst: Gefühlssturz!"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "Wenn dein Gegner dabei ist, seine Sphäre aktiv zu erweitern, verwandelt sich deine Deckung in Gefühlssturz. Diese Technik verbraucht kontinuierlich Fluchkraft, um die Sphäre zu kontern und dich zu schützen. Du kannst nicht zurückgestoßen werden und bist immun gegen Deckungsbruch. Wenn du nicht genügend Fluchkraft hast, führst du stattdessen eine normale Deckung aus."
+      }
+    }
+  }
+]

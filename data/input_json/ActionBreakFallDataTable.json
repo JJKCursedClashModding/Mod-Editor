@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActionBreakFallDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_ActionBreakFall'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010": {
+        "ID": "CP_010",
+        "Down_CancelInput_Time": -1.0,
+        "Blow_CancelInput_Time": 1.1,
+        "BlowSmall_CancelInput_Time": 0.8,
+        "BlowLarge_CancelInput_Time": 2.0,
+        "Invincible_Time": 0.0
+      }
+    }
+  }
+]

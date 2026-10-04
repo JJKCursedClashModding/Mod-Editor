@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JJK Mod Editor</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="layout">
+  <aside id="left">
+    <div class="pane-tabs" id="leftTabs">
+      <button data-ltab="tables" class="active">Tables</button>
+      <button data-ltab="params">Parameters</button>
+    </div>
+    <div id="sideSearchRow">
+      <input id="scopeSearch" placeholder="Search..." autocomplete="off">
+      <button id="btnCharFilter" title="Character filter"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
+    </div>
+    <div id="scopeList"></div>
+  </aside>
+
+  <section id="center">
+    <div id="tabStrip" role="tablist" aria-label="Open tables"></div>
+    <div id="tabContent">
+      <div id="centerMain">
+        <div id="scopeHeader"></div>
+        <div id="centerBody"></div>
+      </div>
+      <aside id="filterPanel" class="hidden"></aside>
+    </div>
+    <div id="fabStack" style="display:none">
+      <button id="fabNewRow" class="fab-mini" title="New row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+      <button id="fabCloneRow" class="fab-mini" title="New row from existing row"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button>
+      <button id="fabFilters" class="fab-mini" title="Filters &amp; fields"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v5l-4 2v-7L3 5z"/></svg></button>
+    </div>
+    <div id="emptyTabs" class="hidden">
+      <div class="empty-note">No tabs open.<br>Pick a table or parameter file on the left.<br><br>Use <b>File</b>, <b>Edit</b>, <b>View</b>, <b>Project</b>, <b>Mod</b> menus above for everything else.</div>
+    </div>
+  </section>
+</div>
+
+<div id="modalRoot"></div>
+<div id="toasts"></div>
+<div id="busy" class="hidden"><div class="spinner"></div><div id="busyMsg">Working...</div></div>
+
+<script src="app.js"></script>
+</body>
+</html>

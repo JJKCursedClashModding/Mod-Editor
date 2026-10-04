@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MainMenuThemeDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_MainMenuTheme'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "MAIN_MENU_THEME_01": {
+        "ID": "MAIN_MENU_THEME_01",
+        "Id_Text": "SYS_MAIN_MENU_THEME_LABEL_0101",
+        "Id_Bgm": "BGM_MENU",
+        "ThumbnailTextureName": "T_UI_MainMenu_Thumbnail_01",
+        "SmallThumbnailTextureName": "T_UI_MainMenu_Thumbnail_Small_01",
+        "VsPlayerMovieFileName": "MainMenu_NetBattle",
+        "VsEnemyMovieFileName": "MainMenu_PvE",
+        "LobbyMovieFileName": "MainMenu_Lobby",
+        "StoryMovieFileName": "MainMenu_Story",
+        "ArcadeMovieFileName": "MainMenu_Arcade",
+        "FreeBattleMovieFileName": "MainMenu_FreeBattle",
+        "ShopMovieFileName": "MainMenu_Shop",
+        "CollectionMovieFileName": "MainMenu_Gallery",
+        "UserProgressFlag": [
+          -1,
+          -1
+        ]
+      },
+      "MAIN_MENU_THEME_02": {
+        "ID": "MAIN_MENU_THEME_02",
+        "Id_Text": "SYS_MAIN_MENU_THEME_LABEL_0102",
+        "Id_Bgm": "BGM_BATTLE_DLC_01",
+        "ThumbnailTextureName": "T_UI_MainMenu_Thumbnail_02",
+        "SmallThumbnailTextureName": "T_UI_MainMenu_Thumbnail_Small_02",
+        "VsPlayerMovieFileName": "MainMenu_NetBattle_DLC01",
+        "VsEnemyMovieFileName": "MainMenu_PvE_DLC01",
+        "LobbyMovieFileName": "MainMenu_Lobby_DLC01",
+        "StoryMovieFileName": "MainMenu_Story_DLC01",
+        "ArcadeMovieFileName": "MainMenu_Arcade_DLC01",
+        "FreeBattleMovieFileName": "MainMenu_FreeBattle_DLC01",
+        "ShopMovieFileName": "MainMenu_Shop_DLC01",
+        "CollectionMovieFileName": "MainMenu_Gallery_DLC01",
+        "UserProgressFlag": [
+          6,
+          -1
+        ]
+      },
+      "MAIN_MENU_THEME_03": {
+        "ID": "MAIN_MENU_THEME_03",
+        "Id_Text": "SYS_MAIN_MENU_THEME_LABEL_0103",
+        "Id_Bgm": "BGM_DEMO_10",
+        "ThumbnailTextureName": "T_UI_MainMenu_Thumbnail_03",
+        "SmallThumbnailTextureName": "T_UI_MainMenu_Thumbnail_Small_03",
+        "VsPlayerMovieFileName": "MainMenu_NetBattle_DLC02",
+        "VsEnemyMovieFileName": "MainMenu_PvE_DLC02",
+        "LobbyMovieFileName": "MainMenu_Lobby_DLC02",
+        "StoryMovieFileName": "MainMenu_Story_DLC02",
+        "ArcadeMovieFileName": "MainMenu_Arcade_DLC02",
+        "FreeBattleMovieFileName": "MainMenu_FreeBattle_DLC02",
+        "ShopMovieFileName": "MainMenu_Shop_DLC02",
+        "CollectionMovieFileName": "MainMenu_Gallery_DLC02",
+        "UserProgressFlag": [
+          7,
+          -1
+        ]
+      }
+    }
+  }
+]

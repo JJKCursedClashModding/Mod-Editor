@@ -1,0 +1,53 @@
+{
+  "name": "jjk-mod-editor",
+  "productName": "JJK Mod Editor",
+  "version": "0.1.0",
+  "description": "Visual editor for Jujutsu Kaisen Cursed Clash datatable + parameter mods. Global rules, per-row overrides, new rows, Mod Manager compatible export.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "seed-categories": "node scripts/seed-table-categories.js",
+    "vendor-input-json": "node scripts/vendor-input-json.js",
+    "vendor:types": "node scripts/vendor-types.js",
+    "build": "electron-builder --win --x64",
+    "build:portable": "electron-builder --win portable --x64"
+  },
+  "build": {
+    "appId": "com.jjkcc.modeditor",
+    "productName": "JJK Mod Editor",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "tableCategories.js",
+      "lib/**",
+      "renderer/**",
+      "data/**",
+      "vendor/**",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.17"
+  },
+  "devDependencies": {
+    "electron": "^41.1.1",
+    "electron-builder": "^26.8.1"
+  }
+}

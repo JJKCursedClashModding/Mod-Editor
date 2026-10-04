@@ -1,0 +1,2033 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterSoundDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_CharacterSound'",
+        "ObjectPath": "/Script/AbramsDataTable"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CP_010": {
+        "ID": "CP_010",
+        "CueSheetName": [
+          "CP_010",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_010",
+          "CP_010_TYPEA",
+          "CP_010_TYPEB",
+          "CP_010_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_010_CHARACTER_SELECT",
+          "CP_010_CHARACTER_RESELECT",
+          "CP_010_READY",
+          "CP_010_LOBBY_GO_TO_BATTLE",
+          "CP_010_LOBBY_CHANGED_MATCH_RULE",
+          "CP_010_RESULT_RANK_S",
+          "CP_010_RESULT_RANK_A",
+          "CP_010_RESULT_RANK_B_OR_LOWER",
+          "CP_010_RESULT_WINNING_STREAK_5",
+          "CP_010_RESULT_WINNING_STREAK_10",
+          "CP_010_RESULT_WINNING_STREAK_15",
+          "CP_010_RESULT_WINNING_STREAK_20",
+          "CP_010_RESULT_OPEN_RESULT_ITEM",
+          "CP_010_RESULT_PROMOTE_RANK",
+          "CP_010_RESULT_DEMOTE_RANK",
+          "CP_010_REMATCH_SUCCESS_REMATCH",
+          "CP_010_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_010_REMATCH_SELECT_FIND",
+          "CP_010_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_010_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_010_ST": {
+        "ID": "CP_010_ST",
+        "CueSheetName": [
+          "CP_010",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_010_ST",
+          "CP_010_ST",
+          "CP_010_ST",
+          "CP_010_ST"
+        ],
+        "Id_VoiceGroup": [
+          "CP_010_CHARACTER_SELECT",
+          "CP_010_CHARACTER_RESELECT",
+          "CP_010_READY",
+          "CP_010_LOBBY_GO_TO_BATTLE",
+          "CP_010_LOBBY_CHANGED_MATCH_RULE",
+          "CP_010_RESULT_RANK_S",
+          "CP_010_RESULT_RANK_A",
+          "CP_010_RESULT_RANK_B_OR_LOWER",
+          "CP_010_RESULT_WINNING_STREAK_5",
+          "CP_010_RESULT_WINNING_STREAK_10",
+          "CP_010_RESULT_WINNING_STREAK_15",
+          "CP_010_RESULT_WINNING_STREAK_20",
+          "CP_010_RESULT_OPEN_RESULT_ITEM",
+          "CP_010_RESULT_PROMOTE_RANK",
+          "CP_010_RESULT_DEMOTE_RANK",
+          "CP_010_REMATCH_SUCCESS_REMATCH",
+          "CP_010_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_010_REMATCH_SELECT_FIND",
+          "CP_010_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_010_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_020": {
+        "ID": "CP_020",
+        "CueSheetName": [
+          "CP_020",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_020",
+          "CP_020_TYPEA",
+          "CP_020_TYPEB",
+          "CP_020_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_020_CHARACTER_SELECT",
+          "CP_020_CHARACTER_RESELECT",
+          "CP_020_READY",
+          "CP_020_LOBBY_GO_TO_BATTLE",
+          "CP_020_LOBBY_CHANGED_MATCH_RULE",
+          "CP_020_RESULT_RANK_S",
+          "CP_020_RESULT_RANK_A",
+          "CP_020_RESULT_RANK_B_OR_LOWER",
+          "CP_020_RESULT_WINNING_STREAK_5",
+          "CP_020_RESULT_WINNING_STREAK_10",
+          "CP_020_RESULT_WINNING_STREAK_15",
+          "CP_020_RESULT_WINNING_STREAK_20",
+          "CP_020_RESULT_OPEN_RESULT_ITEM",
+          "CP_020_RESULT_PROMOTE_RANK",
+          "CP_020_RESULT_DEMOTE_RANK",
+          "CP_020_REMATCH_SUCCESS_REMATCH",
+          "CP_020_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_020_REMATCH_SELECT_FIND",
+          "CP_020_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_020_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_020_10": {
+        "ID": "CP_020_10",
+        "CueSheetName": [
+          "CP_020",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_020",
+          "CP_020_TYPEA",
+          "CP_020_TYPEB",
+          "CP_020_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_020_CHARACTER_SELECT",
+          "CP_020_CHARACTER_RESELECT",
+          "CP_020_READY",
+          "CP_020_LOBBY_GO_TO_BATTLE",
+          "CP_020_LOBBY_CHANGED_MATCH_RULE",
+          "CP_020_RESULT_RANK_S",
+          "CP_020_RESULT_RANK_A",
+          "CP_020_RESULT_RANK_B_OR_LOWER",
+          "CP_020_RESULT_WINNING_STREAK_5",
+          "CP_020_RESULT_WINNING_STREAK_10",
+          "CP_020_RESULT_WINNING_STREAK_15",
+          "CP_020_RESULT_WINNING_STREAK_20",
+          "CP_020_RESULT_OPEN_RESULT_ITEM",
+          "CP_020_RESULT_PROMOTE_RANK",
+          "CP_020_RESULT_DEMOTE_RANK",
+          "CP_020_REMATCH_SUCCESS_REMATCH",
+          "CP_020_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_020_REMATCH_SELECT_FIND",
+          "CP_020_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_020_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_030": {
+        "ID": "CP_030",
+        "CueSheetName": [
+          "CP_030",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_030",
+          "CP_030_TYPEA",
+          "CP_030_TYPEB",
+          "CP_030_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_030_CHARACTER_SELECT",
+          "CP_030_CHARACTER_RESELECT",
+          "CP_030_READY",
+          "CP_030_LOBBY_GO_TO_BATTLE",
+          "CP_030_LOBBY_CHANGED_MATCH_RULE",
+          "CP_030_RESULT_RANK_S",
+          "CP_030_RESULT_RANK_A",
+          "CP_030_RESULT_RANK_B_OR_LOWER",
+          "CP_030_RESULT_WINNING_STREAK_5",
+          "CP_030_RESULT_WINNING_STREAK_10",
+          "CP_030_RESULT_WINNING_STREAK_15",
+          "CP_030_RESULT_WINNING_STREAK_20",
+          "CP_030_RESULT_OPEN_RESULT_ITEM",
+          "CP_030_RESULT_PROMOTE_RANK",
+          "CP_030_RESULT_DEMOTE_RANK",
+          "CP_030_REMATCH_SUCCESS_REMATCH",
+          "CP_030_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_030_REMATCH_SELECT_FIND",
+          "CP_030_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_030_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_040": {
+        "ID": "CP_040",
+        "CueSheetName": [
+          "CP_040",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_040",
+          "CP_040_TYPEA",
+          "CP_040_TYPEB",
+          "CP_040_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_040_CHARACTER_SELECT",
+          "CP_040_CHARACTER_RESELECT",
+          "CP_040_READY",
+          "CP_040_LOBBY_GO_TO_BATTLE",
+          "CP_040_LOBBY_CHANGED_MATCH_RULE",
+          "CP_040_RESULT_RANK_S",
+          "CP_040_RESULT_RANK_A",
+          "CP_040_RESULT_RANK_B_OR_LOWER",
+          "CP_040_RESULT_WINNING_STREAK_5",
+          "CP_040_RESULT_WINNING_STREAK_10",
+          "CP_040_RESULT_WINNING_STREAK_15",
+          "CP_040_RESULT_WINNING_STREAK_20",
+          "CP_040_RESULT_OPEN_RESULT_ITEM",
+          "CP_040_RESULT_PROMOTE_RANK",
+          "CP_040_RESULT_DEMOTE_RANK",
+          "CP_040_REMATCH_SUCCESS_REMATCH",
+          "CP_040_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_040_REMATCH_SELECT_FIND",
+          "CP_040_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_040_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_050": {
+        "ID": "CP_050",
+        "CueSheetName": [
+          "CP_050",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_050",
+          "CP_050_TYPEA",
+          "CP_050_TYPEB",
+          "CP_050_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_050_CHARACTER_SELECT",
+          "CP_050_CHARACTER_RESELECT",
+          "CP_050_READY",
+          "CP_050_LOBBY_GO_TO_BATTLE",
+          "CP_050_LOBBY_CHANGED_MATCH_RULE",
+          "CP_050_RESULT_RANK_S",
+          "CP_050_RESULT_RANK_A",
+          "CP_050_RESULT_RANK_B_OR_LOWER",
+          "CP_050_RESULT_WINNING_STREAK_5",
+          "CP_050_RESULT_WINNING_STREAK_10",
+          "CP_050_RESULT_WINNING_STREAK_15",
+          "CP_050_RESULT_WINNING_STREAK_20",
+          "CP_050_RESULT_OPEN_RESULT_ITEM",
+          "CP_050_RESULT_PROMOTE_RANK",
+          "CP_050_RESULT_DEMOTE_RANK",
+          "CP_050_REMATCH_SUCCESS_REMATCH",
+          "CP_050_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_050_REMATCH_SELECT_FIND",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_050_10": {
+        "ID": "CP_050_10",
+        "CueSheetName": [
+          "CP_050",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_050",
+          "CP_050_TYPEA",
+          "CP_050_TYPEB",
+          "CP_050_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_050_CHARACTER_SELECT",
+          "CP_050_CHARACTER_RESELECT",
+          "CP_050_READY",
+          "CP_050_LOBBY_GO_TO_BATTLE",
+          "CP_050_LOBBY_CHANGED_MATCH_RULE",
+          "CP_050_RESULT_RANK_S",
+          "CP_050_RESULT_RANK_A",
+          "CP_050_RESULT_RANK_B_OR_LOWER",
+          "CP_050_RESULT_WINNING_STREAK_5",
+          "CP_050_RESULT_WINNING_STREAK_10",
+          "CP_050_RESULT_WINNING_STREAK_15",
+          "CP_050_RESULT_WINNING_STREAK_20",
+          "CP_050_RESULT_OPEN_RESULT_ITEM",
+          "CP_050_RESULT_PROMOTE_RANK",
+          "CP_050_RESULT_DEMOTE_RANK",
+          "CP_050_REMATCH_SUCCESS_REMATCH",
+          "CP_050_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_050_REMATCH_SELECT_FIND",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_050_ST": {
+        "ID": "CP_050_ST",
+        "CueSheetName": [
+          "CP_050",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_050_ST",
+          "CP_050_ST",
+          "CP_050_ST",
+          "CP_050_ST"
+        ],
+        "Id_VoiceGroup": [
+          "CP_050_CHARACTER_SELECT",
+          "CP_050_CHARACTER_RESELECT",
+          "CP_050_READY",
+          "CP_050_LOBBY_GO_TO_BATTLE",
+          "CP_050_LOBBY_CHANGED_MATCH_RULE",
+          "CP_050_RESULT_RANK_S",
+          "CP_050_RESULT_RANK_A",
+          "CP_050_RESULT_RANK_B_OR_LOWER",
+          "CP_050_RESULT_WINNING_STREAK_5",
+          "CP_050_RESULT_WINNING_STREAK_10",
+          "CP_050_RESULT_WINNING_STREAK_15",
+          "CP_050_RESULT_WINNING_STREAK_20",
+          "CP_050_RESULT_OPEN_RESULT_ITEM",
+          "CP_050_RESULT_PROMOTE_RANK",
+          "CP_050_RESULT_DEMOTE_RANK",
+          "CP_050_REMATCH_SUCCESS_REMATCH",
+          "CP_050_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_050_REMATCH_SELECT_FIND",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_050_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_060": {
+        "ID": "CP_060",
+        "CueSheetName": [
+          "CP_060",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_060",
+          "CP_060_TYPEA",
+          "CP_060_TYPEB",
+          "CP_060_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_060_CHARACTER_SELECT",
+          "CP_060_CHARACTER_RESELECT",
+          "CP_060_READY",
+          "CP_060_LOBBY_GO_TO_BATTLE",
+          "CP_060_LOBBY_CHANGED_MATCH_RULE",
+          "CP_060_RESULT_RANK_S",
+          "CP_060_RESULT_RANK_A",
+          "CP_060_RESULT_RANK_B_OR_LOWER",
+          "CP_060_RESULT_WINNING_STREAK_5",
+          "CP_060_RESULT_WINNING_STREAK_10",
+          "CP_060_RESULT_WINNING_STREAK_15",
+          "CP_060_RESULT_WINNING_STREAK_20",
+          "CP_060_RESULT_OPEN_RESULT_ITEM",
+          "CP_060_RESULT_PROMOTE_RANK",
+          "CP_060_RESULT_DEMOTE_RANK",
+          "CP_060_REMATCH_SUCCESS_REMATCH",
+          "CP_060_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_060_REMATCH_SELECT_FIND",
+          "CP_060_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_060_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_070": {
+        "ID": "CP_070",
+        "CueSheetName": [
+          "CP_070",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_070",
+          "CP_070_TYPEA",
+          "CP_070_TYPEB",
+          "CP_070_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_070_CHARACTER_SELECT",
+          "CP_070_CHARACTER_RESELECT",
+          "CP_070_READY",
+          "CP_070_LOBBY_GO_TO_BATTLE",
+          "CP_070_LOBBY_CHANGED_MATCH_RULE",
+          "CP_070_RESULT_RANK_S",
+          "CP_070_RESULT_RANK_A",
+          "CP_070_RESULT_RANK_B_OR_LOWER",
+          "CP_070_RESULT_WINNING_STREAK_5",
+          "CP_070_RESULT_WINNING_STREAK_10",
+          "CP_070_RESULT_WINNING_STREAK_15",
+          "CP_070_RESULT_WINNING_STREAK_20",
+          "CP_070_RESULT_OPEN_RESULT_ITEM",
+          "CP_070_RESULT_PROMOTE_RANK",
+          "CP_070_RESULT_DEMOTE_RANK",
+          "CP_070_REMATCH_SUCCESS_REMATCH",
+          "CP_070_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_070_REMATCH_SELECT_FIND",
+          "CP_070_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_070_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_080": {
+        "ID": "CP_080",
+        "CueSheetName": [
+          "CP_080",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Gorilla",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_080",
+          "CP_080_TYPEA",
+          "CP_080_TYPEB",
+          "CP_080_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_080_CHARACTER_SELECT",
+          "CP_080_CHARACTER_RESELECT",
+          "CP_080_READY",
+          "CP_080_LOBBY_GO_TO_BATTLE",
+          "CP_080_LOBBY_CHANGED_MATCH_RULE",
+          "CP_080_RESULT_RANK_S",
+          "CP_080_RESULT_RANK_A",
+          "CP_080_RESULT_RANK_B_OR_LOWER",
+          "CP_080_RESULT_WINNING_STREAK_5",
+          "CP_080_RESULT_WINNING_STREAK_10",
+          "CP_080_RESULT_WINNING_STREAK_15",
+          "CP_080_RESULT_WINNING_STREAK_20",
+          "CP_080_RESULT_OPEN_RESULT_ITEM",
+          "CP_080_RESULT_PROMOTE_RANK",
+          "CP_080_RESULT_DEMOTE_RANK",
+          "CP_080_REMATCH_SUCCESS_REMATCH",
+          "CP_080_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_080_REMATCH_SELECT_FIND",
+          "CP_080_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_080_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_081": {
+        "ID": "CP_081",
+        "CueSheetName": [
+          "CP_081",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Gorilla",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_081",
+          "CP_081_TYPEA",
+          "CP_081_TYPEB",
+          "CP_081_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_090": {
+        "ID": "CP_090",
+        "CueSheetName": [
+          "CP_090",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_090",
+          "CP_090_TYPEA",
+          "CP_090_TYPEB",
+          "CP_090_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_090_CHARACTER_SELECT",
+          "CP_090_CHARACTER_RESELECT",
+          "CP_090_READY",
+          "CP_090_LOBBY_GO_TO_BATTLE",
+          "CP_090_LOBBY_CHANGED_MATCH_RULE",
+          "CP_090_RESULT_RANK_S",
+          "CP_090_RESULT_RANK_A",
+          "CP_090_RESULT_RANK_B_OR_LOWER",
+          "CP_090_RESULT_WINNING_STREAK_5",
+          "CP_090_RESULT_WINNING_STREAK_10",
+          "CP_090_RESULT_WINNING_STREAK_15",
+          "CP_090_RESULT_WINNING_STREAK_20",
+          "CP_090_RESULT_OPEN_RESULT_ITEM",
+          "CP_090_RESULT_PROMOTE_RANK",
+          "CP_090_RESULT_DEMOTE_RANK",
+          "CP_090_REMATCH_SUCCESS_REMATCH",
+          "CP_090_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_090_REMATCH_SELECT_FIND",
+          "CP_090_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_090_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_100": {
+        "ID": "CP_100",
+        "CueSheetName": [
+          "CP_100",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_100",
+          "CP_100_TYPEA",
+          "CP_100_TYPEB",
+          "CP_100_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_100_CHARACTER_SELECT",
+          "CP_100_CHARACTER_RESELECT",
+          "CP_100_READY",
+          "CP_100_LOBBY_GO_TO_BATTLE",
+          "CP_100_LOBBY_CHANGED_MATCH_RULE",
+          "CP_100_RESULT_RANK_S",
+          "CP_100_RESULT_RANK_A",
+          "CP_100_RESULT_RANK_B_OR_LOWER",
+          "CP_100_RESULT_WINNING_STREAK_5",
+          "CP_100_RESULT_WINNING_STREAK_10",
+          "CP_100_RESULT_WINNING_STREAK_15",
+          "CP_100_RESULT_WINNING_STREAK_20",
+          "CP_100_RESULT_OPEN_RESULT_ITEM",
+          "CP_100_RESULT_PROMOTE_RANK",
+          "CP_100_RESULT_DEMOTE_RANK",
+          "CP_100_REMATCH_SUCCESS_REMATCH",
+          "CP_100_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_100_REMATCH_SELECT_FIND",
+          "CP_100_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_100_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_110": {
+        "ID": "CP_110",
+        "CueSheetName": [
+          "CP_110",
+          "CN_040"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_110",
+          "CP_110_TYPEA",
+          "CP_110_TYPEB",
+          "CP_110_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_110_CHARACTER_SELECT",
+          "CP_110_CHARACTER_RESELECT",
+          "CP_110_READY",
+          "CP_110_LOBBY_GO_TO_BATTLE",
+          "CP_110_LOBBY_CHANGED_MATCH_RULE",
+          "CP_110_RESULT_RANK_S",
+          "CP_110_RESULT_RANK_A",
+          "CP_110_RESULT_RANK_B_OR_LOWER",
+          "CP_110_RESULT_WINNING_STREAK_5",
+          "CP_110_RESULT_WINNING_STREAK_10",
+          "CP_110_RESULT_WINNING_STREAK_15",
+          "CP_110_RESULT_WINNING_STREAK_20",
+          "CP_110_RESULT_OPEN_RESULT_ITEM",
+          "CP_110_RESULT_PROMOTE_RANK",
+          "CP_110_RESULT_DEMOTE_RANK",
+          "CP_110_REMATCH_SUCCESS_REMATCH",
+          "CP_110_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_110_REMATCH_SELECT_FIND",
+          "CP_110_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_110_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_120": {
+        "ID": "CP_120",
+        "CueSheetName": [
+          "CP_120",
+          "CN_070"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_120",
+          "CP_120_TYPEA",
+          "CP_120_TYPEB",
+          "CP_120_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_120_CHARACTER_SELECT",
+          "CP_120_CHARACTER_RESELECT",
+          "CP_120_READY",
+          "CP_120_LOBBY_GO_TO_BATTLE",
+          "CP_120_LOBBY_CHANGED_MATCH_RULE",
+          "CP_120_RESULT_RANK_S",
+          "CP_120_RESULT_RANK_A",
+          "CP_120_RESULT_RANK_B_OR_LOWER",
+          "CP_120_RESULT_WINNING_STREAK_5",
+          "CP_120_RESULT_WINNING_STREAK_10",
+          "CP_120_RESULT_WINNING_STREAK_15",
+          "CP_120_RESULT_WINNING_STREAK_20",
+          "CP_120_RESULT_OPEN_RESULT_ITEM",
+          "CP_120_RESULT_PROMOTE_RANK",
+          "CP_120_RESULT_DEMOTE_RANK",
+          "CP_120_REMATCH_SUCCESS_REMATCH",
+          "CP_120_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_120_REMATCH_SELECT_FIND",
+          "CP_120_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_120_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_130": {
+        "ID": "CP_130",
+        "CueSheetName": [
+          "CP_130",
+          "CN_110"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_130",
+          "CP_130_TYPEA",
+          "CP_130_TYPEB",
+          "CP_130_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_130_CHARACTER_SELECT",
+          "CP_130_CHARACTER_RESELECT",
+          "CP_130_READY",
+          "CP_130_LOBBY_GO_TO_BATTLE",
+          "CP_130_LOBBY_CHANGED_MATCH_RULE",
+          "CP_130_RESULT_RANK_S",
+          "CP_130_RESULT_RANK_A",
+          "CP_130_RESULT_RANK_B_OR_LOWER",
+          "CP_130_RESULT_WINNING_STREAK_5",
+          "CP_130_RESULT_WINNING_STREAK_10",
+          "CP_130_RESULT_WINNING_STREAK_15",
+          "CP_130_RESULT_WINNING_STREAK_20",
+          "CP_130_RESULT_OPEN_RESULT_ITEM",
+          "CP_130_RESULT_PROMOTE_RANK",
+          "CP_130_RESULT_DEMOTE_RANK",
+          "CP_130_REMATCH_SUCCESS_REMATCH",
+          "CP_130_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_130_REMATCH_SELECT_FIND",
+          "CP_130_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_130_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_130_10": {
+        "ID": "CP_130_10",
+        "CueSheetName": [
+          "CP_130",
+          "CN_110"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_130",
+          "CP_130_TYPEA",
+          "CP_130_TYPEB",
+          "CP_130_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_130_CHARACTER_SELECT",
+          "CP_130_CHARACTER_RESELECT",
+          "CP_130_READY",
+          "CP_130_LOBBY_GO_TO_BATTLE",
+          "CP_130_LOBBY_CHANGED_MATCH_RULE",
+          "CP_130_RESULT_RANK_S",
+          "CP_130_RESULT_RANK_A",
+          "CP_130_RESULT_RANK_B_OR_LOWER",
+          "CP_130_RESULT_WINNING_STREAK_5",
+          "CP_130_RESULT_WINNING_STREAK_10",
+          "CP_130_RESULT_WINNING_STREAK_15",
+          "CP_130_RESULT_WINNING_STREAK_20",
+          "CP_130_RESULT_OPEN_RESULT_ITEM",
+          "CP_130_RESULT_PROMOTE_RANK",
+          "CP_130_RESULT_DEMOTE_RANK",
+          "CP_130_REMATCH_SUCCESS_REMATCH",
+          "CP_130_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_130_REMATCH_SELECT_FIND",
+          "CP_130_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_130_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_140": {
+        "ID": "CP_140",
+        "CueSheetName": [
+          "CP_140",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_140",
+          "CP_140_TYPEA",
+          "CP_140_TYPEB",
+          "CP_140_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_140_CHARACTER_SELECT",
+          "CP_140_CHARACTER_RESELECT",
+          "CP_140_READY",
+          "CP_140_LOBBY_GO_TO_BATTLE",
+          "CP_140_LOBBY_CHANGED_MATCH_RULE",
+          "CP_140_RESULT_RANK_S",
+          "CP_140_RESULT_RANK_A",
+          "CP_140_RESULT_RANK_B_OR_LOWER",
+          "CP_140_RESULT_WINNING_STREAK_5",
+          "CP_140_RESULT_WINNING_STREAK_10",
+          "CP_140_RESULT_WINNING_STREAK_15",
+          "CP_140_RESULT_WINNING_STREAK_20",
+          "CP_140_RESULT_OPEN_RESULT_ITEM",
+          "CP_140_RESULT_PROMOTE_RANK",
+          "CP_140_RESULT_DEMOTE_RANK",
+          "CP_140_REMATCH_SUCCESS_REMATCH",
+          "CP_140_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_140_REMATCH_SELECT_FIND",
+          "CP_140_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_140_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_150": {
+        "ID": "CP_150",
+        "CueSheetName": [
+          "CP_150",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_150",
+          "CP_150_TYPEA",
+          "CP_150_TYPEB",
+          "CP_150_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_150_CHARACTER_SELECT",
+          "CP_150_CHARACTER_RESELECT",
+          "CP_150_READY",
+          "CP_150_LOBBY_GO_TO_BATTLE",
+          "CP_150_LOBBY_CHANGED_MATCH_RULE",
+          "CP_150_RESULT_RANK_S",
+          "CP_150_RESULT_RANK_A",
+          "CP_150_RESULT_RANK_B_OR_LOWER",
+          "CP_150_RESULT_WINNING_STREAK_5",
+          "CP_150_RESULT_WINNING_STREAK_10",
+          "CP_150_RESULT_WINNING_STREAK_15",
+          "CP_150_RESULT_WINNING_STREAK_20",
+          "CP_150_RESULT_OPEN_RESULT_ITEM",
+          "CP_150_RESULT_PROMOTE_RANK",
+          "CP_150_RESULT_DEMOTE_RANK",
+          "CP_150_REMATCH_SUCCESS_REMATCH",
+          "CP_150_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_150_REMATCH_SELECT_FIND",
+          "CP_150_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_150_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_160": {
+        "ID": "CP_160",
+        "CueSheetName": [
+          "CP_160",
+          "CN_080"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_160",
+          "CP_160_TYPEA",
+          "CP_160_TYPEB",
+          "CP_160_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_160_CHARACTER_SELECT",
+          "CP_160_CHARACTER_RESELECT",
+          "CP_160_READY",
+          "CP_160_LOBBY_GO_TO_BATTLE",
+          "CP_160_LOBBY_CHANGED_MATCH_RULE",
+          "CP_160_RESULT_RANK_S",
+          "CP_160_RESULT_RANK_A",
+          "CP_160_RESULT_RANK_B_OR_LOWER",
+          "CP_160_RESULT_WINNING_STREAK_5",
+          "CP_160_RESULT_WINNING_STREAK_10",
+          "CP_160_RESULT_WINNING_STREAK_15",
+          "CP_160_RESULT_WINNING_STREAK_20",
+          "CP_160_RESULT_OPEN_RESULT_ITEM",
+          "CP_160_RESULT_PROMOTE_RANK",
+          "CP_160_RESULT_DEMOTE_RANK",
+          "CP_160_REMATCH_SUCCESS_REMATCH",
+          "CP_160_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_160_REMATCH_SELECT_FIND",
+          "CP_160_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_160_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CN_020": {
+        "ID": "CN_020",
+        "CueSheetName": [
+          "None",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Totality",
+        "Id_CharacterVoiceGroupSet": [
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_041": {
+        "ID": "CN_041",
+        "CueSheetName": [
+          "CN_040",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::None",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_040",
+          "CN_040",
+          "CN_040",
+          "CN_040_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_060": {
+        "ID": "CN_060",
+        "CueSheetName": [
+          "CN_060",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_060",
+          "CN_060",
+          "CN_060",
+          "CN_060_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_071": {
+        "ID": "CN_071",
+        "CueSheetName": [
+          "CN_070",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::None",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_070",
+          "CN_070",
+          "CN_070",
+          "CN_070_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_081": {
+        "ID": "CN_081",
+        "CueSheetName": [
+          "CN_080",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_080",
+          "CN_080",
+          "CN_080",
+          "CN_080_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_090": {
+        "ID": "CN_090",
+        "CueSheetName": [
+          "CN_090",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_090",
+          "CN_090",
+          "CN_090",
+          "CN_090_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_111": {
+        "ID": "CN_111",
+        "CueSheetName": [
+          "CN_110",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_110",
+          "CN_110",
+          "CN_110",
+          "CN_110_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_120": {
+        "ID": "CN_120",
+        "CueSheetName": [
+          "CN_120",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_120",
+          "CN_120",
+          "CN_120",
+          "CN_120_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_130": {
+        "ID": "CN_130",
+        "CueSheetName": [
+          "CN_130",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_130",
+          "CN_130",
+          "CN_130",
+          "CN_130_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_140": {
+        "ID": "CN_140",
+        "CueSheetName": [
+          "CN_140",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Totality",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_140",
+          "CN_140",
+          "CN_140",
+          "CN_140_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_150": {
+        "ID": "CN_150",
+        "CueSheetName": [
+          "CN_150",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Totality",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_150",
+          "CN_150",
+          "CN_150",
+          "CN_150_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_160": {
+        "ID": "CN_160",
+        "CueSheetName": [
+          "CN_160",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_160",
+          "CN_160",
+          "CN_160",
+          "CN_160_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_170": {
+        "ID": "CN_170",
+        "CueSheetName": [
+          "CN_170",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_051": {
+        "ID": "CP_051",
+        "CueSheetName": [
+          "CP_051",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_051",
+          "CP_051_TYPEA",
+          "CP_051_TYPEB",
+          "CP_051_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_051_CHARACTER_SELECT",
+          "CP_051_CHARACTER_RESELECT",
+          "CP_051_READY",
+          "CP_051_LOBBY_GO_TO_BATTLE",
+          "CP_051_LOBBY_CHANGED_MATCH_RULE",
+          "CP_051_RESULT_RANK_S",
+          "CP_051_RESULT_RANK_A",
+          "CP_051_RESULT_RANK_B_OR_LOWER",
+          "CP_051_RESULT_WINNING_STREAK_5",
+          "CP_051_RESULT_WINNING_STREAK_10",
+          "CP_051_RESULT_WINNING_STREAK_15",
+          "CP_051_RESULT_WINNING_STREAK_20",
+          "CP_051_RESULT_OPEN_RESULT_ITEM",
+          "CP_051_RESULT_PROMOTE_RANK",
+          "CP_051_RESULT_DEMOTE_RANK",
+          "CP_051_REMATCH_SUCCESS_REMATCH",
+          "CP_051_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_051_REMATCH_SELECT_FIND",
+          "CP_051_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_051_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_051_10": {
+        "ID": "CP_051_10",
+        "CueSheetName": [
+          "CP_051",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_051",
+          "CP_051_TYPEA",
+          "CP_051_TYPEB",
+          "CP_051_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_051_CHARACTER_SELECT",
+          "CP_051_CHARACTER_RESELECT",
+          "CP_051_READY",
+          "CP_051_LOBBY_GO_TO_BATTLE",
+          "CP_051_LOBBY_CHANGED_MATCH_RULE",
+          "CP_051_RESULT_RANK_S",
+          "CP_051_RESULT_RANK_A",
+          "CP_051_RESULT_RANK_B_OR_LOWER",
+          "CP_051_RESULT_WINNING_STREAK_5",
+          "CP_051_RESULT_WINNING_STREAK_10",
+          "CP_051_RESULT_WINNING_STREAK_15",
+          "CP_051_RESULT_WINNING_STREAK_20",
+          "CP_051_RESULT_OPEN_RESULT_ITEM",
+          "CP_051_RESULT_PROMOTE_RANK",
+          "CP_051_RESULT_DEMOTE_RANK",
+          "CP_051_REMATCH_SUCCESS_REMATCH",
+          "CP_051_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_051_REMATCH_SELECT_FIND",
+          "CP_051_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_051_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_121": {
+        "ID": "CP_121",
+        "CueSheetName": [
+          "CP_121",
+          "CN_200"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_121",
+          "CP_121_TYPEA",
+          "CP_121_TYPEB",
+          "CP_121_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_121_CHARACTER_SELECT",
+          "CP_121_CHARACTER_RESELECT",
+          "CP_121_READY",
+          "CP_121_LOBBY_GO_TO_BATTLE",
+          "CP_121_LOBBY_CHANGED_MATCH_RULE",
+          "CP_121_RESULT_RANK_S",
+          "CP_121_RESULT_RANK_A",
+          "CP_121_RESULT_RANK_B_OR_LOWER",
+          "CP_121_RESULT_WINNING_STREAK_5",
+          "CP_121_RESULT_WINNING_STREAK_10",
+          "CP_121_RESULT_WINNING_STREAK_15",
+          "CP_121_RESULT_WINNING_STREAK_20",
+          "CP_121_RESULT_OPEN_RESULT_ITEM",
+          "CP_121_RESULT_PROMOTE_RANK",
+          "CP_121_RESULT_DEMOTE_RANK",
+          "CP_121_REMATCH_SUCCESS_REMATCH",
+          "CP_121_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_121_REMATCH_SELECT_FIND",
+          "CP_121_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_121_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_121_10": {
+        "ID": "CP_121_10",
+        "CueSheetName": [
+          "CP_121",
+          "CN_200"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_121",
+          "CP_121_TYPEA",
+          "CP_121_TYPEB",
+          "CP_121_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_121_CHARACTER_SELECT",
+          "CP_121_CHARACTER_RESELECT",
+          "CP_121_READY",
+          "CP_121_LOBBY_GO_TO_BATTLE",
+          "CP_121_LOBBY_CHANGED_MATCH_RULE",
+          "CP_121_RESULT_RANK_S",
+          "CP_121_RESULT_RANK_A",
+          "CP_121_RESULT_RANK_B_OR_LOWER",
+          "CP_121_RESULT_WINNING_STREAK_5",
+          "CP_121_RESULT_WINNING_STREAK_10",
+          "CP_121_RESULT_WINNING_STREAK_15",
+          "CP_121_RESULT_WINNING_STREAK_20",
+          "CP_121_RESULT_OPEN_RESULT_ITEM",
+          "CP_121_RESULT_PROMOTE_RANK",
+          "CP_121_RESULT_DEMOTE_RANK",
+          "CP_121_REMATCH_SUCCESS_REMATCH",
+          "CP_121_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_121_REMATCH_SELECT_FIND",
+          "CP_121_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_121_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_170": {
+        "ID": "CP_170",
+        "CueSheetName": [
+          "CP_170",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_170",
+          "CP_170_TYPEA",
+          "CP_170_TYPEB",
+          "CP_170_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_170_CHARACTER_SELECT",
+          "CP_170_CHARACTER_RESELECT",
+          "CP_170_READY",
+          "CP_170_LOBBY_GO_TO_BATTLE",
+          "CP_170_LOBBY_CHANGED_MATCH_RULE",
+          "CP_170_RESULT_RANK_S",
+          "CP_170_RESULT_RANK_A",
+          "CP_170_RESULT_RANK_B_OR_LOWER",
+          "CP_170_RESULT_WINNING_STREAK_5",
+          "CP_170_RESULT_WINNING_STREAK_10",
+          "CP_170_RESULT_WINNING_STREAK_15",
+          "CP_170_RESULT_WINNING_STREAK_20",
+          "CP_170_RESULT_OPEN_RESULT_ITEM",
+          "CP_170_RESULT_PROMOTE_RANK",
+          "CP_170_RESULT_DEMOTE_RANK",
+          "CP_170_REMATCH_SUCCESS_REMATCH",
+          "CP_170_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_170_REMATCH_SELECT_FIND",
+          "CP_170_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_170_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_180": {
+        "ID": "CP_180",
+        "CueSheetName": [
+          "CP_180",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_180",
+          "CP_180_TYPEA",
+          "CP_180_TYPEB",
+          "CP_180_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_180_CHARACTER_SELECT",
+          "CP_180_CHARACTER_RESELECT",
+          "CP_180_READY",
+          "CP_180_LOBBY_GO_TO_BATTLE",
+          "CP_180_LOBBY_CHANGED_MATCH_RULE",
+          "CP_180_RESULT_RANK_S",
+          "CP_180_RESULT_RANK_A",
+          "CP_180_RESULT_RANK_B_OR_LOWER",
+          "CP_180_RESULT_WINNING_STREAK_5",
+          "CP_180_RESULT_WINNING_STREAK_10",
+          "CP_180_RESULT_WINNING_STREAK_15",
+          "CP_180_RESULT_WINNING_STREAK_20",
+          "CP_180_RESULT_OPEN_RESULT_ITEM",
+          "CP_180_RESULT_PROMOTE_RANK",
+          "CP_180_RESULT_DEMOTE_RANK",
+          "CP_180_REMATCH_SUCCESS_REMATCH",
+          "CP_180_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_180_REMATCH_SELECT_FIND",
+          "CP_180_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_180_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_200": {
+        "ID": "CP_200",
+        "CueSheetName": [
+          "CP_200",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_200",
+          "CP_200_TYPEA",
+          "CP_200_TYPEB",
+          "CP_200_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_200_CHARACTER_SELECT",
+          "CP_200_CHARACTER_RESELECT",
+          "CP_200_READY",
+          "CP_200_LOBBY_GO_TO_BATTLE",
+          "CP_200_LOBBY_CHANGED_MATCH_RULE",
+          "CP_200_RESULT_RANK_S",
+          "CP_200_RESULT_RANK_A",
+          "CP_200_RESULT_RANK_B_OR_LOWER",
+          "CP_200_RESULT_WINNING_STREAK_5",
+          "CP_200_RESULT_WINNING_STREAK_10",
+          "CP_200_RESULT_WINNING_STREAK_15",
+          "CP_200_RESULT_WINNING_STREAK_20",
+          "CP_200_RESULT_OPEN_RESULT_ITEM",
+          "CP_200_RESULT_PROMOTE_RANK",
+          "CP_200_RESULT_DEMOTE_RANK",
+          "CP_200_REMATCH_SUCCESS_REMATCH",
+          "CP_200_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_200_REMATCH_SELECT_FIND",
+          "CP_200_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_200_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_190": {
+        "ID": "CP_190",
+        "CueSheetName": [
+          "CP_190",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_190",
+          "CP_190_TYPEA",
+          "CP_190_TYPEB",
+          "CP_190_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_190_CHARACTER_SELECT",
+          "CP_190_CHARACTER_RESELECT",
+          "CP_190_READY",
+          "CP_190_LOBBY_GO_TO_BATTLE",
+          "CP_190_LOBBY_CHANGED_MATCH_RULE",
+          "CP_190_RESULT_RANK_S",
+          "CP_190_RESULT_RANK_A",
+          "CP_190_RESULT_RANK_B_OR_LOWER",
+          "CP_190_RESULT_WINNING_STREAK_5",
+          "CP_190_RESULT_WINNING_STREAK_10",
+          "CP_190_RESULT_WINNING_STREAK_15",
+          "CP_190_RESULT_WINNING_STREAK_20",
+          "CP_190_RESULT_OPEN_RESULT_ITEM",
+          "CP_190_RESULT_PROMOTE_RANK",
+          "CP_190_RESULT_DEMOTE_RANK",
+          "CP_190_REMATCH_SUCCESS_REMATCH",
+          "CP_190_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_190_REMATCH_SELECT_FIND",
+          "CP_190_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_190_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_210": {
+        "ID": "CP_210",
+        "CueSheetName": [
+          "CP_210",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_210",
+          "CP_210_TYPEA",
+          "CP_210_TYPEB",
+          "CP_210_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_210_CHARACTER_SELECT",
+          "CP_210_CHARACTER_RESELECT",
+          "CP_210_READY",
+          "CP_210_LOBBY_GO_TO_BATTLE",
+          "CP_210_LOBBY_CHANGED_MATCH_RULE",
+          "CP_210_RESULT_RANK_S",
+          "CP_210_RESULT_RANK_A",
+          "CP_210_RESULT_RANK_B_OR_LOWER",
+          "CP_210_RESULT_WINNING_STREAK_5",
+          "CP_210_RESULT_WINNING_STREAK_10",
+          "CP_210_RESULT_WINNING_STREAK_15",
+          "CP_210_RESULT_WINNING_STREAK_20",
+          "CP_210_RESULT_OPEN_RESULT_ITEM",
+          "CP_210_RESULT_PROMOTE_RANK",
+          "CP_210_RESULT_DEMOTE_RANK",
+          "CP_210_REMATCH_SUCCESS_REMATCH",
+          "CP_210_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_210_REMATCH_SELECT_FIND",
+          "CP_210_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_210_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_220": {
+        "ID": "CP_220",
+        "CueSheetName": [
+          "CP_220",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_220",
+          "CP_220_TYPEA",
+          "CP_220_TYPEB",
+          "CP_220_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_220_CHARACTER_SELECT",
+          "CP_220_CHARACTER_RESELECT",
+          "CP_220_READY",
+          "CP_220_LOBBY_GO_TO_BATTLE",
+          "CP_220_LOBBY_CHANGED_MATCH_RULE",
+          "CP_220_RESULT_RANK_S",
+          "CP_220_RESULT_RANK_A",
+          "CP_220_RESULT_RANK_B_OR_LOWER",
+          "CP_220_RESULT_WINNING_STREAK_5",
+          "CP_220_RESULT_WINNING_STREAK_10",
+          "CP_220_RESULT_WINNING_STREAK_15",
+          "CP_220_RESULT_WINNING_STREAK_20",
+          "CP_220_RESULT_OPEN_RESULT_ITEM",
+          "CP_220_RESULT_PROMOTE_RANK",
+          "CP_220_RESULT_DEMOTE_RANK",
+          "CP_220_REMATCH_SUCCESS_REMATCH",
+          "CP_220_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_220_REMATCH_SELECT_FIND",
+          "CP_220_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_220_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_230": {
+        "ID": "CP_230",
+        "CueSheetName": [
+          "CP_230",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_230",
+          "CP_230_TYPEA",
+          "CP_230_TYPEB",
+          "CP_230_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_230_CHARACTER_SELECT",
+          "CP_230_CHARACTER_RESELECT",
+          "CP_230_READY",
+          "CP_230_LOBBY_GO_TO_BATTLE",
+          "CP_230_LOBBY_CHANGED_MATCH_RULE",
+          "CP_230_RESULT_RANK_S",
+          "CP_230_RESULT_RANK_A",
+          "CP_230_RESULT_RANK_B_OR_LOWER",
+          "CP_230_RESULT_WINNING_STREAK_5",
+          "CP_230_RESULT_WINNING_STREAK_10",
+          "CP_230_RESULT_WINNING_STREAK_15",
+          "CP_230_RESULT_WINNING_STREAK_20",
+          "CP_230_RESULT_OPEN_RESULT_ITEM",
+          "CP_230_RESULT_PROMOTE_RANK",
+          "CP_230_RESULT_DEMOTE_RANK",
+          "CP_230_REMATCH_SUCCESS_REMATCH",
+          "CP_230_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_230_REMATCH_SELECT_FIND",
+          "CP_230_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_230_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_240": {
+        "ID": "CP_240",
+        "CueSheetName": [
+          "CP_240",
+          "CN_210"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_240",
+          "CP_240_TYPEA",
+          "CP_240_TYPEB",
+          "CP_240_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_240_CHARACTER_SELECT",
+          "CP_240_CHARACTER_RESELECT",
+          "CP_240_READY",
+          "CP_240_LOBBY_GO_TO_BATTLE",
+          "CP_240_LOBBY_CHANGED_MATCH_RULE",
+          "CP_240_RESULT_RANK_S",
+          "CP_240_RESULT_RANK_A",
+          "CP_240_RESULT_RANK_B_OR_LOWER",
+          "CP_240_RESULT_WINNING_STREAK_5",
+          "CP_240_RESULT_WINNING_STREAK_10",
+          "CP_240_RESULT_WINNING_STREAK_15",
+          "CP_240_RESULT_WINNING_STREAK_20",
+          "CP_240_RESULT_OPEN_RESULT_ITEM",
+          "CP_240_RESULT_PROMOTE_RANK",
+          "CP_240_RESULT_DEMOTE_RANK",
+          "CP_240_REMATCH_SUCCESS_REMATCH",
+          "CP_240_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_240_REMATCH_SELECT_FIND",
+          "CP_240_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_240_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_270": {
+        "ID": "CP_270",
+        "CueSheetName": [
+          "CP_270",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_270",
+          "CP_270_TYPEA",
+          "CP_270_TYPEB",
+          "CP_270_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_270_CHARACTER_SELECT",
+          "CP_270_CHARACTER_RESELECT",
+          "CP_270_READY",
+          "CP_270_LOBBY_GO_TO_BATTLE",
+          "CP_270_LOBBY_CHANGED_MATCH_RULE",
+          "CP_270_RESULT_RANK_S",
+          "CP_270_RESULT_RANK_A",
+          "CP_270_RESULT_RANK_B_OR_LOWER",
+          "CP_270_RESULT_WINNING_STREAK_5",
+          "CP_270_RESULT_WINNING_STREAK_10",
+          "CP_270_RESULT_WINNING_STREAK_15",
+          "CP_270_RESULT_WINNING_STREAK_20",
+          "CP_270_RESULT_OPEN_RESULT_ITEM",
+          "CP_270_RESULT_PROMOTE_RANK",
+          "CP_270_RESULT_DEMOTE_RANK",
+          "CP_270_REMATCH_SUCCESS_REMATCH",
+          "CP_270_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_270_REMATCH_SELECT_FIND",
+          "CP_270_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_270_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CP_270_10": {
+        "ID": "CP_270_10",
+        "CueSheetName": [
+          "CP_270",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::BareFoot",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_270",
+          "CP_270_TYPEA",
+          "CP_270_TYPEB",
+          "CP_270_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "CP_270_CHARACTER_SELECT",
+          "CP_270_CHARACTER_RESELECT",
+          "CP_270_READY",
+          "CP_270_LOBBY_GO_TO_BATTLE",
+          "CP_270_LOBBY_CHANGED_MATCH_RULE",
+          "CP_270_RESULT_RANK_S",
+          "CP_270_RESULT_RANK_A",
+          "CP_270_RESULT_RANK_B_OR_LOWER",
+          "CP_270_RESULT_WINNING_STREAK_5",
+          "CP_270_RESULT_WINNING_STREAK_10",
+          "CP_270_RESULT_WINNING_STREAK_15",
+          "CP_270_RESULT_WINNING_STREAK_20",
+          "CP_270_RESULT_OPEN_RESULT_ITEM",
+          "CP_270_RESULT_PROMOTE_RANK",
+          "CP_270_RESULT_DEMOTE_RANK",
+          "CP_270_REMATCH_SUCCESS_REMATCH",
+          "CP_270_REMATCH_IN_WAITING_OTHER_PLAYER",
+          "CP_270_REMATCH_SELECT_FIND",
+          "CP_270_REMATCH_DECLINED_REMATCH_BY_OTHER",
+          "CP_270_REMATCH_DECLINED_REMATCH_BY_MYSELF"
+        ]
+      },
+      "CN_210": {
+        "ID": "CN_210",
+        "CueSheetName": [
+          "None",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesWoman",
+        "Id_CharacterVoiceGroupSet": [
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_230": {
+        "ID": "CN_230",
+        "CueSheetName": [
+          "CN_230",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::ShoesMan",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_230",
+          "CN_230",
+          "CN_230",
+          "CN_230_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_250": {
+        "ID": "CP_250",
+        "CueSheetName": [
+          "CP_250",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Totality",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_250",
+          "CP_250",
+          "CP_250",
+          "CP_250_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CP_260": {
+        "ID": "CP_260",
+        "CueSheetName": [
+          "CP_260",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Gorilla",
+        "Id_CharacterVoiceGroupSet": [
+          "CP_260",
+          "CP_260",
+          "CP_260",
+          "CP_260_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_122": {
+        "ID": "CN_122",
+        "CueSheetName": [
+          "CN_122",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_122",
+          "CN_122",
+          "CN_122",
+          "CN_122_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_250": {
+        "ID": "CN_250",
+        "CueSheetName": [
+          "CN_250",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Zori",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_250",
+          "CN_250",
+          "CN_250",
+          "CN_250_PINCH"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "CN_240": {
+        "ID": "CN_240",
+        "CueSheetName": [
+          "CN_240",
+          "None"
+        ],
+        "FootstepType": "EGameFootstepType::Gorilla",
+        "Id_CharacterVoiceGroupSet": [
+          "CN_240",
+          "CN_240",
+          "CN_240",
+          "CN_240"
+        ],
+        "Id_VoiceGroup": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      }
+    }
+  }
+]

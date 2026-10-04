@@ -1,0 +1,11 @@
+{
+  "_comment": "User-editable notes. Field keys are <TableBase>.<Field> (or <TableFamily>.<Field> to cover DamageDataTable1..5 at once, e.g. DamageDataTable.Damage). Enum keys are member docs shown in dropdowns. Also editable from the app's Inspector (click the book icon on any field).",
+  "fields": {
+    "DamageDataTable.Damage": "Base damage of the hit before defensive modifiers."
+  },
+  "enums": {
+    "EGameAttackType": {
+      "NormalAttack": "Light/standard attack chain hit."
+    }
+  }
+}

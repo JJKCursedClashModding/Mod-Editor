@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Es",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "Un luchador cuerpo a cuerpo que muestra una aptitud física extraordinaria.\nDerrota a los enemigos cara a cara, eligiendo los ataques que mejor se adapten a la situación.\n\n• Su potencial, «Todo a punto», facilita el esprint mientras que aumenta el nivel de energía maldita, lo que te permite acercarte rápidamente al enemigo para el combate cuerpo a cuerpo. \n• ¡Pilla a los oponentes desprevenidos con la técnica de energía maldita «Puño divergente», y encadénala a una ráfaga de golpes para infligir un daño inmenso!"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Arremetida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una ráfaga de golpes. \nEjecuta otras acciones mientras atacas para enlazar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Patada giratoria"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "Un ataque a corta distancia con el que desatas una onda sísmica horizontal hacia delante."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Patada descendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "Un ataque a corta distancia con el que desatas una onda sísmica vertical hacia delante."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Patada voladora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "Un ataque a corta distancia en el que ejecutas una patada voladora en movimiento.\nGanas el estado de fortaleza durante el ataque."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Lanzamiento de piedra"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "Un ataque a larga distancia en el que lanzas una piedra y la haces añicos de una patada.\nRalentiza a los enemigos que golpea."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Puño divergente/Destello oscuro"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Nivel de energía maldita 1: Un ataque a corta distancia que genera dos impactos en un solo golpe.\nNivel de energía maldita 2: Aumenta el daño infligido.\nNivel de energía maldita 3: Cambia a «Destello oscuro» en el nivel de energía maldita 3.\nUn ataque a corta distancia que asesta un potentísimo golpe e inflige un daño inmenso.\nNo se puede bloquear."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Ráfaga de golpes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "Un ataque a corta distancia que enlaza una patada giratoria tras otra.\nEl número de golpes depende de tu nivel de energía maldita.\nNivel de energía maldita 2: Cinco golpes adicionales.\nNivel de energía maldita 3: Un potente derechazo adicional."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Puño divergente"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un golpe dirigido al cuerpo. \nSi te concentras al máximo, lanzas cuatro «Destellos oscuros» que infligen un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "Todo a punto"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "Se va activando según aumenta el nivel de energía maldita.\nReduce el tiempo que hay que esperar antes y después de un esprint.\nReduce el consumo de la barra de esprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "Un luchador a corta distancia cuyos amplios movimientos embisten a aliados y enemigos por igual.\nPosee una fuerza sobrehumana que lanza por los aires incluso a sus propios compañeros, pero que le da un control completo del campo de batalla.\nSus ataques le otorgan invulnerabilidad, pero lo dejan completamente desprotegido, así que vigila tus movimientos y no dejes pasar ninguna oportunidad de atacar.\n\n• Su potencial, «Técnica de inversión», le cura cada vez que contraataca, así que no dudes en pasar a la ofensiva.\n• El potencial «Intimidación», que se activa al alcanzar el nivel de energía maldita 3, congela a los enemigos al atacar.\n¡Para en seco a tus contrincantes y remátalos con un golpe devastador!"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Masacre"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una ráfaga de golpes. \nEjecuta otras acciones mientras atacas para enlazar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Derechazo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "Un ataque a larga distancia que te traslada junto al enemigo al instante para arremeter contra él.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Patada hacha"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para estamparlo contra el suelo.\nCrea una onda sísmica en el lugar del impacto.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Pisotón"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "Un ataque a corta distancia en el que golpeas el suelo con el pie para originar un temblor.\nCuando lo ejecutas en el aire, descenderás a toda velocidad, estrellándote contra el suelo.\nGanas el estado de invulnerabilidad durante el ataque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Noqueo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Te colocas junto al enemigo al instante y proyectándolo con un brazo.\nNivel de energía maldita 3: Activa «Intimidación» antes del ataque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Martilleo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Te colocas junto al enemigo al instante y lo golpeas por la espalda.\nNivel de energía maldita 3: Activa «Intimidación» antes del ataque.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Del revés/Desmantelamiento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Nivel de energía maldita 1: Un revés a corta distancia.\nNivel de energía maldita 2: Cambia a «Raíz» al alcanzar el nivel de energía maldita 2.\nUn tajo a corta distancia que corta al enemigo.\nNivel de energía maldita 3: Aumenta el número de cortes."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Patada/ <img id=\"Symbol_0002\"/> Abierto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Nivel de energía maldita 1: Una patada cuerpo a cuerpo.\nNivel de energía maldita 2: Cambia a «<img id=\"Symbol_0002\"/>» y «Fuga»\nal alcanzar el nivel de energía maldita 2.\nUn ataque a larga distancia que dispara una flecha llameante y crea un vórtice gigantesco.\nSe puede cargar.\nNivel de energía maldita 3: Expande el área del ataque y aumenta el daño infligido."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Corte infinito"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "No se puede bloquear.\nSe activa al asestar un corte gigantesco.\nDespliega tu territorio y asesta una ráfaga de tajos al objetivo que infligen un daño inmenso.\nCuando se cierra el territorio, cualquier técnica de energía maldita pasa a ser un ataque de artes marciales temporalmente."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Técnica de inversión"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "Se activa al alcanzar el nivel 2 de energía maldita o más.\nOtorga recuperación de vida cuando infliges daño al enemigo."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Intimidación"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "Se activa al alcanzar el nivel de energía maldita 3.\nCuando llevas a cabo ciertos ataques, quienes se encuentren en el área se ven abrumados y no son capaces de actuar."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "Rey de las Maldiciones"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Te volverás invulnerable durante ciertos ataques."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "Un luchador cuerpo a cuerpo que se especializa en ataques coordinados con Shikigami.\nUsa tu Shikigami en función de la situación, pudiendo utilizarse en ataque o defensa.\n\n• Invoca a «Nue» o «Perro celestial: ¡Al completo!» con la técnica de las diez sombras para que luchen junto a ti.\n¡Puedes ordenarles que ataquen por su cuenta mientras que golpeas a los enemigos desde lejos!\n• Su potencial «Interpretación de técnica» hace que sus shikigami contraataquen al recibir un ataque. ¡Pelea con impunidad!"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Doble patada giratoria"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una vorágine de patadas. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSi hay un shikigami invocado, asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Patada ascendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Doble golpe aéreo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una ráfaga de golpes.\nGanas el estado de fortaleza durante el ataque en salto."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Patada giratoria aérea"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nCuando golpea a un enemigo, lo derriba del aire de una patada giratoria.\nSi hay un shikigami invocado, asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Sapo de lanzamiento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Invocas un sapo que derriba con su lengua todo lo que tenga delante.\nCuando golpea a un enemigo, lo lanza por los aires.\nSe puede encadenar con otras acciones.\nSi hay un shikigami invocado, asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Sapo de atracción"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Invocas un sapo que ataca con la lengua en línea recta. \nAtrae a los enemigos que alcanza.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Técnica de las diez sombras"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Invoca a un leal shikigami de entre las sombras que pelea a tu lado.\nLa energía maldita se consume de manera constante mientras la invocación está activa.\nCada vez que Fushiguro ataca, la criatura sigue tus pasos y se abalanza a atacar.\nUsa <img id=\"CursedEnergyAttack_1\"/> cuando invocas a un shikigami para ordenarle que ataque.\nPuedes moverte mientras das órdenes.\nUsa <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> mientras Fushiguro está invocado para que ataque.\nLa invocación desaparece cuando Fushiguro se queda sin suficiente energía maldita.\nNivel de energía maldita 1: Invoca a Nue con <img id=\"CursedEnergyAttack_1\"/>.\nNivel de energía maldita 2: Invoca «Perro celestial: Al completo» con <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nNivel de energía maldita 3: Ralentiza a los enemigos que golpea Nue.\nAumenta el daño que inflige «Perro celestial: Al completo»."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Combo shikigami"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Ejecutas un ataque de equipo junto a tus shikigami.\nNivel de energía maldita 2: Aumenta el daño infligido.\nSi se activa sin invocar un shikigami, podrás usar «Perro celestial: ¡Al completo!».\nCuando ataques, la criatura seguirá tu ejemplo.\nNivel de energía maldita 3: Aumenta aún más el daño infligido.\nAl activarse, el perro celestial da vueltas alrededor del enemigo."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Combo shikigami"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "No se puede bloquear.\nSe activa al asestar una patada giratoria hacia atrás.\nCreas un estanque sombrío que sella el movimiento del enemigo. Tras eso, atacas junto a tus shikigami para infligir un daño inmenso.\nCuando se cierra el territorio, pasará un tiempo hasta que puedes volver a usar una técnica de energía maldita."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Interpretación de técnica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "Se activa al alcanzar el nivel de energía maldita 3.\nFushiguro puede dar órdenes a sus shikigami aunque le estén atacando."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "Una luchadora a media distancia que emplea técnicas únicas como Resonancia u Horquilla floral.\nSi quieres llevar la iniciativa en el combate, marca a tu contrincante y pon a prueba su aguante.\n\n• Podrás activar Hechizo del espíritu de paja: Horquilla floral en cuanto lances un clavo, por lo que deberás buscar el momento ideal y evitar que el enemigo se proteja con un bloqueo.\n• Si el enemigo acorta distancias, que no cunda el pánico: acaba con él usando Hechizo del espíritu de paja: Resonancia o una técnica de extracción.\n\n• Una vez marques al objetivo, podrás golpearle desde cualquier distancia, ¡así que aprovecha para sembrar el caos!"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Clavazón"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "Un ataque a larga distancia que lanza varios clavos al enemigo. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Lanzamiento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Lluvia de clavos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "Un ataque a larga distancia que lanza varios clavos al enemigo."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Abanico de clavos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "Un ataque a media distancia que lanza un puñado de clavos."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "Martillazo dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos golpes con el martillo."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Gran impacto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "Un ataque a corta distancia en el que haces un barrido con el martillo mientras avanzas."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\nLanza un clavo imbuido de energía maldita que provoca el efecto de Horquilla floral cuando golpea a los enemigos.\nSe puede cargar.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nActiva Horquilla floral para infligir daño desde lejos al instante.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Hechizo del espíritu de paja: «Resonancia»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nArrebata una parte del enemigo tras un ataque y provoca el efecto «Resonancia».\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nActiva «Resonancia» para infligir daño desde lejos.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Ráfaga de clavos"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un golpe con un clavo imbuido de energía maldita. \nInoculas energía maldita a través del clavo desde lejos y lo detonas para infligir un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Vaticinio"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Aumenta la cantidad de energía maldita que obtienes al atacar a un enemigo con «Horquilla floral» o «Resonancia»."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "Un hechicero de categoría especial de lo más versátil que domina el campo de batalla con su técnica inusual y su abrumadora destreza física.\n\n• Su potencial, «Técnica del límite infinito», anula cualquier tipo de ataque.\n¡Desata el infinito y libera todo tu poder!\n• Ritual Maldito Amplificador: Azul sella el movimiento de los enemigos que huyen y Ritual Maldito Inverso: Resplandor Rojo evita que logren golpearte.\nVacío Púrpura es una poderosa técnica que lo consume todo.\n• Una vez se activa Expansión territorial: Vacío inconmensurable, cualquier técnica de energía maldita adoptará una forma especial, ¡así que aprovecha para asegurar la victoria!"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Arremetida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una ráfaga de golpes.\nEjecuta otras acciones mientras atacas para encadenarlo con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Rodillazo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Te colocas junto al enemigo al instante y lo lanzas.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Patada giratoria"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una ráfaga de golpes.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Derribo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Te colocas junto al enemigo al instante y lo apartas de una patada.\nEjecuta otras acciones mientras atacas para enlazarlo con un derribo.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Patada ascendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo por los aires de una patada.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Frenesí de patadas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Te colocas junto al enemigo al instante y asestas una lluvia de patadas. \nEjecuta otras acciones mientras atacas para enlazarlo con un derribo."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Ritual Maldito Amplificador: Azul"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Potencia la técnica del límite infinito y origina una fuerza negativa que atrae a los enemigos.\nSe puede cargar.\nUsa <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para ajustar la posición.\nNivel de energía maldita 2: Intensifica el poder de atracción y aumenta el daño.\nNivel de energía maldita 3: Intensifica aún más el poder de atracción y el daño."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Ritual Maldito Inverso: Resplandor Rojo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Viertes energía positiva en la técnica del límite infinito, creando así el poder de repeler.\nSe puede cargar.\nNivel de energía maldita 2: Reduce el tiempo de carga e inflige más daño.\nNivel de energía maldita 3: Reduce aún más el tiempo de carga e inflige aún más daño."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Vacío Púrpura"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Nivel de energía maldita 3:\nEl infinito y su divergencia colisionan y se crea un fragmento gigante de materia imaginaria. \nAvanza en línea recta y devora todo el que encuentra a su paso."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Combo aéreo"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Sin moverte del sitio, creas un territorio que atrapa a cualquiera en el infinito. \nLa inagotable fuente de información resulta abrumadora, y tus contrincantes se quedan inmóviles durante un tiempo. \nCuando se cierra el territorio, cualquier técnica de energía maldita pasa a ser un ataque de artes marciales temporalmente."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Seis ojos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Siempre está activa.\nVigila la barra de energía maldita del contrincante."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Técnica del límite infinito"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Se activa bloqueando ataques durante un tiempo cuando la barra de energía maldita está al 2 o más. Consume energía maldita. \nEl infinito te envuelve, lo que provoca que ciertos ataques no lleguen a alcanzarte."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Levitación"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Mantén pulsado el salto para levitar."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "Una luchadora ágil que domina un amplio abanico de combinaciones de ataques.\nDado que no posee energía maldita, usa su fuerza física para asestar golpes aterradores.\n\n• Su potencial, «Barra de golpes», le otorga más velocidad de movimiento y le permite seguir asestando un golpe tras otro.\n¡Ve a la ofensiva y no muestres piedad!\n• Esquiva los ataques del enemigo con el bloqueo y contraataque.\nAdemás, puedes cancelar tus ataques y encadenarlos con otros movimientos.\n¡Crea combinaciones únicas y vence a tus contrincantes!"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Andanada afilada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte con una espada. \nEjecuta otras acciones mientras atacas para encadenarlo con una técnica de arma de hechicería."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Patada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una patada.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Combo de espada: barrido"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un combo de tres golpes en una lluvia de cortes y patadas."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Combo de espada: tajo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte descendente con la espada. \nEjecuta otras acciones mientras atacas para enlazarlo con una patada."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Arma oculta arrojadiza"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "Un ataque a larga distancia que lanza varias armas ocultas."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Impulso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para apartarlo de un espadazo. \nEjecuta otras acciones mientras atacas para enlazarlo con una puñalada hacia el suelo."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Bloqueo y contraataque"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Líbrate de los ataques del enemigo esquivando.\nÚsalo en medio de un ataque para cancelar la acción.\nSe activa automáticamente si no te estás moviendo o si esprintas.\n<img id=\"CursedEnergyAttack_1\"/>\nEsquivas en el sitio.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/> o <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nDas un paso en la dirección indicada para esquivar.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>\nDas una voltereta hacia delante.\nNivel de fuerza física 2: Reduce el tiempo de reacción.\nNivel de fuerza física 3: Reduce aún más el tiempo de reacción."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Giro afilado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Haces girar tu espada en una danza afilada.\nNivel de fuerza física 2: Aumenta el número de ataques.\nNivel de fuerza física 3: Aumenta aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Golpe aéreo triple"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar una puñalada con una espada larga. \nOrigina un sinfín de golpes con el arma de hechicería de categoría especial «Nube juguetona» que infligen un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Atadura celestial: Don físico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "No alberga energía maldita, pero sí una habilidad física excepcional."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Posee una barra especial que se llena cada vez que asesta un golpe a un enemigo.\nCuando sube la barra de golpes, aumenta su velocidad de ataque, de movimiento y la distancia que recorre con cada paso.\nLa barra se va vaciando pasado un tiempo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "Un luchador especial que combina las artes marciales con el uso de palabras malditas para jugar con sus contrincantes.\nUsa palabras malditas para avasallar al enemigo sin parar.\n\n• Estos ataques son un arma de doble filo: albergan un grandísimo poder, pero, si los usas muy a menudo, acabarás recibiendo tú su daño.\n• Cuando tu garganta esté en las últimas, tómate un jarabe para la tos y activa su poder de recuperación.\n• «No te muevas» y «Retuércete» son ejemplos de técnicas muy poderosas que actúan como contraataque.\n• La cantidad de barra de garganta que consumes al pronunciar una palabra maldita varía según la diferencia de nivel entre el enemigo y tú. Vigila a tu rival y, cuando llegue el momento, desata un contraataque devastador.\n¡Échale un ojo a la diferencia de energía maldita antes de pasar a la acción!"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Lluvia de patadas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un sinfín de golpes. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Patada tornado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una patada giratoria.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Salto hacha mortal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "Un ataque a larga distancia en el que ejecutas una serie de patadas hacha mientras caes."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Jarabe para la tos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Das un trago de jarabe para la tos que acelera la recuperación de la garganta.\nPuedes moverte durante la acción, pero no esprintar."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Frenesí/«Estalla»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una ráfaga de golpes tras una patada voladora.\nSe puede encadenar con «Estalla».\n«Estalla»\nUn ataque a media distancia que usa palabras imbuidas de energía maldita para mandar por los aires al enemigo."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "«Detente»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "Un ataque a media distancia que emplea palabras imbuidas de energía maldita para parar en seco a los enemigos."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "«Húndete»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "Un ataque a media distancia que emplea palabras imbuidas de energía maldita para parar en seco a los enemigos.\nNivel de energía maldita 2: Aumenta el daño.\nNivel de energía maldita 3: Aumenta aún más el daño."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "«No te muevas», «Retuércete»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Adopta una posición defensiva y, cuando el enemigo se disponga a atacar, libera el poder de las palabras.\nUsa «No te muevas» para parar en seco a tu contrincante y, tras eso, inflige daño con «Retuércete».\nNivel de energía maldita 2: Inflige más daño.\nNivel de energía maldita 3: Inflige aún más daño."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "«Explota»"
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un rodillazo. \nUsa «Detente» para parar en seco al enemigo y, tras eso, inflige un daño inmenso con «Aplástate»."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Palabras malditas"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "Cuando usas palabras malditas, consumes una barra de garganta especial.\nEl consumo de dicha barra varía según la diferencia de nivel de energía maldita que hay entre tu contrincante y tú.\nSi la barra está baja, tardarás más en activar la técnica y recibirás daño por hacerlo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "Un luchador de cuerpo a cuerpo con dos formas que flota como un panda y pica como un… ¿gorila? Varios de sus movimientos otorgan un estado de fortaleza, que evita que retroceda o que se interrumpan sus ataques, ¡así que úsalos con cabeza! \n\n• En el modo gorila, adoptas el estado de fortaleza y ganas velocidad. Los ataques débiles no te hacen ni cosquillas, ¡así que ve a lo loco! \n• El daño que inflige «Severo temblor de la palma» no se puede bloquear. \n¡Destroza cualquier bloqueo!"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Doble impacto»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una lluvia de golpes afilados. \nEjecuta otras acciones mientras atacas para encadenarlo con una técnica de energía maldita. \nSe puede encadenar con habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Golpe lateral»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Triple»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "Un ataque a corta distancia en el que ejecutas un combo de tres golpes mientras avanzas."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Aplastamiento»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "Un ataque a corta distancia con ambas manos hacia abajo mientras caes.\nGolpea al contrincante contra el suelo antes de mandarlo por los aires de la onda sísmica."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "Culetazo de Panda/Gancho engorilado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "Un ataque a corta distancia en el que asestas un golpe con el pandero.\nGanas el estado «Fortaleza» durante el ataque.\nModo Panda engorilado: Un ataque a corta distancia en el que avanzas agitando ambos brazos y mandas al enemigo por los aires."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Placaje»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "Un ataque a corta distancia en el que llevas a cabo un placaje en movimiento.\nGanas el estado de fortaleza durante el ataque."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "<GLO=GLS_NAME_CP_080>: «Estampida»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Asestas un torrente de golpes rapidísimos antes de mandar al enemigo por los aires con toda tu fuerza.\nNivel de energía maldita 2: Aumenta el número de ataques.\nNivel de energía maldita 3: Aumenta aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " Modo <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Se puede usar en cualquier nivel si la energía maldita está al máximo.\nCambias de núcleo para pasar al modo gorila, lo que evita que retroceda y hace que todos tus ataques inflijan daño.\nActiva «Severo temblor de la palma» al entrar en modo gorila.\nLa técnica consume energía maldita de manera constante y, cuando se agota, vuelves al modo panda."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": " Golpazo de <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "Danza engorilada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un gancho. \nTras asestar una serie de golpes en el modo gorila, arrojas al enemigo con todas tus fuerzas para infligir un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Hermana suplente"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "Cuando estás al borde de la muerte, revives una sola vez con menos vida de la normal."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Severo temblor de la palma"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Cualquier ataque en modo «<GLO=GLS_NAME_CP_081>» puede infligir daño, aunque el enemigo lo bloquee.\nNo se puede usar para asestar un golpe definitivo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "Un hechicero de categoría 1 con un dominio devastador de las técnicas de energía maldita.\nTras repetir la acción en el momento preciso, se activará el «Hechizo de los diez trazos» al usar ciertos movimientos, y sus ataques pasarán a ser críticos.\n¡Despeja la mente, cala a tu contrincante y golpea con todas tus fuerzas!\n\n• Ya sea con la destreza del «Hechizo de los diez trazos» o la destrucción de un combo cuádruple, asegúrate de usar tus técnicas de energía maldita en función a la situación.\n• Su potencial, «Liberación de energía maldita», se activa cuando el tiempo está a punto de agotarse, y le otorga un poder sin igual.\n¡Este asalariado retirado no va a hacer más horas extra!"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "Corte dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos cortes con un machete. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Golpe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un golpe con el machete.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Golpe lateral aéreo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para blandir tu machete y asestar un corte hacia arriba. \nSi ejecutas una acción en el momento justo, el golpe será crítico."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Empujón"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "Un ataque a corta distancia en el que propinas una patada giratoria."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Devastación"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para blandir tu machete y asestar un corte hacia abajo con toda tu fuerza. \nSi ejecutas de nuevo la acción en el momento justo, el golpe será crítico."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Onda sísmica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "Un ataque a corta distancia en el que golpeas el suelo con el puño y creas una onda sísmica.\nSi lo ejecutas en el aire, descenderás a toda velocidad."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "Un ataque a corta distancia que emplea una razón de 7 sobre 3 para crear un punto débil e infligir un daño inmenso. \nSe puede cargar. \nSi ejecutas una acción adicional en el momento justo, el golpe será crítico. \nNivel de energía maldita 2: Aumenta el daño que inflige. \nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Combo cuádruple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "Un ataque a corta distancia en el que imbuyes tu machete y tu puño de energía maldita para asestar un tormenta de golpes.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Hechizo de los diez trazos: «Derrumbe»"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un golpe dirigido al cuerpo. \nCortas con precisión el punto débil creado con tu técnica para infligir un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Liberación de energía maldita"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "Se activa cuando queda poco tiempo para que acabe el combate.\nLa energía maldita aumenta automáticamente.\nAsimismo, aumenta la velocidad de recuperación de energía maldita y la velocidad de esprint, y reduce el consumo de la barra de esprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "Un hechicero diestro que posee unos puños potentes y controla el ritmo del combate con su agilidad.\nA pesar de que gran parte de sus golpes son cuerpo a cuerpo, puede acercarse al enemigo o esquivar ataques a su antojo con «Juego sucio: Boogie Woogie».\n\n• «Juego sucio: Boogie Woogie» le permite cambiarse con cualquier objetivo, así que úsala a menudo y con cabeza.\n• Su fuerza descomunal lanza a sus enemigos por los aires, aunque siempre puedes cambiar de posición y seguir asestándoles golpes.\n\nHace falta un trabajo en equipo impecable, ¡pero con esta técnica siempre inclinarás la balanza a tu favor!"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Golpe de tres puntas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Te trasladas junto al enemigo para asestarle una ráfaga de golpes. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Patada ascendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Empujón"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte y alejarlo de una patada."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Lariat"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "Un ataque a corta distancia en el que, tras acercase con una carga, ejecutas un lariat.\n\nGanas el estado de fortaleza durante el ataque."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Juego sucio: «Impacto»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "Un ataque a larga distancia en el que arrojas una piedra imbuida de energía maldita.\nCuando golpea a un enemigo, intercambias tu posición con la de la piedra y ejecutas un ataque al instante.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Juego sucio: «Teletransporte»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Arrojas una piedra en cualquier dirección y, al instante, intercambias tu posición con la suya.\nSe puede cargar.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Da una palmada e intercambia la posición de dos luchadores al instante (ya sea la tuya con la de otro o la de otros dos combatientes).\nElige a quién quieres intercambiar con el control de dirección.\nSe puede encadenar con otras acciones.\n<img id=\"CursedEnergyAttack_1\"/>: Cámbiate con el objetivo.\n<img id=\"MoveLeft\"/> o <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/>: Cambia a un aliado con un enemigo.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Cambia a un enemigo con otro enemigo.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Cámbiate con un aliado.\nNivel de energía 2: Reduce el tiempo de activación.\nNivel de energía 3: Reduce aún más el tiempo de activación."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Ráfaga de golpes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "Un ataque a corta distancia en el que canalizas todo tu poder para desatar un torrente de cuatro golpes.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Fragmentación total"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar una patada alta. \nIntercambia tu posición con la del enemigo al que golpees y desata un «Destello oscuro» cargado que lo manda por los aires e inflige un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Liberación de técnica"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "La técnica «Juego sucio: Boogie Woogie» otorga velocidad de movimiento y consumo reducido de la barra de esprint.\nEl efecto varía según el nivel de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "Un luchador a corta distancia que se deja llevar por la ira cada vez que hieren a sus aliados, cambiando así el curso del combate.\n\n• Su potencial, «Ira», manifiesta a <GLO=GLS_NAME_CN_040> cuando la barra está al máximo.\nArremete contra el enemigo con tu desbordante energía maldita y los poderosos ataques de <GLO=GLS_NAME_CN_040>.\n• Usa «Decisión» para imbuir tu espada de energía maldita e infligir daño con cada técnica combinada o técnica de extracción.\n¡Presiona a tus contrincantes y ejecuta «Afán» para infligir un daño inmenso!"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Corte de tres puntas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte con una espada. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSi eres presa de la ira, Rika asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Corte diagonal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte con la espada.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "Corte dual del ocaso"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos cortes seguidos.\nSi eres presa de la ira, <GLO=GLS_NAME_CN_040> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Corte desenfrenado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "Un ataque con el que asestas un corte giratorio que lanza al enemigo por los aires.\nSi eres presa de la ira, <GLO=GLS_NAME_CN_040> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Corte punzante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "Un ataque a corta distancia en el que te acercas de un salto y, aún en el aire, ejecutas un corte giratorio. \nSi eres presa de la ira, Rika asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Corte deslizante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "Un ataque a corta distancia en el que te acercas deslizándote y, casi al instante, ejecutas un corte hacia arriba. \nSi eres presa de la ira, Rika asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Valentía"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "Un ataque en el que te acercas al enemigo a toda velocidad y asestas varios cortes seguidos.\nSi eres presa de la ira, <GLO=GLS_NAME_CN_040> asestará un ataque tras el tuyo.\nNivel de energía maldita 2: Aumenta el número de ataques.\nNivel de energía maldita 3: Aumenta aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Decisión"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Imbuyes tu espada de energía maldita para potenciar tus ataques.\nPermite que cualquier ataque inflija daño.\nEsta técnica consume energía maldita de forma constante y se desvanece cuando se ejecuta otra acción o la energía maldita se agota."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Destello oscuro"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar un zurdazo. \nDesaparece cualquier restricción y desatas una cantidad descomunal de energía maldita a través de Rika que inflige un daño inmenso. \nTras eso, Rika no volverá a aparecer durante la pelea."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Ira"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Posee una barra especial que se va llenando cuando un aliado recibe daño o cae en combate.\nCuando la barra se llena del todo, aparece Rika y empieza a atacar junto a Yûta.\nCuando Yûta recibe un ataque, puedes usar la barra para realizar un contaataque con Rika pulsando <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/> o <img id=\"CursedEnergyAttack_2\"/>.\nSi atacan a Yûta mientras protege, se usará toda la barra y Rika realizará un contraataque.\nCuando Rika se manifiesta, el nivel de energía maldita siempre está al máximo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "Un luchador a media distancia que controla a los espíritus malditos para formar una horda y abrumar a sus contrincantes.\nUsa sus habilidades de categoría especial para encadenar una versátil técnica de extracción con una devastadora técnica de energía maldita.\n\n• «Control de espíritus malditos: cúmulo de ánimas» libera un estallido fugaz que engulle a todo aquel que encuentra a su paso.\n• «Control de espíritus malditos: pilar luminoso» es una técnica lenta, pero origina un ataque de área imposible de esquivar en el aire.\n\n¡Guarda cada técnica de energía maldita para el momento idóneo y domina a tus contrincantes!"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Vorágine de espíritus malditos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "Un ataque a media distancia que invoca un torrente de espíritus malditos que se abalanzan sobre el enemigo.\nSi repites la acción mientras atacas, encadenarás este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Control de espíritus malditos: «Atadura»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "Un ataque a media distancia que invoca un espíritu maldito y lo ata.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Control de espíritus malditos: «Atraer»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "Un ataque a media distancia que invoca dos espíritus malditos que se abalanzan sobre el enemigo.\nTras golpearlo, regresan a su posición y lo atraen.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Control de espíritus malditos: «Estampida»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "Un ataque a media distancia que invoca un espíritu maldito que persigue y golpea al enemigo."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "Golpe dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una patada en salto.\nA continuación, golpea y derriba al enemigo de un derechazo.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Control de espíritus malditos: «Lanzar»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "Un ataque a corta distancia que invoca un espíritu maldito desde tus pies a la vez que retrocedes.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Control de espíritus malditos: «Cúmulo de ánimas»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Usa dos tipos de espíritus malditos para atacar.\n<img id=\"CursedEnergyAttack_1\"/>\nUn ataque a media distancia que libera una horda de espíritus malditos.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nUn ataque a corta distancia que arroja un espíritu maldito tras otro contra el enemigo.\nNivel de energía maldita 2: Invoca más espíritus malditos y aumenta el número de golpes.\nNivel de energía maldita 3: Invoca aún más espíritus malditos y vuelve a aumentar el número de golpes."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Control de espíritus malditos: «Pilar luminoso»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Invocas un espíritu maldito de semicategoría 1 que crea una columna de luz en la ubicación del enemigo y ataca.\nNivel de energía maldita 2: Aumenta el número de ataques.\nNivel de energía maldita 3: Aumenta aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Combo de nube juguetona"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Control de espíritus malditos, culminación: «Espiral»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "No se puede bloquear. \nSe activa al asestar una patada giratoria hacia atrás. \nTras usar una técnica de control de espíritus malditos, libera una horda de espíritus malditos que infligen un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Hechicero maldito de categoría especial"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "Se activa al alcanzar el nivel de energía maldita 2 o más.\nPermite cancelar un ataque por medio de una técnica de energía maldita.\nLa velocidad de esta acción depende del nivel de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "Un luchador a media distancia que desata una ráfaga de golpes antes de acortar distancias y reducir la vida del enemigo.\nTransforma tu cuerpo a voluntad y controla el alcance de tus ataques.\n\n• Su potencial, «Mutación insustancial», inflige más daño cada vez que asesta un golpe, ¡así que no le des tregua al enemigo!\nUsar «Expansión territorial: Escondite perfecto de aislamiento» potencia aún más la técnica «Mutación insustancial».\n• Usa «Respeto» y libera un cúmulo de cuerpos mutados que atacan desde lejos.\n¡Acorrala y derriba al enemigo!"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Transmutación: brazo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para golpearle con un brazo modificado. \nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Transmutación: pinchos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "Un ataque a corta distancia en el que te haces un ovillo y te crecen agujas en todas direcciones.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Arremetida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo antes de confundirlo con movimientos difíciles de leer.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Arremetida en espiral"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo. Al instante, tu brazo se transforma en una espada que asesta un corte y, tras ello, apartas al enemigo con una mano gigante."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Transmutación: taladro"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "Un ataque penetrante a media distancia que transforma tu brazo en un taladro."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Transmutación: espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "Un ataque a corta distancia que transforma tu brazo en una espada y asesta un tajo."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "Respeto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Invocas un cúmulo de cuerpos mutados que ataca a los enemigos. \nInflige daño a los enemigos y los ralentiza. \nSi se activa sin acumulaciones, provoca vómitos y repone tus existencias. \nNivel de energía maldita 2: Aumenta la capacidad. \nNivel de energía maldita 3: Aumenta aún más la capacidad."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "«Múltiples almas», «Rechazo corporal»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Unificas varias almas en una sola para aumentar su masa e impulsarla hacia el enemigo.\nConsumes toda tu reserva de cuerpos mutados.\nSe puede cargar.\nNivel de energía maldita 2: Aumenta el alcance.\nAumenta el daño del ataque.\nNivel de energía maldita 3: Aumenta aún más el alcance.\nAumenta aún más el daño del ataque."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Mutación insustancial"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Sin moverte del sitio, creas un sello en la boca y despliegas tu territorio.\nEl mapa cambia durante un tiempo y fortalece tus ataques.\nAsí mismo, disminuye la recuperación de energía maldita y la velocidad de movimiento de los enemigos dentro del territorio.\nCuando se cierra el territorio, pasará un tiempo hasta que puedas volver a usar una técnica de energía maldita."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Esencia del alma"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "Cuando te ataca un enemigo, aumenta tu energía maldita en función del daño que hayas recibido."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Mutación insustancial"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Inflige daño adicional cuando golpeas al enemigo un número concreto de veces.\nEl conteo se reinicia cuando pasa un tiempo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "Un luchador a media y larga distancia que recorre el campo de batalla a toda velocidad y aísla a sus enemigos.\n\n• Tiende una trampa con una técnica combinada que se activa sobre la marcha, y busca la oportunidad de acabar con tu contrincante con un ataque de largo alcance, conocido como de «energía maldita abrasadora».\n• Activa la «Expansión territorial: Ataúd de la montaña de hierro» para atraer a otros jugadores a tu territorio durante un tiempo.\nEn su interior, tanto tus atributos como cualquier técnica de energía maldita se ven potenciados, ¡con lo que mostrarás un control absoluto!"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Bola de fuego"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "Un ataque a larga distancia en el que arrojas pequeñas bolas de fuego a toda velocidad. \nEjecuta otras acciones mientras atacas para encadenarlo con una técnica de energía maldita. \nPuedes usar controles de movimiento durante el ataque."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Bola de fuego concentrada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "Un ataque a larga distancia en el que proyectas varias bolas de fuego con las manos.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Aparición volcánica"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "Un ataque a larga distancia que crea un volcán que escupe llamaradas a los pies del enemigo."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Enredo volcánico"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Crea un área volcánica en una ubicación concreta.\nCuando un enemigo entra en dicha área, aparece un volcán que escupe fuego."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Vorágine de fuego"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "Un ataque a larga distancia en el que creas varias bolas de fuego que lanzas tras un lapso de tiempo."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Estallido ígneo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "Un ataque a corta distancia en el que arrojas varias llamas mientras das un salto hacia atrás.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Energía maldita abrasadora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Desatas un torrente de energía maldita en línea recta que reduce a cenizas todo lo que encuentra a su paso.\nSe puede cargar.\nEsta técnica consume energía maldita de forma constante mientras está activa.\nNivel de energía maldita 2: Aumentan el alcance y el daño del ataque.\nNivel de energía maldita 3: Aumentan aún más el alcance y el daño del ataque."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Quemadura/Explosión/Culminación: meteorito"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Un ataque que invoca varias bolas de fuego.\nNivel de energía maldita 2: Las bolas de fuego se vuelven más grandes e infligen más daño.\nNivel de energía maldita 3: Cambia a «Culminación: meteorito», que causa una gran explosión al aterrizar.\nSe puede cargar."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Insectos de ascuas"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Sin moverte del sitio, extiendes un territorio tan abrasador como el interior de un volcán en erupción. \nEl mapa cambia durante un tiempo y fortalece cualquier técnica que uses. \nInflige daño a los enemigos de forma constante y dificulta su movimiento.\nCuando se cierra el territorio, pasará un tiempo hasta que puedes volver a usar cualquier técnica de energía maldita."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "Orgullo de espíritu maldito"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "Se activa cuando tienes poca vida.\nAumenta la recuperación de energía maldita y el daño que inflige cualquier técnica de energía maldita.\nEl efecto varía según el nivel de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "Un luchador especializado en atacar a cualquier distancia que muestra una gran versatilidad en combate.\n\n• El ataque «Raíz distante» hace brotar unas raíces que se enredan en las piernas del enemigo y lo golpean de manera ascendente. ¡Apunta para lanzar constantes ataques sorpresa!\n• El ataque de «Barrera arbórea» erige un muro de raíces delante de ti que manda a los enemigos por los aires y protege de cualquier ataque a larga distancia.\n\n¡Restringe los ataques a larga distancia! ¡Asola a media distancia! ¡Contraataca cuerpo a cuerpo!\n¡Usa todos tus ataques para que el enemigo no se te acerque demasiado!"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Golpe de esfera enraizada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "Un ataque a corta distancia que proyecta una esfera de madera con ramas que se extienden para atacar. \nEjecuta otras acciones mientras atacas para encadenarlo con una técnica de energía maldita. \nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Choque de esfera enraizada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para blandir una esfera de madera.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Campo enraizado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "Un ataque a corta distancia con el que brotan raíces de árbol a tu alrededor.\nSi lo ejecutas en el aire, descenderás a toda velocidad.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Meditación"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Meditas y canalizas tu energía maldita.\nSi el nivel de energía maldita está al máximo, recuperarás toda la energía que hayas gastado.\nSe puede cargar.\nSi lo ejecutas en el aire, descenderás hacia el suelo."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Extensión de brotes malditos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "Un ataque a larga distancia que arroja brotes malditos.\nRalentiza la recuperación de energía maldita de los enemigos a los que golpea.\nSe puede encadenar con otras acciones."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Lluvia de brotes malditos"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "Un ataque a larga distancia que crea una flor gigante y arroja una ráfaga de brotes malditos.\nTras un tiempo flotando, los brotes caen.\nRalentiza la recuperación de energía maldita de los enemigos a los que golpea.\nCaerás al suelo al realizarlo en el aire."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Raíz distante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Haces surgir tres raíces bajo el enemigo que lo atraviesan.\nNivel de energía maldita 2: Aumenta el daño que inflige. Expande el área del ataque.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige. Expande el área del ataque incluso más."
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Barrera arbórea"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Haces brotar un muro de árboles delante de ti que ataca al enemigo.\nCaerás al suelo al realizarlo en el aire.\nNivel de energía maldita 2: Aumenta el daño. Aumenta el número y altura de las paredes. \nNivel de energía maldita 3: Aumenta aún más el daño. Aumenta aún más la altura."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Árbol magno"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "No se puede bloquear. \nCreas un jardín de flores a tu alrededor que se activa al asestar un golpe. \nEl enemigo se distrae y, al instante, brotan tres raíces que lo atraviesan e infligen un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Liberación del brazo izquierdo"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Liberas el brazo izquierdo al activar una habilidad avivada y obtienes reducción del tiempo de carga de una técnica de energía maldita y del consumo de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "Un luchador a distancia que controla el curso del combate peleando codo con codo junto a su hermano y gracias a ataques que aplican estados alterados.\nSu «<GLO=GLS_GAME_WORDS_1427>, Culminación: Rey alado», libera un chorro de sangre que inflige daño, y «Putrefacción» usa la sangre para activar un estado alterado.\nUsa ambas técnicas para que el contrincante baile a tu ritmo.\n\n• Los efectos de  «<GLO=GLS_GAME_WORDS_1427>: Putrefacción» se van acumulando cuanta más sangre haya.\n¡Que se den un baño carmesí!\n• <GLO=GLS_NAME_CN_260> no puede usar ataques de sangre cuando «<GLO=GLS_GAME_WORDS_1427>: Putrefacción» está activa.\nEn ese caso, <GLO=GLS_NAME_CN_080> pasa a la acción.\n\nNo olvides que la armonía entre hermanos es la clave para ganar."
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Golpe triple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos golpes rapidísimos.\nSi aciertas, se libera la técnica «Rey alado» y ejecutas otro ataque con sangre.\nCuando «Putrefacción» está activa, <GLO=GLS_NAME_CN_080> asestará un ataque tras el tuyo.\nEjecuta la misma acción mientras atacas para encadenar este ataque con una técnica de energía maldita."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Patada troncal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para propinarle una patada ascendente con la pierna derecha.\nNo se puede bloquear.\nActiva la posibilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Lanzamiento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un gancho. \nSi aciertas, se libera la técnica «Rey alado» y ejecutas otro ataque con sangre. \nCuando «Putrefacción» está activa, <GLO=GLS_NAME_CN_080> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Hoja dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "Un ataque a corta distancia con el que das un paso adelante y golpeas hacia abajo con ambas manos. \nSi aciertas, se libera la técnica «Rey alado» y ejecutas otro ataque con sangre. \nCuando «Putrefacción» está activa, <GLO=GLS_NAME_CN_080> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Persecución"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para propinarle un golpe con el brazo derecho.\nSi aciertas, <GLO=GLS_NAME_CN_080> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Enseñamiento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para propinarle una patada ascendente con la pierna derecha.\nSi aciertas, <GLO=GLS_NAME_CN_080> asestará un ataque tras el tuyo."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Hermanito"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Dale órdenes a Kechizu. \nKechizu no podrá seguir tus instrucciones si ha sufrido una baja. \n<img id=\"CursedEnergyAttack_1\"/>: Escupe sangre y marca al objetivo. \n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>: Le guía junto al enemigo para asestar una ráfaga de golpes. \n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>: Vuelve junto a Eso. \nNo consume energía maldita. \nNivel de energía maldita 2: Aumenta la velocidad de movimiento de Kechizu. \nNivel de energía maldita 3: Aumenta aún más la velocidad de movimiento de Kechizu."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Técnica de corrosión infesta, culminación: «Rey alado»/«Putrefacción»"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>:\nActiva la técnica de corrosión infesta, culminación de «Rey alado», que marca con sangre a los enemigos e inflige daño.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>:\nActiva la «Técnica de corrosión infesta: Putrefacción» para reducir la capacidad de esprintar de los enemigos marcados.\nMientras esté activado, puedes marcar a otros enemigos con sangre adicional para generar un daño continuo.\nAl realizar la técnica después de marcarlos con sangre adicional se inflingirá incluso más daño.\nCuantas más veces los marques con sangre, mejor será el efecto.\nConsume energía maldita continuamente, solo se libera al realizar otra acción o cuando la energía maldita se reduce a cero.\nNo se puede activar «Rey alado» cuando «Putrefacción» está activada.\nNivel de energía maldita 2:\nAumenta el número de golpes de «Rey alado».\nNivel de energía maldita 3:\nAumenta aún más el número de golpes de «Rey alado». Se puede cargar."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "Poder fraternal"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "Solo se puede usar una vez cuando la energía maldita está al máximo.\nNo se puede bloquear.\nSe activa al asestar un golpe de revés.\nJunto a <GLO=GLS_NAME_CN_080>, rocía al enemigo con sangre y activa la «Técnica de corrosión infesta: Putrefacción»  para infligir un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "Por mi hermano"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Potencia los ataques de <GLO=GLS_NAME_CN_260> si <GLO=GLS_NAME_CN_080> sigue en pie."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "El hechicero más fuerte, capaz de darle la vuelta al combate en cualquier situación.\n\n• Si permaneces quieto, activarás la técnica Infinito e impedirás que te alcancen los golpes.\n• Ritual Maldito Amplificador: Azul te permite acercarte al enemigo y atraerlo al instante.\n¡Deja al enemigo a tu merced!\n• Ritual Maldito Amplificador: Azul, Rendimiento máximo es una técnica impresionante que inflige mucho daño y te permite darle la vuelta a la situación.\n¡Cambia el curso de la batalla de un solo golpe!"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Combo de patadas"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una vorágine de golpes cuerpo a cuerpo.\nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Patada guía"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "Un ataque doble que te traslada junto al enemigo para atraerlo y luego mandarlo por los aires."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Ataque doble"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "Un movimiento que te traslada junto al enemigo para asestarle dos golpes a toda velocidad."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Ráfaga guía"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "Un ataque a corta distancia con el que atraes al enemigo y lo mandas por los aires de dos golpes consecutivos. Tras eso, lo atraes una vez más para darle el golpe de gracia."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Golpe crítico"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "Un ataque que te traslada junto al enemigo y, tras eso, lo manda por los aires con un golpe potentísimo."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Ritual Maldito Amplificador: Bloqueo azul"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "Un ataque a corta distancia que te traslada junto al rival a toda velocidad para asestar un torrente de golpes.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Ritual Maldito Amplificador: Azul, Rendimiento máximo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Crea una versión gigantesca de Azul con rendimiento inmejorable que atrae a los enemigos y les inflige daño.\nNivel de energía maldita 2: Reduce el tiempo de carga.\nNivel de energía maldita 3: Reduce aún más el tiempo de carga."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Ritual Maldito Inverso: Resplandor Rojo"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Vacío Púrpura"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa al asestar un golpe con la rodilla.\nDesata Vacío Púrpura para infligir un daño descomunal a tu rival."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "El despertar del más fuerte"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "Se activa cuando sufres una derrota.\nPotencia ciertos ataques cuerpo a cuerpo y Ritual Maldito Amplificador: Resplandor Azul.\nSe puede activar la habilidad avivada."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Técnica del límite infinito"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "Se activa cuando permaneces quieto durante un tiempo.\nEl infinito te envuelve, lo que provoca que un número de ataques no lleguen a alcanzarte."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Seis ojos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Siempre está activa.\nVigila la barra de energía maldita del contrincante.\nLa energía maldita aumenta poco a poco."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Levitación"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Mantén pulsado el salto para levitar."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "Un joven hechicero de categoría especial que destaca por su destreza física y su magnífico uso de las técnicas.\n\n• Control de espíritus malditos: Kuchisake-Onna despliega un territorio simple que reacciona a cualquier ataque enemigo y desata un contraataque.\n• Su potencial, «Control de espíritus malditos», te permite atacar con espíritus malditos para recuperar tu energía maldita.\n¡No le des ni un respiro a tu rival!"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Golpe cuádruple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una vorágine de golpes cuerpo a cuerpo.\nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Control de espíritus malditos: Estampida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "Un ataque a media distancia que invoca un espíritu maldito que se abalanza sobre el enemigo.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Golpe de tres puntas: Persecución maldita"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle tres golpes seguidos. Tras eso, invoca un espíritu maldito que lo lanza por los aires.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "Golpe dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Te traslada junto al enemigo para asestarle dos golpes seguidos.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "Golpe dual: Persecución maldita"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos golpes seguidos. Tras eso, invoca un espíritu maldito que lo lanza por los aires.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Disparo de maldición"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "Un ataque a media distancia que lanza tres espíritus malditos pequeños a toda velocidad."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Control de espíritus malditos: Vorágine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Libera una amalgama de espíritus malditos menores para ejecutar distintos ataques:\n<img id=\"CursedEnergyAttack_1\"/>\nUn ataque a media distancia que desata un sinfín de espíritus malditos menores que persiguen al enemigo.\nNivel de energía maldita 2: Invoca más espíritus y aumenta el número de golpes.\nNivel de energía maldita 3: Invoca aún más espíritus y aumenta aún más el número de golpes.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/>\nUn ataque a larga distancia que desata un sinfín de espíritus malditos menores a toda velocidad.\nSe puede cargar.\nConsume energía maldita de forma continua hasta que se acabe el efecto.\nNivel de energía maldita 2: Invoca más espíritus y aumenta el área de ataque.\nNivel de energía maldita 3: Invoca aún más espíritus y aumenta aún más el área de ataque."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Control de espíritus malditos: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Invocas a Kuchisake-Onna y despliegas un territorio simple.\nSi un enemigo ataca dentro del territorio, un sinfín de tijeras lo harán trizas.\nLa técnica consume energía maldita mientras está activa y se cancela al realizar otra acción o cuando te quedes sin energía.\nNivel de energía maldita 2: Aumenta el número de ataques y expande el área del territorio.\nNivel de energía maldita 3: Aumentan aún más el número de ataques y el área del territorio."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Control de espíritus malditos: Kuchisake-Onna"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Control de espíritus malditos: Dragon arcoíris"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa al asestar un golpe con el codo.\nLibera al Dragón arcoíris, el espíritu maldito más poderoso que posees, y lo manda contra el enemigo para infligir gran cantidad de daño."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Control de espíritus malditos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Recuperas energía maldita cada vez que asestas un ataque con espíritus malditos.\nLa cantidad recuperada depende del espíritu maldito.\nEl efecto también varía según tu nivel de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "Una luchadora que destaca en el campo de batalla por sus ataques sorpresa y su capacidad de proporcionar cobertura desde la distancia.\n\n• La técnica «Ojo de halcón» te permite disparar balas imbuidas de energía maldita en cualquier dirección.\n¡Céntrate en dar en el blanco y ejecuta un tiro imparable!\n• No dejes pasar ninguna oportunidad para recargar y seguir al pie del cañón.\n• Potencia tu fuerza y energía maldita si atacas a un enemigo que no te tiene como objetivo.\n¡Observa adónde apunta tu rival y sácale partido!"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Disparo único"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "Un ataque a larga distancia que consume una bala para disparar al enemigo.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe recarga cuando no queda munición."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Disparo agazapado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "Un ataque a larga distancia con el que te agazapas y consumes una bala para disparar al enemigo.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos.\nSe recarga cuando no queda munición."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Disparo veloz"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "Un combo que dispara una bala cargada tras otra cada vez que pulsas <img id=\"NormalAttack_2\"/>.\nSe recarga cuando no queda munición."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Patada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una patada giratoria y mandarlo por los aires.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Ceguera"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "Un ataque a corta distancia que arroja un puñado de arena para amedrentar al enemigo.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Impacto doble"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos golpes."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Ojo de halcón"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "Un ataque a larga distancia que te inmoviliza para apuntar al enemigo en el acto y disparar una bala imbuida de energía maldita.\nControla la retícula con <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para apuntar y disparar por encima del hombro.\nEste modo consume energía maldita, y puedes efectuar distintos disparos con <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> o <img id=\"CursedEnergyAttack_2\"/>.\nSe recarga cuando no queda munición.\nNivel de energía maldita 1: <img id=\"NormalAttack_1\"/>: Consume 1 barra de energía maldita.\n<img id=\"NormalAttack_2\"/>: Consume 1 barra de energía maldita.\n<img id=\"CursedEnergyAttack_2\"/>: Consume 1 barra de energía maldita.\nNivel de energía maldita 2: Aumenta el daño que inflige.\n<img id=\"NormalAttack_1\"/>: Consume 1 barra de energía maldita.\n<img id=\"NormalAttack_2\"/>: Consume 2 barras de energía maldita.\n<img id=\"CursedEnergyAttack_2\"/>: Consume 2 barras de energía maldita.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige.\n<img id=\"NormalAttack_1\"/>: Consume 1 barra de energía maldita.\n<img id=\"NormalAttack_2\"/>: Consume 3 barras de energía maldita.\n<img id=\"CursedEnergyAttack_2\"/>: Consume 3 barras de energía maldita."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Disparo cargado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "Un ataque a larga distancia que imbuye una bala de energía maldita para llevar a cabo un potente disparo.\nSe puede cargar.\nPuedes moverte mientras se carga.\nNo puedes esprintar.\nCuanto más cargues el ataque, más daño hará.\nSi se carga al máximo, el ataque perforará al enemigo.\nSe recarga cuando no queda munición.\nNivel de energía maldita 2: Reduce el tiempo de carga e inflige más daño.\nNivel de energía maldita 3: Reduce aún más el tiempo de carga e inflige aún más daño."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Recarga"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Repone tus balas.\nPuedes moverte mientras recargas."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "En el blanco"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Técnica de construcción"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "No se puede bloquear.\nSe recarga cuando no queda munición.\nSe activa al disparar una bala y acertar el ataque.\nDispara seis balas y, después, usa Técnica de construcción para disparar una séptima bala que inflige un daño descomunal al enemigo."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Sin escapatoria"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Potencia la fuerza y la energía maldita que ganas cuando atacas a un enemigo que no te tiene como objetivo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "Una luchadora que confunde al enemigo desde las alturas.\n\n• La técnica «Embestida» te permite desplazarte a gran velocidad sin dejar de atacar.\n¡Desestabiliza al enemigo e inflígele un daño inmenso con Técnica de control de objetos: guadaña de viento!\n• Su potencial, «Técnica de control de objetos», le permite usar el campo de batalla de forma tridimensional, lo que le otorga una gran movilidad y le permite atacar desde cualquier sitio."
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Barrido de escoba"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para golpearle con una escoba.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Torbellino"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "Un ataque a media distancia que crea un torbellino que se desplaza hacia delante.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Golpe en picado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "Un ataque a corta distancia con el que desciendes en picado y cargas contra el enemigo.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Zambullida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "Ejecuta una zambullida vertical.\nSe puede cargar.\nSe puede encadenar con otras habilidades o un esprint."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Viento avivado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "Un disparo a media distancia que crea una ráfaga de viento.\nEl viento se propaga al impactar y arroja a los enemigos por los aires."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Ráfaga"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "Un ataque a corta distancia con el que agitas la escoba para crear una ráfaga de viento."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Embestida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Embiste al enemigo desde el aire.\nUsa <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para girar la escoba.\nLa velocidad de movimiento aumenta tras cada ataque y las técnicas de extracción que dependen del viento se vuelven más fuertes.\nSe puede cargar.\nNivel de energía maldita 2: Aumenta el daño que inflige. Potencia el efecto de las mejoras.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige. Potencia el efecto de las mejoras."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Técnica de control de objetos: Guadaña de viento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Arrojas una guadaña de viento al enemigo desde lejos.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Píllame si puedes"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Técnica de control de objetos: Guadaña de viento"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "No se puede bloquear.\nSe activa cuando asestas una patada desde la escoba.\nLanzas al enemigo por los aires e infliges un daño inmenso con Técnica de control de objetos: Guadaña de viento."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Técnica de control de objetos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Echas a volar sobre una escoba.\nMantén pulsado el botón de salto para volar más alto.\nTe deslizas por el aire y recuperas tu barra de esprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "Un atacante a larga distancia que acorrala a sus rivales gracias a su manejo del arco y a su técnica Control Sanguíneo.\n\n• Lleva a cabo una serie de ataques con el arco para pillar desprevenido a tu contrincante y desatar el golpe definitivo: Control Sanguíneo.\n• Control Sanguíneo: Corte purificador no solo resulta muy útil al enfrentarse a enemigos veloces, sino que además inflige mucho daño.\n• Cuanto más cargues el Control Sanguíneo: Convergencia/Sangre perforante, más alcance y potencia consigues, ¡lo que te permitirá perforar a tu enemigo con un solo disparo!\nMantén la calma, observa los movimientos de tu contrincante y procura acabar con ellos de un solo golpe."
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Flecha de energía maldita: Tiro incesante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "Un ataque a larga distancia que lanza una flecha tras a otra al enemigo.\nSi ejecutas la misma acción mientras atacas, encadenarás este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Flecha de energía maldita: Tiro único"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "Un ataque a larga distancia en el que tensas el arco con fuerza para arrojar una potente flecha.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Flecha de energía maldita: Tiro recto"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "Un ataque a larga distancia que lanza una flecha en línea recta a toda velocidad.\nSe puede cargar."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Flecha de energía maldita: Tiro curvo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "Un ataque a larga distancia en el que desatas una lluvia de flechas que hiere a todos los enemigos al alcance.\nMantén pulsado para elegir adónde lanzar el ataque.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Flecha de energía maldita: Tiro lateral"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "Un ataque a larga distancia con el que arrojas flechas en tres direcciones.\nSe puede cargar para desatar flechas guiadas a tu enemigo usando Control Sanguíneo.\nSe puede cargar.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Control Sanguíneo: Atadura carmesí"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Cuando un enemigo te ataca, le arrojas una bolsa de sangre sin moverte.\nSi aciertas el golpe, el enemigo queda cubierto de sangre y no puede moverse con libertad."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Control Sanguíneo: Corte purificador"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "Un ataque a larga distancia con el que arrojas una hoja circular de sangre comprimida, que gira y persigue al enemigo.\nEl número de hojas aumenta cuando se carga el ataque.\nSe puede cargar.\nNivel de energía maldita 2: Aumenta el tiempo que se puede cargar.\nNivel de energía maldita 3: Aumenta aún más el tiempo que se puede cargar."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Control Sanguíneo: Convergencia/Sangre perforante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "Un ataque a larga distancia que comprime la sangre y la libera en línea recta hacia el enemigo a toda velocidad.\nEl alcance y el daño aumentan cuando se carga el ataque.\nSe puede cargar.\nNivel de energía maldita 2: Aumenta el tiempo que se puede cargar.\nNivel de energía maldita 3: Aumenta aún más el tiempo que se puede cargar."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Control Sanguíneo: Palpitar de la escama escarlata"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Control Sanguíneo: Sangre perforante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "No se puede bloquear.\nSe activa cuando la flecha atraviesa al enemigo.\nTras ello, usas Sangre perforante e infliges un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Bolsa de sangre"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "La cantidad de sangre consumida depende de la técnica de Control Sanguíneo utilizada.\nConsume vida si la barra de sangre está vacía.\nLa barra no se consume con ataques conjuntos ni habilidades avivadas."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Orgullo del próximo cabeza de familia"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Reduce la cantidad de sangre que consumes cuando estás a mitad de vida o menos.\nSi la barra de sangre está vacía, reduce la cantidad de vida que consumes."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "Un asesino de hechiceros que causa estragos en sus enemigos con sus armas de hechicería inusuales y las habilidades físicas que le proporciona la atadura celestial.\n\n• Usa Destello Fugaz para cancelar ataques y encadenarlos con otros.\n¡La mejor defensa es un buen ataque!\n• Amanosakahoko: tajo ejecuta un ataque u otro según tu orientación con respecto al rival.\n¡Combina esta técnica con Destello fugaz para crear combos devastadores!"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Patada cortante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un corte con Amanosakahoko.\nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de arma de hechicería."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Golpazo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "Un ataque a corta distancia que te permite dar un paso hacia delante y golpear al rival con todas tus fuerzas.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Estocada penetrante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una estocada con Amanosakahoko."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Estocada descendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "Un ataque a corta distancia en el que, tras dar un salto hacia delante, caes sobre el enemigo Amanosakahoko en mano.\nLo mandas por los aires nada más golpear el suelo."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "Destello fugaz"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Consume la barra de esprint para moverte a gran velocidad.\nTras eso, puedes seguir moviéndote con otras acciones.\nPuedes encadenar este movimiento tras un aturdimiento, y también con ciertos movimientos durante un movimiento guiado.\nPuede encadenarse con otros movimientos.\n<img id=\"NormalAttack_3\"/>\nMoverse hacia el rival.\n<img id=\"MoveLeft\"/> o <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/>\nAvanzar en diagonal.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/>\nAvanzar hacia delante."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Desenvaine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Sin moverte, asestas un tajo con Amanosakahoko.\nLanzas un contraataque si el rival te ataca en este instante."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Amanosakahoko: tajo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "Un poderoso golpe con Amanosakahoko.\nDesata un ataque diferente según tu posición con respecto al rival.\nNivel de fuerza física 2: Aumenta el daño que inflige.\nNivel de fuerza física 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Amanosakahoko: corte"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "Una vorágine de golpes con Amanosakahoko.\nSe puede cargar.\nNivel de fuerza física 2: Aumenta el número de ataques.\nNivel de fuerza física 3: Aumenta aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Vorágine de espíritus malditos"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Cadena de los cientos de miles de eslabones y Amanosakahoko"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "No se puede bloquear.\nSe activa al asestar un ataque punzante con Amanosakahoko.\nConecta Cadena de los cientos de miles de eslabones y Amanosakahoko para infligir un daño descomunal con una lluvia de golpes vertiginosos."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Asesino de hechiceros"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Asestar un golpe definitivo aumenta tu nivel de fuerza física y reduce el consumo de la barra de esprint durante un tiempo.\nSi el nivel de fuerza física ya está al máximo, recuperas la barra."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Atadura celestial: Don físico"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Recibes una condición física excepcional a cambio de no poseer energía maldita.\nPuedes saltar en el aire varias veces."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Amanosakahoko"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Los ataques con Amanosakahoko obligan al enemigo a dispersar su técnica."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "Una luchadora cuerpo a cuerpo a cuerpo que derriba a sus enemigos con sus ágiles cortes.\n\n• Su potencial, «Nuevo Estilo Sombrío: Arte de desenvainar la espada» le permite asestar golpes ágiles y potentes con la espada envainada.\nSi quieres controlar el curso del combate, procura mantener esa postura.\n• Contraataca e inflige un daño devastador a cualquier contrincante que entre en su territorio simple.\nCuando quieras pasar a la ofensiva, acorta distancias con el Ritual Maldito de Nuevo estilo: Arte rápido de desenvainar la espada."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Corte diagonal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "Un ataque a corta distancia con el que te acercas al enemigo y le asestas un corte en diagonal.\nSi impacta, ejecutas otro ataque y envainas la espada.\nSegún vayas repitiendo la acción, podrás activar una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Corte aéreo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "Un ataque a corta distancia que te acerca al enemigo para lanzarlo por los aires y cortarlo.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Corte seccionador"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "Un ataque a corta distancia que te acerca al enemigo para asestarle un corte.\nSi impacta, lo mandas por los aires de una patada y entrar en postura enfundada."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Corte extractor"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "Un ataque a corta distancia con el que envainas la espada y te acercas al enemigo para asestarle un corte doble.\nSi la espada ya está envainada, ejecutas el corte al instante.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Corte envainado"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Técnica desenvainada】\nEnvaina la espada sin moverte del sitio.\n【Técnica envainada】\nUn ataque a corta distancia con el que saltas hacia delante y ejecutas un corte rápido.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Esquiva envainada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Evade en la dirección que quieras mientras enfundas tu espada.\nSolo evadirá si tu espada ya está enfundada.\nSe puede encadenar a otros movimientos tras evadir."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "Nuevo Estilo Sombrío: Arte de desenvainar la espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "Un ataque a corta distancia con el que envainas la espada y te acercas al enemigo para desenvainar de nuevo con un corte devastador.\nSi la espada ya está envainada, ejecutas el corte al instante.\nNivel de energía maldita 2: Aumenta el daño que inflige y el área del ataque.\nNivel de energía maldita 3: Aumentan aún más el daño y el área del ataque."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "Nuevo Estilo Sombrío: Territorio simple, Arte de desenvainar la espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Desenvainas la espada desde tu posición y despliegas un territorio simple.\nSe ejecuta con más agilidad si estás en una postura de envaine.\nAtaca a cualquier enemigo que entre en tu territorio.\nDesvía cualquier ataque que proceda de fuera.\nSe puede encadenar con Esquiva envainada mientras despliegas el dominio.\nSe puede cargar.\nSi lo ejecutas en el aire, descenderás a toda velocidad.\nNivel de energía maldita 2: Aumenta el daño que inflige y el área del territorio.\nNivel de energía maldita 3: Aumentan aún más daño y el área del territorio."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "Nuevo Estilo Sombrío: Territorio simple, Arte de desenvainar la espada"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa cuando asestas un corte de arriba abajo al contrincante.\nDespliega un territorio simple que te permite infligir un gran daño a cualquier enemigo que entre."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "Nuevo Estilo Sombrío: Arte de desenvainar la espada"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Cuando llevas a cabo ciertos ataques, envainas la espada.\nDesde esa postura, mejoras la velocidad y el desplazamiento que otorgan algunos ataques.\nSi bloqueas o te derriban en esa postura, desenvainarás la espada.\nEjecuta un bloqueo perfecto para no perder la postura."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "Un luchador con gran potencia de ataque, así como un gran potencial de energía maldita que le proporciona su Atadura celestial.\n\n• Su potencial «Atadura celestial» le permite desencadenar técnicas de energía maldita sin verse limitado por niveles de energía maldita.\n• Aprovecha su capacidad de infligir mucho daño desde el inicio mismo del combate para ponerte en cabeza.\n• Usa sus técnicas de extracción de gran movilidad para bailar por el campo de batalla y confundir a tu oponente."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Arremetida"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle una vorágine de golpes cuerpo a cuerpo.\nEjecuta otras acciones mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Boost On: Palma aturdidora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo a toda velocidad para lanzarlo por los aires.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Ultra Cannon de gran alcance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "Un ataque a media distancia con el que disparas el Ultra Cannon con la mano izquierda e incineras una gran superficie."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Sword Option: Ultra Shield"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Transforma su brazo derecho en un escudo repleto de pinchos.\nCon él, puedes usar la técnica Ultra Shield para desviar cualquier ataque.\nSi el contraataque surte efecto, aturde a los enemigos."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Boost On: Golpe dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos patadas.\nSi se emplea con sobrecarga, aumenta el tiempo de carga.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Boost On: Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un gancho rapidísimo que lo lanza hacia arriba.\nSi se emplea con sobrecarga, aumenta el tiempo de carga.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Sword Option Boost On: Ultra Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Creas una hoja afilada en el brazo derecho y te abalanzas sobre el enemigo a toda velocidad.\nSe puede cargar.\nNivel de energía maldita 2: Pulsa varias veces para aumentar el número de ataques.\nNivel de energía maldita 3: Pulsa varias veces para aumentar aún más el número de ataques."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "Potencia máxima: Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "Un ataque a larga distancia en el que cargas y lanzas un torrente de energía maldita con la mano izquierda.\nSe puede cargar.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Boost On: Cuerpo a cuerpo"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa cuando golpeas a un enemigo con un proyectil.\nUsa la torreta de la boca y ambos cañones de mano a la vez para disparar el Ultimate Cannon e infligir un daño inmenso."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Atadura celestial"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Permite usar técnicas que necesitan un nivel de energía maldita mayor que el que posees.\nSe activa manteniendo pulsado el botón de acción durante un tiempo mientras usas una técnica.\nSegún la diferencia de nivel de energía maldita entre la técnica activada y tu nivel actual, te sobrecargarás y se reducirá tanto tu velocidad de movimiento como la recuperación de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "Un luchador que ataca desde la distancia y que destaca en el uso de la sangre como arma ofensiva.\n\n• Cuando activas Control Sanguíneo: Palpitar de la escama escarlata, infliges daño con combos y técnicas de extracción a la vez que potencias muchísimo tu velocidad. ¡No dudes en acercarte a tu contrincante en un abrir y cerrar de ojos!\n• Con el nivel de energía maldita 3, Control Sanguíneo: Convergencia/Sangre perforante puede apuntar a derecha e izquierda y llevar a cabo un barrido. Derriba a varios enemigos desde la distancia con esta formidable técnica."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Combo quíntuple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una lluvia de golpes.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Gancho"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Control Sanguíneo: Espada de sangre"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle dos cortes rapidísimos.\nSi aciertas, reduce la velocidad del enemigo de forma temporal.\nLas esferas de sangre aumentan el daño que infliges y la energía maldita que obtienes.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "Golpe dual"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un fuerte golpe impregnado de sangre y mandarlo por los aires.\nSi aciertas, reduce la velocidad del enemigo de forma temporal.\nLas esferas de sangre aumentan el daño que infliges y la energía maldita que obtienes.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Control Sanguíneo: Corte purificador"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "Un ataque a larga distancia con el que lanzas un disco afilado de sangre comprimida que gira hacia el enemigo.\nSi lo golpea, reduce su velocidad de forma temporal.\nConsume una esfera de sangre.\nSi no te quedan, crea más esferas de sangre."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Ola sangrienta"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "Un ataque a corta distancia con el que desatas un torrente de sangre que se transforma en un sinfín de pinchos.\nSi golpea al enemigo, reduce su velocidad de forma temporal.\nConsume una esfera de sangre.\nSi no te quedan, crea más esferas de sangre."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Control Sanguíneo: Palpitar de la escama escarlata"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Controla los componentes de la sangre para mejorar tu capacidad física.\nCuando está activa, puede infligir daño mediante técnicas combinadas o técnicas de extracción. Tiene también los siguientes efectos: velocidad de ataque mejorada, velocidad de guía mejorada, velocidad de esprint mejorada, consumo de la barra de esprint reducido y aumento del daño infligido al bloqueo.\n\nEsta técnica consume energía maldita de forma constante y se desvanece cuando se ejecuta otra acción o la energía maldita se agota."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Control Sanguíneo: Convergencia/Sangre perforante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "Un ataque a larga distancia que comprime la sangre y la libera en línea recta hacia el enemigo a toda velocidad.\nEl alcance y el daño aumentan cuando se carga el ataque.\nSi lo golpea, reduce la velocidad del contrincante de forma temporal.\nConsume 1 esfera de sangre.\nSi no quedan, crea más esferas de sangre.\nSe puede cargar.\nNivel de energía maldita 2: Reduce el tiempo de carga.\nNivel de energía maldita 3: Tras usar Sangre perforante, pulsa <img id=\"MoveLeft\"/><img id=\"MoveRight\"/> para hacer un barrido hacia ese lado."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Control Sanguíneo: Palpitar de la escama escarlata, acumular"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa al asestar una patada hacia atrás.\nUsa la técnica Convergencia para disparar un proyectil omnidireccional de sangre comprimida que inflige un daño descomunal a tu rival."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Esfera de sangre"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Puedes usarla cuando hayas generado múltiples esferas de sangre.\nTus ataques más poderosos consumen esferas de sangre.\nEl número de esferas que puedes crear aumenta en función de tu nivel de energía maldita.\nSi no te quedan esferas, puedes crear más con <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/> o <img id=\"CursedEnergyAttack_2\"/>."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Feto maldito de las nueve etapas de la descomposición"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "Si golpeas a un rival con sangre tóxica, reducirás su velocidad de forma temporal.\nLo mucho o poco que la reduzcas dependerá de tu nivel de energía maldita."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "Una luchadora de corta distancia que usa sus cuervos para atacar y defenderse, y a otros aliados como refuerzos en combate.\n\n• Su «Manipulación de aves» puede utilizarse para bloquear ataques automáticamente, pero también para hacer que sus cuervos ataquen a los enemigos. Haz uso de los cuervos para mantener la batalla a tu favor.\n• Su potencial «Una vida dedicada a ser moneda de cambio» aumenta su fuerza cuanto más trabajen otras personas con ella. Este efecto dura toda la batalla, trabaja en equipo siempre que puedas."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Corte triple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una ráfaga de golpes con el hacha.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Hacha roma"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo y lo lanza de un golpe con el hacha.\nNo se puede bloquear.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Persecución"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Te traslada junto al enemigo para asestarle un golpe con el hacha y lanzarlo hacia arriba.\nVuelve a ejecutar el movimiento para asestarle otro ataque y mandarlo por los aires.\nEn la primera fase, se puede encadenar con un ataque en caída.\nEn la segunda fase, se puede encadenar con la técnica Manipulación de aves."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Impulso descendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "Un ataque a corta distancia con el que saltas para caer en diagonal con el hacha.\nSi lo llevas a cabo en el aire, caerás en picado al instante.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Golpe aéreo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para lanzarlo hacia arriba con el hacha y, después, estamparlo contra el suelo.\nRepite esta acción para mandar al enemigo volando por los aires.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Brinco avasallador"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "Un ataque a corta distancia con el que pisoteas al enemigo antes de dar un gran salto en el aire.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Corte giratorio/Corte descendente"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "Un ataque a corta distancia con el que puedes esprintar mientras blandes el hacha. Si repites la acción, podrás encadenarlo con otros ataques.\nPuedes moverte en cualquier dirección mientras esprintas.\n<img id=\"CursedEnergyAttack_1\"/>\nHaz girar el hacha a tu alrededor y ataca.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nDa un salto en el aire y abalánzate sobre el enemigo con tu hacha.\nSe puede usar desde una posición normal.\n\nNivel de energía maldita 2: Aumentan la velocidad y duración del esprint, así como el daño que inflige.\nNivel de energía maldita 3: Aumentan aún más la velocidad y duración del esprint, así como el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Manipulación de aves"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Invoca una bandada de cuervos a tu alrededor.\nLas aves seguirán tu rastro y te protegerán de un único ataque enemigo.\nTras bloquear el ataque, los cuervos desaparecerán.\nSi repites la acción, mandarás a los cuervos atacar al objetivo.\nPuedes moverte mientras controlas a los cuervos, así como darles órdenes mientras esprintas cuando usas un corte giratorio o un corte hacia abajo.\nNivel de energía maldita 2: Aumenta el daño que inflige.\nNivel de energía maldita 3: Aumenta aún más el daño que inflige."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Combo aéreo"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa al asestar un golpe punzante con el hacha.\nInflige un daño inmenso si embistes al enemigo tras obligar a los cuervos a sacrificarse, lo que elimina los límites de energía maldita."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "Una vida dedicada a ser moneda de cambio"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "Cada vez que se active una bonificación de cooperación, se conseguirán estos efectos:\nMás velocidad de esprint\nMenos consumo de la barra de esprint\nMenos tiempo de espera tras un esprint\nMás velocidad de recuperación de energía maldita\nMenos tiempo de espera tras un bloqueo\nLos efectos se mantendrán durante toda la pelea.\nHay un límite máximo."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "Un hechicero muy ágil que usa técnicas muy arriesgadas y poderosas para desorientar a sus rivales.\n\n• Con su potencial, «Hechicería de proyección», encadena distintos ataques y ejecuta movimientos rapidísimos.\nConsume energía maldita al instante; si no tiene suficiente energía maldita, se queda inmóvil.\n• Su técnica, «Hechicería de proyección: Golpe» puede encadenarse con otras técnicas de extracción como <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> o <img id=\"NormalAttack_3\"/>, al llevar a cabo la misma acción varias veces.\nCuantas más veces actives Hechicería de proyección en un combo, más daño infligirás."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Impacto dorsal"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una ráfaga de golpes.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Palma aturdidora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un golpe con la palma.\nNo se puede bloquear.\nSi el objetivo al que golpeas no está aturdido, se quedará inmóvil.\nOtorga probabilidad de ataque conjunto si se usa durante un combate por equipos."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Ráfaga persecutora"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para mandarlo por los aires de un golpe y, después, estamparlo contra el suelo.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Golpe perforante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestarle un gancho mientras saltas.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Patada triple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo para asestar una lluvia de patadas.\nRepite esta acción mientras atacas para encadenar este ataque con una técnica de energía maldita.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "Derribo"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "Un ataque a corta distancia que te traslada junto al enemigo tras saltar hacia atrás para asestarle una patada muy potente.\nSe puede encadenar con otras habilidades."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Hechicería de proyección: Golpe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Sin moverte, usa Hechicería de proyección para ir hacia el enemigo y asestar un potente ataque a corta distancia.\nEsprinta o salta para moverte en cualquier dirección.\nUsa una técnica combinada o una técnica de extracción durante esta técnica o después de moverte para llevar a cabo distintos movimientos con Hechicería de proyección.\nPuede usarse al instante sin tener que encadenarla tras otros ataques.\nEl daño que inflige Hechicería de proyección depende de las veces que uses la técnica."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Hechicería de proyección: Vorágine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "Un ataque a corta distancia que emplea Hechicería de proyección para guiarte hacia el enemigo, congelarlo al contacto y asestar una ráfaga de ataques.\nPodrás usar comandos repetidos en el momento adecuado para encadenarlo con otras acciones.\nSi la técnica fracasa, te congelarás brevemente.\nEnergía maldita 2: Aumenta el daño infligido.\nEnergía maldita 3: Aumenta aún más el daño infligido."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Hechicería de proyección"
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "Este ataque no se puede bloquear.\nSe activa cuando te abalanzas sobre el enemigo.\nUsa Hechicería de proyección para ir más rápido e infligir un daño inmenso con una lluvia de ataques."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Hechicería de proyección"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Se activa cuando se encadena con otros movimientos al atacar.\nGasta energía maldita para acercarte al enemigo con Hechicería de proyección, en lugar de trasladarte junto a él.\nTodos los movimientos que hagas con Hechicería de proyección se consideran ataques de un solo golpe.\nSi no te queda energía maldita, la técnica se desvanecerá y te quedarás inmóvil durante un tiempo.\nSi usas Hechicería de proyección para crear múltiples ataques en cadena, infligirás más daño."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Técnica secreta: Compasión por los pétalos caídos"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "Cuando tu contrincante esté desplegando su territorio, tu bloqueo se transformará en la técnica Compasión por los pétalos caídos. Esta técnica consume energía maldita constantemente para contrarrestar el territorio y protegerte. Eres inmune a los derribos y a la rotura de bloqueo. Si no tienes suficiente energía maldita, harás un bloqueo normal."
+      }
+    }
+  }
+]

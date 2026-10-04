@@ -1,0 +1,2529 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommandListTextDataTable_Fr",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameDataTableRow_GameText'",
+        "ObjectPath": "/Script/Abrams"
+      },
+      "ImportKeyField": "Id"
+    },
+    "Rows": {
+      "CMD_CHARACTER_DESCRIPTION_CP_010": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_010",
+        "Text": "Un bagarreur de mêlée capable de prouesses physiques. \nEn choisissant les attaques les plus adaptées à chaque situation, il élimine ses ennemis au corps à corps. \n\n• Son potentiel « Vitesse supérieure » lui permet de sprinter plus facilement au fur et à mesure que son niveau d'énergie occulte augmente, ce qui vous permet de foncer au plus près de l'ennemi pour l'affronter. \n• Prenez vos adversaires au dépourvu avec la Technique de l'intervalle comme technique d'énergie occulte, et enchaînez avec Frappes en chaîne pour infliger des dégâts considérables !"
+      },
+      "CMD_COMMAND_NAME_CP_010_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1000",
+        "Text": "Barrage d'attaques de mêlée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte une série de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques au milieu d'un combo."
+      },
+      "CMD_COMMAND_NAME_CP_010_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_010_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2000",
+        "Text": "Coup de pied rotatif"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2000",
+        "Text": "Une attaque à courte portée qui envoie une onde de choc horizontale vers l'avant."
+      },
+      "CMD_COMMAND_NAME_CP_010_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_2060",
+        "Text": "Coup de pied descendant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_2060",
+        "Text": "Une attaque à courte portée qui envoie une onde de choc verticale vers l'avant."
+      },
+      "CMD_COMMAND_NAME_CP_010_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3000",
+        "Text": "Puissant coup de pied"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3000",
+        "Text": "Une attaque à courte portée qui envoie un puissant coup de pied.\nEn état durable pendant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_010_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_010_3060",
+        "Text": "Jet de pierres"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_3060",
+        "Text": "Une attaque à distance qui projette des graviers d'un coup de pied.\nRalentit les ennemis touchés."
+      },
+      "CMD_COMMAND_NAME_CP_010_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_4000",
+        "Text": "Technique de l’intervalle/Rayon noir"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_4000",
+        "Text": "Niveau d'énergie occulte 1 : Attaque à courte portée qui inflige deux impacts en un seul coup.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Se transforme en Rayon noir au niveau d'énergie occulte 3.\nAttaque à courte portée qui inflige des dégâts considérables avec un coup à pleine puissance.\nCette attaque ne peut pas être parée."
+      },
+      "CMD_COMMAND_NAME_CP_010_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_5000",
+        "Text": "Frappes en chaîne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_5000",
+        "Text": "Une attaque à courte portée composée d'une série de coups de pied rotatifs.\nLe nombre d'attaques change en fonction du niveau d'énergie occulte.\nNiveau d'énergie occulte 2 : 5 coups supplémentaires.\nNiveau d'énergie occulte 3 : Puissant coup droit supplémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_010_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_7000",
+        "Text": "Technique de l’intervalle"
+      },
+      "CMD_COMMAND_NAME_CP_010_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_010_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1001>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_010_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_010_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup au corps.\nAu niveau de concentration maximal, déclenche quatre Rayons noirs infligeant des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_010_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_010_1000",
+        "Text": "Vitesse supérieure"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_010_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_010_1000",
+        "Text": "S'active progressivement à mesure que le niveau d'énergie occulte augmente.\nDiminue le délai avant et après un sprint.\nDiminue la consommation de la jauge de sprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_020": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_020",
+        "Text": "Un attaquant au corps à corps qui terrasse amis et ennemis sur une large zone.\nVos puissantes attaques balayent même vos alliés et vous permettent de dominer le champ de bataille.\nCes attaques vous exposent au danger, mais vous rendent invulnérable. Restez donc à l'affut de la meilleure occasion pour attaquer !\n\n• Son potentiel « Sort inversé » vous permet de récupérer de la santé lorsque vous contre-attaquez, alors soyez offensif.\n• Le potentiel « Intimidation », qui s'active à partir du niveau d'énergie occulte 3, vous permet d'immobiliser les ennemis alentour lorsque vous attaquez.\nStoppez vos adversaires dans leur élan et enchaînez avec une attaque dévastatrice !"
+      },
+      "CMD_COMMAND_NAME_CP_020_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1000",
+        "Text": "Fauchage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1000",
+        "Text": "Une attaque à courte portée qui déchaîne un puissant coup vers l'avant.\nEn état invulnérable avant l'attaque.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte."
+      },
+      "CMD_COMMAND_NAME_CP_020_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_1060",
+        "Text": "Poing droit"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_1060",
+        "Text": "Une attaque à distance qui vous projette instantanément vers l'ennemi et déclenche une charge.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_020_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2000",
+        "Text": "Coup de talon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le projeter au sol.\nGénère une onde de choc à l'endroit où l'ennemi tombe.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_020_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_2060",
+        "Text": "Piétinement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_2060",
+        "Text": "Une attaque à courte portée consistant à frapper le sol avec votre pied pour générer une onde de choc.\nSi vous exécutez cette technique en l'air, vous retomberez brutalement au sol.\nEn état invulnérable pendant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3000",
+        "Text": "Repousser"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3000",
+        "Text": "Vous vous dirigez instantanément vers l'ennemi et le repoussez avec un bras.\nNiveau d'énergie occulte 3 : Activation d'Intimidation avant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_020_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_020_3060",
+        "Text": "Marteau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_3060",
+        "Text": "Vous vous dirigez instantanément vers l'ennemi et le frappez par derrière.\nNiveau d'énergie occulte 3 : Activation d'Intimidation avant l'attaque.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_020_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_4000",
+        "Text": "Revers/Démantèlement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_4000",
+        "Text": "Niveau d'énergie occulte 1 : Attaque du revers à courte portée.\nNiveau d'énergie occulte 2 : Se transforme en « Démantèlement » à partir du niveau d'énergie occulte 2.\nAttaque tranchante à courte portée qui découpe l'ennemi en face de vous.\nNiveau d'énergie occulte 3 : Augmente le nombre d'attaques tranchantes."
+      },
+      "CMD_COMMAND_NAME_CP_020_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_5000",
+        "Text": "Coup de pied/<img id=\"Symbol_0002\"/> Ouvert"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_5000",
+        "Text": "Niveau d'énergie occulte 1 : coup de pied à courte portée.\nNiveau d'énergie occulte 2 : devient « <img id=\"Symbol_0002\"/> »\n« Ouvert » à partir du niveau d'énergie occulte 2.\nAttaque à distance qui lance une flèche de flammes faisant apparaître un tourbillon géant.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 3 : élargit la zone d'attaque et augmente les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_020_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_7000",
+        "Text": "Fendoir"
+      },
+      "CMD_COMMAND_NAME_CP_020_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_020_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1002>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_020_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_020_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant une énorme attaque tranchante.\nÉtendez votre territoire et lacérez sans relâche la cible pour lui infliger des dégâts considérables.\nLorsque le territoire se referme, les techniques d'énergie occulte se transforment en techniques martiales pendant un certain temps."
+      },
+      "CMD_PASSIVE_NAME_CP_020_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_1000",
+        "Text": "Sort inversé"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_1000",
+        "Text": "S'active à un niveau d'énergie occulte de 2 ou plus.\nRestaure une partie des dégâts que vous avez subis lorsque vous infligez à votre tour des dégâts à un ennemi."
+      },
+      "CMD_PASSIVE_NAME_CP_020_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_2000",
+        "Text": "Intimidation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_2000",
+        "Text": "S'active à un niveau d'énergie occulte de 3.\nLorsque vous effectuez certaines attaques, les personnes présentes aux alentours se retrouvent dominées et incapables d'agir."
+      },
+      "CMD_PASSIVE_NAME_CP_020_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_020_3000",
+        "Text": "Roi des fléaux"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_020_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_020_3000",
+        "Text": "Devient invulnérable lors de certaines attaques."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_030": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_030",
+        "Text": "Un maître du combo à courte portée, spécialiste des frappes coordonnées avec un familier. \nEn utilisant différents familiers en fonction de la situation, vous pouvez aussi bien attaquer que soutenir. \n\nInvoquez Nué ou Chien de Jade : Totalité avec la Technique des Dix Ombres pour déclencher une attaque complémentaire du familier. \nVous pouvez ordonner à votre familier d'attaquer, vous permettant de combattre à distance ! \n• Son potentiel « Interprétation de la Technique » permet à votre familier de contre-attaquer lorsqu'il est attaqué. Alors pas de quartier !"
+      },
+      "CMD_COMMAND_NAME_CP_030_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1000",
+        "Text": "Double coup de pied rotatif"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner une rafale de coups de pied.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nSi un familier a été invoqué, il infligera une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_030_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_1060",
+        "Text": "Coup de pied ascendant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_030_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2000",
+        "Text": "Double attaque aérienne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte une série de coups.\nEn état durable pendant l'attaque sautée."
+      },
+      "CMD_COMMAND_NAME_CP_030_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_2060",
+        "Text": "Coup de pied rotatif aérien"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le projeter dans les airs.\nUn coup de pied rotatif plaque ensuite l’ennemi au sol.\nDéclenche une attaque complémentaire du familier lors de son invocation."
+      },
+      "CMD_COMMAND_NAME_CP_030_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3000",
+        "Text": "Crapaud : Lancement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3000",
+        "Text": "Invoque un crapaud qui ravage la zone devant lui avec sa langue.\nProjette les ennemis en l'air lorsqu'ils sont touchés.\nVous pouvez enchaîner sur d'autres techniques.\nDéclenche une attaque complémentaire du familier lors de son invocation."
+      },
+      "CMD_COMMAND_NAME_CP_030_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_030_3060",
+        "Text": "Crapaud : Attraction"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_3060",
+        "Text": "Invoque un crapaud qui lance sa langue vers l'avant.\nAttire les ennemis touchés.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_030_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_4000",
+        "Text": "Technique des Dix Ombres"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_4000",
+        "Text": "Vous utilisez les ombres pour invoquer un familier qui vous aide au combat.\nVous consommez de l'énergie occulte en continu tant que le familier est actif.\nLorsque Megumi attaque, le familier réalise automatiquement des attaques complémentaires.\nAppuyez sur <img id=\"CursedEnergyAttack_1\"/> lorsque votre familier est actif pour utiliser de l'énergie occulte et lui ordonner d'attaquer.\nVous pouvez vous déplacer tout en donnant des ordres d'attaque.\nAppuyez sur <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> pour faire disparaître le familier.\nLe familier disparaît lorsque l'énergie occulte devient insuffisante.\nNiveau d'énergie occulte 1 : Invoquez Nué en appuyant sur <img id=\"CursedEnergyAttack_1\"/>.\nNiveau d'énergie occulte 2 : Invoquez Totalité en appuyant sur <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>.\nNiveau d'énergie occulte 3 : Les ennemis touchés par une attaque de Nué sont ralentis. Augmente les dégâts infligés par Totalité."
+      },
+      "CMD_COMMAND_NAME_CP_030_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_5000",
+        "Text": "Combo de familier"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_5000",
+        "Text": "Lance une attaque d'équipe avec votre familier.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nS'il est activé sans familier actif, vous pourrez invoquer Totalité.\nLorsque Megumi attaque, le familier lance automatiquement des attaques complémentaires.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés.\nLorsqu'il est actif, Totalité tourne autour de l'ennemi."
+      },
+      "CMD_COMMAND_NAME_CP_030_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_7000",
+        "Text": "Combo avec le familier"
+      },
+      "CMD_COMMAND_NAME_CP_030_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_030_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1003>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_030_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_030_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de pied retourné.\nPropage une nappe d'ombre qui empêche l'ennemi de se déplacer, puis inflige des dégâts considérables avec votre familier.\nLorsque le territoire se referme, vous ne pouvez pas utiliser de technique d'énergie occulte pendant un certain temps."
+      },
+      "CMD_PASSIVE_NAME_CP_030_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_030_1000",
+        "Text": "Interprétation de la Technique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_030_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_030_1000",
+        "Text": "S'active à un niveau d'énergie occulte de 3.\nMegumi peut contrôler ses familiers même lorsqu'il est attaqué."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_040": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_040",
+        "Text": "Une combattante à moyenne portée infligeant les techniques uniques Résonance et Épingle à cheveux aux ennemis.\nMettre la pression sur les adversaires est la clé pour prendre l'ascendant dans n'importe quelle bataille.\n\n• La technique vaudou Épingle à cheveux peut être déclenchée à tout moment après avoir lancé un clou. Cherchez donc le moment où il est plus difficile de parer l'attaque.\n• Si l'ennemi s'approche, pas de panique : vous pouvez lui lancer la Technique vaudou Résonance ou une technique d'extraction.\n\nLe marquage vous permet d'attaquer à n'importe quelle distance alors profitez-en pour faire douter vos adversaires !"
+      },
+      "CMD_COMMAND_NAME_CP_040_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1000",
+        "Text": "Attaque de clous"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1000",
+        "Text": "Une attaque à distance qui projette des clous sur l'ennemi.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_040_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_1060",
+        "Text": "Lancement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_040_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2000",
+        "Text": "Barrage de clous"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2000",
+        "Text": "Une attaque à distance qui projette des clous sur l'ennemi."
+      },
+      "CMD_COMMAND_NAME_CP_040_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_2060",
+        "Text": "Attaque de clous à large portée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_2060",
+        "Text": "Une attaque à moyenne portée qui projette une salve de clous."
+      },
+      "CMD_COMMAND_NAME_CP_040_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3000",
+        "Text": "Double attaque au marteau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner deux coups de marteau."
+      },
+      "CMD_COMMAND_NAME_CP_040_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_040_3060",
+        "Text": "Grande frappe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_3060",
+        "Text": "Une attaque à courte portée consistant à donner un large coup de marteau en arc de cercle tout en avançant."
+      },
+      "CMD_COMMAND_NAME_CP_040_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_4000",
+        "Text": "<img id=\"CursedEnergyAttack_1\"/>\nTire un clou imprégné d'énergie occulte, infligeant Épingle à cheveux à tout ennemi touché.\nCette technique peut être maintenue.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nActive Épingle à cheveux pour infliger des dégâts à distance en une seule fois.\nNiveau d'énergie occulte 2 : augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_040_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_5000",
+        "Text": "Technique vaudou : Résonance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/>\nInflige Résonance en arrachant une partie du corps de l'ennemi lors d'une attaque directe.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/>\nActive Résonance pour infliger des dégâts à distance.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_040_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_7000",
+        "Text": "Combo de clous"
+      },
+      "CMD_COMMAND_NAME_CP_040_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_040_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1004>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_040_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_040_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup avec un clou imprégné d'énergie occulte.\nInsuffle de l'énergie occulte dans le clou à distance et le fait exploser pour infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_040_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_040_1000",
+        "Text": "Pronostic"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_040_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_040_1000",
+        "Text": "Augmente l'énergie occulte gagnée en attaquant un ennemi avec Épingle à cheveux ou Résonance."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_050": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_050",
+        "Text": "Un classe S polyvalent qui domine le terrain grâce à des sorts uniques et des techniques de combat impressionnantes.\n\n• Son potentiel, « Sort : Pouvoir de l'infini », permet d'annuler toutes les attaques.\nDéchaînez l'infini et détruisez tout sur votre passage !\n• Utilisez le Sort originel : bleu pour immobiliser les ennemis en fuite et le Sort inversé : rouge pour empêcher les assaillants de vous atteindre.\nÉquation imaginaire : violet est une technique puissante et dévastatrice.\n• Une fois Extension du territoire : Sphère de l'espace infini activée, les techniques d'énergie occulte se transforment en variations spéciales, créant l'occasion parfaite pour emporter la victoire !"
+      },
+      "CMD_COMMAND_NAME_CP_050_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1000",
+        "Text": "Attaque en barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte une série de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_050_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_1060",
+        "Text": "Coup de genou"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_1060",
+        "Text": "Vous vous dirigez instantanément vers l'ennemi et le chargez.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_050_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2000",
+        "Text": "Coup de pied rotatif"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte une série de coups.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_050_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_2060",
+        "Text": "Assommoir"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_2060",
+        "Text": "Vous vous dirigez instantanément vers l'ennemi et lui assénez un coup de pied.\nPendant l'attaque, vous pouvez appuyez une nouvelle fois pour enchaîner avec une attaque complémentaire qui le projette au sol.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_050_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3000",
+        "Text": "Coup de pied ascendant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_050_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_050_3060",
+        "Text": "Coup de pied rotatif tourbillonnant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_3060",
+        "Text": "Vous vous dirigez instantanément vers l'ennemi et lui assénez des coups de pied en chaîne.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec un coup de pied complémentaire qui le projette au sol."
+      },
+      "CMD_COMMAND_NAME_CP_050_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_4000",
+        "Text": "Sort originel : bleu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_4000",
+        "Text": "Attire les adversaires avec le pouvoir négatif amélioré du Sort : Pouvoir de l'infini.\nCette technique peut être maintenue.\nUtilisez <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> pour ajuster la position.\nNiveau d'énergie occulte 2 : Augmente le pouvoir d'attraction. Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage le pouvoir d'attraction. Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_050_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_5000",
+        "Text": "Sort inversé, rouge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_5000",
+        "Text": "Insuffle de l'énergie positive dans le Sort : Pouvoir de l'infini qui ajoute un effet de répulsion.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Réduit le temps de recharge et augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Réduit davantage le temps de recharge et augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_050_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_6000",
+        "Text": "Équation imaginaire : violet"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_6000",
+        "Text": "Niveau d'énergie occulte 3 :\nPermet à l'infini et sa dispersion de s'entrechoquer pour faire jaillir un gigantesque morceau de matière imaginaire.\nSe déplace en ligne droite et engloutit les ennemis sur son passage.\nCette technique peut être maintenue."
+      },
+      "CMD_COMMAND_NAME_CP_050_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_7000",
+        "Text": "Combo aérien"
+      },
+      "CMD_COMMAND_NAME_CP_050_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_050_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1005>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_050_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_050_8000",
+        "Text": "Vous restez sur place et développez un territoire qui attire les adversaires dans l'infini.\nLes ennemis sont envahis d'informations et sont immobilisés pendant quelques instants.\nLorsque le territoire se referme, toute technique d'énergie occulte devient temporairement une attaque martiale."
+      },
+      "CMD_PASSIVE_NAME_CP_050_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_1000",
+        "Text": "Sixième Œil"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_1000",
+        "Text": "Toujours activé.\nSurveille la jauge d'énergie occulte de l'adversaire."
+      },
+      "CMD_PASSIVE_NAME_CP_050_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_2000",
+        "Text": "Sort : Pouvoir de l'infini"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_2000",
+        "Text": "Peut être activé en consommant la jauge d'énergie occulte en effectuant une garde pendant un certain temps lorsque le niveau d'énergie occulte est de 2 ou plus.\nL'infini apparaît autour de vous, et un certain nombre d'attaques ne vous toucheront pas."
+      },
+      "CMD_PASSIVE_NAME_CP_050_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_050_3000",
+        "Text": "Lévitation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_050_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_050_3000",
+        "Text": "Lévitez en maintenant la commande de saut enfoncée."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_060": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_060",
+        "Text": "Une pro du combo rapide et agile, elle est capable de réaliser des chaînes de combo impressionnantes.\nMaki utilise sa force physique au lieu de l'énergie occulte pour infliger des coups redoutables.\n\n• Son potentiel, « Jauge de frappe », améliore sa vitesse de déplacement au fil du combat.\nNe montrez aucune pitié et passez à l'offensive avant que votre ennemi ne comprenne ce qu'il lui arrive !\n• Esquivez les attaques adverses avec « Parade et contre-attaque ».\nVous pouvez également annuler vos propres attaques pour enchaîner sur d'autres techniques !\nRéalisez des combos surprenants pour écraser vos ennemis !"
+      },
+      "CMD_COMMAND_NAME_CP_060_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1000",
+        "Text": "Coups d'épée frénétiques"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le pourfendre avec une épée longue.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'objet maudit."
+      },
+      "CMD_COMMAND_NAME_CP_060_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_1060",
+        "Text": "Coup de pied"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_060_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2000",
+        "Text": "Combo à l'épée : Fendoir"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour déclencher un combo rapide de trois coups mêlant attaques tranchantes et coups de pied."
+      },
+      "CMD_COMMAND_NAME_CP_060_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_2060",
+        "Text": "Combo à l'épée : Frappe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup d'épée longue.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec un coup de pied qui projette l'ennemi dans les airs."
+      },
+      "CMD_COMMAND_NAME_CP_060_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3000",
+        "Text": "Lancer d'arme dissimulée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3000",
+        "Text": "Une attaque à distance qui projette des armes dissimulées."
+      },
+      "CMD_COMMAND_NAME_CP_060_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_060_3060",
+        "Text": "Propulsion"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_3060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le charger avec votre épée longue.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec coup de poignard au sol."
+      },
+      "CMD_COMMAND_NAME_CP_060_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_4000",
+        "Text": "Parade et contre-attaque"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_4000",
+        "Text": "Vous évitez les attaques ennemies grâce à une esquive.\nUtilisez cette technique pendant que vous attaquez pour annuler votre action.\nS'active automatiquement si vous êtes immobile ou si vous sprintez.\n<img id=\"CursedEnergyAttack_1\"/>\nVous esquivez sur place.\n<img id=\"MoveLeft\"/>, <img id=\"MoveRight\"/> ou <img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nVous esquivez dans la direction souhaitée.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/>\nVous effectuez un saut périlleux vers l'avant.\nNiveau de force physique 2 : Réduit le temps de réalisation.\nNiveau de force physique 3 : Réduit davantage le temps de réalisation."
+      },
+      "CMD_COMMAND_NAME_CP_060_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_5000",
+        "Text": "Épée tournoyante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_5000",
+        "Text": "Vous faites tournoyer votre épée longue et exécutez une danse des épées.\nNiveau de force physique 2 : Augmente le nombre d'attaques.\nNiveau de force physique 3 : Augmente davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_060_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_7000",
+        "Text": "Triple attaque aérienne"
+      },
+      "CMD_COMMAND_NAME_CP_060_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_060_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1006>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_060_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_060_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup d'épée longue.\nAssénez d'innombrables coups avec Nuage flottant, un objet maudit de classe S qui inflige des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_060_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_1000",
+        "Text": "Serment inné : Endurance physique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_1000",
+        "Text": "Compense un manque d'énergie occulte par des capacités physiques exceptionnelles."
+      },
+      "CMD_PASSIVE_NAME_CP_060_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_060_2000",
+        "Text": "<GLO=GLS_GAME_WORDS_1511>"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_060_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_060_2000",
+        "Text": "Possède une jauge spéciale qui se remplit en frappant l'ennemi.\nLorsque la jauge de frappe se remplit, la vitesse d'attaque et la vitesse et la distance de déplacement augmentent.\nLa jauge diminue après un certain temps."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_070": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_070",
+        "Text": "Un attaquant hors du commun qui mêle arts martiaux légers et puissantes incantations pour se jouer de ses adversaires.\nIl se sert de ses incantations pour faire pression sur les défenses de l'ennemi.\n\n• Les incantations sont des attaques puissantes, mais utilisez-les raisonnablement ou vous en subirez les conséquences.\n• Si votre gorge est mal en point, vous pouvez récupérer en buvant du sirop pour la toux.\n• « Ne bouge plus » et « Tords-toi » sont de puissantes techniques d'énergie occulte qui peuvent être utilisées comme contre-attaques. \n• La quantité de jauge de gorge consommée par les incantations diffère selon l'écart de niveau entre vous et l'ennemi. Observez votre ennemi et lancez une contre-attaque dévastatrice au bon moment !\nAnalysez bien votre écart de niveau d'énergie occulte avant de passer à l'action !"
+      },
+      "CMD_COMMAND_NAME_CP_070_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1000",
+        "Text": "Coups de pied en chaîne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte une myriade de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_070_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_1060",
+        "Text": "Coup de pied tornade"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied rotatif.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_070_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2000",
+        "Text": "Coup de talon retourné"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2000",
+        "Text": "Une attaque à courte portée qui déchaîne une série de coups de talon en tombant."
+      },
+      "CMD_COMMAND_NAME_CP_070_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_2060",
+        "Text": "Dose de sirop pour la toux"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_2060",
+        "Text": "Vous avalez un sirop contre la toux pour récupérer de la durabilité au niveau de la gorge.\nVous pouvez vous déplacer pendant cette action. Impossible de sprinter."
+      },
+      "CMD_COMMAND_NAME_CP_070_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3000",
+        "Text": "Frénésie/« Explosion »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour déclencher un combo implacable à partir d'un puissant coup de pied.\nCette attaque peut s'enchaîner avec « Explosion ».\n« Explosion »\nAttaque à moyenne portée qui utilise des paroles imprégnées d'énergie occulte pour projeter vos ennemis dans les airs."
+      },
+      "CMD_COMMAND_NAME_CP_070_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_070_3060",
+        "Text": "« Arrête-toi »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_3060",
+        "Text": "Une attaque à moyenne portée qui diffuse des paroles imprégnées d'énergie occulte pour immobiliser les ennemis."
+      },
+      "CMD_COMMAND_NAME_CP_070_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_4000",
+        "Text": "« Tombe »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_4000",
+        "Text": "Une attaque à moyenne portée qui diffuse des paroles imprégnées d'énergie occulte pour renverser les ennemis qui se trouvent sur leur chemin.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_070_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_5000",
+        "Text": "« Ne bouge plus » ; « Tords-toi »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_5000",
+        "Text": "Adoptez une position défensive, puis lancez Incantation lorsque vous êtes attaqué par un ennemi.\nDites « Ne bouge plus » pour immobiliser l'ennemi, puis « Tords-toi » pour infliger des dégâts.\nNiveau d'énergie occulte 2 : Augmente les dégâts.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts."
+      },
+      "CMD_COMMAND_NAME_CP_070_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_7000",
+        "Text": "« Explose »"
+      },
+      "CMD_COMMAND_NAME_CP_070_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_070_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1007>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_070_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_070_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de genou.\nUtilisez « Arrête-toi » pour bloquer le mouvement, puis infligez des dégâts considérables\navec « Écrase-toi »."
+      },
+      "CMD_PASSIVE_NAME_CP_070_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_070_1000",
+        "Text": "Incantateur"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_070_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_070_1000",
+        "Text": "L'utilisation d'incantations consomme une jauge de gorge spéciale.\nLa consommation de la jauge de gorge dépend de la différence de niveau d'énergie occulte entre vous-même et le personnage affecté par l'incantation.\nLorsque le niveau de la jauge de gorge est faible, le délai d'activation augmente et vous subissez des dégâts."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_080": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_080",
+        "Text": "Avec ce combattant de mêlée et ses deux formes, vous pouvez flotter comme un panda et frapper comme un... gorille ?\nPanda possède des techniques capables de le plonger dans un état durable, le rendant invulnérable à la peur et aux interruptions d'attaque. Faites-en bon usage !\n\n• En mode Gorille, vous êtes toujours en état durable, ce qui augmente votre vitesse de déplacement.\nLes attaques légères ne vous font pas peur, alors n'hésitez pas à foncer sur vos ennemis !\n• « Drumming Beat » ne peut pas être paré.\nFaites souffrir même les ennemis qui se protègent !"
+      },
+      "CMD_COMMAND_NAME_CP_080_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1000",
+        "Text": "Coup double <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un déluge de coups de poing.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_080_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_1060",
+        "Text": "Frappe <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_080_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2000",
+        "Text": "Triple <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2000",
+        "Text": "Une attaque à courte portée qui déchaîne un combo de trois coups tout en avançant."
+      },
+      "CMD_COMMAND_NAME_CP_080_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_2060",
+        "Text": "Écrasement <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_2060",
+        "Text": "Une attaque à courte portée qui consiste à abaisser les deux mains en tombant.\nPlaque l'adversaire au sol avant qu'il soit projeté dans les airs par l'onde de choc qui s'ensuit."
+      },
+      "CMD_COMMAND_NAME_CP_080_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3000",
+        "Text": "Coup de hanche du <GLO=GLS_NAME_CP_080>/Uppercut du <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3000",
+        "Text": "Une attaque à courte portée utilisant le postérieur d'un panda.\nEn état durable pendant l'attaque.\nMode Gorille : une attaque à courte portée qui consiste à foncer sur l'ennemi en balançant les deux bras vers le haut pour le projeter en l'air."
+      },
+      "CMD_COMMAND_NAME_CP_080_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_080_3060",
+        "Text": "Plaquage <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_3060",
+        "Text": "Une attaque à courte portée qui déclenche un puissant plaquage vers l'avant.\nEn état durable pendant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_080_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_4000",
+        "Text": "Ruée <GLO=GLS_NAME_CP_080>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_4000",
+        "Text": "Vous portez d'innombrables coups rapides à l'ennemi avant de le projeter en l'air de toutes vos forces.\nNiveau d'énergie occulte 2 : Augmente le nombre d'attaques.\nNiveau d'énergie occulte 3 : Augmente davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_080_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_5000",
+        "Text": " Mode <GLO=GLS_NAME_CP_081>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_5000",
+        "Text": "Peut être utilisé à n'importe quel niveau lorsque votre énergie occulte est à son maximum \nVous permutez les noyaux pour passer en mode Gorille et devenez invulnérable à la peur, infligeant des dégâts avec toutes les attaques. \nLorsque vous êtes en mode Gorille, « Drumming Beat » est activé. \nConsomme de l'énergie occulte en continu et vous fait revenir en mode Panda lorsqu'elle est épuisée."
+      },
+      "CMD_COMMAND_NAME_CP_080_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_7000",
+        "Text": "Coup violent du gorille"
+      },
+      "CMD_COMMAND_NAME_CP_080_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_080_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1008>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_080_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_080_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un uppercut.\nAprès avoir porté une série de coups en mode Gorille, vous frappez aussi fort que possible pour infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_080_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_1000",
+        "Text": "Remplacement de la grande sœur"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_1000",
+        "Text": "Lorsque vous êtes sur le point d'être vaincu, vous revenez à la vie une seule fois avec un peu de santé."
+      },
+      "CMD_PASSIVE_NAME_CP_080_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_080_2000",
+        "Text": "Drumming Beat"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_080_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_080_2000",
+        "Text": "Les attaques en mode <GLO=GLS_NAME_CP_081> peuvent infliger des dégâts même si l'ennemi utilise la garde.\nCes dégâts ne peuvent pas être utilisés pour effectuer un coup de grâce."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_090": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_090",
+        "Text": "Cet exorciste de classe 1 fait des ravages grâce à ses sorts.\nAppuyez une nouvelle fois au bon moment pour déclencher un Sort de division par 10 pendant certaines techniques pour réaliser des coups critiques !\nGardez votre sang-froid, analysez votre ennemi et lancez une attaque à pleine puissance !\n\n• Qu'il s'agisse de votre puissant Sort de division par 10 ou de votre combo de mêlée en quatre étapes dévastatrices, utilisez vos techniques d'énergie occulte en fonction de la situation.\n• Son potentiel, « Énergie occulte libérée » s'active lorsque le temps est presque écoulé, ce qui vous confère un avantage considérable.\nCet ex-salarié n'a pas le temps de faire des heures supplémentaires !"
+      },
+      "CMD_COMMAND_NAME_CP_090_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1000",
+        "Text": "Double attaque tranchante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner deux coups de machette.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_090_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_1060",
+        "Text": "Frappe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui planter une machette.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_090_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2000",
+        "Text": "Coup ascendant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lancer votre machette en arc de cercle vers le haut.\nAppuyez une nouvelle fois au bon moment entraîne un coup critique."
+      },
+      "CMD_COMMAND_NAME_CP_090_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_2060",
+        "Text": "Coup de pied à distance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_2060",
+        "Text": "Une attaque à courte portée avec un coup de pied rotatif."
+      },
+      "CMD_COMMAND_NAME_CP_090_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3000",
+        "Text": "Fracassement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lancer votre machette vers le bas de toutes vos forces.\nAppuyez une nouvelle fois au bon moment entraînera un coup critique."
+      },
+      "CMD_COMMAND_NAME_CP_090_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_090_3060",
+        "Text": "Onde de choc"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_3060",
+        "Text": "Une attaque à courte portée qui consiste à frapper le sol avec votre poing et à produire une onde de choc.\nSi vous exécutez cette technique en l'air, vous retomberez brutalement au sol."
+      },
+      "CMD_COMMAND_NAME_CP_090_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_4000",
+        "Text": "Une attaque à courte portée qui consiste à utiliser la règle des sept-trois pour créer un point faible et infliger des dégâts considérables.\nCette technique peut être maintenue.\nAppuyez une nouvelle fois au bon moment entraîne un coup critique.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_090_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_5000",
+        "Text": "Combo de mêlée en quatre étapes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_5000",
+        "Text": "Une attaque à courte portée qui imprègne votre machette et votre poing d'énergie occulte et qui vous permet de frapper avec les deux successivement.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_090_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_7000",
+        "Text": "Sort de division par 10, Décombres"
+      },
+      "CMD_COMMAND_NAME_CP_090_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_090_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1009>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_090_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_090_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup au corps.\nPourfend avec précision le point faible créé par votre sort pour infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_090_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_090_1000",
+        "Text": "Énergie occulte libérée"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_090_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_090_1000",
+        "Text": "S'active lorsque le temps restant de combat est bas.\nAugmente automatiquement l'énergie occulte.\nAugmente la vitesse de récupération d'énergie occulte.\nAugmente la vitesse de sprint.\nDiminue la consommation de la jauge de sprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_100": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_100",
+        "Text": "Un exorciste de talent à la poigne de gorille qui contrôle le cours de la bataille en changeant de position.\nMême si la plupart de ses attaques sont au corps à corps, en échangeant de place avec Boogie-Woogie, il peut se rapprocher de ses ennemis tout en esquivant leurs coups.\n\n• Boogie-Woogie permet de changer de place avec n'importe quelle cible, alors utilisez-le à bon escient et aussi souvent que possible !\n• Sa force exceptionnelle envoie valser ses ennemis à chaque coup et vous pouvez toujours porter des attaques complémentaires en changeant de position !\n\nLa coordination d'équipe restera essentielle, mais Boogie-Woogie vous permet de tourner un désavantage en votre faveur !"
+      },
+      "CMD_COMMAND_NAME_CP_100_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1000",
+        "Text": "Attaque de mêlée en trois coups"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1000",
+        "Text": "Vous guide vers l'ennemi et lui porte une série de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_100_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_1060",
+        "Text": "Coup de pied ascendant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_100_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2000",
+        "Text": "Coup de pied à distance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup rapide et le repousser d'un coup de pied."
+      },
+      "CMD_COMMAND_NAME_CP_100_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_2060",
+        "Text": "Lariat"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_2060",
+        "Text": "Une attaque à courte portée se terminant sur un lariat après une courte charge.\nEn état durable pendant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_100_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3000",
+        "Text": "Jet de pierre : Attaque Boogie-Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3000",
+        "Text": "Une attaque à distance qui consiste à lancer une pierre imprégnée d'énergie occulte.\nLorsqu'elle touche un ennemi, vous échangez de position avec la pierre et exécutez instantanément une attaque complémentaire.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_100_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_100_3060",
+        "Text": "Jet de pierre : Téléportation Boogie-Woogie"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_3060",
+        "Text": "Vous lancez une pierre dans n'importe quelle direction et permutez instantanément de position avec elle.\nCette technique peut être maintenue.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_100_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_4000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_4000",
+        "Text": "Frappez dans vos mains pour échanger instantanément les positions de deux combattants (soit vous-même avec quelqu'un d'autre, soit deux autres personnages).\nSélectionnez les personnes à échanger en indiquant une direction.\nVous pouvez enchaîner sur d'autres techniques.\n<img id=\"CursedEnergyAttack_1\"/> : Vous échangez votre position avec celle de la cible.\n<img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/>+<img id=\"CursedEnergyAttack_1\"/> : Vous échangez la position d'un allié et d'un ennemi.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> : Vous échangez la position de deux ennemis.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> : Vous échangez votre position avec celle d'un allié.\nNiveau d'énegie occulte 2 : Réduit le temps d'activation.\nNiveau d'énegie occulte 3 : Réduit encore davantage le temps d'activation."
+      },
+      "CMD_COMMAND_NAME_CP_100_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_5000",
+        "Text": "Frappes en chaîne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_5000",
+        "Text": "Une attaque à courte portée qui vous permet d'accumuler de la puissance et de déclencher un puissant barrage de quatre coups.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_100_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_7000",
+        "Text": "Découpe verticale"
+      },
+      "CMD_COMMAND_NAME_CP_100_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_100_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1010>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_100_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_100_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de pied haut.\nVous échangez votre position avec celle de l'ennemi touché et déclenchez un Rayon noir surpuissant qui le projette dans les airs et lui inflige des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_100_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_100_1000",
+        "Text": "Lancement du sort"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_100_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_100_1000",
+        "Text": "Utiliser Boogie-Woogie aura les effets suivants pendant un certain temps : augmentation de la vitesse de déplacement, diminution de la consommation de la jauge de sprint.\nCet effet varie en fonction du niveau d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_110": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_110",
+        "Text": "Un attaquant à courte portée qui se met en rage dès que ses alliés sont blessés.\n\n• Son potentiel, « Rage », fait apparaître Rika lorsque la jauge est au maximum.\nAttaquez l'ennemi avec ce déluge d'énergie occulte et de puissantes attaques complémentaires avec Rika !\n• Utilisez « Détermination » pour imprégner votre épée d'énergie occulte et infligez des dégâts avec des techniques de combo et des techniques d'extraction.\nLancez une attaque et utilisez « Courage » pour infliger des dégâts considérables !"
+      },
+      "CMD_COMMAND_NAME_CP_110_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1000",
+        "Text": "Attaque tranchante en trois coups"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le pourfendre avec une épée.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nLorsqu'elle est en état de rage, Rika effectue une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_110_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_1060",
+        "Text": "Attaque tranchante diagonale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le pourfendre avec une épée.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_110_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2000",
+        "Text": "Double attaque tranchante descendante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner deux coups consécutifs.\nLorsqu'elle est en état de rage, <GLO=GLS_NAME_CN_040> effectue une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_110_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_2060",
+        "Text": "Coup tranchant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_2060",
+        "Text": "Une attaque qui assène un coup rotatif à l'ennemi et le repousse.\nLorsqu'elle est en état de rage, <GLO=GLS_NAME_CN_040> effectue une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_110_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3000",
+        "Text": "Attaque tranchante plongeante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3000",
+        "Text": "Une attaque à courte portée qui vous permet de vous approcher de l'ennemi d'un bond pour lui asséner un coup rotatif en l'air.\nVous pouvez enchaîner sur d'autres techniques.\nLorsqu'elle est en état de rage, Rika effectue une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_110_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_110_3060",
+        "Text": "Attaque tranchante glissante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_3060",
+        "Text": "Une attaque à courte portée dans laquelle vous effectuez une glissade pour vous rapprocher de l'ennemi et lui asséner un coup vers le haut.\nVous pouvez enchaîner sur d'autres techniques.\nLorsqu'elle est en état de rage, Rika effectue une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_110_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_4000",
+        "Text": "Courage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_4000",
+        "Text": "Une attaque consistant à foncer sur l'ennemi à toute vitesse pour lui asséner des coups consécutifs.\nLorsqu'elle est en état de rage, <GLO=GLS_NAME_CN_040> effectue une attaque complémentaire.\nNiveau d'énergie occulte 2 : Augmente le nombre d'attaques.\nNiveau d'énergie occulte 3 : Augmente davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_110_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_5000",
+        "Text": "Détermination"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_5000",
+        "Text": "Imprègne votre épée d'énergie occulte pour renforcer vos attaques.\nPermet également à toutes les attaques d'infliger des dégâts.\nConsomme de l'énergie occulte en continu jusqu'à ce que vous appuyiez une nouvelle fois ou que l'énergie occulte tombe à zéro."
+      },
+      "CMD_COMMAND_NAME_CP_110_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_7000",
+        "Text": "Rayon noir"
+      },
+      "CMD_COMMAND_NAME_CP_110_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_110_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1011>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_110_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_110_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant une frappe du poing gauche.\nLève les restrictions et libère une énorme quantité d'énergie occulte à travers Rika, infligeant des dégâts considérables.\nUne fois que cette technique a été activée, Rika n'apparaît plus dans le combat en cours."
+      },
+      "CMD_PASSIVE_NAME_CP_110_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_110_1000",
+        "Text": "Rage"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_110_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_110_1000",
+        "Text": "Possède une jauge spéciale qui se remplit lorsque les alliés subissent des dégâts ou sont éliminés.\nQuand la jauge atteint son maximum, Rika se manifeste et attaque aux côtés de Yuta.\nQuand Yuta est attaqué, vous pouvez utiliser la jauge pour contrer avec Rika en appuyant sur <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/>, <img id=\"NormalAttack_3\"/>, <img id=\"CursedEnergyAttack_1\"/>, ou <img id=\"CursedEnergyAttack_2\"/>.\nSi la garde de Yuta est attaquée, la jauge se consumera et Rika contre-attaquera.\nQuand Rika est invoquée, votre niveau d'énergie occulte est à son max."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_120": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_120",
+        "Text": "Un attaquant à moyenne portée qui utilise la manipulation des esprits pour submerger ses adversaires.\nIl domine ses ennemis à l'aide de ses compétences de classe S pour enchaîner des techniques d'extraction polyvalentes et des techniques d'énergie occulte dévastatrices.\n\n• Manipulation des esprits : Groupe libère une rafale de fléaux qui foncent sur tous les ennemis devant eux.\n• Manipulation des esprits : Pilier lumineux est une attaque lente, mais couvre une zone si large qu'il est impossible d'esquiver et frappe tous les ennemis en même temps.\n\nUtilisez vos techniques d'énergie occulte à bon escient pour prendre l'ascendant sur vos adversaires !"
+      },
+      "CMD_COMMAND_NAME_CP_120_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1000",
+        "Text": "Barrage de fléaux"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1000",
+        "Text": "Une attaque à moyenne portée qui invoque plusieurs fléaux à la suite avant de les lancer sur l'ennemi.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_120_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_1060",
+        "Text": "Manipulation des esprits : Lier"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_1060",
+        "Text": "Une attaque à moyenne portée qui invoque un fléau et le lie.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_120_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2000",
+        "Text": "Manipulation des esprits : Attraction"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2000",
+        "Text": "Une attaque à moyenne portée qui invoque deux fléaux avant de les lancer sur l'ennemi.\nAprès l'attaque, ils reviennent sur leurs pas pour attirer l'ennemi vers vous.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_120_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_2060",
+        "Text": "Manipulation des esprits : Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_2060",
+        "Text": "Une attaque à moyenne portée qui invoque un fléau pour poursuivre et attaquer l'ennemi."
+      },
+      "CMD_COMMAND_NAME_CP_120_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3000",
+        "Text": "Double attaque de mêlée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied bondissant.\nVous enchaînez avec un coup et faites tomber l'ennemi avec votre poing droit.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_120_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_120_3060",
+        "Text": "Manipulation des esprits : Lancement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_3060",
+        "Text": "Une attaque à courte portée qui invoque un fléau à vos pieds tout en faisant un pas en arrière.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_120_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_4000",
+        "Text": "Manipulation des esprits : Groupe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_4000",
+        "Text": "Vous utilisez deux types de fléaux capturés pour attaquer.\n<img id=\"CursedEnergyAttack_1\"/>\nAttaque à moyenne portée qui envoie plusieurs fléaux.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nAttaque à courte portée qui envoie plusieurs fléaux sur l'ennemi.\nNiveau d'énergie occulte 2 : Invoque davantage de fléaux et augmente le nombre de coups.\nNiveau d'énergie occulte 3 : Invoque encore davantage de fléaux et augmente davantage le nombre de coups."
+      },
+      "CMD_COMMAND_NAME_CP_120_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_5000",
+        "Text": "Manipulation des esprits : Pilier lumineux"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_5000",
+        "Text": "Invoque un fléau de semi-classe 1 pour générer un pilier de lumière à l'emplacement de l'ennemi et l'attaquer.\nNiveau d'énergie occulte 2 : Augmente le nombre d'attaques.\nNiveau d'énergie occulte 3 : Augmente davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_120_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_7000",
+        "Text": "Combo de Nuage flottant"
+      },
+      "CMD_COMMAND_NAME_CP_120_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_120_8000",
+        "Text": "Niveau extrême de manipulation des esprits : Spirale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_120_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_120_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de pied retourné.\nUne grande partie des esprits absorbés par la manipulation des esprits est libérée d'un coup pour infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_120_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_120_1000",
+        "Text": "Maître des fléaux de classe S"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_120_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_120_1000",
+        "Text": "S'active à un niveau d'énergie occulte de 2 ou plus.\nIl est possible d'annuler le délai des attaques en utilisant une technique d'énergie occulte.\nCette annulation peut être encore plus rapide lorsque le niveau d'énergie occulte augmente."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_130": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_130",
+        "Text": "Un combattant à moyenne portée qui contrôle la bataille avec des attaques de grande envergure, avant de se rapprocher de son ennemi pour miner sa santé.\nTransformez votre propre corps et contrôlez votre distance d'attaque en fonction de la situation.\n\n• Son potentiel, « Altération absolue », inflige des dégâts supplémentaires tant que vous continuez à porter des attaques, alors ne vous arrêtez pas !\nPendant l'Extension du territoire : Orbe d'isolement, « Altération absolue » devient encore plus puissante !\n• Libérez des humains transfigurés avec « Il va falloir être sage » pour attaquer à distance.\nPrenez d'assaut votre ennemi des deux côtés pour l'éliminer !"
+      },
+      "CMD_COMMAND_NAME_CP_130_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1000",
+        "Text": "Attaque de transformation : Bras"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le frapper à l'aide d'un bras transformé.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_130_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_1060",
+        "Text": "Attaque de transformation : Pics"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_1060",
+        "Text": "Une attaque à courte portée qui fait se recroqueviller votre corps et le hérisse de pics de toutes parts.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_130_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2000",
+        "Text": "Attaque en barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le désorienter avec des mouvements complexes.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_130_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_2060",
+        "Text": "Barrage d'attaques tournoyantes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi avant que votre bras ne se transforme en épée, le pourfende, puis le repousse à l'aide d'une main géante."
+      },
+      "CMD_COMMAND_NAME_CP_130_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3000",
+        "Text": "Attaque de transformation : Foreuse"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3000",
+        "Text": "Une attaque perforante à moyenne portée qui transforme votre bras en foreuse."
+      },
+      "CMD_COMMAND_NAME_CP_130_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_130_3060",
+        "Text": "Attaque de transformation : Épée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_3060",
+        "Text": "Une attaque à courte portée qui transforme votre bras en épée et pourfend l'ennemi."
+      },
+      "CMD_COMMAND_NAME_CP_130_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_4000",
+        "Text": "Il va falloir être sage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_4000",
+        "Text": "Invoque des humains transfigurés disponibles pour attaquer les ennemis.\nInflige progressivement des dégâts aux ennemis touchés et ralentit leurs mouvements.\nSi la technique est activée alors qu'aucun humain n'est disponible, elle provoque des vomissements et reconstitue la réserve.\nNiveau d'énergie occulte 2 : Augmente la capacité de la réserve.\nNiveau d'énergie occulte 3 : Augmente davantage la capacité de la réserve."
+      },
+      "CMD_COMMAND_NAME_CP_130_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_5000",
+        "Text": "« Multiplicité de l'âme » « Répulsion »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_5000",
+        "Text": "Fusionne plusieurs âmes en une pour en augmenter la masse, puis la lance sur l'ennemi.\nConsomme toute la réserve d'humains transfigurés.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : augmente la portée.\nAugmente les dégâts infligés.\nNiveau d'énergie occulte 3 : augmente davantage la portée.\nAugmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_130_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_7000",
+        "Text": "Altération absolue"
+      },
+      "CMD_COMMAND_NAME_CP_130_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_130_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1013>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_130_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_130_8000",
+        "Text": "Vous restez sur place, placez un sceau dans votre bouche et créez un territoire.\nModifie la carte pendant un certain temps et améliore vos attaques.\nDe plus, la récupération de l'énergie occulte et la vitesse de déplacement des ennemis situés dans le territoire sont réduites.\nLorsque le territoire se referme, vous ne pouvez pas utiliser de technique d'énergie occulte pendant un certain temps."
+      },
+      "CMD_PASSIVE_NAME_CP_130_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_1000",
+        "Text": "Essence de l'âme"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_1000",
+        "Text": "Lorsqu'un adversaire attaque, l'énergie occulte augmente en fonction des dégâts subis."
+      },
+      "CMD_PASSIVE_NAME_CP_130_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_130_2000",
+        "Text": "Altération absolue"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_130_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_130_2000",
+        "Text": "Inflige des dégâts supplémentaires lorsque l'ennemi est touché un certain nombre de fois.\nLe compteur se remet à zéro après un certain temps."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_140": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_140",
+        "Text": "Un tireur à moyenne et longue portée qui court sur le champ de bataille, forçant les ennemis à combattre à distance.\n\n• Attaquez l'ennemi avec des techniques de combo qui peuvent être exécutées en mouvement et cherchez l'occasion de l'anéantir avec l'attaque à large portée « Feu d'énergie occulte ».\n• Activez l'Extension du territoire : Cercueil volcanique pour attirer tous les joueurs sur votre territoire pendant un certain temps.\nSur votre territoire, vos statistiques et vos techniques d'énergie occulte sont renforcées. Vous pouvez ainsi exercer un contrôle absolu sur vos adversaires !"
+      },
+      "CMD_COMMAND_NAME_CP_140_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1000",
+        "Text": "Boule de feu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1000",
+        "Text": "Une attaque à distance qui projette des petites boules de feu à intervalles rapprochés.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nLes commandes de mouvement peuvent être utilisées pendant l'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_140_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_1060",
+        "Text": "Boule de feu comprimée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_1060",
+        "Text": "Une attaque à distance qui projette des boules de feu avec les deux mains.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_140_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2000",
+        "Text": "Manifestation volcanique"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2000",
+        "Text": "Une attaque à distance qui crée un volcan qui crache des flammes aux pieds de l'ennemi."
+      },
+      "CMD_COMMAND_NAME_CP_140_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_2060",
+        "Text": "Piège volcanique"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_2060",
+        "Text": "Crée une zone volcanique à un endroit précis.\nLorsqu'un ennemi pénètre dans la zone, un volcan apparaît et crache des flammes."
+      },
+      "CMD_COMMAND_NAME_CP_140_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3000",
+        "Text": "Barrage de boules de feu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3000",
+        "Text": "Une attaque à distance qui génère plusieurs boules de feu sur place et les projette les unes après les autres."
+      },
+      "CMD_COMMAND_NAME_CP_140_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_140_3060",
+        "Text": "Explosion de flammes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_3060",
+        "Text": "Une attaque à courte portée qui projette des flammes tout en bondissant vers l'arrière.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_140_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_4000",
+        "Text": "Feu d'énergie occulte"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_4000",
+        "Text": "Libère de l'énergie occulte en ligne droite, brûlant tout sur son passage.\nCette technique peut être maintenue.\nConsomme de l'énergie occulte en continu tant que la technique est active.\nNiveau d'énergie occulte 2 : Augmente la portée et les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage la portée et les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_140_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_5000",
+        "Text": "Brûlure/Explosion/Météore supérieur"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_5000",
+        "Text": "Lance des boules de feu.\nNiveau d'énergie occulte 2 : Les boules de feu deviennent plus grosses et infligent davantage de dégâts.\nNiveau d'énergie occulte 3 : Se transforme en météore supérieur, provoquant une énorme explosion au point d'impact.\nCette technique peut être maintenue."
+      },
+      "CMD_COMMAND_NAME_CP_140_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_7000",
+        "Text": "Frelons volcaniques"
+      },
+      "CMD_COMMAND_NAME_CP_140_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_140_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1014>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_140_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_140_8000",
+        "Text": "Restez sur place et posez un territoire brûlant comme l'intérieur d'un volcan en activité.\nModifie la carte pendant un certain temps et améliore vos techniques d'énergie occulte.\nDe plus, il endommage continuellement les ennemis dans la zone et entrave leurs mouvements.\nLorsque le territoire se referme, vous ne pouvez plus utiliser de techniques d'énergie occulte pendant un certain temps."
+      },
+      "CMD_PASSIVE_NAME_CP_140_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_140_1000",
+        "Text": "La fierté d'un fléau"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_140_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_140_1000",
+        "Text": "S'active lorsque votre santé est basse.\nAugmente la récupération d'énergie occulte. Augmente les dégâts des techniques d'énergie occulte.\nCet effet varie en fonction du niveau d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_150": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_150",
+        "Text": "Un attaquant spécialisé dans toutes les attaques qui fait preuve d'une grande polyvalence au sol. \n\n• Racine à distance permet à des racines de s'enrouler autour des jambes des ennemis éloignés pour les pousser vers le haut. \nCherchez toujours à infliger des coups par surprise ! \n• Barrière sylvestre érige un mur de racines devant vous, projetant les ennemis proches en l'air et vous protégeant des attaques à distance. \n\nIl bloque à distance, fait des ravages à moyenne portée et contre à courte portée ! \nUtilisez toute votre palette d'attaques pour empêcher l'ennemi de vous atteindre !"
+      },
+      "CMD_COMMAND_NAME_CP_150_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1000",
+        "Text": "Boule d'écorce"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1000",
+        "Text": "Une attaque à courte portée qui projette trois boules d'écorce attaquant avec des branches.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_150_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_1060",
+        "Text": "Frappe de boule d'écorce"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour envoyer une boule d'écorce.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_150_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2000",
+        "Text": "Zone de racines"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2000",
+        "Text": "Une attaque à courte portée qui fait pousser des racines dans le sol autour de vous.\nSi vous exécutez cette technique en l'air, vous retomberez au sol.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_150_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_2060",
+        "Text": "Méditation"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_2060",
+        "Text": "Méditez et chargez votre énergie occulte.\nAu niveau maximum d'énergie occulte, vous récupérerez toute l'énergie occulte dépensée.\nCette technique peut être maintenue.\nSi vous l'exécutez en l'air, vous retomberez au sol."
+      },
+      "CMD_COMMAND_NAME_CP_150_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3000",
+        "Text": "Lancer de graines maudites"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3000",
+        "Text": "Une attaque à distance qui projette des bourgeons maudits.\nRalentit la vitesse de récupération de l'énergie occulte des ennemis touchés.\nVous pouvez enchaîner sur d'autres techniques."
+      },
+      "CMD_COMMAND_NAME_CP_150_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_150_3060",
+        "Text": "Pluie de graines maudites"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_3060",
+        "Text": "Une attaque à distance qui fait apparaître une fleur géante et envoie un déluge de bourgeons maudits.\nLes bourgeons maudits retombent au bout d'un certain temps.\nRalentit la vitesse de récupération de l'énergie occulte des ennemis touchés.\nSi vous lancez l'attaque en l'air, vous retomberez au sol."
+      },
+      "CMD_COMMAND_NAME_CP_150_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_4000",
+        "Text": "Racine à distance"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_4000",
+        "Text": "Génère des racines directement sous l'ennemi et le transperce.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés. Agrandit la zone d'attaque.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés. Agrandit davantage la zone d'attaque.\n"
+      },
+      "CMD_COMMAND_NAME_CP_150_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_5000",
+        "Text": "Barrière sylvestre"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_5000",
+        "Text": "Fait pousser un mur d'arbres devant vous et attaque.\nSi vous exécutez cette technique en l'air, vous retomberez au sol.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés et augmente le nombre et la hauteur des murs.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés et augmente la hauteur."
+      },
+      "CMD_COMMAND_NAME_CP_150_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_7000",
+        "Text": "Arbre géant"
+      },
+      "CMD_COMMAND_NAME_CP_150_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_150_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1015>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_150_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_150_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nDéploie un jardin de fleurs autour de vous qui s'active lorsque vous portez un coup.\nLe jardin distrait l'ennemi, puis des racines le transpercent pour lui infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_150_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_150_1000",
+        "Text": "Libération du bras gauche"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_150_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_150_1000",
+        "Text": "Libère votre bras gauche lorsque vous activez une technique éveillée et vous procure les effets suivants : réduit le temps de génération des techniques d'énergie occulte, réduit la consommation d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_160": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_160",
+        "Text": "Un combattant de type contrôle à longue portée qui utilise des combinaisons spectaculaires entre frères et de puissantes attaques d'altération de statut.\nSon sort <GLO=GLS_GAME_WORDS_1427> fusionne « Technique supérieure : Souverain ailé », qui répand du sang pour infliger des dégâts, et « Décrépitude », qui utilise le sang pour déclencher des altérations de statut.\nFaites bon usage de ces deux techniques pour entraîner votre ennemi dans votre sillage.\n\n• Les effets de « <GLO=GLS_GAME_WORDS_1427> : Décrépitude » se cumulent au fur et à mesure que vous répandez du sang.\nAlors qu'il pleuve !\n• <GLO=GLS_NAME_CN_260> ne peut pas utiliser d'attaques de sang tant que « <GLO=GLS_GAME_WORDS_1427> : Décrépitude » est activé.\nDans ce cas, vous pouvez compter sur <GLO=GLS_NAME_CN_080> !\n\nN'oubliez pas, la coordination fraternelle est la clé de la victoire !"
+      },
+      "CMD_COMMAND_NAME_CP_160_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1000",
+        "Text": "Triple attaque"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui porter deux coups successifs.\nLorsque l'ennemi est touché, l'attaque déclenche Souverain ailé, qui porte une attaque complémentaire avec du sang.\nLorsque Décrépitude est active, Kechizu lance une attaque complémentaire.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec des techniques d'énergie occulte."
+      },
+      "CMD_COMMAND_NAME_CP_160_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_1060",
+        "Text": "Coup de pied au torse"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied ascendant avec votre jambe droite.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_160_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2000",
+        "Text": "Lancement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un uppercut.\nLorsque l'ennemi est touché, l'attaque déclenche souverain ailé, qui porte une attaque complémentaire avec du sang.\nLorsque Décrépitude est active, Kechizu lance une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_160_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_2060",
+        "Text": "Épée à deux mains"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_2060",
+        "Text": "Une attaque à courte portée consistant à faire un pas vers l'avant pour porter une frappe à deux mains.\nLorsque l'ennemi est touché, l'attaque déclenche Souverain ailé, qui porte une attaque complémentaire avec du sang.\nLorsque Décrépitude est active, Kechizu lance une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_160_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3000",
+        "Text": "Poursuite"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour propulser votre bras droit dans sa direction.\nSi l'attaque touche, <GLO=GLS_NAME_CN_080> lance une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_160_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_160_3060",
+        "Text": "Acharnement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_3060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied ascendant avec votre jambe droite.\nSi l'attaque touche, <GLO=GLS_NAME_CN_080> lance une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_160_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_4000",
+        "Text": "Petit frère"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_4000",
+        "Text": "Vous donnez des ordres à Kechizu.\nKechizu ne peut pas recevoir d'ordres tant qu'il est à terre.\n<img id=\"CursedEnergyAttack_1\"/> : Pulvérise du sang et marque l'ennemi avec.\n<img id=\"MoveUp\"/>+<img id=\"CursedEnergyAttack_1\"/> : Guide vers l'ennemi pour lui asséner une série de coups.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/> : Retourne vers Eso. Ne consomme pas d'énergie occulte.\nNiveau d'énergie occulte 2 : Augmente la vitesse de déplacement de Kechizu.\nNiveau d'énergie occulte 3 : Augmente davantage la vitesse de déplacement de Kechizu."
+      },
+      "CMD_COMMAND_NAME_CP_160_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_5000",
+        "Text": "Technique supérieure de putréfaction : « Souverain ailé »/Technique de putréfaction : « Décrépitude »"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_5000",
+        "Text": "<img id=\"CursedEnergyAttack_2\"/> : Active la Technique supérieure de putréfaction : « Souverain ailé » pour marquer les ennemis de sang et leur infliger des dégâts.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_2\"/> : Active la Technique de putréfaction : « Décrépitude » pour réduire la capacité de sprint des ennemis marqués de sang.\nQuand elle est activée, vous pouvez marquer les ennemis avec plus de sang pour leur infliger des dégâts continus.\nActiver la technique après les avoir marqués de plus de sang leur infligera encore plus de dégâts.\nPlus vous les marquerez de sang, plus l'effet sera décuplé.\nConsomme de l'énergie occulte en continue, et s'arrête en appuyant une nouvelle fois sur la commande, ou si votre énergie occulte est réduite à zéro.\nSouverain ailé ne peut pas être activé pendant que Décrépitude est active.\nNiveau d'énergie occulte 2: Augmente le nombre d'attaques du Souverain ailé.\nNiveau d'énergie occulte 3: Augmente davantage le nombre d'attaques du Souverain Ailé. Cette technique peut être maintenue."
+      },
+      "CMD_COMMAND_NAME_CP_160_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_7000",
+        "Text": "Le pouvoir de la fraternité"
+      },
+      "CMD_COMMAND_NAME_CP_160_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_160_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1016>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_160_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_160_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de revers.\nAvec l'aide de Kechizu, aspergez l'ennemi de sang et activez la\nTechnique de Putréfaction : « Décrépitude » pour lui infliger des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_160_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_160_1000",
+        "Text": "Pour mon frère"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_160_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_160_1000",
+        "Text": "Augmente l'attaque d'<GLO=GLS_NAME_CN_260> tant que <GLO=GLS_NAME_CN_080> n'est pas éliminé."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_051": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_051",
+        "Text": "Le plus puissant des exorcistes, capable de prendre le dessus dans n'importe quelle situation.\n\n• En restant sur place, vous activez le Pouvoir de l'infini, ce qui empêche toute attaque de vous toucher.\n• Le Sort originel : bleu permet de vous rapprocher des ennemis et de les attirer en un instant.\nSoumettez votre adversaire à votre volonté !\n• Le Sort originel : bleu Puissance maximale est une technique redoutable qui permet d'attirer l'attention et de renverser la situation en votre faveur.\nSaisissez votre chance de renverser la situation en un seul coup !"
+      },
+      "CMD_COMMAND_NAME_CP_051_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1000",
+        "Text": "Coups de pied en chaîne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner une rafale d'attaques de mêlée.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_051_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_051_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2000",
+        "Text": "Coups de pied guidés"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2000",
+        "Text": "Un double coup qui vous guide vers l'ennemi tout en l'attirant vers vous, puis le fait reculer."
+      },
+      "CMD_COMMAND_NAME_CP_051_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_2060",
+        "Text": "Double attaque"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_2060",
+        "Text": "Une attaque qui vous guide vers l'ennemi et lui porte un double coup rapide."
+      },
+      "CMD_COMMAND_NAME_CP_051_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3000",
+        "Text": "Coups guidés"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi tout en l'attirant vers vous, l'envoie dans les airs avec des coups consécutifs, puis l'attire une fois de plus pour lui asséner une attaque complémentaire."
+      },
+      "CMD_COMMAND_NAME_CP_051_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_051_3060",
+        "Text": "Coup critique"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_3060",
+        "Text": "Une attaque qui vous guide vers l'ennemi, puis l'envoie dans les airs avec un coup puissant."
+      },
+      "CMD_COMMAND_NAME_CP_051_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_4000",
+        "Text": "Sort originel, bleu : Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_4000",
+        "Text": "Une attaque à courte portée qui vous projette à toute vitesse sur votre adversaire pour lui asséner une série de coups.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_051_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_5000",
+        "Text": "Sort originel, bleu : Puissance maximale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_5000",
+        "Text": "Génère une forme surpuissante du Sort originel : bleu qui attire les ennemis et leur inflige des dégâts.\nNiveau d'énergie occulte 2 : Réduit le temps de recharge.\nNiveau d'énergie occulte 3 : Réduit davantage le temps de recharge."
+      },
+      "CMD_COMMAND_NAME_CP_051_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_7000",
+        "Text": "Sort inversé, rouge"
+      },
+      "CMD_COMMAND_NAME_CP_051_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_051_8000",
+        "Text": "Équation imaginaire : violet"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_051_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_051_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de genou.\nDéclenche Équation imaginaire : violet et inflige d'énormes dégâts à votre adversaire."
+      },
+      "CMD_PASSIVE_NAME_CP_051_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_1000",
+        "Text": "L'éveil du plus puissant"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_1000",
+        "Text": "S'active lorsque vous avez été vaincu(e) une fois.\nAméliore certaines attaques de mêlée et Sort originel, bleu : Puissance maximale.\nLa technique éveillée peut être déclenchée."
+      },
+      "CMD_PASSIVE_NAME_CP_051_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_2000",
+        "Text": "Sort : Pouvoir de l'infini"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_2000",
+        "Text": "S'active à l'arrêt après un certain temps.\nUne barrière d'infini apparaît autour de vous, rendant inefficace un certain nombre d'attaques."
+      },
+      "CMD_PASSIVE_NAME_CP_051_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_3000",
+        "Text": "Sixième Œil"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_3000",
+        "Text": "Toujours activé.\nSurveille la jauge d'énergie occulte de l'adversaire.\nL'énergie occulte augmente progressivement."
+      },
+      "CMD_PASSIVE_NAME_CP_051_4000": {
+        "ID": "CMD_PASSIVE_NAME_CP_051_4000",
+        "Text": "Lévitation"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_051_4000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_051_4000",
+        "Text": "Lévitez en maintenant la commande de saut enfoncée."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_121": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_121",
+        "Text": "Un jeune exorciste de classe S qui allie un excellent sens du combat à des sorts redoutables.\n\n• Manipulation des esprits : Femme à la Bouche Fendue déploie un Territoire Simple qui réagit aux attaques et aux contres ennemis !\n• Son potentiel, « Manipulation des esprits », lance une attaque avec des fléaux pour restaurer votre propre énergie occulte.\nContinuez à donner des coups pour intensifier les dégâts !"
+      },
+      "CMD_COMMAND_NAME_CP_121_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1000",
+        "Text": "Attaque de mêlée en quatre coups"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner une rafale d'attaques de mêlée.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte."
+      },
+      "CMD_COMMAND_NAME_CP_121_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_1060",
+        "Text": "Manipulation des esprits : Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_1060",
+        "Text": "Une attaque à moyenne portée qui invoque un fléau avant de le lancer sur l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_121_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2000",
+        "Text": "Attaque de mêlée en trois coups : Traque du fléau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte un triple coup, puis invoque un fléau et le propulse dans les airs.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_121_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_2060",
+        "Text": "Double attaque de mêlée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_2060",
+        "Text": "Vous guide vers l'ennemi et lui porte un double coup rapide.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_121_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3000",
+        "Text": "Double attaque de mêlée : Traque du fléau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui porte un double coup, puis invoque un fléau et le propulse dans les airs.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_121_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_121_3060",
+        "Text": "Tir de fléau"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_3060",
+        "Text": "Une attaque à moyenne portée qui lance trois petits fléaux successivement."
+      },
+      "CMD_COMMAND_NAME_CP_121_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_4000",
+        "Text": "Manipulation des esprits : Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_4000",
+        "Text": "Lance de petits fléaux qui infligent diverses attaques.\n<img id=\"CursedEnergyAttack_1\"/>\nUne attaque à moyenne portée qui libère plusieurs petits fléaux qui poursuivent l'ennemi.\nNiveau d'énergie occulte 2 : Invoque davantage de fléaux et augmente le nombre de coups.\nNiveau d'énergie occulte 3 : Invoque encore davantage de fléaux et augmente davantage le nombre de coups.\n<SplitCommand>\n<img id=\"MoveDown\"/> + <img id=\"CursedEnergyAttack_1\"/>\nUne attaque à distance qui libère d'innombrables petits fléaux successivement.\nCette technique peut être maintenue.\nConsomme de l'énergie occulte en continu tant que la technique est active.\nNiveau d'énergie occulte 2 : Invoque davantage de fléaux et couvre une zone plus vaste.\nNiveau d'énergie occulte 3 : Invoque encore davantage de fléaux et couvre une zone encore plus vaste."
+      },
+      "CMD_COMMAND_NAME_CP_121_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_5000",
+        "Text": "Manipulation des esprits : Femme à la Bouche Fendue"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_5000",
+        "Text": "Invoque la Femme à la Bouche Fendue et déploie un Territoire simple.\nLes ennemis qui attaquent à l'intérieur du territoire sont coupés en morceaux par d'innombrables lames.\nConsomme de l'énergie occulte en continu jusqu'à ce que vous appuyiez une nouvelle fois ou que l'énergie occulte tombe à zéro.\nNiveau d'énergie occulte 2 : Augmente le nombre d'attaques et agrandit le territoire.\nNiveau d'énergie occulte 3 : Augmente davantage le nombre d'attaques et agrandit le territoire."
+      },
+      "CMD_COMMAND_NAME_CP_121_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_7000",
+        "Text": "Manipulation des esprits : Femme à la Bouche Fendue"
+      },
+      "CMD_COMMAND_NAME_CP_121_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_121_8000",
+        "Text": "Manipulation des esprits : Dragon Irisé"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_121_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_121_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de coude.\nLibère Dragon Irisé, le plus puissant des fléaux, directement sur l'ennemi et lui inflige d'énormes dégâts."
+      },
+      "CMD_PASSIVE_NAME_CP_121_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_121_1000",
+        "Text": "Manipulation des esprits"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_121_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_121_1000",
+        "Text": "Vous récupérez un peu d'énergie occulte chaque fois que vous lancez une attaque de fléau.\nLa quantité récupérée dépend du fléau utilisé.\nDe plus, l'effet varie en fonction de votre niveau d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_170": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_170",
+        "Text": "Une attaquante à longue portée spécialisée dans les attaques surprises et capable de couvrir ses équipiers à distance.\n\n• Utilisez « Visée » pour tirer des balles imprégnées d'énergie occulte dans n'importe quelle direction.\nVisez bien et décochez un tir mortel !\n• N'oubliez pas de recharger afin de pouvoir continuer le combat.\n• Attaquer un ennemi qui ne vous vise pas augmente le boost de votre énergie occulte et votre force.\nPensez à utiliser l'angle de visée de votre ennemi !"
+      },
+      "CMD_COMMAND_NAME_CP_170_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1000",
+        "Text": "Tir simple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1000",
+        "Text": "Une attaque à distance qui consomme une balle pour tirer sur l'ennemi.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nSe recharge lorsqu'il n'y a plus de munitions."
+      },
+      "CMD_COMMAND_NAME_CP_170_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_1060",
+        "Text": "Tir accroupi"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_1060",
+        "Text": "Une attaque à distance qui vous fait vous accroupir sur place et consommer une balle pour tirer sur l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien.\nSe recharge lorsqu'il n'y a plus de munitions."
+      },
+      "CMD_COMMAND_NAME_CP_170_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2000",
+        "Text": "Tir rapide"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2000",
+        "Text": "Un combo qui permet de tirer rapidement des balles chargées en maintenant <img id=\"NormalAttack_2\"/>.\nSe recharge lorsqu'il n'y a plus de munitions."
+      },
+      "CMD_COMMAND_NAME_CP_170_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_2060",
+        "Text": "Coup de pied"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup de pied rotatif.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_170_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3000",
+        "Text": "Aveugler"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3000",
+        "Text": "Une attaque à courte portée qui projette du sable sur place, effrayant l'ennemi qu'elle touche.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_170_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_170_3060",
+        "Text": "Coup double"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_3060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et lui assène deux coups."
+      },
+      "CMD_COMMAND_NAME_CP_170_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_4000",
+        "Text": "Visée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_4000",
+        "Text": "Une attaque à distance qui vous indique l'endroit visé avant de tirer une balle imprégnée d'énergie occulte.\nContrôlez le réticule de visée avec <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> pour viser et tirer à partir d'un point de vue au-dessus de l'épaule.\nCe mode consomme de l'énergie occulte et différents coups peuvent être tirés à l'aide de <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> ou <img id=\"CursedEnergyAttack_2\"/>.\nSe recharge lorsqu'il n'y a plus de munitions.\nNiveau d'énergie occulte 1 : <img id=\"NormalAttack_1\"/> : consomme 1 point d'énergie occulte. \n<img id=\"NormalAttack_2\"/> : consomme 1 point d'énergie occulte.\n<img id=\"CursedEnergyAttack_2\"/> : consomme 1 point d'énergie occulte.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\n<img id=\"NormalAttack_1\"/> : consomme 1 point d'énergie occulte.\n<img id=\"NormalAttack_2\"/> : consomme 2 points d'énergie occulte.\n<img id=\"CursedEnergyAttack_2\"/> : consomme 2 points d'énergie occulte.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés.\n<img id=\"NormalAttack_1\"/> : consomme 1 point d'énergie occulte.\n<img id=\"NormalAttack_2\"/> : consomme 3 points d'énergie occulte.\n<img id=\"CursedEnergyAttack_2\"/> : Consomme 3 points d'énergie occulte."
+      },
+      "CMD_COMMAND_NAME_CP_170_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_5000",
+        "Text": "Tir chargé"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_5000",
+        "Text": "Une attaque à distance qui imprègne une balle d'énergie occulte pour tirer un coup puissant.\nCette technique peut être maintenue.\nVous pouvez vous déplacer pendant la recharge.\nImpossible de sprinter.\nPlus vous chargez l'attaque longtemps, plus les dégâts sont importants.\nLa charge maximale fait pénétrer le projectile.\nSe recharge lorsqu'il n'y a plus de munitions.\nNiveau d'énergie occulte 2 : Réduit le temps de recharge et augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Réduit davantage le temps de recharge et augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_170_6000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_6000",
+        "Text": "Recharger"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_6000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_6000",
+        "Text": "Recharge vos balles.\nVous pouvez vous déplacer pendant la recharge."
+      },
+      "CMD_COMMAND_NAME_CP_170_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_7000",
+        "Text": "Touché coulé"
+      },
+      "CMD_COMMAND_NAME_CP_170_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_170_8000",
+        "Text": "Construction"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_170_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_170_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nSe recharge lorsqu'il n'y a plus de munitions.\nS'active en consommant une balle pour tirer et toucher la cible.\nTire six balles, puis utilise Construction pour tirer une septième balle qui inflige de lourds dégâts à l'ennemi."
+      },
+      "CMD_PASSIVE_NAME_CP_170_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_170_1000",
+        "Text": "Vous ne m'échapperez pas"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_170_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_170_1000",
+        "Text": "Augmente la puissance et l'énergie occulte gagnée lorsque vous attaquez des ennemis qui ne vous ciblent pas."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_180": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_180",
+        "Text": "Une attaquante aérienne qui utilise ses mouvements uniques dans les airs pour désorienter ses adversaires.\n\n• « Charge » vous permet de vous déplacer à toute vitesse tout en attaquant.\nDéséquilibrez l'ennemi, puis utilisez cette ouverture pour infliger des dégâts considérables avec Manipulation d'objet : Lame de Vent !\n• Son potentiel, « Manipulation d'objet », exploite les trois dimensions, vous permettant d'attaquer de n'importe où !"
+      },
+      "CMD_COMMAND_NAME_CP_180_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1000",
+        "Text": "Balayage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le frapper à l'aide d'un balai.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte."
+      },
+      "CMD_COMMAND_NAME_CP_180_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_1060",
+        "Text": "Tourbillon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_1060",
+        "Text": "Une attaque à moyenne portée qui génère un tourbillon qui se déplace vers l'avant.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_180_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2000",
+        "Text": "Frappe en piqué"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2000",
+        "Text": "Une attaque à courte portée qui descend en piqué pour charger l'ennemi.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_180_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_2060",
+        "Text": "Plongeon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_2060",
+        "Text": "Un plongeon vertical sur place.\nCette technique peut être maintenue.\nVous pouvez sprinter ou enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_180_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3000",
+        "Text": "Fouet de vent"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3000",
+        "Text": "Une attaque à moyenne portée qui fait souffler du vent pour tirer sur l'ennemi.\nLe vent se propage à l'impact et projette les ennemis dans les airs."
+      },
+      "CMD_COMMAND_NAME_CP_180_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_180_3060",
+        "Text": "Rafale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_3060",
+        "Text": "Une attaque à courte portée qui balaye sur place pour créer du vent."
+      },
+      "CMD_COMMAND_NAME_CP_180_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_4000",
+        "Text": "Charge"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_4000",
+        "Text": "Charge violemment vers l'avant tout en chevauchant un balai.\nUtilisez <img id=\"MoveUp\"/><img id=\"MoveDown\"/><img id=\"MoveLeft\"/><img id=\"MoveRight\"/> pendant la charge pour tourner.\nLa vitesse de déplacement augmente après l'attaque, et les techniques d'extraction utilisant des attaques de vent sont améliorées.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés et l'effet des améliorations.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés et l'effet des améliorations."
+      },
+      "CMD_COMMAND_NAME_CP_180_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_5000",
+        "Text": "Manipulation d'objet : Lame de Vent"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_5000",
+        "Text": "Lance une Lame de Vent à distance sur l'ennemi.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_180_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_7000",
+        "Text": "Le chat et la souris"
+      },
+      "CMD_COMMAND_NAME_CP_180_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_180_8000",
+        "Text": "Manipulation d'objet : Lame de Vent"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_180_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_180_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de pied en chevauchant votre balai.\nL'ennemi est projeté dans les airs sans pouvoir s'échapper, puis il subit de lourds dégâts avec Manipulation d'objet : Lame de Vent."
+      },
+      "CMD_PASSIVE_NAME_CP_180_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_180_1000",
+        "Text": "Manipulation d'objet"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_180_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_180_1000",
+        "Text": "Vous volez sur un balai.\nMaintenez le saut pour prendre de la hauteur.\nVous planerez dans les airs en récupérant votre jauge de sprint."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_190": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_190",
+        "Text": "Un attaquant à distance qui piège ses ennemis en utilisant des attaques d'archerie et de Manipulation des Hématies.\n\n• Effectue diverses attaques d'archerie pour prendre l'ennemi au dépourvu et déclencher sa technique ultime : Manipulation des Hématies.\n• Manipulation des Hématies : Fauchage permet de cibler facilement les ennemis mobiles pour leur infliger des dégâts à coup sûr.\n• Plus Manipulation des Hématies : Contraction/Sang Perforant est chargée, plus votre portée et votre force augmentent, vous donnant une chance de transpercer votre ennemi en un seul coup !\nGardez votre calme, observez les mouvements de votre ennemi et tuez-le."
+      },
+      "CMD_COMMAND_NAME_CP_190_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1000",
+        "Text": "Flèche d'énergie occulte : Tir continu"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1000",
+        "Text": "Une attaque à distance qui décoche une série de flèches sur l'ennemi.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_190_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_1060",
+        "Text": "Flèche d'énergie occulte : Tir simple"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_1060",
+        "Text": "Une attaque à distance qui bande l'arc au maximum pour décocher une flèche.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_190_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2000",
+        "Text": "Flèche d'énergie occulte : Tir droit"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2000",
+        "Text": "Une attaque à distance qui décoche une flèche droit devant avec une longue portée et une grande vitesse.\nCette technique peut être maintenue."
+      },
+      "CMD_COMMAND_NAME_CP_190_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_2060",
+        "Text": "Flèche d'énergie occulte : Tir courbe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_2060",
+        "Text": "Une attaque à distance qui projette une pluie de flèches sur tous les ennemis à portée.\nMaintenez enfoncé pour spécifier le point d'impact de l'attaque.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_190_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3000",
+        "Text": "Flèche d'énergie occulte : Tir latéral"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3000",
+        "Text": "Une attaque à distance qui tire des flèches dans trois directions.\nPeut être chargée pour décocher des flèches à tête chercheuse sur votre ennemi grâce à la Manipulation des Hématies.\nCette technique peut être maintenue.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_190_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_190_3060",
+        "Text": "Manipulation des Hématies : Liens du Sang"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_3060",
+        "Text": "Vous restez sur place et lancez une poche de sang sur l'ennemi lorsque vous êtes attaqué.\nEn atterrissant, la poche aspergera l'ennemi de sang, ce qui permettra de l'arrêter dans son élan."
+      },
+      "CMD_COMMAND_NAME_CP_190_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_4000",
+        "Text": "Manipulation des Hématies : Fauchage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_4000",
+        "Text": "Une attaque à distance qui lance une lame de sang circulaire et rotative.\nLe nombre de lames lancées augmente en fonction du niveau d'énergie occulte.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : augmente le nombre de lames lancées. Augmente la consommation de la jauge de poche de sang.\nNiveau d'énergie occulte 3 : augmente davantage le nombre de lames lancées. Augmente davantage la consommation de la jauge de poche de sang."
+      },
+      "CMD_COMMAND_NAME_CP_190_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_5000",
+        "Text": "Manipulation des Hématies : Contraction/Sang Perforant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_5000",
+        "Text": "Une attaque à distance qui comprime le sang pour le projeter droit devant à grande vitesse.\nPlus la technique est chargée, plus la portée et les dégâts augmentent.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Augmente le nombre de charges.\nNiveau d'énergie occulte 3 : Augmente davantage le nombre de charges."
+      },
+      "CMD_COMMAND_NAME_CP_190_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_7000",
+        "Text": "Manipulation des Hématies : Élan des Écailles Rouges"
+      },
+      "CMD_COMMAND_NAME_CP_190_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_190_8000",
+        "Text": "Manipulation des Hématies : Sang Perforant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_190_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_190_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active lorsque la flèche transperce l'ennemi.\nUne fois que la flèche a touché l'ennemi, Sang Perforant est libéré et inflige des dégâts considérables."
+      },
+      "CMD_PASSIVE_NAME_CP_190_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_1000",
+        "Text": "Poche de sang"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_1000",
+        "Text": "La quantité de sang consommée dépend de la technique de Manipulation des Hématies utilisée.\nConsomme de la santé si la technique est utilisée lorsque la jauge de poche de sang est vide.\nLa jauge ne se consomme pas lors des attaques combinées et techniques éveillées."
+      },
+      "CMD_PASSIVE_NAME_CP_190_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_190_2000",
+        "Text": "Fierté du prochain chef de famille"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_190_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_190_2000",
+        "Text": "Réduit la quantité de sang consommée lorsque la santé est égale ou inférieure à la moitié.\nLorsque la jauge de poche de sang est vide, la santé consommée est réduite."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_200": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_200",
+        "Text": "Le tueur d'exorciste qui écrase ses ennemis grâce à ses objets maudits uniques et à son endurance, fruit d'un serment inné.\n\n• Mouvement rapide peut être utilisé pour neutraliser des attaques et enchaîner avec d'autres.\nPas de répit pour l'ennemi !\n• Lance Céleste : Trancher déclenche des attaques différentes en fonction de votre position par rapport à l'adversaire.\nCombinez-la avec Mouvement rapide pour créer des combos dévastateurs !"
+      },
+      "CMD_COMMAND_NAME_CP_200_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1000",
+        "Text": "Coup de pied tranchant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour le pourfendre avec Lance Céleste.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec des techniques d'objet maudit."
+      },
+      "CMD_COMMAND_NAME_CP_200_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_1060",
+        "Text": "Coup de poing fracassant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_1060",
+        "Text": "Une attaque à courte portée qui vous fait avancer vers l'ennemi pour frapper aussi fort que possible.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_200_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2000",
+        "Text": "Propulsion bissectrice"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour charger avec Lance Céleste."
+      },
+      "CMD_COMMAND_NAME_CP_200_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_2060",
+        "Text": "Propulsion descendante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_2060",
+        "Text": "Une attaque à courte portée qui vous fait bondir vers l'ennemi avant de s'abattre sur lui avec Lance Céleste.\nProjette l'ennemi dans les airs lorsque vous touchez le sol."
+      },
+      "CMD_COMMAND_NAME_CP_200_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3000",
+        "Text": "Mouvement rapide"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3000",
+        "Text": "Consomme la jauge de sprint pour se déplacer rapidement.\nAprès le déplacement, appuyez une nouvelle fois pour effectuer d'autres mouvements.\nVous pouvez enchaîner sur cette technique après avoir étourdi l'ennemi avec d'autres techniques, et vous pouvez enchaîner avec certaines techniques pendant les coups guidés.\nVous pouvez enchaîner sur d'autres techniques après le déplacement.\n<img id=\"NormalAttack_3\"/>\nVous vous déplacez vers l'ennemi.\n<img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/> + <img id=\"NormalAttack_3\"/>\nVous vous déplacez en diagonale vers l’avant.\n<img id=\"MoveUp\"/> + <img id=\"NormalAttack_3\"/>\nVous vous déplacez vers l'avant."
+      },
+      "CMD_COMMAND_NAME_CP_200_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_200_3060",
+        "Text": "Dégainer"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_3060",
+        "Text": "Vous restez sur place et infligez un coup avec Lance Céleste.\nLance une contre-attaque si un ennemi vous attaque pendant la technique."
+      },
+      "CMD_COMMAND_NAME_CP_200_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_4000",
+        "Text": "Lance Céleste : Trancher"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_4000",
+        "Text": "Inflige un coup puissant avec Lance Céleste.\nDéclenche une attaque différente en fonction de votre position par rapport à l'adversaire.\nNiveau de force physique 2 : Augmente les dégâts infligés.\nNiveau de force physique 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_200_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_5000",
+        "Text": "Lance Céleste : Découper"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_5000",
+        "Text": "Une série de frappes rapides avec Lance Céleste.\nCette technique peut être maintenue.\nNiveau de force physique 2 : Augmente le nombre d'attaques.\nNiveau de force physique 3 : Augmente davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_200_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_7000",
+        "Text": "Barrage de fléaux"
+      },
+      "CMD_COMMAND_NAME_CP_200_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_200_8000",
+        "Text": "Chaîne de Mille Lieues et Lance Céleste"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_200_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_200_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en assénant un coup avec Lance Céleste.\nCombine avec Chaîne de Mille Lieues et Lance Céleste pour infliger des dégâts considérables avec un barrage de coups étourdissant."
+      },
+      "CMD_PASSIVE_NAME_CP_200_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_1000",
+        "Text": "Tueur d'exorciste"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_1000",
+        "Text": "Un coup de grâce qui augmente votre niveau de force physique et réduit temporairement votre consommation de jauge de sprint.\nLorsque votre niveau de force physique est au maximum, la jauge de force physique remonte."
+      },
+      "CMD_PASSIVE_NAME_CP_200_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_2000",
+        "Text": "Serment inné : Endurance physique"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_2000",
+        "Text": "Vous recevez des capacités physiques exceptionnelles en échange d'une absence totale d'énergie occulte.\nVous pouvez sauter plusieurs fois en l'air."
+      },
+      "CMD_PASSIVE_NAME_CP_200_3000": {
+        "ID": "CMD_PASSIVE_NAME_CP_200_3000",
+        "Text": "Lance Céleste"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_200_3000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_200_3000",
+        "Text": "Les attaques de Lance Céleste forcent les sorts de l'ennemi à se déclencher."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_210": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_210",
+        "Text": "Une attaquante à courte portée qui utilise la technique Taille pour abattre ses ennemis à la vitesse de l'éclair.\n\n• Son potentiel « Nouvelle École de l'Ombre : Taille » lui permet d'effectuer une attaque rapide et puissante alors que l'arme est rengainée.\nEssayez de garder votre épée dans son fourreau pendant le combat pour prendre l'avantage.\n• Contre-attaque automatiquement tous les ennemis qui entrent dans son Nouvelle École de l'Ombre : Territoire Simple, infligeant de lourds dégâts.\nRapprochez-vous de votre ennemi avec le sort Nouvelle École de l'Ombre : Taille lorsque vous êtes prêt(e) à passer à l'offensive."
+      },
+      "CMD_COMMAND_NAME_CP_210_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1000",
+        "Text": "Attaque tranchante diagonale"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner une attaque tranchante diagonale.\nSi l'attaque touche sa cible, lance automatiquement une attaque complémentaire et rengaine l'arme.\nappuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_210_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_1060",
+        "Text": "Attaque lancinante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche sa cible pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_210_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2000",
+        "Text": "Coup tranchant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner un coup.\nSi l'attaque touche sa cible , vous assénez un coup de pied qui envoie l'ennemi dans les airs et rengaine l'arme."
+      },
+      "CMD_COMMAND_NAME_CP_210_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_2060",
+        "Text": "Coup d'extraction"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_2060",
+        "Text": "Une attaque à courte portée qui rengaine votre épée et vous guide vers l'ennemi pour lui asséner un coup double tranchant.\nVous pouvez asséner le coup double instantanément si votre arme est rengainée.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_210_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3000",
+        "Text": "Rengainer/Coup rapide"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3000",
+        "Text": "【Arme dégainée】\nVous rengainez votre épée sur place.\n【Arme rengainée】\nUne attaque à courte portée qui vous permet de faire un bond en avant pour asséner un coup rapide.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_210_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_210_3060",
+        "Text": "Esquive de rengaine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_3060",
+        "Text": "Vous esquivez dans la direction souhaitée tout en rengainant votre épée.\nL'esquive n'est possible que si votre épée est déjà rengainée.\nVous pouvez enchaîner sur d'autres techniques après l'esquive."
+      },
+      "CMD_COMMAND_NAME_CP_210_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_4000",
+        "Text": "Nouvelle École de l'Ombre : Taille"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_4000",
+        "Text": "Une attaque à courte portée qui rengaine votre épée et vous guide vers l'ennemi pour lui asséner un coup dévastateur.\nVous pouvez asséner le coup instantanément si votre arme est rengainée.\nNiveau d'énergie occulte 2 : augmente les dégâts infligés et élargit la zone d'attaque.\nNiveau d'énergie occulte 3 : augmente davantage les dégâts infligés et la zone d'attaque."
+      },
+      "CMD_COMMAND_NAME_CP_210_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_5000",
+        "Text": "Nouvelle École de l'Ombre : Territoire Simple, Taille"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_5000",
+        "Text": "Rengaine votre épée sur place et déploie un Territoire simple.\nLa technique peut être exécutée plus rapidement si l'arme est rengainée.\nAttaque automatiquement les ennemis qui pénètrent dans le Territoire.\nPare automatiquement toutes les attaques provenant de l'extérieur du Territoire.\nPossibilité d'enchaîner avec une esquive de rengaine tout en déployant un Territoire simple.\nCette technique peut être maintenue.\nSi vous l'exécutez en l'air, vous retomberez au sol.\nNiveau d'énergie occulte 2 : augmente les dégâts infligés et élargit le Territoire.\nNiveau d'énergie occulte 3 : augmente davantage les dégâts infligés et le Territoire."
+      },
+      "CMD_COMMAND_NAME_CP_210_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_7000",
+        "Text": ""
+      },
+      "CMD_COMMAND_NAME_CP_210_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_210_8000",
+        "Text": "Nouvelle École de l'Ombre : Territoire Simple, Taille"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_210_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_210_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active lorsque vous infligez un coup vers le haut à l'ennemi.\nDéploie un Territoire simple et inflige automatiquement de lourds dégâts à tous les ennemis qui y pénètrent."
+      },
+      "CMD_PASSIVE_NAME_CP_210_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_210_1000",
+        "Text": "Nouvelle École de l'Ombre : Taille"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_210_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_210_1000",
+        "Text": "Vous rengainez votre arme après certaines attaques.\nLorsque votre arme est rengainée, vous exécutez certaines attaques plus rapidement et la portée de guidage de certaines attaques est augmentée.\nVous dégainez votre arme si vous effectuez une garde lorsque votre arme est rengainée ou que vous êtes repoussée.\nEffectuez une garde parfaite pour maintenir votre posture."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_220": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_220",
+        "Text": "Un attaquant doté d'une grande puissance et d'une capacité d'énergie occulte stupéfiante grâce à un Serment inné.\n\n• Son potentiel « Serment inné » lui permet de lancer des techniques d'énergie occulte sans être limité par son niveau d'énergie.\n• Profitez des lourds dégâts qu'il peut infliger dès le début du combat pour prendre le dessus !\n• Utilisez ses techniques d'extraction ultra mobiles pour danser sur le champ de bataille et désorienter votre adversaire."
+      },
+      "CMD_COMMAND_NAME_CP_220_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1000",
+        "Text": "Barrage d'attaques de mêlée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi pour lui asséner une rafale d'attaques de mêlée.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_220_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_1060",
+        "Text": "Coup de paume Boost On"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_1060",
+        "Text": "Une attaque à courte portée qui vous propulse et vous fait charger vers l’adversaire pour le lancer dans les airs.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_220_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2000",
+        "Text": "Ultra Cannon à large portée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2000",
+        "Text": "Une attaque à moyenne portée qui vous fait tirer Ultra Cannon de la main gauche pour brûler une large zone."
+      },
+      "CMD_COMMAND_NAME_CP_220_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_2060",
+        "Text": "Sword Option : Ultra Shield"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_2060",
+        "Text": "Transforme votre bras droit en un bouclier hérissé de pointes.\nLorsque vous êtes dans cet état, vous pouvez dévier les attaques avec Ultra Shield.\nCe coup étourdit l'ennemi si la parade est réussie."
+      },
+      "CMD_COMMAND_NAME_CP_220_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3000",
+        "Text": "Double attaque de mêlée Boost On"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3000",
+        "Text": "Une attaque à courte portée qui vous propulse et vous fait charger vers l’adversaire pour lui asséner deux coups de pied.\nTemps de recharge augmenté si vous utilisez cette technique lorsque vous êtes en surchauffe.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_220_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_220_3060",
+        "Text": "Uppercut Boost On"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_3060",
+        "Text": "Une attaque à courte portée qui vous propulse et vous fait charger vers l’adversaire pour déchaîner un uppercut rapide qui le projette dans les airs.\nTemps de recharge augmenté si vous utilisez cette technique lorsque vous êtes en surchauffe.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_220_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_4000",
+        "Text": "Sword Option Boost On : Ultra Spin"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_4000",
+        "Text": "Faites sortir une lame de votre bras droit, puis propulsez-vous en tournant rapidement sur vous-même en direction de l'adversaire.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Appuyez une nouvelle fois pour augmenter le nombre d'attaques.\nNiveau d'énergie occulte 3 : Appuyez une nouvelle fois pour augmenter davantage le nombre d'attaques."
+      },
+      "CMD_COMMAND_NAME_CP_220_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_5000",
+        "Text": "Puissance supérieure : Ultra Cannon"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_5000",
+        "Text": "Une attaque à distance qui vous fait charger et libérer de l'énergie occulte par votre main gauche.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_220_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_7000",
+        "Text": "Attaque de mêlée Boost On"
+      },
+      "CMD_COMMAND_NAME_CP_220_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_220_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1026>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_220_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_220_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en touchant l'ennemi avec un projectile.\nUtilise la tourelle dans votre bouche et les deux canons dans vos mains pour tirer Ultimate Cannon et infliger d'énormes dégâts à votre adversaire."
+      },
+      "CMD_PASSIVE_NAME_CP_220_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_220_1000",
+        "Text": "Serment inné"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_220_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_220_1000",
+        "Text": "Vous permet d'activer des techniques occultes plus puissantes que celles de votre niveau d'énergie occulte actuel.\nCette technique peut être activée en maintenant la touche pendant un certain temps lorsque vous utilisez une technique occulte.\nEn fonction de la différence entre le niveau d'énergie occulte activé et votre niveau actuel, vous subirez une surchauffe temporaire, ce qui réduira votre vitesse de déplacement et votre vitesse de régénération d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_230": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_230",
+        "Text": "Un attaquant offensif spécialisé dans le sang, expert à toutes distances d'attaque.\n\n• Avec Manipulation des Hématies : Élan des Écailles Rouges, infligez des dégâts avec des combos et des techniques d'extraction tout en profitant d'un énorme bonus de vitesse, grâce auquel vous pourrez vous rapprocher de votre adversaire en un instant.\n• Au niveau d'énergie occulte 3, Manipulation des Hématies : Contraction/Sang Perforant peut être dirigé de droite à gauche en une attaque en arc de cercle. Envoyez plusieurs adversaires au tapis de loin grâce à cette formidable technique."
+      },
+      "CMD_COMMAND_NAME_CP_230_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1000",
+        "Text": "Combo de mêlée en cinq étapes"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui assène une série de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_230_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_1060",
+        "Text": "Uppercut"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'ennemi.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_230_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2000",
+        "Text": "Manipulation des Hématies : Lame Sanguine"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui assène deux attaques tranchantes rapides.\nCette technique réduit temporairement la vitesse de l'adversaire lorsqu'il est touché.\nLa présence de globe de sang augmente les dégâts infligés et l'énergie occulte obtenue.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_230_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_2060",
+        "Text": "Double attaque de mêlée"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire pour lui asséner un coup renforcé de type sang qui le projette dans les airs.\nCette technique peut réduire temporairement la vitesse de l'adversaire lors de l'impact.\nLa présence de globe de sang augmente les dégâts infligés et l'énergie occulte obtenue.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_230_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3000",
+        "Text": "Manipulation des Hématies : Fauchage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3000",
+        "Text": "Une attaque à distance qui lance une lame circulaire rotative de sang compressé.\nCe coup réduit temporairement la vitesse de l'adversaire lorsqu'il est touché.\nConsomme 1 globe de sang.\nGénère de nouveaux globes de sang si vous n'en avez pas."
+      },
+      "CMD_COMMAND_NAME_CP_230_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_230_3060",
+        "Text": "Vague de sang"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_3060",
+        "Text": "Une attaque à courte portée vous permettant de déclencher un torrent de sang qui se transforme en une myriade de pics.\nCe coup réduit temporairement la vitesse de l'adversaire lorsqu'il est touché.\nConsomme 1 globe de sang.\nGénère de nouveaux globes de sang si vous n'en avez pas."
+      },
+      "CMD_COMMAND_NAME_CP_230_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_4000",
+        "Text": "Manipulation des Hématies : Élan des Écailles Rouges"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_4000",
+        "Text": "Vous manipulez le sang pour améliorer vos capacités physiques.\nLorsque la technique est active, vous infligez des dégâts grâce à vos techniques de combo et techniques d'extraction. Elle a également les effets suivants : augmentation de la vitesse d'attaque, augmentation de la vitesse de guidage, augmentation de la vitesse de sprint, diminution de la consommation de la jauge de sprint et augmentation des dégâts infligés à la garde.\n\nConsomme de l'énergie occulte en continu jusqu'à ce que vous appuyiez de nouveau sur la commande ou que l'énergie occulte tombe à zéro."
+      },
+      "CMD_COMMAND_NAME_CP_230_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_5000",
+        "Text": "Manipulation des Hématies : Contraction/Sang Perforant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_5000",
+        "Text": "Une attaque à distance qui comprime le sang pour le projeter droit devant à grande vitesse.\nPlus la technique est chargée, plus la portée et les dégâts augmentent.\nCe coup réduit temporairement la vitesse de l'adversaire lorsqu'il est touché.\nConsomme 1 globe de sang.\nGénère de nouveaux globes de sang si vous n'en avez pas.\nCette technique peut être maintenue.\nNiveau d'énergie occulte 2 : Réduit le temps de recharge.\nNiveau d'énergie occulte 3 : Utilisez <img id=\"MoveLeft\"/> ou <img id=\"MoveRight\"/> après avoir lancé Sang Perforant pour effectuer un mouvement de balayage."
+      },
+      "CMD_COMMAND_NAME_CP_230_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_7000",
+        "Text": "Manipulation des Hématies : Élan des Écailles Rouges"
+      },
+      "CMD_COMMAND_NAME_CP_230_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_230_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1022>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_230_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_230_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en portant un coup de pied vers l'arrière.\nLibère du sang compressé avec Contraction pour lancer un projectile omnidirectionnel qui inflige d'énormes dégâts à votre adversaire."
+      },
+      "CMD_PASSIVE_NAME_CP_230_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_1000",
+        "Text": "Globe de sang"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_1000",
+        "Text": "Cette technique peut être utilisée une fois que plusieurs globes de sang ont été créés.\nCertaines attaques puissantes consomment des globes de sang.\nLe nombre de globes de sang pouvant être créé augmente en fonction de votre niveau d'énergie occulte.\nSi vous n'avez plus de globes de sang, vous pouvez en créer davantage en utilisant <img id=\"NormalAttack_3\"/>, <img id=\"MoveDown\"/>+<img id=\"NormalAttack_3\"/> ou <img id=\"CursedEnergyAttack_2\"/>."
+      },
+      "CMD_PASSIVE_NAME_CP_230_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_230_2000",
+        "Text": "Fœtus des neuf phases"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_230_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_230_2000",
+        "Text": "Ce mouvement réduit temporairement la vitesse de l'adversaire lorsqu'il est touché en cas d'utilisation de sang empoisonné.\nLe degré de réduction de la vitesse dépend du niveau d'énergie occulte."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_240": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_240",
+        "Text": "Une attaquante à courte portée qui commande à ses corbeaux d'attaquer et de la défendre, tout en mobilisant ses alliés pour l'aider dans la bataille.\n\n• Sa technique d'énergie occulte « Manipulation des Corbeaux » peut être utilisée non seulement pour bloquer automatiquement les attaques, mais aussi pour que ses corbeaux attaquent les ennemis. Utilisez-les fréquemment afin de garder votre avantage.\n• Son potentiel « Une vie faite pour le potentiel de service » augmente ses pouvoirs à mesure que d'autres personnes se joignent à elle. Cet effet est actif durant tout le combat, alors faites-en bon usage."
+      },
+      "CMD_COMMAND_NAME_CP_240_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1000",
+        "Text": "Triple coup tranchant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui assène une série de coups de hache.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_240_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_1060",
+        "Text": "Revers de hache"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_1060",
+        "Text": "Une attaque à courte portée qui vous fait charger vers l'adversaire pour le projeter en l'air avec le revers de votre hache.\nCette attaque ne peut pas être parée.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_240_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2000",
+        "Text": "Lancement d'attaque complémentaire"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2000",
+        "Text": "Vous guide vers l'ennemi pour lui asséner une attaque à la hache à courte portée qui le projette vers le haut.\nAppuyez à nouveau pour effectuer une attaque complémentaire et l'envoyer valser.\nVous pouvez enchaîner sur Propulsion descendante à partir du premier niveau.\nVous pouvez enchaîner sur Manipulation des Corbeaux à partir du second niveau."
+      },
+      "CMD_COMMAND_NAME_CP_240_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_2060",
+        "Text": "Propulsion descendante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_2060",
+        "Text": "Une attaque à courte portée où vous sautez vers le haut puis vous abattez en diagonale votre hache.\nSi vous l'exécutez en l'air, vous retomberez immédiatement.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_240_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3000",
+        "Text": "Frappe aérienne"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire pour le lancer dans les airs avec votre hache avant de lui asséner un coup qui le renvoie au sol.\nVous pouvez appuyer une nouvelle fois pour envoyer valser l'adversaire.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_240_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_240_3060",
+        "Text": "Saut écrasant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_3060",
+        "Text": "Une attaque à courte portée qui vous permet d'écraser l'adversaire avant de sauter haut dans les airs.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_240_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_4000",
+        "Text": "Attaque tranchante rotative/Attaque tranchante descendante"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_4000",
+        "Text": "Une attaque à courte portée qui vous permet de sprinter en donnant des coups de hache et d'enchaîner sur d'autres techniques en appuyant une nouvelle fois.\nVous pouvez vous déplacer dans n'importe quelle direction pendant que vous sprintez.\n<img id=\"CursedEnergyAttack_1\"/>\nVous agitez la hache et attaquez en tournoyant.\n<img id=\"MoveDown\"/>+<img id=\"CursedEnergyAttack_1\"/>\nVous sautez dans les airs, puis redescendez en abattant votre hache d'un coup puissant.\nCette technique peut être activée immédiatement à partir d'une posture normale.\n\nNiveau d'énergie occulte 2 : Augmente la vitesse de sprint. Augmente la durée de sprint. Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage la vitesse de sprint. Augmente davantage la durée de sprint. Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_240_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_5000",
+        "Text": "Manipulation des Corbeaux"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_5000",
+        "Text": "Invoque une nuée de corbeaux autour de vous.\nLes oiseaux vous suivent et vous protègent contre une unique attaque ennemie.\nAprès avoir bloqué une attaque avec succès, les corbeaux disparaissent.\nEn répétant l'action, vous ciblez l'adversaire et dirigez les corbeaux pour l'attaquer.\nVous pouvez vous déplacer tout en dirigeant les corbeaux pour attaquer et les commander pendant un sprint en utilisant Attaque tranchante rotative/Attaque tranchante descendante.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_240_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_7000",
+        "Text": "Combo aérien"
+      },
+      "CMD_COMMAND_NAME_CP_240_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_240_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1024>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_240_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_240_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nPlantez votre hache pour l'activer.\nPeut infliger de lourds dégâts en percutant l'ennemi après avoir forcé les corbeaux à se sacrifier, ce qui supprime toutes les limites d'énergie occulte."
+      },
+      "CMD_PASSIVE_NAME_CP_240_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_240_1000",
+        "Text": "Une vie faite pour le potentiel de service"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_240_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_240_1000",
+        "Text": "Les effets suivants seront obtenus chaque fois qu'un nombre de bonus de coopération s'activent :\nAugmentation de la vitesse de sprint\nRéduction de la consommation de la jauge de sprint\nRéduction du délai après un sprint\nAugmentation de la vitesse de récupération d'énergie occulte\nRéduction du délai après une garde\nCes effets seront actifs pendant toute la durée du combat\nPossède une limite supérieure."
+      },
+      "CMD_CHARACTER_DESCRIPTION_CP_270": {
+        "ID": "CMD_CHARACTER_DESCRIPTION_CP_270",
+        "Text": "L'exorciste le plus rapide, aux sorts risqués mais terriblement efficaces pour désorienter ses adversaires.\n\n• Son potentiel, « Technique de Projection », augmente la vitesse de mouvement après des chaînes d'attaques utilisant son sort. Cette technique consommant de l'énergie occulte ; à utiliser avec précaution car vous serez immobilisé si vous n'en avez plus assez.\n• Possibilité d'enchaîner sur la technique d'énergie occulte « Technique de Projection : Frappe » après les techniques d'extraction <img id=\"NormalAttack_1\"/>, <img id=\"NormalAttack_2\"/> ou <img id=\"NormalAttack_3\"/> en appuyant de nouveau.\nPlus vous utilisez Technique de Projection au cours d'un combo, plus les dégâts sont importants."
+      },
+      "CMD_COMMAND_NAME_CP_270_1000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1000",
+        "Text": "Écrasement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui assène une série de coups.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner sur une technique d'énergie occulte\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_270_1060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_1060",
+        "Text": "Coup de paume"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_1060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_1060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire pour lui asséner un coup de paume.\nCette attaque ne peut pas être parée.\nSi l'adversaire touché n'est pas étourdi, il sera immobilisé.\nPossibilité de déclencher une attaque combinée si l'attaque touche pendant un combat avec soutien."
+      },
+      "CMD_COMMAND_NAME_CP_270_2000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2000",
+        "Text": "Coups projetés"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire pour le projeter dans les airs avant de lui asséner un coup qui le renvoie au sol.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_270_2060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_2060",
+        "Text": "Coup perforant"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_2060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_2060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui porte un uppercut pendant votre saut.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_270_3000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3000",
+        "Text": "Triple coup de pied"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire et lui assène une série de coups de pied.\nPendant l'attaque, appuyez une nouvelle fois pour enchaîner avec une technique d'énergie occulte.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_270_3060": {
+        "ID": "CMD_COMMAND_NAME_CP_270_3060",
+        "Text": "Renversement"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_3060": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_3060",
+        "Text": "Une attaque à courte portée qui vous guide vers l'adversaire après avoir sauté en arrière pour lui asséner un coup de pied puissant.\nVous pouvez enchaîner sur d'autres techniques après cette attaque."
+      },
+      "CMD_COMMAND_NAME_CP_270_4000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_4000",
+        "Text": "Technique de Projection : Frappe"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_4000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_4000",
+        "Text": "Vous restez sur place et utilisez Technique de Projection pour vous guider vers l'ennemi et déclencher une attaque brutale à courte portée.\nSprintez ou sautez pendant que vous êtes dans cet état pour vous déplacer dans n’importe quelle direction.\nUtilisez une technique de combo ou une technique d'extraction lorsque vous êtes dans cet état ou après avoir bougé pour effectuer une Technique de Projection\nVous pouvez utiliser la technique immédiatement sans entrer dans l'état lorsque vous enchaînez après d'autres mouvements.\nLes dégâts infligés par Technique de Projection ne changent qu'en fonction du nombre de fois où la technique a été utilisée."
+      },
+      "CMD_COMMAND_NAME_CP_270_5000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_5000",
+        "Text": "Technique de Projection : Barrage"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_5000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_5000",
+        "Text": "Une attaque à courte portée qui vous guide vers l'ennemi et inflige Technique de projection pour geler l'adversaire dès que vous le touchez et lui infliger une rafale d'attaques.\nAppuyez une nouvelle fois au bon moment pour enchaîner sur d'autres techniques.\nSi la technique échoue, vous serez temporairement immobilisé.\nNiveau d'énergie occulte 2 : Augmente les dégâts infligés.\nNiveau d'énergie occulte 3 : Augmente davantage les dégâts infligés."
+      },
+      "CMD_COMMAND_NAME_CP_270_7000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_7000",
+        "Text": "Technique de Projection"
+      },
+      "CMD_COMMAND_NAME_CP_270_8000": {
+        "ID": "CMD_COMMAND_NAME_CP_270_8000",
+        "Text": "<GLO=GLS_UNIQUE_WORDS_1023>"
+      },
+      "CMD_COMMAND_DESCRIPTION_CP_270_8000": {
+        "ID": "CMD_COMMAND_DESCRIPTION_CP_270_8000",
+        "Text": "Cette attaque ne peut pas être parée.\nS'active en sprintant avec succès vers l'adversaire.\nUtilisez Technique de Projection pour augmenter votre vitesse et infliger d'énormes dégâts avec un barrage d'attaques rapides."
+      },
+      "CMD_PASSIVE_NAME_CP_270_1000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_1000",
+        "Text": "Technique de Projection"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_1000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_1000",
+        "Text": "Cette technique s'active lorsque vous l’enchaînez avec d'autres coups pendant l'attaque.\nUtilise automatiquement de l'énergie occulte pour vous déplacer vers l'ennemi avec Technique de Projection au lieu de vous guider.\nTous les coups exécutés avec Technique de Projection sont des attaques à un seul coup.\nSi vous ne disposez pas de suffisamment d'énergie occulte, la technique échouera et vous serez temporairement immobilisé.\nDes dégâts supplémentaires peuvent être infligés en utilisant Technique de Projection pour créer des chaînes d'attaques multiples."
+      },
+      "CMD_PASSIVE_NAME_CP_270_2000": {
+        "ID": "CMD_PASSIVE_NAME_CP_270_2000",
+        "Text": "Technique Secrète : Pluie de Pétales Épris"
+      },
+      "CMD_PASSIVE_DESCRIPTION_CP_270_2000": {
+        "ID": "CMD_PASSIVE_DESCRIPTION_CP_270_2000",
+        "Text": "Lorsque l'adversaire est en cours d'expansion de son territoire, votre garde se transforme en Pluie de Pétales Épris, ce qui consomme continuellement de l'énergie occulte pour contrer le Territoire et vous protéger. Vous serez immunisé contre le recul et la brise-garde. Si vous manquez d'énergie occulte disponible, vous effectuerez simplement une garde normale à la place."
+      }
+    }
+  }
+]
