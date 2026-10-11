@@ -3,6 +3,7 @@
 // renderUnifiedRows()/renderFilterPanel() in renderer/app.js.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { api } from "../api/ipc";
+import { client } from "../api/client";
 import { useParamRows, useTableRows, useTableSchema, useParamRow } from "../api/queries";
 import { charLabelOf, useProject } from "../stores/project";
 import { useTabs, tabTitle, tabTooltip } from "../stores/tabs";
@@ -382,6 +383,51 @@ function TableBody({ tab }: { tab: Tab }) {
   );
 }
 
+// Per-file $comment for parameters/*.json (param:comment). Neither UI
+// exposed this before; the Mod Manager preserves the key on merge.
+function ParamComment({ short, initial }: { short: string; initial: string }) {
+  const toast = useUi((s) => s.toast);
+  const [text, setText] = useState(initial);
+  const [saving, setSaving] = useState(false);
+  useEffect(() => {
+    setText(initial);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initial, short]);
+  const dirty = text !== initial;
+  return (
+    <div className="mrow" style={{ alignItems: "center", gap: 6, marginBottom: 8 }}>
+      <label style={{ color: "var(--dim)", fontSize: 12 }}>$comment</label>
+      <input
+        type="text"
+        value={text}
+        placeholder="File comment (exported as $comment)"
+        spellCheck={false}
+        autoComplete="off"
+        style={{ flex: 1 }}
+        onChange={(e) => setText(e.target.value)}
+      />
+      <button
+        className="small primary"
+        disabled={!dirty || saving}
+        onClick={async () => {
+          setSaving(true);
+          try {
+            await api.paramComment(short, text);
+            await client.invalidateQueries({ queryKey: ["paramRows", short] });
+            toast("Comment saved", "success");
+          } catch (e: any) {
+            toast(e?.message || String(e), "error");
+          } finally {
+            setSaving(false);
+          }
+        }}
+      >
+        {saving ? "Saving…" : "Save"}
+      </button>
+    </div>
+  );
+}
+
 function ParamBody({ tab }: { tab: Tab }) {
   const { data, isLoading, error } = useParamRows(tab.short, tab.search, tab.charPrefix);
   const toast = useUi((s) => s.toast);
@@ -440,6 +486,7 @@ function ParamBody({ tab }: { tab: Tab }) {
       <ScopeHeader tab={tab} />
       <div id="centerBody">
         <div className="unified-wrap">
+          <ParamComment short={tab.short!} initial={(data as any)?.comment || ""} />
           {rows.length === 0 && <div className="empty-note">No rows match. Adjust the filters.</div>}
           {rows.map((r) => (
             <ParamRowCard key={r.id} tab={tab} rowId={r.id} status={r.status} />

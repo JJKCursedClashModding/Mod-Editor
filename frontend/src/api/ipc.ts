@@ -94,6 +94,18 @@ export const api = {
   rulesMatchCount: (file: string, cond: any) =>
     ipc<{ match: number; total: number; error?: string }>("rules:match-count", file, cond),
 
+  // presets (named global-rule bundles; backend union in lib/projects.js)
+  presetsList: () =>
+    ipc<Array<{ name: string; table: string; ruleCount: number; updated: number }>>("presets:list"),
+  presetsSave: (name: string, file: string) => ipc("presets:save", name, file),
+  presetsApply: (name: string, file: string, mode: "append" | "replace") =>
+    ipc<{ rules: Rule[]; changed: ChangedCounts }>("presets:apply", name, file, mode),
+  presetsDelete: (name: string) => ipc("presets:delete", name),
+
+  // per-table diff (changed rows + new-row fills + errors)
+  tableDiff: (file: string) =>
+    ipc<{ changed: Record<string, any>; errors: string[]; fills: Array<{ rowId: string; template: string; count: number }> }>("diff:table", file),
+
   // params
   paramsRows: (short: string) =>
     ipc<{ rows: string[]; vanillaIds: string[]; comment: string; count: number; vanillaError?: string | null }>(
@@ -108,6 +120,7 @@ export const api = {
   paramCreate: (short: string, rowId: string, baseId?: string, value?: any) =>
     ipc("param:create", short, rowId, baseId, value),
   paramDelete: (short: string, rowId: string) => ipc("param:delete", short, rowId),
+  paramComment: (short: string, comment: string) => ipc("param:comment", short, comment),
 
   // characters
   charsList: () => ipc<{ chars: Array<{ prefix: string; name: string; source: string; tables?: number }> }>("chars:list"),

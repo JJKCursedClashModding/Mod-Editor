@@ -63,17 +63,19 @@ function createWindow() {
   win.on("focus", () => {
     refreshAppMenu();
   });
-  // Vanilla renderer/ is the default. Opt into the React frontend with
-  // JJK_USE_REACT=1 (built frontend/dist) or VITE_DEV_SERVER_URL (Vite dev
-  // server via npm run electron:dev).
+  // The React frontend/dist build is the default UI (CI builds it via npm
+  // run build:frontend). Falls back to the vanilla renderer/ when dist is
+  // missing (e.g. a checkout without a frontend build) or when
+  // JJK_USE_VANILLA=1. VITE_DEV_SERVER_URL (npm run electron:dev) wins for
+  // Vite HMR.
   const devUrl = process.env.VITE_DEV_SERVER_URL;
   const reactDist = path.join(__dirname, "frontend", "dist", "index.html");
   if (devUrl) {
     win.loadURL(devUrl);
-  } else if (process.env.JJK_USE_REACT === "1" && fsSync.existsSync(reactDist)) {
-    win.loadFile(reactDist);
-  } else {
+  } else if (process.env.JJK_USE_VANILLA === "1" || !fsSync.existsSync(reactDist)) {
     win.loadFile(path.join(__dirname, "renderer", "index.html"));
+  } else {
+    win.loadFile(reactDist);
   }
 }
 

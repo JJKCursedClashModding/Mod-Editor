@@ -497,6 +497,105 @@ function RuleCard({ tab, rule, index, total, schema }: { tab: Tab; rule: Rule; i
   );
 }
 
+interface PresetInfo {
+  name: string;
+  table: string;
+  ruleCount: number;
+  updated: number;
+}
+
+// Named global-rule bundles (presets:list/save/apply/delete): save the
+// current table's rules under a name, then append or replace them onto any
+// table. Neither the vanilla renderer nor React exposed this before — the
+// backend (lib/projects.js) always supported it.
+function PresetsBlock({ tab, members }: { tab: Tab; members: string[] }) {
+  const file = tab.file!;
+  const toast = useUi((s) => s.toast);
+  const prompt = useUi((s) => s.prompt);
+  const [presets, setPresets] = useState<PresetInfo[]>([]);
+  const [open, setOpen] = useState(false);
+
+  const refresh = async () => {
+    try {
+      setPresets(await api.presetsList());
+    } catch (e: any) {
+      toast(e?.message || String(e), "error");
+    }
+  };
+
+  useEffect(() => {
+    if (open) void refresh();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, file]);
+
+  const save = async () => {
+    const v = await prompt("Save preset", [{ label: "Preset name (current table's rules)", value: "" }], "Save");
+    if (!v || typeof v !== "string" || !v.trim()) return;
+    try {
+      await api.presetsSave(v.trim(), file);
+      toast(`Preset "${v.trim()}" saved`, "success");
+      await refresh();
+    } catch (e: any) {
+      toast(e?.message || String(e), "error");
+    }
+  };
+
+  const apply = async (name: string, mode: "append" | "replace") => {
+    try {
+      const d = await api.presetsApply(name, file, mode);
+      if (d.changed) useProject.getState().setChanged(d.changed);
+      await afterRulesMutated(tab, members.length ? members : undefined);
+      toast(`Preset "${name}" applied (${mode})`, "success");
+    } catch (e: any) {
+      toast(e?.message || String(e), "error");
+    }
+  };
+
+  const remove = async (name: string) => {
+    try {
+      await api.presetsDelete(name);
+      toast(`Preset "${name}" deleted`, "success");
+      await refresh();
+    } catch (e: any) {
+      toast(e?.message || String(e), "error");
+    }
+  };
+
+  return (
+    <div style={{ margin: "2px 0 12px" }}>
+      <button className="small" onClick={() => setOpen((o) => !o)}>
+        {open ? "\u25be Presets" : "\u25b8 Presets"} (rule bundles)
+      </button>{" "}
+      <button className="small" onClick={() => void save()}>
+        Save current rules as preset…
+      </button>
+      {open && (
+        <div style={{ marginTop: 6 }}>
+          {presets.length === 0 && <div className="empty-note">No presets saved yet.</div>}
+          {presets.map((p) => (
+            <div key={p.name} className="mrow" style={{ alignItems: "center", gap: 6 }}>
+              <b>{p.name}</b>
+              <span style={{ color: "var(--dim)", fontSize: 12 }}>
+                {p.ruleCount} rule(s){p.table ? ` \u00b7 from ${p.table}` : ""}
+              </span>
+              <span style={{ flex: 1 }} />
+              <button className="small" title="Append these rules to this table" onClick={() => void apply(p.name, "append")}>
+                Apply
+              </button>
+              <button className="small" title="Replace this table's rules with the preset" onClick={() => void apply(p.name, "replace")}>
+                Replace
+              </button>
+              <button className="small danger" onClick={() => void remove(p.name)}>
+                Delete
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function RulesView({ tab }: { tab: Tab }) {
   const { data, isLoading, error } = useRules(tab.file);
   const toast = useUi((s) => s.toast);
@@ -568,6 +667,7 @@ export default function RulesView({ tab }: { tab: Tab }) {
       >
         + Add rule
       </button>
+      <PresetsBlock tab={tab} members={members} />
       <datalist id="fieldList">
         {fields.map((f) => (
           <option key={f} value={f} />
