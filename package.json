@@ -13,6 +13,7 @@
     "start:react-dev": "node scripts/run-electron-dev.js",
     "typecheck:frontend": "npm --prefix frontend exec tsc --noEmit",
     "check:structs": "node scripts/struct-widget.check.js",
+"test": "node --test \"tests/*.test.js\"",
     "icon": "python scripts/make-icon.py",
     "enums": "node scripts/export-frontend-enums.js",
     "seed-categories": "node scripts/seed-table-categories.js",

@@ -12,13 +12,11 @@ const DEST = path.join(APP_DIR, "data", "input_json");
 const LEGACY = "C:/Users/Ahmed/Documents/Apps/JJKJsonEditor/input_json";
 
 function detectSource() {
+  // Explicit CLI arg wins, otherwise the legacy editor location. (There is
+  // deliberately no config key: tables are vendored under data/input_json/
+  // and the app seeds itself on first launch, so this script is manual
+  // re-sync only.)
   if (process.argv[2]) return process.argv[2];
-  try {
-    const raw = JSON.parse(fs.readFileSync(path.join(APP_DIR, "config.json"), "utf8"));
-    if (raw && raw.inputJsonDir && fs.existsSync(raw.inputJsonDir)) return raw.inputJsonDir;
-  } catch {
-    /* ignore */
-  }
   return LEGACY;
 }
 

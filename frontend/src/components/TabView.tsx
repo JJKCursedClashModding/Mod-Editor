@@ -13,6 +13,12 @@ import { ScopeMenu } from "./Explorer";
 import { ParamRowCard, TableRowCard } from "./RowCard";
 import RulesView from "./RulesView";
 
+function esc(s: unknown): string {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[c] as string);
+}
+
 export function TabStrip() {
   const tabs = useTabs((s) => s.tabs);
   const activeTabId = useTabs((s) => s.activeTabId);
@@ -467,7 +473,7 @@ function useIdAutocomplete(tab: Tab | null) {
           if (fieldRef.current !== `${t.id}:${f}`) return;
           const card = (el as HTMLElement).closest("[data-card]");
           const dl = (card ? card.querySelector("datalist") : document.getElementById("idcomplete")) as HTMLDataListElement | null;
-          if (dl) dl.innerHTML = (d.suggestions || []).map((s) => `<option value="${s.value}">${s.source}</option>`).join("");
+          if (dl) dl.innerHTML = (d.suggestions || []).map((s) => `<option value="${esc(s.value)}">${esc(s.source)}</option>`).join("");
         } catch {
           /* autocomplete best-effort */
         }

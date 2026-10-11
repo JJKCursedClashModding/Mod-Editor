@@ -356,9 +356,18 @@ async function runAutoExport() {
   }
 }
 
+// Table file names arriving over IPC are untrusted renderer input: confine
+// them to the vendored input set so crafted paths cannot escape inputDir().
+function sanitizeTableFile(file) {
+  const safe = path.basename(String(file || ""));
+  if (!safe || !/\.json$/i.test(safe)) throw new Error(`Bad table file: ${file}`);
+  if (!schema.getTableEntry(safe)) throw new Error(`Unknown table: ${safe}`);
+  return safe;
+}
+
 function tableChangedCounts(project) {
   const counts = {};
-  const tables = project.tables || {};
+  const tables = (project && project.tables) || {};
   // Bucket every stored rule list by share key (family entries + legacy
   // per-file lists), then fan the family totals out to each member file.
   const buckets = new Map();
@@ -367,8 +376,7 @@ function tableChangedCounts(project) {
     // Only live rules count: a rule with no field-bearing action (blank
     // draft, emptied stacks) changes nothing, so it must not light up
     // dots, badges, or the edited counter while having zero edited rows.
-    const n = engine.normalizeRule(r);
-    if (![...n.then, ...n.else].some((a) => a && a.field)) return;
+    if (!engine.isLiveRule(r)) return;
     let b = buckets.get(key);
     if (!b) { b = new Map(); buckets.set(key, b); }
     if (!b.has(r.id)) b.set(r.id, r);
@@ -428,7 +436,21 @@ function registerIpc() {
     });
   });
 
-  ipcMain.handle("settings:save", async (_, patch) => ok(await config.save(patch || {})));
+  // Allowlisted settings keys: unknown renderer-supplied keys are dropped
+  // rather than persisted into config.json.
+  const SETTINGS_KEYS = new Set([
+    "editorRoot", "modsDir", "modManagerDir", "projectsDir",
+    "bakeParameterAssets", "autoExport", "backupOnExport", "backupsKept",
+    "autoSnapshotOnExport", "snapshotKeep", "lastProject", "charMode",
+    "recentProjects",
+  ]);
+  ipcMain.handle("settings:save", async (_, patch) => {
+    const clean = {};
+    for (const [k, v] of Object.entries(patch || {})) {
+      if (SETTINGS_KEYS.has(k)) clean[k] = v;
+    }
+    return ok(await config.save(clean));
+  });
 
   ipcMain.handle("dialog:pick-dir", async (_, title) => {
     const r = await dialog.showOpenDialog({ title: title || "Pick folder", properties: ["openDirectory"] });
@@ -436,10 +458,11 @@ function registerIpc() {
   });
 
   ipcMain.handle("dialog:pick-file", async (_, opts) => {
+    const o = (opts && typeof opts === "object") ? opts : {};
     const r = await dialog.showOpenDialog({
-      title: (opts && opts.title) || "Pick file",
+      title: typeof o.title === "string" && o.title ? o.title : "Pick file",
       properties: ["openFile"],
-      filters: (opts && opts.filters) || [{ name: "All", extensions: ["*"] }],
+      filters: Array.isArray(o.filters) && o.filters.length > 0 ? o.filters : [{ name: "All", extensions: ["*"] }],
     });
     return ok(r.canceled ? null : r.filePaths[0]);
   });
@@ -616,6 +639,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("table:schema", async (_, file) => {
+    file = sanitizeTableFile(file);
     const s = schema.inferSchema(file);
     const entry = schema.getTableEntry(file);
     const docs = schema.getTableDocs(entry ? entry.base : file, entry ? entry.family : file);
@@ -624,6 +648,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("table:rows", async (_, file, opts) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const { rows: vanilla } = schema.readInputTable(file);
     const tableSchema = schema.inferSchema(file);
@@ -675,6 +700,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("row:get", async (_, file, rowId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const { rows: vanilla } = schema.readInputTable(file);
     const tableSchema = schema.inferSchema(file);
@@ -747,6 +773,7 @@ function registerIpc() {
   }
 
   ipcMain.handle("row:set-field", async (_, file, rowId, fieldPath, rawValue) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const tableSchema = schema.inferSchema(file);
     const { rows: vanilla } = schema.readInputTable(file);
@@ -804,6 +831,7 @@ function registerIpc() {
   }
 
   ipcMain.handle("row:reset-field", async (_, file, rowId, fieldPath) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const st = exportMod.getTableState(project, file);
     if (st.newRows[rowId]) {
@@ -819,6 +847,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("row:revert", async (_, file, rowId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const st = exportMod.getTableState(project, file);
     if (st.newRows[rowId]) throw new Error("Use delete for new rows");
@@ -828,19 +857,23 @@ function registerIpc() {
   });
 
   ipcMain.handle("row:create", async (_, file, newId, baseId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const id = String(newId || "").trim();
     if (!id) throw new Error("New row needs an ID");
     const { rows: vanilla } = schema.readInputTable(file);
     const st = exportMod.getTableState(project, file);
     if (vanilla[id] || st.newRows[id]) throw new Error(`Row ID already exists in ${file}: ${id}`);
-    // Uniqueness across the table family (CookedDatatablePatcher adds by row name).
-    const entry = schema.getTableEntry(file);
-    const family = entry ? entry.family : schema.parseTableFile(file).family;
-    for (const t of schema.listTables()) {
-      if (t.family !== family || t.file === file) continue;
-      const { rows } = schema.readInputTable(t.file);
-      if (rows[id]) throw new Error(`Row ID already exists in family file ${t.file}: ${id}`);
+    // Uniqueness across the table family (CookedDatatablePatcher adds by row
+    // name): vanilla rows in sibling files AND project new rows in siblings.
+    for (const m of exportMod.familyMembers(file)) {
+      if (m === file) continue;
+      const { rows: mrows } = schema.readInputTable(m);
+      if (mrows[id]) throw new Error(`Row ID already exists in family file ${m}: ${id}`);
+      const mst = project.tables[m];
+      if (mst && mst.newRows && mst.newRows[id] !== undefined) {
+        throw new Error(`Row ID already exists as a new row in family file ${m}: ${id}`);
+      }
     }
     let fields = {};
     if (baseId) {
@@ -848,6 +881,10 @@ function registerIpc() {
       if (!base) throw new Error(`Base row not found: ${baseId}`);
       fields = engine.clone(base);
       delete fields._base;
+      // Keep the stored row self-consistent: the clone carries the base's ID
+      // field, but the row now lives under the new key (export only fills ID
+      // when it is absent, so a stale value would ship verbatim).
+      if (schema.inferSchema(file).fields.ID) fields.ID = id;
     }
     st.newRows[id] = { _base: baseId || null, fields };
     await persist(project, `Added row ${file} ${id}${baseId ? ` (from ${baseId})` : ""}`);
@@ -855,12 +892,22 @@ function registerIpc() {
   });
 
   ipcMain.handle("row:duplicate", async (_, file, srcId, newId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const id = String(newId || "").trim();
     if (!id) throw new Error("New row needs an ID");
     const { rows: vanilla } = schema.readInputTable(file);
     const st = exportMod.getTableState(project, file);
     if (vanilla[id] || st.newRows[id]) throw new Error(`Row ID already exists: ${id}`);
+    for (const m of exportMod.familyMembers(file)) {
+      if (m === file) continue;
+      const { rows: mrows } = schema.readInputTable(m);
+      if (mrows[id]) throw new Error(`Row ID already exists in family file ${m}: ${id}`);
+      const mst = project.tables[m];
+      if (mst && mst.newRows && mst.newRows[id] !== undefined) {
+        throw new Error(`Row ID already exists as a new row in family file ${m}: ${id}`);
+      }
+    }
     const src = vanilla[srcId];
     if (!src) throw new Error(`Source row not found: ${srcId}`);
     // Duplicate the *effective* source so global rules carry over explicitly.
@@ -871,12 +918,15 @@ function registerIpc() {
       tableSchema,
       enums(),
     );
-    st.newRows[id] = { _base: null, fields: engine.clone(eff.row) };
+    const dupFields = engine.clone(eff.row);
+    if (tableSchema.fields.ID) dupFields.ID = id;
+    st.newRows[id] = { _base: null, fields: dupFields };
     await persist(project, `Duplicated ${file} ${srcId} -> ${id}`);
     return ok({ changed: tableChangedCounts(project) });
   });
 
   ipcMain.handle("row:delete", async (_, file, rowId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const st = exportMod.getTableState(project, file);
     if (!st.newRows[rowId]) throw new Error("Only new rows can be deleted");
@@ -887,6 +937,7 @@ function registerIpc() {
 
   // ---- global rules ----
   ipcMain.handle("rules:list", async (_, file) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const rules = exportMod.getFamilyRules(project, file);
     const members = exportMod.familyMembers(file);
@@ -897,6 +948,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("rules:add", async (_, file, rule) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const famSt = exportMod.migrateFamilyRules(project, file);
     const r = engine.newRule();
@@ -908,6 +960,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("rules:update", async (_, file, ruleId, patch) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const famSt = exportMod.migrateFamilyRules(project, file);
     const r = famSt.globalRules.find((x) => x.id === ruleId);
@@ -924,6 +977,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("rules:delete", async (_, file, ruleId) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const famSt = exportMod.migrateFamilyRules(project, file);
     famSt.globalRules = famSt.globalRules.filter((x) => x.id !== ruleId);
@@ -932,6 +986,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("rules:move", async (_, file, ruleId, dir) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const famSt = exportMod.migrateFamilyRules(project, file);
     const i = famSt.globalRules.findIndex((x) => x.id === ruleId);
@@ -944,6 +999,7 @@ function registerIpc() {
   });
 
   ipcMain.handle("rules:match-count", async (_, file, cond) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const { rows: vanilla } = schema.readInputTable(file);
     const st = exportMod.getTableState(project, file);
@@ -1308,6 +1364,7 @@ function registerIpc() {
 
   // ---- diffs ----
   ipcMain.handle("diff:table", async (_, file) => {
+    file = sanitizeTableFile(file);
     const project = await requireProject();
     const { changed, errors, fills } = exportMod.computeTableDiff(file, project, enums());
     return ok({ changed, errors, fills: fills || [] });
