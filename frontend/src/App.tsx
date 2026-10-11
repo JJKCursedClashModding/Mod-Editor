@@ -1,184 +1,207 @@
 // IDE shell: activity bar + sidebar + center + problems panel + status bar.
-// Mirrors renderer/index.html layout; behavior mirrors renderer/app.js.
-import { useEffect, useState } from "react";
-import { useQuery } from "@tanstack/react-query";
-import { api, onMenuAction } from "./api/ipc";
-import { keys } from "./api/queries";
+// Mirrors renderer/index.html layout and the DOMContentLoaded/bindEvents
+// startup in renderer/app.js.
+import { useEffect } from "react";
+import { onAutoExport, onMenuAction } from "./api/ipc";
 import { useProject } from "./stores/project";
 import { useTabs } from "./stores/tabs";
 import { useUi } from "./stores/ui";
-import { ChangesView, Explorer, SearchView } from "./components/Explorer";
+import { ChangesView, CharPicker, Explorer, SearchView } from "./components/Explorer";
 import { CenterView, TabStrip } from "./components/TabView";
-import { CommandPalette, Modals, StatusBar, Toasts } from "./components/Panels";
+import { CommandPalette, ProblemsPanel, StatusBar, Toasts, handleMenuAction } from "./components/Panels";
+import { Modals, PromptModal } from "./components/Modals";
+import { doCloseTab, doRedo, doUndo, persistTabsSoon, restoreTabs, selectScope, setCharMode } from "./app/flows";
 
-function ProblemsPanel() {
-  const { data, refetch, isFetching } = useQuery({ queryKey: keys.diff, queryFn: () => api.diffProject() });
-  const [problems, setProblems] = useState<any>(null);
-  const toast = useUi((s) => s.toast);
+function ActivityBar() {
+  const sideView = useUi((s) => s.sideView);
+  const sidebarOpen = useUi((s) => s.sidebarOpen);
+  const changed = useProject((s) => s.changed);
+  const project = useProject((s) => s.project);
+  const activeCls = (v: string) => (sideView === v && sidebarOpen ? " active" : "");
 
-  const validate = async () => {
-    try {
-      const r = await api.validateProject();
-      setProblems(r);
-      const n = r?.errors?.length || r?.problems?.length || 0;
-      toast(n ? `${n} problem(s)` : "No problems", n ? "warn" : "success");
-    } catch (e: any) {
-      toast(e.message, "error");
+  let n = Object.keys(changed || {}).length;
+  if (project?.parameters) {
+    for (const p of Object.values<any>(project.parameters)) {
+      const rows = (p?.rows || {}) as Record<string, unknown>;
+      if (Object.keys(rows).filter((k) => k.charAt(0) !== "$").length > 0) n++;
     }
+  }
+
+  const click = (v: "explorer" | "search" | "changes") => {
+    const ui = useUi.getState();
+    if (!ui.sidebarOpen || ui.sideView !== v) ui.setSideView(v);
+    else ui.toggleSidebar();
   };
 
-  const errs = [...(data?.errors || []), ...(problems?.errors || problems?.problems || [])];
   return (
-    <section id="panel">
-      <div id="panelHead">
-        <button className="p-tab active">Problems</button>
-        <span className="p-count">{errs.length}</span>
-        <span style={{ flex: 1 }} />
-        <button className="small" disabled={isFetching} onClick={() => { refetch(); validate(); }}>Validate</button>
-        <button className="p-close" onClick={() => useUi.getState().setPanelOpen(false)}>×</button>
+    <nav id="activityBar" aria-label="Activity">
+      <div className="ab-top">
+        <button className={`abtn${activeCls("explorer")}`} data-aview="explorer" title="Explorer (tables & parameters)" onClick={() => click("explorer")}>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M13 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9l-8-6z" />
+            <path d="M13 3v6h6" />
+          </svg>
+        </button>
+        <button className={`abtn${activeCls("search")}`} data-aview="search" title="Global search" onClick={() => click("search")}>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M20 20l-3.8-3.8" />
+          </svg>
+        </button>
+        <button className={`abtn${activeCls("changes")}`} data-aview="changes" title="Project changes" onClick={() => click("changes")}>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="6" cy="6" r="2.5" />
+            <circle cx="6" cy="18" r="2.5" />
+            <circle cx="18" cy="12" r="2.5" />
+            <path d="M6 8.5v7M8 7c4 0 3 4 7.5 4.6" />
+          </svg>
+          <span className={`abadge${n ? "" : " hidden"}`} id="changesBadge">
+            {n > 99 ? "99+" : n}
+          </span>
+        </button>
       </div>
-      <div id="panelBody">
-        {errs.length === 0 ? <div className="empty-note">No problems. Run Validate to re-check.</div> : errs.map((e: any, i: number) => (
-          <div key={i} className="err" style={{ padding: "2px 8px" }}>{typeof e === "string" ? e : JSON.stringify(e)}</div>
-        ))}
+      <div className="ab-bottom">
+        <button className="abtn" id="btnSettings" title="Settings" onClick={() => useUi.getState().openModal("settings")}>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3.2" />
+            <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 8.9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56.63.27 1.36.14 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87c.27.63.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1.04z" />
+          </svg>
+        </button>
       </div>
-    </section>
+    </nav>
   );
 }
 
 export default function App() {
   const ready = useProject((s) => s.ready);
   const error = useProject((s) => s.error);
-  const init = useProject((s) => s.init);
-  const sideView = useUi((s) => s.sideView);
-  const setSideView = useUi((s) => s.setSideView);
   const sidebarOpen = useUi((s) => s.sidebarOpen);
-  const toggleSidebar = useUi((s) => s.toggleSidebar);
-  const panelOpen = useUi((s) => s.panelOpen);
-  const setPanelOpen = useUi((s) => s.setPanelOpen);
-  const toast = useUi((s) => s.toast);
-  const setBusy = useUi((s) => s.setBusy);
-  const openModal = useUi((s) => s.openModal);
 
+  // ---- startup (mirrors DOMContentLoaded) ----
   useEffect(() => {
-    void init();
+    let live = true;
+    (async () => {
+      await useProject.getState().init();
+      if (!live) return;
+      const st = useProject.getState();
+      // Character index for filters/picker (best-effort, like app.js).
+      st.ensureCharData().catch((e: any) =>
+        useUi.getState().toast(`Character index: ${e?.message || e}`, "warn"),
+      );
+      if (st.project) {
+        try {
+          const restored = await restoreTabs();
+          if (!restored && st.charMode) await setCharMode(st.charMode);
+          else if (!restored) openFirstScope();
+        } catch {
+          openFirstScope();
+        }
+      } else if (st.charMode) {
+        await setCharMode(st.charMode).catch(() => openFirstScope());
+      } else {
+        openFirstScope();
+      }
+    })();
+    return () => {
+      live = false;
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Persist open tabs (debounced) like app.js persistTabsSoon().
+  // ---- document title (renderProjects) ----
+  const projects = useProject((s) => s.projects);
+  const currentProject = useProject((s) => s.currentProject);
+  const project = useProject((s) => s.project);
+  useEffect(() => {
+    const cur = (projects || []).find((p) => p.name === currentProject);
+    const label = (cur && (cur.title || cur.name)) || project?.manifest?.title || currentProject;
+    document.title = label ? `${label} — JJK Mod Editor` : "JJK Mod Editor";
+  }, [projects, currentProject, project?.manifest?.title]);
+
+  // ---- persist open tabs (debounced, like persistTabsSoon) ----
   const tabs = useTabs((s) => s.tabs);
   const activeTabId = useTabs((s) => s.activeTabId);
-  const currentProject = useProject((s) => s.currentProject);
   useEffect(() => {
     if (!currentProject || tabs.length === 0) return;
-    const t = setTimeout(() => {
-      const { serialize } = useTabs.getState();
-      api.projectSaveUi(currentProject, serialize()).catch(() => {});
-    }, 1500);
-    return () => clearTimeout(t);
+    persistTabsSoon();
   }, [tabs, activeTabId, currentProject]);
 
-  // Native menu → actions.
+  // ---- native menu + auto-export (bindEvents) ----
   useEffect(() => {
-    return onMenuAction((action) => {
-      const ui = useUi.getState();
-      const tabsApi = useTabs.getState();
-      switch (action) {
-        case "project:open-modal": ui.openModal("openProject"); break;
-        case "project:new": ui.openModal("newProject"); break;
-        case "project:validate": setPanelOpen(true); break;
-        case "project:snapshots": ui.openModal("snapshots"); break;
-        case "project:changes": ui.setSideView("changes"); break;
-        case "file:export-folder":
-          setBusy("Exporting…");
-          api.exportFolder().then((r: any) => toast(`Exported ${r.files?.length ?? 0} files`, "success")).catch((e: any) => toast(e.message, "error")).finally(() => setBusy(null));
-          break;
-        case "file:export-jjkmod":
-          api.exportJjkmod().then(() => toast("Exported .jjkmod", "success")).catch((e: any) => toast(e.message, "error"));
-          break;
-        case "mod:preview": ui.openModal("exportPreview"); break;
-        case "mod:edit": ui.openModal("mod"); break;
-        case "view:tables": useProject.getState().setLeftTab("tables"); break;
-        case "view:params": useProject.getState().setLeftTab("params"); break;
-        case "view:toggle-sidebar": toggleSidebar(); break;
-        case "view:toggle-panel": setPanelOpen(!useUi.getState().panelOpen); break;
-        case "view:close-tab": if (tabsApi.activeTabId) tabsApi.close(tabsApi.activeTabId); break;
-        case "view:palette":
-        case "view:quick-open":
-          window.dispatchEvent(new KeyboardEvent("keydown", { key: "p", ctrlKey: true } as any));
-          break;
-        case "edit:search": ui.setSideView("search"); break;
-        case "edit:undo":
-          api.historyUndo().then((d: any) => { useProject.getState().reloadAfterHistory(d.project, d.changed); }).catch((e: any) => toast(e.message, "error"));
-          break;
-        case "edit:redo":
-          api.historyRedo().then((d: any) => { useProject.getState().reloadAfterHistory(d.project, d.changed); }).catch((e: any) => toast(e.message, "error"));
-          break;
-        default: break;
-      }
+    const offMenu = onMenuAction((action, payload) => handleMenuAction(action, payload));
+    const offAuto = onAutoExport((p) => {
+      if (!p) return;
+      if (p.ok) useUi.getState().toast(`Auto-exported ${p.files} file(s)${p.backupPath ? " (backup kept)" : ""}`, "success");
+      else useUi.getState().toast(p.error || "Auto-export failed", "error");
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  // Keyboard shortcuts.
-  useEffect(() => {
-    const h = (e: KeyboardEvent) => {
+    const onKey = (e: KeyboardEvent) => {
       const mod = e.ctrlKey || e.metaKey;
-      if (mod && e.key.toLowerCase() === "e" && !e.shiftKey) {
+      const t = e.target as HTMLElement;
+      if (!mod || (t && t.matches && t.matches("input, textarea, select")) || !useProject.getState().currentProject) return;
+      const k = e.key.toLowerCase();
+      if (k === "z" && !e.shiftKey) {
         e.preventDefault();
-        setBusy("Exporting…");
-        api.exportFolder().then((r: any) => toast(`Exported ${r.files?.length ?? 0} files`, "success")).catch((err: any) => toast(err.message, "error")).finally(() => setBusy(null));
-      } else if (mod && e.key.toLowerCase() === "b") { e.preventDefault(); toggleSidebar(); }
-      else if (mod && e.key.toLowerCase() === "j") { e.preventDefault(); setPanelOpen(!useUi.getState().panelOpen); }
-      else if (mod && e.key.toLowerCase() === "o") { e.preventDefault(); openModal("openProject"); }
-      else if (mod && e.key.toLowerCase() === "z" && !e.shiftKey) {
-        const el = document.activeElement as HTMLElement;
-        if (el && (el.tagName === "INPUT" || el.tagName === "TEXTAREA")) return; // native undo
+        void doUndo();
+      } else if (k === "y" || (k === "z" && e.shiftKey)) {
         e.preventDefault();
-        api.historyUndo().then((d: any) => useProject.getState().reloadAfterHistory(d.project, d.changed)).catch((err: any) => toast(err.message, "error"));
+        void doRedo();
+      } else if (k === "w") {
+        e.preventDefault();
+        doCloseTab();
       }
     };
-    window.addEventListener("keydown", h);
-    return () => window.removeEventListener("keydown", h);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    document.addEventListener("keydown", onKey);
+    return () => {
+      offMenu();
+      offAuto();
+      document.removeEventListener("keydown", onKey);
+    };
   }, []);
 
-  if (!ready) return <div className="empty-ide"><div className="empty-logo">JJK</div><p>Loading…</p></div>;
-  if (error) return <div className="empty-ide"><div className="empty-logo">JJK</div><div className="err">{error}</div><p>Run inside Electron (npm start), not a plain browser.</p></div>;
+  if (!ready)
+    return (
+      <div id="ide">
+        <div className="empty-ide" style={{ margin: "auto" }}>
+          <p>Loading…</p>
+        </div>
+      </div>
+    );
+  if (error)
+    return (
+      <div style={{ padding: 40 }}>
+        <h2>Failed to start</h2>
+        <div className="err">{error}</div>
+        <p>Run inside Electron (npm start), not a plain browser.</p>
+      </div>
+    );
 
   return (
     <div id="ide">
-      <nav id="activityBar" aria-label="Activity">
-        <div className="ab-top">
-          <button className={`abtn${sideView === "explorer" ? " active" : ""}`} title="Explorer (tables & parameters)" onClick={() => setSideView("explorer")}>🗂</button>
-          <button className={`abtn${sideView === "search" ? " active" : ""}`} title="Global search" onClick={() => setSideView("search")}>🔍</button>
-          <button className={`abtn${sideView === "changes" ? " active" : ""}`} title="Project changes" onClick={() => setSideView("changes")}>⑂</button>
-        </div>
-        <div className="ab-bottom">
-          <button className="abtn" title="Settings" onClick={() => openModal("mod")}>⚙</button>
-        </div>
-      </nav>
-
-      {sidebarOpen && (
-        <aside id="sideBar">
-          {sideView === "explorer" && <Explorer />}
-          {sideView === "search" && <SearchView />}
-          {sideView === "changes" && <ChangesView />}
-        </aside>
-      )}
-
+      <ActivityBar />
+      <aside id="sideBar" className={sidebarOpen ? "" : "hidden"}>
+        <Explorer />
+        <SearchView />
+        <ChangesView />
+      </aside>
       <div id="mainCol">
         <section id="center">
           <TabStrip />
           <CenterView />
         </section>
-        {panelOpen && <ProblemsPanel />}
+        <ProblemsPanel />
         <StatusBar />
       </div>
-
       <CommandPalette />
       <Modals />
+      <PromptModal />
+      <CharPicker />
       <Toasts />
     </div>
   );
+}
+
+function openFirstScope() {
+  const st = useProject.getState();
+  if (st.tables.length > 0) selectScope({ kind: "table", file: st.tables[0].file });
+  else if (st.paramAssets.length > 0) selectScope({ kind: "param", short: st.paramAssets[0].shortName });
 }

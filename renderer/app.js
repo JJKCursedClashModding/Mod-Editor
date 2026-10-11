@@ -1484,6 +1484,18 @@ function renderWidget(f, fs, eff) {
     return `<div class="enum-checks">` + cur.map((v, i) => `<label><input type="checkbox" data-w="bool-arr" data-f="${esc(f)}" ${v ? "checked" : ""}>${i}</label>`).join("") + `</div>`;
   }
   if (kind === "string[]" || kind === "number[]") return arrayListWidget(f, eff, kind === "number[]");
+  // Flat objects (Vector X/Y/Z, Rotator, color R/G/B/A/Hex, …): per-key inputs.
+  // Schema-less `any` values use the same form when they look like flat structs.
+  const schemaStruct = Array.isArray(fs.structFields) && fs.structFields.length > 0;
+  const structValOk = eff === undefined || eff === null || isPlainObjVal(eff);
+  if ((kind === "struct" || ((kind === "any" || schemaStruct) && isFlatStructVal(eff))) && structValOk) {
+    const keys = structKeysFor(fs, eff);
+    if (keys.length) return structWidget(f, fs, eff);
+  }
+  // Arrays of flat objects (e.g. MissionLayout Location/Rotation).
+  if (kind === "struct[]") return structArrayWidget(f, fs, eff);
+  if (kind === "any[]" && Array.isArray(eff) && eff.some(isPlainObjVal) && eff.every((el) => !isPlainObjVal(el) || isFlatStructVal(el)))
+    return structArrayWidget(f, fs, eff);
   if (kind.endsWith("[]") || kind === "struct" || kind === "any") {
     const txt = eff === undefined ? "" : jsonText(eff);
     return `<textarea data-w="json" data-f="${esc(f)}" rows="${kind === "struct" ? 4 : 2}" spellcheck="false">${esc(txt)}</textarea>`;
@@ -1506,11 +1518,197 @@ function arrayListWidget(f, eff, numeric) {
 function jsonText(v) {
   try { return JSON.stringify(v, null, 1); } catch { return String(v); }
 }
+// ---------- struct editors (Vector XYZ / Rotator / color / generic flat objects) ----------
+// Mirrors StructEditor/StructArrayEditor in frontend/src/components/FieldWidget.tsx.
+// Commits ride the same tabContent change delegation: text/number commit on blur
+// (change event), checkboxes + color picker on change, Enter blurs into commit.
+function isPlainObjVal(v) {
+  return v !== null && typeof v === "object" && !Array.isArray(v);
+}
+function isFlatStructVal(v) {
+  if (!isPlainObjVal(v)) return false;
+  return Object.keys(v).every((k) => {
+    const x = v[k];
+    return x === null || x === undefined || typeof x === "number" || typeof x === "string" || typeof x === "boolean";
+  });
+}
+function structKeysFor(fs, value) {
+  const out = [];
+  const seen = new Set();
+  if (fs && Array.isArray(fs.structFields)) {
+    for (const m of fs.structFields) {
+      if (m && typeof m.name === "string" && !seen.has(m.name)) {
+        seen.add(m.name);
+        out.push({ name: m.name, kind: m.kind || "any" });
+      }
+    }
+  }
+  if (isPlainObjVal(value)) {
+    for (const k of Object.keys(value)) {
+      if (seen.has(k)) continue;
+      seen.add(k);
+      const v = value[k];
+      out.push({ name: k, kind: typeof v === "number" ? "number" : typeof v === "boolean" ? "boolean" : typeof v === "string" ? "string" : "any" });
+    }
+  }
+  return out;
+}
+function cssFromHexStr(hex) {
+  const h = String(hex == null ? "" : hex).trim().replace(/^#/, "");
+  return /^[0-9a-fA-F]{6}$/.test(h) ? `#${h.toLowerCase()}` : null;
+}
+function subTextVal(sub) {
+  if (sub !== null && typeof sub === "object") {
+    try { return JSON.stringify(sub); } catch { return String(sub); }
+  }
+  return sub === undefined || sub === null ? "" : String(sub);
+}
+function structCellHtml(f, m, sub, idx) {
+  const idxAttr = idx === null || idx === undefined ? "" : ` data-idx="${idx}"`;
+  const tip = idx === null || idx === undefined ? `${f}.${m.name}` : `${f}[${idx}].${m.name}`;
+  const open = `<label class="struct-cell${m.kind === "boolean" ? " struct-bool" : ""}${m.name === "Hex" ? " struct-hex" : ""}" title="${esc(tip)}"><span class="struct-key">${esc(m.name)}</span>`;
+  if (m.kind === "boolean")
+    return `${open}<input type="checkbox" data-w="struct-bool" data-f="${esc(f)}" data-sf="${esc(m.name)}"${idxAttr}${sub ? " checked" : ""}></label>`;
+  if (m.kind === "number")
+    return `${open}<input type="number" step="any" data-w="struct-num" data-f="${esc(f)}" data-sf="${esc(m.name)}"${idxAttr} value="${esc(subTextVal(sub))}"></label>`;
+  if (m.name === "Hex" && typeof sub !== "object") {
+    const css = typeof sub === "string" ? cssFromHexStr(sub) : null;
+    return `${open}<input type="text" data-w="struct-str" data-f="${esc(f)}" data-sf="Hex"${idxAttr} value="${esc(subTextVal(sub))}" spellcheck="false" placeholder="RRGGBB">` +
+      `<input type="color" data-w="struct-color" data-f="${esc(f)}" data-sf="Hex"${idxAttr} value="${css || "#000000"}" title="${esc(css ? `#${String(sub).replace(/^#/, "").toUpperCase()}` : "Pick a color")}"></label>`;
+  }
+  if (sub !== null && typeof sub === "object")
+    return `${open}<input type="text" data-w="struct-json" data-f="${esc(f)}" data-sf="${esc(m.name)}"${idxAttr} value="${esc(subTextVal(sub))}" spellcheck="false"></label>`;
+  return `${open}<input type="text" data-w="struct-str" data-f="${esc(f)}" data-sf="${esc(m.name)}"${idxAttr} value="${esc(subTextVal(sub))}" spellcheck="false"></label>`;
+}
+function showStructForm(wrap) {
+  // Flip a struct widget back from the raw-JSON view to the form view.
+  const raw = wrap.querySelector(".struct-raw");
+  if (raw) raw.setAttribute("hidden", "");
+  if (wrap.classList.contains("struct-wrap")) {
+    const grid = wrap.querySelector(".struct-grid");
+    if (grid) grid.removeAttribute("hidden");
+    const tg = wrap.querySelector("[data-structraw]");
+    if (tg) tg.removeAttribute("hidden");
+  } else {
+    const rows = wrap.querySelector(".struct-rows");
+    const foot = wrap.querySelector(".struct-list-foot");
+    if (rows) rows.removeAttribute("hidden");
+    if (foot) foot.removeAttribute("hidden");
+  }
+}
+function structWidget(f, fs, eff) {
+  const keys = structKeysFor(fs, eff);
+  const cur = isPlainObjVal(eff) ? eff : {};
+  const cells = keys.map((m) => structCellHtml(f, m, cur[m.name], null)).join("");
+  return `<div class="struct-wrap" data-skeys='${esc(JSON.stringify(keys))}'>` +
+    `<div class="struct-grid">${cells}</div>` +
+    `<button class="small linklike struct-toggle" data-structraw title="Edit raw JSON">{}</button>` +
+    `<div class="struct-raw" hidden><textarea data-w="json" data-f="${esc(f)}" rows="4" spellcheck="false">${esc(jsonText(eff === undefined ? "" : eff))}</textarea><button class="small linklike" data-structform title="Apply JSON and back to form">form</button></div></div>`;
+}
+function blankStructFor(keys) {
+  const o = {};
+  for (const k of keys || []) o[k.name] = k.kind === "number" ? 0 : k.kind === "boolean" ? false : k.name === "Hex" ? "FFFFFF" : "";
+  return o;
+}
+function structArrayWidget(f, fs, eff) {
+  const arr = Array.isArray(eff) ? eff : [];
+  // Union of schema keys + every element's keys (elements may vary).
+  const seen = new Set();
+  const allKeys = [];
+  for (const src of [arr.find(isPlainObjVal), ...arr]) {
+    for (const m of structKeysFor(fs, src)) {
+      if (seen.has(m.name)) continue;
+      seen.add(m.name);
+      allKeys.push(m);
+    }
+  }
+  const rows = arr.map((el, i) => {
+    let body;
+    if (isFlatStructVal(el) || el === null || el === undefined) {
+      const cur = isPlainObjVal(el) ? el : {};
+      // Schema keys + this element's own keys (sparse structs stay editable).
+      const rowKeys = structKeysFor(fs, el);
+      body = `<div class="struct-grid">${rowKeys.map((m) => structCellHtml(f, m, cur[m.name], i)).join("")}</div>`;
+    } else {
+      body = `<span class="struct-nonscalar" title="Non-scalar element — edit as raw JSON with the {} toggle">${esc(JSON.stringify(el))}</span>` +
+        `<input type="hidden" data-w="struct-raw-el" data-f="${esc(f)}" data-idx="${i}" value='${esc(JSON.stringify(el))}'>`;
+    }
+    return `<div class="struct-row"><span class="struct-idx" title="Element ${i}">${i}</span>${body}<button class="small danger" data-sarrdel="${i}" title="Remove">×</button></div>`;
+  }).join("");
+  return `<div class="struct-list" data-skeys='${esc(JSON.stringify(allKeys))}'>` +
+    `<div class="struct-rows">${rows}</div>` +
+    `<div class="struct-list-foot"><button class="small" data-sarradd>+ add</button><button class="small linklike struct-toggle" data-structraw title="Edit raw JSON">{}</button></div>` +
+    `<div class="struct-raw" hidden><textarea data-w="json" data-f="${esc(f)}" rows="4" spellcheck="false">${esc(jsonText(eff === undefined ? "" : eff))}</textarea><button class="small linklike" data-structform title="Apply JSON and back to form">form</button></div></div>`;
+}
 function readWidgetValue(container, f) {
-  const els = $$('[data-f]', container).filter((el) => el.dataset.f === f && el.dataset.w);
+  // Hidden raw/form alternates (struct {} toggle) never participate.
+  const els = $$('[data-f]', container).filter((el) => el.dataset.f === f && el.dataset.w && !el.closest("[hidden]"));
   if (!els.length) return { missing: true };
   const first = els[0];
   const w = first.dataset.w;
+  if (w === "struct-bool" || w === "struct-num" || w === "struct-str" || w === "struct-json" || w === "struct-color" || w === "struct-raw-el") {
+    const readOne = (parts) => {
+      const obj = {};
+      for (const el of parts) {
+        const sw = el.dataset.w;
+        const sf = el.dataset.sf;
+        if (sw === "struct-color") continue; // synced into the Hex text on change
+        if (sw === "struct-raw-el") continue; // handled at the element level
+        if (sw === "struct-bool") {
+          obj[sf] = el.checked;
+          continue;
+        }
+        if (sw === "struct-num") {
+          const t = String(el.value == null ? "" : el.value).trim();
+          if (t === "") return { error: `${f}.${sf}: empty value is not a number` };
+          const n = Number(t);
+          if (!Number.isFinite(n)) return { error: `${f}.${sf}: "${el.value}" is not a number` };
+          obj[sf] = n;
+          continue;
+        }
+        if (sw === "struct-json") {
+          const t = String(el.value == null ? "" : el.value).trim();
+          if (!t) {
+            obj[sf] = null;
+            continue;
+          }
+          try {
+            obj[sf] = JSON.parse(t);
+          } catch (err) {
+            return { error: `${f}.${sf}: invalid JSON (${err.message})` };
+          }
+          continue;
+        }
+        obj[sf] = el.value; // struct-str (Hex normalized below)
+      }
+      if (typeof obj.Hex === "string") obj.Hex = obj.Hex.trim().replace(/^#/, "").toUpperCase();
+      return { value: obj };
+    };
+    if (first.dataset.idx === undefined) return readOne(els);
+    const byIdx = new Map();
+    for (const el of els) {
+      const i = Number(el.dataset.idx);
+      if (!byIdx.has(i)) byIdx.set(i, []);
+      byIdx.get(i).push(el);
+    }
+    const out = [];
+    for (const i of [...byIdx.keys()].sort((a, b) => a - b)) {
+      const parts = byIdx.get(i);
+      const rawEl = parts.find((e) => e.dataset.w === "struct-raw-el");
+      if (rawEl) {
+        try {
+          out.push(JSON.parse(rawEl.value));
+        } catch (err) {
+          return { error: `${f}[${i}]: invalid JSON (${err.message})` };
+        }
+        continue;
+      }
+      const r = readOne(parts);
+      if (r.error) return r;
+      out.push(r.value);
+    }
+    return { value: out };
+  }
   if (w === "bool") return { value: first.checked };
   if (w === "num") {
     if (first.value === "" || first.value === null) return { value: null };
@@ -1550,6 +1748,10 @@ function readWidgetValue(container, f) {
 }
 async function commitFieldFor(tab, rowId, f, card) {
   const read = readWidgetValue(card, f);
+  if (read.missing) return;
+  await commitReadValue(tab, rowId, f, card, read);
+}
+async function commitReadValue(tab, rowId, f, card, read) {
   if (read.missing) return;
   if (read.error) { toast(read.error, "error"); return; }
   const ckey = `${tab.kind}:${tab.kind === "table" ? tab.file : tab.short}:${rowId}:${f}:${JSON.stringify(read.value)}`;
@@ -3238,6 +3440,8 @@ function bindEvents() {
       showScopeContextMenu(e.clientX, e.clientY, [
         { label: "Open", onClick: () => selectScope({ kind: "table", file }) },
         { label: "Global Rules", onClick: () => openRulesTab(file) },
+        { label: "Open original JSON", onClick: () => guard(async () => { await call("file:open-original", file); }) },
+        ...(S.changed[file] ? [{ label: "Open project JSON", onClick: () => guard(async () => { await call("file:open-project"); }) }] : []),
       ]);
       return;
     }
@@ -3245,8 +3449,12 @@ function bindEvents() {
     if (ps) {
       e.preventDefault();
       const short = ps.dataset.pshort;
+      // Parameters have no vanilla JSON file (values come from cooked
+      // uassets), so only the project file can be opened — and only when
+      // this file actually has project rows.
       showScopeContextMenu(e.clientX, e.clientY, [
         { label: "Open", onClick: () => { S.leftTab = "params"; selectScope({ kind: "param", short }); } },
+        ...(projectParamRows(short).length > 0 ? [{ label: "Open project JSON", onClick: () => guard(async () => { await call("file:open-project"); }) }] : []),
       ]);
     }
   });
@@ -3307,6 +3515,24 @@ function showScopeContextMenu(x, y, items) {
       el.scrollLeft += e.deltaY;
     }
   }, { passive: false });
+  $("#tabStrip").addEventListener("contextmenu", (e) => {
+    const tb = e.target.closest("[data-tab]");
+    if (!tb) return;
+    const t = S.tabs.find((x) => x.id === tb.dataset.tab);
+    if (!t) return;
+    const items = [];
+    if ((t.kind === "table" || t.kind === "rules") && t.file) {
+      const file = t.file;
+      items.push({ label: "Open original JSON", onClick: () => guard(async () => { await call("file:open-original", file); }) });
+      if (S.changed[file]) items.push({ label: "Open project JSON", onClick: () => guard(async () => { await call("file:open-project"); }) });
+    } else if (t.kind === "param" && t.short) {
+      // Parameters have no vanilla JSON file (values come from cooked uassets).
+      if (projectParamRows(t.short).length > 0) items.push({ label: "Open project JSON", onClick: () => guard(async () => { await call("file:open-project"); }) });
+    }
+    if (!items.length) return;
+    e.preventDefault();
+    showScopeContextMenu(e.clientX, e.clientY, items);
+  });
   $("#fabFilters").addEventListener("click", () => {
     S.showFilterPanel = !S.showFilterPanel;
     renderFilterPanel();
@@ -3394,6 +3620,13 @@ function applyPanelFields(t) {
     }
     const w = e.target.dataset && e.target.dataset.w;
     if (!w) return;
+    if (w === "struct-color") {
+      // Color swatch is a shortcut for the Hex text: mirror the pick, then
+      // commit the whole struct through the normal path below.
+      const cell = e.target.closest(".struct-cell");
+      const txt = cell && cell.querySelector('[data-w="struct-str"]');
+      if (txt) txt.value = String(e.target.value || "").replace(/^#/, "").toUpperCase();
+    }
     const card = e.target.closest("[data-card]");
     if (!card || t.kind === "rules") return;
     commitFieldFor(t, card.dataset.card, e.target.dataset.f, card);
@@ -3423,7 +3656,7 @@ function applyPanelFields(t) {
     if (e.key !== "Enter") return;
     const w = e.target.dataset && e.target.dataset.w;
     if (!w) return;
-    if (w === "str" || w === "num" || w === "list-str" || w === "list-num") e.target.blur();
+    if (w === "str" || w === "num" || w === "list-str" || w === "list-num" || w === "struct-str" || w === "struct-num" || w === "struct-json") e.target.blur();
   });
 }
 async function onTabClick(e) {
@@ -3474,6 +3707,85 @@ async function onTabClick(e) {
       }
     }
     return;
+  }
+  const structBtn = e.target.closest && e.target.closest("[data-structraw],[data-structform],[data-sarrdel],[data-sarradd]");
+  if (structBtn && card && rowId) {
+    const t = activeTab();
+    if (!t || t.kind === "rules") return;
+    const wrap = structBtn.closest(".struct-wrap,.struct-list");
+    const probe = wrap && wrap.querySelector("[data-f]");
+    const fname = probe && probe.dataset.f;
+    if (!wrap || !fname) return;
+    if (structBtn.hasAttribute("data-structraw")) {
+      const read = readWidgetValue(card, fname);
+      if (read.error) { toast(read.error, "error"); return; }
+      if (read.missing) return;
+      const raw = wrap.querySelector(".struct-raw");
+      const ta = raw && raw.querySelector("textarea");
+      if (ta) {
+        ta.value = jsonText(read.value === undefined ? "" : read.value);
+        ta.defaultValue = ta.value; // pristine marker for the toggle-back
+      }
+      if (wrap.classList.contains("struct-wrap")) {
+        const grid = wrap.querySelector(".struct-grid");
+        if (grid) grid.setAttribute("hidden", "");
+        structBtn.setAttribute("hidden", "");
+      } else {
+        const rows = wrap.querySelector(".struct-rows");
+        const foot = wrap.querySelector(".struct-list-foot");
+        if (rows) rows.setAttribute("hidden", "");
+        if (foot) foot.setAttribute("hidden", "");
+      }
+      if (raw) raw.removeAttribute("hidden");
+      if (ta) ta.focus();
+      return;
+    }
+    if (structBtn.hasAttribute("data-structform")) {
+      const ta = wrap.querySelector(".struct-raw textarea");
+      if (ta && ta.value === ta.defaultValue) {
+        showStructForm(wrap); // peeked only — nothing to apply
+        return;
+      }
+      let parsed;
+      try {
+        parsed = !ta || ta.value.trim() === "" ? null : JSON.parse(ta.value);
+      } catch (err) {
+        toast(`${fname}: invalid JSON (${err.message})`, "error");
+        return;
+      }
+      if (wrap.classList.contains("struct-wrap") && parsed !== null && !isPlainObjVal(parsed)) {
+        toast(`${fname}: expected a JSON object`, "error");
+        return;
+      }
+      if (wrap.classList.contains("struct-list") && parsed !== null && !Array.isArray(parsed)) {
+        toast(`${fname}: expected a JSON array`, "error");
+        return;
+      }
+      await commitReadValue(t, rowId, fname, card, { value: parsed });
+      return;
+    }
+    // struct-array add/remove: read live, splice, commit (re-render shows it).
+    const read = readWidgetValue(card, fname);
+    if (read.error) { toast(read.error, "error"); return; }
+    if (read.missing) return;
+    const list = Array.isArray(read.value) ? [...read.value] : [];
+    if (structBtn.hasAttribute("data-sarradd")) {
+      let keys = [];
+      try {
+        keys = JSON.parse(wrap.dataset.skeys || "[]");
+      } catch {
+        keys = [];
+      }
+      list.push(blankStructFor(keys));
+      await commitReadValue(t, rowId, fname, card, { value: list });
+      return;
+    }
+    if (structBtn.hasAttribute("data-sarrdel")) {
+      const idx = Number(structBtn.getAttribute("data-sarrdel"));
+      if (Number.isInteger(idx) && idx >= 0 && idx < list.length) list.splice(idx, 1);
+      await commitReadValue(t, rowId, fname, card, { value: list });
+      return;
+    }
   }
   const factEl = e.target.closest && e.target.closest("[data-fact]");
   const fact = factEl && factEl.dataset.fact;

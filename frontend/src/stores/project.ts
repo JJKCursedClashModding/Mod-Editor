@@ -1,10 +1,14 @@
-// Project-level (mostly static) state: config, project list, current project,
-// vendor tables, changed-counts, character map, param assets, rule/cond ops.
+// Project-level state: config, project list, current project, vendor tables,
+// changed-counts, character map, param assets, rule/cond ops, char mode.
 // Row-level server data lives in TanStack Query (see api/queries.ts).
 import { create } from "zustand";
 import { api, type InitData } from "../api/ipc";
-import { useTabs } from "./tabs";
 import type { ChangedCounts, ParamAsset, TableEntry } from "../api/types";
+import { useUi } from "./ui";
+
+export function charLabelOf(chars: Record<string, string>, prefix: string): string {
+  return (chars && chars[prefix]) || prefix;
+}
 
 interface ProjectState {
   ready: boolean;
@@ -23,14 +27,25 @@ interface ProjectState {
   charMode: string;
   leftTab: "tables" | "params";
   history: { canUndo: boolean; canRedo: boolean };
+  prefixIndex: Record<string, Record<string, number>> | null;
+  paramVanillaIds: Record<string, string[]>;
 
   init: () => Promise<void>;
   setChanged: (c: ChangedCounts) => void;
   setLeftTab: (t: "tables" | "params") => void;
-  setCharMode: (prefix: string) => Promise<void>;
-  openProject: (name: string) => Promise<void>;
+  setCharModeLocal: (prefix: string) => void;
+  setProjectData: (p: {
+    projects?: InitData["projects"];
+    currentProject?: string | null;
+    project?: any;
+    changed?: ChangedCounts;
+    config?: any;
+    chars?: Record<string, string>;
+  }) => void;
+  setTablesData: (tables: TableEntry[], tableByFile: Record<string, TableEntry>, changed?: ChangedCounts) => void;
   reloadAfterHistory: (project: any, changed: ChangedCounts) => void;
   refreshHistory: () => Promise<void>;
+  ensureCharData: () => Promise<void>;
 }
 
 export const useProject = create<ProjectState>((set, get) => ({
@@ -50,6 +65,8 @@ export const useProject = create<ProjectState>((set, get) => ({
   charMode: "",
   leftTab: "tables",
   history: { canUndo: false, canRedo: false },
+  prefixIndex: null,
+  paramVanillaIds: {},
 
   init: async () => {
     try {
@@ -72,7 +89,7 @@ export const useProject = create<ProjectState>((set, get) => ({
         condOps: d.condOps || [],
         charMode: d.config?.charMode || "",
       });
-      if (d.tablesError) get().config && console.warn(d.tablesError);
+      if (d.tablesError) useUi.getState().toast(`Input tables: ${d.tablesError}`, "warn");
       void get().refreshHistory();
     } catch (e: any) {
       set({ ready: true, error: e?.message || String(e) });
@@ -81,24 +98,10 @@ export const useProject = create<ProjectState>((set, get) => ({
 
   setChanged: (c) => set({ changed: c || {} }),
   setLeftTab: (t) => set({ leftTab: t }),
-
-  setCharMode: async (prefix) => {
-    set({ charMode: prefix || "" });
-    try {
-      const cfg = await api.saveSettings({ charMode: prefix || "" });
-      set({ config: cfg });
-    } catch {
-      /* non-fatal */
-    }
-  },
-
-  openProject: async (name) => {
-    const d = await api.projectOpen(name);
-    // Tabs belong to a project — clear them.
-    useTabs.getState().reset();
-    set({ currentProject: name, project: d.project, changed: d.changed || {} });
-    void get().refreshHistory();
-  },
+  setCharModeLocal: (prefix) => set({ charMode: prefix || "" }),
+  setProjectData: (p) => set((s) => ({ ...s, ...p })),
+  setTablesData: (tables, tableByFile, changed) =>
+    set((s) => ({ tables, tableByFile, changed: changed === undefined ? s.changed : changed })),
 
   reloadAfterHistory: (project, changed) => set({ project, changed: changed || {} }),
 
@@ -110,5 +113,22 @@ export const useProject = create<ProjectState>((set, get) => ({
     } catch {
       /* ignore */
     }
+  },
+
+  // One-time character index (table prefix counts + param vanilla ids).
+  ensureCharData: async () => {
+    const s = get();
+    if (s.prefixIndex && Object.keys(s.paramVanillaIds).length > 0) return;
+    const d = await api.prefixIndex();
+    const all: Record<string, string[]> = {};
+    try {
+      for (const a of s.paramAssets) {
+        const v = await api.paramVanilla(a.shortName);
+        all[a.shortName] = v.ids || [];
+      }
+    } catch {
+      /* vanilla unavailable */
+    }
+    set({ prefixIndex: d.index || {}, paramVanillaIds: all });
   },
 }));

@@ -523,6 +523,34 @@ function registerIpc() {
     return ok(true);
   });
 
+  // Open the vanilla input JSON / current project file in the OS default app.
+  ipcMain.handle("file:open-original", async (_, file) => {
+    const safe = path.basename(String(file || ""));
+    if (!safe || !/\.json$/i.test(safe)) throw new Error(`Bad table file: ${file}`);
+    const abs = path.join(schema.inputDir(), safe);
+    try {
+      await fs.access(abs);
+    } catch {
+      throw new Error(`Original JSON not found: ${safe}`);
+    }
+    const err = await shell.openPath(abs);
+    if (err) throw new Error(err);
+    return ok({ path: abs });
+  });
+
+  ipcMain.handle("file:open-project", async () => {
+    const p = await requireProject();
+    const abs = path.join(config.get().projectsDir, `${projects.sanitizeFile(p.name)}.json`);
+    try {
+      await fs.access(abs);
+    } catch {
+      throw new Error(`Project file not found: ${p.name}.json`);
+    }
+    const err = await shell.openPath(abs);
+    if (err) throw new Error(err);
+    return ok({ path: abs });
+  });
+
   // ---- tables ----
   ipcMain.handle("tables:list", async () => {
     const project = await requireProject();

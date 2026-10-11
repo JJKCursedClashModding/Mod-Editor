@@ -1,11 +1,34 @@
-// Status bar, toasts, command palette, and modal dialogs.
+// Status bar, problems panel, command palette, toasts.
+// Mirrors renderStatusBar()/renderPanel()/showPalette()/toast in renderer/app.js.
 import { useEffect, useMemo, useState } from "react";
-import { useQueryClient } from "@tanstack/react-query";
-import { api, ipcRaw } from "../api/ipc";
-import { keys } from "../api/queries";
-import { useProject } from "../stores/project";
-import { useTabs } from "../stores/tabs";
-import { useUi } from "../stores/ui";
+import { useQuery } from "@tanstack/react-query";
+import { api } from "../api/ipc";
+import { fetchParamRowsFiltered, fetchTableRowsAll, keys } from "../api/queries";
+import { useProject, charLabelOf } from "../stores/project";
+import { useTabs, tabTitle } from "../stores/tabs";
+import { useUi, type PaletteItem } from "../stores/ui";
+import {
+  delProjectFlow,
+  doCloneRow,
+  doCloseTab,
+  doExportFolder,
+  doExportJjkmod,
+  doImport,
+  doNewRow,
+  doRedo,
+  doTestPatch,
+  doUndo,
+  dupProjectFlow,
+  guard,
+  jumpToRow,
+  newProjectFlow,
+  openProject,
+  renameProjectFlow,
+  selectScope,
+  setCharMode,
+  showSearch,
+  validateIntoPanel,
+} from "../app/flows";
 
 export function Toasts() {
   const toasts = useUi((s) => s.toasts);
@@ -21,370 +44,436 @@ export function Toasts() {
   );
 }
 
+function editedCount(changed: Record<string, any>, parameters: any): number {
+  let n = Object.keys(changed || {}).length;
+  if (parameters) {
+    for (const p of Object.values<any>(parameters)) {
+      const rows = (p && p.rows) || {};
+      if (Object.keys(rows).filter((k) => k.charAt(0) !== "$").length > 0) n++;
+    }
+  }
+  return n;
+}
+
 export function StatusBar() {
+  const projects = useProject((s) => s.projects);
   const currentProject = useProject((s) => s.currentProject);
   const project = useProject((s) => s.project);
-  const charMode = useProject((s) => s.charMode);
-  const setCharMode = useProject((s) => s.setCharMode);
   const changed = useProject((s) => s.changed);
+  const chars = useProject((s) => s.chars);
+  const charMode = useProject((s) => s.charMode);
   const busy = useUi((s) => s.busy);
-  const setBusy = useUi((s) => s.setBusy);
-  const toast = useUi((s) => s.toast);
+  const problems = useUi((s) => s.problems);
   const active = useTabs((s) => s.active());
-  const openModal = useUi((s) => s.openModal);
 
-  const title = project?.manifest?.title || project?.name || currentProject || "No project";
-  const editedCount =
-    Object.keys(changed || {}).length +
-    Object.values(project?.parameters || {}).filter(
-      (p: any) => Object.keys(p?.rows || {}).filter((k) => k.charAt(0) !== "$").length > 0,
-    ).length;
+  const cur = (projects || []).find((p) => p.name === currentProject);
+  const title = (cur && (cur.title || cur.name)) || currentProject || "No project";
+  const n = editedCount(changed, project?.parameters);
 
-  const doExport = async () => {
-    setBusy("Exporting…");
-    try {
-      const r = await api.exportFolder();
-      toast(`Exported ${r.files?.length ?? 0} files → ${r.path || ""}`, "success");
-    } catch (e: any) {
-      toast(e.message, "error");
-    } finally {
-      setBusy(null);
-    }
-  };
+  const total = problems ? problems.total : 0;
+  const problemsTxt = problems ? (total ? `✕ ${total}` : "○ 0") : "○ —";
+  const problemsTitle = problems ? `${total} problem(s) — click to open panel` : "Validate — click to run validation";
 
   return (
     <footer id="statusBar">
       <div className="st-left">
-        <span className="st-item" title="Open project…" onClick={() => openModal("openProject")}>
+        <span className="st-item" id="stProject" title="Open project…" onClick={() => useUi.getState().openModal("openProject")}>
           <span className="st-ico">▦</span>
-          <span>{title}</span>
+          <span id="stProjectName">{title}</span>
         </span>
         <span
-          className="st-item"
+          className={`st-item${charMode ? " on" : ""}`}
+          id="stChar"
           title="Character filter"
-          onClick={() => void setCharMode(charMode ? "" : charMode)}
+          onClick={(e) => {
+            useUi.getState().setSideView("explorer");
+            const st = useUi.getState();
+            st.setCharPicker(st.charPickerAnchor ? null : e.currentTarget);
+          }}
         >
           <span className="st-ico">⛉</span>
-          <span>{charMode || "All characters"}</span>
+          <span id="stCharName">{charMode ? `${charMode} — ${charLabelOf(chars, charMode)}` : "All characters"}</span>
         </span>
         {busy && (
           <span className="st-read" id="stBusy">
             <span className="st-spin" />
-            <span>{busy}</span>
+            <span id="stBusyMsg">{busy}</span>
           </span>
         )}
       </div>
       <div className="st-center">
-        {active && <span className="st-read">{active.kind}:{active.file || active.short}</span>}
+        <RowsReadout tab={active} />
       </div>
       <div className="st-right">
-        <span className="st-item" title="Edited files">
-          <span>{editedCount ? `● ${editedCount} file(s) edited` : "Clean"}</span>
+        <span
+          className="st-item"
+          id="stProblems"
+          title={problemsTitle}
+          onClick={() => {
+            if (!useUi.getState().problems) void validateIntoPanel();
+            else useUi.getState().setPanelOpen(true, "problems");
+          }}
+        >
+          <span id="stProblemsTxt" className={total > 0 ? "bad" : ""}>
+            {problemsTxt}
+          </span>
         </span>
-        <button className="st-export" title="Export to Mods folder (Ctrl+E)" onClick={doExport}>Export</button>
-        <button className="st-export" title="Mod settings" onClick={() => openModal("mod")}>Mod…</button>
+        <span
+          className="st-item"
+          id="stDirty"
+          title="Edited files — click to open Changes"
+          onClick={() => useUi.getState().setSideView("changes")}
+        >
+          <span id="stDirtyTxt" className={n > 0 ? "dirty" : ""}>
+            {n ? `● ${n} edited` : "Clean"}
+          </span>
+        </span>
+        {currentProject && (
+          <button className="st-export" id="stExport" title="Export to Mods folder (Ctrl+E)" onClick={() => doExportFolder()}>
+            Export
+          </button>
+        )}
       </div>
     </footer>
   );
 }
 
-export function CommandPalette() {
-  const [open, setOpen] = useState(false);
-  const [q, setQ] = useState("");
-  const tables = useProject((s) => s.tables);
-  const paramAssets = useProject((s) => s.paramAssets);
-  const openTable = useTabs((s) => s.openTable);
-  const openParam = useTabs((s) => s.openParam);
-  const charMode = useProject((s) => s.charMode);
-
-  useEffect(() => {
-    const h = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "p" && !e.shiftKey) {
-        e.preventDefault();
-        setOpen((v) => !v);
-      }
-      if (e.key === "Escape") setOpen(false);
-    };
-    window.addEventListener("keydown", h);
-    return () => window.removeEventListener("keydown", h);
-  }, []);
-
-  const items = useMemo(() => {
-    const ql = q.toLowerCase();
-    const t = tables
-      .filter((x) => !ql || x.file.toLowerCase().includes(ql))
-      .slice(0, 30)
-      .map((x) => ({ label: x.file, run: () => openTable(x.file, charMode) }));
-    const p = paramAssets
-      .filter((x) => !ql || x.shortName.toLowerCase().includes(ql))
-      .slice(0, 15)
-      .map((x) => ({ label: `param: ${x.shortName}`, run: () => openParam(x.shortName, charMode) }));
-    return [...t, ...p];
-  }, [q, tables, paramAssets, openTable, openParam, charMode]);
-
-  if (!open) return null;
+function RowsReadout({ tab }: { tab: import("../api/types").Tab | null }) {
+  const { data: trows } = useTabRowsCount(tab && tab.kind === "table" ? tab.file : null, tab?.charPrefix || "", tab?.search || "");
+  const { data: prows } = useParamRowsCount(tab && tab.kind === "param" ? tab.short : null, tab?.search || "", tab?.charPrefix || "");
+  if (!tab || tab.kind === "rules") return <span className="st-read" id="stRows" style={{ display: "none" }} />;
+  let shown = 0;
+  let total = 0;
+  const f = tab.statusFilter || "all";
+  if (tab.kind === "table" && trows) {
+    total = trows.total;
+    let rows = trows.rows;
+    if (f === "edited") rows = rows.filter((r: any) => r.status === "edited");
+    else if (f === "new") rows = rows.filter((r: any) => r.status === "new");
+    else if (f === "vanilla") rows = rows.filter((r: any) => r.status !== "edited" && r.status !== "new");
+    shown = rows.length;
+  } else if (tab.kind === "param" && prows) {
+    total = prows.edited.length + prows.vanilla.length;
+    if (f === "edited") shown = prows.edited.length;
+    else if (f === "vanilla") shown = prows.vanilla.length;
+    else shown = total;
+  }
+  const suffix = tab.statusFilter && tab.statusFilter !== "all" ? ` · ${tab.statusFilter}` : "";
   return (
-    <div id="palette">
-      <div id="palBox">
-        <input autoFocus placeholder="Quick open: type a table…" value={q} onChange={(e) => setQ(e.target.value)} autoComplete="off" spellCheck={false} />
-        <div id="palList">
-          {items.map((it, i) => (
-            <div key={i} className="pal-item" onClick={() => { it.run(); setOpen(false); }}>
-              {it.label}
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <span className="st-read" id="stRows" title={`${tabTitle(tab)} — ${shown} of ${total} rows shown`}>
+      {shown} / {total} rows{suffix}
+    </span>
   );
 }
 
-export function Modals() {
-  const modal = useUi((s) => s.modal);
-  const closeModal = useUi((s) => s.closeModal);
-  if (!modal) return null;
-  return (
-    <div id="modalRoot">
-      <div className="overlay" onMouseDown={(e) => { if (e.target === e.currentTarget) closeModal(); }}>
-        <div className="modal wide">
-          {modal === "openProject" && <OpenProjectModal />}
-          {modal === "newProject" && <NewProjectModal />}
-          {modal === "mod" && <ModModal />}
-          {modal === "exportPreview" && <ExportPreviewModal />}
-          {modal === "snapshots" && <SnapshotsModal />}
-          <div className="mfoot">
-            <button className="primary" onClick={closeModal}>Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+function useTabRowsCount(file: string | null, charPrefix: string, search: string) {
+  return useQuery({
+    queryKey: file ? keys.tableRows(file, charPrefix, search) : ["tableRows", "none"],
+    queryFn: () => fetchTableRowsAll(file!, charPrefix, search),
+    enabled: !!file,
+    staleTime: 10_000,
+  });
 }
 
-function OpenProjectModal() {
-  const projects = useProject((s) => s.projects);
-  const currentProject = useProject((s) => s.currentProject);
-  const openProject = useProject((s) => s.openProject);
-  const toast = useUi((s) => s.toast);
-  const setBusy = useUi((s) => s.setBusy);
-  const closeModal = useUi((s) => s.closeModal);
-  const openModal = useUi((s) => s.openModal);
-  const [q, setQ] = useState("");
-
-  const list = [...projects].sort((a, b) => (b.updated || 0) - (a.updated || 0) || a.name.localeCompare(b.name));
-  const filtered = list.filter(
-    (p) => !q || p.name.toLowerCase().includes(q.toLowerCase()) || (p.title || "").toLowerCase().includes(q.toLowerCase()),
-  );
-
-  return (
-    <>
-      <h2>Open Project</h2>
-      <div className="mrow"><input placeholder="Search projects…" value={q} onChange={(e) => setQ(e.target.value)} autoComplete="off" /></div>
-      <div className="mrow">
-        <div style={{ maxHeight: 340, overflowY: "auto" }}>
-          {filtered.map((p) => (
-            <div key={p.name} className="diff-row">
-              <div className="dh">
-                {p.name === currentProject && <span className="badge new">OPEN</span>}
-                <span style={{ flex: 1 }}>{p.title || p.name}<br />
-                  <span style={{ color: "var(--dim)", fontSize: 11 }}>{p.name}{p.version ? ` · v${p.version}` : ""}</span>
-                </span>
-                <button
-                  className="small"
-                  onClick={async () => {
-                    if (p.name === currentProject) return closeModal();
-                    setBusy("Opening project…");
-                    try {
-                      await openProject(p.name);
-                      closeModal();
-                    } catch (e: any) {
-                      toast(e.message, "error");
-                    } finally {
-                      setBusy(null);
-                    }
-                  }}
-                >
-                  Open
-                </button>
-              </div>
-            </div>
-          ))}
-          {filtered.length === 0 && <div className="empty-note">No matches</div>}
-        </div>
-      </div>
-      <div className="mfoot">
-        <button className="small" onClick={() => openModal("newProject")}>+ New project</button>
-      </div>
-    </>
-  );
+function useParamRowsCount(short: string | null, search: string, charPrefix: string) {
+  return useQuery({
+    queryKey: short ? ["stRowsParam", short, search, charPrefix] : ["stRowsParam", "none"],
+    queryFn: async () => {
+      const d = await fetchParamRowsFiltered(short!, search, charPrefix);
+      return { edited: d.rows, vanilla: d.vanillaIds };
+    },
+    enabled: !!short,
+    staleTime: 10_000,
+  });
 }
 
-function NewProjectModal() {
-  const [name, setName] = useState("");
-  const toast = useUi((s) => s.toast);
-  const closeModal = useUi((s) => s.closeModal);
-  const openProject = useProject((s) => s.openProject);
+export function ProblemsPanel() {
+  const panelOpen = useUi((s) => s.panelOpen);
+  const panelView = useUi((s) => s.panelView);
+  const problems = useUi((s) => s.problems);
+  if (!panelOpen) return null;
+  const issues = problems?.issues || [];
+  const where = (i: any) =>
+    `${i.file || (i.short ? `parameters/${i.short}.json` : "")}${i.rowId ? ` :: ${i.rowId}` : ""}${i.field ? ` :: ${i.field}` : ""}`;
   return (
-    <>
-      <h2>New Project</h2>
-      <div className="mrow">
-        <label>Name</label>
-        <input value={name} onChange={(e) => setName(e.target.value)} placeholder="my-balancing-mod" />
-      </div>
-      <div className="mfoot">
+    <section id="panel">
+      <div id="panelHead">
         <button
-          className="primary"
-          onClick={async () => {
-            if (!name.trim()) return;
-            try {
-              await api.projectCreate(name.trim());
-              await openProject(name.trim());
-              closeModal();
-              toast("Project created", "success");
-            } catch (e: any) {
-              toast(e.message, "error");
-            }
-          }}
+          className={`p-tab${panelView === "problems" ? " active" : ""}`}
+          data-pview="problems"
+          onClick={() => useUi.getState().setPanelOpen(true, "problems")}
         >
-          Create
+          Problems
+        </button>
+        <span className="p-count" id="panelCount">
+          {problems ? `${problems.total} issue(s)` : ""}
+        </span>
+        <span style={{ flex: 1 }} />
+        <button className="small" id="btnPanelValidate" title="Re-run validation" onClick={() => validateIntoPanel()}>
+          Validate
+        </button>
+        <button className="p-close" id="btnPanelClose" title="Close panel (Ctrl+J)" onClick={() => useUi.getState().setPanelOpen(false)}>
+          ×
         </button>
       </div>
-    </>
-  );
-}
-
-function ModModal() {
-  const project = useProject((s) => s.project);
-  const toast = useUi((s) => s.toast);
-  const qc = useQueryClient();
-  const [title, setTitle] = useState(project?.manifest?.title || "");
-  const [desc, setDesc] = useState(project?.manifest?.description || "");
-  const [version, setVersion] = useState(project?.manifest?.version || "");
-  const [priority, setPriority] = useState(String(project?.manifest?.priority ?? 0));
-
-  return (
-    <>
-      <h2>Mod — {project?.manifest?.title || project?.name}</h2>
-      <div className="mod-sect">
-        <h4>Manifest (manifest.json)</h4>
-        <label>Title</label>
-        <input value={title} onChange={(e) => setTitle(e.target.value)} />
-        <label>Description</label>
-        <textarea rows={2} value={desc} onChange={(e) => setDesc(e.target.value)} />
-        <label>Version</label>
-        <input value={version} onChange={(e) => setVersion(e.target.value)} />
-        <label>Priority (higher wins vs other mods)</label>
-        <input type="number" value={priority} onChange={(e) => setPriority(e.target.value)} />
-        <div style={{ marginTop: 6 }}>
-          <button
-            className="small primary"
-            onClick={async () => {
-              try {
-                await ipcRaw("manifest:save", { ...(project?.manifest || {}), title, description: desc, version, priority: Number(priority) || 0 });
-                toast("Manifest saved", "success");
-                qc.invalidateQueries({ queryKey: keys.diff });
-              } catch (e: any) {
-                toast(e.message, "error");
-              }
-            }}
-          >
-            Save manifest
-          </button>
-        </div>
-      </div>
-      <div className="mod-sect">
-        <h4>Export preview</h4>
-        <button className="small" onClick={() => useUi.getState().openModal("exportPreview")}>Open preview…</button>
-      </div>
-    </>
-  );
-}
-
-function ExportPreviewModal() {
-  const [preview, setPreview] = useState<any>(null);
-  const toast = useUi((s) => s.toast);
-  useEffect(() => {
-    api.exportPreview().then(setPreview).catch((e: any) => toast(e.message, "error"));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  if (!preview) return <div className="empty-note">Loading preview…</div>;
-  return (
-    <>
-      <h2>Export preview</h2>
-      <div>{preview.files.length} file(s) → <b>{preview.folder}</b>/</div>
-      {(preview.warnings || []).map((w: string, i: number) => <div key={i} className="warn">{w}</div>)}
-      <div className="file-list" style={{ maxHeight: 260, marginTop: 6 }}>
-        {preview.files.map((f: string) => <div key={f}>{f}</div>)}
-      </div>
-    </>
-  );
-}
-
-function SnapshotsModal() {
-  const toast = useUi((s) => s.toast);
-  const [snaps, setSnaps] = useState<any[]>([]);
-  const [label, setLabel] = useState("");
-  const refreshAll = useRefreshAllLocal();
-  useEffect(() => {
-    ipcRaw<any[]>("snapshots:list").then(setSnaps).catch((e: any) => toast(e.message, "error"));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  return (
-    <>
-      <h2>Snapshots</h2>
-      <div className="mrow">
-        <div style={{ display: "flex", gap: 6 }}>
-          <input value={label} onChange={(e) => setLabel(e.target.value)} placeholder="before rework" style={{ flex: 1 }} />
-          <button
-            className="small primary"
-            onClick={async () => {
-              try {
-                const d: any = await ipcRaw("snapshots:create", label);
-                setSnaps(d.snapshots || []);
-                setLabel("");
-                toast("Snapshot committed", "success");
-              } catch (e: any) {
-                toast(e.message, "error");
-              }
-            }}
-          >
-            Commit
-          </button>
-        </div>
-      </div>
-      <div className="mrow">
-        {snaps.map((s: any) => (
-          <div key={s.file} className="diff-row">
-            <div className="dh">
-              <span style={{ flex: 1 }}>{new Date(s.ts).toLocaleString()}{s.label ? ` — ${s.label}` : ""}</span>
-              <button
-                className="small"
-                onClick={async () => {
-                  try {
-                    const d: any = await ipcRaw("snapshots:restore", s.file);
-                    await refreshAll(d.project, d.changed);
-                    toast("Snapshot restored", "success");
-                  } catch (e: any) {
-                    toast(e.message, "error");
-                  }
-                }}
-              >
-                Restore
-              </button>
-            </div>
+      <div id="panelBody">
+        {!problems ? (
+          <div className="empty-note">
+            No validation results yet.
+            <br />
+            <br />
+            <button className="small primary" onClick={() => validateIntoPanel()}>
+              Validate project
+            </button>
           </div>
-        ))}
-        {snaps.length === 0 && <div className="empty-note">None yet.</div>}
+        ) : issues.length ? (
+          <>
+            {issues.slice(0, 300).map((i: any, ix: number) => (
+              <div key={ix} className="prob-row">
+                <span className="badge edited">{i.type}</span>
+                <span className="pw">{where(i)}</span>
+                <span className="pm">{i.message || ""}</span>
+                {i.file && i.rowId && (
+                  <button className="small" onClick={() => jumpToRow(i.file, i.rowId, i.field || null)}>
+                    Open
+                  </button>
+                )}
+              </div>
+            ))}
+            {issues.length > 300 && <div style={{ color: "var(--dim)" }}>… {issues.length - 300} more</div>}
+          </>
+        ) : (
+          <div className="empty-note">Clean — no issues found.</div>
+        )}
       </div>
-    </>
+    </section>
   );
 }
 
-function useRefreshAllLocal() {
-  const qc = useQueryClient();
-  const reload = useProject((s) => s.reloadAfterHistory);
-  return async (project: any, changed: any) => {
-    reload(project, changed);
-    await qc.invalidateQueries();
+// ---------------- command palette ----------------
+
+function fuzzyMatch(q: string, s: string): boolean {
+  q = q.toLowerCase();
+  s = s.toLowerCase();
+  let i = 0;
+  for (const c of s) {
+    if (c === q[i]) i++;
+    if (i >= q.length) break;
+  }
+  return i >= q.length;
+}
+
+function usePaletteItems(): PaletteItem[] {
+  const tables = useProject((s) => s.tables);
+  const paramAssets = useProject((s) => s.paramAssets);
+  const changed = useProject((s) => s.changed);
+  const currentProject = useProject((s) => s.currentProject);
+  const active = useTabs((s) => s.active());
+
+  return useMemo(() => {
+    const hasProj = !!currentProject;
+    const hasTab = !!active;
+    const cmds: Array<[string, string, () => void, boolean]> = [
+      ["New Row", "active table", () => doNewRow(), hasTab],
+      ["New Row from Existing Row", "clone · active table", () => doCloneRow(), hasTab],
+      ["Global Search…", "Ctrl+F", () => showSearch(), true],
+      ["Text Find / Replace…", "Ctrl+H", () => useUi.getState().openModal("textTools"), hasTab],
+      ["Validate Project", "problems panel", () => validateIntoPanel(), hasProj],
+      ["Project Changes…", "", () => useUi.getState().openModal("projectChanges", { autoValidate: false }), hasProj],
+      ["Export to Mods Folder", "Ctrl+E", () => doExportFolder(), hasProj],
+      ["Export .jjkmod…", "", () => doExportJjkmod(), hasProj],
+      ["Test Patch…", "Ctrl+T", () => doTestPatch(), hasProj],
+      ["Snapshots…", "Ctrl+S", () => useUi.getState().openModal("snapshots"), hasProj],
+      ["Conflicts…", "", () => useUi.getState().openModal("conflicts"), hasProj],
+      ["Character Checklist…", "", () => useUi.getState().openModal("checklist"), hasProj],
+      ["Character Moveset…", "", () => useUi.getState().openModal("moveset"), hasProj],
+      ["Open Project…", "Ctrl+O", () => useUi.getState().openModal("openProject"), true],
+      ["New Project…", "Ctrl+N", () => newProjectFlow(), true],
+      ["Edit Manifest / Assets…", "", () => useUi.getState().openModal("mod", {}), hasProj],
+      ["Export Preview…", "", () => useUi.getState().openModal("mod", { previewFirst: true }), hasProj],
+      ["Manage Characters…", "", () => useUi.getState().openModal("characters"), true],
+      ["Clear Character Filter", "", () => { if (useProject.getState().charMode) void guard(() => setCharMode("")); }, true],
+      ["Toggle Sidebar", "Ctrl+B", () => useUi.getState().toggleSidebar(), true],
+      ["Toggle Problems Panel", "Ctrl+J", () => useUi.getState().setPanelOpen(!useUi.getState().panelOpen), true],
+      ["Close Current Tab", "Ctrl+W", () => doCloseTab(), hasTab],
+      ["Close Other Tabs", "", () => { const id = useTabs.getState().activeTabId; if (id) useTabs.getState().closeOthers(id); }, hasTab],
+      ["Settings…", "Ctrl+,", () => useUi.getState().openModal("settings"), true],
+    ];
+    const cmdItems: PaletteItem[] = cmds
+      .filter((c) => c[3])
+      .map(([label, hint, run]) => ({ kind: "cmd" as const, label, hint, sub: "", run }));
+    const fileItems: PaletteItem[] = [
+      ...tables.map((t) => {
+        const c = changed[t.file];
+        return {
+          kind: "table" as const,
+          label: t.file,
+          sub: `${t.groupLabel || ""}${c ? " · edited" : ""}`,
+          run: () => selectScope({ kind: "table", file: t.file }),
+        };
+      }),
+      ...paramAssets.map((a) => ({
+        kind: "param" as const,
+        label: `${a.shortName}.json`,
+        sub: a.assetName || "",
+        run: () => {
+          useProject.getState().setLeftTab("params");
+          selectScope({ kind: "param", short: a.shortName });
+        },
+      })),
+    ];
+    return [...cmdItems, ...fileItems];
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tables, paramAssets, changed, currentProject, active?.id]);
+}
+
+export function CommandPalette() {
+  const palette = useUi((s) => s.palette);
+  const all = usePaletteItems();
+  const [q, setQ] = useState(palette.mode === "cmd" ? ">" : "");
+
+  useEffect(() => {
+    if (palette.open) setQ(palette.mode === "cmd" ? ">" : "");
+  }, [palette.open, palette.mode]);
+
+  const mode: "files" | "cmd" = q.startsWith(">") ? "cmd" : palette.cmdLock ? "cmd" : "files";
+  const query = (mode === "cmd" ? q.slice(1) : q).trim().toLowerCase();
+
+  const items = useMemo(() => {
+    const pool = all.filter((it) => (mode === "cmd" ? it.kind === "cmd" : true));
+    const scored = pool
+      .map((it) => {
+        const label = it.label.toLowerCase();
+        let score = -1;
+        if (!query) score = 0;
+        else if (label.startsWith(query)) score = 3;
+        else if (label.includes(query)) score = 2;
+        else if (fuzzyMatch(query, label)) score = 1;
+        return { it, score };
+      })
+      .filter((x) => x.score >= 0);
+    scored.sort((a, b) => b.score - a.score);
+    return scored.map((x) => x.it).slice(0, 60);
+  }, [all, mode, query]);
+
+  useEffect(() => {
+    useUi.getState().paletteSet({ items, sel: 0 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, mode, all]);
+
+  if (!palette.open) return null;
+
+  const run = (idx?: number) => {
+    const it = (useUi.getState().palette.items.length ? useUi.getState().palette.items : items)[idx ?? useUi.getState().palette.sel];
+    useUi.getState().paletteClose();
+    if (it && it.run) it.run();
   };
+
+  return (
+    <div id="palette" onMouseDown={(e) => { if ((e.target as HTMLElement).id === "palette") useUi.getState().paletteClose(); }}>
+      <div id="palBox">
+        <input
+          id="palInput"
+          autoFocus
+          placeholder={mode === "cmd" ? "Type a command…" : "Type a table name, or > for commands…"}
+          value={q}
+          autoComplete="off"
+          spellCheck={false}
+          onChange={(e) => {
+            setQ(e.target.value);
+            useUi.getState().paletteSet({ sel: 0 });
+          }}
+          onKeyDown={(e) => {
+            const sel = useUi.getState().palette.sel;
+            if (e.key === "Escape") useUi.getState().paletteClose();
+            else if (e.key === "ArrowDown") {
+              e.preventDefault();
+              useUi.getState().paletteSet({ sel: Math.min(Math.max(items.length - 1, 0), sel + 1) });
+            } else if (e.key === "ArrowUp") {
+              e.preventDefault();
+              useUi.getState().paletteSet({ sel: Math.max(0, sel - 1) });
+            } else if (e.key === "Enter") run();
+          }}
+        />
+        <div id="palList">
+          {items.map((it, i) => (
+            <div
+              key={`${it.kind}:${it.label}`}
+              className={`pal-item${i === palette.sel ? " sel" : ""}`}
+              data-pal={i}
+              onClick={() => run(i)}
+              onMouseMove={() => { if (palette.sel !== i) useUi.getState().paletteSet({ sel: i }); }}
+            >
+              <span className="pal-kind">{it.kind === "table" ? "TABLE" : it.kind === "param" ? "PARAM" : "CMD"}</span>
+              <span className="pal-label">{it.label}</span>
+              {it.sub ? <span className="pal-sub">{it.sub}</span> : null}
+              {it.hint ? <span className="pal-hint">{it.hint}</span> : null}
+            </div>
+          ))}
+          {items.length === 0 && <div className="empty-note">No matches</div>}
+        </div>
+        <div id="palFoot">
+          <span id="palHint">{mode === "cmd" ? "commands · esc to close" : "tables & parameters · type > for commands · esc to close"}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------------- menu action dispatch (all native menu items) ----------------
+
+export function handleMenuAction(action: string, payload?: any) {
+  const ui = useUi.getState();
+  const tabsApi = useTabs.getState();
+  switch (action) {
+    case "project:new": void newProjectFlow(); break;
+    case "project:open-modal": ui.openModal("openProject"); break;
+    case "project:open-name": {
+      const name = payload ?? undefined;
+      const cur = useProject.getState().currentProject;
+      if (name && name !== cur) void guard(() => openProject(name));
+      break;
+    }
+    case "project:duplicate": void dupProjectFlow(); break;
+    case "project:rename": void renameProjectFlow(); break;
+    case "project:delete": void delProjectFlow(); break;
+    case "project:reveal": void guard(() => api.projectReveal()); break;
+    case "file:import": void doImport(); break;
+    case "file:export-folder": void doExportFolder(); break;
+    case "file:export-jjkmod": void doExportJjkmod(); break;
+    case "file:test-patch": void doTestPatch(); break;
+    case "file:settings": ui.openModal("settings"); break;
+    case "edit:undo": void doUndo(); break;
+    case "edit:redo": void doRedo(); break;
+    case "edit:search": void showSearch(); break;
+    case "edit:text-tools": ui.openModal("textTools"); break;
+    case "view:tables":
+      useProject.getState().setLeftTab("tables");
+      ui.setSideView("explorer");
+      break;
+    case "view:params":
+      useProject.getState().setLeftTab("params");
+      ui.setSideView("explorer");
+      break;
+    case "view:characters": ui.openModal("characters"); break;
+    case "view:char-clear":
+      if (useProject.getState().charMode) void guard(() => setCharMode(""));
+      break;
+    case "view:close-tab": void doCloseTab(); break;
+    case "view:close-others": if (tabsApi.activeTabId) tabsApi.closeOthers(tabsApi.activeTabId); break;
+    case "view:palette": ui.paletteOpen("cmd"); break;
+    case "view:quick-open": ui.paletteOpen("files"); break;
+    case "view:toggle-sidebar": ui.toggleSidebar(); break;
+    case "view:toggle-panel": ui.setPanelOpen(!ui.panelOpen); break;
+    case "project:changes": ui.openModal("projectChanges", { autoValidate: false }); break;
+    case "project:validate": ui.openModal("projectChanges", { autoValidate: true }); break;
+    case "project:snapshots": ui.openModal("snapshots"); break;
+    case "project:conflicts": ui.openModal("conflicts"); break;
+    case "project:checklist": ui.openModal("checklist"); break;
+    case "project:moveset": ui.openModal("moveset"); break;
+    case "mod:edit": ui.openModal("mod", {}); break;
+    case "mod:preview": ui.openModal("mod", { previewFirst: true }); break;
+    case "help:about": ui.openModal("about"); break;
+    default: break;
+  }
 }

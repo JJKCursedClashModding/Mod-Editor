@@ -46,9 +46,27 @@ async function main() {
     }
     if (same) {
       skipped++;
+      // Keep already-vendored originals read-only.
+      try {
+        await fsp.chmod(d, 0o444);
+      } catch {
+        /* best effort */
+      }
       continue;
     }
+    // The destination may be read-only from a previous vendor pass: make
+    // it writable so the overwrite succeeds, then lock it again.
+    try {
+      await fsp.chmod(d, 0o666);
+    } catch {
+      /* missing or already writable */
+    }
     await fsp.copyFile(s, d);
+    try {
+      await fsp.chmod(d, 0o444);
+    } catch {
+      /* best effort */
+    }
     copied++;
     if (copied % 25 === 0) console.log(`  ...${copied}/${files.length}`);
   }

@@ -14,6 +14,8 @@ const CHANNELS = [
   "project:delete",
   "project:rename",
   "project:reveal",
+  "file:open-original",
+  "file:open-project",
   "project:save-ui",
   "tables:list",
   "tables:prefix-index",

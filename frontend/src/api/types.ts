@@ -32,6 +32,8 @@ export interface RowSummary {
 export interface FieldSchema {
   kind: string;
   enumName?: string | null;
+  /** struct / struct[] member list (from types/*.ts or value inference) */
+  structFields?: Array<{ name: string; kind: string; enumName?: string | null }> | null;
 }
 
 export interface TableSchema {
@@ -56,6 +58,10 @@ export interface Tab {
   /** expanded row ids, in open order */
   expanded: string[];
   familyKey?: string;
+  /** lone-row auto-expand guard (not persisted) */
+  autoId?: string | null;
+  /** pending scroll-to + flash request (not persisted) */
+  flash?: { row: string; field?: string | null } | null;
 }
 
 export interface RowData {
