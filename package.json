@@ -5,6 +5,7 @@
   "description": "Visual editor for Jujutsu Kaisen Cursed Clash datatable + parameter mods. Global rules, per-row overrides, new rows, Mod Manager compatible export.",
   "main": "main.js",
   "scripts": {
+    "prestart": "node scripts/prestart-frontend.js",
     "start": "electron .",
     "dev:frontend": "npm --prefix frontend run dev",
     "build:frontend": "npm --prefix frontend run build",

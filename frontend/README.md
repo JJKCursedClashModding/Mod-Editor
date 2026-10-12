@@ -35,8 +35,9 @@ npm --prefix frontend install
 # typecheck + production build → frontend/dist
 npm run build:frontend        # or: npm --prefix frontend run build
 
-# use it in Electron (loads frontend/dist when present, else legacy renderer/)
-npm run start:react
+# use it in Electron (`npm start` builds dist first, then loads it;
+# JJK_USE_VANILLA=1 forces the legacy renderer/)
+npm start
 
 # dev with hot reload: terminal 1
 npm run dev:frontend          # vite on :5173

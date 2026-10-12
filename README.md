@@ -158,8 +158,10 @@ npm install
 npm start
 ```
 
-Defaults are pre-filled for this machine (JJKJsonEditor root, Steam
-`Content/Mods`, Mod Manager dir). Override in Settings.
+`npm start` rebuilds the React frontend first (installing its dependencies
+once if needed), so Electron never loads a stale bundle. Only the Steam
+`Content/Mods` path is auto-detected; set the JJKJsonEditor root and Mod
+Manager dir in Settings (or leave them empty if unused).
 
 ## Layout
 
