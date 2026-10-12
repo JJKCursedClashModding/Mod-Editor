@@ -24,6 +24,8 @@ interface ProjectState {
   paramAssets: ParamAsset[];
   ruleOps: any[];
   condOps: any[];
+  build: { commit?: string; dirty?: boolean | null; builtAt?: string; source?: string } | null;
+  ui: string;
   charMode: string;
   leftTab: "tables" | "params";
   history: { canUndo: boolean; canRedo: boolean };
@@ -62,6 +64,8 @@ export const useProject = create<ProjectState>((set, get) => ({
   paramAssets: [],
   ruleOps: [],
   condOps: [],
+  build: null,
+  ui: "",
   charMode: "",
   leftTab: "tables",
   history: { canUndo: false, canRedo: false },
@@ -87,6 +91,8 @@ export const useProject = create<ProjectState>((set, get) => ({
         paramAssets: d.paramAssets || [],
         ruleOps: d.ruleOps || [],
         condOps: d.condOps || [],
+        build: d.build || null,
+        ui: d.ui || "",
         charMode: d.config?.charMode || "",
       });
       if (d.tablesError) useUi.getState().toast(`Input tables: ${d.tablesError}`, "warn");

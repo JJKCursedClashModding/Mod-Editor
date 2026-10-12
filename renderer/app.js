@@ -233,6 +233,8 @@ async function init() {
   S.projects = d.projects;
   S.currentProject = d.currentProject;
   S.project = d.project;
+  S.build = d.build || null;
+  S.ui = d.ui || null;
   S.tables = d.tables || [];
   S.tableByFile = {};
   for (const t of S.tables) S.tableByFile[t.file] = t;
@@ -2806,8 +2808,10 @@ async function showSettings() {
   });
 }
 function showAbout() {
+  const buildTxt = S.build ? `${S.build.commit || "?"}${S.build.dirty ? " (dirty tree)" : ""} \u00b7 ${S.build.builtAt || "?"} \u00b7 via ${S.build.source || "?"}` : "unstamped bundle (no build-info.json)";
   const b = showModal(`<h2>About JJK Mod Editor</h2>` +
     `<div class="mrow"><label>Version</label><div>0.1.0 \u2014 visual editor for Jujutsu Kaisen Cursed Clash datatable + parameter mods.</div></div>` +
+    `<div class="mrow"><label>Build</label><div style="font-size:12px">${esc(buildTxt)}${S.ui ? ` \u00b7 UI: ${esc(S.ui)}` : ""}</div></div>` +
     `<div class="mrow"><label>Menus</label><div style="font-size:12px">File (projects, import/export), Edit (undo, search), View (tables, characters, tabs), Project (changes, snapshots, conflicts, checklist, moveset), Mod (manifest, assets, preview).</div></div>` +
     `<div class="mfoot"><button data-x="ok" class="primary">Close</button></div>`);
   b.addEventListener("click", (e) => { if (e.target.dataset && e.target.dataset.x === "ok") closeModal(); });
@@ -4054,6 +4058,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     S.projects = d.projects;
     S.currentProject = d.currentProject;
     S.project = d.project;
+    S.build = d.build || null;
+    S.ui = d.ui || null;
     S.tables = d.tables || [];
     S.tableByFile = {};
     for (const x of S.tables) S.tableByFile[x.file] = x;

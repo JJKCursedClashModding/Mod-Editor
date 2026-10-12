@@ -39,6 +39,8 @@ export interface InitData {
   paramAssets: ParamAsset[];
   ruleOps: any[];
   condOps: any[];
+  build?: { commit?: string; dirty?: boolean | null; builtAt?: string; source?: string } | null;
+  ui?: string;
 }
 
 export const api = {

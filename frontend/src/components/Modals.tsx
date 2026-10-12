@@ -476,12 +476,21 @@ function SettingsModal() {
 
 function AboutModal() {
   const closeModal = useUi((s) => s.closeModal);
+  const build = useProject((s) => s.build);
+  const ui = useProject((s) => s.ui);
   return (
     <Overlay>
       <h2>About JJK Mod Editor</h2>
       <div className="mrow">
         <label>Version</label>
         <div>0.1.0 — visual editor for Jujutsu Kaisen Cursed Clash datatable + parameter mods.</div>
+      </div>
+      <div className="mrow">
+        <label>Build</label>
+        <div style={{ fontSize: 12 }}>
+          {build ? `${build.commit || "?"}${build.dirty ? " (dirty tree)" : ""} · ${build.builtAt || "?"} · via ${build.source || "?"}` : "unstamped bundle (no build-info.json)"}
+          {ui ? ` · UI: ${ui}` : ""}
+        </div>
       </div>
       <div className="mrow">
         <label>Menus</label>

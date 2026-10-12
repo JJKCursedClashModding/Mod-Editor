@@ -33,6 +33,7 @@ const refs = require("./lib/refs");
 
 let mainWin = null;
 let currentProject = null;
+let loadedUI = "vanilla"; // "react-dev" | "react" | "vanilla" — reported via state:init
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -71,10 +72,13 @@ function createWindow() {
   const devUrl = process.env.VITE_DEV_SERVER_URL;
   const reactDist = path.join(__dirname, "frontend", "dist", "index.html");
   if (devUrl) {
+    loadedUI = "react-dev";
     win.loadURL(devUrl);
   } else if (process.env.JJK_USE_VANILLA === "1" || !fsSync.existsSync(reactDist)) {
+    loadedUI = "vanilla";
     win.loadFile(path.join(__dirname, "renderer", "index.html"));
   } else {
+    loadedUI = "react";
     win.loadFile(reactDist);
   }
 }
@@ -85,6 +89,19 @@ function ok(data) {
 
 function fail(err) {
   return { ok: false, error: err instanceof Error ? err.message : String(err) };
+}
+
+// Provenance of the running frontend (written by scripts/stamp-frontend-dist.js
+// after every dist build; absent for hand-rolled/CI-less bundles).
+function readBuildInfo() {
+  try {
+    const raw = fsSync.readFileSync(path.join(__dirname, "frontend", "dist", "build-info.json"), "utf8");
+    const info = JSON.parse(raw);
+    if (info && typeof info === "object") return info;
+  } catch {
+    /* no stamp: unknown build */
+  }
+  return null;
 }
 
 function sendMenu(action, payload) {
@@ -430,6 +447,8 @@ function registerIpc() {
       tables,
       tablesError,
       changed: project ? tableChangedCounts(project) : {},
+      build: readBuildInfo(),
+      ui: loadedUI,
       enums: enums().order,
       chars: schema.getChars(),
       paramAssets: schema.BP_PARAMETER_ASSETS,

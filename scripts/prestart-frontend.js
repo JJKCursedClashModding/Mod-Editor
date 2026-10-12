@@ -29,6 +29,7 @@ function main() {
   }
   console.log("[prestart] building frontend (tsc + vite)...");
   run("npm --prefix frontend run build");
+  require("./stamp-frontend-dist").stamp("npm-start-prestart");
   const indexHtml = path.join(FRONTEND_DIR, "dist", "index.html");
   if (!fs.existsSync(indexHtml)) {
     throw new Error(`frontend build finished but ${indexHtml} is missing`);
