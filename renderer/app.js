@@ -273,13 +273,7 @@ async function init() {
   if (d.tablesError) toast(`Input tables: ${d.tablesError}`, "warn");
   renderProjects();
   renderScopeList();
-  if (S.tables.length > 0) {
-    await selectScope({ kind: "table", file: S.tables[0].file });
-  } else if (S.paramAssets.length > 0) {
-    await selectScope({ kind: "param", short: S.paramAssets[0].shortName });
-  } else {
-    renderCenter();
-  }
+  renderCenter();
   updateProjChangeCount();
 }
 
@@ -851,6 +845,13 @@ function makeTab(kind, key) {
 async function selectScope(scope, opts) {
   const keep = opts || {};
   if (!scope) return;
+  // Table/param rows live in the project: without one open the IPC call
+  // would just throw "No project open" (seen as a startup error toast on
+  // fresh installs). Bail out with guidance instead.
+  if (!S.project || !S.currentProject) {
+    toast("No project open \u2014 create or open a project first", "error");
+    return;
+  }
   if (keep.keepTab === "rules" && scope.kind === "table") {
     await openRulesTab(scope.file);
     return;
@@ -4328,15 +4329,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       try { restored = await restoreTabs(); } catch { restored = false; }
     }
     if (!restored) {
-      // No saved tabs: fall back to the character jump or the first table.
-      // When tabs were restored, skip the jump so it can't hijack the active tab.
-      if (S.charMode) {
-        await setCharMode(S.charMode);
-      } else if (S.tables.length > 0) {
-        await selectScope({ kind: "table", file: S.tables[0].file });
-      } else if (S.paramAssets.length > 0) {
-        await selectScope({ kind: "param", short: S.paramAssets[0].shortName });
-      } else renderCenter();
+      // Never auto-open a table on startup: show the sidebar + welcome
+      // state and let the user pick. (Restored tabs above already cover
+      // the returning-user case.)
+      renderScopeList();
+      renderCenter();
+      if (!S.project && (S.projects || []).length === 0) newProjectFlow();
     }
     updateProjChangeCount();
     refreshHistory();
