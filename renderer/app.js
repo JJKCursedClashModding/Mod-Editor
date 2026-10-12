@@ -109,7 +109,35 @@ const S = {
   problems: null, // last validate:project result
   diffCache: null, // last diff:project result
   pal: { open: false, mode: "files", cmdLock: false, items: [], sel: 0 },
+  collapsedGroups: {}, // category name -> false = expanded; everything else collapsed by default
 };
+
+// Collapsed Tables categories persist per-browser via localStorage.
+function loadCollapsedGroups() {
+  try {
+    const raw = localStorage.getItem("jjk.collapsedGroups");
+    if (raw) S.collapsedGroups = JSON.parse(raw) || {};
+  } catch {
+    S.collapsedGroups = {};
+  }
+}
+function saveCollapsedGroups() {
+  try {
+    localStorage.setItem("jjk.collapsedGroups", JSON.stringify(S.collapsedGroups));
+  } catch {
+    /* non-fatal */
+  }
+}
+function isGroupCollapsed(name, filtering) {
+  if (filtering) return false; // searching always shows matches expanded
+  return S.collapsedGroups[name] !== false; // minimized by default
+}
+function toggleGroupCollapsed(name) {
+  if (S.collapsedGroups[name] !== false) S.collapsedGroups[name] = false;
+  else S.collapsedGroups[name] = true;
+  saveCollapsedGroups();
+}
+loadCollapsedGroups();
 
 const PAGE = 400;
 
@@ -758,9 +786,21 @@ function renderScopeList() {
     (groups[tbl.groupLabel] = groups[tbl.groupLabel] || []).push(tbl);
   }
   const names = Object.keys(groups).sort((a, b) => (a === "Other" ? 1 : b === "Other" ? -1 : a.localeCompare(b)));
-  const body = names.map((g) =>
-    `<div class="group-h">${esc(g)}</div>` +
-    groups[g].map((tbl) => {
+  // Keep the active table visible: auto-expand its category.
+  if (activeKey.startsWith("table:")) {
+    const af = activeKey.slice(6);
+    let uncollapsed = false;
+    for (const g of names) {
+      if ((groups[g] || []).some((tbl) => tbl.file === af) && S.collapsedGroups[g] !== false) {
+        S.collapsedGroups[g] = false;
+        uncollapsed = true;
+      }
+    }
+    if (uncollapsed) saveCollapsedGroups();
+  }
+  const body = names.map((g) => {
+    const collapsed = isGroupCollapsed(g, !!q);
+    const items = groups[g].map((tbl) => {
       const c = S.changed[tbl.file];
       const isActive = activeKey === `table:${tbl.file}`;
       const dot = c ? "changed" : "none";
@@ -769,8 +809,13 @@ function renderScopeList() {
         : (tbl._matchCount !== null && tbl._matchCount !== undefined ? `<span class="ct">${tbl._matchCount}</span>` : `<span class="ct">${tbl.rows}</span>`);
       return `<div class="scope-item${isActive ? " active" : ""}" data-tfile="${esc(tbl.file)}">` +
         `<span class="dot ${dot}"></span><span class="nm" title="${esc(tbl.file)}">${esc(tbl.file.replace(/\.json$/i, ""))}</span>${badge}</div>`;
-    }).join(""),
-  ).join("");
+    }).join("");
+    return `<div class="group-h collapsible${collapsed ? " collapsed" : ""}" data-group="${esc(g)}" role="button" tabindex="0" aria-expanded="${collapsed ? "false" : "true"}" title="${collapsed ? "Expand" : "Collapse"} ${esc(g)}">` +
+      `<span class="g-chev" aria-hidden="true">${collapsed ? "\u25b8" : "\u25be"}</span>` +
+      `<span class="g-name">${esc(g)}</span>` +
+      `<span class="g-count">${groups[g].length}</span></div>` +
+      (collapsed ? "" : items);
+  }).join("");
   list.innerHTML = modeBanner + (body || (S.charMode
     ? `<div class="empty-note">No tables contain ${esc(S.charMode)} rows.</div>`
 : `<div class="empty-note">No tables found. Run npm run vendor-input-json, then restart.</div>`));
@@ -1442,7 +1487,7 @@ function renderFieldBlock(tab, f, fs, vanilla, eff, prov, fired, isNew) {
     `<span class="fname" title="${esc(f)}">${esc(f)}${ruleBadge}${provBadge}</span>` +
     `<div class="fwidget">${renderWidget(f, fs, eff)}</div>` +
     `<span class="fact">` +
-    `<button class="icon-btn info-btn" data-fact="info" data-finfo data-ftype="${esc(typeLabel)}" title="${esc(typeLabel)}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><text x="12" y="16.5" text-anchor="middle" font-size="12" fill="currentColor" stroke="none">?</text></svg></button>` +
+    `<button class="icon-btn info-btn" data-fact="info" data-finfo data-ftype="${esc(typeLabel)}" title="${esc(typeLabel)} — click for details & editing" aria-label="Field details for ${esc(f)}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.2"/><circle cx="12" cy="7.8" r="1.15" fill="currentColor" stroke="none"/></svg></button>` +
     (isIdField ? `<button class="icon-btn" data-fact="refs" title="Jump to referenced row">\u2192</button>` : "") +
     (canReset ? `<button class="icon-btn" data-fact="reset" title="Reset to global/vanilla value">\u21a9</button>` : "") +
     `</span></div>${was}</div>`;
@@ -1870,8 +1915,8 @@ function fieldSchemaOf(field) {
 async function fillInlineDocs(tab, rowId) {
   const base = docsBaseOf(tab);
   const family = docsFamilyOf(tab);
-  // Details buttons (header Details + inline More) only appear when the
-  // field actually has documentation content: a description or enum notes.
+  // Rich native tooltip + a doc-state tint on the info icon: documented
+  // fields read as actionable, undocumented ones stay muted.
   const paint = () => {
     const live = document.querySelector(`#centerBody [data-card="${CSS.escape(rowId)}"]`);
     if (!live) return;
@@ -1883,7 +1928,15 @@ async function fillInlineDocs(tab, rowId) {
       const info = s.querySelector("[data-finfo]");
       if (!info) continue;
       const typeLabel = info.dataset.ftype || "";
-      info.title = hit.desc ? `${typeLabel} — ${hit.desc.length > 300 ? hit.desc.slice(0, 300) + "…" : hit.desc}` : typeLabel;
+      const bits = [typeLabel];
+      if (hit.desc) bits.push(hit.desc.length > 220 ? hit.desc.slice(0, 220) + "…" : hit.desc);
+      else bits.push("No description yet");
+      if (hit.hasEnum) bits.push(hit.hasEnumNotes ? "Enum notes available" : "Enum — no notes yet");
+      if (hit.source && hit.source !== "none") bits.push(`src: ${hit.source}`);
+      bits.push("Click for details & editing");
+      info.title = bits.filter(Boolean).join(" — ");
+      info.classList.toggle("has-docs", !!(hit.desc || hit.hasEnumNotes));
+      info.classList.toggle("no-docs", !(hit.desc || hit.hasEnumNotes));
     }
   };
   paint();
@@ -1903,6 +1956,75 @@ async function fillInlineDocs(tab, rowId) {
     if (S.activeTabId === tab.id) paint();
   } catch { /* docs best-effort */ }
 }
+function ensureFieldTip() {
+  let tip = $("#fieldTip");
+  if (tip) return tip;
+  tip = document.createElement("div");
+  tip.id = "fieldTip";
+  tip.className = "hidden";
+  document.body.appendChild(tip);
+  return tip;
+}
+function hideFieldTip() {
+  const tip = $("#fieldTip");
+  if (tip) tip.classList.add("hidden");
+}
+function showFieldTipFor(btn) {
+  const t = activeTab();
+  if (!t || t.kind === "rules") return;
+  const wrap = btn.closest("[data-field]");
+  const field = wrap && wrap.dataset.field;
+  if (!field) return;
+  const base = docsBaseOf(t);
+  const hit = S.docsCache[`${base}.${field}`];
+  const typeLabel = btn.dataset.ftype || "";
+  const desc = hit && hit.desc ? (hit.desc.length > 180 ? hit.desc.slice(0, 180) + "…" : hit.desc) : "";
+  const tip = ensureFieldTip();
+  tip.innerHTML = `<div class="ft-name">${esc(field)}</div>` +
+    (typeLabel ? `<div class="ft-type">${esc(typeLabel)}</div>` : "") +
+    `<div class="ft-desc">${desc ? esc(desc) : "<span class=\"ft-none\">No description yet — click to add one.</span>"}</div>` +
+    (hit && hit.hasEnum ? `<div class="ft-meta">${hit.hasEnumNotes ? "Enum notes available" : "Enum — no notes yet"}${hit.source && hit.source !== "none" ? ` · src: ${esc(hit.source)}` : ""}</div>` : (hit && hit.source && hit.source !== "none" ? `<div class="ft-meta">src: ${esc(hit.source)}</div>` : "")) +
+    `<div class="ft-act">Click for details & editing</div>`;
+  tip.classList.remove("hidden");
+  const r = btn.getBoundingClientRect();
+  const tw = Math.min(300, window.innerWidth - 16);
+  tip.style.maxWidth = `${tw}px`;
+  // Position after layout so offsetWidth is real; flip above when needed.
+  const place = () => {
+    const w = tip.offsetWidth || 280;
+    const h = tip.offsetHeight || 120;
+    let left = Math.max(8, Math.min(r.left - 8, window.innerWidth - w - 8));
+    let top = r.bottom + 8;
+    if (top + h > window.innerHeight - 8) top = Math.max(8, r.top - h - 8);
+    tip.style.left = `${left}px`;
+    tip.style.top = `${top}px`;
+  };
+  place();
+  requestAnimationFrame(place);
+}
+function bindFieldTips() {
+  if (S._fieldTipsBound) return;
+  S._fieldTipsBound = true;
+  let hoverBtn = null;
+  let hoverTimer = null;
+  document.addEventListener("mouseover", (e) => {
+    const btn = e.target && e.target.closest ? e.target.closest("[data-finfo]") : null;
+    if (!btn) return;
+    hoverBtn = btn;
+    clearTimeout(hoverTimer);
+    hoverTimer = setTimeout(() => { if (hoverBtn === btn && btn.isConnected) showFieldTipFor(btn); }, 250);
+  });
+  document.addEventListener("mouseout", (e) => {
+    const btn = e.target && e.target.closest ? e.target.closest("[data-finfo]") : null;
+    if (!btn) return;
+    if (btn.contains(e.relatedTarget)) return; // still inside the same icon
+    if (hoverBtn === btn) { hoverBtn = null; clearTimeout(hoverTimer); }
+    hideFieldTip();
+  });
+  document.addEventListener("click", hideFieldTip, true);
+  document.addEventListener("scroll", hideFieldTip, true);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") hideFieldTip(); });
+}
 async function showFieldPopup(tab, rowId, field) {
   const fs = fieldSchemaOf(field) || { kind: "any" };
   const enumName = fs && fs.enumName;
@@ -1916,27 +2038,60 @@ async function showFieldPopup(tab, rowId, field) {
     const fullHasEnum = !!(d.enum && d.enum.members && d.enum.members.length);
     const fullHasEnumNotes = !!(d.enum && d.enum.members && d.enum.members.some((m) => m.desc && String(m.desc).trim()));
     S.docsCache[`${base}.${field}`] = { desc: fullDesc, source: (d.field && d.field.source) || "none", hasEnum: fullHasEnum, hasEnumNotes: fullHasEnumNotes, hasMore: fullDesc.length > 140 || fullHasEnum, hasContent: fullDesc.length > 0 || fullHasEnumNotes };
+    const effVal = data ? (data.isParam ? (data.value && typeof data.value === "object" ? data.value[field] : data.value) : (data.effective || {})[field]) : undefined;
+    const vanVal = data ? (data.isParam ? (data.vanilla && typeof data.vanilla === "object" ? data.vanilla[field] : data.vanilla) : (data.vanilla || {})[field]) : undefined;
+    const prov = data ? ((data.prov || {})[field] || (data.isNew ? "new" : "default")) : "default";
+    const typeLabel = fs.enumName ? `${fs.kind} · ${fs.enumName}` : (fs.kind || "any");
+    const tableLabel = tab.kind === "param" ? `parameters/${tab.short}.json` : (tab.file || base);
+    const descText = d.field.desc || "";
+    const notedCount = d.enum ? d.enum.members.filter((m) => m.desc && String(m.desc).trim()).length : 0;
     const box = showModal(`<h2>${esc(field)}</h2>` +
-      `<div class="mrow"><label>Type</label><div class="fdoc-full" style="font-family:var(--mono);font-size:12px">${esc(fs.enumName ? `${fs.kind} \u00b7 ${fs.enumName}` : fs.kind)}</div></div>` +
-      (sample !== undefined ? `<div class="mrow"><label>Vanilla sample</label><div class="fdoc-full" style="font-family:var(--mono);font-size:12px;word-break:break-all">${esc(shortVal(sample, 300))}</div></div>` : "") +
-      `<div class="mrow"><label>Description</label><textarea id="fdocText" rows="4">${esc(d.field.desc || "")}</textarea>` +
-      `<div class="src">source: ${esc(d.field.source || "none")} \u00b7 stored in field-docs.json</div>` +
-      `<div style="margin-top:4px"><button class="small primary" id="btnSaveFdoc">Save description</button></div></div>` +
-      `<div id="fdocEnum"></div><div class="mfoot"><button data-x="ok" class="primary">Close</button></div>`, true);
-    if (d.enum) {
-      $("#fdocEnum", box).innerHTML = `<div class="mrow"><label>Enum members \u2014 ${esc(d.enum.name)} (what each value means)</label>` +
+      `<div class="fdoc-sub">${esc(tableLabel)} · row <span style="font-family:var(--mono)">${esc(rowId)}</span></div>` +
+      `<div class="fdoc-grid">` +
+      `<div><label>Type</label><div class="fdoc-val mono">${esc(typeLabel)}</div></div>` +
+      `<div><label>Status</label><div class="fdoc-val"><span class="prov ${esc(prov)}" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>${esc(prov)}</div></div>` +
+      `</div>` +
+      `<div class="mrow"><label>Current value</label><div class="fdoc-val mono break">${effVal === undefined ? "<span style=\"color:var(--dim)\">—</span>" : esc(shortVal(effVal, 300))}</div></div>` +
+      (vanVal !== undefined && vanVal !== null ? `<div class="mrow"><label>Vanilla value</label><div class="fdoc-val mono break dim">${esc(shortVal(vanVal, 300))}</div></div>` : "") +
+      `<div class="mrow"><label>Description</label>` +
+      `<div class="fdoc-view" id="fdocView">${descText ? esc(descText) : "<span style=\"color:var(--dim)\">No description yet — click Edit to add one.</span>"}</div>` +
+      `<textarea id="fdocText" rows="4" hidden>${esc(descText)}</textarea>` +
+      `<div class="src">source: ${esc(d.field.source || "none")} · stored in field-docs.json${d.enum ? ` · enum ${esc(d.enum.name)} (${notedCount}/${d.enum.members.length} noted)` : ""}</div>` +
+      `<div style="margin-top:6px;display:none;gap:6px" id="fdocDescBtns"><button class="small primary" id="btnSaveFdoc">Save description</button><button class="small" id="btnCancelFdoc">Cancel</button></div></div>` +
+      `<div id="fdocEnum"></div>` +
+      `<div class="mfoot"><button class="small" id="btnEditFdoc">Edit</button><span style="flex:1"></span><button data-x="ok" class="primary">Close</button></div>`, true);
+    const paintEnum = (editing) => {
+      if (!d.enum) { $("#fdocEnum", box).innerHTML = ""; return; }
+      $("#fdocEnum", box).innerHTML = `<div class="mrow"><label>Enum members — ${esc(d.enum.name)} (what each value means)</label>` +
         d.enum.members.map((m) => `<div class="member-doc"><div class="mname">${esc(m.name)} = ${m.value}</div>` +
-          `<textarea data-enumm="${esc(m.name)}" placeholder="What does this value do?">${esc(m.desc || "")}</textarea></div>`).join("") +
-        `<button class="small primary" id="btnSaveEnumDocs" style="margin-top:4px">Save enum notes</button></div>`;
-    }
+          (editing
+            ? `<textarea data-enumm="${esc(m.name)}" placeholder="What does this value do?">${esc(m.desc || "")}</textarea>`
+            : `<div class="fdoc-view sm">${m.desc ? esc(m.desc) : "<span style=\"color:var(--dim)\">—</span>"}</div>`) + `</div>`).join("") +
+        (editing ? `<div style="margin-top:6px;display:flex;gap:6px"><button class="small primary" id="btnSaveEnumDocs">Save enum notes</button></div>` : "") + `</div>`;
+    };
+    paintEnum(false);
+    const setEditing = (on) => {
+      $("#fdocView", box).hidden = on;
+      $("#fdocText", box).hidden = !on;
+      $("#fdocDescBtns", box).style.display = on ? "flex" : "none";
+      $("#btnEditFdoc", box).hidden = on;
+      paintEnum(on);
+      if (on) setTimeout(() => { const el = $("#fdocText", box); if (el) el.focus(); }, 0);
+    };
     box.addEventListener("click", async (e) => {
       if (e.target.dataset && e.target.dataset.x === "ok") closeModal();
+      if (e.target.id === "btnEditFdoc") { setEditing(true); return; }
+      if (e.target.id === "btnCancelFdoc") { setEditing(false); return; }
       if (e.target.id === "btnSaveFdoc") {
         await guard(async () => {
           await call("docs:save-field", base, field, $("#fdocText", box).value);
           const prevDoc = S.docsCache[`${base}.${field}`] || {};
           const newDesc = $("#fdocText", box).value;
           S.docsCache[`${base}.${field}`] = { desc: newDesc, source: newDesc ? "custom" : "none", hasEnum: !!prevDoc.hasEnum, hasEnumNotes: !!prevDoc.hasEnumNotes, hasMore: newDesc.length > 140 || !!prevDoc.hasEnum, hasContent: newDesc.length > 0 || !!prevDoc.hasEnumNotes };
+          d.field.desc = newDesc;
+          d.field.source = newDesc ? "custom" : "none";
+          $("#fdocView", box).innerHTML = newDesc ? esc(newDesc) : "<span style=\"color:var(--dim)\">No description yet — click Edit to add one.</span>";
+          setEditing(false);
           toast("Description saved to field-docs.json", "success");
           if (S.activeTabId === tab.id) renderTabBody();
         });
@@ -1944,11 +2099,16 @@ async function showFieldPopup(tab, rowId, field) {
       if (e.target.id === "btnSaveEnumDocs" && d.enum) {
         const updates = $$("[data-enumm]", box).map((el) => [el.dataset.enumm, el.value]);
         await guard(async () => {
-          for (const [member, desc] of updates) await call("docs:save-enum", d.enum.name, member, desc);
-          const anyNotes = updates.some(([, desc]) => String(desc || "").trim());
+          for (const [member, udesc] of updates) await call("docs:save-enum", d.enum.name, member, udesc);
+          for (const [member, udesc] of updates) {
+            const m = d.enum.members.find((x) => x.name === member);
+            if (m) m.desc = udesc;
+          }
+          const anyNotes = updates.some(([, udesc]) => String(udesc || "").trim());
           const prevEnum = S.docsCache[`${base}.${field}`] || {};
           const curDesc = prevEnum.desc || "";
           S.docsCache[`${base}.${field}`] = { desc: curDesc, source: prevEnum.source || "none", hasEnum: true, hasEnumNotes: anyNotes, hasMore: curDesc.length > 140 || true, hasContent: curDesc.length > 0 || anyNotes };
+          setEditing(false);
           toast(`Enum notes saved (${d.enum.name})`, "success");
           if (S.activeTabId === tab.id) renderTabBody();
         });
@@ -3494,10 +3654,32 @@ function bindEvents() {
   let scopeSearchT = null;
   $("#scopeSearch").addEventListener("input", () => { clearTimeout(scopeSearchT); scopeSearchT = setTimeout(renderScopeList, 200); });
   $("#scopeList").addEventListener("click", (e) => {
+    const gh = e.target.closest("[data-group]");
+    if (gh) {
+      const list = $("#scopeList");
+      const top = list ? list.scrollTop : 0;
+      toggleGroupCollapsed(gh.dataset.group);
+      renderScopeList();
+      if (list) list.scrollTop = top;
+      return;
+    }
     const tf = e.target.closest("[data-tfile]");
     if (tf) { selectScope({ kind: "table", file: tf.dataset.tfile }); return; }
     const ps = e.target.closest("[data-pshort]");
     if (ps) { S.leftTab = "params"; selectScope({ kind: "param", short: ps.dataset.pshort }); }
+  });
+  $("#scopeList").addEventListener("keydown", (e) => {
+    const gh = e.target.closest && e.target.closest("[data-group]");
+    if (gh && (e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      const list = $("#scopeList");
+      const top = list ? list.scrollTop : 0;
+      toggleGroupCollapsed(gh.dataset.group);
+      renderScopeList();
+      if (list) list.scrollTop = top;
+      const again = list && list.querySelector(`[data-group="${CSS.escape(gh.dataset.group)}"]`);
+      if (again) again.focus();
+    }
   });
   $("#scopeList").addEventListener("contextmenu", (e) => {
     const tf = e.target.closest("[data-tfile]");
@@ -3725,6 +3907,7 @@ function applyPanelFields(t) {
     if (!w) return;
     if (w === "str" || w === "num" || w === "list-str" || w === "list-num" || w === "struct-str" || w === "struct-num" || w === "struct-json") e.target.blur();
   });
+  bindFieldTips();
 }
 async function onTabClick(e) {
   const t = activeTab();
