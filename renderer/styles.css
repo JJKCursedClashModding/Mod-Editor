@@ -470,7 +470,7 @@ kbd {
 .fact [data-fact="info"] svg { display: block; }
 .arr-list { display: flex; flex-direction: column; gap: 4px; }
 .arr-row { display: grid; grid-template-columns: 1fr auto; gap: 4px; }
-/* struct editors: Vector X/Y/Z, Rotator, color, … (mirrors frontend/src/app.css) */
+/* struct editors: Vector X/Y/Z, Rotator, color, … */
 .struct-wrap { display: flex; gap: 4px; align-items: start; }
 .struct-grid { flex: 1; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 4px; }
 .struct-cell { display: flex; align-items: center; gap: 5px; background: #0e1119; border: 1px solid var(--border); border-radius: 5px; padding: 2px 4px 2px 7px; min-width: 0; }

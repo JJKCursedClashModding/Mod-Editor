@@ -33,7 +33,6 @@ const refs = require("./lib/refs");
 
 let mainWin = null;
 let currentProject = null;
-let loadedUI = "vanilla"; // "react-dev" | "react" | "vanilla" — reported via state:init
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -64,23 +63,8 @@ function createWindow() {
   win.on("focus", () => {
     refreshAppMenu();
   });
-  // The vanilla renderer/ is the default UI until the React multi-pane
-  // regression is root-caused (see JJK_USE_REACT below). Opt into the React
-  // frontend/dist build with JJK_USE_REACT=1 (falls back to vanilla when
-  // dist is missing). VITE_DEV_SERVER_URL (npm run electron:dev) wins for
-  // Vite HMR.
-  const devUrl = process.env.VITE_DEV_SERVER_URL;
-  const reactDist = path.join(__dirname, "frontend", "dist", "index.html");
-  if (devUrl) {
-    loadedUI = "react-dev";
-    win.loadURL(devUrl);
-  } else if (process.env.JJK_USE_REACT === "1" && fsSync.existsSync(reactDist)) {
-    loadedUI = "react";
-    win.loadFile(reactDist);
-  } else {
-    loadedUI = "vanilla";
-    win.loadFile(path.join(__dirname, "renderer", "index.html"));
-  }
+  // Single UI: the vanilla renderer/. No frontend framework, no build step.
+  win.loadFile(path.join(__dirname, "renderer", "index.html"));
 }
 
 function ok(data) {
@@ -91,18 +75,6 @@ function fail(err) {
   return { ok: false, error: err instanceof Error ? err.message : String(err) };
 }
 
-// Provenance of the running frontend (written by scripts/stamp-frontend-dist.js
-// after every dist build; absent for hand-rolled/CI-less bundles).
-function readBuildInfo() {
-  try {
-    const raw = fsSync.readFileSync(path.join(__dirname, "frontend", "dist", "build-info.json"), "utf8");
-    const info = JSON.parse(raw);
-    if (info && typeof info === "object") return info;
-  } catch {
-    /* no stamp: unknown build */
-  }
-  return null;
-}
 
 function sendMenu(action, payload) {
   try {
@@ -447,8 +419,6 @@ function registerIpc() {
       tables,
       tablesError,
       changed: project ? tableChangedCounts(project) : {},
-      build: readBuildInfo(),
-      ui: loadedUI,
       enums: enums().order,
       chars: schema.getChars(),
       paramAssets: schema.BP_PARAMETER_ASSETS,

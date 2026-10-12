@@ -12,7 +12,6 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, "assets")
 BUILD = os.path.join(ROOT, "build")
-FRONT_PUBLIC = os.path.join(ROOT, "frontend", "public")
 RENDERER = os.path.join(ROOT, "renderer")
 
 SIZE = 1024
@@ -210,7 +209,7 @@ def build_master(size=1024):
     return out
 
 def save_set(master):
-    for p in (ASSETS, BUILD, FRONT_PUBLIC, RENDERER):
+    for p in (ASSETS, BUILD, RENDERER):
         os.makedirs(p, exist_ok=True)
     master_path = os.path.join(ASSETS, "icon-1024.png")
     master.save(master_path)
@@ -229,19 +228,15 @@ def save_set(master):
     base.save(os.path.join(BUILD, "icon.ico"), sizes=ico_sizes)
     print("wrote build/icon.ico + build/icon.png")
 
-    # favicons (ICO + PNGs) for both frontends
+    # favicons (ICO + PNGs) for the renderer
     fav16 = master.resize((16, 16), Image.LANCZOS)
     fav32 = master.resize((32, 32), Image.LANCZOS)
     fav48 = master.resize((48, 48), Image.LANCZOS)
     fav48.save(os.path.join(BUILD, "favicon.ico"), sizes=[(16, 16), (32, 32), (48, 48)])
-    for dest, name in ((FRONT_PUBLIC, "favicon.ico"), (RENDERER, "favicon.ico")):
-        fav48.save(os.path.join(dest, name), sizes=[(16, 16), (32, 32), (48, 48)])
-    for px, nm in ((16, "favicon-16x16.png"), (32, "favicon-32x32.png"),
-                   (180, "apple-touch-icon.png"), (192, "icon-192.png"), (512, "icon-512.png")):
+    fav48.save(os.path.join(RENDERER, "favicon.ico"), sizes=[(16, 16), (32, 32), (48, 48)])
+    for px, nm in ((32, "favicon-32x32.png"), (180, "apple-touch-icon.png")):
         im = master.resize((px, px), Image.LANCZOS)
-        im.save(os.path.join(FRONT_PUBLIC, nm))
-        if px in (32, 180):
-            im.save(os.path.join(RENDERER, nm if px == 32 else "apple-touch-icon.png"))
+        im.save(os.path.join(RENDERER, nm))
     # renderer legacy 48px icon copy + electron PNG fallback in assets
     master.resize((48, 48), Image.LANCZOS).save(os.path.join(RENDERER, "favicon-48x48.png"))
     master.resize((512, 512), Image.LANCZOS).save(os.path.join(ASSETS, "icon.png"))

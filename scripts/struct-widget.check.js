@@ -137,7 +137,7 @@ ok(garbage.includes("<textarea"), "non-object struct value stays JSON", garbage.
 
 // 10. raw JSON is actually hidden: [hidden] must beat the display rules,
 // and the toggle-back auto-applies (data-structform commits).
-for (const cssPath of ["frontend/src/app.css", "renderer/styles.css"]) {
+for (const cssPath of ["renderer/styles.css"]) {
   const css = fs.readFileSync(path.join(__dirname, "..", cssPath), "utf8");
   ok(css.includes(".struct-raw[hidden]") && css.includes(".struct-grid[hidden]"),
     `${cssPath} hides raw/grid when [hidden]`);
