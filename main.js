@@ -154,6 +154,7 @@ function buildMenu() {
         { label: "Export to Mods Folder", accelerator: "Ctrl+E", click: () => sendMenu("file:export-folder") },
         { label: "Export .jjkmod…", accelerator: "Ctrl+Shift+E", click: () => sendMenu("file:export-jjkmod") },
         { label: "Test Patch…", accelerator: "Ctrl+T", click: () => sendMenu("file:test-patch") },
+        { label: "Live Testing Mode", type: "checkbox", checked: !!config.get().liveTestEnabled, click: () => sendMenu("file:live-test") },
         { type: "separator" },
         { label: "Settings…", accelerator: "Ctrl+," , click: () => sendMenu("file:settings") },
         { type: "separator" },
@@ -270,6 +271,7 @@ async function persist(project, msg, opts) {
   await projects.save(project, msg);
   refs.clearMemo();
   if (!o.skipAuto) scheduleAutoExport(project.name);
+  scheduleLiveSync(project.name);
 }
 
 // ---- auto-export to Mods folder (debounced, serialized) ----
@@ -345,6 +347,138 @@ async function runAutoExport() {
     }
   } finally {
     autoRunning = false;
+  }
+}
+
+// ---- live testing sync to the DataTablePatcher DataTables folder ----
+// Debounced like auto-export. Writes only sparse datatable JSONs, flat into
+// <liveTestDir>/<Project>/ (the UE4SS DataTablePatcher hot-patches the game
+// from those files at runtime). Toggling off deletes the project subfolder;
+// only that subfolder is ever created or removed, never liveTestDir itself.
+let liveTimer = null;
+let liveRunning = false;
+let liveQueued = null;
+let lastLiveSub = null; // absolute path of the last-synced project subfolder
+const LIVE_RECEIPT = ".jjk-live-receipt.json";
+
+function liveFolderName(name) {
+  const s = String(name || "mod")
+    .replace(/[<>:\"/\\|?*\x00-\x1f]/g, "_")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/[. ]+$/g, "");
+  return (s || "mod").slice(0, 120);
+}
+
+function liveSubDir(cfg, projectName) {
+  return path.join(cfg.liveTestDir, liveFolderName(projectName));
+}
+
+function scheduleLiveSync(name) {
+  const cfg = config.get();
+  if (!cfg.liveTestEnabled || !cfg.liveTestDir || !name) return;
+  liveQueued = name;
+  if (liveTimer || liveRunning) return;
+  liveTimer = setTimeout(() => {
+    liveTimer = null;
+    runLiveSync().catch((err) => {
+      // eslint-disable-next-line no-console
+      console.error("[live-test]", err);
+    });
+  }, 2500);
+}
+
+function notifyLiveTest(payload) {
+  try {
+    if (mainWin && !mainWin.isDestroyed()) mainWin.webContents.send("live-test-done", payload);
+  } catch {
+    /* ignore */
+  }
+}
+
+async function removeLiveSub(dir) {
+  try {
+    if (typeof fs.rm === "function") await fs.rm(dir, { recursive: true, force: true });
+    else await fs.rmdir(dir, { recursive: true });
+  } catch (err) {
+    if (!err || err.code !== "ENOENT") throw err;
+  }
+}
+
+async function writeLiveSub(project, sub) {
+  const { files } = await exportMod.buildModTree(project, enums(), { bake: false });
+  const owned = [];
+  await fs.mkdir(sub, { recursive: true });
+  for (const [rel, content] of files) {
+    if (!rel.startsWith("datatables/")) continue;
+    const base = path.basename(rel);
+    owned.push(base);
+    await fs.writeFile(path.join(sub, base), content);
+  }
+  // Drop stale previously-synced files that are no longer touched.
+  let prev = null;
+  try {
+    prev = JSON.parse(await fs.readFile(path.join(sub, LIVE_RECEIPT), "utf8"));
+  } catch {
+    prev = null;
+  }
+  if (prev && Array.isArray(prev.owned)) {
+    for (const f of prev.owned) {
+      const base = path.basename(String(f || ""));
+      if (!base || owned.includes(base) || base === LIVE_RECEIPT) continue;
+      try {
+        await fs.unlink(path.join(sub, base));
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  await fs.writeFile(
+    path.join(sub, LIVE_RECEIPT),
+    `${JSON.stringify({ tool: "jjk-mod-editor-live", version: 1, owned, at: Date.now() }, null, 2)}\n`,
+  );
+  return owned;
+}
+
+async function runLiveSync() {
+  if (liveRunning) return;
+  if (!config.get().liveTestEnabled) {
+    liveQueued = null;
+    return;
+  }
+  liveRunning = true;
+  try {
+    while (liveQueued) {
+      const name = liveQueued;
+      liveQueued = null;
+      const cfg = config.get();
+      if (!cfg.liveTestEnabled) continue;
+      if (!cfg.liveTestDir) {
+        notifyLiveTest({ ok: false, error: "Live testing: no DataTables folder configured (Settings)." });
+        continue;
+      }
+      try {
+        const project = await projects.load(name);
+        const sub = liveSubDir(cfg, project.name);
+        // The game follows the current project: drop the previous project's
+        // subfolder when switching.
+        if (lastLiveSub && lastLiveSub !== sub) {
+          try {
+            await removeLiveSub(lastLiveSub);
+          } catch {
+            /* ignore */
+          }
+          lastLiveSub = null;
+        }
+        const owned = await writeLiveSub(project, sub);
+        lastLiveSub = sub;
+        notifyLiveTest({ ok: true, path: sub, files: owned.length });
+      } catch (err) {
+        notifyLiveTest({ ok: false, error: `Live sync failed: ${err.message}` });
+      }
+    }
+  } finally {
+    liveRunning = false;
   }
 }
 
@@ -432,6 +566,7 @@ function registerIpc() {
   // rather than persisted into config.json.
   const SETTINGS_KEYS = new Set([
     "editorRoot", "modsDir", "modManagerDir", "projectsDir",
+    "liveTestDir", "liveTestEnabled",
     "bakeParameterAssets", "autoExport", "backupOnExport", "backupsKept",
     "autoSnapshotOnExport", "snapshotKeep", "lastProject", "charMode",
     "recentProjects",
@@ -489,6 +624,7 @@ function registerIpc() {
     await touchRecent(name);
     const project = await projects.load(name);
     refreshAppMenu();
+    scheduleLiveSync(name);
     return ok({ project, changed: tableChangedCounts(project) });
   });
   ipcMain.handle("project:create", async (_, name) => {
@@ -497,6 +633,7 @@ function registerIpc() {
     await config.save({ lastProject: project.name });
     await touchRecent(project.name);
     refreshAppMenu();
+    scheduleLiveSync(project.name);
     return ok({ project, projects: await projects.list() });
   });
   ipcMain.handle("project:duplicate", async (_, name, newName) => {
@@ -509,6 +646,17 @@ function registerIpc() {
     await projects.remove(name);
     delete history[name];
     await dropRecent(name);
+    // Deleting the live project must unpatch the game too.
+    if (config.get().liveTestEnabled && config.get().liveTestDir) {
+      try {
+        const sub = liveSubDir(config.get(), name);
+        await removeLiveSub(sub);
+        if (lastLiveSub === sub) lastLiveSub = null;
+        if (liveQueued === name) liveQueued = null;
+      } catch {
+        /* ignore */
+      }
+    }
     if (currentProject === name) {
       currentProject = null;
       await config.save({ lastProject: null });
@@ -529,6 +677,7 @@ function registerIpc() {
     await dropRecent(name);
     await touchRecent(project.name);
     refreshAppMenu();
+    if (currentProject === project.name) scheduleLiveSync(project.name);
     return ok({ project, projects: await projects.list() });
   });
   ipcMain.handle("project:reveal", async () => {
@@ -1712,6 +1861,52 @@ function registerIpc() {
     return ok({ project, warnings: imported.warnings, stats: imported.stats, merged });
   });
 
+
+  ipcMain.handle("livetest:set-enabled", async (_, enabled) => {
+    const want = !!enabled;
+    if (want) {
+      const cfg = config.get();
+      if (!cfg.liveTestDir) throw new Error("Set the DataTablePatcher DataTables folder in Settings first.");
+      if (!currentProject) throw new Error("Open a project first.");
+      if (liveTimer) { clearTimeout(liveTimer); liveTimer = null; }
+      await config.save({ liveTestEnabled: true });
+      refreshAppMenu();
+      // Live ON: create <DataTables>/<Project> and sync immediately.
+      const project = await projects.load(currentProject);
+      const sub = liveSubDir(config.get(), project.name);
+      if (lastLiveSub && lastLiveSub !== sub) {
+        try { await removeLiveSub(lastLiveSub); } catch { /* ignore */ }
+        lastLiveSub = null;
+      }
+      const owned = await writeLiveSub(project, sub);
+      lastLiveSub = sub;
+      notifyLiveTest({ ok: true, path: sub, files: owned.length });
+      return ok({ enabled: true, path: sub, files: owned.length });
+    }
+    // Live OFF: delete the project subfolder; liveTestDir itself is untouched.
+    const removed = [];
+    const cfg = config.get();
+    if (currentProject && cfg.liveTestDir) {
+      try {
+        const sub = liveSubDir(cfg, currentProject);
+        await removeLiveSub(sub);
+        removed.push(sub);
+      } catch (err) {
+        throw new Error(`Could not remove live folder: ${err.message}`);
+      }
+    }
+    if (lastLiveSub && !removed.includes(lastLiveSub)) {
+      try { await removeLiveSub(lastLiveSub); } catch { /* ignore */ }
+      removed.push(lastLiveSub);
+    }
+    lastLiveSub = null;
+    liveQueued = null;
+    if (liveTimer) { clearTimeout(liveTimer); liveTimer = null; }
+    await config.save({ liveTestEnabled: false });
+    refreshAppMenu();
+    notifyLiveTest({ ok: true, disabled: true, removed });
+    return ok({ enabled: false, removed });
+  });
 
   ipcMain.handle("patcher:test", async () => {
     const project = await requireProject();

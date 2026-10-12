@@ -334,6 +334,14 @@ kbd {
   display: flex; align-items: center; gap: 5px;
 }
 .st-export:hover { background: #1c2130; color: var(--green); border: none; }
+.st-live {
+  background: none; border: none; border-radius: 0;
+  color: var(--dim); font-size: 11.5px; padding: 0 12px; font-weight: 600;
+  display: flex; align-items: center; gap: 5px; cursor: pointer;
+}
+.st-live:hover { background: #1c2130; color: var(--text); border: none; }
+.st-live.on { color: var(--green); }
+.st-live.on:hover { color: var(--green); }
 .st-center { display: flex; align-items: stretch; }
 .st-read { display: flex; align-items: center; padding: 0 10px; color: var(--dim); font-family: var(--mono); font-size: 11.5px; white-space: nowrap; cursor: default; }
 

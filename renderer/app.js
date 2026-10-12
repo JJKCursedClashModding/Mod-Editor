@@ -2697,6 +2697,25 @@ async function doImportDatatablesCurrent() {
     } finally { idle(); }
   });
 }
+async function toggleLiveTest() {
+  const want = !(S.config && S.config.liveTestEnabled);
+  await guard(async () => {
+    if (want && !S.currentProject) { toast("Open a project first", "error"); return; }
+    if (want && !(S.config && S.config.liveTestDir)) {
+      showSettings();
+      toast("Pick the DataTablePatcher DataTables folder first", "warn");
+      return;
+    }
+    busy(want ? "Starting live testing…" : "Stopping live testing…");
+    try {
+      const res = await call("livetest:set-enabled", want);
+      try { S.config = await call("config:get"); } catch { /* ignore */ }
+      renderStatusBar();
+      if (want) toast(`Live testing ON — ${res.files || 0} file(s) in ${res.path}`, "success");
+      else toast("Live testing OFF — project folder removed", "success");
+    } finally { idle(); }
+  });
+}
 async function doTestPatch() {
   await guard(async () => {
     busy("Patching cooked tables + baking parameters...");
@@ -2800,6 +2819,7 @@ async function showSettings() {
   const num = (key, label) => `<div class="set-row"><label>${esc(label)}</label><input type="number" data-set-num="${key}" value="${esc(String(c[key] ?? ""))}" min="1" max="50"><span></span></div>`;
 (`<h2>Settings</h2>` + row("editorRoot", "JJKJsonEditor root") +
     row("modsDir", "Game Mods folder") + row("modManagerDir", "Mod Manager dir (fallback patcher)") + row("projectsDir", "Projects dir") +
+    row("liveTestDir", "DataTablePatcher DataTables folder") +
     check("bakeParameterAssets", "Bake parameter .uasset/.uexp on export") + check("autoExport", "Auto-export to Mods folder a few seconds after each change") +
     check("backupOnExport", "Zip-backup the mod folder before overwriting") + num("backupsKept", "Export backups kept") +
     check("autoSnapshotOnExport", "Auto-snapshot project on Export to Mods") + num("snapshotKeep", "Auto-snapshots kept") +
@@ -2919,6 +2939,7 @@ function handleMenuAction(action, name) {
     case "file:export-folder": doExportFolder(); break;
     case "file:export-jjkmod": doExportJjkmod(); break;
     case "file:test-patch": doTestPatch(); break;
+    case "file:live-test": toggleLiveTest(); break;
     case "file:settings": showSettings(); break;
     case "edit:undo": doUndo(); break;
     case "edit:redo": doRedo(); break;
@@ -3153,6 +3174,15 @@ function renderStatusBar() {
   }
   const ex = $("#stExport");
   if (ex) ex.style.display = S.currentProject ? "" : "none";
+  const lt = $("#stLive");
+  if (lt) {
+    const on = !!(S.config && S.config.liveTestEnabled);
+    lt.classList.toggle("on", on);
+    lt.style.display = S.currentProject ? "" : "none";
+    lt.title = on
+      ? `Live testing ON — syncing datatables to ${S.config.liveTestDir || "(no folder)"} (click to turn off)`
+      : "Live testing OFF — click to sync datatables to the DataTablePatcher folder";
+  }
   const rows = $("#stRows");
   if (rows) {
     const t = activeTab();
@@ -3187,6 +3217,7 @@ function palCommands() {
     ["Export .jjkmod…", "", () => doExportJjkmod(), hasProj],
     ["Import Datatables into Current Project…", "merge folder jsons", () => doImportDatatablesCurrent(), hasProj],
     ["Test Patch…", "Ctrl+T", () => doTestPatch(), hasProj],
+    ["Live Testing Mode…", "toggle datatable hot-sync", () => toggleLiveTest(), hasProj],
     ["Snapshots…", "Ctrl+S", () => showSnapshots(), hasProj],
     ["Conflicts…", "", () => showConflicts(), hasProj],
     ["Character Checklist…", "", () => showChecklist(), hasProj],
@@ -3390,6 +3421,13 @@ function bindEvents() {
       else toast(p.error || "Auto-export failed", "error");
     });
   }
+  if (window.jjkApi && window.jjkApi.onLiveTest) {
+    window.jjkApi.onLiveTest((p) => {
+      if (!p || p.disabled) return;
+      if (p.ok) toast(`Live synced ${p.files} file(s)`, "success");
+      else toast(p.error || "Live sync failed", "error");
+    });
+  }
   if (window.jjkApi && window.jjkApi.onMenuAction) {
     window.jjkApi.onMenuAction((action, payload) => handleMenuAction(action, payload));
   }
@@ -3402,7 +3440,8 @@ function bindEvents() {
   $("#stChar").addEventListener("click", (e) => { setSideView("explorer"); toggleCharPicker(e.currentTarget, true); });
   $("#stProblems").addEventListener("click", () => { if (!S.problems) validateIntoPanel(); else setPanel(true); });
   $("#stDirty").addEventListener("click", () => setSideView("changes"));
-  $("#stExport").addEventListener("click", () => doExportFolder());
+   $("#stExport").addEventListener("click", () => doExportFolder());
+   $("#stLive").addEventListener("click", () => toggleLiveTest());
   $("#btnEmptyOpen").addEventListener("click", () => showPalette("files"));
   $("#btnEmptySearch").addEventListener("click", () => showSearch());
   $("#btnEmptyProject").addEventListener("click", () => showOpenProjectModal());

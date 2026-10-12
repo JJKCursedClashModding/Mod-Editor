@@ -84,6 +84,7 @@ const CHANNELS = [
   "export:preview",
   "export:folder",
   "export:jjkmod",
+  "livetest:set-enabled",
   "import:folder",
   "import:datatables-current",
   "patcher:test",
@@ -100,6 +101,11 @@ contextBridge.exposeInMainWorld("jjkApi", {
     const handler = (_, payload) => callback(payload);
     ipcRenderer.on("auto-export-done", handler);
     return () => ipcRenderer.removeListener("auto-export-done", handler);
+  },
+  onLiveTest: (callback) => {
+    const handler = (_, payload) => callback(payload);
+    ipcRenderer.on("live-test-done", handler);
+    return () => ipcRenderer.removeListener("live-test-done", handler);
   },
   onMenuAction: (callback) => {
     const handler = (_, action, payload) => callback(action, payload);
