@@ -2291,6 +2291,8 @@ async function showModModal(previewFirst) {
     `<div id="assetList"></div><div style="display:flex;gap:6px;margin-top:6px"><button class="small" id="btnAssetFile">+ file(s)</button><button class="small" id="btnAssetDir">+ folder</button></div></div>` +
     `<div class="mod-sect"><h4>AssetRegistry.json (new assets)</h4><div style="color:var(--dim);font-size:11.5px;margin-bottom:6px">Array of asset entries merged by the Mod Manager. Leave <b>[]</b> when the mod adds no new assets.</div>` +
     `<textarea id="regText" rows="4" spellcheck="false"></textarea><div style="display:flex;gap:6px;margin-top:6px;align-items:center"><button class="small primary" id="btnSaveRegistry">Save</button><span id="regCount" style="color:var(--dim);font-size:12px"></span></div></div>` +
+    `<div class="mod-sect"><h4>Import</h4><div style="color:var(--dim);font-size:11.5px;margin-bottom:6px">Merge datatable jsons from a folder (or its <b>datatables/</b> subfolder) into this project. Existing values are overwritten per field; a snapshot is taken first.</div>` +
+    `<div style="display:flex;gap:6px;margin-bottom:6px"><button class="small" id="btnImportDatatables">Import datatables folder…</button></div></div>` +
     `<div class="mod-sect"><h4>Export preview</h4><div style="display:flex;gap:6px;margin-bottom:6px"><button class="small" id="btnPreview">Refresh</button></div><div id="exportPreview" style="color:var(--dim);font-size:12px">\u2014</div></div>` +
     `<div class="mfoot"><button data-x="ok" class="primary">Close</button></div>`, true);
   const loadAssets = async () => {
@@ -2378,6 +2380,7 @@ async function showModModal(previewFirst) {
       return;
     }
     if (e.target.id === "btnPreview") refreshPreview();
+    if (e.target.id === "btnImportDatatables") { await doImportDatatablesCurrent(); refreshPreview(); return; }
   });
 }
 // ---------------- global search ----------------
@@ -2671,6 +2674,29 @@ async function doImport() {
     } finally { idle(); }
   });
 }
+async function doImportDatatablesCurrent() {
+  if (!S.project) { toast("No project open", "error"); return; }
+  await guard(async () => {
+    busy("Importing datatables...");
+    try {
+      const res = await call("import:datatables-current");
+      if (res.cancelled) return;
+      S.project = res.project;
+      S.changed = {};
+      S.diffCache = null;
+      S.problems = null;
+      try { S.changed = (await call("tables:list")).changed; } catch { /* ignore */ }
+      renderScopeList();
+      renderCenter();
+      updateProjChangeCount();
+      (res.warnings || []).forEach((w) => toast(w, "warn"));
+      const m = res.merged || {};
+      const st = res.stats || {};
+      toast(`Imported ${m.files || 0} file(s): ${m.overrideRows || 0} modified + ${m.newRows || 0} new rows` +
+        (st.skipped ? ` (${st.skipped} skipped)` : ""), "success");
+    } finally { idle(); }
+  });
+}
 async function doTestPatch() {
   await guard(async () => {
     busy("Patching cooked tables + baking parameters...");
@@ -2889,6 +2915,7 @@ function handleMenuAction(action, name) {
     case "project:delete": delProjectFlow(); break;
     case "project:reveal": guard(() => call("project:reveal")); break;
     case "file:import": doImport(); break;
+    case "file:import-datatables": doImportDatatablesCurrent(); break;
     case "file:export-folder": doExportFolder(); break;
     case "file:export-jjkmod": doExportJjkmod(); break;
     case "file:test-patch": doTestPatch(); break;
@@ -3158,6 +3185,7 @@ function palCommands() {
     ["Project Changes…", "", () => showProjectChanges(false), hasProj],
     ["Export to Mods Folder", "Ctrl+E", () => doExportFolder(), hasProj],
     ["Export .jjkmod…", "", () => doExportJjkmod(), hasProj],
+    ["Import Datatables into Current Project…", "merge folder jsons", () => doImportDatatablesCurrent(), hasProj],
     ["Test Patch…", "Ctrl+T", () => doTestPatch(), hasProj],
     ["Snapshots…", "Ctrl+S", () => showSnapshots(), hasProj],
     ["Conflicts…", "", () => showConflicts(), hasProj],

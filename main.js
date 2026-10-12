@@ -149,6 +149,7 @@ function buildMenu() {
         { label: "Open Project Folder", click: () => sendMenu("project:reveal") },
         { type: "separator" },
         { label: "Import Mod…", click: () => sendMenu("file:import") },
+        { label: "Import Datatables into Current Project…", click: () => sendMenu("file:import-datatables") },
         { type: "separator" },
         { label: "Export to Mods Folder", accelerator: "Ctrl+E", click: () => sendMenu("file:export-folder") },
         { label: "Export .jjkmod…", accelerator: "Ctrl+Shift+E", click: () => sendMenu("file:export-jjkmod") },
@@ -1686,6 +1687,31 @@ function registerIpc() {
     refreshAppMenu();
     return ok({ project, warnings: imported.warnings, projects: await projects.list() });
   });
+
+  ipcMain.handle("import:datatables-current", async (_, folderPath) => {
+    const project = await requireProject();
+    let src = folderPath;
+    if (!src) {
+      const r = await dialog.showOpenDialog({ title: "Import datatables folder", properties: ["openDirectory"] });
+      if (r.canceled) return ok({ cancelled: true });
+      src = r.filePaths[0];
+    }
+    const cfg = config.get();
+    if (cfg.autoSnapshotOnExport !== false) {
+      try {
+        await projects.autoSnapshot(project.name, cfg.snapshotKeep || 5);
+      } catch {
+        /* snapshots best-effort */
+      }
+    }
+    const imported = await exportMod.importDatatablesFolder(src);
+    const merged = exportMod.mergeImportedTables(project, imported.tables);
+    const msg = "Imported datatables from " + src + " (" + merged.files + " file(s), " +
+      merged.overrideRows + " modified + " + merged.newRows + " new rows)";
+    await persist(project, msg);
+    return ok({ project, warnings: imported.warnings, stats: imported.stats, merged });
+  });
+
 
   ipcMain.handle("patcher:test", async () => {
     const project = await requireProject();

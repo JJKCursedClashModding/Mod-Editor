@@ -85,6 +85,7 @@ const CHANNELS = [
   "export:folder",
   "export:jjkmod",
   "import:folder",
+  "import:datatables-current",
   "patcher:test",
 ];
 
