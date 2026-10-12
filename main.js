@@ -525,10 +525,26 @@ function tableChangedCounts(project) {
   return counts;
 }
 
+// projects.list() must never hard-fail startup: a projectsDir pointing at
+// a file (or a read-only bundle path from before the userData move) throws
+// ENOTDIR. Heal once by resetting to the writable default, then retry.
+async function listProjectsHealed() {
+  try {
+    return await projects.list();
+  } catch (err) {
+    const code = err && err.code;
+    if (code === "ENOTDIR" || code === "EACCES" || code === "EPERM" || code === "EROFS") {
+      await config.save({ projectsDir: config.getDefaultProjectsDir() });
+      return await projects.list();
+    }
+    throw err;
+  }
+}
+
 function registerIpc() {
   ipcMain.handle("state:init", async () => {
     const cfg = config.get();
-    const list = await projects.list();
+    const list = await listProjectsHealed();
     if (cfg.lastProject) {
       try {
         await projects.load(cfg.lastProject);
@@ -575,6 +591,13 @@ function registerIpc() {
     const clean = {};
     for (const [k, v] of Object.entries(patch || {})) {
       if (SETTINGS_KEYS.has(k)) clean[k] = v;
+    }
+    // Never persist a projectsDir inside the read-only app bundle: it
+    // breaks the next startup with ENOTDIR (regression: installed builds
+    // wrote config + projects into app.asar).
+    if (typeof clean.projectsDir === "string") {
+      const norm = clean.projectsDir.replace(/\//g, "\\").toLowerCase();
+      if (norm.includes("app.asar")) delete clean.projectsDir;
     }
     return ok(await config.save(clean));
   });
