@@ -83,7 +83,10 @@ rules), with unlisted tables under "Other".
 
 - **Export to Mods** → `<ModsFolder>/<Title>/` with **`manifest.json`
   (always written)**, changed `datatables/*.json` (sparse row→fields diffs
-  for edits, full field set for new rows; enum style preserved),
+  for edits, full field set for new rows; **enum values written as integers**,
+  e.g. `"DamageType": 3`, because the in-game UE4SS DataTablePatcher cannot
+  resolve `"EGameDamageType::Down"` text; the cooked patcher accepts both, and
+  importing maps integers back to names),
   `parameters/*.json` (complete rows, Mod Manager compatible),
   baked parameter `.uasset/.uexp` overrides (toggle in Settings),
   `AssetRegistry.json` (only when the project defines new-asset rows —
